@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="開放水域潛水"/>
+    <Block id="nav" method="nav">
+        <Item name="課程規劃" href="C120.php"></Item>
+        <Item name="學前須知" href="C121.php"></Item>
+        <Item name="開課日期" href="."></Item>
+        <Item name="課程費用" href="C123.php"></Item>
+        <Item name="線上報名" href="CZ01.php"></Item>
+    </Block>
+    <Block id="plan" caption="OWD　開放水域潛水員課程　隔周開班　（有分假日班及平日班唷）" method="html">
+      <![CDATA[
+            <iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        ]]>
+    </Block>
+</Data>

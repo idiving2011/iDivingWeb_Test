@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="進階開放水域潛水"/>
+    <Block id="nav" method="nav">
+        <Item name="課程規劃" href="."></Item>
+        <Item name="學前須知" href="C211.php"></Item>
+        <Item name="開課日期" href="C212.php"></Item>
+        <Item name="課程費用" href="C213.php"></Item>
+        <Item name="線上報名" href="CZ01.php"></Item>
+    </Block>
+    <Block id="weekend" caption="假日班課程" method="html" back="#top">
+      <![CDATA[ 
+            <img src="../Image/Data/AOWD_Weekend.jpg"/>
+        ]]>
+    </Block>
+    <Block id="weekdays" caption="平日班課程" method="html" back="#top">
+      <![CDATA[ 
+            <img src="../Image/Data/AOWD_Weekdays.jpg"/>
+        ]]>
+    </Block>
+</Data>

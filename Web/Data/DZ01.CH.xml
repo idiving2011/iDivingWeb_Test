@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Block id="title" method="title" text="年度計畫" />
+  <Block id="trip" caption="玩潛水" method="wove" href="Page/DZ01.php">
+    <Item name="菲律賓阿尼洛" date="2013-02-09" type="Red" text="已額滿" href="Page/D210.php" />
+    <Item name="蘭嶼" date="2013-04-04" type="Blue" text="可報名" />
+    <Item name="馬來西亞西巴丹" date="2013-04-04" type="Blue" text="可報名" />
+    <Item name="墾丁" date="2013-05-10" type="Red" text="已額滿" />
+    <Item name="小琉球" date="2013-05-21" type="Green" text="特惠團" />
+  </Block>
+</Data>

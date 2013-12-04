@@ -1,0 +1,100 @@
+﻿@import "../Definition.less";
+
+// ==== 基準 (@NORM) ====
+.Large {
+	font-size: 14px;
+}
+
+.Block {
+	float: left;
+	position: relative;
+	margin-bottom: 36px;
+
+	&.Full {
+		margin-top: 6px;
+		margin-right: 26px;
+		width: @Region;
+	}
+
+	&.Side {
+		float: right;
+		width: 320px;
+		margin-top: 6px;
+	}
+
+	&.Half {
+		width: 294px;
+		margin-top: 12px;
+		margin-right: 26px;
+	}
+
+	&.Main {
+		width: 620px;
+		margin-top: 12px;
+		margin-right: 20px;
+	}
+}
+
+#facebook iframe {
+	width: @Region;
+	height: 1200px;
+}
+
+#album .Screen {
+	width: 200px;
+	height: 152px;
+}
+
+#coach .Screen {
+	height: 200px;
+	width: 152px;
+}
+
+// ==== 版面差異 ====
+@media @WIDE {
+	.Block {
+		&.Full, &.Main {
+			width: 930px;
+		}
+		
+		&.Half {
+			width: 454px;
+		}
+	}
+}
+
+@media @THIN {
+	.Block {
+		&.Main, &.Half {
+			width: 414px;
+		}
+	}
+}
+
+@media @SLIM {
+	.Block {
+		&.Side{
+			width: 280px;
+			padding-left: 2px;
+		}
+
+		&.Main, &.Half {
+			width: 290px;
+		}
+	}
+}
+
+@media @MINI {
+	.Block {
+		&.Main, &.Side, &.Half {
+			width: @Region;
+			padding-right: @Zero;
+			padding-left: @Zero;
+		}
+	}
+
+	#facebook iframe {
+		border-top: 1px solid @Seperator;
+		height: 70px;
+	}
+}

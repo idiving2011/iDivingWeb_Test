@@ -1,0 +1,92 @@
+﻿@import "../Definition.less";
+
+//@media @NORM
+#AD {
+    height: 330px;
+
+    #adIndex {
+        position: absolute;
+        right: 6px;
+        bottom: 10px;
+        z-index: 110;
+        
+        .ADIndex {
+            float: left;
+            padding: 2px 12px;
+            background-color: @Gray;
+            color: @Reverse;
+            cursor: pointer;
+            margin: 0px 2px;
+            opacity: .8;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: @Yellow;
+                opacity: 1;
+                color: @Bold;
+            }
+
+            &.activeSlide {
+                background-color: @Yellow;
+                color: @Bold;
+            }
+        }
+    }
+
+    img {
+        width: @Region;
+    }
+
+    #adContent {
+        position: relative;
+        margin-top: 4px;
+    }
+}
+
+@media @WIDE {
+    #AD {
+        height: 314px;
+
+        #adIndex {
+            right: 10px;
+        }
+
+        #adContent {
+            margin-right: 4px;
+        }
+    }
+}
+
+@media @THIN {
+    #AD {
+        height: 258px;
+    }
+}
+
+@media @SLIM {
+    #AD {
+        height: 206px;
+    }
+}
+
+@media @MINI {
+    #AD {
+        height: 152px;
+
+        #adIndex {
+            width: 144px;
+            margin: 116px auto @Zero auto;
+            position: relative;
+            left: @Zero;
+            bottom: @Zero;
+
+            .ADIndex {
+                opacity: 1;
+
+                &.activeSlide {
+                    background-color: @Yellow;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+﻿@import "..\Definition.less";
+
+menu, #menu {
+    width: @Region;
+    position: absolute;
+    bottom: @Zero;
+    margin: @Zero;
+    padding: @Zero;
+
+    .Region {
+        .Tag {
+            float: right;
+            color: @Reverse;
+            .LinearGradient(@BlueLight, @Umi, top);
+            background-color: @Umi;
+            width: 120px;
+            height: 32px;
+            .FontStyle(18px);
+            text-align: center;
+            line-height: 32px;
+            cursor: pointer;
+            margin: 0px 0px 2px 4px;
+            border-radius: 6px 6px @Zero @Zero;
+
+            &.Hover {
+                .LinearGradient(@Yellow, @YellowDark, top);
+                background-color: @Yellow;
+                color: @Word;
+            }
+
+            &:last-of-type {
+                float: right;
+            }
+        }
+
+        .Box {
+            display: @None;
+            width: @Region;
+            height: 328px;
+            z-index: 120;
+            position: absolute;
+            top: 32px;
+            border-top: 2px solid @White;
+            .LinearGradient(@Iron, @White, top);
+            background-color: @Iron;
+
+            .Group {
+                float: left;
+                height: @Region;
+
+                .Name {
+                    .FontStyle(18px);
+                    line-height: 32px;
+                    margin-left: 12px;
+                    margin-top: 12px;
+                }
+
+                .List {
+                    margin-left: 12px;
+
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        .FontStyle(18px);
+                        line-height: 32px;
+                    }
+                }
+
+                &.Extra {
+                    margin-left: -1px;
+                    border-left: 1px solid @Horizontal;
+                }
+            }
+        }
+    }
+}
+
+// ==== 版面差異 ====
+@media @WIDE {
+    menu, #menu {
+        width: 926px;
+        right: 354px
+    }
+}

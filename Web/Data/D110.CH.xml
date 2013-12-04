@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="東北角"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="."></Item>
+        <Item name="行程表" href="D111.php"></Item>
+        <Item name="出團日期" href="D112.php"></Item>
+        <Item name="費用" href="D113.php"></Item>
+    </Block>
+    <Block id="intro" method="html">
+      <![CDATA[ 
+            <div>今年夏天想要衝幾隻氣瓶呢！</div>
+            <div>北海岸野柳 體驗輕鬆船潛 ～ ～</div>
+            <div>東北角龍洞 火焰花枝巡禮 ～ ～</div>
+            <div>還有刺激的夜潛與熱血的晨潛等著您喔！！</div>
+        ]]>
+    </Block>
+</Data>

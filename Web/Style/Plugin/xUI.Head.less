@@ -1,0 +1,52 @@
+﻿@import "../Definition.less";
+
+header, #header {
+    border-bottom: 2px solid @Iron;
+    height: 114px;
+    display: block;
+
+    .Sight {
+        height: @Region;
+    }
+
+    #logo {
+        position: absolute;
+        top: 12px;
+    }
+
+    #slogan {
+        color: @Key;
+        position: absolute;
+        top: 36px;
+        left: 200px;
+        .FontStyle(18px);
+    }
+
+    #googleSearch {
+        position: absolute;
+        top: 6px;
+        right: 0px;
+
+        * {
+            vertical-align: middle;
+        }
+
+        #keyword {
+            width: 206px;
+        }
+    }
+}
+
+// ==== 版面差異 ====
+@media @WIDE {
+    header, #header {
+        #googleSearch {
+            top: 82px;
+            right: 4px;
+
+            #keyword {
+                width: 220px;
+            }
+        }
+    }
+}

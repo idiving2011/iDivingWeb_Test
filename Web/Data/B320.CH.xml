@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="店面介紹"/>
+    <Block id="nav" method="nav">
+        <Item name="地點" href="."></Item>
+        <Item name="內觀" href="B321.php"></Item>
+    </Block>
+    <Block id="map" method="html" caption="地址">
+        <![CDATA[
+            <span class="Large">台北市士林區前港街8號 </span><br>
+            GPS 座標：(25.084657,121.522932)
+        ]]>
+    </Block>
+    <Block id="map" method="url" back="#top">
+        <Item href="https://www.google.com.tw/maps?f=q&amp;source=s_q&amp;hl=zh-TW&amp;geocode=&amp;q=iDiving%E5%85%A8%E6%96%B9%E4%BD%8D%E6%BD%9B%E6%B0%B4%E4%B8%AD%E5%BF%83&amp;aq=&amp;sll=25.086891,121.5169&amp;sspn=0.008677,0.016512&amp;brcurrent=3,0x3442ae741e185a49:0x8c8db93eb1d0d2b6,0,0x3442ac6b61dbbd9d:0xc0c243da98cba64b&amp;ie=UTF8&amp;hq=iDiving%E5%85%A8%E6%96%B9%E4%BD%8D%E6%BD%9B%E6%B0%B4%E4%B8%AD%E5%BF%83&amp;hnear=&amp;t=m&amp;ll=25.087387,121.524153&amp;spn=0.009328,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed" />
+    </Block>
+    <Block id="way" method="html" caption="前往方式" back="#top">
+        <![CDATA[
+            <span class="Large Focus">搭捷運的朋友</span>
+            <br>
+            <span>
+                捷運紅線 --- 劍潭站<br>
+                下車後從1、2號出口間的劍潭路往承德路的方向走<br>
+                遇到大台北銀行時右轉，看到中國信託時左轉（前港街）<br>
+                就可以看到 iDiving 囉 ～
+            </span>
+            <br>
+            <br>
+            <span class="Large Focus">開車的朋友</span>
+            <br>
+            <span>
+                如果您是北向的車，在承德路與劍潭路口時，左轉走公園旁的單行道，<br>
+                看到 7-11 時右轉，到前港街時再右轉，在右手邊即可看到 iDiving。<br>
+                如果您是南向的車，由承德路往南，看到中國信託時右轉，在左手邊即可看到 iDiving。
+            </span>
+            <br>
+            <span class="Important">
+                停車資訊：iDiving 正對面就有收費停車場。
+            </span>
+        ]]>
+    </Block>
+    <Block id="open" method="html" caption="營業時間" back="#top">
+        <![CDATA[
+            <span>
+                11 月 ~ 03 月：14:00 ~ 21:00 <br>
+                04 月 ~ 10 月：14:00 ~ 22:00
+            </span>
+        ]]>
+    </Block>
+</Data>

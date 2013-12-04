@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<List>
+    <Menu text="買裝備" prop="Hide">
+        <Group text="輕裝">
+            <Item text="面鏡" href="E110"/>
+            <Item text="呼吸管" href="E120"/>
+            <Item text ="防寒衣" href="E130"/>
+            <Item text ="手套" href="E140"/>
+            <Item text ="套鞋" href="E150"/>
+            <Item text ="蛙鞋" href="E160"/>
+        </Group>
+        <Group text="重裝">
+            <Item text="BC" href="E210"/>
+            <Item text="調節器" href="E220"/>
+        </Group>
+        <Group text="配件">
+            <Item text="潛水刀" href="E310"/>
+            <Item text="寫字板" href="E320"/>
+        </Group>
+        <Group text="其他">
+            <Item text="電腦錶" href="E410"/>
+            <Item text="水攝裝備" href="E420"/>
+            <Item text="推進器" href="E430"/>
+        </Group>
+        <Group text="iDiving 給你" prop="Extra">
+            <Item text="ATOMIC" href="EX01"/>
+            <Item text="BARE" href="EX02"/>
+            <Item text="SUUNTO" href="EX03"/>
+        </Group>
+    </Menu>
+    <Menu text="玩潛水">
+        <Group text="台灣">
+            <Item text="東北角" href="D110"/>
+            <Item text="墾丁" href="D120"/>
+            <Item text ="小琉球" href="D130"/>
+            <Item text ="綠島" href="D140"/>
+            <Item text ="蘭嶼" href="D150"/>
+        </Group>
+        <Group text="亞洲">
+            <Item text="菲律賓" href="D210"/>
+            <Item text ="馬來西亞" href="D220"/>
+            <Item text ="日本" href="D230"/>
+            <Item text ="印尼" href="D240"/>
+        </Group>
+        <Group text="大洋洲">
+            <Item text="帛琉" href="D310"/>
+            <Item text ="馬爾地夫" href="D320"/>
+        </Group>
+        <Group text="其他">
+        </Group>
+        <Group text="iDiving 給你" prop="Extra">
+            <Item text="俱樂部優惠" href="B400#B430"/>
+            <Item text="報名方式" href="BZ01"/>
+            <Item text="出團計畫" href="DZ01"/>
+            <Item text="線上報名" prop="Hide"/>
+        </Group>
+    </Menu>
+    <Menu text="學潛水">
+        <Group text="初級">
+            <Item text="體驗潛水" href="C110"/>
+            <Item text ="開放水域潛水員" href="C120"/>
+        </Group>
+        <Group text="進階">
+            <Item text="進階開放水域潛水員" href="C210"/>
+        </Group>
+        <Group text="專業">
+            <Item text="Nitrox" href="C310"/>
+            <Item text="壓力與救援" href="C320"/>
+        </Group>
+        <Group text="領導">
+            <Item text="DC" href="C410"/>
+            <Item text="OWI" href="C420"/>
+            <Item text="AOWI" href="C430"/>
+            <Item text="DCSI" href="C440"/>
+        </Group>
+        <Group text="iDiving 給你" prop="Extra">
+            <Item text="學前須知" href="B130"/>
+            <Item text ="幹部教練團" href="B230"/>
+            <Item text ="開課計畫" href="CZ01"/>
+            <Item text ="特色" href="B210"/>
+        </Group>
+    </Menu>
+    <Menu text="愛潛水">
+        <Group text="關於潛水">
+            <Item text="水肺潛水" href="B110"/>
+            <Item text="自由潛水" href="B120"/>
+            <Item text="學前須知" href="B130"/>
+            <Item text="安全性考量" href="B140"/>
+            <Item text="證照制度" href="B150"/>
+            <Item text="潛水知識" href="B160"/>
+        </Group>
+        <Group text="關於 iDiving">
+            <Item text="特色" href="B210"/>
+            <Item text ="現況" href="B220"/>
+            <Item text ="幹部教練團" href="B230"/>
+            <Item text ="活動照片" href="B240"/>
+        </Group>
+        <Group text="聯絡我們">
+            <Item text="聯絡方式" href="B310"/>
+            <Item text ="店面介紹" href="B320"/>
+            <Item text ="FB 粉絲團" href="https://www.facebook.com/iDivingFans"/>
+        </Group>
+        <Group text="俱樂部">
+            <Item text="宗旨" href="B400"/>
+            <Item text ="加入方式" href="B400"/>
+            <Item text ="好康優惠" href="B400"/>
+        </Group>
+        <Group text="iDiving 給你" prop="Extra">
+            <Item text="潛水教學" href="C000"/>
+            <Item text ="潛水旅遊" href="DZ01"/>
+            <Item text ="裝備販售" href="E000"/>
+            <Item text ="線上報名" prop="Hide"/>
+        </Group>
+    </Menu>
+</List>

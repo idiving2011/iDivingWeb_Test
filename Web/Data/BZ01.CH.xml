@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Block id="title" method="title" text="報名方式" />
+  <Block id="course" caption="學潛水" method="wove" href="Page/BZ01.php">
+    <Item name="OWD-2013-01" date="2013-02-20" type="Red" text="已額滿" href="Page/C120.php" />
+    <Item name="OWD-2013-02" date="2013-03-12" type="Green" text="特惠價" />
+    <Item name="AOWD-2013-01" date="2013-02-20" type="Blue" text="可報名" />
+    <Item name="OWD-2013-03" date="2013-02-20" type="Blue" text="可報名" />
+    <Item name="RS-2013-01" date="2013-02-21" type="Red" text="已額滿" />
+  </Block>
+</Data>

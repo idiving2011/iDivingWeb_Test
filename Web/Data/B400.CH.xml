@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="俱樂部"/>
+    <Block id="nav" method="nav">
+        <Item name="宗旨" href="#aim"></Item>
+        <Item name="加入方式" href="#join"></Item>
+        <Item name="好康優惠" href="#advantage"></Item>
+    </Block>
+    <Block id="aim" caption="Series diving sersies fun" method="html" back="#top">
+      <![CDATA[ 
+            <div>iDiving  俱樂部成立之目的是為了提供學員與潛水同好一個培養潛水活力的環境，</div>
+            <div>凝聚會員向心力，</div>
+            <div>以利各項潛水活動進行，</div>
+            <div>並培養會員間的互助合作，</div>
+            <div>增進潛水樂趣與安全，</div>
+            <div>提供會員各項潛水知識，</div>
+            <div>定期舉辦各項講座，</div>
+            <div>希望會員樂趣與知性同時提升。</div>
+        ]]>
+    </Block>
+    <Block id="join" caption="一起來 Happy" method="html" back="#top">
+      <![CDATA[ 
+            <div>需繳交一次性入會費(NT$ 2,000元)及每年之年費(NT$1,000元)，</div>
+            <div>若第一年已經是會員但隔年未繳交年費，</div>
+            <div>則第三年要繳年費時，</div>
+            <div>只需繳交第三年的年費(NT$1,000元)即可享有會員優惠，</div>
+            <div>但若第三年不願繳交時，</div>
+            <div>又要參與活動，</div>
+            <div>則視為非會員；</div>
+            <div>中間空檔暫不論多少年，</div>
+            <div>只要曾繳過入會費，</div>
+            <div>只需繳交當年度年費即可恢復會員資格。</div>
+        ]]>
+    </Block>
+    <Block id="advantage" caption="優惠 A 好康" method="html" back="#top">
+      <![CDATA[
+            <span class="Large Focus">偉大成就</span>
+            <br/>
+            <span>獎勵俱樂部會員潛水經驗達特定支數，由iDiving公司頒發獎勵認證等級執照。</span>
+            <ul>
+                <li>達100支氣瓶，頒發世紀潛水員Century Diver。</li>
+                <li>達300支氣瓶，頒發銀牌潛水員Silver Diver。</li>
+                <li>達500支氣瓶，頒發金牌潛水員Gold Diver。</li>
+                <li>達1000支氣瓶，頒發白金潛水員Platinum Diver。</li>
+            </ul>
+            </span>
+            <br/>
+            <span class="Large Focus">裝備租賃費用</span>
+            <br/>
+            <table width="40%" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+                <td colspan="3">iDiving俱樂部東北角活動優惠表</td>
+              </tr>
+              <tr>
+                <td width="40%">項目</td>
+                <td width="30%">非會員</td>
+                <td width="30%">會員</td>
+              </tr>
+              <tr>
+                <td>東北角氣瓶</td>
+                <td>200元/支</td>
+                <td>150元/支</td>
+              </tr>
+              <tr>
+                <td rowspan="3">東北角導潛費</td>
+                <td colspan="2">開放水域潛水員OWD 100元/支</td>
+              </tr>
+              <tr>
+                <td colspan="2">進階開放水域潛水員AOWD 50元/支</td>
+              </tr>
+              <tr>
+                <td colspan="2">領導等級以上潛水員 DC / Master 0元/支</td>
+              </tr>
+              <tr>
+                <td>面鏡</td>
+                <td>100 元/天</td>
+                <td>50 元/天</td>
+              </tr>
+              <tr>
+                <td>呼吸管</td>
+                <td>100 元/天</td>
+                <td>50 元/天</td>
+              </tr>
+              <tr>
+                <td>防寒衣</td>
+                <td>150 元/天</td>
+                <td>100 元/天</td>
+              </tr>
+              <tr>
+                <td>手套</td>
+                <td>50 元/天</td>
+                <td>50 元/天</td>
+              </tr>
+              <tr>
+                <td>套鞋</td>
+                <td>50 元/天</td>
+                <td>50 元/天</td>
+              </tr>
+              <tr>
+                <td>蛙鞋</td>
+                <td>150 元/天</td>
+                <td>100 元/天</td>
+              </tr>
+              <tr>
+                <td>輕裝組 租借優惠</td>
+                <td>500 元/組/天</td>
+                <td>300 元/組/天</td>
+              </tr>
+              <tr>
+                <td>調節器</td>
+                <td>400 元/天</td>
+                <td>300 元/天</td>
+              </tr>
+              <tr>
+                <td>浮力調整裝置 BC</td>
+                <td>400 元/天</td>
+                <td>300 元/天</td>
+              </tr>
+              <tr>
+                <td>電腦錶</td>
+                <td>400 元/天</td>
+                <td>300 元/天</td>
+              </tr>
+              <tr>
+                <td>重裝組 租借優惠</td>
+                <td>1000 元/組/天</td>
+                <td>700 元/組/天</td>
+              </tr>
+              <tr>
+                <td>配重</td>
+                <td>100 元/組</td>
+                <td>100 元/組</td>
+              </tr>
+              <tr>
+                <td>來回交通費(劍潭站↔東北角)</td>
+                <td colspan="2">200元/人 (給駕駛)</td>
+              </tr>
+              <tr>
+                <td>活動保險費</td>
+                <td colspan="2">100元/人/天</td>
+              </tr>
+            </table>
+            <br/>
+            <span class="Large Focus">活動優惠方案</span>
+            <br/>
+            <span>
+                國內活動：團費享500元折扣<br/>
+                國外活動：團費享1000元折扣<br/>
+            </span>
+        ]]>
+    </Block>
+</Data>

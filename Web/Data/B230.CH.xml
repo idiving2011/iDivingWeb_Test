@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Block id="title" method="title" text="幹部教練團" />
+  <Block id="coach" method="card">
+    <Item src="../Image/Coach/琳琳.jpg" href="http://www.google.com">
+      <Title>儲備幹部</Title>
+      <Name>莊琳琳</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員</Specialty>
+      <Specialty>SSI 進階開放水域潛水員</Specialty>
+    </Item>
+    <Item src="../Image/Coach/小米.jpg" href="">
+      <Title>開放水域潛水員教練</Title>
+      <Name>小米</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員</Specialty>
+      <Specialty>SSI 進階開放水域潛水員</Specialty>
+      <Specialty>SSI 潛水主管</Specialty>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/伊暉.jpg" href="">
+      <Title>開放水域潛水員教練</Title>
+      <Name>謝伊暉</Name>
+      <Message>雖然我眼睛小，但是學員的蹤影絕不漏失。&lt;br /&gt;Ababab&lt;br /&gt;addd&lt;br /&gt;ddd&lt;br /&gt;&lt;br /&gt;d</Message>
+      <Specialty>SSI 開放水域潛水員</Specialty>
+      <Specialty>SSI 進階開放水域潛水員</Specialty>
+      <Specialty>SSI 潛水主管</Specialty>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/尚豐.jpg" href="">
+      <Title>潛水主管</Title>
+      <Name>尚豐</Name>
+      <Message></Message>
+      <Specialty></Specialty>
+    </Item>
+    <Item src="../Image/Coach/琳琳.jpg" href="">
+      <Title>儲備幹部</Title>
+      <Name>莊琳琳</Name>
+      <Message></Message>
+      <Specialty></Specialty>
+    </Item>
+    <Item src="../Image/Coach/小米.jpg" href="">
+      <Title>開放水域潛水員教練</Title>
+      <Name>小米</Name>
+      <Message></Message>
+      <Specialty></Specialty>
+    </Item>
+    <Item src="../Image/Coach/伊暉.jpg" href="">
+      <Title>開放水域潛水員教練</Title>
+      <Name>謝伊暉</Name>
+      <Message></Message>
+      <Specialty></Specialty>
+    </Item>
+    <Item src="../Image/Coach/尚豐.jpg" href="">
+      <Title>潛水主管</Title>
+      <Name>尚豐</Name>
+      <Message></Message>
+      <Specialty></Specialty>
+    </Item>
+  </Block>
+</Data>

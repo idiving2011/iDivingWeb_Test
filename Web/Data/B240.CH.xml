@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Block id="title" method="title" text="活動照片" />
+  <Block id="album" method="screen">
+    <Item name="帛琉" date="2012-07-28 ~ 2012-08-01" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/405436_416111015091152_1803028580_n.jpg" href="https://www.facebook.com/media/set/?set=a.416110821757838.80821.263997586969163" />
+    <Item name="小琉球" date="2012-07-18 ~ 2012-07-19" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/531690_414166758618911_1868381511_n.jpg" href="https://www.facebook.com/media/set/?set=a.414166721952248.80310.263997586969163" />
+    <Item name="墾丁" date="2012-07-14 ~ 2012-07-15" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-snc6/219596_426878034014450_1052737960_n.jpg" href="https://www.facebook.com/media/set/?set=a.426878014014452.83746.263997586969163" />
+    <Item name="龍洞灣公園烤肉" date="2012-07-07" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-snc6/603544_424292410939679_340834474_n.jpg" href="https://www.facebook.com/media/set/?set=a.424291394273114.83124.263997586969163" />
+    <Item name="帛琉" date="2012-07-28 ~ 2012-08-01" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/405436_416111015091152_1803028580_n.jpg" href="https://www.facebook.com/media/set/?set=a.416110821757838.80821.263997586969163" />
+    <Item name="小琉球" date="2012-07-18 ~ 2012-07-19" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/531690_414166758618911_1868381511_n.jpg" href="https://www.facebook.com/media/set/?set=a.414166721952248.80310.263997586969163" />
+    <Item name="墾丁" date="2012-07-14 ~ 2012-07-15" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-snc6/219596_426878034014450_1052737960_n.jpg" href="https://www.facebook.com/media/set/?set=a.426878014014452.83746.263997586969163" />
+    <Item name="龍洞灣公園烤肉" date="2012-07-08" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-snc6/603544_424292410939679_340834474_n.jpg" href="https://www.facebook.com/media/set/?set=a.424291394273114.83124.263997586969163" />
+  </Block>
+</Data>

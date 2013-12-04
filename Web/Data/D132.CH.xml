@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="小琉球"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="D130.php"></Item>
+        <Item name="行程表" href="D131.php"></Item>
+        <Item name="出團日期" href="."></Item>
+        <Item name="費用" href="D133.php"></Item>
+    </Block>
+    <Block id="plan" method="html">
+      <![CDATA[ 
+            <img src="../Image/Data/2013 7~12_Domestic.jpg"/>
+        ]]>
+    </Block>
+</Data>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="進階開放水域潛水"/>
+    <Block id="nav" method="nav">
+        <Item name="課程規劃" href="C210.php"></Item>
+        <Item name="學前須知" href="C211.php"></Item>
+        <Item name="開課日期" href="C212.php"></Item>
+        <Item name="課程費用" href="."></Item>
+        <Item name="線上報名" href="CZ01.php"></Item>
+    </Block>
+    <Block id="fee" method="html">
+      <![CDATA[
+            <span class="Large Focus">AOWD 東北角標準班：8,000元</span>
+            <div>費用包含：SSI中文教材、國際證照申請、教練費、東北角海洋實習與保險。</div>
+            <div>費用不含：課程訓練時所需之潛水裝備。</div>
+            <br/>
+            <span class="Large Focus">AOWD 搭配旅遊優惠：6,000元（限iDiving所舉辦之國內外潛水活動）</span>
+            <div>費用包含：SSI中文教材、國際證照申請、教練費、海洋實習保險。</div>
+            <div>費用不含：課程訓練時所需之潛水裝備、潛水旅遊之團費</div>
+            <div>各地潛水旅遊團費：請參考下表</div>
+            <table border="1">
+              <tr>
+                <td width="40%">地點</td>
+                <td width="30%">團費</td>
+                <td width="30%">日期</td>
+              </tr>
+              <tr>
+                <td>墾丁</td>
+                <td>6,500元</td>
+                <td>兩天兩夜</td>
+              </tr>
+              <tr>
+                <td>小琉球</td>
+                <td>7,500元</td>
+                <td>兩天一夜</td>
+              </tr>
+              <tr>
+                <td>綠島</td>
+                <td>11,000元</td>
+                <td>三天兩夜</td>
+              </tr>
+              <tr>
+                <td>國外</td>
+                <td>因地而異</td>
+                <td>多為五天四夜</td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+</Data>

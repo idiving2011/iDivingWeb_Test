@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="店面介紹"/>
+    <Block id="nav" method="nav">
+        <Item name="地點" href="B320.php"></Item>
+        <Item name="內觀" href="."></Item>
+    </Block>
+    <Block id="welcome" method="html" caption="迎賓" back="#top">
+        <![CDATA[ 
+            <img src="../Image/Data/Welcome.jpg"/>
+            <img src="../Image/Data/Expo02.jpg"/>
+        ]]>
+    </Block>
+    <Block id="sales" method="html" caption="裝備販售" back="#top">
+        <![CDATA[ 
+            <span>提供潛水輕重裝與各式配件。特別推薦 SUUNTO 電腦錶、BEAR 防寒衣、AQUALUNG 調節器。</span>
+            <br/>
+            <img src="../Image/Data/Expo01.jpg"/>
+            <img src="../Image/Data/Expo04.jpg"/>
+            <img src="../Image/Data/Expo03.jpg"/>
+            
+        ]]>
+    </Block>
+    <Block id="equipment" method="html" caption="訓練裝備" back="#top">
+        <![CDATA[ 
+            <span>不惜成本使用高檔潛水訓練裝備只為了提升學員的安全與樂趣。</span>
+            <br/>
+            <img src="../Image/Data/Expo06.jpg"/>
+            <img src="../Image/Data/Expo05.jpg"/>
+            <img src="../Image/Data/Expo07.jpg"/>
+        ]]>
+    </Block>
+    <Block id="tour" method="html" caption="活動看板" back="#top">
+        <![CDATA[ 
+            <span>為了讓會員有更多潛水行程選擇，一年舉辦35次國內外活動，東北角夏季周周出發。</span>
+            <br/>
+            <img src="../Image/Data/Expo08.jpg"/>
+        ]]>
+    </Block>
+</Data>

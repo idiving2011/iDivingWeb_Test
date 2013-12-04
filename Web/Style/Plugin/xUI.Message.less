@@ -1,0 +1,135 @@
+﻿@import "../Definition.less";
+
+// ==== 訊息提示盒 (MessageTip) ==== 
+.MessageTip {
+	margin-bottom: 4px;
+	.Tip {
+		position: relative;
+		display: block;
+		z-index: 10;
+	}
+	.Box {
+		.FontStyle(14px);
+		border: 1px solid @Gray;
+		padding: 4px;
+		position: relative;
+		&.WithClose {
+			padding-right: 24px;   
+		}
+		.Close {
+			position: absolute;
+			padding: 7px;
+			top: 0px;
+			right: 0px;
+			cursor: pointer;
+		}
+	}
+	&[direction='Up'] {
+		@direction: top;
+		.Red {
+			.TipStyle(@Red, @RedLight, @direction);
+		}
+		.Green {
+			.TipStyle(@Green, @GreenLight, @direction);
+		}
+		.Blue {
+			.TipStyle(@Blue, @BlueLight, @direction);
+		}
+	}
+	&[direction='Down'] {
+		@direction: bottom;
+		.Red {
+			.TipStyle(@Red, @RedLight, @direction);
+		}
+		.Green {
+			.TipStyle(@Green, @GreenLight, @direction);
+		}
+		.Blue {
+			.TipStyle(@Blue, @BlueLight, @direction);
+		}
+	}
+}
+
+.TipStyle(@color, @background, @direction) {
+	color: @color;
+	border: 1px solid @color;
+	background-color: @background;
+	.LinearGradient(@background, darken(@background, 8%), @direction);
+}
+
+.TipStyle(sky, @background, @direction) {
+	color: @Black;
+	border: 1px solid @Gray;
+	background-color: @White;
+	.LinearGradient(@White, @background, @direction);
+}
+
+.TipStyle(water, @background, @direction) {
+	color: @Black;
+	border: 1px solid @Gray;
+}
+
+// ==== 訊息便利貼 (MessageStick) ====
+.MessageStick {
+	border: 1px solid @Gray;
+	color: @Word;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left top;
+	min-height: 24px;
+	padding: 6px 4px 4px 36px;
+	margin: 2px 0px;
+	line-height: 24px;
+	.Icon {
+		width: 28px;
+		position: absolute;
+		left: 3px;
+		top: 3px;
+	}
+	.Close {
+		position: absolute;
+		padding: 7px;
+		top: 6px;
+		right: 0px;
+		cursor: pointer;
+	}
+	&.WithClose {
+		padding-right: 24px;
+	}
+	&.Error {
+		.StickStyle(@Red, @RedLight, Red);
+	}
+	&.Denied {
+		font-weight: bold;
+		font-size: 16px;
+		.StickStyle(@Red, @RedLight, None);
+	}
+	&.Info, &.Question {
+		.StickStyle(@Blue, @BlueLight, Blue);
+	}
+	&.Click {
+		.StickStyle(@Gray, @BlueLight, None);
+		color: @Link;
+		cursor: pointer;
+		&:hover {
+			.StickStyle(@Gray, @YellowLight, None);    
+			color: @Yellow;
+		}
+	}
+	&.OK {
+		.StickStyle(@Green, @Grass, Green);
+	}
+}
+
+.StickStyle(@color, @background, @type){
+	border: 1px solid @color;
+	background-color: @background;
+	color: @color;
+	background-image: url("../../Image/Message/Stick.@{type}.png");
+}
+
+// ==== 訊息提示 (MessageHint) ====
+.MessageHint.Note
+{
+	color: @Hint;
+}

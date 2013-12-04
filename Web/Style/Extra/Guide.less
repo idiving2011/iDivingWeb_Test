@@ -1,0 +1,50 @@
+﻿@import "..\Definition.less";
+@import "..\Plugin\xUI.Info.less";
+
+.Title {
+    .FontStyle(22px);
+    color: @Caption;
+    font-weight: bold;
+    margin: 8px 0px 0px 8px;
+}
+
+.Content {
+    margin: 0px 4px;
+}
+
+p {
+    text-indent: 28px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.Info {
+    margin: 0px 6px;
+    border-bottom: 1px solid @Horizontal;
+    .Box {
+        margin: 8px 6px;
+    }
+}
+
+// ==== Browser ==== 
+.Browser.Info {
+    img, div, label {
+        cursor: default;
+    }
+    &:last-of-type {
+        border-bottom: none;
+    }
+}
+
+// ==== Mode ====
+.Mode.Info {
+    .Message {
+        .FontStyle(18px);
+        margin: 8px;
+    }
+
+    &:hover {
+        background-color: @White;
+        .LinearGradient(@White, @YellowLight, top);
+    }
+}

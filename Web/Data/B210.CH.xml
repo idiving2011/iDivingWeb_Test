@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="特色"/>
+    <Block id="nav" method="nav">
+        <Item name="宗旨" href="#aim"/>
+        <Item name="優點" href="#advantage"/>
+    </Block>
+    <Block id="aim" caption="這裡沒有任何的壓力，只有深深的誘惑 ～" method="html" back="#top">
+        <![CDATA[ 
+            <div>iDiving 是由3個中了潛水毒的好友所成立，</div>
+            <div>愛做潛水夢的我們希望提供一個優質的環境，</div>
+            <div>讓大家瞭解潛水的舒適，潛水的高興，潛水的美麗，潛水的無憂無慮，潛水的全然放鬆 .........</div>
+            <div>太多太好的感受！</div>
+            <div>我們都希望你能一起來體會！</div>
+        ]]>
+    </Block>
+    <Block id="advantage" caption="不只優秀，更求最好 ～" method="html" back="#top">
+        <![CDATA[ 
+            <ul>
+                <li>鑽石級潛水教練培訓中心，國際潛水認證標準、保證班課程、專業資深師資、最佳設施、頂級訓練裝備、分段學習、課程多元化、潛水生涯規劃輔導。</li>
+                <li>學科課程：每月均有開課，若有缺課可和教練討論補課時間，讓您的學習保有彈性。SSI獨特的家中自習方案更讓工作繁忙的您能更加妥善利用您的空閒時間。</li>
+                <li>海洋實習課程：除東北角外，還可搭配國內外潛水旅遊進行訓練，更享有學費優惠。</li>
+                <li>俱樂部制度：非營利性質，主要目的為推廣休閒潛水，協助潛水員舉辦各項社交活動，定期舉辦講座或影片欣賞，交流潛水知能。</li>
+                <li>iDiving 每月均有眾多的潛水活動等您來參加。</li>
+            </ul>
+        ]]>
+    </Block>
+</Data>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="日本"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="D230.php"></Item>
+        <Item name="行程表" href="D231.php"></Item>
+        <Item name="出團日期" href="."></Item>
+        <Item name="費用" href="D233.php"></Item>
+    </Block>
+    <Block id="plan" method="html">
+      <![CDATA[ 
+            <table width="40%" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="40%">地點</td>
+                <td width="30%">日期</td>
+              </tr>
+              <tr>
+                <td>石垣島</td>
+                <td>7/27 ~ 7/31</td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+</Data>

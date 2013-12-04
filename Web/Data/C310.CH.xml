@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="SP-NITROX"/>
+    <Block id="nav" method="nav">
+        <Item name="課程規劃" href="."></Item>
+        <Item name="學前須知" href="C311.php"></Item>
+        <Item name="開課日期" href="C312.php"></Item>
+        <Item name="課程費用" href="C313.php"></Item>
+    </Block>
+    <Block id="intro" method="html">
+      <![CDATA[ 
+            <img src="../Image/Data/EAN.jpg"/>
+        ]]>
+    </Block>
+</Data>

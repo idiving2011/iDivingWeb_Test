@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="菲律賓"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="D210.php"></Item>
+        <Item name="行程表" href="D211.php"></Item>
+        <Item name="出團日期" href="D212.php"></Item>
+        <Item name="費用" href="."></Item>
+    </Block>
+    <Block id="Anilao" caption="阿尼洛" method="html">
+      <![CDATA[ 
+              <span class="Large Focus">團費</span>
+              <ul>
+                  <li>NT 37,000元</li>
+              </ul>
+              <span class="Large Focus">會員價</span>
+              <ul>
+                  <li>NT 36,000元</li>
+              </ul>
+          ]]>
+    </Block>
+    <Block id="Malapascua" caption="Malapascua" method="html">
+      <![CDATA[ 
+              <span class="Large Focus">團費</span>
+              <ul>
+                  <li>NT 45,000元</li>
+              </ul>
+              <span class="Large Focus">會員價</span>
+              <ul>
+                  <li>NT 44,000元</li>
+              </ul>
+          ]]>
+    </Block>
+    <Block id="Mindoro" caption="明多洛" method="html">
+      <![CDATA[ 
+                <span class="Large Focus">團費</span>
+                <ul>
+                    <li>NT 35,000元</li>
+                </ul>
+                <span class="Large Focus">會員價</span>
+                <ul>
+                    <li>NT 34,000元</li>
+                </ul>
+            ]]>
+    </Block>
+    <Block id="fee" method="html">
+      <![CDATA[ 
+            <table width="40%" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="40%">地點</td>
+                <td width="30%">團費</td>
+                <td width="30%">會員價</td>
+              </tr>
+              <tr>
+                <td>阿尼洛</td>
+                <td>NT 37,000元</td>
+                <td>NT 36,000元</td>
+              </tr>
+              <tr>
+                <td>Malapascua</td>
+                <td>NT 45,000元</td>
+                <td>NT 44,000元</td>
+              </tr>
+              <tr>
+                <td>明多洛</td>
+                <td>NT 35,000元</td>
+                <td>NT 34,000元</td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+</Data>

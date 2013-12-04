@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="墾丁"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="."></Item>
+        <Item name="行程表" href="D121.php"></Item>
+        <Item name="出團日期" href="D122.php"></Item>
+        <Item name="費用" href="D123.php"></Item>
+    </Block>
+    <Block id="intro" method="html">
+      <![CDATA[ 
+            <div>C/P值超高的潛點</div>
+            <div>試試船潛帶給你的輕鬆享受！</div>
+        ]]>
+    </Block>
+</Data>

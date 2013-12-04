@@ -1,0 +1,34 @@
+﻿Public Class Wove
+    Public Property Name As String = String.Empty
+    Public Property Day As String = String.Empty
+    Public Property Color As String = String.Empty
+    Public Property Content As String = String.Empty
+    Public Property href As String = String.Empty
+End Class
+
+Public Class ActivePic
+    Public Property Name As String = String.Empty
+    Public Property Day As String = String.Empty
+    Public Property UrlAlbumCover As String = String.Empty
+    Public Property UrlAlbum As String = String.Empty
+End Class
+
+Public Class Employee
+    Public Property Name As String = String.Empty
+    Public Property Title As String = String.Empty
+    Public Property Src As String = String.Empty
+    Public Property href As String = String.Empty
+    Public Property Headline As String = String.Empty
+    Public Property Message As String = String.Empty
+    Public Property Specialty As String = String.Empty
+    Public Property SpecialtyList As List(Of String) = New List(Of String)
+End Class
+
+Public Class AD
+    Public Property Src As String = String.Empty
+    Public Property Alt As String = String.Empty
+End Class
+
+Public Class Facebook
+    Public Property href As String = String.Empty
+End Class

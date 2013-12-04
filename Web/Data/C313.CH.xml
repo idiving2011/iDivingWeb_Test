@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="SP-NITROX"/>
+    <Block id="nav" method="nav">
+        <Item name="課程規劃" href="C310.php"></Item>
+        <Item name="學前須知" href="C311.php"></Item>
+        <Item name="開課日期" href="C312.php"></Item>
+        <Item name="課程費用" href="."></Item>
+    </Block>
+    <Block id="fee" method="html">
+      <![CDATA[
+            <span class="Large Focus">EAN 課程費用：優惠價4,000元</span>
+            <div>費用包含：SSI中文教材、國際證照申請、教練費、高氧氣瓶使用(限iDiving所舉辦的潛水活動)。</div>
+            <div> 費用不含：課程訓練時所需之潛水裝備、潛水旅遊之團費。</div>
+            <table width="40%" border="1">
+              <tr>
+                <td>月份</td>
+                <td>平日班</td>
+                <td>假日班</td>
+                <td>月份</td>
+                <td>平日班</td>
+                <td>假日班</td>
+              </tr>
+              <tr>
+                <td>一月</td>
+                <td>1/4</td>
+                <td>1/20</td>
+                <td>二月</td>
+                <td>2/22</td>
+                <td>2/3</td>
+              </tr>
+              <tr>
+                <td>三月</td>
+                <td>3/8</td>
+                <td>3/24</td>
+                <td>四月</td>
+                <td>4/19</td>
+                <td>4/7</td>
+              </tr>
+              <tr>
+                <td>五月</td>
+                <td>5/24</td>
+                <td>5/5</td>
+                <td>六月</td>
+                <td>6/28</td>
+                <td>6/9</td>
+              </tr>
+              <tr>
+                <td>七月</td>
+                <td>7/26</td>
+                <td>7/14</td>
+                <td>八月</td>
+                <td>8/30</td>
+                <td>8/11</td>
+              </tr>
+              <tr>
+                <td>九月</td>
+                <td>9/27</td>
+                <td>9/8</td>
+                <td>十月</td>
+                <td>10/25</td>
+                <td>10/13</td>
+              </tr>
+              <tr>
+                <td>十一月</td>
+                <td>11/8</td>
+                <td>11/24</td>
+                <td>十二月</td>
+                <td>12/6</td>
+                <td>12/22</td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+</Data>

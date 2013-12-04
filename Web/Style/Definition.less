@@ -1,0 +1,172 @@
+﻿// ==== 主題 ====
+/*@Light: rgb(181,218,255);
+
+@Dark: rgb(81,101,110);
+
+@Ready: rgb(102,171,204);
+
+@Active: rgb(202,213,219);*/
+
+// ==== 文字 ====
+@Word: rgb(86, 86, 86);
+
+@Link: rgb(0, 94, 187);
+
+@Hover: rgb(219, 153, 0);
+
+@Hint: rgb(128, 128, 128);
+
+//@Note: rgb(128, 128, 128);
+@Note: rgb(102,171,204);
+
+@Focus: rgb(0, 125, 0);
+
+@Important: rgb(192, 0, 0);
+
+@Disabled: rgb(192, 192, 192);
+
+@Memo: rgb(168, 168, 168);
+
+@Key: rgb(236, 118, 0);
+
+@Reverse: rgb(255, 255, 255);
+
+@Caption: rgb(0, 0, 0);
+
+@Title: rgb(236, 118, 0);
+
+@Bold: rgb(0, 0, 0);
+
+@Font: "微軟正黑體", "標楷體", Arial;
+
+.FontStyle(@size: 16px) {
+	
+	font-family: @Font;
+	font-size: @size;
+}
+
+.TextStyle() {
+	.FontStyle();
+	color: @Word;
+	text-decoration: none;
+}
+
+.HyperLinkStyle(@decoration: underline) {
+	.FontStyle();
+	color: @Link;
+	text-decoration: @decoration;
+	cursor: pointer;
+	border: none;
+
+	&:visited {
+		color: @Link;
+	}
+
+	&:hover {
+		color: @Hover;
+	}
+}
+
+// ==== 框線 ====
+@Line: rgb(200, 200, 200);
+
+@Horizontal: rgb(225,225,225);
+
+@Seperator: rgb(216,223,234);
+
+@Vertical: rgb(113,113,113);
+
+@Scope: rgb(255, 184, 184);
+
+// ==== 漸層 ====
+.LinearGradient(@colorStart, @colorEnd, @direction) {
+	background-image: -ms-linear-gradient(@direction, @colorStart 0%, @colorEnd 100%);    // IE10
+	background-image: -moz-linear-gradient(@direction, @colorStart 0%, @colorEnd 100%);    // Firefox
+	background-image: -o-linear-gradient(@direction, @colorStart 0%, @colorEnd 100%);    // Opera
+	background-image: -webkit-linear-gradient(@direction, @colorStart 0%, @colorEnd 100%);    // WebKit (Chrome + Safari)
+	background-image: linear-gradient(@direction, @colorStart 0%, @colorEnd 100%);    // W3C
+}
+
+.CycleGradient(@colorStart, @colorEnd) {
+	background: -ms-linear-gradient(top,  @colorStart 0%, @colorEnd 33%, @colorEnd 66%, @colorStart 100%); // IE10
+	background: -moz-linear-gradient(top,  @colorStart 0%, @colorEnd 33%, @colorEnd 66%, @colorStart 100%);  // Firefox
+	background: -o-linear-gradient(top,  @colorStart 0%, @colorEnd 33%, @colorEnd 66%, @colorStart 100%);  // Opera
+	background: -webkit-linear-gradient(top,  @colorStart 0%, @colorEnd 33%, @colorEnd 66%, @colorStart 100%);  // WebKit (Chrome + Safari)
+	background: linear-gradient(top,  @colorStart 0%, @colorEnd 33%, @colorEnd 66%, @colorStart 100%);  // W3C
+}
+
+// ==== 版界 ====
+/*@WIDE: ~"(min-width: 1280px)";
+
+@NORM: ~"(min-width: 960px) and (max-width: 1280px)";
+
+@THIN: ~"(min-width: 760px) and (max-width: 960px)";
+
+@SLIM: ~"(min-width: 592px) and (max-width: 760px)";
+
+@MINI: ~"(max-width: 592px)";*/
+
+@WIDE: ~"(min-width: 1288px)";
+@NORM: ~"(min-width: 968px) and (max-width: 1288px)";
+@THIN: ~"(min-width: 768px) and (max-width: 968px)";
+@SLIM: ~"(min-width: 600px) and (max-width: 768px)";
+@MINI: ~"(max-width: 600px)";
+
+
+// ==== 尺寸 ====
+@Region: 100%;
+
+@Zero: 0px;
+
+@None: none;
+
+@Auto: auto;
+
+// ==== 顏色 ====
+@Black: rgb(0,0,0);
+
+@GrayDark: rgb(113,113,113);
+
+@Gray: rgb(200, 200, 200);
+
+@GrayLight: rgb(225, 225, 225);
+
+@Iron: rgb(202,213,219);
+
+@White:	rgb(255,255,255);
+
+@RedDark: rgb(128,0,0);
+
+@Red: rgb(196, 0, 0);
+
+@RedLight: rgb(253, 221, 198);
+
+@Sakura: rgb(255, 184, 184);
+
+@Orange: rgb(205, 94, 27);
+
+@YellowDark: rgb(219, 153, 0);
+
+@Yellow: rgb(255, 191, 42);
+
+@YellowLight: rgb(255, 243, 215);
+
+@Butter: rgb(250, 247, 148);
+
+@GreenDark: rgb(75,97,23);
+
+@Green: rgb(176, 199, 157);
+
+@GreenLight: rgb(244, 250, 195);
+
+@Grass: rgb(239, 244, 236);
+
+//@BlueDark: rgb(0,91,183);
+@BlueDark: rgb(49, 95, 196);
+
+//@Blue: rgb(181, 218, 255);
+@Blue: rgb(117, 164, 227);
+
+@BlueLight: rgb(191, 220, 238);
+
+@Umi: rgb(102,171,204);

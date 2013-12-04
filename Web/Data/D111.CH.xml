@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="東北角"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="D110.php"></Item>
+        <Item name="行程表" href="."></Item>
+        <Item name="出團日期" href="D112.php"></Item>
+        <Item name="費用" href="D113.php"></Item>
+    </Block>
+    <Block id="schedule" method="html">
+      <![CDATA[ 
+            
+        ]]>
+    </Block>
+</Data>

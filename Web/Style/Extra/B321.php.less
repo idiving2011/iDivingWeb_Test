@@ -1,0 +1,29 @@
+﻿@import "../Definition.less";
+
+// ==== 基準 (@NORM) ====
+.ArticleBox img {
+	height: 320px;
+	width: auto;
+}
+
+// ==== 版面差異 ====
+@media @WIDE {
+}
+
+@media @THIN {
+	
+}
+
+@media @SLIM {
+	.ArticleBox img {
+		width: 480px;
+		height: auto;
+	}
+}
+
+@media @MINI {
+	.ArticleBox img {
+		width: 320px;
+		height: auto;
+	}
+}

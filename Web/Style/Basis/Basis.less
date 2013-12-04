@@ -1,0 +1,591 @@
+﻿@import "../Definition.less";
+
+// ==== 標準標籤 ====
+body {
+	margin: 4px;
+	.TextStyle();
+	-ms-text-size-adjust: none;
+}
+
+input {
+	.FontStyle(13px);
+}
+
+a {
+	.HyperLinkStyle();
+
+	img {
+		border: none;
+	}
+}
+
+div, span, label {
+	cursor: default;
+}
+
+table {
+	border-collapse: collapse;
+
+	td {
+		vertical-align: top;
+	}
+}
+
+iframe {
+	border: none;
+}
+
+section, #section {
+	min-height: 360px;
+}
+
+nav, #nav {
+	line-height: 32px;
+	margin-top: 4px;
+
+	.Nav {
+		.FontStyle(18px);
+		text-decoration: none;
+		margin-right: 72px;
+	}
+}
+
+// ==== 特殊類別 ====
+.Sight {
+	//height: @Region;
+	position: relative;
+	margin: @Zero @Auto;
+	width: 960px;
+}
+
+.Hide {
+	display: @None;
+}
+
+.Link {
+	.HyperLinkStyle();
+}
+
+.Disabled {
+	color: @Disabled;
+}
+
+// ==== 特殊容器 ====
+.Exception {
+	border: 1px solid @Red;
+	color: @Red;
+	background-color: @RedLight;
+	margin: 12px;
+	.FontStyle(20px);
+	padding: 8px;
+}
+
+.Region {
+	width: @Region;
+}
+
+.Float {
+	overflow: auto;
+	zoom: 1;
+}
+
+.Cap {
+	height: 70px;
+	border-bottom: 1px solid @Iron;
+	padding-top: 6px;
+
+	.Link {
+		.HyperLinkStyle(none);
+
+		&.Disabled {
+			color: @Black;
+			cursor: default;
+		}
+
+		&.Left {
+			float: left;
+		}
+
+		&.Right {
+			float: right;
+			margin-left: 22px;
+		}
+	}
+
+	.Title {
+		clear: both;
+		line-height: 58px;
+		font-weight: bold;
+		.FontStyle(26px);
+	}
+}
+
+.InfoBox {
+	position: relative;
+
+	.Caption {
+		.FontStyle(22px);
+		color: @Caption;
+		position: relative;
+		line-height: 32px;
+		font-weight: bold;
+		//border-bottom: 2px solid @Seperator;
+	}
+
+	&.Side .Caption {
+		margin-right: @Zero;
+	}
+
+	.Content {
+		font-size: 16px;
+		position: relative;
+		margin-bottom: 4px;
+		margin-right: 4px;
+		overflow: hidden;
+	}
+
+	.All {
+		text-align: center;
+		margin-top: 6px;
+		line-height: 32px;
+
+		a {
+			text-decoration: none;
+			padding: 4px 24px;
+		}
+	}
+}
+
+.ArticleBox {
+	margin: 12px @Zero 40px @Zero;
+
+	.Caption {
+		.FontStyle(22px);
+		color: @Title;
+		line-height: 36px;
+	}
+
+	.Content {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.Back {
+		text-align: right;
+		margin-top: 6px;
+		line-height: 32px;
+
+		a {
+			text-decoration: none;
+			padding: 4px 24px;
+		}
+	}
+}
+
+.Wall {
+}
+
+.Scroll {
+	white-space: nowrap;
+	position: absolute;
+	left: 24px;
+
+	.Screen {
+		float: none;
+		display: inline-block;
+		margin: 6px 6px @Zero @Zero;
+	}
+}
+
+.Arrow {
+	position: absolute;
+	width: 24px;
+	height: @Region;
+	top: @Zero;
+	background-color: @White;
+	background-repeat: no-repeat;
+	cursor: pointer;
+
+	&.Left {
+		left: @Zero;
+		background-position: center left;
+		background-image: url(../../Image/Arrow/Back.png);
+
+		&.Stop {
+			background-image: url(../../Image/Arrow/Back.Stop.png);
+		}
+	}
+
+	&.Right {
+		right: @Zero;
+		background-position: center right;
+		background-image: url(../../Image/Arrow/Next.png);
+
+		&.Stop {
+			background-image: url(../../Image/Arrow/Next.Stop.png);
+		}
+	}
+}
+
+.Screen {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin: 16px;
+	color: @White;
+	width: 206px;
+	height: 206px;
+
+	a > & {
+		cursor: pointer;
+
+		* {
+			cursor: pointer;
+		}
+	}
+
+	img {
+		height: @Region;
+		width: @Region;
+		background-size: cover;
+		background-position: 50% 25%;
+	}
+
+	.Glass {
+		position: absolute;
+		bottom: 8px;
+		height: 42px;
+		width: @Region;
+		.LinearGradient(@Gray, rgba(0, 0, 0, 0), left);
+	}
+
+	.Title {
+		position: absolute;
+		bottom: 27px;
+		margin-left: 4px;
+		.FontStyle(16px);
+	}
+
+	.SubTitle {
+		position: absolute;
+		bottom: 9px;
+		margin-left: 4px;
+	}
+}
+
+.Wove {
+	width: @Region;
+
+	tr {
+		border-bottom: 1px solid @Horizontal;
+
+		&:last-of-type {
+			border: none;
+		}
+
+		&[href] {
+			cursor: pointer;
+
+			&:hover {
+				background-color: @YellowLight;
+			}
+		}
+	}
+
+	td {
+		line-height: 30px;
+		overflow: hidden;
+
+		&.Bullet {
+			padding-left: 4px;
+		}
+
+		&.Name {
+		}
+
+		&.Date {
+		}
+
+		&.Status {
+			text-align: center;
+
+			&.Red {
+				color: @Red;
+			}
+
+			&.Blue {
+				color: @BlueDark;
+			}
+
+			&.Green {
+				color: @GreenDark;
+			}
+		}
+	}
+}
+
+.Card {
+	float: left;
+	width: 300px;
+	height: 180px;
+	overflow: hidden;
+	border: 1px solid @Seperator;
+	border-radius: 4px;
+	margin: 8px;
+	box-shadow: 2px 2px 4px @GrayLight;
+	white-space: nowrap;
+
+	&.Link {
+		color: @Word;
+		text-decoration: none;
+		
+		* {
+			cursor: pointer;
+		}
+	}
+
+	.Photo {
+		height: 160px;
+		width: 120px;
+		margin: 10px;
+		float: left;
+	}
+
+	.Title {
+		.FontStyle(14px);
+		margin-top: 8px;
+	}
+
+	.Name {
+		.FontStyle(22px);
+		font-weight: bold;
+		margin: 4px @Zero 14px @Zero;
+	}
+
+	.Message {
+		.FontStyle(16px);
+		color: @Note;
+		height: 36px;
+		overflow: hidden;
+	}
+
+	.Specialty {
+		height: 54px;
+		.FontStyle(14px);
+		overflow: hidden;
+		margin-top: 10px;
+		color: @Memo;
+
+		div {
+			height: 18px;
+		}
+	}
+}
+
+// ==== 通用元件 ====
+input[type = text], .TextBox {
+	.FontStyle(13px);
+	border: 1px solid @Gray;
+	width: 120px;
+	height: 22px;
+
+	&.Large {
+		max-width: 240px;
+		width: @Region;
+	}
+
+	&.ReadOnly, &[readonly] {
+		background-color: @GrayLight;
+	}
+
+	&.Warning {
+		background-image: url("../../Image/Message/Warning.Background.png");
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-color: @YellowLight;
+	}
+}
+
+textarea, .MultiLineTextBox {
+	.FontStyle();
+	border: 1px solid @Gray;
+	width: 360px;
+	height: 80px;
+}
+
+span, label, .Label {
+
+	&.Large {
+		.FontStyle(16px);
+	}
+
+	&.Focus {
+		color: @Focus;
+	}
+
+	&.Important {
+		color: @Important;
+	}
+
+	&.Key {
+		color: @Key;
+		margin: 0px 6px;
+	}
+}
+
+input[type=button], input[type=submit], Button, .Button {
+	cursor: pointer;
+	width: 80px;
+	height: 26px;
+
+	&.Large {
+		width: 120px;
+	}
+
+	.ButtonStyle(@Gray, @GrayDark);
+
+	&.Green {
+		.ButtonStyle(@Green, @GreenDark);
+	}
+
+	&.Blue {
+		.ButtonStyle(@BlueLight, @Umi);
+	}
+
+	&.Yellow {
+		.ButtonStyle(@Yellow, @YellowDark);
+	}
+
+	&.Red {
+		.ButtonStyle(@Red, @RedDark);
+	}
+
+	&:hover {
+		.ButtonStyle(@Yellow, @YellowDark);
+	}
+}
+
+.ButtonStyle(@color1, @color2) {
+	.FontStyle(14px);
+	color: white;
+	border-radius: 4px;
+	border: solid 1px @color1;
+	background-color: @color2;
+	.LinearGradient(@color1, @color2, top);
+}
+
+select, .DropDownList {
+	.FontStyle();
+	border: 1px solid @Gray;
+	height: 36px;
+
+	&[multiple] {
+		width: 120px;
+	}
+}
+
+.RadioList {
+	margin: 4px 0px 2px 0px;
+
+	input[type=radio] {
+	}
+
+	label[for] {
+		padding: 0px 24px 0px 6px;
+	}
+}
+
+.ItemList {
+	line-height: 28px;
+	.FontStyle();
+}
+
+ol {
+	margin: 4px @Zero @Zero 2px;
+	padding-left: 14px;
+	line-height: 24px;
+
+	li {
+		padding-left: 6px;
+		margin-bottom: 12px;
+
+		ul li {
+			margin-bottom: 4px;
+		}
+	}
+}
+
+ul {
+	list-style-image: url(../../Image/Basis/Bullet.png);
+	margin: 4px @Zero @Zero 2px;
+	padding-left: 14px;
+	line-height: 24px;
+
+	li {
+		padding-left: 6px;
+		margin-bottom: 12px;
+	}
+}
+
+// ==== 版面差異 ====
+@media @WIDE {
+	.Sight {
+		width: 1280px;
+	}
+
+	.Screen {
+		width: 222px;
+	}
+}
+
+@media @THIN {
+	.Sight {
+		width: 760px;
+	}
+
+	.Screen {
+		width: 220px;
+	}
+
+	.Card {
+		margin: 16px 38px;
+	}
+}
+
+@media @SLIM {
+	.Sight {
+		width: 598px;
+	}
+
+	.Screen {
+		width: 267px;
+	}
+
+	.InfoBox .Content {
+		padding: 6px @Zero;
+	}
+}
+
+@media @MINI {
+	.Sight {
+		width: 320px;
+	}
+
+	.InfoBox {
+		.Caption {
+			margin-right: @Zero;
+		}
+
+		.Content {
+			margin-right: @Zero;
+		}
+	}
+
+	.Screen {
+		width: 288px;
+	}
+
+	.Card {
+		margin: 12px;
+	}
+}

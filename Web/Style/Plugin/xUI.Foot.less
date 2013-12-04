@@ -1,0 +1,81 @@
+﻿@import "../Definition.less";
+
+// ==== 基準 (@NORM) ====
+footer, #footer {
+    clear: both;
+    white-space: nowrap;
+    border-top: 2px solid @Iron;
+    margin: 0px 4px;
+    line-height: 24px;
+
+    .Address, .CopyRight {
+        display: inline-block;
+        font-style: normal;
+
+        a {
+            margin-right: 12px;
+            .TextStyle();
+        }
+    }
+
+    br:last-of-type {
+        display: none;
+    }
+
+    .Guide {
+        position: absolute;
+        right: 6px;
+        top: 2px;
+        line-height: 21px;
+        text-align: right;
+
+        a {
+            .TextStyle();
+
+            &:hover {
+                color: @Yellow;
+            }
+        }
+
+        span {
+            margin: 0px 4px;
+            color: @Gray;
+        }
+
+        label {
+            .FontStyle(12px);
+        }
+    }
+}
+
+// ==== 版面差異 ====
+@media @SLIM {
+    footer, #footer {
+        br:last-of-type {
+            display: block;
+        }
+    }
+}
+
+@media @MINI {
+    footer, #footer {
+        .Sight {
+            & > span:first-of-type {
+                padding-top: 24px;
+            }
+
+            br {
+                display: none;
+            }
+        }
+
+        .CopyRight, .Address {
+            display: block;
+        }
+
+        .Guide {
+            left: @Zero;
+            text-align: left;
+        }
+    }
+}

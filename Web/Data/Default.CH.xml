@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Block id="AD" method="AD">
+    <Item src="01.png" alt="2013 蛇麼都不怕" />
+    <Item src="02.png" alt="碧海孤島" />
+    <Item src="03.png" alt="學潛水" />
+    <Item src="04.png" alt="帛琉" />
+  </Block>
+  <Block id="facebook" method="url">
+    <Item href="https://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/iDivingFans&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;show_border=false&amp;header=false&amp;height=1200" />
+  </Block>
+  <Block id="coach" caption="幹部群" method="scroll" href="Page/B230.php">
+    <Item name="莊琳琳" title="儲備幹部" src="../Image/Coach/琳琳.jpg" headline="" message="" />
+    <Item name="小米" title="開放水域潛水員教練" src="../Image/Coach/小米.jpg" headline="" message="" />
+    <Item name="謝伊暉" title="開放水域潛水員教練" src="../Image/Coach/伊暉.jpg" headline="" message="雖然我眼睛小，但是學員的蹤影絕不漏失。&lt;br /&gt;Ababab&lt;br /&gt;addd&lt;br /&gt;ddd&lt;br /&gt;&lt;br /&gt;d" />
+    <Item name="尚豐" title="潛水主管" src="../Image/Coach/尚豐.jpg" headline="" message="" />
+    <Item name="莊琳琳" title="儲備幹部" src="../Image/Coach/琳琳.jpg" headline="" message="" />
+    <Item name="小米" title="開放水域潛水員教練" src="../Image/Coach/小米.jpg" headline="" message="" />
+    <Item name="謝伊暉" title="開放水域潛水員教練" src="../Image/Coach/伊暉.jpg" headline="" message="" />
+    <Item name="尚豐" title="潛水主管" src="../Image/Coach/尚豐.jpg" headline="" message="" />
+  </Block>
+  <Block id="trip" caption="玩潛水" method="wove" href="Page/DZ01.php">
+    <Item name="菲律賓阿尼洛" date="2013-02-09" type="Red" text="已額滿" href="Page/D210.php" />
+    <Item name="蘭嶼" date="2013-04-04" type="Blue" text="可報名" />
+    <Item name="馬來西亞西巴丹" date="2013-04-04" type="Blue" text="可報名" />
+    <Item name="墾丁" date="2013-05-10" type="Red" text="已額滿" />
+    <Item name="小琉球" date="2013-05-21" type="Green" text="特惠團" />
+  </Block>
+  <Block id="album" caption="活動照片" method="scroll" href="Page/B240.php" target="_blank" overflow="scroll">
+    <Item name="帛琉" date="2012-07-28 ~ 2012-08-01" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/405436_416111015091152_1803028580_n.jpg" href="https://www.facebook.com/media/set/?set=a.416110821757838.80821.263997586969163" />
+    <Item name="小琉球" date="2012-07-18 ~ 2012-07-19" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/531690_414166758618911_1868381511_n.jpg" href="https://www.facebook.com/media/set/?set=a.414166721952248.80310.263997586969163" />
+    <Item name="墾丁" date="2012-07-14 ~ 2012-07-15" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-snc6/219596_426878034014450_1052737960_n.jpg" href="https://www.facebook.com/media/set/?set=a.426878014014452.83746.263997586969163" />
+    <Item name="龍洞灣公園烤肉" date="2012-07-07" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-snc6/603544_424292410939679_340834474_n.jpg" href="https://www.facebook.com/media/set/?set=a.424291394273114.83124.263997586969163" />
+    <Item name="帛琉" date="2012-07-28 ~ 2012-08-01" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/405436_416111015091152_1803028580_n.jpg" href="https://www.facebook.com/media/set/?set=a.416110821757838.80821.263997586969163" />
+    <Item name="小琉球" date="2012-07-18 ~ 2012-07-19" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/531690_414166758618911_1868381511_n.jpg" href="https://www.facebook.com/media/set/?set=a.414166721952248.80310.263997586969163" />
+    <Item name="墾丁" date="2012-07-14 ~ 2012-07-15" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-snc6/219596_426878034014450_1052737960_n.jpg" href="https://www.facebook.com/media/set/?set=a.426878014014452.83746.263997586969163" />
+    <Item name="龍洞灣公園烤肉" date="2012-07-08" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-snc6/603544_424292410939679_340834474_n.jpg" href="https://www.facebook.com/media/set/?set=a.424291394273114.83124.263997586969163" />
+  </Block>
+  <Block id="course" caption="學潛水" method="wove" href="Page/BZ01.php">
+    <Item name="OWD-2013-01" date="2013-02-20" type="Red" text="已額滿" href="Page/C120.php" />
+    <Item name="OWD-2013-02" date="2013-03-12" type="Green" text="特惠價" />
+    <Item name="AOWD-2013-01" date="2013-02-20" type="Blue" text="可報名" />
+    <Item name="OWD-2013-03" date="2013-02-20" type="Blue" text="可報名" />
+    <Item name="RS-2013-01" date="2013-02-21" type="Red" text="已額滿" />
+  </Block>
+</Data>

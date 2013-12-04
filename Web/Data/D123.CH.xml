@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="墾丁"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="D120.php"></Item>
+        <Item name="行程表" href="D121.php"></Item>
+        <Item name="出團日期" href="D122.php"></Item>
+        <Item name="費用" href="."></Item>
+    </Block>
+    <Block id="fee" method="html">
+      <![CDATA[ 
+            <span class="Large Focus">團費</span>
+            <ul>
+                <li>NT 6,500元</li>
+            </ul>
+            <span class="Large Focus">會員價</span>
+            <ul>
+                <li>NT 6,000元</li>
+            </ul>
+            <!--<table width="40%" border="1" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="30%"></td>
+                    <td width="30%"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </talbe>-->
+        ]]>
+    </Block>
+</Data>
