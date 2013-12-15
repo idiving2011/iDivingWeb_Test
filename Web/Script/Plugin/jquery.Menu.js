@@ -68,27 +68,20 @@
             var _settings = $.extend(_defaultSettings, settings);
 
             var menu = $(this);
-
-            var region = $("<div/>", {
-                "class": "Region"
-            }).mouseleave(function () {
-                $(this).find(".Hover").removeClass("Hover");
-                $(box).hide();
-            });
-
-            var box = $("<div/>", {
-                "class": "Box"
-            }).mouseleave(function () {
-                $(this).parent().find(".Hover").removeClass("Hover");
-                $(this).hide();
-            });
+            var region = $("<div/>", {"class": "Region"});
+            var box = $("<div/>", {"class": "Box"});
             
             $(data).find("Menu").each(function () {
                 tag(region, $(this));
             });
 
             $(region).append(box);
-            $(menu).append(region);
+            $(menu)
+                .mouseleave(function () {
+                        $(this).find(".Hover").removeClass("Hover");
+                        $(box).hide();
+                })
+                .append(region);
         }
     });
 })(jQuery);
