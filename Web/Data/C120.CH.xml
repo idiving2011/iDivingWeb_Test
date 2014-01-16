@@ -5,17 +5,85 @@
         <Item name="課程規劃" href="."></Item>
         <Item name="學前須知" href="C121.php"></Item>
         <Item name="開課日期" href="C122.php"></Item>
-        <Item name="課程費用" href="C123.php"></Item>
-        <Item name="線上報名" href="CZ01.php"></Item>
+        <Item name="超值學費" href="C123.php"></Item>
+        <Item name="立刻報名" href="C124.php"></Item>
     </Block>
-    <Block id="weekend" caption="假日班課程" method="html" back="#top">
+    <Block id="weekend" method="html">
       <![CDATA[ 
-            <img src="../Image/Data/OWD_Weekend.jpg"/>
-        ]]>
-    </Block>
-    <Block id="weekdays" caption="平日班課程" method="html" back="#top">
-      <![CDATA[ 
-            <img src="../Image/Data/OWD_Weekdays.jpg"/>
+            <table border="1" width="80%">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">學 科</td>
+                <td>周 二<br/>19：00 ~ 21：30</td>
+                <td>風險認知、水底世界與身體的變化</td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td>周 四<br/>19：00 ~ 21：30</td>
+                <td>如何計畫與執行潛水、潛水裝備介紹</td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">泳 池 課 程</td>
+                <td>周 六<br/>11：00 ~ 18：00</td>
+                <td>
+                  裝備調整及組裝、下水前安全檢查<br/>
+                  二級頭尋回與排水、面鏡排水、中性浮力<br/>
+                  呼吸管排水、蛙鞋踢動、入水法、下潛＆上升
+                </td>
+                <td>南 港<br/>運動中心</td>
+              </tr>
+              <tr align="center">
+                <td>周 日<br/>11：30 ~ 18：00</td>
+                <td>
+                  重裝脫著、配重脫著、緊急游泳上升<br/>
+                  潛水法、水中懸浮、共用氣源、抽筋排除
+                </td>
+                <td>南 港<br/>運動中心</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">學 科</td>
+                <td>周 二<br/>19：00 ~ 21：30</td>
+                <td>水底世界、水肺潛水經驗與日後的發展</td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td>周 四<br/>19：00 ~ 21：30</td>
+                <td>筆試、執照申請、俱樂部及活動介紹</td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">海 洋 實 習</td>
+                <td>周 六<br/>9：00 ~ 17：00</td>
+                <td>
+                  海洋環境介紹、出入水之技巧<br/>
+                  潛水簡報、動作測驗、指北針之應用<br/>
+                  裝備清洗方式、紀錄潛水日誌
+                </td>
+                <td>東北角<br/>或搭配<br/>移地課程</td>
+              </tr>
+              <tr align="center">
+                <td>周 日<br/>9：00 ~ 17：00</td>
+                <td>
+                  潛水簡報、潛水技巧加強、導航應用<br/>
+                  水中觀光、海洋生物認識
+                </td>
+                <td>東北角<br/>或搭配<br/>移地課程</td>
+              </tr>
+            </table>
+            <br/>
+            <table width="80%">
+              <tr>
+                <td align="center" valign="baseline">訓練池：南港運動中心1F<br/>台北市南港區玉成街69號<br/>捷運板南線 後山埤站 近4號出口<br/>TEL：(02) 2653-2279</td>
+                <td><img src="../Image/Data/SportsCenter.png"></td>
+                <td><img src="../Image/Data/pool.jpg"></td>
+              </tr>
+            </table>
         ]]>
     </Block>
 </Data>
