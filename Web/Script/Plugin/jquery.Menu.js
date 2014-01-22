@@ -44,6 +44,8 @@
                     $(block).attr("href", $(data).attr("href"));
                     $(block).attr("target", "_blank");
                 }
+                if ($(data).is("[tag]"))
+                    $(block).attr("href", $(block).attr("href") + "#" + $(data).attr("tag"));
                 $(host).append(block);
             }
 

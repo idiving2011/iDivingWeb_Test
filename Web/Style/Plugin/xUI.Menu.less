@@ -36,7 +36,7 @@ menu, #menu {
         .Box {
             display: @None;
             width: @Region;
-            height: 328px;
+            height: 334px;
             z-index: 120;
             position: absolute;
             top: 32px;
@@ -79,6 +79,18 @@ menu, #menu {
 @media @WIDE {
     menu, #menu {
         width: 926px;
-        right: 354px
+        right: 354px;
+
+        .Region .Box{
+            height: 328px;   
+        }
+    }
+}
+
+@media @THIN {
+    menu, #menu {
+        .Region .Box {
+            height: 268px;
+        }
     }
 }
