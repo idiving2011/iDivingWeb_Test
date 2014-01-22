@@ -5,17 +5,77 @@
         <Item name="課程規劃" href="."></Item>
         <Item name="學前須知" href="C211.php"></Item>
         <Item name="開課日期" href="C212.php"></Item>
-        <Item name="課程費用" href="C213.php"></Item>
-        <Item name="線上報名" href="CZ01.php"></Item>
+        <Item name="超值學費" href="C213.php"></Item>
+        <Item name="立刻報名" href="C214.php"></Item>
     </Block>
-    <Block id="weekend" caption="假日班課程" method="html" back="#top">
+    <Block id="weekend" method="html">
       <![CDATA[ 
-            <img src="../Image/Data/AOWD_Weekend.jpg"/>
-        ]]>
-    </Block>
-    <Block id="weekdays" caption="平日班課程" method="html" back="#top">
-      <![CDATA[ 
-            <img src="../Image/Data/AOWD_Weekdays.jpg"/>
+            <table border="1" width="80%">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">學 科</td>
+                <td>第 一 堂<br/>14：00 ~ 18：00</td>
+                <td>
+                  計畫深潛、深潛裝備、進行深潛<br/>
+                  從事深潛可能增加的風險、重複深潛、執照申請<br/>
+                  夜潛與低能見度潛水、特殊裝備<br/>
+                  潛水前的準備工作、進行夜潛、進階技巧<br/>
+                </td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td>第 二 堂<br/>14：00 ~ 18：00</td>
+                <td>
+                    自然導航、指北針與指北針導航<br/>
+                    結合自然與指北針導航、特殊導航狀況、導航運動<br/>
+                    選擇潛水船、行程準備<br/>
+                    搭船旅行、進行船潛、結束船潛
+                </td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="3">海 洋 實 習 （假日班）</td>
+                <td>周 六<br/>10：00 ~ 16：00</td>
+                <td>
+                  地型介紹、穩定度確認（組裝、下潛、中性浮力）<br/>
+                  測量50米距離的游動時間與踢動頻率<br/>
+                  自然導航與指北針導航<br/>
+                  三角形及正方形導航運動、搜尋與找回
+                </td>
+                <td>東北角</td>
+              </tr>
+              <tr align="center">
+                <td>周 六<br/>13：00 ~ 21：00</td>
+                <td>
+                  配重調整、導航練習<br/>
+                  低能見度體驗、夜潛無燈體驗、夜潛無燈上升<br/>
+                  夜潛水中燈光訊號練習、夜潛尋找潛伴練習
+                </td>
+                <td>
+                  東北角<br/>
+                  或搭配<br/>
+                  潛水旅遊
+                </td>
+              </tr>
+              <tr align="center">
+                <td>周 日<br/>10：00 ~ 16：00</td>
+                <td>
+                  深潛體驗、大深度的下潛控制<br/>
+                  深潛時氮醉的影響、上升時不同深度的停留<br/>
+                  5米安全停留的穩定度、練習打浮力棒
+                </td>
+                <td>
+                  東北角<br/>
+                  或搭配<br/>
+                  潛水旅遊
+                </td>
+              </tr>
+            </table>
         ]]>
     </Block>
 </Data>

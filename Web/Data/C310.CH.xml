@@ -1,15 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="SP-NITROX"/>
+    <Block id="title" method="title" text="SR-NITROX"/>
     <Block id="nav" method="nav">
         <Item name="課程規劃" href="."></Item>
         <Item name="學前須知" href="C311.php"></Item>
         <Item name="開課日期" href="C312.php"></Item>
-        <Item name="課程費用" href="C313.php"></Item>
+        <Item name="超值學費" href="C313.php"></Item>
+        <Item name="立刻報名" href="C314.php"></Item>
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
-            <img src="../Image/Data/EAN.jpg"/>
+            <table border="1" width="80%">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td>學 科</td>
+                <td>14：00 ~ 17：00</td>
+                <td>
+                  氮氧混合氣介紹、氮氧混合氣的物理學與生理學<br/>
+                  氮氧混合氣潛水裝備、計劃氮氧混合氣潛水
+                </td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td>海 洋 實 習</td>
+                <td>10：00 ~ 16：00</td>
+                <td>
+                  執行潛水計劃並比較使用空氣瓶和高氧瓶的差異<br/>
+                  依照使用的高氧瓶之氧濃度計算出最大作業深度
+                </td>
+                <td>
+                  東北角<br/>
+                  或搭配<br/>
+                  潛水旅遊
+                </td>
+              </tr>
+            </table>
         ]]>
     </Block>
 </Data>

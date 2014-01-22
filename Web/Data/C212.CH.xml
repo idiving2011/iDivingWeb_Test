@@ -5,12 +5,12 @@
         <Item name="課程規劃" href="C210.php"></Item>
         <Item name="學前須知" href="C211.php"></Item>
         <Item name="開課日期" href="."></Item>
-        <Item name="課程費用" href="C213.php"></Item>
-        <Item name="線上報名" href="CZ01.php"></Item>
+        <Item name="超值學費" href="C213.php"></Item>
+        <Item name="立刻報名" href="C214.php"></Item>
     </Block>
-    <Block id="plan" caption="AOWD　進階潛水員課程　每月開班　（有分假日班及平日班唷）" method="html">
+    <Block id="plan" caption="AOWD　進階潛水員課程" method="html">
       <![CDATA[
-            <img src="../Image/Data/AOWD_Schedule.jpg"/>
+            <img src="../Image/Data/EAN_SR_AOWD_Schedul.png"/>
         ]]>
     </Block>
 </Data>
