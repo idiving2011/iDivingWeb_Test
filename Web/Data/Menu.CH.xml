@@ -70,7 +70,7 @@
     </Menu>
     <Menu text="學潛水">
         <Group text="自由潛水員 (FD)">
-            <Item text="FD Level 1" href=""/>
+            <Item text="FD Level 1" href="CFD110"/>
             <Item text ="FD Level 2" href=""/>
             <Item text ="FD Level 3" href=""/>
         </Group>

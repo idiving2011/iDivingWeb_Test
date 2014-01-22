@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="自由潛水"/>
+    <Block id="nav" method="nav">
+        <Item name="課程規劃" href="CFD110.php"></Item>
+        <Item name="學前須知" href="CFD111.php"></Item>
+        <Item name="開課日期" href="CFD112.php"></Item>
+        <Item name="超值學費" href="CFD113.php"></Item>
+        <Item name="立刻報名" href=""></Item>
+    </Block>
+    <Block id="fee" method="html">
+      <![CDATA[
+            <ol>
+                <li>請 email 至 <a href="mailto:leon@idiving.com.tw">leon@idiving.com.tw</a> 阿甘教練會與您聯繫</li>
+                <li>請電洽 iDiving 02-2882-7696，或 FAX 02-2882-7656</li>
+                <li><a href="CZ01.php">網路報名</a></li>
+            </ol>
+        ]]>
+    </Block>
+</Data>
