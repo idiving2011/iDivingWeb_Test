@@ -88,7 +88,7 @@
         <Group text="iDiving 給你" prop="Extra">
             <Item text ="幹部教練團" href="B230"/>
             <Item text ="開課計畫" href="BZ01"/>
-            <Item text="立即報名" href=""/>
+            <Item text="立即報名" href="A120"/>
         </Group>
     </Menu>
 </List>
