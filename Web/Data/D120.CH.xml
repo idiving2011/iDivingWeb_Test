@@ -4,16 +4,22 @@
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="."></Item>
         <Item name="行程表" href="D121.php"></Item>
-        <Item name="出團日期" href="D122.php"></Item>
-        <Item name="費用" href="D123.php"></Item>
+        <Item name="費用說明" href="D122.php"></Item>
+        <Item name="注意事項" href="D123.php"></Item>
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
-            <div>墾丁國家公園三面環海，因氣候及地理特色，</div><br/>
-            <div>使其海洋環境具有海水溫暖、海流呈現季節性變動、營養鹽豐富等特性，</div><br/>
-            <div>使得海洋植群基礎生產力高，浮游生物量豐富，珊瑚生長茂盛，</div><br/>
-            <div>形成許多水族的絕佳棲所，</div><br/>
-            <div>繽紛多樣的珊瑚礁魚、蝦、蟹等海洋生物穿梭其間，</div><br/>
+            <img src="../Image/Data/KentingIntro.jpg" style="float: right; width: 300px">
+            <div>墾丁國家公園三面環海，因氣候及地理特色，</div>
+            <br/>
+            <div>使其海洋環境具有海水溫暖、海流呈現季節性變動、營養鹽豐富等特性，</div>
+            <br/>
+            <div>使得海洋植群基礎生產力高，浮游生物量豐富，珊瑚生長茂盛，</div>
+            <br/>
+            <div>形成許多水族的絕佳棲所，</div>
+            <br/>
+            <div>繽紛多樣的珊瑚礁魚、蝦、蟹等海洋生物穿梭其間，</div>
+            <br/>
             <div>再搭配多變的海底地形，構築出墾丁絢麗的海底世界。</div>
         ]]>
     </Block>
