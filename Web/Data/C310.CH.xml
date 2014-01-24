@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="SR-NITROX"/>
+    <Block id="title" method="title" text="NITROX"/>
     <Block id="nav" method="nav">
         <Item name="課程規劃" href="."></Item>
         <Item name="學前須知" href="C311.php"></Item>
