@@ -4,16 +4,23 @@
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="."></Item>
         <Item name="行程表" href="D131.php"></Item>
-        <Item name="出團日期" href="D132.php"></Item>
-        <Item name="費用" href="D133.php"></Item>
+        <Item name="費用說明" href="D132.php"></Item>
+        <Item name="注意事項" href="D133.php"></Item>
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
-            <div>琉球嶼位於高屏溪口之西南，形勢東西狹窄，北部稍寬，南部較狹。</div><br/>
-            <div>本嶼是台灣屬島中唯一的珊瑚島，表面被珊瑚石灰岩覆蓋，海岸被隆起的珊瑚礁圍繞。</div><br/>
-            <div>石灰岩洞地形及珊瑚礁海岸地形遍佈全島，較著名的如烏鬼洞、美人洞、山豬溝等。</div><br/>
-            <div>琉球嶼之四塊台地表面均被紅土質土壤所覆蓋，這些紅土係珊瑚石灰岩長期風化後，</div><br/>
-            <div>僅剩下不可溶性之紅色氧化鐵、氧化矽等雜質因而成為鮮明之紅色。</div>
+            <img src="../Image/Data/LiouciouIntro.jpg" style="float: right; width: 300px">
+            <div>琉球嶼位於高屏溪口之西南方，本嶼是台灣所屬島中唯一的珊瑚島，</div>
+            <br/>
+            <div>表面被珊瑚石灰岩覆蓋，海岸線被隆起的珊瑚礁所圍繞。</div>
+            <br/>
+            <div>石灰岩洞地形及珊瑚礁海岸地形遍佈全島，</div>
+            <br/>
+            <div>較著名的景點有烏鬼洞、美人洞、山豬溝等。</div>
+            <br/>
+            <div>琉球嶼的地表被紅土質土壤所覆蓋，這些紅土係珊瑚石灰岩長期風化後，</div>
+            <br/>
+            <div>僅剩下不可溶性之紅色氧化鐵、氧化矽等雜質，因而成為鮮明之紅色。</div>
         ]]>
     </Block>
 </Data>
