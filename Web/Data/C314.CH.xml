@@ -5,7 +5,7 @@
         <Item name="課程規劃" href="C310.php"></Item>
         <Item name="學前須知" href="C311.php"></Item>
         <Item name="開課日期" href="C312.php"></Item>
-        <Item name="超值學費" href="C313"></Item>
+        <Item name="超值學費" href="C313.php#NITROX"></Item>
         <Item name="立刻報名" href="."></Item>
     </Block>
     <Block id="register" caption="立刻報名" method="html">

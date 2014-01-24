@@ -5,16 +5,72 @@
         <Item name="課程規劃" href="C310.php"></Item>
         <Item name="學前須知" href="C311.php"></Item>
         <Item name="開課日期" href="C312.php"></Item>
-        <Item name="超值學費" href="."></Item>
+        <Item name="超值學費" href="#NITROX"></Item>
         <Item name="立刻報名" href="C314.php"></Item>
     </Block>
-    <Block id="fee" method="html">
+    <Block id="OWD" caption="OWD 課程費用" method="html" back="#top">
       <![CDATA[
-            <div><span class="Large Focus">SSI 標準價格 7,800 元</span></div>
-            <div><span class="Large Focus">iDiving 優惠價 4,000 元</span></div>
-            <br/>
-            <div>費用包含：SSI 教材、國際證照申請、教練費、高氧氣瓶使用 1 次（限 iDiving 舉辦之活動）</div>
-            <div>費用不含：<span class="Note">潛水裝備、術科時潛水旅遊之團費（請參考各旅遊團實際出團報價）</span></div>
-        ]]>
+                <div>OWD 課程費用： iDiving 超殺優惠價 13,000 元</div>
+                <br/>
+                <div>費用包含：SSI 中文教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險<br/>
+                     訓練期間的潛水裝備提供（含電腦錶）。
+                </div>
+                <br/>
+                <div><span class="Large Important">贈品：Bare高彈性防寒衣 1 件（市價 4800）＋面鏡呼吸管組（市價1300）＋iDiving 手套一雙（市價 700）限（3/1號之後報名者）</span></div>
+                <br/>
+                <div>費用不含：<span class="Note">海洋實習交通費、餐費。</span></div>
+            ]]>
+    </Block>
+    <Block id="AOWD" caption="AOWD 課程費用" method="html" back="#top">
+      <![CDATA[
+                  <ul>
+                    <li><span class="Large Focus">SSI 標準價格 8,900 元</span></li>
+                    <li><span class="Large Focus">龍洞結訓優惠價 8,500 元</span></li>
+                    <li><span class="Large Focus">iDiving 移地結訓優惠價 7,000 元</span></li>
+                  </ul>
+                  <br/>
+                  <div>費用包含：SSI 教材、國際證照申請、教練費、氣瓶使用、海洋實習保險費</div>
+                  <div>費用不含：<span class="Note">潛水裝備、移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）</span></div>
+                  <br/>
+                  <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2014 年國內潛水旅遊團費</span></div></h3>
+                  <table border="1" width="50%">
+                    <tr align="center">
+                      <td width="40%">地點</td>
+                      <td width="30%">團費</td>
+                      <td width="30%">日期</td>
+                    </tr>
+                    <tr align="center">
+                      <td><a href="D120.php">墾丁</a></td>
+                      <td>6,500 元</td>
+                      <td>兩天兩夜</td>
+                    </tr>
+                    <tr align="center">
+                      <td><a href="D130.php">小琉球</a></td>
+                      <td>7,500 元</td>
+                      <td>兩天一夜</td>
+                    </tr>
+                    <tr align="center">
+                      <td><a href="D140.php">綠島</a></td>
+                      <td>11,000 元</td>
+                      <td>三天兩夜</td>
+                    </tr>
+                    <tr align="center">
+                      <td><a href="D150.php">蘭嶼</a></td>
+                      <td>22,000 元</td>
+                      <td>四天三夜</td>
+                    </tr>
+                  </table>
+              ]]>
+    </Block>
+    <Block id="NITROX" caption="NITROX 課程費用" method="html" back="#top">
+      <![CDATA[
+                  <ul>
+                    <li><span class="Large Focus">SSI 標準價格 7,800 元</span></li>
+                    <li><span class="Large Focus">iDiving 優惠價 4,000 元</span></li>
+                  </ul>
+                  <br/>
+                  <div>費用包含：SSI 教材、國際證照申請、教練費、高氧氣瓶使用 1 次（限 iDiving 舉辦之活動）</div>
+                  <div>費用不含：<span class="Note">潛水裝備、術科時潛水旅遊之團費（請參考各旅遊團實際出團報價）</span></div>
+              ]]>
     </Block>
 </Data>

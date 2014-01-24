@@ -5,7 +5,7 @@
         <Item name="課程規劃" href="C210.php"></Item>
         <Item name="學前須知" href="."></Item>
         <Item name="開課日期" href="C212.php"></Item>
-        <Item name="超值學費" href="C213.php"></Item>
+        <Item name="超值學費" href="C213.php#AOWD"></Item>
         <Item name="立刻報名" href="C214.php"></Item>
     </Block>
     <Block id="notice" method="html">
