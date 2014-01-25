@@ -9,6 +9,7 @@
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
+            <img src="../Image/Data/LanyuIntro.jpg" style="float: right; width: 300px">
             <div>蘭嶼島主要是由火山噴發的熔岩及碎屑岩類組合而成，</div>
             <br/>
             <div>全長約四十公里的環島公路，是蘭嶼旅遊主要的參觀路線，沿路會經過島上的六個部落。</div>
