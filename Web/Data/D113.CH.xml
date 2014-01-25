@@ -2,106 +2,23 @@
 <Data>
     <Block id="title" method="title" text="東北角"/>
     <Block id="nav" method="nav">
-        <Item name="景點介紹" href="D110.php"></Item>
-        <Item name="行程表" href="D111.php"></Item>
-        <Item name="出團日期" href="D112.php"></Item>
-        <Item name="費用" href="."></Item>
+      <Item name="景點介紹" href="D110.php"></Item>
+      <Item name="行程表" href="D111.php"></Item>
+      <Item name="費用說明" href="D112.php"></Item>
+      <Item name="注意事項" href="."></Item>
     </Block>
     <Block id="fee" method="html">
       <![CDATA[ 
-            <table width="40%" border="1" cellpadding="0" cellspacing="0">
-              <tr>
-                <td colspan="3">iDiving俱樂部東北角活動優惠表</td>
-              </tr>
-              <tr>
-                <td width="40%">項目</td>
-                <td width="30%">非會員</td>
-                <td width="30%">會員</td>
-              </tr>
-              <tr>
-                <td>東北角氣瓶</td>
-                <td>200元/支</td>
-                <td>150元/支</td>
-              </tr>
-              <tr>
-                <td rowspan="3">東北角導潛費</td>
-                <td colspan="2">開放水域潛水員OWD 100元/支</td>
-              </tr>
-              <tr>
-                <td colspan="2">進階開放水域潛水員AOWD 50元/支</td>
-              </tr>
-              <tr>
-                <td colspan="2">領導等級以上潛水員 DC / Master 0元/支</td>
-              </tr>
-              <tr>
-                <td>面鏡</td>
-                <td>100 元/天</td>
-                <td>50 元/天</td>
-              </tr>
-              <tr>
-                <td>呼吸管</td>
-                <td>100 元/天</td>
-                <td>50 元/天</td>
-              </tr>
-              <tr>
-                <td>防寒衣</td>
-                <td>150 元/天</td>
-                <td>100 元/天</td>
-              </tr>
-              <tr>
-                <td>手套</td>
-                <td>50 元/天</td>
-                <td>50 元/天</td>
-              </tr>
-              <tr>
-                <td>套鞋</td>
-                <td>50 元/天</td>
-                <td>50 元/天</td>
-              </tr>
-              <tr>
-                <td>蛙鞋</td>
-                <td>150 元/天</td>
-                <td>100 元/天</td>
-              </tr>
-              <tr>
-                <td>輕裝組 租借優惠</td>
-                <td>500 元/組/天</td>
-                <td>300 元/組/天</td>
-              </tr>
-              <tr>
-                <td>調節器</td>
-                <td>400 元/天</td>
-                <td>300 元/天</td>
-              </tr>
-              <tr>
-                <td>浮力調整裝置 BC</td>
-                <td>400 元/天</td>
-                <td>300 元/天</td>
-              </tr>
-              <tr>
-                <td>電腦錶</td>
-                <td>400 元/天</td>
-                <td>300 元/天</td>
-              </tr>
-              <tr>
-                <td>重裝組 租借優惠</td>
-                <td>1000 元/組/天</td>
-                <td>700 元/組/天</td>
-              </tr>
-              <tr>
-                <td>配重</td>
-                <td>100 元/組</td>
-                <td>100 元/組</td>
-              </tr>
-              <tr>
-                <td>來回交通費(劍潭站↔東北角)</td>
-                <td colspan="2">200元/人 (給駕駛)</td>
-              </tr>
-              <tr>
-                <td>活動保險費</td>
-                <td colspan="2">100元/人/天</td>
-              </tr>
-            </table>
+           <ol>
+                <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                <li>岸潛活動可依實際潛水次數計算費用，但船潛為套裝行程，若第二次潛水活動不下水，恕無法另外退費。</li>
+                <li>潛水活動安排以上列行程表為原則。潛點選擇由領隊視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
+                <li>來回交通可協助安排，但請在報名時一併告知，以便處理。</li>
+            </ol>
+            <br/>
+            <img src="../Image/Data/NECoastrNote01.jpg" width="360">
+            <img src="../Image/Data/NECoastrNote02.jpg" width="300">
         ]]>
     </Block>
 </Data>
