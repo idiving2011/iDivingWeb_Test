@@ -4,12 +4,15 @@
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="D150.php"></Item>
         <Item name="行程表" href="D151.php"></Item>
-        <Item name="出團日期" href="."></Item>
-        <Item name="費用" href="D153.php"></Item>
+        <Item name="費用說明" href="."></Item>
+        <Item name="注意事項" href="D153.php"></Item>
     </Block>
     <Block id="plan" method="html">
       <![CDATA[ 
-            <img src="../Image/Data/2013 7~12_Domestic.jpg"/>
+            <div>包含：行程安排的8次船潛費用（船資、潛導費、配重）、蘭嶼三晚住宿、</div>
+            <div>&#12288;&#12288;&#12288;餐食（早餐 * 3、午餐 * 4、晚餐 * 3）、蘭嶼機車租借（三天）、兩佰萬旅遊平安險。</div>
+            <br/>
+            <div>不含：潛水裝備租借、行程外的潛水及食宿費用、出發地來回蘭嶼的交通費用。</div>
         ]]>
     </Block>
 </Data>

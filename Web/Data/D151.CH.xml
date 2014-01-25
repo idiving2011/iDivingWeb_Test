@@ -4,12 +4,21 @@
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="D150.php"></Item>
         <Item name="行程表" href="."></Item>
-        <Item name="出團日期" href="D152.php"></Item>
-        <Item name="費用" href="D153.php"></Item>
+        <Item name="費用說明" href="D152.php"></Item>
+        <Item name="注意事項" href="D153.php"></Item>
     </Block>
     <Block id="schedule" method="html">
       <![CDATA[
-            
+            <span class="Large Focus">四天三夜的活動行程，共船潛8次</span>
+            <ul>
+              <li>Day 1　通常搭飛機到台東，再轉機（或搭船）前往蘭嶼，下午即開始潛水活動（船潛）。</li>
+              <li>Day 2　上午進行第二趟船潛，下午再進行第三趟船，晚上為自由活動時間。</li>
+              <li>Day 3　上午進行第四趟船潛，下午帶領大家環島陸遊，晚上為自由活動時間。</li>
+              <li>Day 4　上午為自由活動時間，午餐後收拾行李，下午搭飛機（或船）離開蘭嶼，準備返家。</li>
+            </ul>
+            <br/>
+            <img src="../Image/Data/LanyuSchedule01.jpg" width="360">
+            <img src="../Image/Data/LanyuSchedule02.jpg" width="360">
         ]]>
     </Block>
 </Data>
