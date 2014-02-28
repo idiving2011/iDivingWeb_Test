@@ -2,14 +2,22 @@
 <Data>
     <Block id="title" method="title" text="東北角"/>
     <Block id="nav" method="nav">
-        <Item name="景點介紹" href="D110.php"></Item>
-        <Item name="行程表" href="."></Item>
-        <Item name="出團日期" href="D112.php"></Item>
-        <Item name="費用" href="D113.php"></Item>
+      <Item name="景點介紹" href="D110.php"></Item>
+      <Item name="行程表" href="."></Item>
+      <Item name="費用說明" href="D112.php"></Item>
+      <Item name="注意事項" href="D113.php"></Item>
     </Block>
     <Block id="schedule" method="html">
       <![CDATA[ 
-            
+            <ul>
+              <li>一般：平日或週末，上午9點在東北角集合，進行兩次的潛水活動</li>
+              <li>晨潛：周日早上7點在東北角集合，進行兩次的潛水活動，約中午結束</li>
+              <li>夜潛：周六下午1點在東北角集合，下午進行兩次潛水活動，晚上再進行一次夜潛</li>
+              <li>船潛：早上8點在東北角集合，搭船進行兩次潛水活動，約中午結束</li>
+            </ul>
+            <br/>
+            <img src="../Image/Data/NECoastrSchedule01.jpg" width="360">
+            <img src="../Image/Data/NECoastrSchedule02.jpg" width="360">
         ]]>
     </Block>
 </Data>

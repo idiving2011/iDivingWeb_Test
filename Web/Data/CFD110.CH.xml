@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="自由潛水"/>
+    <Block id="nav" method="nav">
+        <Item name="課程規劃" href="."></Item>
+        <Item name="學前須知" href="CFD111.php"></Item>
+        <Item name="開課日期" href="CFD112.php"></Item>
+        <Item name="超值學費" href="CFD113.php"></Item>
+        <Item name="立刻報名" href="CFD114.php"></Item>
+    </Block>
+    <Block id="intro" method="html">
+      <![CDATA[ 
+            <table border="1" width="80%">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">學 科</td>
+                <td>周 一<br/>19：00 ~ 21：30</td>
+                <td>自由潛水裝備、自由潛水生理學</td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td>周 三<br/>19：00 ~ 21：30</td>
+                <td>自由潛水技巧、海洋環境與自由潛水</td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">泳 池 課 程</td>
+                <td>周 六<br/>11：00 ~ 18：00</td>
+                <td>
+                  裝備調整、靜態閉氣練習、動態閉氣33M練習、<br/>
+                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧
+                </td>
+                <td>南 港<br/>運動中心</td>
+              </tr>
+              <tr align="center">
+                <td>周 日<br/>11：30 ~ 18：00</td>
+                <td>
+                  耳壓平衡技巧練習、鴨式下潛練習、5M自由下潛<br/>
+                  5M救援技巧、守護員規則與練習、豚式技巧練習
+                </td>
+                <td>南 港<br/>運動中心</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">海 洋 實 習</td>
+                <td>周 六<br/>9：00 ~ 17：00</td>
+                <td>
+                  耳壓平衡技巧練習、鴨式下潛練習、10-15M自由下潛<br/>
+                  10M救援技巧、守護員規則與練習
+                </td>
+                <td>東北角<br/>或搭配<br/>移地課程</td>
+              </tr>
+              <tr align="center">
+                <td>周 日<br/>9：00 ~ 17：00</td>
+                <td>自由潛水</td>
+                <td>東北角<br/>或搭配<br/>移地課程</td>
+              </tr>
+            </table>
+            <br/>
+            <table width="80%">
+              <tr>
+                <td align="center" valign="baseline">訓練池：南港運動中心1F<br/>台北市南港區玉成街69號<br/>捷運板南線 後山埤站 近4號出口<br/>TEL：(02) 2653-2279</td>
+                <td><img src="../Image/Data/SportsCenter.png"></td>
+                <td><img src="../Image/Data/pool.jpg"></td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+</Data>

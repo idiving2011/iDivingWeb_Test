@@ -1,20 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="SR-NITROX"/>
+    <Block id="title" method="title" text="NITROX"/>
     <Block id="nav" method="nav">
         <Item name="課程規劃" href="C310.php"></Item>
         <Item name="學前須知" href="C311.php"></Item>
         <Item name="開課日期" href="C312.php"></Item>
-        <Item name="超值學費" href="C313"></Item>
+        <Item name="超值學費" href="C313.php#NITROX"></Item>
         <Item name="立刻報名" href="."></Item>
     </Block>
-    <Block id="fee" method="html">
+    <Block id="register" caption="立刻報名" method="html">
       <![CDATA[
-            <ol>
-                <li>請 email 至 <a href="mailto:leon@idiving.com.tw">leon@idiving.com.tw</a> 阿甘教練會與您聯繫</li>
-                <li>請電洽 iDiving 02-2882-7696，或 FAX 02-2882-7656</li>
-                <li><a href="CZ01.php">網路報名</a></li>
-            </ol>
-        ]]>
+                <ol>
+                    <li>請 email 至 <a href="mailto:leon@idiving.com.tw">leon@idiving.com.tw</a> 阿甘教練會與您聯繫</li>
+                    <li>請電洽 iDiving 02-2882-7696，或 FAX 02-2882-7656</li>
+                    <li><a href="CZ01.php">網路報名</a></li>
+                </ol>
+            ]]>
+    </Block>
+    <Block id="processing" caption="報名流程" method="html">
+      <![CDATA[
+                <ol>
+                  <li>填寫個人資料 (可收信件之地址務必正確以利教材寄送)。 <a href="/RegistrationForm-CH.pdf">下載報名表PDF</a></li>
+                  <li>繳交訂金3000元，如利用匯款方式繳費者請告知帳號末５碼</li>
+                  <li>收到訂金後，一周內iDiving會將教材寄出。</li>
+                  <li>上課前請準備好二吋照片1張（電子檔更好），申請潛水證照使用</li>
+                </ol>
+            ]]>
     </Block>
 </Data>

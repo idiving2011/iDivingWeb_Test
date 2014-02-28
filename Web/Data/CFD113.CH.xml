@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="自由潛水"/>
+    <Block id="nav" method="nav">
+        <Item name="課程規劃" href="CFD110.php"></Item>
+        <Item name="學前須知" href="CFD111.php"></Item>
+        <Item name="開課日期" href="CFD112.php"></Item>
+        <Item name="超值學費" href="."></Item>
+        <Item name="立刻報名" href="CFD114.php"></Item>
+    </Block>
+    <Block id="fee" method="html">
+      <![CDATA[
+            <div>
+              <span class="Large">iDiving 超殺優惠價</span>
+              <ul>
+                <li><span class="Large Focus">LV1:12,000 元</span></<li>
+                <li><span class="Large Focus">LV1:14,000 元</span></<li>
+                <li><span class="Large Focus">LV3:18,000 元</span></<li>
+              </ul>
+            </div>
+            <br/>
+            <div>費用包含：SSI中文教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險</div>
+            <div>訓練期間的潛水裝備提供（含電腦錶）。</div>
+            <br/>
+            <div><span class="Large Important">LV1 贈品：高彈性 FD 呼吸管 1 支(市價 780 元)</span></div>
+            <div><span class="Large Important">LV2 贈品：高彈性 FD 佩重帶 1 條(市價 1280 元)</span></div>
+            <div><span class="Large Important">LV3 贈品：高彈性 FD 防寒衣 1 件(市價 5500 元)</span></div>
+            <br/>
+            <div>費用不含：<span class="Note">海洋實習交通費、餐費。</span></div>
+        ]]>
+    </Block>
+</Data>

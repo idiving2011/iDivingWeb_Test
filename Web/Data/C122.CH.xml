@@ -5,7 +5,7 @@
         <Item name="課程規劃" href="C120.php"></Item>
         <Item name="學前須知" href="C121.php"></Item>
         <Item name="開課日期" href="."></Item>
-        <Item name="超值學費" href="C123.php"></Item>
+        <Item name="超值學費" href="C123.php#OWD"></Item>
         <Item name="立刻報名" href="C124.php"></Item>
     </Block>
     <Block id="plan" caption="OWD　開放水域潛水員課程　隔周開班　（有分假日班及平日班唷）" method="html">

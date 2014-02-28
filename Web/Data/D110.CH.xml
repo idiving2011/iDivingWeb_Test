@@ -4,15 +4,23 @@
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="."></Item>
         <Item name="行程表" href="D111.php"></Item>
-        <Item name="出團日期" href="D112.php"></Item>
-        <Item name="費用" href="D113.php"></Item>
+        <Item name="費用說明" href="D112.php"></Item>
+        <Item name="注意事項" href="D113.php"></Item>
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
-            <div>今年夏天想要衝幾隻氣瓶呢！</div>
-            <div>北海岸野柳 體驗輕鬆船潛 ～ ～</div>
-            <div>東北角龍洞 火焰花枝巡禮 ～ ～</div>
-            <div>還有刺激的夜潛與熱血的晨潛等著您喔！！</div>
+            <img src="../Image/Data/NECoastrIntro.jpg" style="float: right; width: 300px"></div>
+            <div>東北角海域範圍北起瑞芳，南迄頭城，有許多北部潛水人所熟悉的潛點，</div>
+            <br/>
+            <div>如大峽谷、一線天、龍洞灣、和美國小、碉堡、美艷山、鸚哥石等，</div>
+            <br/>
+            <div>每到適合潛水的夏季週末，這些熱門潛點的停車位常是一位難求！</div>
+            <br/>
+            <div>北部海域較適合潛水的季節是每年的4~10月，通常端午節後水溫已有26度以上，而在中秋過後則漸漸下降；</div>
+            <br/>
+            <div>11月到隔年3月之間，一來水溫偏低（不到20度），再者，受到東北季風的影響，海況不佳也不適合下水，</div>
+            <br/>
+            <div>因此許多潛水人就安排了南下或出國潛水的行程。
         ]]>
     </Block>
 </Data>

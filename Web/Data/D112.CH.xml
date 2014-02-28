@@ -2,14 +2,18 @@
 <Data>
     <Block id="title" method="title" text="東北角"/>
     <Block id="nav" method="nav">
-        <Item name="景點介紹" href="D110.php"></Item>
-        <Item name="行程表" href="D111.php"></Item>
-        <Item name="出團日期" href="."></Item>
-        <Item name="費用" href="D113.php"></Item>
+      <Item name="景點介紹" href="D110.php"></Item>
+      <Item name="行程表" href="D111.php"></Item>
+      <Item name="費用說明" href="."></Item>
+      <Item name="注意事項" href="D113.php"></Item>
     </Block>
     <Block id="plan" method="html">
       <![CDATA[ 
-            <iframe src="https://www.google.com/calendar/embed?src=6m80404jsc523i9505f4h48r90%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <div>岸潛：潛導費、氣瓶費、活動保險費用、裝備租借費用</div>
+            <br/>
+            <div>船潛：團費（含潛導費、氣瓶費、活動保險費用）</div>
+            <br/>
+            <div>以上均不含來回車資及餐食費用
         ]]>
     </Block>
 </Data>

@@ -7,7 +7,7 @@
         <Item name="出團日期" href="."></Item>
         <Item name="費用" href="D213.php"></Item>
     </Block>
-    <Block id="Anilao" caption="阿尼洛" method="html">
+    <!--<Block id="Anilao" caption="阿尼洛" method="html">
       <![CDATA[ 
                 <ul>
                     <li>2/12 (初三) ~ 2/16 (初七)</li>
@@ -49,5 +49,5 @@
               </tr>
             </table>
         ]]>
-    </Block>
+    </Block>-->
 </Data>

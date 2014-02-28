@@ -4,19 +4,24 @@
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="."></Item>
         <Item name="行程表" href="D151.php"></Item>
-        <Item name="出團日期" href="D152.php"></Item>
-        <Item name="費用" href="D153.php"></Item>
+        <Item name="費用說明" href="D152.php"></Item>
+        <Item name="注意事項" href="D153.php"></Item>
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
-            <div>蘭嶼島主要是由火山噴發的熔岩及碎屑岩類組合而成，</div><br/>
-            <div>歷經火山、潮汐、風化等作用變動，呈現出豐富的海岸、河流、火山、邊坡等地貌。</div><br/>
-            <div>全長約四十公里的環島公路是蘭嶼旅遊主要的參觀路線，順著公路可經過島上六個部落。</div><br/>
-            <div>圍繞著蘭嶼島的太平洋海域，隨著四季更迭、天氣陰晴的變化有著不同的風貌，</div><br/>
-            <div>天氣晴朗海風不大時，海水清澈見底，平均三十米以上的水中能見度世界一流，</div><br/>
-            <div>也被譽為「潛水者的朝聖地」，是潛水者必須到訪的潛點。</div><br/>
-            <div>但蘭嶼易受季風影響，秋、冬季較佳的潛點偏重西南側如八代灣、開元港、四條溝等潛點；</div><br/>
-            <div>夏季則較有機會前往雙獅岩、玉女岩等北面一帶。</div><br/>
+            <img src="../Image/Data/LanyuIntro.jpg" style="float: right; width: 300px">
+            <div>蘭嶼島主要是由火山噴發的熔岩及碎屑岩類組合而成，</div>
+            <br/>
+            <div>全長約四十公里的環島公路，是蘭嶼旅遊主要的參觀路線，沿路會經過島上的六個部落。</div>
+            <br/>
+            <div>圍繞著蘭嶼的太平洋海域，隨著四季更迭變化而有著不同風貌，</div>
+            <br/>
+            <div>天氣晴朗海風不大時，海水清澈見底，能見度好的時候甚至可達五十米唷！</div>
+            <br/>
+            <div>蘭嶼易受季風影響，秋、冬兩季較佳的潛點偏重在西南側，如八代灣、開元港、四條溝等潛點；</div>
+            <br/>
+            <div>夏季則較有機會前往雙獅岩、玉女岩等北面一帶。</div>
+            <br/>
             <div>而東南方受到颱風每年侵襲之影響，地貌較差。</div>
         ]]>
     </Block>

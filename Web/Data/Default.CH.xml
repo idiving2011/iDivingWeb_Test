@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data>
   <Block id="AD" method="AD">
-    <Item src="01.png" alt="2013 蛇麼都不怕" />
     <Item src="02.png" alt="碧海孤島" />
     <Item src="03.png" alt="學潛水" />
     <Item src="04.png" alt="帛琉" />
