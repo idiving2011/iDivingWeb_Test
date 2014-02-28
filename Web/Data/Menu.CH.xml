@@ -1,5 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <List>
+    <Menu text="潛水裝備">
+        <Group text="代理品牌">
+            <Item text="Bare" href=""/>
+            <Item text="Aquabionic" href=""/>
+            <Item text ="SharkSkin" href=""/>
+            <Item text ="Audaxpro" href=""/>
+            <Item text ="Light &amp; Motion" href=""/>
+        </Group>
+        <Group text="水肺潛水裝備">
+            <Item text="面鏡/呼吸管" href=""/>
+            <Item text="防寒衣/背心頭套" href=""/>
+            <Item text="手套/套鞋" href=""/>
+            <Item text="蛙鞋" href=""/>
+            <Item text="浮力調整裝置" href=""/>
+            <Item text="調節器組" href=""/>
+            <Item text="潛水電腦錶" href=""/>
+        </Group>
+        <Group text="自由潛水裝備">
+            <Item text="面鏡/呼吸管" href=""/>
+            <Item text="防寒衣" href=""/>
+            <Item text="配重帶" href=""/>
+            <Item text="長蛙" href=""/>
+            <Item text="安全配備" href=""/>
+        </Group>
+        <Group text="周邊產品">
+            <Item text="裝備袋/防水袋" href=""/>
+            <Item text="潛水燈具" href=""/>
+            <Item text="潛水刀" href=""/>
+            <Item text="扣具與掛架" href=""/>
+            <Item text="浮力器材/捲線器" href=""/>
+            <Item text="水底通訊配件" href=""/>
+            <Item text="書籍雜誌" href=""/>
+            <Item text="其他" href=""/>
+        </Group>
+    </Menu>
     <Menu text="俱樂部">
         <Group text="">
             <Item text="俱樂部介紹" href="B400"/>
@@ -15,7 +50,7 @@
         </Group>
     </Menu>
     <Menu text="愛潛水">
-        <Group text="">
+        <Group text="關於 iDiving">
             <Item text="iDiving 介紹" href="B210"/>
             <Item text="聯絡方式" href="B310"/>
             <Item text="匯款方式" href=""/>
@@ -70,9 +105,7 @@
     </Menu>
     <Menu text="學潛水">
         <Group text="自由潛水員 (FD)">
-            <Item text="FD Level 1" href=""/>
-            <Item text ="FD Level 2" href=""/>
-            <Item text ="FD Level 3" href=""/>
+            <Item text="FD LV-1 教練" href=""/>
         </Group>
         <Group text="水肺潛水員">
             <Item text="開放水域潛水員" href="C120"/>
@@ -80,15 +113,14 @@
             <Item text="進階潛水員" href="C210"/>
         </Group>
         <Group text="領導級潛水員">
-            <Item text="FD 教練 LV1-3" href=""/>
             <Item text="潛水主管" href="C410"/>
             <Item text="潛水教練" href="C420"/>
             <Item text="高階教練" href="C430"/>
         </Group>
         <Group text="iDiving 給你" prop="Extra">
-            <Item text ="幹部教練團" href="B230"/>
             <Item text ="開課計畫" href="BZ01"/>
             <Item text="立即報名" href=""/>
+            <Item text ="教練團FB" href="B230"/>
         </Group>
     </Menu>
 </List>
