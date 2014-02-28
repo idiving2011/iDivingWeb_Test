@@ -7,7 +7,7 @@
         <Item name="出團日期" href="D212.php"></Item>
         <Item name="費用" href="."></Item>
     </Block>
-    <Block id="Anilao" caption="阿尼洛" method="html">
+    <!--<Block id="Anilao" caption="阿尼洛" method="html">
       <![CDATA[ 
               <span class="Large Focus">團費</span>
               <ul>
@@ -68,5 +68,5 @@
               </tr>
             </table>
         ]]>
-    </Block>
+    </Block>-->
 </Data>
