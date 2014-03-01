@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <List>
-    <Menu text="潛水裝備">
+    <Menu text="潛水裝備" prop="Hide">
         <Group text="代理品牌">
             <Item text="Bare" href=""/>
             <Item text="Aquabionic" href=""/>
