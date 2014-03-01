@@ -120,7 +120,7 @@
         </Group>
         <Group text="iDiving 給你" prop="Extra">
             <Item text ="開課計畫" href="BZ01"/>
-            <Item text="立即報名" href=""/>
+            <Item text="立即報名" href="CZ01"/>
             <Item text ="教練團FB" href="B230"/>
         </Group>
     </Menu>
