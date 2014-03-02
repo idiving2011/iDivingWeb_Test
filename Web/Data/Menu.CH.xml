@@ -90,7 +90,7 @@
     </Menu>
     <Menu text="學潛水">
         <Group text="自由潛水員 (FD)">
-            <Item text="FD LV1-3" href=""/>
+            <Item text="FD LV1-3" href="CFD110"/>
             <Item text="FD 教練" href=""/>
         </Group>
         <Group text="水肺潛水員">

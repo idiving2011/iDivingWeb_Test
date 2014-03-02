@@ -5,7 +5,7 @@
         <Item name="課程規劃" href="CFD110.php"></Item>
         <Item name="學前須知" href="."></Item>
         <Item name="開課日期" href="CFD112.php"></Item>
-        <Item name="超值學費" href="CFD113.php"></Item>
+        <Item name="超值學費" href="CFD113.php#FD"></Item>
         <Item name="立刻報名" href="CFD114.php"></Item>
     </Block>
     <Block id="notice" method="html">
@@ -19,12 +19,12 @@
                     訓練費用不含：上課期間之餐飲與交通費。
                 </li>
                 <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
-                <li>學員在iDiving購買潛水器材享有學員優惠價。</li>
+                <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
                 <li>訓練期間所提供之裝備若有穿戴不適或任何問題，請務必告知主持教練。</li>
                 <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
                 <li>上課地點，往返之交通請自行處理<br>
                     <ul>
-                      <li>教室學科：iDiving　<a href="https://maps.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%978%E8%99%9F" target="_blank">台北市士林區前港街8號</a><br></li>
+                      <li>教室學科：iDiving <a href="https://maps.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%978%E8%99%9F" target="_blank">台北市士林區前港街8號</a><br></li>
                       <li>泳池場地：<a href="http://ngsc.cyc.org.tw/" target="_blank">南港運動中心</a> (潛水池)，<a href="https://www.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%8E%89%E6%88%90%E8%A1%9769%E8%99%9F&ie=UTF8&sll=25.085406099999997,121.5615012&sspn=0.5996734252606875,0.6483809354027263&t=m&hnear=115%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%8E%89%E6%88%90%E8%A1%9769%E8%99%9F&z=16&brcurrent=3,0x3442abadec7543e7:0x5dbcdd8252aeabe7,0,0x3442ac6b61dbbd9d:0xc0c243da98cba64b" target="_blank">台北市南港區玉成街69號</a> (捷運板南線 - 後山埤站)<br></li>
                       <li>海洋實習：<a href="https://www.google.com.tw/maps?q=%E6%96%B0%E5%8C%97%E5%B8%82%E8%B2%A2%E5%AF%AE%E5%8D%80%E6%9D%B1%E5%8C%97%E8%A7%92%E6%BD%9B%E6%B0%B4%E5%AE%A2%E6%A3%A7&hl=zh-TW&ie=UTF8&ll=25.118515,121.917858&spn=0.017408,0.012081&sll=25.117835,121.916941&sspn=0.004352,0.00302&oq=%E6%9D%B1%E5%8C%97%E8%A7%92&brcurrent=3,0x345d4cdf85f98b05:0x682a7dd59a1398fa,0,0x345d5538b0b6645f:0x5aa90dfa6620edc0&hq=%E6%9D%B1%E5%8C%97%E8%A7%92%E6%BD%9B%E6%B0%B4%E5%AE%A2%E6%A3%A7&hnear=%E6%96%B0%E5%8C%97%E5%B8%82%E8%B2%A2%E5%AF%AE%E5%8D%80&t=m&z=16&iwloc=A" target="_blank">東北角</a> 餐食自理，協調得宜若至餐廳用餐則費用均攤。<br></li>
                     </ul>
@@ -32,7 +32,7 @@
                 <li>結訓之學員均需達到初級潛水員之標準，此標準包括學科與術科之評鑑：
                     <ul>
                         <li>需通過 25 題測驗，成績 80 分以上(答對 20 題以上)，未達標準需在檢討後重考。</li>
-                        <li>術科：平靜水域所學之潛水技巧須在開放水域操作，接受教練評鑑。</li>
+                        <li>術科：通過各級動態閉氣、恆定佩重自由潛水、救援/徒手/無面鏡上升等動作之要求。</li>
                     </ul>
                 </li>
                 <li>學員結訓後，訓練中心將於兩週內完成SSI國際潛水證照申請作業。<br>

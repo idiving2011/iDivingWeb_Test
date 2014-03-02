@@ -14,7 +14,7 @@
     <?php include "../Part/Head.php"; ?>
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
-		<div id="fee" class="ArticleBox"></div>
+		<div id="FD" class="ArticleBox"></div>
     </div>
     <?php include "../Part/Foot.php" ; ?>
 </body>

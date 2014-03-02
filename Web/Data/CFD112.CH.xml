@@ -5,7 +5,7 @@
         <Item name="課程規劃" href="CFD110.php"></Item>
         <Item name="學前須知" href="CFD111.php"></Item>
         <Item name="開課日期" href="."></Item>
-        <Item name="超值學費" href="CFD113.php"></Item>
+        <Item name="超值學費" href="CFD113.php#FD"></Item>
         <Item name="立刻報名" href="CFD114.php"></Item>
     </Block>
     <Block id="plan" method="html">

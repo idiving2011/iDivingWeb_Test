@@ -8,23 +8,23 @@
         <Item name="超值學費" href="."></Item>
         <Item name="立刻報名" href="CFD114.php"></Item>
     </Block>
-    <Block id="fee" method="html">
+    <Block id="FD" caption="FD LV1-3 課程費用" method="html" back="#top">
       <![CDATA[
             <div>
               <span class="Large">iDiving 超殺優惠價</span>
               <ul>
-                <li><span class="Large Focus">LV1:12,000 元</span></<li>
-                <li><span class="Large Focus">LV1:14,000 元</span></<li>
-                <li><span class="Large Focus">LV3:18,000 元</span></<li>
+                <li><span class="Large Focus">LV1：12,000 元</span></<li>
+                <li><span class="Large Focus">LV1：14,000 元</span></<li>
+                <li><span class="Large Focus">LV3：18,000 元</span></<li>
               </ul>
             </div>
             <br/>
             <div>費用包含：SSI中文教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險</div>
-            <div>訓練期間的潛水裝備提供（含電腦錶）。</div>
+            <div>　　　　　訓練期間的潛水裝備提供（含電腦錶）。</div>
             <br/>
-            <div><span class="Large Important">LV1 贈品：高彈性 FD 呼吸管 1 支(市價 780 元)</span></div>
-            <div><span class="Large Important">LV2 贈品：高彈性 FD 佩重帶 1 條(市價 1280 元)</span></div>
-            <div><span class="Large Important">LV3 贈品：高彈性 FD 防寒衣 1 件(市價 5500 元)</span></div>
+            <div><span class="Large Important">LV1 贈品：高彈性 FD 呼吸管 1 支 (市價 780 元)</span></div>
+            <div><span class="Large Important">LV2 贈品：高彈性 FD 佩重帶 1 條 (市價 1280 元)</span></div>
+            <div><span class="Large Important">LV3 贈品：高彈性 FD 防寒衣 1 件 (市價 5500 元)</span></div>
             <br/>
             <div>費用不含：<span class="Note">海洋實習交通費、餐費。</span></div>
         ]]>
