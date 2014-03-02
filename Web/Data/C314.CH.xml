@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="NITROX"/>
+    <Block id="title" method="title" text="Nitrox高氧 / SR壓力與救援"/>
     <Block id="nav" method="nav">
         <Item name="課程規劃" href="C310.php"></Item>
         <Item name="學前須知" href="C311.php"></Item>
@@ -21,9 +21,9 @@
       <![CDATA[
                 <ol>
                   <li>填寫個人資料 (可收信件之地址務必正確以利教材寄送)。 <a href="/RegistrationForm-CH.pdf">下載報名表PDF</a></li>
-                  <li>繳交訂金3000元，如利用匯款方式繳費者請告知帳號末５碼</li>
-                  <li>收到訂金後，一周內iDiving會將教材寄出。</li>
-                  <li>上課前請準備好二吋照片1張（電子檔更好），申請潛水證照使用</li>
+                  <li>繳交訂金 3000 元，如利用匯款方式繳費者請告知帳號末５碼</li>
+                  <li>收到訂金後，一周內 iDiving 會將教材寄出。</li>
+                  <li>上課前請準備好二吋照片 1 張（電子檔更好），申請潛水證照使用</li>
                 </ol>
             ]]>
     </Block>

@@ -14,7 +14,8 @@
     <?php include "../Part/Head.php"; ?>
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
-		<div id="notice" class="ArticleBox"></div>
+		<div id="Nitrox" class="ArticleBox"></div>
+		<div id="SR" class="ArticleBox"></div>
     </div>
     <?php include "../Part/Foot.php" ; ?>
 </body>
