@@ -85,7 +85,7 @@
             <Item text="年度出團計畫" href="DZ01"/>
             <Item text="活動照片" href="B240"/>
             <Item text="俱樂部介紹" href="B400"/>
-            <Item text="俱樂部優惠" href="B400"/>
+            <Item text="俱樂部優惠" href="B400" tag="advantage"/>
         </Group>
     </Menu>
     <Menu text="學潛水">
