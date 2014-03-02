@@ -1,6 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <List>
-    <Menu text="潛水裝備" prop="Hide">
+    <Menu text="俱樂部" prop="Hide">
+        <Group text="">
+            <Item text="俱樂部介紹" href="B400"/>
+            <Item text="入會辦法" href="B400"/>
+            <Item text ="俱樂部優惠" href="B400" tag="advantage"/>
+            <Item text ="注意事項" href=""/>
+        </Group>
+        <Group text="">
+            <Item text="年度出團計畫" href="DZ01"/>
+        </Group>
+        <Group text="">
+            <Item text="活動照片" href="B240"/>
+        </Group>
+    </Menu>
+    <Menu text="愛潛水/裝備">
+        <Group text="關於 iDiving">
+            <Item text="iDiving 介紹" href="B210"/>
+            <Item text="聯絡方式" href="B310"/>
+            <Item text="匯款方式" href=""/>
+        </Group>
         <Group text="代理品牌">
             <Item text="Bare" href=""/>
             <Item text="Aquabionic" href=""/>
@@ -33,40 +52,6 @@
             <Item text="水底通訊配件" href=""/>
             <Item text="書籍雜誌" href=""/>
             <Item text="其他" href=""/>
-        </Group>
-    </Menu>
-    <Menu text="俱樂部">
-        <Group text="">
-            <Item text="俱樂部介紹" href="B400"/>
-            <Item text="入會辦法" href="B400"/>
-            <Item text ="俱樂部優惠" href="B400" tag="advantage"/>
-            <Item text ="注意事項" href=""/>
-        </Group>
-        <Group text="">
-            <Item text="年度出團計畫" href="DZ01"/>
-        </Group>
-        <Group text="">
-            <Item text="活動照片" href="B240"/>
-        </Group>
-    </Menu>
-    <Menu text="愛潛水">
-        <Group text="關於 iDiving">
-            <Item text="iDiving 介紹" href="B210"/>
-            <Item text="聯絡方式" href="B310"/>
-            <Item text="匯款方式" href=""/>
-        </Group>
-        <Group text="">
-            <Item text="年度出團計畫" href="DZ01"/>
-            <Item text ="活動照片" href="B240"/>
-        </Group>
-        <Group text="">
-            <Item text="裝備" href=""/>
-        </Group>
-        <Group text="">
-            <Item text="俱樂部" href="B400"/>
-        </Group>
-        <Group text="">
-            <Item text="教練團" href="B230"/>
         </Group>
     </Menu>
     <Menu text="玩潛水">
