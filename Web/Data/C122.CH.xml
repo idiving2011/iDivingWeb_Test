@@ -8,9 +8,10 @@
         <Item name="超值學費" href="C123.php#OWD"></Item>
         <Item name="立刻報名" href="C124.php"></Item>
     </Block>
-    <Block id="plan" caption="OWD　開放水域潛水員課程　隔周開班　（有分假日班及平日班唷）" method="html">
+    <Block id="plan" caption="OWD　開放水域潛水員課程　隔周開班" method="html">
       <![CDATA[
-            <iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+            <img src="../Image/Data/OWD_Schedul.png"/>
         ]]>
     </Block>
 </Data>
