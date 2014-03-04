@@ -18,6 +18,8 @@ Public MustInherit Class Proc
                 Return ProcAD.GetInstance(type, "", "AD")
             Case "臉書"
                 Return ProcFacebook.GetInstance(type, "", "facebook")
+            Case "Menu"
+                Return ProcMenu.GetInstance(type, "Menu", "List")
             Case Else
                 Throw New ArgumentException("type Unknow")
         End Select
@@ -109,4 +111,17 @@ Public MustInherit Class Proc
         Return CStr(objData)
     End Function
 
+
+    Public Function GetBoolean(objData As Object) As Boolean
+        Dim strData As String = GetString(objData)
+        If String.IsNullOrWhiteSpace(strData) Then
+            Return False
+        End If
+
+        If strData = "Y" Then
+            Return True
+        End If
+
+        Return False
+    End Function
 End Class

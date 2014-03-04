@@ -12,8 +12,6 @@ Public Class ProcWove
     End Sub
 
     Protected Overrides Function ReadDatatableToList(dt As DataTable) As Object
-        Dim intColCount As Integer = dt.Columns.Count
-        Dim strResult As String = String.Empty
         Dim listWove As New List(Of Wove)()
 
         For Each aRow As DataRow In dt.Rows
@@ -25,7 +23,7 @@ Public Class ProcWove
             aWove.Day = GetString(aRow.Item(1))
             aWove.Color = GetString(aRow.Item(2))
             aWove.Content = GetString(aRow.Item(3))
-            aWove.href = GetString(aRow.Item(4))
+            aWove.Href = GetString(aRow.Item(4))
             listWove.Add(aWove)
         Next
 
@@ -46,8 +44,8 @@ Public Class ProcWove
             xItem.SetAttributeValue("date", item.Day)
             xItem.SetAttributeValue("type", item.Color)
             xItem.SetAttributeValue("text", item.Content)
-            If String.IsNullOrWhiteSpace(item.href) = False Then
-                xItem.SetAttributeValue("href", item.href)
+            If String.IsNullOrWhiteSpace(item.Href) = False Then
+                xItem.SetAttributeValue("href", item.Href)
             End If
             xBlockEle.Add(xItem)
         Next

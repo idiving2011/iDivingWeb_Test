@@ -13,8 +13,6 @@ Public Class ProcAD
     End Sub
 
     Protected Overrides Function ReadDatatableToList(dt As DataTable) As Object
-        Dim intColCount As Integer = dt.Columns.Count
-        Dim strResult As String = String.Empty
         Dim listAD As New List(Of AD)()
 
         For Each aRow As DataRow In dt.Rows

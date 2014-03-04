@@ -13,8 +13,6 @@ Public Class ProcFacebook
     End Sub
 
     Protected Overrides Function ReadDatatableToList(dt As DataTable) As Object
-        Dim intColCount As Integer = dt.Columns.Count
-        Dim strResult As String = String.Empty
         Dim listFacebook As New List(Of Facebook)()
 
         For Each aRow As DataRow In dt.Rows

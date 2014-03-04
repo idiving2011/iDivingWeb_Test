@@ -13,8 +13,6 @@ Public Class ProcActivePic
     End Sub
 
     Protected Overrides Function ReadDatatableToList(dt As DataTable) As Object
-        Dim intColCount As Integer = dt.Columns.Count
-        Dim strResult As String = String.Empty
         Dim listActivePic As New List(Of ActivePic)()
 
         For Each aRow As DataRow In dt.Rows

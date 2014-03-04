@@ -13,8 +13,6 @@ Public Class ProcEmployee
     End Sub
 
     Protected Overrides Function ReadDatatableToList(dt As DataTable) As Object
-        Dim intColCount As Integer = dt.Columns.Count
-        Dim strResult As String = String.Empty
         Dim listEmployee As New List(Of Employee)()
 
         For Each aRow As DataRow In dt.Rows
@@ -25,7 +23,7 @@ Public Class ProcEmployee
             aEmployee.Name = GetString(aRow.Item(0))
             aEmployee.Title = GetString(aRow.Item(1))
             aEmployee.Src = HttpUtility.HtmlDecode(GetString(aRow.Item(2)))
-            aEmployee.href = HttpUtility.HtmlDecode(GetString(aRow.Item(3)))
+            aEmployee.Href = HttpUtility.HtmlDecode(GetString(aRow.Item(3)))
             aEmployee.Headline = GetString(aRow.Item(4))
             aEmployee.Message = GetString(aRow.Item(5)).Replace(vbLf, "<br />")
             aEmployee.Specialty = GetString(aRow.Item(6))
@@ -69,7 +67,7 @@ Public Class ProcEmployee
         For Each item As Employee In EmployeeList
             Dim xItem As New XElement("Item")
             xItem.SetAttributeValue("src", item.Src)
-            xItem.SetAttributeValue("href", item.href)
+            xItem.SetAttributeValue("href", item.Href)
 
             xItem.Add(New XElement("Title", item.Title))
             xItem.Add(New XElement("Name", item.Name))
