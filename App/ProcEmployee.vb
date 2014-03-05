@@ -24,12 +24,11 @@ Public Class ProcEmployee
             aEmployee.Title = GetString(aRow.Item(1))
             aEmployee.Src = HttpUtility.HtmlDecode(GetString(aRow.Item(2)))
             aEmployee.Href = HttpUtility.HtmlDecode(GetString(aRow.Item(3)))
-            aEmployee.Headline = GetString(aRow.Item(4))
-            aEmployee.Message = GetString(aRow.Item(5)).Replace(vbLf, "<br />")
-            aEmployee.Specialty = GetString(aRow.Item(6))
+            aEmployee.Message = GetString(aRow.Item(4)).Replace(vbLf, "<br />")
+            aEmployee.Specialty = GetString(aRow.Item(5))
             Dim strArr() As String = aEmployee.Specialty.Split(",")
             For Each s As String In strArr
-                aEmployee.SpecialtyList.Add(s)
+                aEmployee.SpecialtyList.Add(s.Trim())
             Next
             listEmployee.Add(aEmployee)
         Next
@@ -50,7 +49,6 @@ Public Class ProcEmployee
             xItem.SetAttributeValue("name", item.Name)
             xItem.SetAttributeValue("title", item.Title)
             xItem.SetAttributeValue("src", item.Src)
-            xItem.SetAttributeValue("headline", item.Headline)
             xItem.SetAttributeValue("message", item.Message)
             xItem.SetAttributeValue("href", item.Href)
             xBlockEle.Add(xItem)

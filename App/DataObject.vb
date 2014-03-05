@@ -4,6 +4,7 @@
     Public Property Color As String = String.Empty
     Public Property Content As String = String.Empty
     Public Property Href As String = String.Empty
+    Public Property ShowDefault As Boolean = False
 End Class
 
 Public Class ActivePic
@@ -18,7 +19,6 @@ Public Class Employee
     Public Property Title As String = String.Empty
     Public Property Src As String = String.Empty
     Public Property Href As String = String.Empty
-    Public Property Headline As String = String.Empty
     Public Property Message As String = String.Empty
     Public Property Specialty As String = String.Empty
     Public Property SpecialtyList As List(Of String) = New List(Of String)

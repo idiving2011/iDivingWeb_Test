@@ -24,6 +24,7 @@ Public Class ProcWove
             aWove.Color = GetString(aRow.Item(2))
             aWove.Content = GetString(aRow.Item(3))
             aWove.Href = GetString(aRow.Item(4))
+            aWove.ShowDefault = GetBoolean(aRow.Item(5))
             listWove.Add(aWove)
         Next
 
@@ -31,6 +32,31 @@ Public Class ProcWove
     End Function
 
     Protected Overrides Function CreateDefaultXml(aList As Object) As XElement
+        Dim listWove As List(Of Wove) = CType(aList, List(Of Wove))
+        Dim xBlockEle As New XElement("Block")
+        xBlockEle.SetAttributeValue("id", m_StrId)
+        xBlockEle.SetAttributeValue("caption", m_StrTableName)
+        xBlockEle.SetAttributeValue("method", "wove")
+        xBlockEle.SetAttributeValue("href", m_StrPhpFileName)
+
+        For Each item As Wove In listWove
+            If item.ShowDefault = False Then
+                Continue For
+            End If
+            Dim xItem As New XElement("Item")
+            xItem.SetAttributeValue("name", item.Name)
+            xItem.SetAttributeValue("date", item.Day)
+            xItem.SetAttributeValue("type", item.Color)
+            xItem.SetAttributeValue("text", item.Content)
+            If String.IsNullOrWhiteSpace(item.Href) = False Then
+                xItem.SetAttributeValue("href", item.Href)
+            End If
+            xBlockEle.Add(xItem)
+        Next
+        Return xBlockEle
+    End Function
+
+    Protected Overrides Function CreatePageXml(aList As Object) As XElement
         Dim listWove As List(Of Wove) = CType(aList, List(Of Wove))
         Dim xBlockEle As New XElement("Block")
         xBlockEle.SetAttributeValue("id", m_StrId)
@@ -50,10 +76,6 @@ Public Class ProcWove
             xBlockEle.Add(xItem)
         Next
         Return xBlockEle
-    End Function
-
-    Protected Overrides Function CreatePageXml(aList As Object) As XElement
-        Return CreateDefaultXml(aList)
     End Function
 
 End Class
