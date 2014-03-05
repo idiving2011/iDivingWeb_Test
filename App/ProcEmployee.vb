@@ -52,6 +52,7 @@ Public Class ProcEmployee
             xItem.SetAttributeValue("src", item.Src)
             xItem.SetAttributeValue("headline", item.Headline)
             xItem.SetAttributeValue("message", item.Message)
+            xItem.SetAttributeValue("href", item.Href)
             xBlockEle.Add(xItem)
         Next
         Return xBlockEle
