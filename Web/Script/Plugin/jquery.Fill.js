@@ -66,7 +66,7 @@
                 var table = $("<table/>", { "class": "Wove" });
                 $(data).find("Item").each(function () {
                     $("<tr/>", { href: $(this).attr("href") })
-                        .append($("<td/>", { "class": "Bullet" }).append($("<img/>", { src: "Image/Basis/Bullet.png" })))
+                        .append($("<td/>", { "class": "Bullet" }).append($("<img/>", { src: _settings.basePath + "Image/Basis/Bullet.png" })))
                         .append($("<td/>", { "class": "Name", text: $(this).attr("name") }))
                         .append($("<td/>", { "class": "Date", text: $(this).attr("date") }))
                         .append($("<td/>", { "class": "Status " + $(this).attr("type"), text: $(this).attr("text") }))

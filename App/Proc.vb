@@ -63,18 +63,31 @@ Public MustInherit Class Proc
     Protected MustOverride Function CreatePageXml(aList As Object) As XElement
 
     Protected Overridable Function RemovePreviouslyEle(strFilePath As String) As XElement
+        'If String.IsNullOrWhiteSpace(strFilePath) Then
+        '    Return Nothing
+        'End If
+        'Dim xECurrentFile As XElement = XElement.Load(strFilePath)
+
+        'Dim xeTrips = From o In xECurrentFile.Elements
+        '              Where o.Attribute("id").Value = m_StrId
+        '              Select o
+
+        'For Each xeTrip As XElement In xeTrips
+        '    xeTrip.RemoveNodes()
+        'Next
+
+        'Return xECurrentFile
         If String.IsNullOrWhiteSpace(strFilePath) Then
             Return Nothing
         End If
         Dim xECurrentFile As XElement = XElement.Load(strFilePath)
 
-        Dim xeTrips = From o In xECurrentFile.Elements
+        Dim xeTrips = (From o In xECurrentFile.Elements
                       Where o.Attribute("id").Value = m_StrId
-                      Select o
-
-        For Each xeTrip As XElement In xeTrips
-            xeTrip.RemoveNodes()
-        Next
+                      Select o).FirstOrDefault()
+        If IsNothing(xeTrips) = False Then
+            xeTrips.Remove()
+        End If
 
         Return xECurrentFile
     End Function
@@ -84,16 +97,19 @@ Public MustInherit Class Proc
             Return String.Empty
         End If
 
-        Dim xe As XElement = (From o In xECurrentFile.Elements
-                              Where o.Attribute("id").Value = m_StrId
-                              Select o).FirstOrDefault
-        If xe Is Nothing Then
-            Throw New ApplicationException(String.Format("Can't find id = [{0}]", m_StrId))
-        End If
+        'Dim xe As XElement = (From o In xECurrentFile.Elements
+        '                      Where o.Attribute("id").Value = m_StrId
+        '                      Select o).FirstOrDefault
+        'If xe Is Nothing Then
+        '    Throw New ApplicationException(String.Format("Can't find id = [{0}]", m_StrId))
+        'End If
 
-        For Each item As XElement In aXE.Elements
-            xe.Add(item)
-        Next
+        'For Each item As XElement In aXE.Elements
+        '    xe.Add(item)
+        'Next
+        'Dim xData As XElement = xECurrentFile.Element("Data")
+        xECurrentFile.Add(aXE)
+
         xECurrentFile.Save(strFilePath)
         FormExcelReader.ShowMessage("轉檔成功" + strFilePath)
         Return xECurrentFile.ToString()

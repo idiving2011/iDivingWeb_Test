@@ -60,9 +60,7 @@ Public Class ProcWove
         Dim listWove As List(Of Wove) = CType(aList, List(Of Wove))
         Dim xBlockEle As New XElement("Block")
         xBlockEle.SetAttributeValue("id", m_StrId)
-        xBlockEle.SetAttributeValue("caption", m_StrTableName)
         xBlockEle.SetAttributeValue("method", "wove")
-        xBlockEle.SetAttributeValue("href", m_StrPhpFileName)
 
         For Each item As Wove In listWove
             Dim xItem As New XElement("Item")
