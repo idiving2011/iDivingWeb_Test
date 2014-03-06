@@ -16,8 +16,11 @@
               <li>船潛：早上8點在東北角集合，搭船進行兩次潛水活動，約中午結束</li>
             </ul>
             <br/>
-            <img src="../Image/Data/NECoastrSchedule01.jpg" width="360">
+            <div style="float: right; position:absolute; right:0px; top:0px;">
+            <img src="../Image/Data/NECoastrSchedule01.jpg" width="360"><br/>
             <img src="../Image/Data/NECoastrSchedule02.jpg" width="360">
+            </div>
+            <img src="../Image/Data/NECoast_Schedul.png">
         ]]>
     </Block>
 </Data>

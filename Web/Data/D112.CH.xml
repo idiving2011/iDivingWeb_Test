@@ -9,11 +9,108 @@
     </Block>
     <Block id="plan" method="html">
       <![CDATA[ 
-            <div>岸潛：潛導費、氣瓶費、活動保險費用、裝備租借費用</div>
+            <ul>
+              <li>岸潛：潛導費、氣瓶費、活動保險費用、裝備租借費用</li>
+              <li>船潛：團費（含潛導費、氣瓶費、活動保險費用）</li>
+              <li>以上均不含來回車資及餐食費用</li>
+            </ul>
             <br/>
-            <div>船潛：團費（含潛導費、氣瓶費、活動保險費用）</div>
-            <br/>
-            <div>以上均不含來回車資及餐食費用
+            <table width="50%" border="1" cellpadding="0" cellspacing="0">
+              <tr align="center">
+                <td colspan="3">價 目 表</td>
+              </tr>
+              <tr align="center">
+                <td width="40%"><strong>項 目</strong></td>
+                <td width="30%"><strong>會 員</strong></td>
+                <td width="30%"><strong>非 會 員</strong></td>
+              </tr>
+              <tr align="center">
+                <td>面 鏡</td>
+                <td>50 元／天</td>
+                <td>100 元／天</td>
+              </tr>
+              <tr align="center">
+                <td>呼 吸 管</td>
+                <td>50 元／天</td>
+                <td>100 元／天</td>
+              </tr>
+              <tr align="center">
+                <td>防 寒 衣</td>
+                <td>100 元／天</td>
+                <td>150 元／天</td>
+              </tr>
+              <tr align="center">
+                <td>手 套</td>
+                <td>50 元／天</td>
+                <td>50 元／天</td>
+              </tr>
+              <tr align="center">
+                <td>套 鞋</td>
+                <td>50 元／天</td>
+                <td>50 元／天</td>
+              </tr>
+              <tr align="center">
+                <td>蛙 鞋</td>
+                <td>100 元／天</td>
+                <td>150 元／天</td>
+              </tr>
+              <tr align="center">
+                <td><strong>輕 裝 組 優 惠</strong></td>
+                <td><strong>300元／組／天</strong></td>
+                <td><strong>500元／組／天</strong></td>
+              </tr>
+              <tr align="center">
+                <td>調 節 器</td>
+                <td>300 元／天</td>
+                <td>400 元／天</td>
+              </tr>
+              <tr align="center">
+                <td>浮力調整裝置（BCD）</td>
+                <td>300 元／天</td>
+                <td>400 元／天</td>
+              </tr>
+              <tr align="center">
+                <td>電 腦 錶</td>
+                <td>300 元／天</td>
+                <td>400 元／天</td>
+              </tr>
+              <tr align="center">
+                <td>配 重</td>
+                <td>50 元／組</td>
+                <td>100 元／組</td>
+              </tr>
+              <tr align="center">
+                <td><strong>重裝組 租借優惠</strong></td>
+                <td><strong>700元／組／天</strong></td>
+                <td><strong>1000元／組／天</strong></td>
+              </tr>
+              <tr align="center">
+                <td>氣 瓶 費</td>
+                <td>150元／支</td>
+                <td>200元／支</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="3">導 潛 費</td>
+                <td colspan="2">初級開放水域潛水員（OWD） 200元／支</td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center">進階開放水域潛水員（AOWD） 100元／支</td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center">領導級以上潛水員（DC／Master） 0元／支</td>
+              </tr>
+              <tr align="center">
+                <td>保 險 費</td>
+                <td>100元／人／天</td>
+                <td>100元／人／天</td>
+              </tr>
+              <tr align="center">
+                <td>交通費（iDiving ↔ 東北角）</td>
+                <td>250元／人（給駕駛）</td>
+                <td>200元／人 (給駕駛)</td>
+              </tr>
+            </table>
+            <div><span class="Large Important">註：iDiving 保有更改之權力，不另行通知，以網站上最新公告為準。</span></div>
         ]]>
     </Block>
 </Data>
