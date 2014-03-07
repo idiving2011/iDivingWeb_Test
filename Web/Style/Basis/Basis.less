@@ -274,54 +274,58 @@ nav, #nav {
 }
 
 .Wove {
-	width: @Region;
+    width: @Region;
 
-	tr {
-		border-bottom: 1px solid @Horizontal;
+    tr {
+        border-bottom: 1px solid @Horizontal;
 
-		&:last-of-type {
-			border: none;
-		}
+        &:last-of-type {
+            border: none;
+        }
 
-		&[href] {
-			cursor: pointer;
+        &[href] {
+            cursor: pointer;
 
-			&:hover {
-				background-color: @YellowLight;
-			}
-		}
-	}
+            &:hover {
+                background-color: @YellowLight;
+            }
+        }
+    }
 
-	td {
-		line-height: 30px;
-		overflow: hidden;
+    td {
+        line-height: 30px;
+        overflow: hidden;
 
-		&.Bullet {
-			padding-left: 4px;
-		}
+        &.Bullet {
+            padding-left: 4px;
+        }
 
-		&.Name {
-		}
+        &.Name {
+        }
 
-		&.Date {
-		}
+        &.Date {
+        }
 
-		&.Status {
-			text-align: center;
+        &.Status {
+            text-align: center;
 
-			&.Red {
-				color: @Red;
-			}
+            &.Red {
+                color: @Red;
+            }
 
-			&.Blue {
-				color: @BlueDark;
-			}
+            &.Blue {
+                color: @BlueDark;
+            }
 
-			&.Green {
-				color: @GreenDark;
-			}
-		}
-	}
+            &.Green {
+                color: @GreenDark;
+            }
+
+            &.Orange {
+                color: @Orange;
+            }
+        }
+    }
 }
 
 .Card {
