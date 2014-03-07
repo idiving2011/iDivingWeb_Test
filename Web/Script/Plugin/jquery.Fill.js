@@ -65,7 +65,7 @@
             function wove(host, data) {
                 var table = $("<table/>", { "class": "Wove" });
                 $(data).find("Item").each(function () {
-                    $("<tr/>", { href: $(this).attr("href") })
+                    $("<tr/>", { href: _settings.basePath + "Page/" + $(this).attr("href") + ".php" })
                         .append($("<td/>", { "class": "Bullet" }).append($("<img/>", { src: _settings.basePath + "Image/Basis/Bullet.png" })))
                         .append($("<td/>", { "class": "Name", text: $(this).attr("name") }))
                         .append($("<td/>", { "class": "Date", text: $(this).attr("date") }))
@@ -151,7 +151,7 @@
                                     $("<img/>", {src: _settings.basePath + "Image/Basis/Blank.png"}).css("background-image", "url(" + $(item).attr("src") + ")")).append(
                                     $("<div/>", { "class": "Glass" })).append(
                                     $("<div/>", { "class": "Title", text: $(item).attr("name") })).append(
-                                    $("<div/>", { "class": "SubTitle", text: $(item).attr("date") })
+                                    $("<div/>", { "class": "SubTitle", text: $(item).attr("description") })
                                 )
                             );
             }

@@ -9,7 +9,7 @@ End Class
 
 Public Class ActivePic
     Public Property Name As String = String.Empty
-    Public Property Day As String = String.Empty
+    Public Property Description As String = String.Empty
     Public Property UrlAlbumCover As String = String.Empty
     Public Property UrlAlbum As String = String.Empty
 End Class

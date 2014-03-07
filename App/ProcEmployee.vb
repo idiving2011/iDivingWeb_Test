@@ -51,6 +51,11 @@ Public Class ProcEmployee
             xItem.SetAttributeValue("src", item.Src)
             xItem.SetAttributeValue("message", item.Message)
             xItem.SetAttributeValue("href", item.Href)
+
+            For Each s As String In item.SpecialtyList
+                xItem.SetAttributeValue("description", s)
+            Next
+
             xBlockEle.Add(xItem)
         Next
         Return xBlockEle

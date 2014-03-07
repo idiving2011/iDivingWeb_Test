@@ -21,7 +21,7 @@ Public Class ProcActivePic
             End If
             Dim aActivePic As New ActivePic()
             aActivePic.Name = GetString(aRow.Item(0))
-            aActivePic.Day = GetString(aRow.Item(1))
+            aActivePic.Description = GetString(aRow.Item(1))
             aActivePic.UrlAlbumCover = HttpUtility.HtmlDecode(GetString(aRow.Item(2)))
             aActivePic.UrlAlbum = HttpUtility.HtmlDecode(GetString(aRow.Item(3)))
             listActivePic.Add(aActivePic)
@@ -43,7 +43,7 @@ Public Class ProcActivePic
         For Each item As ActivePic In ActivePicList
             Dim xItem As New XElement("Item")
             xItem.SetAttributeValue("name", item.Name)
-            xItem.SetAttributeValue("date", item.Day)
+            xItem.SetAttributeValue("description", item.Description)
             xItem.SetAttributeValue("src", item.UrlAlbumCover)
             xItem.SetAttributeValue("href", item.UrlAlbum)
             xBlockEle.Add(xItem)
@@ -60,7 +60,7 @@ Public Class ProcActivePic
         For Each item As ActivePic In ActivePicList
             Dim xItem As New XElement("Item")
             xItem.SetAttributeValue("name", item.Name)
-            xItem.SetAttributeValue("date", item.Day)
+            xItem.SetAttributeValue("description", item.Description)
             xItem.SetAttributeValue("src", item.UrlAlbumCover)
             xItem.SetAttributeValue("href", item.UrlAlbum)
             xBlockEle.Add(xItem)
