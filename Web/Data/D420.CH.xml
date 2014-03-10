@@ -3,9 +3,9 @@
     <Block id="title" method="title" text="馬爾地夫"/>
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="."></Item>
-        <Item name="行程表" href="D321.php"></Item>
-        <Item name="出團日期" href="D322.php"></Item>
-        <Item name="費用" href="D323.php"></Item>
+        <Item name="行程表" href="D421.php"></Item>
+        <Item name="出團日期" href="D422.php"></Item>
+        <Item name="費用" href="D423.php"></Item>
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
