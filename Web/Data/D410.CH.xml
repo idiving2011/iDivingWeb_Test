@@ -3,9 +3,9 @@
     <Block id="title" method="title" text="帛琉"/>
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="."></Item>
-        <Item name="行程表" href="D311.php"></Item>
-        <Item name="出團日期" href="D312.php"></Item>
-        <Item name="費用" href="D313.php"></Item>
+        <Item name="行程表" href="D411.php"></Item>
+        <Item name="出團日期" href="D412.php"></Item>
+        <Item name="費用" href="D413.php"></Item>
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
