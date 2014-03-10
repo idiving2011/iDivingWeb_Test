@@ -37,6 +37,7 @@
                   　　　　　 4月-10月 星期一至星期日 14:00~22:00
                 </li>
             </ul>
+            <img src="../Image/Data/map.jpg"">
           ]]>
     </Block>
     <Block id="contact" caption="聯絡方式" method="html" back="#top">
