@@ -64,22 +64,22 @@
         </Group>
         <Group text="菲律賓">
             <Item text="阿尼洛" href="D210"/>
-            <Item text ="明多洛" href=""/>
-            <Item text ="杜馬蓋地" href=""/>
-            <Item text ="薄荷島" href=""/>
-            <Item text ="北宿霧" href=""/>
+            <Item text ="明多洛" href="D220"/>
+            <Item text ="杜馬蓋地" href="D230"/>
+            <Item text ="薄荷島" href="D240"/>
+            <Item text ="北宿霧" href="D250"/>
         </Group>
         <Group text="印尼、馬來西亞">
-            <Item text="峇里島" href=""/>
-            <Item text ="柯摩多" href=""/>
-            <Item text ="四王國群島" href=""/>
-            <Item text ="西巴丹" href="D220"/>
+            <Item text="峇里島" href="D310"/>
+            <Item text ="柯摩多" href="D320"/>
+            <Item text ="四王國群島" href="D330"/>
+            <Item text ="西巴丹" href="D340"/>
         </Group>
         <Group text="其他">
-            <Item text="帛琉" href="D310"/>
-            <Item text ="馬爾地夫" href="D320"/>
-            <Item text ="泰國斯米蘭" href="D320"/>
-            <Item text ="日本沖繩" href="D320"/>
+            <Item text="帛琉" href="D410"/>
+            <Item text ="馬爾地夫" href="D420"/>
+            <Item text ="泰國斯米蘭" href="D430"/>
+            <Item text ="日本沖繩" href="D440"/>
         </Group>
         <Group text="iDiving 給你" prop="Extra">
             <Item text="年度出團計畫" href="DZ01"/>
