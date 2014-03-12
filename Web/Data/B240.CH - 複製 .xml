@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Block id="title" method="title" text="活動照片" />
+  <Block id="album" method="screen">
+    <Item name="阿尼洛" date="2013 / 2 / 12~16" src="https://www.facebook.com/iDivingFans/photos/a.653396248029293.1073741831.263997586969163/653396481362603/?type=3&amp;theater" href="https://www.facebook.com/media/set/?set=a.653396248029293.1073741831.263997586969163&amp;type=3&amp;uploaded=12" />
+    <Item name="墾丁" date="2013 / 3 / 12~14" src="https://www.facebook.com/iDivingFans/photos/a.653389338029984.1073741827.263997586969163/653389621363289/?type=3&amp;theater" href="https://www.facebook.com/media/set/?set=a.653389338029984.1073741827.263997586969163&amp;type=3" />
+    <Item name="小琉球" date="2013 / 6 / 28~30" src="https://www.facebook.com/iDivingFans/photos/a.653392751362976.1073741828.263997586969163/653392778029640/?type=3&amp;theater" href="https://www.facebook.com/media/set/?set=a.653392751362976.1073741828.263997586969163&amp;type=3&amp;uploaded=20" />
+    <Item name="石垣島" date="2013 / 7 / 14~18" src="https://www.facebook.com/iDivingFans/photos/a.653394138029504.1073741829.263997586969163/653394514696133/?type=3&amp;theater" href="https://www.facebook.com/media/set/?set=a.653394138029504.1073741829.263997586969163&amp;type=3" />
+    <Item name="綠島" date="2013 / 9 / 6~8" src="https://www.facebook.com/iDivingFans/photos/a.653395538029364.1073741830.263997586969163/653395558029362/?type=3&amp;theater" href="https://www.facebook.com/media/set/?set=a.653395538029364.1073741830.263997586969163&amp;type=3&amp;uploaded=20" />
+    <Item name="西巴丹" date="2014 / 1 / 31 ~ 2 / 4" src="https://www.facebook.com/iDivingFans/photos/a.653397338029184.1073741832.263997586969163/653397694695815/?type=3&amp;theater" href="https://www.facebook.com/media/set/?set=a.653397338029184.1073741832.263997586969163&amp;type=3&amp;uploaded=20" />
+  </Block>
+</Data>

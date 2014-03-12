@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Block id="title" method="title" text="年度計畫" />
+  <Block id="trip" method="wove">
+    <Item name="墾丁" date="2014-04-12" type="Blue" text="可報名" href="/Page/D120" />
+    <Item name="菲律賓杜馬蓋地" date="2014-02-28" type="Black" text="已結束" href="/Page/D110" />
+    <Item name="菲律賓阿尼洛" date="2014-04-03" type="Red" text="已額滿" href="/Page/D210" />
+    <Item name="蘭嶼" date="2014-04-19" type="Blue" text="可報名" href="/Page/D150" />
+    <Item name="綠島" date="2014-05-03" type="Blue" text="可報名" href="/Page/D140" />
+    <Item name="小琉球" date="2014-05-10" type="Blue" text="可報名" href="/Page/D130" />
+    <Item name="菲律賓明多洛" date="2014-06-13" type="Green" text="剩5名" href="/Page/D110" />
+    <Item name="印尼峇里島" date="2014-09-04" type="Blue" text="可報名" href="/Page/D110" />
+    <Item name="印尼四王群島" date="2014-10-??" type="Blue" text="可報名" href="/Page/D110" />
+    <Item name="菲律賓明多洛" date="2014-11-07" type="Blue" text="可報名" href="/Page/D110" />
+    <Item name="菲律賓阿尼洛" date="2014-12-05" type="Blue" text="可報名" href="/Page/D210" />
+    <Item name="東北角" date="2014-02-09" type="Blue" text="可報名" href="/Page/D110.php" />
+  </Block>
+</Data>

@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="特色"/>
+    <Block id="title" method="title" text="iDiving 介紹"/>
     <Block id="nav" method="nav">
         <Item name="宗旨" href="#aim"/>
         <Item name="優點" href="#advantage"/>
+        <Item name="營業時間" href="#open"/>
+        <Item name="聯絡方式" href="#contact"/>
+        <Item name="匯款資訊" href="#remittance"/>
     </Block>
     <Block id="aim" caption="這裡沒有任何的壓力，只有深深的誘惑 ～" method="html" back="#top">
         <![CDATA[ 
@@ -24,5 +27,44 @@
                 <li>iDiving 每月均有眾多的潛水活動等您來參加。</li>
             </ul>
         ]]>
+    </Block>
+    <Block id="open" caption="營業時間" method="html" back="#top">
+      <![CDATA[ 
+            <ul>
+                <li>地址：<a href="https://maps.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%978%E8%99%9F" target="_blank">台北市士林區前港街8號</a></li>
+                <li>
+                  營業時間：11月-3月 星期二至星期日 14:00~21:00<br/>
+                  　　　　　 4月-10月 星期一至星期日 14:00~22:00
+                </li>
+            </ul>
+            <img src="../Image/Data/map.jpg"">
+          ]]>
+    </Block>
+    <Block id="contact" caption="聯絡方式" method="html" back="#top">
+      <![CDATA[ 
+              <ul>
+                <li>網站 : <a href="http://www.idiving.com.tw">www.idiving.com.tw</a></li>
+                <li> Facebook 粉絲團 : <a href="http://www.facebook.com/iDivingFans" target="_blank">www.facebook.com/iDivingFans</a></li>
+                <li> Email : <a href="mailto:info@idiving.com.tw">info@idiving.com.tw</a></li>
+                <br/>
+                <li>電話：<a href="tel:0228827696">(02)2882-7696</a></li>
+                <li>傳真：<a href="fax:0228827656">(02)2882-7656</a></li>
+                <li>阿甘教練 (Leon)：<a href="tel:0922803201">0922-803-201</a></li>
+                <li>雲慶教練 (Sam)：<a href="tel:0939289110">0939-289-110</a> </li>
+                <li>彥儒教練 (Max)：<a href="tel:0970051587">0970-051-587</a> </li>
+              </ul>
+          ]]>
+    </Block>
+    <Block id="remittance" caption="匯款資訊" method="html" back="#top">
+      <![CDATA[ 
+              <div>
+                iDiving全方位潛水中心 公司帳戶<br/>
+                戶名：愛潛水股份有限公司<br/>
+                銀行：中國信託<br/>
+                代號：822<br/>
+                分行：士林分行<br/>
+                帳號：285-54009941-9
+              </div>
+          ]]>
     </Block>
 </Data>
