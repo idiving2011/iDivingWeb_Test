@@ -47,6 +47,7 @@ Public MustInherit Class Proc
     End Sub
 
     Public Overridable Sub Start(dt As DataTable)
+        FormExcelReader.ShowMessage("--------------------------")
         FormExcelReader.ShowMessage("開始處理分頁" + m_StrTableName)
         Dim xeDefault As XElement = CreateDefaultXml(ReadDatatableToList(dt))
         WriteXmlFile(RemovePreviouslyEle(m_StrDefaultFilePath), xeDefault, m_StrDefaultFilePath)

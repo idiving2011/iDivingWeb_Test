@@ -1,112 +1,56 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <List>
-    <Menu text="俱樂部" prop="Hide">
-        <Group text="">
-            <Item text="俱樂部介紹" href="B400"/>
-            <Item text="入會辦法" href="B400"/>
-            <Item text ="俱樂部優惠" href="B400" tag="advantage"/>
-            <Item text ="注意事項" href=""/>
-        </Group>
-        <Group text="">
-            <Item text="年度出團計畫" href="DZ01"/>
-        </Group>
-        <Group text="">
-            <Item text="活動照片" href="B240"/>
-        </Group>
-    </Menu>
-    <Menu text="愛潛水/裝備">
-        <Group text="關於 iDiving">
-            <Item text="iDiving 介紹" href="B210"/>
-            <Item text="聯絡方式" href="B310"/>
-            <Item text="匯款方式" href=""/>
-        </Group>
-        <Group text="代理品牌">
-            <Item text="Bare" href=""/>
-            <Item text="Aquabionic" href=""/>
-            <Item text ="SharkSkin" href=""/>
-            <Item text ="Audaxpro" href=""/>
-            <Item text ="Light &amp; Motion" href=""/>
-        </Group>
-        <Group text="水肺潛水裝備">
-            <Item text="面鏡/呼吸管" href=""/>
-            <Item text="防寒衣/背心頭套" href=""/>
-            <Item text="手套/套鞋" href=""/>
-            <Item text="蛙鞋" href=""/>
-            <Item text="浮力調整裝置" href=""/>
-            <Item text="調節器組" href=""/>
-            <Item text="潛水電腦錶" href=""/>
-        </Group>
-        <Group text="自由潛水裝備">
-            <Item text="面鏡/呼吸管" href=""/>
-            <Item text="防寒衣" href=""/>
-            <Item text="配重帶" href=""/>
-            <Item text="長蛙" href=""/>
-            <Item text="安全配備" href=""/>
-        </Group>
-        <Group text="周邊產品">
-            <Item text="裝備袋/防水袋" href=""/>
-            <Item text="潛水燈具" href=""/>
-            <Item text="潛水刀" href=""/>
-            <Item text="扣具與掛架" href=""/>
-            <Item text="浮力器材/捲線器" href=""/>
-            <Item text="水底通訊配件" href=""/>
-            <Item text="書籍雜誌" href=""/>
-            <Item text="其他" href=""/>
-        </Group>
-    </Menu>
-    <Menu text="玩潛水">
-        <Group text="台灣">
-            <Item text="東北角" href="D110"/>
-            <Item text="墾丁" href="D120"/>
-            <Item text ="小琉球" href="D130"/>
-            <Item text ="綠島" href="D140"/>
-            <Item text ="蘭嶼" href="D150"/>
-        </Group>
-        <Group text="菲律賓">
-            <Item text="阿尼洛" href="D210"/>
-            <Item text ="明多洛" href=""/>
-            <Item text ="杜馬蓋地" href=""/>
-            <Item text ="薄荷島" href=""/>
-            <Item text ="北宿霧" href=""/>
-        </Group>
-        <Group text="印尼、馬來西亞">
-            <Item text="峇里島" href=""/>
-            <Item text ="柯摩多" href=""/>
-            <Item text ="四王國群島" href=""/>
-            <Item text ="西巴丹" href="D220"/>
-        </Group>
-        <Group text="其他">
-            <Item text="帛琉" href="D310"/>
-            <Item text ="馬爾地夫" href="D320"/>
-            <Item text ="泰國斯米蘭" href="D320"/>
-            <Item text ="日本沖繩" href="D320"/>
-        </Group>
-        <Group text="iDiving 給你" prop="Extra">
-            <Item text="年度出團計畫" href="DZ01"/>
-            <Item text="活動照片" href="B240"/>
-            <Item text="俱樂部介紹" href="B400"/>
-            <Item text="俱樂部優惠" href="B400" tag="advantage"/>
-        </Group>
-    </Menu>
-    <Menu text="學潛水">
-        <Group text="自由潛水員 (FD)">
-            <Item text="FD LV1-3" href="CFD110"/>
-            <Item text="FD 教練" href=""/>
-        </Group>
-        <Group text="水肺潛水員">
-            <Item text="開放水域潛水員" href="C120"/>
-            <Item text="專長潛水員" href="C310"/>
-            <Item text="進階潛水員" href="C210"/>
-        </Group>
-        <Group text="領導級潛水員">
-            <Item text="潛水主管" href="C410"/>
-            <Item text="潛水教練" href="C420"/>
-            <Item text="高階教練" href="C430"/>
-        </Group>
-        <Group text="iDiving 給你" prop="Extra">
-            <Item text ="開課計畫" href="BZ01"/>
-            <Item text="立即報名" href="CZ01"/>
-            <Item text ="教練團FB" href="B230"/>
-        </Group>
-    </Menu>
+  <Menu text="愛潛水">
+    <Group text="關於 iDiving">
+      <Item text="iDiving 介紹" href="B210" />
+      <Item text="營業時間" href="B210" />
+      <Item text="聯絡方式" href="B310" />
+      <Item text="匯款資訊" href="B310" tag="advantage" />
+    </Group>
+  </Menu>
+  <Menu text="玩潛水">
+    <Group text="台灣">
+      <Item text="東北角" href="D110" />
+      <Item text="墾丁" href="D120" />
+      <Item text="小琉球" href="D130" />
+      <Item text="綠島" href="D140" />
+      <Item text="蘭嶼" href="D150" />
+    </Group>
+    <Group text="菲律賓">
+      <Item text="阿尼洛" href="D210" />
+    </Group>
+    <Group text="印尼、馬來西亞">
+      <Item text="西巴丹" href="D340" />
+    </Group>
+    <Group text="其他">
+      <Item text="帛琉" href="D410" />
+      <Item text="馬爾地夫" href="D420" />
+      <Item text="泰國斯米蘭" href="D430" />
+      <Item text="日本沖繩" href="D440" />
+    </Group>
+    <Group text="iDiving 給你" prop="Extra">
+      <Item text="年度出團計畫" href="DZ01" />
+      <Item text="活動照片" href="B240" />
+      <Item text="俱樂部介紹" href="B400" />
+      <Item text="俱樂部優惠" href="B400" tag="advantage" />
+    </Group>
+  </Menu>
+  <Menu text="學潛水">
+    <Group text="自由潛水員 (FD)">
+      <Item text="FD LV1-3" href="CFD110" />
+    </Group>
+    <Group text="水肺潛水員">
+      <Item text="開放水域潛水員" href="C120" />
+      <Item text="專長潛水員" href="C310" />
+      <Item text="進階潛水員" href="C210" />
+    </Group>
+    <Group text="領導級潛水員">
+      <Item text="潛水主管" href="C410" />
+    </Group>
+    <Group text="iDiving 給你" prop="Extra">
+      <Item text="開課計畫" href="BZ01" />
+      <Item text="立即報名" href="CZ01" />
+      <Item text="教練團FB" href="B230" />
+    </Group>
+  </Menu>
 </List>

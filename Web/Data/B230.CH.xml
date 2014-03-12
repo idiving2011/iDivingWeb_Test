@@ -2,60 +2,192 @@
 <Data>
   <Block id="title" method="title" text="幹部教練團" />
   <Block id="coach" method="card">
-    <Item src="../Image/Coach/琳琳.jpg" href="http://www.google.com">
+    <Item src="../Image/Coach/111.jpg" href="https://www.facebook.com/kankp726">
+      <Title>核心幹部</Title>
+      <Name>阿甘</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水教練培訓官</Specialty>
+      <Specialty>SSI 自由潛水教練訓練官</Specialty>
+    </Item>
+    <Item src="../Image/Coach/112.jpg" href="https://www.facebook.com/wangsam223?fref=ts">
+      <Title>核心幹部</Title>
+      <Name>雲慶</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水教練培訓官</Specialty>
+    </Item>
+    <Item src="../Image/Coach/113.jpg" href="https://www.facebook.com/profile.php?id=1553773926&amp;fref=ts">
+      <Title>核心幹部</Title>
+      <Name>彥儒</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/114.jpg" href="https://www.facebook.com/yihui.hsieh?fref=ts">
+      <Title>核心幹部</Title>
+      <Name>謝伊暉</Name>
+      <Message></Message>
+      <Specialty>SSI 進階開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/115.jpg" href="https://www.facebook.com/jason.chang.3348?fref=ts">
+      <Title>核心幹部</Title>
+      <Name>JASON</Name>
+      <Message></Message>
+      <Specialty>SSI 進階開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/116.jpg" href="https://www.facebook.com/jeffrey.lee.528">
+      <Title>核心幹部</Title>
+      <Name>JEFFREY</Name>
+      <Message></Message>
+      <Specialty>SSI 進階開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/117.jpg" href="https://www.facebook.com/tracy.chen.58367?fref=ts">
+      <Title>核心幹部</Title>
+      <Name>TRACY</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/118.jpg" href="https://www.facebook.com/profile.php?id=1549374508&amp;fref=ts">
+      <Title>核心幹部</Title>
+      <Name>小米</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/119.jpg" href="https://www.facebook.com/billy.m.huang?fref=ts">
+      <Title>醫療顧問</Title>
+      <Name>明堃</Name>
+      <Message></Message>
+      <Specialty>SSI 專長潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/120.jpg" href="https://www.facebook.com/ralph5438?fref=ts">
+      <Title>資深幹部</Title>
+      <Name>小黃</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/121.jpg" href="https://www.facebook.com/is.crocodile?fref=ts">
+      <Title>資深幹部</Title>
+      <Name>莽夫</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/122.jpg" href="https://www.facebook.com/yang.yungchih">
+      <Title>資深幹部</Title>
+      <Name>永志</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/123.jpg" href="https://www.facebook.com/william.wu.96">
+      <Title>資深幹部</Title>
+      <Name>偉良</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/124.jpg" href="https://www.facebook.com/windannie">
+      <Title>培訓幹部</Title>
+      <Name>ANNIE</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/125.jpg" href="https://www.facebook.com/fengshu0131">
+      <Title>培訓幹部</Title>
+      <Name>阿浪</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/126.jpg" href="https://www.facebook.com/york.chang.9693">
+      <Title>培訓幹部</Title>
+      <Name>智堯</Name>
+      <Message></Message>
+      <Specialty>SSI 開放水域潛水員教練</Specialty>
+    </Item>
+    <Item src="../Image/Coach/127.jpg" href="https://www.facebook.com/jenny.cheng.0107?fref=ts">
+      <Title>機動幹部</Title>
+      <Name>JENNY</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/128.jpg" href="https://www.facebook.com/hsiaohua.fang?fref=ts">
+      <Title>機動幹部</Title>
+      <Name>方老師</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/129.jpg" href="https://www.facebook.com/briansh.chen">
+      <Title>資深幹部</Title>
+      <Name>BRAIN</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/130.jpg" href="https://www.facebook.com/harold.jian">
+      <Title>機動幹部</Title>
+      <Name>崇炫</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/131.jpg" href="https://www.facebook.com/ytldylan">
+      <Title>資深幹部</Title>
+      <Name>東陸</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/132.jpg" href="https://www.facebook.com/alex.weng.5">
+      <Title>資深幹部</Title>
+      <Name>浩洋</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/133.jpg" href="https://www.facebook.com/teiecomkimo">
+      <Title>資深幹部</Title>
+      <Name>昭銘</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/134.jpg" href="https://www.facebook.com/profile.php?id=100000072166154">
+      <Title>資深幹部</Title>
+      <Name>子涵</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/135.jpg" href="https://www.facebook.com/profile.php?id=1192786824">
+      <Title>儲備幹部</Title>
+      <Name>睿妤</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/136.jpg" href="https://www.facebook.com/jimmylin212">
+      <Title>儲備幹部</Title>
+      <Name>JIMMY</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/137.jpg" href="https://www.facebook.com/kelvin.chen.142">
+      <Title>儲備幹部</Title>
+      <Name>品仰</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/138.jpg" href="https://www.facebook.com/luke.lin.106">
+      <Title>儲備幹部</Title>
+      <Name>阿哲</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/139.jpg" href="https://www.facebook.com/sunny.yu.7946">
+      <Title>儲備幹部</Title>
+      <Name>SUNNY</Name>
+      <Message></Message>
+      <Specialty>SSI 潛水主管</Specialty>
+    </Item>
+    <Item src="../Image/Coach/140.jpg" href="https://www.facebook.com/amanda.chuang.125">
       <Title>儲備幹部</Title>
       <Name>莊琳琳</Name>
       <Message></Message>
-      <Specialty>SSI 開放水域潛水員</Specialty>
       <Specialty>SSI 進階開放水域潛水員</Specialty>
     </Item>
-    <Item src="../Image/Coach/小米.jpg" href="">
-      <Title>開放水域潛水員教練</Title>
-      <Name>小米</Name>
-      <Message></Message>
-      <Specialty>SSI 開放水域潛水員</Specialty>
-      <Specialty>SSI 進階開放水域潛水員</Specialty>
-      <Specialty>SSI 潛水主管</Specialty>
-      <Specialty>SSI 開放水域潛水員教練</Specialty>
-    </Item>
-    <Item src="../Image/Coach/伊暉.jpg" href="">
-      <Title>開放水域潛水員教練</Title>
-      <Name>謝伊暉</Name>
-      <Message>雖然我眼睛小，但是學員的蹤影絕不漏失。&lt;br /&gt;Ababab&lt;br /&gt;addd&lt;br /&gt;ddd&lt;br /&gt;&lt;br /&gt;d</Message>
-      <Specialty>SSI 開放水域潛水員</Specialty>
-      <Specialty>SSI 進階開放水域潛水員</Specialty>
-      <Specialty>SSI 潛水主管</Specialty>
-      <Specialty>SSI 開放水域潛水員教練</Specialty>
-    </Item>
-    <Item src="../Image/Coach/尚豐.jpg" href="">
-      <Title>潛水主管</Title>
-      <Name>尚豐</Name>
-      <Message></Message>
-      <Specialty></Specialty>
-    </Item>
-    <Item src="../Image/Coach/琳琳.jpg" href="">
+    <Item src="../Image/Coach/141.jpg" href="https://www.facebook.com/tina.chao.777">
       <Title>儲備幹部</Title>
-      <Name>莊琳琳</Name>
+      <Name>一容</Name>
       <Message></Message>
-      <Specialty></Specialty>
-    </Item>
-    <Item src="../Image/Coach/小米.jpg" href="">
-      <Title>開放水域潛水員教練</Title>
-      <Name>小米</Name>
-      <Message></Message>
-      <Specialty></Specialty>
-    </Item>
-    <Item src="../Image/Coach/伊暉.jpg" href="">
-      <Title>開放水域潛水員教練</Title>
-      <Name>謝伊暉</Name>
-      <Message></Message>
-      <Specialty></Specialty>
-    </Item>
-    <Item src="../Image/Coach/尚豐.jpg" href="">
-      <Title>潛水主管</Title>
-      <Name>尚豐</Name>
-      <Message></Message>
-      <Specialty></Specialty>
+      <Specialty>SSI 進階開放水域潛水員</Specialty>
     </Item>
   </Block>
 </Data>

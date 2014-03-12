@@ -13,6 +13,7 @@ Public Class ProcMenu
     End Sub
 
     Public Overrides Sub Start(dt As DataTable)
+        FormExcelReader.ShowMessage("--------------------------")
         FormExcelReader.ShowMessage("開始處理分頁" + m_StrTableName)
 
         Dim xePage As XElement = CreatePageXml(ReadDatatableToList(dt))
@@ -56,15 +57,16 @@ Public Class ProcMenu
         Dim strGroupTextPre As String = "GroupGroup"
 
         For Each aMenu As Menu In MenuList
+            If aMenu.Hide Then
+                Continue For
+            End If
 
             Dim xMenu As New XElement("Menu")
             If strMenuTextPre = aMenu.MenuText Then
                 xMenu = xMenuPre
             Else
                 xMenu.SetAttributeValue("text", aMenu.MenuText)
-                If aMenu.Hide Then
-                    xMenu.SetAttributeValue("prop", "Hide")
-                End If
+
                 xListEle.Add(xMenu)
                 xMenuPre = xMenu
                 strMenuTextPre = aMenu.MenuText

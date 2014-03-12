@@ -5,7 +5,11 @@
     Public Property Content As String = String.Empty
     Public Property Href As String = String.Empty
     Public Property ShowDefault As Boolean = False
+    Public Property NameDetail As String = String.Empty
+    Public Property DayDetail As String = String.Empty
+    Public Property ContentDetail As String = String.Empty
 End Class
+
 
 Public Class ActivePic
     Public Property Name As String = String.Empty

@@ -1,11 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data>
   <Block id="title" method="title" text="報名方式" />
-  <Block id="course" caption="學潛水" method="wove" href="Page/BZ01.php">
-    <Item name="OWD-2013-01" date="2013-02-20" type="Red" text="已額滿" href="Page/C120.php" />
-    <Item name="OWD-2013-02" date="2013-03-12" type="Green" text="特惠價" />
-    <Item name="AOWD-2013-01" date="2013-02-20" type="Blue" text="可報名" />
-    <Item name="OWD-2013-03" date="2013-02-20" type="Blue" text="可報名" />
-    <Item name="RS-2013-01" date="2013-02-21" type="Red" text="已額滿" />
+  <Block id="course" method="wove">
+    <Item name="AD-2014-03" date="2014-03-12" text="可報名" type="Blue" href="C210" />
+    <Item name="EAN-2014-03" date="2014-03-19" text="可報名" type="Blue" href="C310" />
+    <Item name="OWD-2014-01" date="2014-04-08" text="已額滿" type="Red" href="C120" />
+    <Item name="SR-2014-03" date="2014-04-09" text="可報名" type="Blue" href="C310" />
+    <Item name="EAN-2014-04" date="2014-04-16" text="可報名" type="Blue" href="C310" />
+    <Item name="OWD-2014-02" date="2014-04-22" text="剩03名" type="Orange" href="C120" />
+    <Item name="AD-2014-04" date="2014-04-23" text="可報名" type="Blue" href="C210" />
+    <Item name="OWD-2014-03" date="2014-05-06" text="可報名" type="Blue" href="C120" />
+    <Item name="AD-2014-05" date="2014-05-07" text="可報名" type="Blue" href="C210" />
+    <Item name="FD-2014-01" date="2014-05-07" text="可報名" type="Blue" href="CFD110" />
+    <Item name="EAN-2014-05" date="2014-05-14" text="可報名" type="Blue" href="C310" />
+    <Item name="OWD-2014-04" date="2014-05-20" text="可報名" type="Blue" href="C120" />
+    <Item name="OWD-2014-05" date="2014-06-03" text="可報名" type="Blue" href="C120" />
+    <Item name="EAN-2014-06" date="2014-06-04" text="可報名" type="Blue" href="C310" />
+    <Item name="FD-2014-02" date="2014-06-11" text="可報名" type="Blue" href="CFD110" />
+    <Item name="OWD-2014-06" date="2014-06-17" text="可報名" type="Blue" href="C120" />
+    <Item name="AD-2014-06" date="2014-06-18" text="可報名" type="Blue" href="C210" />
+    <Item name="OWD-2014-07" date="2014-07-01" text="可報名" type="Blue" href="C120" />
+    <Item name="AD-2014-07" date="2014-07-02" text="可報名" type="Blue" href="C210" />
+    <Item name="SR-2014-07" date="2014-07-09" text="可報名" type="Blue" href="C310" />
+    <Item name="OWD-2014-08" date="2014-07-15" text="可報名" type="Blue" href="C120" />
+    <Item name="EAN-2014-07" date="2014-07-16" text="可報名" type="Blue" href="C310" />
+    <Item name="OWD-2014-09" date="2014-07-29" text="可報名" type="Blue" href="C120" />
+    <Item name="OWD-2014-10" date="2014-08-12" text="可報名" type="Blue" href="C120" />
+    <Item name="EAN-2014-08" date="2014-08-20" text="可報名" type="Blue" href="C310" />
+    <Item name="OWD-2014-11" date="2014-08-26" text="可報名" type="Blue" href="C120" />
+    <Item name="AD-2014-08" date="2014-08-27" text="可報名" type="Blue" href="C210" />
+    <Item name="OWD-2014-12" date="2014-09-09" text="可報名" type="Blue" href="C120" />
+    <Item name="EAN-2014-09" date="2014-09-10" text="可報名" type="Blue" href="C310" />
+    <Item name="FD-2014-03" date="2014-09-22" text="可報名" type="Blue" href="CFD110" />
+    <Item name="OWD-2014-13" date="2014-09-23" text="可報名" type="Blue" href="C120" />
+    <Item name="AD-2014-09" date="2014-09-24" text="可報名" type="Blue" href="C210" />
+    <Item name="SR-2014-10" date="2014-10-01" text="可報名" type="Blue" href="C310" />
+    <Item name="OWD-2014-14" date="2014-10-07" text="可報名" type="Blue" href="C120" />
+    <Item name="EAN-2014-10" date="2014-10-08" text="可報名" type="Blue" href="C310" />
+    <Item name="AD-2014-10" date="2014-10-15" text="可報名" type="Blue" href="C210" />
+    <Item name="EAN-2014-11" date="2014-11-05" text="可報名" type="Blue" href="C310" />
+    <Item name="AD-2014-11" date="2014-11-12" text="可報名" type="Blue" href="C210" />
   </Block>
 </Data>
