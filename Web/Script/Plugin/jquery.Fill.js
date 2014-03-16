@@ -103,7 +103,6 @@
             function scroll(host, data) {
                 var arror = 24;
                 var content = $("<div/>", { "class": "Content" });
-                var viewSize = $(host).width() - arror * 2;
                 var bar = $("<div/>", { "class": "Scroll", "left": arror }).appendTo(content);
                 $(data).find("Item").each(function () {
                     $(bar).append(_view($(this)));
@@ -113,7 +112,9 @@
                 .append(
                     $("<div/>", { "class": "Arrow Left Stop" }).click(function() {
                         if ($(this).hasClass("Stop")) return this;
-                        var left = parseInt($(bar).attr("left")) + viewSize;
+                        var viewSize = $(this).parent().width() - $(this).width() * 2;
+                        var size = $(bar).find("a").width();
+                        var left = parseInt($(bar).attr("left")) + Math.floor(viewSize / size) * size;
                         var limit = arror;
                         if (left >= limit) {
                             left = limit;
@@ -125,7 +126,9 @@
                 ).append(
                     $("<div/>", { "class": "Arrow Right" }).click(function () {
                         if ($(this).hasClass("Stop")) return this;
-                        var left = parseInt($(bar).attr("left")) - viewSize;
+                        var viewSize = $(this).parent().width() - $(this).width() * 2;
+                        var size = $(bar).find("a").width();
+                        var left = parseInt($(bar).attr("left")) - Math.floor(viewSize / size) * size;
                         var limit = viewSize + arror - $(bar).width();
                         if (left <= limit) {
                             left = limit;
