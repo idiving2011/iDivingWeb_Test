@@ -15,9 +15,6 @@
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
 		<div id="Anilao" class="ArticleBox"></div>
-		<div id="Malapascua" class="ArticleBox"></div>
-		<div id="Mindoro" class="ArticleBox"></div>
-		<div id="fee" class="ArticleBox"></div>
     </div>
     <?php include "../Part/Foot.php" ; ?>
 </body>
