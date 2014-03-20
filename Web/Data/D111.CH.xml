@@ -9,6 +9,10 @@
     </Block>
     <Block id="schedule" method="html">
       <![CDATA[ 
+            <div style="float:right; width:30%">
+              <img src="../Image/Data/NECoastrSchedule01.jpg" width="100%"><br/>
+              <img src="../Image/Data/NECoastrSchedule02.jpg" width="100%">
+            </div>
             <ul>
               <li>一般：平日或週末，上午9點在東北角集合，進行兩次的潛水活動</li>
               <li>晨潛：周日早上7點在東北角集合，進行兩次的潛水活動，約中午結束</li>
@@ -16,11 +20,7 @@
               <li>船潛：早上8點在東北角集合，搭船進行兩次潛水活動，約中午結束</li>
             </ul>
             <br/>
-            <div style="float: right; position:absolute; right:0px; top:0px;">
-            <img src="../Image/Data/NECoastrSchedule01.jpg" width="360"><br/>
-            <img src="../Image/Data/NECoastrSchedule02.jpg" width="360">
-            </div>
-            <img src="../Image/Data/NECoast_Schedul.png">
+            <img src="../Image/Data/NECoast_Schedul.png" width="60%">
         ]]>
     </Block>
 </Data>
