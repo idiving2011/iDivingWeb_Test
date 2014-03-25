@@ -1,15 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="日本"/>
-    <Block id="nav" method="nav">
-        <Item name="景點介紹" href="."></Item>
-        <Item name="行程表" href="D231.php"></Item>
-        <Item name="出團日期" href="D232.php"></Item>
-        <Item name="費用" href="D233.php"></Item>
-    </Block>
-    <Block id="intro" method="html">
-      <![CDATA[ 
-            <div></div>
+  <Block id="title" method="title" text="杜馬蓋地"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="."></Item>
+    <Item name="行程表" href="D231.php"></Item>
+    <Item name="費用說明" href="D232.php"></Item>
+    <Item name="注意事項" href="D233.php"></Item>
+  </Block>
+  <Block id="intro" method="html">
+    <![CDATA[ 
+            <img src="../Image/Data/DumagueteIntro.jpg" style="float: right; width: 300px">
+            <div>杜馬蓋地(Dumaguete)在菲律賓的中部區域，地處Negros島的東南邊，</div>
+            <br/>
+            <div>是這一區的文化經濟重鎮，飯店和餐廳大多集中在濱海大道(Rizal Boulevard)，</div>
+            <br/>
+            <div>而主要的潛水區域則是在市區南方，車程約30分鐘的Dauin區，</div>
+            <br/>
+            <div>豐富的自然景觀及多樣性的海洋生物，吸引了不少外國潛客前來，</div>
+            <br/>
+            <div>讓此地成為菲律賓著名的潛水勝地之一。</div>
+            <br/>
+            <div>杜馬蓋地位於颱風帶之外，不易受到颱風的影響，</div>
+            <br/>
+            <div>幾乎全年都可進行潛水活動，此區豐富的生物及景觀，</div>
+            <br/>
+            <div>微小如米粒大小的海蛞蝓，巨大至公車般的鯨鯊，</div>
+            <br/>
+            <div>甚至不常見的娃娃魚、藍環章魚、糖果蟹等，都有機會能一次滿足喜愛水攝的朋友的需求唷！</div>
         ]]>
-    </Block>
+  </Block>
 </Data>
