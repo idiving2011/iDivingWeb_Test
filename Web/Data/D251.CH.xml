@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="馬拉帕斯加"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="D250.php"></Item>
+    <Item name="行程表" href="."></Item>
+    <Item name="費用說明" href="D252.php"></Item>
+    <Item name="注意事項" href="D253.php"></Item>
+  </Block>
+  <Block id="schedule" method="html">
+    <![CDATA[ 
+            <span class="Large Focus">五天六夜的活動行程，共船潛10次</span>
+            <ul>
+              <li>Day 0　晚上在桃園機場集合。</li>
+              <li>Day 1　搭凌晨的飛機出發，轉國內線後再搭車到碼頭，轉搭交通船前往度假村，午餐後開始潛水。</li>
+              <li>Day 2　第一支安排去看長尾鯊，之後會再進行兩次潛水活動，晚上為自由活動時間。</li>
+              <li>Day 3　第一支安排去看長尾鯊，之後會再進行兩次潛水活動，晚上為自由活動時間。</li>
+              <li>Day 4　白天共進行三次潛水活動（船潛），晚上為自由活動時間。</li>
+              <li>Day 5　午餐後離開度假村，搭機飛往馬尼拉，搭乘晚班飛機返台，預計晚上12：40抵達。</li>
+            </ul>
+            <br/>
+            <img src="../Image/Data/MalapascuaSchedule01.jpg" width="360">
+            <img src="../Image/Data/MalapascuaSchedule02.jpg" width="360" align="top">
+        ]]>
+  </Block>
+</Data>
