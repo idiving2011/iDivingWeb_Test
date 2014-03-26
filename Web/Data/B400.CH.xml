@@ -7,7 +7,7 @@
         <Item name="好康優惠" href="#advantage"></Item>
         <Item name="注意事項" href="#note"></Item>
     </Block>
-    <Block id="aim" caption="Series diving series fun" method="html" back="#top">
+    <Block id="aim" caption="Serious diving serious fun" method="html" back="#top">
       <![CDATA[ 
             <div>iDiving 俱樂部成立之目的，是為了提供潛水同好一個培養潛水活力的環境</div>
             <div>藉由各項潛水活動的進行，凝聚會員之間的向心力</div>
