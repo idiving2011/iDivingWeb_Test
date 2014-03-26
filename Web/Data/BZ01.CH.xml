@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data>
-  <Block id="title" method="title" text="報名方式" />
+  <Block id="title" method="title" text="課程年度計畫" />
   <Block id="course" method="wove">
     <Item name="AD-2014-03" date="2014-03-12" text="可報名" type="Blue" href="C210" />
     <Item name="EAN-2014-03" date="2014-03-19" text="可報名" type="Blue" href="C310" />
