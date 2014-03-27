@@ -8,7 +8,7 @@
         <Item name="超值學費" href="#OWD"></Item>
         <Item name="立刻報名" href="C124.php"></Item>
     </Block>
-    <Block id="OWD" caption="OWD 課程費用" method="html" back="#top">
+    <Block id="OWD" caption="OWD 開放水域潛水員課程費用" method="html" back="#top">
       <![CDATA[
             <div>OWD 課程費用： iDiving 超殺優惠價 13,000 元</div>
             <br/>
@@ -21,7 +21,7 @@
             <div>費用不含：<span class="Note">海洋實習交通費、餐費。</span></div>
         ]]>
     </Block>
-    <Block id="AOWD" caption="AOWD 課程費用" method="html" back="#top">
+    <Block id="AOWD" caption="AOWD 進階開放水域潛水員課程費用" method="html" back="#top">
       <![CDATA[
               <ul>
                 <li><span class="Large Focus">SSI 標準價格 8,900 元</span></li>
@@ -62,7 +62,7 @@
               </table>
           ]]>
     </Block>
-    <Block id="NITROX" caption="NITROX 課程費用" method="html" back="#top">
+    <Block id="NITROX" caption=" EAN 高氧潛水員課程" method="html" back="#top">
       <![CDATA[
                     <ul>
                       <li><span class="Large Focus">SSI 標準價格 7,800 元</span></li>
@@ -74,7 +74,7 @@
                     <div>註一: 搭配iDiving俱樂部東北角活動享免費高氧瓶一支, 搭配出團享一般氣瓶免費升級高氧瓶</div>
                 ]]>
     </Block>
-    <Block id="SR" caption="SR 課程費用" method="html" back="#top">
+    <Block id="SR" caption="SR 壓力與救員潛水員課程" method="html" back="#top">
       <![CDATA[
                       <ul>
                         <li><span class="Large Focus">SSI 標準價格 8,800  元</span></li>
