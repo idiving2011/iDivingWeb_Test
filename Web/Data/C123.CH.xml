@@ -62,7 +62,7 @@
               </table>
           ]]>
     </Block>
-    <Block id="NITROX" caption=" EAN 高氧潛水員課程" method="html" back="#top">
+    <Block id="NITROX" caption="EAN 高氧潛水員課程" method="html" back="#top">
       <![CDATA[
                     <ul>
                       <li><span class="Large Focus">SSI 標準價格 7,800 元</span></li>
@@ -71,7 +71,7 @@
                     <br/>
                     <div>費用包含：SSI 教材、國際證照申請、教練費、高氧氣瓶使用 1 次（註一）</div>
                     <div>費用不含：<span class="Note">潛水裝備、術科時潛水旅遊之團費（請參考各旅遊團實際出團報價）</span></div>
-                    <div>註一: 搭配iDiving俱樂部東北角活動享免費高氧瓶一支, 搭配出團享一般氣瓶免費升級高氧瓶</div>
+                    <div>註一：搭配iDiving東北角活動享免費高氧氣瓶一支，或搭配iDiving國內外潛水團享一般氣瓶免費升級高氧氣瓶(一支)</div>
                 ]]>
     </Block>
     <Block id="SR" caption="SR 壓力與救援潛水員課程" method="html" back="#top">
