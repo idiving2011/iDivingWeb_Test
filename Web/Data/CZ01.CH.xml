@@ -3,7 +3,7 @@
     <Block id="title" method="title" text="線上報名"/>
     <Block id="register" method="html">
       <![CDATA[
-            <iframe src="https://docs.google.com/forms/d/1lPtpRR4AeqzUwlGjzbJbpsnl-jXFZMNVm9tWaC1XYYk/viewform?embedded=true" width="760" height="1900" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+            <iframe src="https://docs.google.com/forms/d/1Wj6jcyw8Qp1o59oWuB5RFQ5WS7No5ygVEWlGR8Nvvmw/viewform?embedded=true" width="760" height="1900" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
         ]]>
     </Block>
 </Data>
