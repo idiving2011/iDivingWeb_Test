@@ -1,16 +1,125 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="Nitrox高氧 / SR壓力與救援"/>
-    <Block id="nav" method="nav">
-        <Item name="課程規劃" href="C310.php"></Item>
-        <Item name="學前須知" href="C311.php"></Item>
-        <Item name="開課日期" href="."></Item>
-        <Item name="超值學費" href="C313.php#NITROX"></Item>
-        <Item name="立刻報名" href="C314.php"></Item>
-    </Block>
-    <Block id="plan" caption="Nitrox高氧 / SR壓力與救援課程" method="html">
-      <![CDATA[
-            <img src="../Image/Data/EAN_SR_AOWD_Schedul.png"/>
+  <Block id="title" method="title" text="高氧"/>
+  <Block id="nav" method="nav">
+    <Item name="課程規劃" href="#weekend"></Item>
+    <Item name="學前須知" href="#notice"></Item>
+    <Item name="開課日期" href="#plan"></Item>
+    <Item name="超值學費" href="#tuition"></Item>
+    <Item name="立刻報名" href="#register"></Item>
+  </Block>
+  <Block id="weekend" caption="課程規劃" method="html" back="#top">
+    <![CDATA[ 
+            <table border="1" width="80%">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td>學 科</td>
+                <td>第 一 堂<br/>19：00 ~ 22：00</td>
+                <td>
+                  高氧知識介紹<br/>
+                  高氧的使用策略
+                </td>
+                <td>iDiving<br/>教 室</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2">
+                  海 洋 實 習<br/>
+                  (略)
+                </td>
+                <td>周 六<br/>09：00 ~ 16：00</td>
+                <td>
+                  僅高氧氣瓶提供<br/>
+                  高氧的使用策略術科課程合併ｉＤｉｖｉｎｇ俱樂部各項活動
+                </td>
+                <td>
+                  東北角<br/>
+                  或搭配<br/>
+                  潛水旅遊
+                </td>
+              </tr>
+            </table>
         ]]>
-    </Block>
+  </Block>
+  <Block id="notice" caption="學前須知" method="html" back="#top">
+    <![CDATA[
+            <ol>
+                <li>學費４000 包含：學科教練費及證照申請費，東北角高氧氣瓶使用一次或隨俱樂部出團時升級高氧瓶一支。
+                </li>
+                <li>課程之訓練費用與 2 吋大頭照一張，請於上課時繳齊。</li>
+                <li>學員結訓後，訓練中心將於兩週內完成SSI國際潛水證照申請作業。<br/>
+                  高氧的使用策略（如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
+                </li>
+            </ol>
+      ]]>
+  </Block>
+  <Block id="plan" caption="開課日期" method="html" back="#top">
+    <![CDATA[
+            <p>7/16,  8/20,   9/10,  10/8,  11/5,  12/17</p>
+            <img src="../Image/Data/Schedul.jpg" width="80%"/>
+        ]]>
+  </Block>
+  <Block id="tuition" caption="超值學費" method="html" back="#top">
+    <![CDATA[
+                <ul>
+                  <li><span class="Large Focus">高氧學費4000<br/>
+                  費用包含：國際證照申請、教練費、東北角高氧氣瓶使用一次或隨俱樂部出團升級高氧瓶一次</span></li>
+                </ul>
+                <br/>
+                <div>費用包含：國際證照申請、教練費、裝備租借費用、海洋實習保險費</div>
+                <div>費用不含：移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）</span></div>
+                <br/>
+                <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2014 年國內潛水旅遊團費</span></div></h3>
+                <table border="1" width="50%">
+                  <tr align="center">
+                    <td width="40%">地點</td>
+                    <td width="30%">團費</td>
+                    <td width="30%">日期</td>
+                  </tr>
+                  <tr align="center">
+                    <td><a href="D120.php">墾丁</a></td>
+                    <td>6,500 元</td>
+                    <td>兩天兩夜</td>
+                  </tr>
+                  <tr align="center">
+                    <td><a href="D130.php">小琉球</a></td>
+                    <td>7,500 元</td>
+                    <td>兩天一夜</td>
+                  </tr>
+                  <tr align="center">
+                    <td><a href="D140.php">綠島</a></td>
+                    <td>11,000 元</td>
+                    <td>三天兩夜</td>
+                  </tr>
+                  <tr align="center">
+                    <td><a href="D150.php">蘭嶼</a></td>
+                    <td>15,000 元</td>
+                    <td>四天三夜</td>
+                  </tr>
+                </table>
+            ]]>
+  </Block>
+  <Block id="register" caption="立刻報名" method="html" back="#top">
+    <![CDATA[
+              <ol>
+                  <li>請 email 至 <a href="mailto:leon@idiving.com.tw">leon@idiving.com.tw</a> 阿甘教練會與您聯繫</li>
+                  <li>請電洽 iDiving 02-2882-7696，或 FAX 02-2882-7656</li>
+                  <li><a href="CZ01.php">網路報名</a></li>
+              </ol>
+          ]]>
+  </Block>
+  <Block id="processing" caption="報名流程" method="html" back="#top">
+    <![CDATA[
+              <ol>
+                <li>填寫個人資料 (可收信件之地址務必正確以利教材寄送)。 <a href="/RegistrationForm-CH.pdf">下載報名表PDF</a></li>
+                <li>繳交訂金3000元，如利用匯款方式繳費者請告知帳號末５碼</li>
+                <li>收到訂金後，一周內iDiving會將教材寄出。</li>
+                <li>上課前請準備好二吋照片1張（電子檔更好），申請潛水證照使用</li>
+              </ol>
+          ]]>
+  </Block>
 </Data>
