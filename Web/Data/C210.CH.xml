@@ -2,7 +2,7 @@
 <Data>
     <Block id="title" method="title" text="進階探索潛水員"/>
     <Block id="nav" method="nav">
-        <Item name="課程規劃" href="."></Item>
+        <Item name="課程規劃" href="#weekend"></Item>
         <Item name="學前須知" href="#notice"></Item>
         <Item name="開課日期" href="#plan"></Item>
         <Item name="超值學費" href="#tuition"></Item>
