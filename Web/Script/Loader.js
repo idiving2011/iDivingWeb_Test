@@ -3,6 +3,7 @@
 /// <reference path = "Plugin\jquery.Message.js" />
 /// <reference path = "Plugin\jquery.Fill.js" />
 /// <reference path = "Plugin\jquery.cookie.js" />
+/// <reference path = "Plugin\jquery.ga.js" />
 
 var dev;
 var basePath;
@@ -16,6 +17,7 @@ $(document).ready(function () {
 
     resource();
     checkParent();
+    trace();
     xUI();
     extension();
     data();
@@ -31,7 +33,7 @@ $(document).ready(function () {
 /* === Private Function === */
 // Resource
 function resource() {
-    var basis = "jquery.cookie.js; jquery.Message.js; jquery.Menu.js; xUI.Menu.less; xUI.Head.less; xUI.Foot.less; xUI.Message.less; Basis.less; jquery.Fill.js";
+    var basis = "jquery.ga.js; jquery.cookie.js; jquery.Message.js; jquery.Menu.js; xUI.Menu.less; xUI.Head.less; xUI.Foot.less; xUI.Message.less; Basis.less; jquery.Fill.js";
     var extra = $("meta[name='Extra']").attr("content");
     var pointer = $("script[src$='Loader.js']");
 
@@ -62,6 +64,11 @@ function addResource(pointer, source, basePath, folder) {
             pointer.after($("<link/>", { rel: "stylesheet/css", href: basePath + "Style/" + folder + "/" + value }));
         }
     });
+}
+
+//Trace
+function trace() {
+    $.ga.load("UA-46520389-1");
 }
 
 //CheckParnet
