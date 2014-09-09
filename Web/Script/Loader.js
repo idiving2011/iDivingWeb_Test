@@ -11,10 +11,11 @@ var basePath;
 $(document).ready(function () {
     dev = top.location.toString().match(/\?(.+=.*&)*dev/)
     isIE = /msie/i.test(navigator.userAgent);
-
+    
     basePath = $("meta[name='BasePath']").attr("content");
     if (!basePath) basePath = "../";
 
+    //viewPort();
     resource();
     checkParent();
     trace();
@@ -31,6 +32,12 @@ $(document).ready(function () {
 });
 
 /* === Private Function === */
+//Viewport
+function viewPort() {
+    $("title").after($("<meta/>", { name: "viewport", content: "width=device-width, initial-scale=1.0" }));
+}
+
+
 // Resource
 function resource() {
     var basis = "jquery.ga.js; jquery.cookie.js; jquery.Message.js; jquery.Menu.js; xUI.Menu.less; xUI.Head.less; xUI.Foot.less; xUI.Message.less; Basis.less; jquery.Fill.js";

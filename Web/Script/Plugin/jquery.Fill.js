@@ -6,9 +6,11 @@
         fill: function (data, settings) {
             
             function _caption(host, data) {
-                var caption = $(data).attr("caption");
-                if (caption != null) {
-                    $(host).append($("<div/>", { "class": "Caption", text: caption }));
+                if ($(data).is("[caption]")) {
+                    $(host).append($("<div/>", { "class": "Caption", text: $(data).attr("caption") }));
+                }
+                if ($(data).is("[tag]")) {
+                    $(host).attr("tag", $(data).attr("tag"));
                 }
             }
 
@@ -77,6 +79,21 @@
                         })
                 });
                 $(host).append($("<div/>", { "class":"Content"}).append(table));
+            }
+
+            function tab(host, data) {
+                var tab = $("<div/>", { "class": "Tab" });
+                $(data).find("Item").each(function () {
+                    $("<div/>", { text: $(this).attr("name"), "class": "Tag" + ($(data).attr("selected") == $(this).attr("name") ? " Selected" : "") })
+                        .click(function () {
+                            if ($(this).hasClass("Selected"))
+                                return;
+                            $("div[tag]").hide();
+                            $("div[tag='" +$(this).text()  + "']").show();
+                        })
+                        .appendTo(tab)
+                });
+                $(host).append($("<a/>", {id: "tab"})).append($("<div/>", { text: $(data).attr("description") })).append(tab);
             }
 
             function card(host, data) {
