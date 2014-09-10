@@ -23,6 +23,12 @@ div, span, label {
     cursor: default;
 }
 
+ol, ol li {
+    margin-left: 8px;
+    margin-bottom: 12px;
+    padding-left: 6px;
+}
+
 table {
     border-collapse: collapse;
 
@@ -275,6 +281,7 @@ nav, #nav {
 
 .Wove {
     width: @Region;
+    color: @Word;
 
     tr {
         border-bottom: 1px solid @Horizontal;
@@ -392,18 +399,16 @@ nav, #nav {
     .FontStyle(18px);
     background-color: @GrayLight;
     border-bottom: 1px solid @Line;
+    margin-top: 12px;
 
-    .Tag{
-        border-left: 1px solid @Line;
-        border-top: 1px solid @Line;
+    .Tag {
+        border-top: 1px solid @GrayLight;
         float: left;
         line-height: 31px;
-        padding: @Zero 12px;
+        padding: @Zero 24px;
         cursor: pointer;
-
-        &:last-of-type {
-            border-right: 1px solid @Line;
-        }
+        text-align: center;
+        color: @Link;
 
         &:hover{
             background-color: @Yellow;
@@ -412,8 +417,12 @@ nav, #nav {
 
         &.Selected{
             background-color: @White;
+            border-top: 1px solid @Line;
+            border-left: 1px solid @Line;
+            border-right: 1px solid @Line;
             border-bottom: 1px solid @Empty;
             cursor: default;
+            color: @Word;
 
             &:hover{
                 background-color: @White;

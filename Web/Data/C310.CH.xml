@@ -25,7 +25,7 @@
         <Item name="完美中性浮力"/>
         <Item name="壓力與救援"/>
     </Block>
-    <Block id="notice1" caption="學前須知" method="html" back="#tab" tag="深潛">
+    <Block id="notice1" caption="學前須知" method="html" back="#top" tag="深潛">
         <![CDATA[
             <ol>
                 <li>iDiving 採保證班的教學方式，如果學員須複習或延訓，不另外加收訓練費或裝備使用費。<br/>
@@ -45,14 +45,14 @@
             </ol>
       ]]>
     </Block>
-    <Block id="plan1" caption="開課日期" method="html" back="#tab" tag="深潛">
+    <Block id="plan1" caption="開課日期" method="html" back="#top" tag="深潛">
         <![CDATA[
             <p>7/10.12,  8/5.9,   9/17.20,   10/3.4<br/>
             11/6.移地結訓,   12/3.移地結訓</p>
             <img src="../Image/Data/Schedul.jpg" width="80%"/>
         ]]>
     </Block>
-    <Block id="tuition1" caption="超值學費" method="html" back="#tab" tag="深潛">
+    <Block id="tuition1" caption="超值學費" method="html" back="#top" tag="深潛">
         <![CDATA[
                 <ul>
                   <li>
@@ -98,7 +98,7 @@
             ]]>
     </Block>
     <!--高氧-->
-    <Block id="notice2" caption="學前須知" method="html" back="#tab" tag="高氧">
+    <Block id="notice2" caption="學前須知" method="html" back="#top" tag="高氧">
         <![CDATA[
             <p>高氧</p>
             <ol>
@@ -119,14 +119,14 @@
             </ol>
       ]]>
     </Block>
-    <Block id="plan2" caption="開課日期" method="html" back="#tab" tag="高氧">
+    <Block id="plan2" caption="開課日期" method="html" back="#top" tag="高氧">
         <![CDATA[
             <p>7/10.12,  8/5.9,   9/17.20,   10/3.4<br/>
             11/6.移地結訓,   12/3.移地結訓</p>
             <img src="../Image/Data/Schedul.jpg" width="80%"/>
         ]]>
     </Block>
-    <Block id="tuition2" caption="超值學費" method="html" back="#tab" tag="高氧">
+    <Block id="tuition2" caption="超值學費" method="html" back="#top" tag="高氧">
         <![CDATA[
                 <ul>
                   <li>
@@ -172,7 +172,7 @@
             ]]>
     </Block>
     
-    <Block id="register" caption="立刻報名" method="html" back="#tab">
+    <Block id="register" caption="立刻報名" method="html" back="#top">
         <![CDATA[
               <ol>
                   <li>請 email 至 <a href="mailto:leon@idiving.com.tw">leon@idiving.com.tw</a> 阿甘教練會與您聯繫</li>
@@ -181,7 +181,7 @@
               </ol>
           ]]>
     </Block>
-    <Block id="processing" caption="報名流程" method="html" back="#tab">
+    <Block id="processing" caption="報名流程" method="html" back="#top">
         <![CDATA[
               <ol>
                 <li>填寫個人資料 (可收信件之地址務必正確以利教材寄送)。 <a href="/RegistrationForm-CH.pdf">下載報名表PDF</a></li>

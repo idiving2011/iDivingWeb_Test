@@ -9,6 +9,9 @@
                 if ($(data).is("[caption]")) {
                     $(host).append($("<div/>", { "class": "Caption", text: $(data).attr("caption") }));
                 }
+            }
+
+            function _tag(host, data) {
                 if ($(data).is("[tag]")) {
                     $(host).attr("tag", $(data).attr("tag"));
                 }
@@ -88,7 +91,10 @@
                         .click(function () {
                             if ($(this).hasClass("Selected"))
                                 return;
+                            $(this).siblings().removeClass("Selected");
                             $("div[tag]").hide();
+
+                            $(this).addClass("Selected");
                             $("div[tag='" +$(this).text()  + "']").show();
                         })
                         .appendTo(tab)
@@ -203,6 +209,7 @@
             var _settings = $.extend(_defaultSettings, settings);
 
             _caption($(this), data);
+            _tag($(this), data);
             eval($(data).attr("method"))($(this), data);
             _navigation($(this), data);
 
