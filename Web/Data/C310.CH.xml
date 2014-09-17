@@ -69,7 +69,7 @@
                 <div>費用不含：移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）</span></div>
                 <br/>
                 <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2014 年國內潛水旅遊團費</span></div></h3>
-                <tagle border="1" width="50%">
+                <table border="1" width="50%">
                   <tr align="center">
                     <td width="40%">地點</td>
                     <td width="30%">團費</td>
@@ -95,7 +95,7 @@
                     <td>15,000 元</td>
                     <td>四天三夜</td>
                   </tr>
-                </tagle>
+                </table>
             ]]>
     </Block>
     <!--高氧-->
