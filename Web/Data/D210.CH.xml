@@ -1,15 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="菲律賓"/>
+    <Block id="title" method="title" text="阿尼洛"/>
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="."></Item>
         <Item name="行程表" href="D211.php"></Item>
-        <Item name="出團日期" href="D212.php"></Item>
-        <Item name="費用" href="D213.php"></Item>
+        <Item name="費用說明" href="D212.php"></Item>
+        <Item name="注意事項" href="D213.php"></Item>
     </Block>
     <Block id="intro" method="html">
       <![CDATA[ 
-            <div></div>
+            <img src="../Image/Data/AnilaoIntro.jpg" style="float: right; width: 300px">
+            <div>阿尼洛(Anilao)位於菲律賓首都馬尼拉的南方約120公里處，</div>
+            <br/>
+            <div>早期是一個小漁村，四周海域有著豐富的海洋生物，</div>
+            <br/>
+            <div>由於觀光產業的興起，配合便利的交通，成為菲律賓第一個開發潛水旅遊的地方，</div>
+            <br/>
+            <div>加上當地的消費較低，吸引了不少國內潛水愛好者到訪。</div>
+            <br/>
+            <div>阿尼洛的周圍有著許多難易度不同的潛點，</div>
+            <br/>
+            <div>不論是剛拿到證照的新手，或是已有豐富經驗的老手，都有合適的潛點可以選擇；</div>
+            <br/>
+            <div>水下具有多樣性的生物相，渺小如豆丁海馬、蜘蛛蟹，大至巨型海扇、魚群風暴，</div>
+            <br/>
+            <div>對於愛好水中攝影的潛友來說，不論是微距或廣角，都能滿足不同的需求！</div>
         ]]>
     </Block>
 </Data>

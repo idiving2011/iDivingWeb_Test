@@ -3,9 +3,9 @@
   <Menu text="愛潛水">
     <Group text="關於 iDiving">
       <Item text="iDiving 介紹" href="B210" />
-      <Item text="營業時間" href="B210" />
-      <Item text="聯絡方式" href="B310" />
-      <Item text="匯款資訊" href="B310" tag="advantage" />
+      <Item text="營業時間" href="B210" tag="open" />
+      <Item text="聯絡方式" href="B210" tag="contact" />
+      <Item text="匯款資訊" href="B210" tag="remittance" />
     </Group>
   </Menu>
   <Menu text="玩潛水">
@@ -18,15 +18,17 @@
     </Group>
     <Group text="菲律賓">
       <Item text="阿尼洛" href="D210" />
+      <Item text="明多洛" href="D220" />
+      <Item text="杜馬蓋地" href="D230" />
+      <Item text="馬拉帕斯加" href="D250" />
     </Group>
     <Group text="印尼、馬來西亞">
+      <Item text="峇里島" href="D310" />
       <Item text="西巴丹" href="D340" />
     </Group>
     <Group text="其他">
       <Item text="帛琉" href="D410" />
       <Item text="馬爾地夫" href="D420" />
-      <Item text="泰國斯米蘭" href="D430" />
-      <Item text="日本沖繩" href="D440" />
     </Group>
     <Group text="iDiving 給你" prop="Extra">
       <Item text="年度出團計畫" href="DZ01" />
@@ -41,8 +43,8 @@
     </Group>
     <Group text="水肺潛水員">
       <Item text="開放水域潛水員" href="C120" />
+      <Item text="進階探索潛水員" href="C210" />
       <Item text="專長潛水員" href="C310" />
-      <Item text="進階潛水員" href="C210" />
     </Group>
     <Group text="領導級潛水員">
       <Item text="潛水主管" href="C410" />

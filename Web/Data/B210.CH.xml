@@ -31,10 +31,18 @@
     <Block id="open" caption="營業時間" method="html" back="#top">
       <![CDATA[ 
             <ul>
-                <li>地址：<a href="https://maps.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%978%E8%99%9F" target="_blank">台北市士林區前港街8號</a></li>
+                <li>地址：
+                  <a href="https://maps.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%978%E8%99%9F" target="_blank">台北市士林區前港街8號</a>
+                  <div>（捷運劍潭站2號出口，往承德路方向步行約5分鐘，看到中國信託大樓就接近囉！）</div>
+                </li>
                 <li>
-                  營業時間：11月-3月 星期二至星期日 14:00~21:00<br/>
+                  營業時間：11月-3月 星期二至星期日 14:00~21:00 　周一公休<br/>
                   　　　　　 4月-10月 星期一至星期日 14:00~22:00
+                </li>
+                <li>
+                  <div>停車資訊：前港公園 平日20/hr 假日30/hr</div>
+                  <div>&#12288;&#12288;&#12288;&#12288;&#12288;百齡高中地下停車場 平日30~40/hr 假日40~50/hr</div>
+                  <div>&#12288;&#12288;&#12288;&#12288;&#12288;士林夜市臨時停車場 平日30~40/hr 假日40~50/hr</div>
                 </li>
             </ul>
             <img src="../Image/Data/map.jpg"">

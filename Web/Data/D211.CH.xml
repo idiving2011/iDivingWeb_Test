@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="菲律賓"/>
+    <Block id="title" method="title" text="阿尼洛"/>
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="D210.php"></Item>
         <Item name="行程表" href="."></Item>
-        <Item name="出團日期" href="D212.php"></Item>
-        <Item name="費用" href="D213.php"></Item>
+        <Item name="費用說明" href="D212.php"></Item>
+        <Item name="注意事項" href="D213.php"></Item>
     </Block>
     <Block id="schedule" method="html">
       <![CDATA[ 
-            <!--<img src="../Image/Data/Abroad.jpg"/>-->
+            <span class="Large Focus">四天五夜的活動行程，共船潛7次</span>
+            <ul>
+              <li>Day 0　晚上在桃園機場集合。</li>
+              <li>Day 1　搭凌晨的飛機出發，再轉車前往飯店，預計中午前抵達，下午開始潛水活動（船潛）。</li>
+              <li>Day 2　白天共進行三次潛水活動（船潛），晚上為自由活動時間。</li>
+              <li>Day 3　白天共進行三次潛水活動（船潛），晚上為自由活動時間。</li>
+              <li>Day 4　早餐後收拾行李，搭車前往馬尼拉，搭乘晚班飛機，預計凌晨12點抵達台灣。</li>
+            </ul>
+            <br/>
+            <img src="../Image/Data/AnilaoSchedule01.jpg" width="360">
+            <img src="../Image/Data/AnilaoSchedule02.jpg" width="360" align="top">
         ]]>
     </Block>
 </Data>

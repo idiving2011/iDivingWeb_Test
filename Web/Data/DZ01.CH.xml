@@ -1,18 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data>
-  <Block id="title" method="title" text="年度計畫" />
+  <Block id="title" method="title" text="旅遊年度計畫" />
   <Block id="trip" method="wove">
-    <Item name="ddd杜馬蓋地測試  / 菲" date="2014-02-28ddd" text="已額滿vfvsdafdsa" type="Red" href="D110" />
-    <Item name="ddd阿尼洛 / 菲" date="2014-04-03ddd" text="已額滿fdsafdas" type="Red" href="D210" />
-    <Item name="ddd墾丁" date="2014-04-12" text="可報名" type="Blue" href="D120" />
-    <Item name="蘭嶼" date="2014-04-19" text="可報名" type="Blue" href="D150" />
-    <Item name="綠島" date="2014-05-03" text="可報名" type="Blue" href="D140" />
-    <Item name="小琉球" date="2014-05-10" text="可報名" type="Blue" href="D130" />
-    <Item name="明多洛 / 菲" date="2014-06-13" text="剩05名" type="Orange" href="D110" />
-    <Item name="峇里島 / 印" date="2014-09-04" text="可報名" type="Blue" href="D110" />
-    <Item name="四王群島 / 印" date="2014-10-??" text="可報名" type="Blue" href="D110" />
-    <Item name="明多洛 / 菲" date="2014-11-07" text="可報名" type="Blue" href="D110" />
-    <Item name="阿尼洛 / 菲" date="2014-12-05" text="可報名" type="Blue" href="D210" />
-    <Item name="東北角" date="2014-02-09" text="可報名" type="Blue" href="D110" />
+    <Item name="墾丁 潛水之旅" date="2014 / 8 / 23 ~ 24" text="已額滿" type="Red" href="D120" />
+    <Item name="帛琉 潛水之旅" date="2014 / 8 / 23 ~ 27" text="已額滿" type="Red" href="D410" />
+    <Item name="印尼 峇里島 潛水之旅" date="2014 / 9 / 3 ~ 8" text="已額滿" type="Red" href="D310" />
+    <Item name="小琉球 潛水之旅" date="2014 / 9 / 13 ~ 14" text="已額滿" type="Red" href="D130" />
+    <Item name="綠島 潛水之旅" date="2014 / 9 / 26 ~ 28" text="已額滿" type="Red" href="D140" />
+    <Item name="蘭嶼 潛水之旅" date="2014 / 9 / 26 ~ 29" text="已額滿" type="Red" href="D150" />
+    <Item name="墾丁 潛水之旅" date="2014 / 10 / 4 ~ 5" text="已額滿" type="Red" href="D120" />
+    <Item name="小琉球 潛水之旅" date="2014 / 10 / 10 ~ 12" text="已額滿" type="Red" href="D130" />
+    <Item name="綠島 潛水之旅" date="2014 / 10 / 10 ~ 12" text="已額滿" type="Red" href="D140" />
+    <Item name="小琉球 潛水之旅" date="2014 / 10 / 18 ~ 19" text="已額滿" type="Red" href="D130" />
+    <Item name="墾丁 潛水之旅" date="2014 / 10 / 26 ~ 27" text="可報名" type="Blue" href="D120" />
+    <Item name="墾丁 潛水之旅" date="2014 / 11 / 1 ~ 2" text="剩02名" type="Orange" href="D120" />
+    <Item name="菲律賓 明多洛 潛水之旅" date="2014 / 11 / 7 ~ 10" text="剩02名" type="Orange" href="D220" />
+    <Item name="墾丁 潛水之旅" date="2014 / 11 / 8 ~ 9" text="已額滿" type="Red" href="D120" />
+    <Item name="小琉球 潛水之旅" date="2014 / 11 / 15 ~ 16" text="已額滿" type="Red" href="D130" />
+    <Item name="印尼 四王群島 船宿潛水之旅" date="2014 / 11 / 15 ~ 23" text="剩02名" type="Orange" />
+    <Item name="綠島 潛水之旅" date="2014 / 11 / 21 ~ 23" text="剩04名" type="Orange" href="D140" />
+    <Item name="墾丁 潛水之旅" date="2014 / 11 / 29 ~ 30" text="可報名" type="Blue" href="D120" />
+    <Item name="菲律賓 阿尼洛 潛水之旅" date="2014 / 12 / 5 ~ 8" text="剩02名" type="Orange" href="D210" />
+    <Item name="墾丁 潛水之旅" date="2014 / 12 / 20 ~ 21" text="可報名" type="Blue" href="D120" />
   </Block>
 </Data>

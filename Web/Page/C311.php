@@ -7,6 +7,7 @@
     <meta name="Extra" content="" />
     <meta name="BasePath" content="../" />
     <meta name="Data" content = "<?php echo getDataFileName(""); ?>"/>
+	<link rel="shortcut icon" href="/Image/Icon/favicon/favicon.ico">
     <script type="text/javascript" src="../Script/jquery.js"></script>
     <script type="text/javascript" src="../Script/Loader.js"></script>
 </head>
@@ -14,8 +15,12 @@
     <?php include "../Part/Head.php"; ?>
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
-		<div id="Nitrox" class="ArticleBox"></div>
-		<div id="SR" class="ArticleBox"></div>
+		<div id="weekend" class="ArticleBox"></div>
+		<div id="notice" class="ArticleBox"></div>
+		<div id="plan" class="ArticleBox"></div>
+		<div id="tuition" class="ArticleBox"></div>
+		<div id="register" class="ArticleBox"></div>
+		<div id="processing" class="ArticleBox"></div>
     </div>
     <?php include "../Part/Foot.php" ; ?>
 </body>

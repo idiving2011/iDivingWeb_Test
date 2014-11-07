@@ -1,72 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="菲律賓"/>
+    <Block id="title" method="title" text="阿尼洛"/>
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="D210.php"></Item>
         <Item name="行程表" href="D211.php"></Item>
-        <Item name="出團日期" href="D212.php"></Item>
-        <Item name="費用" href="."></Item>
+        <Item name="費用說明" href="D212.php"></Item>
+        <Item name="注意事項" href="."></Item>
     </Block>
-    <!--<Block id="Anilao" caption="阿尼洛" method="html">
+    <Block id="Anilao" caption="阿尼洛" method="html">
       <![CDATA[ 
-              <span class="Large Focus">團費</span>
-              <ul>
-                  <li>NT 37,000元</li>
-              </ul>
-              <span class="Large Focus">會員價</span>
-              <ul>
-                  <li>NT 36,000元</li>
-              </ul>
-          ]]>
-    </Block>
-    <Block id="Malapascua" caption="Malapascua" method="html">
-      <![CDATA[ 
-              <span class="Large Focus">團費</span>
-              <ul>
-                  <li>NT 45,000元</li>
-              </ul>
-              <span class="Large Focus">會員價</span>
-              <ul>
-                  <li>NT 44,000元</li>
-              </ul>
-          ]]>
-    </Block>
-    <Block id="Mindoro" caption="明多洛" method="html">
-      <![CDATA[ 
-                <span class="Large Focus">團費</span>
-                <ul>
-                    <li>NT 35,000元</li>
-                </ul>
-                <span class="Large Focus">會員價</span>
-                <ul>
-                    <li>NT 34,000元</li>
-                </ul>
-            ]]>
-    </Block>
-    <Block id="fee" method="html">
-      <![CDATA[ 
-            <table width="40%" border="1" cellpadding="0" cellspacing="0">
-              <tr>
-                <td width="40%">地點</td>
-                <td width="30%">團費</td>
-                <td width="30%">會員價</td>
-              </tr>
-              <tr>
-                <td>阿尼洛</td>
-                <td>NT 37,000元</td>
-                <td>NT 36,000元</td>
-              </tr>
-              <tr>
-                <td>Malapascua</td>
-                <td>NT 45,000元</td>
-                <td>NT 44,000元</td>
-              </tr>
-              <tr>
-                <td>明多洛</td>
-                <td>NT 35,000元</td>
-                <td>NT 34,000元</td>
-              </tr>
-            </table>
+            <ol>
+                <li>本活動為套裝行程，想參加但無法全程參與活動者，請先和我們聯絡以討論您的行程規劃。</li>
+                <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
+            </ol>
+            <br/>
+            <img src="../Image/Data/AnilaoNote01.jpg" width="360">
+            <img src="../Image/Data/AnilaoNote02.jpg" width="360">
         ]]>
-    </Block>-->
+    </Block>
 </Data>

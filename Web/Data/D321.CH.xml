@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="馬爾地夫"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="D320.php"></Item>
+        <Item name="行程表" href="."></Item>
+        <Item name="出團日期" href="D322.php"></Item>
+        <Item name="費用" href="D323.php"></Item>
+    </Block>
+    <Block id="schedule" method="html">
+      <![CDATA[
+            <!--<img src="../Image/Data/Abroad.jpg"/>-->
+        ]]>
+    </Block>
+</Data>

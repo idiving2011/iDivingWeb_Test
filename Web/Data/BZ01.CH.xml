@@ -1,44 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data>
-  <Block id="title" method="title" text="報名方式" />
+  <Block id="title" method="title" text="課程年度計畫" />
   <Block id="course" method="wove">
-    <Item name="AD-2014-03" date="2014-03-12" text="可報名" type="Blue" href="C210" />
-    <Item name="EAN-2014-03" date="2014-03-19" text="可報名" type="Blue" href="C310" />
-    <Item name="OWD-2014-01" date="2014-04-08" text="已額滿" type="Red" href="C120" />
-    <Item name="SR-2014-03" date="2014-04-09" text="可報名" type="Blue" href="C310" />
-    <Item name="EAN-2014-04" date="2014-04-16" text="可報名" type="Blue" href="C310" />
-    <Item name="OWD-2014-02" date="2014-04-22" text="剩03名" type="Orange" href="C120" />
-    <Item name="AD-2014-04" date="2014-04-23" text="可報名" type="Blue" href="C210" />
-    <Item name="OWD-2014-03" date="2014-05-06" text="可報名" type="Blue" href="C120" />
-    <Item name="AD-2014-05" date="2014-05-07" text="可報名" type="Blue" href="C210" />
-    <Item name="FD-2014-01" date="2014-05-07" text="可報名" type="Blue" href="CFD110" />
-    <Item name="EAN-2014-05" date="2014-05-14" text="可報名" type="Blue" href="C310" />
-    <Item name="OWD-2014-04" date="2014-05-20" text="可報名" type="Blue" href="C120" />
-    <Item name="OWD-2014-05" date="2014-06-03" text="可報名" type="Blue" href="C120" />
-    <Item name="EAN-2014-06" date="2014-06-04" text="可報名" type="Blue" href="C310" />
-    <Item name="FD-2014-02" date="2014-06-11" text="可報名" type="Blue" href="CFD110" />
-    <Item name="OWD-2014-06" date="2014-06-17" text="可報名" type="Blue" href="C120" />
-    <Item name="AD-2014-06" date="2014-06-18" text="可報名" type="Blue" href="C210" />
-    <Item name="OWD-2014-07" date="2014-07-01" text="可報名" type="Blue" href="C120" />
-    <Item name="AD-2014-07" date="2014-07-02" text="可報名" type="Blue" href="C210" />
-    <Item name="SR-2014-07" date="2014-07-09" text="可報名" type="Blue" href="C310" />
-    <Item name="OWD-2014-08" date="2014-07-15" text="可報名" type="Blue" href="C120" />
-    <Item name="EAN-2014-07" date="2014-07-16" text="可報名" type="Blue" href="C310" />
-    <Item name="OWD-2014-09" date="2014-07-29" text="可報名" type="Blue" href="C120" />
-    <Item name="OWD-2014-10" date="2014-08-12" text="可報名" type="Blue" href="C120" />
-    <Item name="EAN-2014-08" date="2014-08-20" text="可報名" type="Blue" href="C310" />
-    <Item name="OWD-2014-11" date="2014-08-26" text="可報名" type="Blue" href="C120" />
-    <Item name="AD-2014-08" date="2014-08-27" text="可報名" type="Blue" href="C210" />
-    <Item name="OWD-2014-12" date="2014-09-09" text="可報名" type="Blue" href="C120" />
-    <Item name="EAN-2014-09" date="2014-09-10" text="可報名" type="Blue" href="C310" />
-    <Item name="FD-2014-03" date="2014-09-22" text="可報名" type="Blue" href="CFD110" />
-    <Item name="OWD-2014-13" date="2014-09-23" text="可報名" type="Blue" href="C120" />
-    <Item name="AD-2014-09" date="2014-09-24" text="可報名" type="Blue" href="C210" />
-    <Item name="SR-2014-10" date="2014-10-01" text="可報名" type="Blue" href="C310" />
-    <Item name="OWD-2014-14" date="2014-10-07" text="可報名" type="Blue" href="C120" />
-    <Item name="EAN-2014-10" date="2014-10-08" text="可報名" type="Blue" href="C310" />
-    <Item name="AD-2014-10" date="2014-10-15" text="可報名" type="Blue" href="C210" />
-    <Item name="EAN-2014-11" date="2014-11-05" text="可報名" type="Blue" href="C310" />
-    <Item name="AD-2014-11" date="2014-11-12" text="可報名" type="Blue" href="C210" />
+    <Item name="開放水域潛水員 OWD 第十四期" date="已額滿" text="教室課+泳池+海洋實習" type="Red" href="C120" />
+    <Item name="進階探索潛水員 AA" date="2014　10 / 15、10 / 18、10 / 19" text="教室課+海洋實習" type="Blue" href="C210" />
+    <Item name="進階探索潛水員 AA" date="2014　11 / 12" text="教室課+海洋實習另約" type="Blue" href="C210" />
+    <Item name="進階探索潛水員 AA" date="2014　11 / 27" text="教室課+海洋實習另約" type="Blue" href="C210" />
+    <Item name="進階探索潛水員 AA" date="2014　12 / 5" text="教室課+海洋實習另約" type="Blue" href="C210" />
+    <Item name="進階探索潛水員 AA" date="2014　12 / 18" text="教室課+海洋實習另約" type="Blue" href="C210" />
+    <Item name="氮氧混合氣專長課程 EAN" date="2014　11 / 5" text="教室課+高氧氣瓶使用" type="Blue" href="C310" />
+    <Item name="氮氧混合氣專長課程 EAN" date="2014　12 / 17" text="教室課+高氧氣瓶使用" type="Blue" href="C310" />
+    <Item name="壓力與救援專長課程 SR" date="2014　10/17、10/18、10/19" text="教室課+泳池+海洋實習" type="Blue" href="C310" />
   </Block>
 </Data>
