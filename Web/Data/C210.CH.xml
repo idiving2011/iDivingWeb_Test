@@ -83,9 +83,7 @@
     </Block>
     <Block id="plan" caption="開課日期" method="html" back="#top">
       <![CDATA[
-            <p>7/4.5.6,  7/18.19.20,  8/7.9.10,  8/29.30.31.  9/16.20.21,  9/26.27.28  10/7.11.12,   10/15.18.19,<br/>
-            11/12.移地結訓,  11/27.移地結訓,  12/5.移地結訓,  12/18.移地結訓</p>
-            <img src="../Image/Data/Schedul.jpg" width="80%"/>
+            <img src="../Image/Data/AA+SP_Schedul_2015.png" width="80%"/>
         ]]>
     </Block>
     <Block id="tuition" caption="超值學費" method="html" back="#top">
