@@ -48,9 +48,9 @@
     </Block>
     <Block id="plan1" caption="開課日期" method="html" back="#top" tag="深潛">
         <![CDATA[
-            <!--<p>4/23.25,  5/14.16,   6/11.13,   7/16.18,   8/6.8,   9/10.12,   10/1.3<br/>
-            11/6.移地結訓,   12/3.移地結訓</p>-->
-            <img src="../Image/Data/AA+SP_Schedul_2015.png  " width="80%"/>
+            <p>深潛專長課程　除 2 月外，每月均有開班，每期課程為 一晚教室學科 + 一天海洋實習<br/>
+               　　　　　　　PS：每年 11 月 ~ 隔年 3 月的海洋實習需另外安排</p>
+            <img src="../Image/Data/DeepDiving_2015.png  " width="80%"/>
         ]]>
     </Block>
     <Block id="tuition1" caption="超值學費" method="html" back="#top" tag="深潛">
@@ -59,7 +59,6 @@
                   <li>
                     <span class="Large Focus">
                       iDiving 2015年非領導級各項課程, 全面提供的免費裝備使用（限有術科的課程）<br/>
-                      國內移地訓練更優惠, 全程裝備使用皆免費, 無論上課天數與旅遊天數是否相等。（國外旅遊不適用）
                     </span>
                   </li>
                   <li><span class="Large Focus">已完成ＡＡ的學員減免２０００元</span></li>
@@ -114,8 +113,8 @@
     </Block>
     <Block id="plan2" caption="開課日期" method="html" back="#top" tag="高氧">
         <![CDATA[
-            <!--<p>7/16,  8/20,   9/10,  10/8,  11/5,  12/17</p>-->
-            <img src="../Image/Data/AA+SP_Schedul_2015.png" width="80%"/>
+            <p>氮氧混合氣專長課程（EAN）　除 2 月外，每月均有開班，每期課程為 一晚教室學科 + 高氧氣瓶使用</p>
+            <img src="../Image/Data/EAN_2015.png" width="80%"/>
         ]]>
     </Block>
     <Block id="tuition2" caption="超值學費" method="html" back="#top" tag="高氧">
@@ -125,7 +124,7 @@
                   費用包含：國際證照申請、教練費、東北角高氧氣瓶使用一次或隨俱樂部出團升級高氧瓶一次</span></li>
                 </ul>
                 <br/>
-                <div>費用包含：國際證照申請、教練費、裝備租借費用、海洋實習保險費</div>
+                <div>費用包含：國際證照申請、教練費</div>
                 <div>費用不含：移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）</span></div>
                 <br/>
                 <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2015 年國內潛水旅遊團費</span></div></h3>
@@ -182,16 +181,15 @@
     </Block>
     <Block id="plan3" caption="開課日期" method="html" back="#top" tag="夜潛">
         <![CDATA[
-            <!--<p>7/2.5,  8/1.2,  9/11.13,  10/14.18,<br/>
-            11/19.移地結訓,  12/12.移地結訓</p>-->
-            <img src="../Image/Data/AA+SP_Schedul_2015.png" width="80%"/>
+            <p>夜潛專長課程　除 2 月外，每月均有開班，每期課程為 一晚教室學科 + 一天海洋實習<br/>
+                　　　　　　　PS：每年 11 月 ~ 隔年 3 月的海洋實習需另外安排</p>
+            <img src="../Image/Data/NightDiving_2015.png" width="80%"/>
         ]]>
     </Block>
     <Block id="tuition3" caption="超值學費" method="html" back="#top" tag="夜潛">
         <![CDATA[
                 <ul>
                   <li><span class="Large Focus">iDiving 2015年非領導級各項課程, 全面提供的免費裝備使用（限有術科的課程）<br/>
-                    國內移地訓練更優惠, 全程裝備使用皆免費, 無論上課天數與旅遊天數是否相等。（國外旅遊不適用）</span></li>
                 </ul>
                 <br/>
                 <div>費用包含：國際證照申請、教練費、裝備租借費用、海洋實習保險費</div>
@@ -251,9 +249,9 @@
     </Block>
     <Block id="plan4" caption="開課日期" method="html" back="#top" tag="導航">
         <![CDATA[
-            <!--<p>7/24.26,   8/22.23,   9/3.6,   10/21.25,<br/>
-             11/20.移地結訓,   12/23.移地結訓</p>-->
-            <img src="../Image/Data/AA+SP_Schedul_2015.png" width="80%"/>
+            <p>導航專長課程　除 2 月外，每月均有開班，每期課程為 一晚教室學科 + 一天海洋實習<br/>
+                　　　　　　　PS：每年 11 月 ~ 隔年 3 月的海洋實習需另外安排</p>
+            <img src="../Image/Data/Navigation_2015.png" width="80%"/>
         ]]>
     </Block>
     <Block id="tuition4" caption="超值學費" method="html" back="#top" tag="導航">
@@ -262,7 +260,6 @@
                   <li>
                     <span class="Large Focus">
                       iDiving 2015年非領導級各項課程, 全面提供的免費裝備使用（限有術科的課程）<br/>
-                      國內移地訓練更優惠, 全程裝備使用皆免費, 無論上課天數與旅遊天數是否相等。（國外旅遊不適用）
                     </span>
                   </li>
                   <li><span class="Large Focus">已完成ＡＡ的學員減免２０００元</span></li>
@@ -325,9 +322,9 @@
     </Block>
     <Block id="plan5" caption="開課日期" method="html" back="#top" tag="船潛">
       <![CDATA[
-            <!--<p>7/24.26,   8/22.23,   9/3.6,   10/21.25<br/>
-            11/20.移地結訓,   12/23.移地結訓</p>-->
-            <img src="../Image/Data/AA+SP_Schedul_2015.png" width="80%"/>
+            <p>船潛專長課程　不定期開課，每期課程為 一晚教室學科 + 一天海洋實習<br/>
+                　　　　　　　PS：每年 11 月 ~ 隔年 3 月的海洋實習需另外安排</p>
+            <img src="../Image/Data/BoatDiving_2015.png" width="80%"/>
           ]]>
     </Block>
     <Block id="tuition5" caption="超值學費" method="html" back="#top" tag="船潛">
@@ -336,10 +333,9 @@
                   <li>
                     <span class="Large Focus">
                       iDiving 2015年非領導級各項課程, 全面提供的免費裝備使用（限有術科的課程）<br/>
-                      國內移地訓練更優惠, 全程裝備使用皆免費, 無論上課天數與旅遊天數是否相等。（國外旅遊不適用）
                     </span>
                   </li>
-                  <li><span class="Large Focus">已完成ＡＡ的學員減免２０００元</span></li>
+                  <li><span class="Large Focus">已完成ＡＡ的學員減免１０００元</span></li>
                 </ul>
                 <br/>
                 <div>費用包含：國際證照申請、教練費、裝備租借費用、海洋實習保險費</div>
@@ -383,9 +379,9 @@
                 <li>iDiving 採保證班的教學方式，如果學員須複習或延訓，不另外加收訓練費或裝備使用費。<br/>
                     但所有課程須於 6 個月內完成 (10 月-隔年 4 月不列入計算)。
                 </li>
-                <li>學費 3000 包含：器材租借費、教練費、海洋實習保險及證照申請費。<br/>
+                <li>學費 4000 包含：器材租借費、教練費、海洋實習保險及證照申請費。<br/>
                     學費不含：上課期間之餐飲、交通費。</li>
-                <li>移地結訓學費 3000 包含：器材租借費、教練費、海洋實習保險及證照申請費。<br/>
+                <li>移地結訓學費 4000 包含：器材租借費、教練費、海洋實習保險及證照申請費。<br/>
                     學費不含：移地結訓之團費、餐飲、交通費。</li>
                 <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
                 <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
@@ -399,8 +395,9 @@
     </Block>
     <Block id="plan6" caption="開課日期" method="html" back="#top" tag="電腦錶">
       <![CDATA[
-            <!--<p>9/5,   12/30</p>-->
-            <img src="../Image/Data/AA+SP_Schedul_2015.png" width="80%"/>
+            <p>電腦錶專長課程　不定期開課，每期課程為 一晚教室學科 + 一天海洋實習<br/>
+                　　　　　　　　PS：每年 11 月 ~ 隔年 3 月的海洋實習需另外安排</p>
+            <img src="../Image/Data/DiveComputer_2015.png" width="80%"/>
             ]]>
     </Block>
     <Block id="tuition6" caption="超值學費" method="html" back="#top" tag="電腦錶">
@@ -409,10 +406,9 @@
                   <li>
                     <span class="Large Focus">
                       iDiving 2015年非領導級各項課程, 全面提供的免費裝備使用（限有術科的課程）<br/>
-                      國內移地訓練更優惠, 全程裝備使用皆免費, 無論上課天數與旅遊天數是否相等。（國外旅遊不適用）
                     </span>
                   </li>
-                  <li><span class="Large Focus">已完成ＡＡ的學員減免2000元(海洋實習略)</span></li>
+                  <li><span class="Large Focus">已完成ＡＡ的學員減免1000元</span></li>
                 </ul>
                 <br/>
                 <div>費用包含：國際證照申請、教練費、裝備租借費用(限有術科的課程)、海洋實習保險費</div>
@@ -472,9 +468,9 @@
     </Block>
     <Block id="plan7" caption="開課日期" method="html" back="#top" tag="完美中性浮力">
       <![CDATA[
-            <!--<p>8/26.31<br/>
-            11/26.移地結訓</p>-->
-            <img src="../Image/Data/AA+SP_Schedul_2015.png" width="80%"/>
+            <p>完美中性浮力專長課程　不定期開課，每期課程為 一晚教室學科 + 一天海洋實習<br/>
+                　　　　　　　　　　　PS：每年 11 月 ~ 隔年 3 月的海洋實習需另外安排</p>
+            <img src="../Image/Data/PerfectBuoyancy_2015.png" width="80%"/>
             ]]>
     </Block>
     <Block id="tuition7" caption="超值學費" method="html" back="#top" tag="完美中性浮力">
@@ -483,10 +479,9 @@
                   <li>
                     <span class="Large Focus">
                       iDiving 2015年非領導級各項課程, 全面提供的免費裝備使用（限有術科的課程）<br/>
-                      國內移地訓練更優惠, 全程裝備使用皆免費, 無論上課天數與旅遊天數是否相等。（國外旅遊不適用）
                     </span>
                   </li>
-                  <li><span class="Large Focus">已完成ＡＡ的學員減免1500元</span></li>
+                  <li><span class="Large Focus">已完成ＡＡ的學員減免1000元</span></li>
                 </ul>
                 <br/>
                 <div>費用包含：國際證照申請、教練費、裝備租借費用、海洋實習保險費</div>
@@ -543,8 +538,8 @@
     </Block>
     <Block id="plan8" caption="開課日期" method="html" back="#top" tag="壓力與救援">
       <![CDATA[
-              <!--<p>7/9.12.13,   10/1.4.5</p>-->
-            <img src="../Image/Data/AA+SP_Schedul_2015.png" width="80%"/>
+            <p>壓力與救援專長課程（SR）　4、6、8、10 月各有一期，每期課程為 一晚教室學科 + 一天泳池術科 + 一天海洋實習</p>
+            <img src="../Image/Data/SR_2015.png" width="80%"/>
               ]]>
     </Block>
     <Block id="tuition8" caption="超值學費" method="html" back="#top" tag="壓力與救援">
@@ -553,7 +548,6 @@
                   <li>
                     <span class="Large Focus">
                       iDiving 2015年非領導級各項課程, 全面提供的免費裝備使用（限有術科的課程）<br/>
-                      國內移地訓練更優惠, 全程裝備使用皆免費, 無論上課天數與旅遊天數是否相等。（國外旅遊不適用）
                     </span>
                   </li>
                 </ul>
