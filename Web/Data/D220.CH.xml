@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="明多洛"/>
+    <Block id="nav" method="nav">
+        <Item name="景點介紹" href="."></Item>
+        <Item name="行程表" href="D221.php"></Item>
+        <Item name="費用說明" href="D222.php"></Item>
+        <Item name="注意事項" href="D223.php"></Item>
+    </Block>
+    <Block id="intro" method="html">
+      <![CDATA[ 
+            <img src="../Image/Data/MindoroIntro.jpg" style="float: right; width: 300px">
+            <div>明多洛(Mindoro)是菲律賓的第七大島，位於呂宋島的西南方，</div>
+            <br/>
+            <div>島上大部分的地區還相當原始，開發度較高的區域是在北邊的Puerto Galera一帶，</div>
+            <br/>
+            <div>有許多的潛水店及渡假中心，水上活動頻繁，常可看到浮潛或潛水的人員；</div>
+            <br/>
+            <div>沿著海岸邊有多家餐廳、Pub、啤酒屋等，大街上還有指油壓按摩，</div>
+            <br/>
+            <div>多樣化的選擇，相信習慣夜生活的朋友們，將不必擔心夜晚將無處可去。</div>
+            <br/>
+            <div>明多洛的潛水季很長，除了每年7~8月的雨季外，都很適合進行潛水活動；</div>
+            <br/>
+            <div>此區的潛點數高達三十多個以上，難易度不一；</div>
+            <br/>
+            <div>此區的海洋生物非常多樣化，有色彩繽紛的熱帶魚群、不同種類的海馬、五顏六色的海蛞蝓等。</div>
+        ]]>
+    </Block>
+</Data>
