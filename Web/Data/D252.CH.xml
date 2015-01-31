@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="馬拉帕斯加"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="D250.php"></Item>
+    <Item name="行程表" href="D251.php"></Item>
+    <Item name="費用說明" href="."></Item>
+    <Item name="注意事項" href="D253.php"></Item>
+  </Block>
+  <Block id="plan" caption="馬拉帕斯加" method="html">
+    <![CDATA[ 
+            <div><span class="Large Important">團費：NT 30,000元</span></div>
+            <div><span class="Large Important">&#12288;&#12288;&#12288;PS：每次的團費可能因當地價格而有所調整</span></div>
+            <br/>
+            <div>包含：宿霧機場往返度假村的接駁、度假村的住宿及餐食、</div>
+            <div>&#12288;&#12288;&#12288;行程安排的10次船潛費用、菲律賓簽證費、兩佰萬旅遊平安險。</div>
+            <br/>
+            <div>不含：出發地來回桃園機場的交通、桃園往返馬尼拉的來回機票及稅金、</div>
+            <div>&#12288;&#12288;&#12288;馬尼拉往返宿霧的來回機票及稅金、</div>
+            <div>&#12288;&#12288;&#12288;潛水裝備租借、小費、行程外的潛水及食宿費用。</div>
+        ]]>
+  </Block>
+</Data>
