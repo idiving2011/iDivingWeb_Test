@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="開放水域潛水"/>
+    <Block id="title" method="title" text="Open Water Diver 開放水域潛水員課程"/>
     <Block id="nav" method="nav">
-        <Item name="課程規劃" href="."></Item>
-        <Item name="學前須知" href="C121.php"></Item>
-        <Item name="開課日期" href="C122.php"></Item>
-        <Item name="超值學費" href="C123.php#OWD"></Item>
-        <Item name="立刻報名" href="C124.php"></Item>
+        <Item name="課程規劃" href="#curriculum"></Item>
+        <Item name="開課日期" href="#plan"></Item>
+        <Item name="超值學費" href="#tuition"></Item>
+        <Item name="立刻報名" href="#register"></Item>
+        <Item name="學前須知" href="#notice"></Item>
     </Block>
-    <Block id="weekend" method="html">
+    <Block id="curriculum" caption="課程規劃" method="html" back="#top">
       <![CDATA[ 
             <table border="1" width="80%">
               <tr align="center">
@@ -18,72 +18,229 @@
                 <td>上課地點</td>
               </tr>
               <tr align="center">
-                <td rowspan="2">學 科</td>
-                <td>周 二<br/>19：00 ~ 21：30</td>
-                <td>風險認知、水底世界與身體的變化</td>
-                <td>iDiving<br/>教 室</td>
-              </tr>
-              <tr align="center">
-                <td>周 四<br/>19：00 ~ 21：30</td>
-                <td>如何計畫與執行潛水、潛水裝備介紹</td>
-                <td>iDiving<br/>教 室</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2">泳 池 課 程</td>
-                <td>周 六<br/>8：30 ~ 14：00</td>
-                <td>
-                  裝備調整及組裝、下水前安全檢查<br/>
-                  二級頭尋回與排水、面鏡排水、中性浮力<br/>
-                  呼吸管排水、蛙鞋踢動、入水法、下潛＆上升
+                <td rowspan="3" style="vertical-align:middle">學 科</td>
+                <td style="color:#808000">
+                  學科第一堂<br/>
+                  19：10 ~ 22：00
                 </td>
-                <td>南 港<br/>運動中心</td>
-              </tr>
-              <tr align="center">
-                <td>周 日<br/>12：30 ~ 18：00</td>
-                <td>
-                  重裝脫著、配重脫著、緊急游泳上升<br/>
-                  潛水法、水中懸浮、共用氣源、抽筋排除
+                <td valign="middle" style="vertical-align:middle; color:#808000">風險認知、水底世界與身體的變化</td>
+                <td rowspan="3" style="vertical-align:middle; color:#808000">
+                  iDiving<br/>
+                  教 室
                 </td>
-                <td>南 港<br/>運動中心</td>
               </tr>
-              <tr align="center">
-                <td rowspan="2">學 科</td>
-                <td>周 二<br/>19：00 ~ 21：30</td>
-                <td>水底世界、水肺潛水經驗與日後的發展</td>
-                <td>iDiving<br/>教 室</td>
-              </tr>
-              <tr align="center">
-                <td>周 四<br/>19：00 ~ 21：30</td>
-                <td>筆試、執照申請、俱樂部及活動介紹</td>
-                <td>iDiving<br/>教 室</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2">海 洋 實 習</td>
-                <td>周 六<br/>9：00 ~ 17：00</td>
+              <tr align="center" style="color:#808000">
                 <td>
-                  海洋環境介紹、出入水之技巧<br/>
-                  潛水簡報、動作測驗、指北針之應用<br/>
-                  裝備清洗方式、紀錄潛水日誌
+                  學科第二堂<br/>
+                  19：10 ~ 22：00
                 </td>
-                <td>東北角<br/>或搭配<br/>移地課程</td>
+                <td valign="middle" style="vertical-align:middle">水下環境、潛水裝備介紹、潛伴的價值與執行潛水</td>
               </tr>
-              <tr align="center">
-                <td>周 日<br/>9：00 ~ 17：00</td>
+              <tr align="center" style="color:#808000">
                 <td>
-                  潛水簡報、潛水技巧加強、導航應用<br/>
-                  水中觀光、海洋生物認識
+                  學科第三堂<br/>
+                  19：10 ~ 22：00
                 </td>
-                <td>東北角<br/>或搭配<br/>移地課程</td>
+                <td valign="middle">
+                  水底世界、水肺潛水經驗與日後的發展、<br/>
+                  筆試、俱樂部及活動介紹
+                </td>
               </tr>
             </table>
             <br/>
             <table width="80%">
               <tr>
-                <td align="center" valign="baseline">訓練池：南港運動中心1F<br/>台北市南港區玉成街69號<br/>捷運板南線 後山埤站 近4號出口<br/>TEL：(02) 2653-2279</td>
-                <td><img src="../Image/Data/SportsCenter.png"></td>
-                <td><img src="../Image/Data/pool.jpg"></td>
+                <td><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_01.jpg"></td>
+                <td><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_02.png"></td>
               </tr>
             </table>
+            <br/>
+            <br/>
+            <br/>
+            <table border="1" width="80%">
+              <tr align="center">
+                <td></td>
+                <td><strong>時 間</strong></td>
+                <td><strong>課 程 內 容</strong></td>
+                <td><strong>上課地點</strong></td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle"><strong>泳 池 課 程</strong></td>
+                <td style="color:#993366">
+                  周 六(第一天)<br/>
+                  10：30 ~ 19：00                </td>
+                <td valign="middle" style="color:#993366">
+                  裝備調整及組裝、下水前安全檢查、呼吸管排水、<br/>
+                  蛙鞋踢動、潛水法、面鏡排水、二級頭尋回與排水、<br/>
+                  中性浮力、入水法、下潛＆上升、重裝脫著、配重脫著                </td>
+                <td style="vertical-align:middle; color:#993366">
+                  前 港<br/>
+                  特約泳池                </td>
+              </tr>
+              <tr align="center">
+                <td style="color:#993366">
+                  周 日(第二天)<br/>
+                  14：30 ~ 19：00                </td>
+                <td valign="middle" style="color:#993366">
+                  吐氣練習、緊急游泳上升<br/>
+                  水中懸浮、抽筋排除、浮標法BC充氣                </td>
+                <td style="vertical-align:middle; color:#993366">南 港<br/>運動中心</td>
+              </tr>
+            </table>
+            <br/>
+            <table width="80%">
+              <tr>
+                <td width="50%" align="center"><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_03.jpg"></td>
+                <td align="center"><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_04.jpg"></td>
+              </tr>
+              <tr>
+                <td align="center" valign="baseline">第一天訓練池：前港游泳池<br/>台北市士林區前港街45號<br/>捷運淡水線 劍潭站<br/>TEL：(02) 2880-5598</td>
+                <td align="center" valign="baseline">第二天訓練池：南港運動中心1F<br/>台北市南港區玉成街69號<br/>捷運板南線 後山埤站 近4號出口<br/>TEL：(02) 2653-2279</td>
+              </tr>
+            </table>
+            <br/>
+            <br/>
+            <br/>
+            <table border="1" width="80%">
+              <tr align="center">
+                <td></td>
+                <td><strong>時 間</strong></td>
+                <td><strong>課 程 內 容</strong></td>
+                <td><strong>上課地點</strong></td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle"><strong>海 洋 實 習</strong></td>
+                <td style="color:#3366FF">周 六(第一天)<br/>
+                9：00 ~ 16：00</td>
+                <td valign="middle" style="color:#3366FF">潛水簡報、海洋環境介紹、出入水之技巧、<br/>
+                動作測驗、裝備清洗方式、共用氣源<br/></td>
+                <td rowspan="2" style="vertical-align:middle; color:#3366FF">東北角<br/>
+                  或搭配<br/>
+                移地課程</td>
+              </tr>
+              <tr align="center">
+                <td style="color:#3366FF">周 日(第二天)<br/>
+                9：00 ~ 18：00</td>
+                <td valign="middle" style="color:#3366FF">潛水簡報、指北針導航之應用、水中觀光、<br/>
+                海洋生物認識、紀錄潛水日誌、水中懸浮練習</td>
+              </tr>
+            </table>
+            <br/>
+            <table width="80%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="50%" rowspan="2" align="center"><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_05.jpg"></td>
+                <td align="center"><img style="height:150px" src="../Image/Data/OWD_CurriculumPlanning_06.jpg"></td>
+              </tr>
+              <tr>
+                <td align="center"><img style="height:150px" src="../Image/Data/OWD_CurriculumPlanning_07.jpg"></td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+    <Block id="plan" caption="開課日期" method="html" back="#top">
+      <![CDATA[
+            <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+            <p>標準班周周開課，顏色深潛代表不同期別；<span style="color:red">3人特別班請洽iDiving</span>。</p>
+            <img src="../Image/Data/OWD_Schedul_2015.png" width="80%"/>
+        ]]>
+    </Block>
+    <Block id="tuition" caption="超值學費" method="html" back="#top">
+      <![CDATA[
+            <div>OWD 課程費用： iDiving 超殺優惠價16,000元</div>
+            <br/>
+            <div>費用包含：SSI線上數位教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險<br/>
+                 訓練期間的潛水裝備提供（含電腦錶）。
+            </div>
+            <br/>
+            <div>費用不含：<span class="Note">海洋實習交通費、餐費。</span></div>
+            <br/>
+            <div><span class="Large Important">贈品：全套總價11700元</div>
+            <table width="80%">
+              <tr align="center">
+                <td><img style="width:150px" src="../Image/Data/mask_01.jpg" /></td>
+                <td><img style="width:150px" src="../Image/Data/mask_02.jpg" /></td>
+                <td><img style="width:150px" src="../Image/Data/fins_01.png" /></td>
+                <td rowspan="2"><img style="width:150px" src="../Image/Data/WETSUITS_M.png" /></td>
+                <td rowspan="2"><img style="width:150px" src="../Image/Data/WETSUITS_F.png" /></td>
+              </tr>
+              <tr align="center">
+                <td><img style="width:150px" src="../Image/Data/gloves.png" /></td>
+                <td><img style="width:150px" src="../Image/Data/boots.png" /></td>
+                <td><img style="width:150px" src="../Image/Data/fins_color.png" /></td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">
+                  <span class="Large Important">
+                    面鏡呼吸管*1 (市價1300)<br/>
+                    iDiving手套一雙(市價700)<br/>
+                    iDiving套鞋一雙(市價900)
+                  </span>
+                </td>
+                <td><span class="Large Important">TUSA SF22(市價3800)</span></td>
+                <td colspan="2"><span class="Large Important">Bare SPORT * 1(市價5000)</span></td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+    <Block id="register" caption="立刻報名" method="html" back="#top">
+      <![CDATA[
+            <ol>
+                <li>網路填寫報名資料並匯款訂金3000元。</li>
+                <li>來店洽詢與報名。</li>
+            </ol>
+        ]]>
+    </Block>
+    <Block id="processing" caption="報名流程" method="html" back="#top">
+      <![CDATA[
+            <ol>
+              <li>填寫個人資料。 <a href="/RegistrationForm-CH.pdf">下載報名表PDF</a></li>
+              <li>繳交訂金3000元，匯款方式繳費者請來信或來電告知帳號末５碼<br/>請電洽iDiving 02-2882-7696 或 email至 info@idiving.com.tw</li>
+              <li>收到訂金後，iDiving會至SSI全球官網註冊您的學籍，你就可開始線上預習囉。</li>
+              <li>上課前請準備好二吋照片電子檔佳，申請潛水證照使用</li>
+            </ol>
+        ]]>
+    </Block>
+    <Block id="notice" caption="學前須知" method="html" back="#top">
+      <![CDATA[
+            <ol>
+                <li>
+                  iDiving採保證班的教學方式，如果學員須複習或延訓，不另外加收訓練費或裝備使用費。<br/>
+                  但因故自行拖延上課，導致學習效果不佳，所衍生的泳池費用需自行吸收。所有課程須於2<br/>
+                  個月內完成 (9月後報名隔年5月前完成)。約定日期之更改須在15天前告知。15天內更動<br/>
+                  或未告知而曠課，補課需額外負擔1000元，身體不適，出示醫院掛號收據者不收。
+                </li>
+                <li>
+                  本訓練中心除了報名時收取的學費及購買器材之費用外，訓練期間不另外收取其他費用。<br/>
+                  訓練費用包含：線上教材費、教練費、泳池場地費、裝備租金、海洋實習保險及證照申請費。<br/>
+                  訓練費用不含：上課期間之餐飲與交通費。
+                </li>
+                <li>
+                  學員自行放棄課程，本訓練中心將不予退費。因身體不適且經醫生證明不宜從事潛水活動<br/>
+                  者，繳交之訓練費用退費方式說明如下：3000元訂金用做購買線上教材，無法退費。贈品<br/>
+                  全新，開課前30天以上，可退費12000； 贈品全新，開課前30天以內：可退費10000；<br/>
+                  贈品全新，上過學科：可退費9000；贈品已使用或上過泳池課：可退費４000；上過海洋實<br/>
+                  習課程：不可退費。
+                </li>
+                <li>學員在iDiving購買潛水器材享有會員優惠價。</li>
+                <li>訓練期間所提供之裝備若有穿戴不適或任何問題，請務必告知主持教練。</li>
+                <li>課程之訓練費用、器材之購買費用與2吋大頭照一張，請於術科前繳齊。</li>
+                <li>上課地點，往返之交通請自行處理<br>
+                    <ul>
+                      <li>教室學科：iDiving　<a href="https://maps.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%978%E8%99%9F" target="_blank">台北市士林區前港街8號</a><br></li>
+                      <li>泳池場地：前港泳池與南港運動中心(潛水池)<!--<a href="http://ngsc.cyc.org.tw/" target="_blank">南港運動中心</a> (潛水池)--></li>
+                      <li>海洋實習：<!--<a href="https://www.google.com.tw/maps?q=%E6%96%B0%E5%8C%97%E5%B8%82%E8%B2%A2%E5%AF%AE%E5%8D%80%E6%9D%B1%E5%8C%97%E8%A7%92%E6%BD%9B%E6%B0%B4%E5%AE%A2%E6%A3%A7&hl=zh-TW&ie=UTF8&ll=25.118515,121.917858&spn=0.017408,0.012081&sll=25.117835,121.916941&sspn=0.004352,0.00302&oq=%E6%9D%B1%E5%8C%97%E8%A7%92&brcurrent=3,0x345d4cdf85f98b05:0x682a7dd59a1398fa,0,0x345d5538b0b6645f:0x5aa90dfa6620edc0&hq=%E6%9D%B1%E5%8C%97%E8%A7%92%E6%BD%9B%E6%B0%B4%E5%AE%A2%E6%A3%A7&hnear=%E6%96%B0%E5%8C%97%E5%B8%82%E8%B2%A2%E5%AF%AE%E5%8D%80&t=m&z=16&iwloc=A" target="_blank">東北角</a> -->東北角餐食自理，協調得宜若至餐廳用餐則費用均攤。<br></li>
+                    </ul>
+                </li>
+                <li>結訓之學員均需達到初級潛水員之標準，此標準包括學科與術科之評鑑：
+                    <ul>
+                        <li>學科：需通過50題測驗，成績80分以上(答對40題以上)，未達標準需在檢討後重考。</li>
+                        <li>術科：平靜水域所學之潛水技巧須在開放水域操作，接受教練評鑑。</li>
+                    </ul>
+                </li>
+                <li>學員結訓後，訓練中心將於兩週內完成SSI國際潛水證照申請作業。<br>
+                    （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
+                </li>
+            </ol>
         ]]>
     </Block>
 </Data>
