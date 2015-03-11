@@ -202,7 +202,7 @@
     <Block id="processing" caption="報名流程" method="html" back="#top">
       <![CDATA[
             <ol>
-              <li>填寫個人資料。 <a href="/RegistrationForm-CH.pdf">下載報名表PDF</a></li>
+              <li><a href="CZ01.php">線上填寫報名表</a></li>
               <li>
                 繳交訂金3000元，<br/>
                 銀行：中國信託   戶名：愛潛水股份有限公司<br/>
