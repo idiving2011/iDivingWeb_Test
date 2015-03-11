@@ -48,10 +48,10 @@
               </tr>
             </table>
             <br/>
-            <table width="80%">
+            <table width="80%" style="table-layout: fixed;">
               <tr>
-                <td><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_01.jpg"></td>
-                <td><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_02.png"></td>
+                <td><img width="98%" src="../Image/Data/OWD_CurriculumPlanning_01.jpg"></td>
+                <td align="right"><img width="98%" src="../Image/Data/OWD_CurriculumPlanning_02.jpg"></td>
               </tr>
             </table>
             <br/>
@@ -88,10 +88,10 @@
               </tr>
             </table>
             <br/>
-            <table width="80%">
+            <table width="80%" style="table-layout: fixed;">
               <tr>
-                <td width="50%" align="center"><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_03.jpg"></td>
-                <td align="center"><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_04.jpg"></td>
+                <td><img width="98%"  src="../Image/Data/OWD_CurriculumPlanning_03.jpg"></td>
+                <td align="right"><img width="98%" src="../Image/Data/OWD_CurriculumPlanning_04.jpg"></td>
               </tr>
               <tr>
                 <td align="center" valign="baseline">第一天訓練池：前港游泳池<br/>台北市士林區前港街45號<br/>捷運淡水線 劍潭站<br/>TEL：(02) 2880-5598</td>
@@ -126,13 +126,13 @@
               </tr>
             </table>
             <br/>
-            <table width="80%" border="0" cellpadding="0" cellspacing="0">
+            <table width="80%" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
               <tr>
-                <td width="50%" rowspan="2" align="center"><img style="height:300px" src="../Image/Data/OWD_CurriculumPlanning_05.jpg"></td>
-                <td align="center"><img style="height:150px" src="../Image/Data/OWD_CurriculumPlanning_06.jpg"></td>
+                <td rowspan="2" align="center"><img width="120%" src="../Image/Data/OWD_CurriculumPlanning_05.jpg"></td>
+                <td align="right"><img width="70%" src="../Image/Data/OWD_CurriculumPlanning_06.jpg"></td>
               </tr>
               <tr>
-                <td align="center"><img style="height:150px" src="../Image/Data/OWD_CurriculumPlanning_07.jpg"></td>
+                <td align="right"><img width="70%" src="../Image/Data/OWD_CurriculumPlanning_07.jpg"></td>
               </tr>
             </table>
         ]]>
@@ -140,8 +140,17 @@
     <Block id="plan" caption="開課日期" method="html" back="#top">
       <![CDATA[
             <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-            <p>標準班周周開課，顏色深潛代表不同期別；<span style="color:red">3人特別班請洽iDiving</span>。</p>
-            <img src="../Image/Data/OWD_Schedul_2015.png" width="80%"/>
+            <table width="80%">
+              <tr>
+                <td align="center">標準班周周開課，顏色深潛代表不同期別；<span style="color:red">3人特別班請洽iDiving</span>。</td>
+              </tr>
+              <tr>
+                <td><img src="../Image/Data/OWD_Schedul_2015_01.jpg" width="100%"/></td>
+              </tr>
+              <tr>
+                <td><img src="../Image/Data/OWD_Schedul_2015_02.jpg" width="100%"/></td>
+              </tr>
+            </table>
         ]]>
     </Block>
     <Block id="tuition" caption="超值學費" method="html" back="#top">
@@ -185,8 +194,8 @@
     <Block id="register" caption="立刻報名" method="html" back="#top">
       <![CDATA[
             <ol>
-                <li>網路填寫報名資料並匯款訂金3000元。</li>
-                <li>來店洽詢與報名。</li>
+                <li>網路填寫報名資料並匯款訂金。</li>
+                <li>來店洽詢並繳交訂金。</li>
             </ol>
         ]]>
     </Block>
@@ -194,8 +203,16 @@
       <![CDATA[
             <ol>
               <li>填寫個人資料。 <a href="/RegistrationForm-CH.pdf">下載報名表PDF</a></li>
-              <li>繳交訂金3000元，匯款方式繳費者請來信或來電告知帳號末５碼<br/>請電洽iDiving 02-2882-7696 或 email至 info@idiving.com.tw</li>
-              <li>收到訂金後，iDiving會至SSI全球官網註冊您的學籍，你就可開始線上預習囉。</li>
+              <li>
+                繳交訂金3000元，<br/>
+                銀行：中國信託   戶名：愛潛水股份有限公司<br/>
+                代號：822  分行：士林分行  帳號：285-54009941-9
+              </li>
+              <li>
+                以匯款方式繳費者請來信或來電告知帳號末５碼<br/>
+                iDiving 02-2882-7696 或 email: info@idiving.com.tw
+              </li>
+              <li>收到訂金與資料後，iDiving會至SSI全球官網註冊您的學籍。</li>
               <li>上課前請準備好二吋照片電子檔佳，申請潛水證照使用</li>
             </ol>
         ]]>
