@@ -85,9 +85,9 @@
             }
 
             function tab(host, data) {
-                var tab = $("<div/>", { "class": "Tab" });
+                var tab = $("<div/>", { "class": "Tab", "data-Selected": $(data).attr("selected") });
                 $(data).find("Item").each(function () {
-                    $("<div/>", { text: $(this).attr("name"), "class": "Tag" + ($(data).attr("selected") == $(this).attr("name") ? " Selected" : "") })
+                    $("<div/>", { text: $(this).attr("name"), "class": "Tag"})
                         .click(function () {
                             if ($(this).hasClass("Selected"))
                                 return;

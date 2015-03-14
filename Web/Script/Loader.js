@@ -189,8 +189,14 @@ function data() {
             //錯誤控制？
         })
         .always(function () {
+            Init();
             afterData();
         });
+}
+
+function Init() {
+    //Tab Selected
+    $(".Tag:contains('" + $(".Tab").attr("data-selected") + "')").click();
 }
 
 /* === Overridable Function === */
