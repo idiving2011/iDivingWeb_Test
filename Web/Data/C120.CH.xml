@@ -191,7 +191,7 @@
             </table>
         ]]>
     </Block>
-    <Block id="register" caption="立刻報名" method="html" back="#top">
+    <Block id="register" caption="報名方式" method="html" back="#top">
       <![CDATA[
             <ol>
                 <li>網路填寫報名資料並匯款訂金。</li>
@@ -199,7 +199,7 @@
             </ol>
         ]]>
     </Block>
-    <Block id="processing" caption="報名流程" method="html" back="#top">
+    <Block id="processing" caption="網路報名流程" method="html" back="#top">
       <![CDATA[
             <ol>
               <li><a href="CZ01.php">線上填寫報名表</a></li>
