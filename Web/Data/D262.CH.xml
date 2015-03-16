@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="科隆"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="D260.php"></Item>
+    <Item name="行程表" href="D261.php"></Item>
+    <Item name="費用說明" href="."></Item>
+    <Item name="注意事項" href="D263.php"></Item>
+  </Block>
+  <Block id="plan" caption="科隆" method="html">
+    <![CDATA[ 
+            <!--<div><span class="Large Important">團費：NT 45,000元（會員價：NT 44,000元）</span></div>
+            <div><span class="Large Important">&#12288;&#12288;&#12288;PS：每次的團費可能因機票或當地價格而有所調整</span></div>
+            <br/>
+            <div>包含：桃園往返馬尼拉的來回機票及稅金（宿霧航空）、</div>
+            <div>&#12288;&#12288;&#12288;馬尼拉往返宿霧的來回機票及稅金（宿霧航空）、宿霧機場往返度假村的接駁、</div>
+            <div>&#12288;&#12288;&#12288;行程中在度假村的住宿及餐食、行程安排的10次船潛費用、</div>
+            <div>&#12288;&#12288;&#12288;菲律賓簽證費、團體性小費（司機、潛導、用餐等）、兩佰萬旅遊平安險。</div>
+            <br/>
+            <div>不含：潛水裝備租借、個人性小費（拿行李、房間清潔等）、</div>
+            <div>&#12288;&#12288;&#12288;行程外的潛水及食宿費用、出發地來回桃園機場的交通費用。</div>-->
+        ]]>
+  </Block>
+</Data>

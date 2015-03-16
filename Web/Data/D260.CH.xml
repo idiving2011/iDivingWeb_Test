@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="科隆"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="."></Item>
+    <Item name="行程表" href="D261.php"></Item>
+    <Item name="費用說明" href="D262.php"></Item>
+    <Item name="注意事項" href="D263.php"></Item>
+  </Block>
+  <Block id="intro" method="html">
+    <![CDATA[ 
+            <!--<img src="../Image/Data/MalapascuaIntro.jpg" style="float: right; width: 300px">
+            <div>馬拉帕斯加(Malapascua)位於菲律賓中部，是宿霧省北邊的一座小島，</div>
+            <br/>
+            <div>自從宿霧的直飛班機取消後，目前的交通方式主要是由馬尼拉轉機，</div>
+            <br/>
+            <div>接著搭車前往北邊的碼頭，再轉搭交通船即可抵達；</div>
+            <br/>
+            <div>島上有著潔白的沙灘及湛藍的海水，不但適合戲水與浮潛，</div>
+            <br/>
+            <div>海中極具特色的海洋生物，更是吸引許多潛水愛好者前來朝聖的原因之一！</div>
+            <br/>
+            <div>馬拉帕斯加最大的特色就是看長尾鯊(Thresher Shark)，</div>
+            <br/>
+            <div>此種鯊魚生活於廣泛的海洋之中，全球各地僅有少數幾處能有機會觀賞到此迷人的生物，</div>
+            <br/>
+            <div>加上位處珊瑚大三角的範圍之中，豐富的生物相更是不在話下，</div>
+            <br/>
+            <div>如巨大的蝠魟(Manta Ray)、色彩鮮豔的海蛞蝓、型態特異的海龍與海馬、善於偽裝的共生蝦蟹、不同種類的娃娃魚等，</div>
+            <br/>
+            <div>相信會讓大家留下非常難忘的回憶！</div>-->
+        ]]>
+  </Block>
+</Data>
