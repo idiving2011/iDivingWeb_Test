@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="印尼"/>
+    <Block id="title" method="title" text="薄荷島"/>
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="D240.php"></Item>
         <Item name="行程表" href="D241.php"></Item>
@@ -9,13 +9,13 @@
     </Block>
     <Block id="fee" method="html">
       <![CDATA[ 
-            <table width="40%" border="1" cellpadding="0" cellspacing="0">
+            <!--<table width="40%" border="1" cellpadding="0" cellspacing="0">
               <tr>
                 <td width="40%">地點</td>
                 <td width="30%">團費</td>
                 <td width="30%">會員價</td>
               </tr>
-            </table>
+            </table>-->
         ]]>
     </Block>
 </Data>
