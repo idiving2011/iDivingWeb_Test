@@ -2,9 +2,9 @@
 <Data>
     <Block id="title" method="title" text="印尼 柯摩多"/>
     <Block id="nav" method="nav">
-        <Item name="景點介紹" href="D220.php"></Item>
-        <Item name="行程表" href="D221.php"></Item>
-        <Item name="出團日期" href="D222.php"></Item>
+        <Item name="景點介紹" href="D320.php"></Item>
+        <Item name="行程表" href="D321.php"></Item>
+        <Item name="出團日期" href="D322.php"></Item>
         <Item name="費用" href="."></Item>
     </Block>
     <!--<Block id="fee" method="html">
