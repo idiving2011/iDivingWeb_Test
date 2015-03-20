@@ -22,7 +22,7 @@
         <Item name="導航"/>
         <Item name="搜索與找回"/>
         <Item name="壓力與救援"/>
-        <Item name="完美中性浮力"/>
+        <Item name="完美浮力"/>
         <Item name="船潛"/>
         <Item name="電腦錶"/>
     </Block>
@@ -615,8 +615,8 @@
                 </table>
                 ]]>
     </Block>
-    <!--完美中性浮力-->
-    <Block id="curriculum7" caption="課程規劃" method="html" back="#top" tag="完美中性浮力">
+    <!--完美浮力-->
+    <Block id="curriculum7" caption="課程規劃" method="html" back="#top" tag="完美浮力">
           <![CDATA[ 
               <table width="80%" style="table-layout: fixed;">
                 <tr>
@@ -637,7 +637,7 @@
                   <td align="center">19：10 ~ 21：30</td>
                   <td align="center">
                     各種裝備的浮力<br />
-                    如何達到完美中性浮力
+                    如何達到完美浮力
                   </td>
                   <td align="center">
                     iDiving<br />
@@ -662,13 +662,13 @@
               </table>
             ]]>
     </Block>
-    <Block id="plan7" caption="開課日期" method="html" back="#top" tag="完美中性浮力">
+    <Block id="plan7" caption="開課日期" method="html" back="#top" tag="完美浮力">
       <![CDATA[
             <p>開課日期彈性調整，隨潛水活動出團即可開班，學科時間請與帶隊教練協調。</p>
             <!--<img src="../Image/Data/PB_2015.png" width="80%"/>-->
             ]]>
     </Block>
-    <Block id="tuition7" caption="超值學費" method="html" back="#top" tag="完美中性浮力">
+    <Block id="tuition7" caption="超值學費" method="html" back="#top" tag="完美浮力">
       <![CDATA[
                 <ul>
                   <li>

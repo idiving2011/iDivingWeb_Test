@@ -48,7 +48,7 @@
 		<div id="plan6" class="ArticleBox"></div>
 		<div id="tuition6" class="ArticleBox"></div>
 
-		<!-- 完美中性浮力 -->
+		<!-- 完美浮力 -->
 		<div id="curriculum7" class="ArticleBox"></div>
 		<div id="plan7" class="ArticleBox"></div>
 		<div id="tuition7" class="ArticleBox"></div>
@@ -79,7 +79,7 @@
 		<!--<div id="notice5" class="ArticleBox"></div>-->
 		<!-- 電腦錶 -->
 		<!--<div id="notice6" class="ArticleBox"></div>-->
-		<!-- 完美中性浮力 -->
+		<!-- 完美浮力 -->
 		<!--<div id="notice7" class="ArticleBox"></div>-->
 		<!-- 壓力與救援 -->
 		<!--<div id="notice8" class="ArticleBox"></div>-->
