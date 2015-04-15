@@ -6,7 +6,7 @@
     <title></title>
     <meta name="Extra" content="" />
     <meta name="BasePath" content="../" />
-    <meta name="Data" content = "<?php echo getDataFileName(); ?>"/>
+    <meta name="Data" content = "<?php echo getDataFileName(""); ?>"/>
 	<link rel="shortcut icon" href="/Image/Icon/favicon/favicon.ico">
     <script type="text/javascript" src="../Script/jquery.js"></script>
     <script type="text/javascript" src="../Script/Loader.js"></script>
@@ -15,6 +15,7 @@
     <?php include "../Part/Head.php"; ?>
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
+		<div id="package" class="ArticleBox"></div>
     </div>
     <?php include "../Part/Foot.php" ; ?>
 </body>
