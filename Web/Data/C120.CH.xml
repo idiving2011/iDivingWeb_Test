@@ -68,7 +68,7 @@
                 <td rowspan="2" style="vertical-align:middle"><strong>泳 池 課 程</strong></td>
                 <td style="color:#993366">
                   周 六(第一天)<br/>
-                  10：30 ~ 19：00                </td>
+                  11：30 ~ 19：00                </td>
                 <td valign="middle" style="color:#993366">
                   裝備調整及組裝、下水前安全檢查、呼吸管排水、<br/>
                   蛙鞋踢動、潛水法、面鏡排水、二級頭尋回與排水、<br/>
@@ -155,40 +155,50 @@
     </Block>
     <Block id="tuition" caption="超值學費" method="html" back="#top">
       <![CDATA[
-            <div>OWD 課程費用： iDiving 超殺優惠價16,000元</div>
-            <br/>
-            <div>費用包含：SSI線上數位教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險<br/>
-                 訓練期間的潛水裝備提供（含電腦錶）。
-            </div>
-            <br/>
-            <div>費用不含：<span class="Note">海洋實習交通費、餐費。</span></div>
-            <br/>
-            <div><span class="Large Important">贈品：全套總價11700元</div>
-            <table width="80%">
-              <tr align="center">
-                <td><img style="width:150px" src="../Image/Data/mask_01.jpg" /></td>
-                <td><img style="width:150px" src="../Image/Data/mask_02.jpg" /></td>
-                <td><img style="width:150px" src="../Image/Data/fins_01.png" /></td>
-                <td rowspan="2"><img style="width:150px" src="../Image/Data/WETSUITS_M.png" /></td>
-                <td rowspan="2"><img style="width:150px" src="../Image/Data/WETSUITS_F.png" /></td>
-              </tr>
-              <tr align="center">
-                <td><img style="width:150px" src="../Image/Data/gloves.png" /></td>
-                <td><img style="width:150px" src="../Image/Data/boots.png" /></td>
-                <td><img style="width:150px" src="../Image/Data/fins_color.png" /></td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">
-                  <span class="Large Important">
-                    面鏡呼吸管*1 (市價1300)<br/>
-                    iDiving手套一雙(市價700)<br/>
-                    iDiving套鞋一雙(市價900)
-                  </span>
-                </td>
-                <td><span class="Large Important">TUSA SF22(市價3800)</span></td>
-                <td colspan="2"><span class="Large Important">Bare SPORT * 1(市價5000)</span></td>
-              </tr>
-            </table>
+            <ul>
+              <li>
+                <div>OWD 課程費用方案一：iDiving 超殺優惠價16,000元</div>
+                <div>費用包含：SSI線上數位教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險<br/>
+                     訓練期間的潛水裝備提供（含電腦錶）。
+                </div>
+                <div>費用不含：<span class="Note">海洋實習交通費、餐費。</span></div>
+                <div><span class="Large Important">贈品：全套總價11700元</div>
+                <table width="80%">
+                  <tr align="center">
+                    <td><img style="width:150px" src="../Image/Data/mask_01.jpg" /></td>
+                    <td><img style="width:150px" src="../Image/Data/mask_02.jpg" /></td>
+                    <td><img style="width:150px" src="../Image/Data/fins_01.png" /></td>
+                    <td rowspan="2"><img style="width:150px" src="../Image/Data/WETSUITS_M.png" /></td>
+                    <td rowspan="2"><img style="width:150px" src="../Image/Data/WETSUITS_F.png" /></td>
+                  </tr>
+                  <tr align="center">
+                    <td><img style="width:150px" src="../Image/Data/gloves.png" /></td>
+                    <td><img style="width:150px" src="../Image/Data/boots.png" /></td>
+                    <td><img style="width:150px" src="../Image/Data/fins_color.png" /></td>
+                  </tr>
+                  <tr align="center">
+                    <td colspan="2">
+                      <span class="Large Important">
+                        面鏡呼吸管*1 (市價1300)<br/>
+                        iDiving手套一雙(市價700)<br/>
+                        iDiving套鞋一雙(市價900)
+                      </span>
+                    </td>
+                    <td><span class="Large Important">TUSA SF22(市價3800)</span></td>
+                    <td colspan="2"><span class="Large Important">Bare SPORT * 1(市價5000)</span></td>
+                  </tr>
+                </table>
+              </li>
+              <br/><br/><br/><br/>
+              <li>
+                <div>OWD 課程費用方案二：iDiving 集殺價12,000元</div>
+                <div>費用包含：SSI線上數位教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險<br/>
+                     訓練期間的潛水裝備提供（含電腦錶）。
+                </div>
+                <div>費用不含：<span class="Note">贈品、海洋實習交通費、餐費。</span></div>
+                <div><span class="Large Important">集殺方式：兩人成行各減500, 三人各減1000, 依此類推, 最多5人同行, 學費降為10000元</div>
+              </li>
+            </ul>
         ]]>
     </Block>
     <Block id="register" caption="報名方式" method="html" back="#top">
