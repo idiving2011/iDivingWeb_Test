@@ -141,14 +141,11 @@
       <![CDATA[
             <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
             <table width="80%">
-              <tr>
+              <!--<tr>
                 <td align="center">標準班周周開課，顏色深潛代表不同期別；<span style="color:red">3人特別班請洽iDiving</span>。</td>
-              </tr>
+              </tr>-->
               <tr>
-                <td><img src="../Image/Data/OWD_Schedul_2015_01.jpg" width="100%"/></td>
-              </tr>
-              <tr>
-                <td><img src="../Image/Data/OWD_Schedul_2015_02.jpg" width="100%"/></td>
+                <td><img src="../Image/Data/OWD_Schedul_2016.png" width="100%"/></td>
               </tr>
             </table>
         ]]>
@@ -157,46 +154,135 @@
       <![CDATA[
             <ul>
               <li>
-                <div>OWD 課程費用方案一：iDiving 超殺優惠價16,000元</div>
-                <div>費用包含：SSI線上數位教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險<br/>
-                     訓練期間的潛水裝備提供（含電腦錶）。
-                </div>
-                <div>費用不含：<span class="Note">海洋實習交通費、餐費。</span></div>
-                <div><span class="Large Important">贈品：全套總價11700元</div>
-                <table width="80%">
+                <div>OWD課程費用方案一： iDiving超殺優惠價18,000元  （無人數優惠）</div>
+                <table width="80%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td nowrap>費用包含：</td>
+                    <td><span class="Important">贈品</span>、SSI線上數位教材、實體潛水日誌、國際證照申請、教練費、泳池場地費、東北角海洋實習費用、訓練期間潛水重裝備使用（浮力調整裝置、調節器與電腦錶）、旅遊平安保險。</td>
+                  </tr>
+                  <tr>
+                    <td>費用不含：</td>
+                    <td><span class="Note">訓練期間輕裝備使用（面鏡、呼吸管、防寒衣、套鞋、蛙鞋等）、海洋實習交通費、餐費、海洋公園門票（考量天候因素，須至海洋公園結訓時）。</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><span class="Important">贈品：全套總價12500元</span></td>
+                  </tr>
+                </table>
+                <table width="80%" border="0" cellpadding="0" cellspacing="0">
                   <tr align="center">
-                    <td><img style="width:150px" src="../Image/Data/mask_01.jpg" /></td>
-                    <td><img style="width:150px" src="../Image/Data/mask_02.jpg" /></td>
-                    <td><img style="width:150px" src="../Image/Data/fins_01.png" /></td>
-                    <td rowspan="2"><img style="width:150px" src="../Image/Data/WETSUITS_M.png" /></td>
-                    <td rowspan="2"><img style="width:150px" src="../Image/Data/WETSUITS_F.png" /></td>
+                    <td style="vertical-align: middle;"><img style="width:130px" src="../Image/Data/mask_01.jpg" /></td>
+                    <td style="vertical-align: middle;"><img style="width:130px" src="../Image/Data/mask_02.jpg" /></td>
+                    <td style="vertical-align: middle;"><img style="width:200px" src="../Image/Data/fins_TUSA SF22.png" /></td>
+                    <td rowspan="2"><img style="width:170px" src="../Image/Data/WETSUITS_M.png" /></td>
+                    <td rowspan="2"><img style="width:170px" src="../Image/Data/WETSUITS_F.png" /></td>
                   </tr>
                   <tr align="center">
-                    <td><img style="width:150px" src="../Image/Data/gloves.png" /></td>
-                    <td><img style="width:150px" src="../Image/Data/boots.png" /></td>
-                    <td><img style="width:150px" src="../Image/Data/fins_color.png" /></td>
+                    <td style="vertical-align: middle;"><img style="width:130px" src="../Image/Data/gloves.png" /></td>
+                    <td style="vertical-align: middle;"><img style="width:130px" src="../Image/Data/boots.jpg" /></td>
+                    <td><img style="width:250px" src="../Image/Data/gb.jpg" /></td>
                   </tr>
                   <tr align="center">
                     <td colspan="2">
-                      <span class="Large Important">
+                      <span class="Important">
                         面鏡呼吸管*1 (市價1300)<br/>
                         iDiving手套一雙(市價700)<br/>
-                        iDiving套鞋一雙(市價900)
+                        GULL套鞋一雙(市價1000)
                       </span>
                     </td>
-                    <td><span class="Large Important">TUSA SF22(市價3800)</span></td>
-                    <td colspan="2"><span class="Large Important">Bare SPORT * 1(市價5000)</span></td>
+                    <td>
+                      <span class="Important">
+                        TUSA SF22(市價3800)<br/>
+                        IST 裝備網袋一個(市價700)
+                      </span></td>
+                    <td colspan="2"><span class="Important">Bare SPORT * 1(市價5000)</span></td>
+                  </tr>
+                </table>
+                <br/>
+                <br/>
+                <div><span class="Note">方案一 限定期別早鳥優惠A</span></div>
+                <table width="80%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td nowrap><span class="Important">優惠時間：</span></td>
+                    <td colspan="2"><span class="Important">於2015/11/1~2016/01/31期間，完成報名者可享優惠</span></td>
+                    <td rowspan="5"><img style="width:250px" src="../Image/Data/problue bg-8571.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important">優惠期別：</span></td>
+                    <td colspan="2"><span class="Important">2016年第１期至第５期 (開課日期為4/12、4/20、4/26、5/4、5/10)</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important">優惠內容：</span></td>
+                    <td><span class="Important">1. </span></td>
+                    <td><span class="Important">報名標準班潛水課程, 超級優惠學費16000</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important"></span></td>
+                    <td><span class="Important">2.</span></td>
+                    <td><span class="Important">IST網袋升級為PROBLUE網袋(市價1300元)</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important"></span></td>
+                    <td><span class="Important">3.</span></td>
+                    <td><span class="Important">前25位報名的學員, 蛙鞋贈品升級為AQUABIONIC 彈簧鞋帶優質蛙鞋（市價6000）(不可指定顏色與尺寸，送完為止，如尺寸不合改回原款蛙鞋不另外退費)</span></td>
+                  </tr>
+                  <tr>
+                    <td colspan="4">
+                      <img style="width:170px" src="../Image/Data/aquabionic1-桃紅.gif" />
+                      <img style="width:170px" src="../Image/Data/aquabionic1-黃.gif" />
+                      <img style="width:170px" src="../Image/Data/aquabionic1-橘.gif" />
+                      <img style="width:170px" src="../Image/Data/aquabionic1-白.gif" />
+                    </td>
+                  </tr>
+                </table>
+                <br/>
+                <br/>
+                <div><span class="Note">方案一 限定期別早鳥優惠B</span></div>
+                <table width="80%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td nowrap><span class="Important">優惠時間：</span></td>
+                    <td colspan="2"><span class="Important">於2016/02/01~2016/03/31期間，完成報名者可享優惠</span></td>
+                    <td rowspan="5"><img style="width:250px" src="../Image/Data/problue bg-8571.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important">優惠期別：</span></td>
+                    <td colspan="2"><span class="Important">2016年第１期至第５期 (開課日期為4/12、4/20、4/26、5/4、5/10)</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important">優惠內容：</span></td>
+                    <td><span class="Important">1. </span></td>
+                    <td><span class="Important">報名標準班潛水課程, 超值學費17000</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important"></span></td>
+                    <td><span class="Important">2.</span></td>
+                    <td><span class="Important">IST網袋升級為PROBLUE網袋(市價1300元)</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important"></span></td>
+                    <td><span class="Important">3.</span></td>
+                    <td><span class="Important">前25位報名的學員, 蛙鞋贈品升級為AQUABIONIC 彈簧鞋帶優質蛙鞋（市價6000）(不可指定顏色與尺寸，送完為止，如尺寸不合改回原款蛙鞋不另外退費)</span></td>
                   </tr>
                 </table>
               </li>
-              <br/><br/><br/><br/>
+              <br/><br/>
               <li>
-                <div>OWD 課程費用方案二：iDiving 集殺價12,000元</div>
-                <div>費用包含：SSI線上數位教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險<br/>
-                     訓練期間的潛水裝備提供（含電腦錶）。
-                </div>
-                <div>費用不含：<span class="Note">贈品、海洋實習交通費、餐費。</span></div>
-                <div><span class="Large Important">集殺方式：兩人成行各減500, 三人各減1000, 依此類推, 最多5人同行, 學費降為10000元</div>
+                <div>OWD課程費用方案二：iDiving 自備輕裝方案15,000元（提供人數優惠，說明如下）</div>
+                <table width="80%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td nowrap>費用包含：</td>
+                    <td>SSI線上數位教材、實體潛水日誌、國際證照申請、教練費、泳池場地費、東北角海洋實習費用、訓練期間潛水重裝備使用（浮力調整裝置、調節器與電腦錶）、旅遊平安保險。</td>
+                  </tr>
+                  <tr>
+                    <td>費用不含：</td>
+                    <td><span class="Important">贈品</span>、<span class="Note">訓練期間輕裝備使用（面鏡、呼吸管、防寒衣、套鞋、蛙鞋等） 、海洋實習交</span><span class="Note">通費、餐費、海洋公園門票（考量天候因素，須至海洋公園結訓時）。</td>
+                  </tr>
+                  <tr>
+                    <td><span class="Important">人數優惠：</span></td>
+                    <td><span class="Important">兩人成行價14500元/人, 三人同樂價14000元/人。</span></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><span class="Important">（不可與方案一合併計算人數，四人以上無特殊優惠。）</span></td>
+                  </tr>
               </li>
             </ul>
         ]]>
