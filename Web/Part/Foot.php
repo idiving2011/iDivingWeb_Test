@@ -1,6 +1,7 @@
 <div id="footer" sight>
+    <span class="CopyRight">營業時間：周一公休，周二-六15:00 - 22:00 (冬季晚上營業至21:00)，周日15:00 - 18:00</span><br/>
     <span class="CopyRight">愛潛水股份有限公司版權所有</span>
-    <span class="CopyRight">© 2013 iDiving Co., Ltd.</span><br/>
+    <span class="CopyRight">© 2013 iDiving Co., Ltd.</span><br style="display:block" />
     <span class="Address">電話：<a href="tel:0228827696">0228827696</a></span>
     <span class="Address">地址：<a href="https://maps.google.com.tw/maps?q=台北市士林區前港街8號" target="_blank">台北市士林區前港街8號</a></span><br/>
     <span class="Address">傳真：<a href="fax:0228827656">0228827656</a></span>
