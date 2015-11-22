@@ -33,7 +33,7 @@
 		<div id="plan3" class="ArticleBox"></div>
 		<div id="tuition3" class="ArticleBox"></div>
 
-		<!-- 導航 -->
+        <!-- 導航 -->
 		<div id="curriculum4" class="ArticleBox"></div>
 		<div id="plan4" class="ArticleBox"></div>
 		<div id="tuition4" class="ArticleBox"></div>
@@ -43,12 +43,12 @@
 		<div id="plan5" class="ArticleBox"></div>
 		<div id="tuition5" class="ArticleBox"></div>
 
-		<!-- 壓力與救援 -->
+        <!-- 壓力與救援 -->
 		<div id="curriculum6" class="ArticleBox"></div>
 		<div id="plan6" class="ArticleBox"></div>
 		<div id="tuition6" class="ArticleBox"></div>
 
-		<!-- 完美浮力 -->
+        <!-- 完美浮力 -->
 		<div id="curriculum7" class="ArticleBox"></div>
 		<div id="plan7" class="ArticleBox"></div>
 		<div id="tuition7" class="ArticleBox"></div>

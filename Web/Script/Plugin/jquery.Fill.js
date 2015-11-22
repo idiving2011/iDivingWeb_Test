@@ -4,7 +4,7 @@
 (function ($) {
     $.fn.extend({
         fill: function (data, settings) {
-            
+
             function _caption(host, data) {
                 if ($(data).is("[caption]")) {
                     $(host).append($("<div/>", { "class": "Caption", text: $(data).attr("caption") }));
@@ -28,12 +28,12 @@
                 else
                     return null;
             }
-            
+
             function all(host, data) {
                 var link = $(data).attr("href");
                 if (link != null) {
                     $(host).append(
-                        $("<div/>", {"class": "All"}).append(
+                        $("<div/>", { "class": "All" }).append(
                             $("<a/>", { href: link, "class": "Button Blue" }).text("全部")
                         )
                     );
@@ -59,7 +59,7 @@
             function nav(host, data) {
                 var sight = $(host).find(".Sight");
                 $(data).find("Item").each(function () {
-                    $(sight).append($($(this).attr("href") == "." ? "<span/>": "<a/>", { "class": "Nav", href: $(this).attr("href"), text: $(this).attr("name") }));
+                    $(sight).append($($(this).attr("href") == "." ? "<span/>" : "<a/>", { "class": "Nav", href: $(this).attr("href"), text: $(this).attr("name") }));
                 });
             }
 
@@ -77,17 +77,18 @@
                         .append($("<td/>", { "class": "Status " + $(this).attr("type"), text: $(this).attr("text") }))
                         .appendTo(table)
                         .click(function () {
-                            if($(this).is("[href]"))
+                            if ($(this).is("[href]"))
                                 location.href = $(this).attr("href");
                         })
                 });
-                $(host).append($("<div/>", { "class":"Content"}).append(table));
+                $(host).append($("<div/>", { "class": "Content" }).append(table));
             }
 
             function tab(host, data) {
                 var tab = $("<div/>", { "class": "Tab", "data-Selected": $(data).attr("selected") });
-                $(data).find("Item").each(function () {
-                    $("<div/>", { text: $(this).attr("name"), "class": "Tag"})
+                $(host).append($("<a/>", { id: "tab" })).append($("<div/>", { text: $(data).attr("description") })).append(tab);
+                $(data).children("Item").each(function () {
+                    $("<div/>", { text: $(this).attr("name"), "class": "Tag" })
                         .click(function () {
                             if ($(this).hasClass("Selected"))
                                 return;
@@ -95,11 +96,36 @@
                             $("div[tag]").hide();
 
                             $(this).addClass("Selected");
-                            $("div[tag='" +$(this).text()  + "']").show();
+                            $("div[tag='" + $(this).text() + "']")
+                                .show(function () {
+                                    $("div[tag='" + $(this).find(".Selected").text() + "']").show();
+                                });
                         })
-                        .appendTo(tab)
+                        .appendTo(tab);
+                    _tabL2(host, $(this), tab);
                 });
-                $(host).append($("<a/>", {id: "tab"})).append($("<div/>", { text: $(data).attr("description") })).append(tab);
+            }
+
+            function _tabL2(host, data, tab) {
+                var items = $(data).children("Item");
+                if ($(items).length == 0)
+                    return;
+                var L2 = $("<div/>", { "class": "TabL2", "tag": $(data).attr("name") });
+                $(items).each(function () {
+                    $("<div/>", { text: $(this).attr("name"), "class": "Tag" })
+                        .click(function () {
+                            if ($(this).hasClass("Selected"))
+                                return;
+                            $(this).siblings().removeClass("Selected");
+                            $("div[tag]:not(.TabL2)").hide();
+                            $(this).addClass("Selected");
+                            $("div[tag='" + $(this).text() + "']").show();
+                        })
+                    .appendTo(L2);
+                });
+                $(L2).children(".Tag:first").addClass("Selected");
+                $(tab).find(".Tag").addClass("L2");
+                $(host).append(L2);
             }
 
             function card(host, data) {
@@ -133,7 +159,7 @@
 
                 $(content)
                 .append(
-                    $("<div/>", { "class": "Arrow Left Stop" }).click(function() {
+                    $("<div/>", { "class": "Arrow Left Stop" }).click(function () {
                         if ($(this).hasClass("Stop")) return this;
                         var viewSize = $(this).parent().width() - $(this).width() * 2;
                         var size = $(bar).find("a").width();
@@ -143,7 +169,7 @@
                             left = limit;
                             $(this).addClass("Stop");
                         }
-                        $(bar).attr("left", left).animate({left: left }, 500);
+                        $(bar).attr("left", left).animate({ left: left }, 500);
                         $(this).siblings(".Stop").removeClass("Stop");
                     })
                 ).append(
@@ -164,17 +190,17 @@
                 $(host).append(content);
                 $(content).height($(bar).height());
             }
-            
+
             function screen(host, data) {
                 $(data).find("Item").each(function () {
-                    $(host).append($("<div/>", {"class":"Content"}).append(_view($(this))));
+                    $(host).append($("<div/>", { "class": "Content" }).append(_view($(this))));
                 });
             }
 
             function _view(item) {
                 return $("<a/>", { href: $(item).attr("href"), target: "_blank" }).append(
                                 $("<div/>", { "class": "Screen" }).append(
-                                    $("<img/>", {src: _settings.basePath + "Image/Basis/Blank.png"}).css("background-image", "url(" + $(item).attr("src") + ")")).append(
+                                    $("<img/>", { src: _settings.basePath + "Image/Basis/Blank.png" }).css("background-image", "url(" + $(item).attr("src") + ")")).append(
                                     $("<div/>", { "class": "Glass" })).append(
                                     $("<div/>", { "class": "Title", text: $(item).attr("name") })).append(
                                     $("<div/>", { "class": "SubTitle", text: $(item).attr("description") })
@@ -195,7 +221,7 @@
                 $(data).find("Item").each(function () {
                     $(host).append($("<iframe/>", {
                         src: $(this).attr("href"),
-                        frameborder : "0",
+                        frameborder: "0",
                         allowTransparency: "true"
                     }));
                 });

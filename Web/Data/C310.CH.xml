@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="專長潛水員"/>
-    <Block id="intro" method="html">
-        <![CDATA[ 
+  <Block id="title" method="title" text="專長潛水員"/>
+  <Block id="intro" method="html">
+    <![CDATA[ 
         <p>
             如果取得OWD執照後，您已決定花更多時間享受潛水帶來的樂趣！<br/>
             那麼，現在就是你開始探索SSI進階教育的最佳時機。<br/>
@@ -13,21 +13,30 @@
             想知道更詳盡的資訊，歡迎來電洽詢 <a href="tel:0228827696">0228827696</a>。
         </p>
         ]]>
-    </Block>
-    <!--深潛-->
-    <Block id="specialty" method="tab" selected="深潛" description="各專長介紹如下：">
-        <Item name="深潛"/>
-        <Item name="夜潛"/>
-        <Item name="高氧"/>
-        <Item name="導航"/>
-        <Item name="搜索與找回"/>
-        <Item name="壓力與救援"/>
-        <Item name="完美浮力"/>
-        <Item name="船潛"/>
-        <Item name="電腦錶"/>
-    </Block>
-    <Block id="curriculum1" caption="課程規劃" method="html" back="#top" tag="深潛">
-      <![CDATA[ 
+  </Block>
+  <Block id="specialty" method="tab" selected="必修專長" description="各專長介紹如下：">
+    <Item name="必修專長">
+      <Item name="深潛"/>
+      <Item name="夜潛"/>
+      <Item name="高氧"/>
+    </Item>
+    <Item name="專業選修">
+      <Item name="導航"/>
+      <Item name="搜索與找回"/>
+      <Item name="壓力與救援"/>
+    </Item>
+    <Item name="建議選修">
+      <Item name="完美浮力"/>
+      <Item name="船潛"/>
+      <Item name="電腦錶"/>
+    </Item>
+    <Item name="專長學科開課總表"/>
+    <Item name="獎勵認證方案"/>
+  </Block>
+
+  <!--深潛-->
+  <Block id="curriculum1" caption="課程規劃" method="html" back="#top" tag="深潛">
+    <![CDATA[ 
         <table width="80%" style="table-layout: fixed;">
           <tr>
             <td><img width="98%" src="../Image/Data/SC_DD_01.png"></td>
@@ -71,15 +80,15 @@
           </tr>
         </table>
       ]]>
-    </Block>
-    <Block id="plan1" caption="開課日期" method="html" back="#top" tag="深潛">
-        <![CDATA[
+  </Block>
+  <Block id="plan1" caption="開課日期" method="html" back="#top" tag="深潛">
+    <![CDATA[
             <p>4~10月均有開班，每期課程為 一晚教室學科 + 一天海洋實習，11-12月需移地結訓。</p>
             <img src="../Image/Data/DeepDiving_2015.jpg  " width="80%"/>
         ]]>
-    </Block>
-    <Block id="tuition1" caption="超值學費" method="html" back="#top" tag="深潛">
-        <![CDATA[
+  </Block>
+  <Block id="tuition1" caption="超值學費" method="html" back="#top" tag="深潛">
+    <![CDATA[
                 <ul>
                   <li>
                     <span class="Large Focus">
@@ -122,10 +131,10 @@
                   </tr>
                 </table>
             ]]>
-    </Block>
-    <!--夜潛-->
-    <Block id="curriculum2" caption="課程規劃" method="html" back="#top" tag="夜潛">
-      <![CDATA[ 
+  </Block>
+  <!--夜潛-->
+  <Block id="curriculum2" caption="課程規劃" method="html" back="#top" tag="夜潛">
+    <![CDATA[ 
         <table width="80%" style="table-layout: fixed;">
           <tr>
             <td><img width="98%" src="../Image/Data/SC_NLV_01.jpg"></td>
@@ -172,15 +181,15 @@
           </tr>
         </table>
         ]]>
-    </Block>
-    <Block id="plan2" caption="開課日期" method="html" back="#top" tag="夜潛">
-        <![CDATA[
+  </Block>
+  <Block id="plan2" caption="開課日期" method="html" back="#top" tag="夜潛">
+    <![CDATA[
             <p>4~10月均有開班，每期課程為 一晚教室學科 + 一天海洋實習，11-12月需移地結訓。</p>
             <img src="../Image/Data/NightDiving_2015.jpg" width="80%"/>
         ]]>
-    </Block>
-    <Block id="tuition2" caption="超值學費" method="html" back="#top" tag="夜潛">
-        <![CDATA[
+  </Block>
+  <Block id="tuition2" caption="超值學費" method="html" back="#top" tag="夜潛">
+    <![CDATA[
                 <ul>
                   <li>
                     <span class="Large Focus">
@@ -225,10 +234,10 @@
                   </tr>
                 </table>
             ]]>
-    </Block>
-    <!--高氧-->
-    <Block id="curriculum3" caption="課程規劃" method="html" back="#top" tag="高氧">
-      <![CDATA[ 
+  </Block>
+  <!--高氧-->
+  <Block id="curriculum3" caption="課程規劃" method="html" back="#top" tag="高氧">
+    <![CDATA[ 
           <table width="80%" style="table-layout: fixed;">
           <tr>
             <td style="vertical-align:bottom"><img width="98%" src="../Image/Data/EAN_01.png"></td>
@@ -267,15 +276,15 @@
                 </tr>
               </table>
           ]]>
-    </Block>
-    <Block id="plan3" caption="開課日期" method="html" back="#top" tag="高氧">
-      <![CDATA[
+  </Block>
+  <Block id="plan3" caption="開課日期" method="html" back="#top" tag="高氧">
+    <![CDATA[
               <p>4~12月均有開班，每期課程為 一晚教室學科 + 高氧瓶，術科需另搭配俱樂部活動。</p>
               <img src="../Image/Data/EAN_2015.jpg" width="80%"/>
           ]]>
-    </Block>
-    <Block id="tuition3" caption="超值學費" method="html" back="#top" tag="高氧">
-      <![CDATA[
+  </Block>
+  <Block id="tuition3" caption="超值學費" method="html" back="#top" tag="高氧">
+    <![CDATA[
                   <ul>
                     <li><span class="Large Important">高氧費用為4000元，還贈送東北角高氧瓶一支（或移地訓練時氣瓶升級高氧一次）</span></li>
                   </ul>
@@ -312,10 +321,10 @@
                     </tr>
                   </table>
               ]]>
-    </Block>
-    <!--導航-->
-    <Block id="curriculum4" caption="課程規劃" method="html" back="#top" tag="導航">
-        <![CDATA[ 
+  </Block>
+  <!--導航-->
+  <Block id="curriculum4" caption="課程規劃" method="html" back="#top" tag="導航">
+    <![CDATA[ 
             <table width="80%" style="table-layout: fixed;">
               <tr>
                 <td style="vertical-align:bottom"><img width="98%" src="../Image/Data/SC_NAV_01.jpg"></td>
@@ -356,15 +365,15 @@
               </tr>
             </table>
             ]]>
-    </Block>
-    <Block id="plan4" caption="開課日期" method="html" back="#top" tag="導航">
-        <![CDATA[
+  </Block>
+  <Block id="plan4" caption="開課日期" method="html" back="#top" tag="導航">
+    <![CDATA[
             <p>4~10月均有開班，每期課程為 一晚教室學科 + 一天海洋實習，11-12月需移地結訓。</p>
             <img src="../Image/Data/Navigation_2015.jpg" width="80%"/>
         ]]>
-    </Block>
-    <Block id="tuition4" caption="超值學費" method="html" back="#top" tag="導航">
-        <![CDATA[
+  </Block>
+  <Block id="tuition4" caption="超值學費" method="html" back="#top" tag="導航">
+    <![CDATA[
                 <ul>
                   <li>
                     <span class="Large Focus">
@@ -407,10 +416,10 @@
                   </tr>
                 </table>
             ]]>
-    </Block>
-    <!--搜索與找回-->
-    <Block id="curriculum5" caption="課程規劃" method="html" back="#top" tag="搜索與找回">
-          <![CDATA[ 
+  </Block>
+  <!--搜索與找回-->
+  <Block id="curriculum5" caption="課程規劃" method="html" back="#top" tag="搜索與找回">
+    <![CDATA[ 
               <table width="80%" style="table-layout: fixed;">
                 <tr>
                   <td style="vertical-align:bottom"><img width="98%" src="../Image/Data/SC_SR_01.jpg"></td>
@@ -448,15 +457,15 @@
                 </tr>
               </table>
             ]]>
-    </Block>
-    <Block id="plan5" caption="開課日期" method="html" back="#top" tag="搜索與找回">
-      <![CDATA[
+  </Block>
+  <Block id="plan5" caption="開課日期" method="html" back="#top" tag="搜索與找回">
+    <![CDATA[
             <p>5.7.9月均有開班，每期課程為 一晚教室學科 + 一天海洋實習。</p>
             <img src="../Image/Data/SR_2015.jpg" width="80%"/>
           ]]>
-    </Block>
-    <Block id="tuition5" caption="超值學費" method="html" back="#top" tag="搜索與找回">
-      <![CDATA[
+  </Block>
+  <Block id="tuition5" caption="超值學費" method="html" back="#top" tag="搜索與找回">
+    <![CDATA[
                   <ul>
                   <li>
                     <span class="Large Focus">
@@ -499,10 +508,10 @@
                   </tr>
                 </table>
               ]]>
-    </Block>
-    <!--壓力與救援-->
-    <Block id="curriculum6" caption="課程規劃" method="html" back="#top" tag="壓力與救援">
-          <![CDATA[ 
+  </Block>
+  <!--壓力與救援-->
+  <Block id="curriculum6" caption="課程規劃" method="html" back="#top" tag="壓力與救援">
+    <![CDATA[ 
               <table width="80%" style="table-layout: fixed;">
                 <tr>
                   <td style="vertical-align:bottom"><img width="98%" src="../Image/Data/SC_DSR_01.jpg"></td>
@@ -566,15 +575,15 @@
                 </tr>
               </table>
             ]]>
-    </Block>
-    <Block id="plan6" caption="開課日期" method="html" back="#top" tag="壓力與救援">
-      <![CDATA[
+  </Block>
+  <Block id="plan6" caption="開課日期" method="html" back="#top" tag="壓力與救援">
+    <![CDATA[
             <p>4、6、8、10 月各有一期，每期課程為一晚教室學科 + 一天泳池術科 + 一天海洋實習</p>
             <img src="../Image/Data/DSR_2015.jpg" width="80%"/>
             ]]>
-    </Block>
-    <Block id="tuition6" caption="超值學費" method="html" back="#top" tag="壓力與救援">
-      <![CDATA[
+  </Block>
+  <Block id="tuition6" caption="超值學費" method="html" back="#top" tag="壓力與救援">
+    <![CDATA[
                 <ul>
                   <li>
                     <span class="Large Focus">iDiving 2015年非領導級各項課程, 全面提供的免費裝備使用（限有術科的課程）</span>
@@ -614,10 +623,10 @@
                   </tr>
                 </table>
                 ]]>
-    </Block>
-    <!--完美浮力-->
-    <Block id="curriculum7" caption="課程規劃" method="html" back="#top" tag="完美浮力">
-          <![CDATA[ 
+  </Block>
+  <!--完美浮力-->
+  <Block id="curriculum7" caption="課程規劃" method="html" back="#top" tag="完美浮力">
+    <![CDATA[ 
               <table width="80%" style="table-layout: fixed;">
                 <tr>
                   <td style="vertical-align:bottom"><img width="96%" src="../Image/Data/SC_PB_01.jpg"></td>
@@ -661,15 +670,15 @@
                 </tr>
               </table>
             ]]>
-    </Block>
-    <Block id="plan7" caption="開課日期" method="html" back="#top" tag="完美浮力">
-      <![CDATA[
+  </Block>
+  <Block id="plan7" caption="開課日期" method="html" back="#top" tag="完美浮力">
+    <![CDATA[
             <p>開課日期彈性調整，隨潛水活動出團即可開班，學科時間請與帶隊教練協調。</p>
             <!--<img src="../Image/Data/PB_2015.png" width="80%"/>-->
             ]]>
-    </Block>
-    <Block id="tuition7" caption="超值學費" method="html" back="#top" tag="完美浮力">
-      <![CDATA[
+  </Block>
+  <Block id="tuition7" caption="超值學費" method="html" back="#top" tag="完美浮力">
+    <![CDATA[
                 <ul>
                   <li>
                     <span class="Large Focus">
@@ -712,10 +721,10 @@
                   </tr>
                 </table>
                 ]]>
-    </Block>
-    <!--船潛-->
-    <Block id="curriculum8" caption="課程規劃" method="html" back="#top" tag="船潛">
-          <![CDATA[ 
+  </Block>
+  <!--船潛-->
+  <Block id="curriculum8" caption="課程規劃" method="html" back="#top" tag="船潛">
+    <![CDATA[ 
               <table width="80%" style="table-layout: fixed;">
                 <tr>
                   <td style="vertical-align:bottom"><img width="88%" src="../Image/Data/SC_BOAT_01.jpg"></td>
@@ -756,15 +765,15 @@
                 </tr>
               </table>
             ]]>
-    </Block>
-    <Block id="plan8" caption="開課日期" method="html" back="#top" tag="船潛">
-      <![CDATA[
+  </Block>
+  <Block id="plan8" caption="開課日期" method="html" back="#top" tag="船潛">
+    <![CDATA[
             <p>開課日期彈性調整，隨潛水活動出團即可開班，學科時間請與帶隊教練協調。</p>
             <!--<img src="../Image/Data/BOAT_2015.png" width="80%"/>-->
               ]]>
-    </Block>
-    <Block id="tuition8" caption="超值學費" method="html" back="#top" tag="船潛">
-      <![CDATA[
+  </Block>
+  <Block id="tuition8" caption="超值學費" method="html" back="#top" tag="船潛">
+    <![CDATA[
                   <ul>
                   <li>
                     <span class="Large Focus">
@@ -807,10 +816,10 @@
                   </tr>
                 </table>
                   ]]>
-    </Block>
-    <!--電腦錶-->
-    <Block id="curriculum9" caption="課程規劃" method="html" back="#top" tag="電腦錶">
-          <![CDATA[ 
+  </Block>
+  <!--電腦錶-->
+  <Block id="curriculum9" caption="課程規劃" method="html" back="#top" tag="電腦錶">
+    <![CDATA[ 
               <span class="Large">請不要再把電腦錶當做專業的裝飾品，電腦錶專長課程讓你一次搞懂如何免減壓！</span>
               <table width="80%" style="table-layout: fixed;">
                 <tr>
@@ -852,15 +861,15 @@
                 </tr>
               </table>
             ]]>
-    </Block>
-    <Block id="plan9" caption="開課日期" method="html" back="#top" tag="電腦錶">
-      <![CDATA[
+  </Block>
+  <Block id="plan9" caption="開課日期" method="html" back="#top" tag="電腦錶">
+    <![CDATA[
             <p>開課日期彈性調整，隨潛水活動出團即可開班，學科時間請與帶隊教練協調。</p>
             <!--<img src="../Image/Data/COMPUTER_2015.png" width="80%"/>-->
               ]]>
-    </Block>
-    <Block id="tuition9" caption="超值學費" method="html" back="#top" tag="電腦錶">
-      <![CDATA[
+  </Block>
+  <Block id="tuition9" caption="超值學費" method="html" back="#top" tag="電腦錶">
+    <![CDATA[
                   <ul>
                   <li>
                     <span class="Large Focus">
@@ -903,18 +912,18 @@
                   </tr>
                 </table>
                   ]]>
-    </Block>
+  </Block>
 
-    <Block id="register" caption="報名方式" method="html" back="#top">
-      <![CDATA[
+  <Block id="register" caption="報名方式" method="html" back="#top">
+    <![CDATA[
               <ol>
                   <li>網路填寫報名資料並匯款訂金。</li>
                   <li>來店洽詢並繳交訂金。</li>
               </ol>
           ]]>
-    </Block>
-    <Block id="processing" caption="網路報名流程" method="html" back="#top">
-      <![CDATA[
+  </Block>
+  <Block id="processing" caption="網路報名流程" method="html" back="#top">
+    <![CDATA[
               <ol>
                 <li><a href="CZ01.php">線上填寫報名表</a></li>
                 <li>
@@ -930,9 +939,9 @@
                 <li>上課前請準備好二吋照片電子檔佳，申請潛水證照使用</li>
               </ol>
           ]]>
-    </Block>
-    <Block id="notice" caption="學前須知" method="html" back="#top">
-          <![CDATA[
+  </Block>
+  <Block id="notice" caption="學前須知" method="html" back="#top">
+    <![CDATA[
               <ol>
                   <li>
                     iDiving採保證班的教學方式，如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於2<br/>
@@ -952,5 +961,5 @@
                   </li>
                 </ol>
         ]]>
-      </Block>
+  </Block>
 </Data>

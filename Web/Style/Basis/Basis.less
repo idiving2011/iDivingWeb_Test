@@ -63,6 +63,7 @@ nav, #nav {
     position: relative;
     margin: @Zero @Auto;
     width: 960px;
+    min-width: 960px;
 }
 
 .Hide {
@@ -350,7 +351,7 @@ nav, #nav {
     &.Link {
         color: @Word;
         text-decoration: none;
-        
+
         * {
             cursor: pointer;
         }
@@ -411,12 +412,16 @@ nav, #nav {
         text-align: center;
         color: @Link;
 
-        &:hover{
+        &:first-of-type {
+            margin-left: 12px;
+        }
+
+        &:hover {
             background-color: @Yellow;
             color: @White;
         }
 
-        &.Selected{
+        &.Selected {
             background-color: @White;
             border-top: 1px solid @Line;
             border-left: 1px solid @Line;
@@ -425,8 +430,42 @@ nav, #nav {
             cursor: default;
             color: @Word;
 
-            &:hover{
+            &.L2 {
+                background-color: @WhiteDark;
+            }
+
+            &:hover {
                 background-color: @White;
+                color: @Word;
+            }
+        }
+    }
+}
+
+.TabL2 {
+    height: 32px;
+    .FontStyle(18px);
+    background-color: @WhiteDark;
+    padding-top: 4px;
+
+    .Tag {
+        float: left;
+        line-height: 31px;
+        padding: @Zero 24px;
+        cursor: pointer;
+        text-align: center;
+        color: @Link;
+
+        &:hover {
+            color:  @Hover;
+        }
+
+        &.Selected {
+            cursor: default;
+            color: @Word;
+
+            &:hover {
+                background-color: @WhiteDark;
                 color: @Word;
             }
         }
