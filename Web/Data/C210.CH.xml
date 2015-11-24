@@ -19,11 +19,12 @@
               </tr>
               <tr>
                 <td>
-                  還不確定你想參加哪種專長課程嗎? 沒關係, iDiving為您精選出5項實用專長供您體驗進階探索潛水員課程是您超值的選擇, 一個課程5個專長探索, 然而如果您已經打定主意要參予特定專長課程, 那就跳過AA吧!  您可以直接報名該項<a href="C310.php">專長課程</a>。
+                  還不確定你想參加哪種專長課程嗎? 沒關係, iDiving為您精選出5項實用專長供您體驗！<br/>
+                  進階探索潛水員課程是您超值的選擇, 一個課程5個專長探索, 然而如果您已經打定主意要參予特定專長課程, 那就跳過AA吧!  您可以直接報名該項<a href="C310.php">專長課程</a>。
                 </td>
               </tr>
               <tr>
-                <td><img src="../Image/Data/AA_02.jpg" width="100%"/></td>
+                <td><img src="../Image/Data/AA_02.png" width="100%"/></td>
               </tr>
             </table>
             ]]>
@@ -81,7 +82,7 @@
     </Block>
     <Block id="plan" caption="開課日期" method="html" back="#top">
       <![CDATA[
-              <img src="../Image/Data/AA_Schedul_2015.jpg" width="80%"/>
+              <img src="../Image/Data/AA_2016.png" width="80%"/>
           ]]>
     </Block>
     <Block id="tuition" caption="超值學費" method="html" back="#top">
@@ -94,7 +95,7 @@
                 <div>費用包含：國際證照申請、教練費、2天裝備使用、海洋實習保險費</div>
                 <div>費用不含：移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）</div>
                 <br/>
-                <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2015 年國內潛水旅遊團費</span></div></h3>
+                <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2016 年國內潛水旅遊團費</span></div></h3>
                 <table border="1" width="50%">
                   <tr align="center">
                     <td width="40%">地點</td>
@@ -113,7 +114,7 @@
                   </tr>
                   <tr align="center">
                     <td><a href="D140.php">綠島</a></td>
-                    <td>11,000 元</td>
+                    <td>11,500 元</td>
                     <td>三天兩夜</td>
                   </tr>
                   <tr align="center">
