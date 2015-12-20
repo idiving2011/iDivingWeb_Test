@@ -1314,7 +1314,7 @@
     <Block id="plan15" caption="" method="html" back="#top" tag="獎勵認證方案">
       <![CDATA[
                     <p>為鼓勵學員能精進自身技巧並增進潛水安全，SSI將贈送特定執照給達成3階段目標的學員。</p>
-                    <!--<img src="../Image/Data/Schedule_216.png" width="80%"/>-->
+                    <img src="../Image/Data/DiverLevels.png" width="80%"/>
                 ]]>
     </Block>
     <!--<Block id="tuition15" caption="超值學費" method="html" back="#top" tag="獎勵認證方案">
