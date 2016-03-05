@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="杜巴塔哈礁"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="#intro"></Item>
+    <Item name="行程表" href="#schedule"></Item>
+    <!--<Item name="費用說明" href="D282.php"></Item>-->
+    <Item name="注意事項" href="#fee"></Item>
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
+    <![CDATA[ 
+            <img src="../Image/Data/TubbatahaIntro.jpg" style="float: right; width: 300px">
+            <div>杜巴塔哈礁（Tubbataha）位於菲律賓南部的蘇祿海(Sulu sea)中央，</div>
+            <br/>
+            <div>於1993年被聯合國列為世界自然遺產，擁有世界上最美麗的珊瑚礁，宏偉的環礁生態，</div>
+            <br/>
+            <div>更於2012年被CNN旅遊網評選為世界10大必去潛點。</div>
+            <br/>
+            <div>因該海域為海洋保護區每年只開放三月底至六月入內潛水，保護區內禁止一切商業獵魚及魚船作業，</div>
+            <br/>
+            <div>因此海洋生態非常豐富，能見度達 35 米以上。</div>
+            <br/>
+            <div>因為地理位置偏遠，只能船宿。</div>
+            <br/>
+            <div>此次活動搭乘旅遊級潛水船--亞特蘭提斯號，各房皆獨立衛浴，以及橡皮小艇接送。</div>
+            <br/>
+            <div>這趟旅程有很大的機會見到的各種大型海洋生物包括斧頭鯊、鯨鯊、護士鯊、虎鯊、魔鬼魟、梭魚群、海龜、珊瑚礁群魚....等，</div>
+            <br/>
+            <div>各種願望一次滿足。</div>
+        ]]>
+  </Block>
+  <Block id="schedule" caption="行程表" method="html" back="#top">
+    <![CDATA[ 
+            <img src="../Image/Data/TubbatahaSchedule01.jpg" style="float: right; width: 360px; margin: 0px 0px 20px 20px;">
+            <div>
+              5/14 傍晚 17:00 登船乘坐亞特蘭提斯號(Atlantis Azores)<br/>
+              5/15-5/20六天的行程將會順著南北環礁帶你深入瀏覽世界知名潛場<br/>
+              5/21 早晨 8:00 下船<br/>
+              停泊地點：巴拉望公主港<br/>
+              預計 6 天，共計 18 次潛水<br/>
+            </div>
+            <br/>
+            <!--<span class="Large Focus">五天六夜的活動行程，共船潛10次</span>-->
+            <ul>
+              <li>
+                DIVE DAY 1 & 6: NORTHERN TIP OF NORTH ATOLL<br/>
+                在北環礁北端有機會觀賞正在休息中的護士鯊和白鰭鯊，小幅魟與海龜群都是這裡的常客這邊是鯊魚洄游的地點，有機會看到黑鰭、白鰭鯊和灰礁鯊在這邊巡迴。
+              </li>
+              <li>
+                DIVE DAY 2: SOUTHERN END OF NORTH ATOLL<br/>
+                北環礁南端是餵魚區，這裡擁有極高的能見度高，海底下我們可以可以看到大量的珊瑚礁魚群、還有各式無脊椎動物，
+                水層中可看到大量的梭魚群，抬頭仰望我們可以觀賞滿天的Manta Ray和各式海龜在海面翱翔。
+              </li>
+              <li>
+                DIVE DAY 3: NORTHERN TIP OF SOUTH ATOLL<br/>
+                南環礁北端，這邊最大的特色就是大量的綠蠵龜和戴帽海龜，當然還有梭魚群、白鰭礁鯊和Manta Ray，
+                這邊的Manta比較不怕人，有機會可以接近牠們仔細觀賞他們美妙奇特的身形。
+              </li>
+              <li>
+                DIVE DAY 4: SOUTHERN END OF SOUTH ATOLL<br/>
+                南環礁南端，這邊俗稱為燈塔(Lighthouse)，這邊可以看到各式小型珊瑚礁魚、珊瑚、海綿、海葵等各式較小型的物種。
+              </li>
+              <li>
+                DIVE DAY 5: SOUTH EASTERN OF NORTH ATOLL<br/>
+                北環礁東南端，我們在這邊可以看到豆丁海馬，當然還有幾乎每天都可以遇到的白鰭鯊和灰礁鯊，
+                水底下的斑點魟，滿天的Manta Ray、綠蠵龜和戴帽海龜，其他還可以看到的像是牛港鰺，天使魚，火鏢魚...等。
+              </li>
+            </ul>
+            <br/>
+            <div>
+              亞特蘭提斯號是蘇祿海知名的高級船，建造於1989，於去年(2015)重新整修完畢。<br/>
+              亞特蘭提斯設有兩艘充氣小艇接送你潛水。<br/>
+              船上提供全天無限暢飲的小吃和飲料吧。<br/>
+              每個房間都配有獨立衛浴、每天潛水結束可享受一個熱水澡洗淨一天的疲憊。
+            </div>
+            <br/>
+            <img src="../Image/Data/TubbatahaSchedule02.jpg" width="360">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="../Image/Data/TubbatahaSchedule03.jpg" width="360">
+        ]]>
+  </Block>
+  <Block id="fee" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+            <img src="../Image/Data/Tubbataha05.jpg" style="float: right; width: 360px; margin: 0px 0px 20px 20px;">
+            <div>相關資訊請洽iDiving</div>
+            <br/>
+            <div>電話：0228827696<br/></div>
+            <br/>
+            <div>地址：台北市士林區前港街8號</div>
+            <br/>
+            <div>傳真：0228827656</div>
+            <br/>
+            <div>E-mail：<a href="mailto:info@idiving.com.tw">info@idiving.com.tw</a></div>
+            <br/>
+            <div>營業時間:15:00~21:00，農曆過年休假</div>
+            <br/>
+            <img src="../Image/Data/Tubbataha06.jpg" width="360">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="../Image/Data/Tubbataha07.jpg" width="360">
+        ]]>
+  </Block>
+</Data>
