@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="重裝"/>
+    <Block id="title" method="title" text="周邊"/>
     <Block id="package" caption="" method="html">
       <![CDATA[
               <br/><br/><br/><br/>
