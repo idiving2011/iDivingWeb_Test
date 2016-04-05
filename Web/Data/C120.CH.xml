@@ -201,34 +201,6 @@
                 </table>
                 <br/>
                 <br/>
-                <div><span class="Note">方案一 限定期別早鳥優惠B</span></div>
-                <table width="80%" border="0" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td nowrap width="1%">優惠時間：</td>
-                    <td colspan="2"><span class="Important">於2016/02/01~2016/03/31期間</span>，完成報名者可享優惠</td>
-                    <!--<td rowspan="5"><img style="width:250px" src="../Image/Data/problue bg-8571.jpg"></td>-->
-                  </tr>
-                  <tr>
-                    <td>優惠期別：</td>
-                    <td colspan="2">2016年第１期至第５期 (開課日期為4/12、4/20、4/26、5/4、5/10)</td>
-                  </tr>
-                  <tr>
-                    <td>優惠內容：</td>
-                    <td width="1%"><span class="Important">1. </span></td>
-                    <td><span class="Important">報名標準班潛水課程, 超值學費17000</span></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>2.</td>
-                    <td>IST網袋升級為PROBLUE網袋(市價1500元)</td>
-                  </tr>
-                  <!--<tr>
-                    <td></td>
-                    <td>3.</td>
-                    <td>前25位報名的學員, 蛙鞋贈品升級為AQUABIONIC 彈簧鞋帶優質蛙鞋（市價6000）(不可指定顏色與尺寸，優惠A+B共用額度25雙，送完為止，如已經送完或尺寸不合改回原款蛙鞋不另外退費)</td>
-                  </tr>-->
-                </table>
-                <br/>
                 <div><span class="Note">方案一 限定期別優惠C</span></div>
                 <table width="80%" border="0" cellpadding="0" cellspacing="0">
                   <tr>
@@ -245,7 +217,7 @@
                   </tr>
                   <tr>
                     <td>優惠內容：</td>
-                    <td>贈送現金折價卷1000元</td>
+                    <td><span class="Important">贈送現金折價卷1000元</span></td>
                   </tr>
                   <tr>
                     <td>使用規則：</td>
