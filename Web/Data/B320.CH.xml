@@ -1,10 +1,337 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
     <Block id="title" method="title" text="重裝"/>
-    <Block id="package" caption="" method="html">
+    <Block id="nav" method="nav">
+      <Item name="浮力背心" href="#BC"></Item>
+      <Item name="調節器" href="#Regulators"></Item>
+      <Item name="備用氣源" href="#SS"></Item>
+      <Item name="錶組" href="#Instruments"></Item>
+      <Item name="電腦錶" href="#Computer"></Item>
+      <Item name="超值重裝組" href="#Sets"></Item>
+    </Block>
+    <Block id="intro" method="html" back="#top">
       <![CDATA[
-              <br/><br/><br/><br/>
-			  <div style="text-align:center"><img src="../Image/Data/UnderConstruction.jpg"/></div>
+        <table width="80%" style="table-layout: fixed;">
+          <tr>
+            <td>潛水員是否擁有自己的裝備,絕對關係到潛水的安全性與舒適性,每一位潛水員都應該擁有一套屬於自己的高品質潛水裝備,也唯有裝備使用越熟悉,您才能清楚感受到潛水的樂趣, iDiving可以協助您選購合適的裝備。</td>
+          </tr>
+        </table>
+            ]]>
+    </Block>
+    <Block id="BC" caption="浮力背心" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td colspan="3">
+              個人喜好與自身感受的舒適性為選擇BC的重要依據。你還需要考量潛水環境需求,也就是了解日後最可能從事的潛水類型,iDiving潛水中心的教練可以協助你找出一件最適合自己的BC。<br><br>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%"><img src="../Image/Data/BCD_AUDAXPRO.jpg" width="80%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              AUDAXPRO<br>
+              店內價:21500
+            </td>
+            <td width="50%">
+              <ul>
+                <li>專為旅行者所設計，整體重量只有2公斤</li>
+                <li>多款顏色供選擇，適合想與眾不同者</li>
+                <li>可以根據需求，另購其他的附件進行靈活組合進行個性化配置</li>
+                <li>12個尼龍掛扣，方便掛載各種個人所需的潛水配件</li>
+                <li>氣囊外罩拉鍊可打開，便於更換內部的氣囊</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="../Image/Data/BCJ-1800.jpg" width="100%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              BCJ-1800<br>
+              店內價:13800
+            </td>
+            <td>
+              <ul>
+                <li>輕量化及品質的旅行 BC省去出國行李超重煩惱</li>
+                <li>厚且軟的背墊兼顧輕盈舒適合身感</li>
+                <li>兩條氣瓶固定帶,氣瓶不易鬆脫</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="../Image/Data/BCD_equator.jpg" width="80%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              EQUATOR<br>
+              店內價:19800
+            </td>
+            <td>
+              <ul>
+                <li>4個金屬D環符合水攝潛水員需求</li>
+                <li>快速拆卸及可調整肩扣</li>
+                <li>整合式配重帶</li>
+                <li>容易折疊收納</li>
+                <li>洩氣速度快</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
           ]]>
+    </Block>
+    <Block id="Regulators" caption="調節器" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td colspan="3">
+              調節器會自動因應水中壓力的變化來調整本身的輸出；並根據潛水員的需求將相當於環境壓力的空氣,經由二級頭送入潛水員口中，一組好的調節器除了呼吸非常順暢外,品質的穩定度和耐用性更是十分重要。<br><br>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%"><img src="../Image/Data/Regulator_Atomic_B2.jpg" width="100%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              ATOMIC B2<br>
+              店內價:24300
+            </td>
+            <td width="50%">
+              <ul>
+                <li>舒適、性能、流行時尚的絕佳組合</li>
+                <li>鍍鉻銅一級頭以及鈦合金二級頭</li>
+                <li>獨家研發舒適萬向接頭</li>
+                <li>自動氣流控制(AFC)</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="../Image/Data/Regulator_legend.jpg" width="80%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              AQUALUNG LEGEND<br>
+              店內價:20500
+            </td>
+            <td>
+              <ul>
+                <li>真空吸力撥桿</li>
+                <li>自動關閉裝置(ACD)</li>
+                <li>超平衡式橫膈膜</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="../Image/Data/Regulator_mikro.png" width="80%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              AQUALUNG MIKRON<br>
+              店內價:16200
+            </td>
+            <td>
+              <ul>
+                <li>整體重量只有878公克</li>
+                <li>一級頭為平衡式橫隔膜設計</li>
+                <li>二級頭配備調整鈕可控制出氣量</li>
+                <li>舒適、性能、流行時尚的絕佳組合</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+            ]]>
+    </Block>
+    <Block id="SS" caption="備用氣源" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%"><img src="../Image/Data/SS1.jpeg" width="100%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              ATOMIC SS1<br>
+              店內價:8550
+            </td>
+            <td width="50%">
+              <ul>
+                <li>整合充排氣閥與備用氣源讓兩種產品合而為一,減少了潛水裝備的體積與重量</li>
+                <li>需要共用氣源的緊急狀況下，也能輕易地找到它</li>
+                <li>SS1可適用於任何BC,不至於發生所謂的排他性</li>
+                <li>SS1特殊設計讓中壓管與蛇管都能快速卸取保護心愛的備用二級頭</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+            ]]>
+    </Block>
+    <Block id="Instruments" caption="錶組" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%"><img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              TUSA SCA-270二用錶<br>
+              (指北針、壓力錶)<br>
+              店內價:5400
+            </td>
+            <td width="50%">
+              <ul>
+                <li>搭配手腕式電腦錶的最佳選擇</li>
+                <li>刻度盤面採最新儲光塗層,方便於昏暗環境中判讀儀錶</li>
+                <li>照明效果與照明時間皆較傳統螢光高出數倍</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+            ]]>
+    </Block>
+    <Block id="Computer" caption="電腦錶" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td colspan="3">
+              潛水電腦錶具備搜集潛水資訊的功能,並且監控深刻與時間,同時也會推算潛水員體內氮氣吸收與排放的情形監控潛水員身體安全，相較於一般傳統儀錶和潛水計畫表,潛水電腦錶為潛水員帶來更多好處,特別是使用電腦潛水錶的潛水員,可以明顯感受到潛水時間增長許多。<br><br>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%"><img src="../Image/Data/Suunto-D4i.jpg" width="100%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              Suunto D4i Novo<br>
+              店內價:20500<br>
+              <br>
+              Suunto D4i Novo<br>
+              新款色/海洋綠/櫻花紅/太陽黃<br>
+              店內價:20800
+            </td>
+            <td width="50%">
+              <ul>
+                <li>輕量化、簡單實用、引領時尚</li>
+                <li>支援發射器傳輸</li>
+                <li>採用特殊的運算模式執行減壓運算，同時,也可以在傳統的安全停留或者啟動深層停留的功能之間做選擇</li>
+                <li>四種操作模式,潛水計畫、搭配ＳＤＭ ＰＣ軟體更容易讀取詳細潛水資訊</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+            ]]>
+    </Block>
+    <Block id="Sets" caption="超值重裝組A" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%">
+              <img src="../Image/Data/BCJ-1800.jpg" width="100%" /><br>
+              <img src="../Image/Data/SS1.jpeg" width="100%" />
+            </td>
+            <td width="20%">
+              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br>
+              <img src="../Image/Data/Regulator_mikro.png" width="90%" />
+            </td>
+            <td width="20%">
+              <img src="../Image/Data/problue.jpg" width="70%" /><br>
+              <img src="../Image/Data/20mCoastLine.jpg" width="60%" /><br>
+              <img src="../Image/Data/SignalTube.jpg" width="100%" />
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+              <p>A組合:</p>
+              <ol>
+                <li>麥克龍調節器</li>
+                <li>二用錶</li>
+                <li>整合式備用氣源</li>
+                <li>輕量旅行者BC</li>
+                <li>收納包</li>
+                <li>20m手輪</li>
+                <li>1.2m浮力棒</li>
+              </ol>  
+              <br><br>
+              來店現金價:41500
+            </td>
+          </tr>
+        </table>
+            ]]>
+    </Block>
+    <Block id="Sets" caption="超值重裝組B" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%">
+              <img src="../Image/Data/BCJ-1800.jpg" width="100%" /><br>
+              <img src="../Image/Data/SS1.jpeg" width="100%" />
+            </td>
+            <td width="20%">
+              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br><br><br><br>
+              <img src="../Image/Data/Regulator_legend.jpg" width="100%" />
+            </td>
+            <td width="20%">
+              <img src="../Image/Data/problue.jpg" width="70%" /><br>
+              <img src="../Image/Data/20mCoastLine.jpg" width="60%" /><br>
+              <img src="../Image/Data/SignalTube.jpg" width="100%" />
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+              <p>Ｂ組合:</p>
+              <ol>
+                <li>傳奇調節器</li>
+                <li>二用錶</li>
+                <li>整合式備用氣源</li>
+                <li>輕量旅行者BC</li>
+                <li>收納包</li>
+                <li>20m手輪</li>
+                <li>1.2m浮力棒</li>
+              </ol>  
+              <br><br>
+              來店現金價:45500
+            </td>
+          </tr>
+        </table>
+            ]]>
+    </Block>
+    <Block id="Sets" caption="超值重裝組C" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%">
+              <img src="../Image/Data/BCD_equator.jpg" width="90%" /><br>
+              <img src="../Image/Data/SS1.jpeg" width="100%" />
+            </td>
+            <td width="10%">&nbsp;</td>
+            <td width="20%">
+              <br><br>
+              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br>
+              <img src="../Image/Data/Regulator_mikro.png" width="90%" />
+            </td>
+            <td width="18%">&nbsp;</td>
+            <td>
+              <p>C組合:</p>
+              <ol>
+                <li>麥克龍調節器</li>
+                <li>二用錶</li>
+                <li>整合式備用氣源</li>
+                <li>Scubapro Equator BC</li>
+              </ol>  
+              <br><br>
+              來店現金價:45700
+            </td>
+          </tr>
+        </table>
+            ]]>
+    </Block>
+    <Block id="Sets" caption="超值重裝組D" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%">
+              <img src="../Image/Data/BCD_equator.jpg" width="90%" /><br>
+              <img src="../Image/Data/SS1.jpeg" width="100%" />
+            </td>
+            <td width="10%">&nbsp;</td>
+            <td width="20%">
+              <br><br>
+              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br><br><br><br><br>
+              <img src="../Image/Data/Regulator_legend.jpg" width="100%" />
+            </td>
+            <td width="18%">&nbsp;</td>
+            <td>
+              <p>D組合:</p>
+              <ol>
+                <li>傳奇調節器</li>
+                <li>二用錶</li>
+                <li>整合式備用氣源</li>
+                <li>Scubapro Equator BC</li>
+              </ol>  
+              <br><br>
+              來店現金價:49300
+            </td>
+          </tr>
+        </table>
+            ]]>
     </Block>
 </Data>
