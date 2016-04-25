@@ -27,28 +27,37 @@
             </td>
           </tr>
           <tr>
-            <td width="20%"><img src="../Image/Data/BCD_AUDAXPRO.jpg" width="80%" /></td>
+            <td width="20%" style="vertical-align:bottom;text-align: center">
+              <img src="../Image/Data/BCD_AUDAXPRO.jpg" width="80%" />
+            </td>
             <td style="vertical-align:middle;text-align: center">
               AUDAXPRO<br>
               店內價:21500
             </td>
-            <td width="50%">
+            <td width="50%" style="vertical-align:middle;">
               <ul>
                 <li>專為旅行者所設計，整體重量只有2公斤</li>
                 <li>多款顏色供選擇，適合想與眾不同者</li>
-                <li>可以根據需求，另購其他的附件進行靈活組合進行個性化配置</li>
+                <li>可另購其他的附件進行靈活組合進行個性化配置</li>
                 <li>12個尼龍掛扣，方便掛載各種個人所需的潛水配件</li>
                 <li>氣囊外罩拉鍊可打開，便於更換內部的氣囊</li>
               </ul>
             </td>
           </tr>
           <tr>
-            <td><img src="../Image/Data/BCJ-1800.jpg" width="100%" /></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../Image/Data/BCJ-1800.jpg" width="100%" />
+            </td>
             <td style="vertical-align:middle;text-align: center">
               BCJ-1800<br>
               店內價:13800
             </td>
-            <td>
+            <td style="vertical-align:middle;">
               <ul>
                 <li>輕量化及品質的旅行 BC省去出國行李超重煩惱</li>
                 <li>厚且軟的背墊兼顧輕盈舒適合身感</li>
@@ -57,12 +66,19 @@
             </td>
           </tr>
           <tr>
-            <td><img src="../Image/Data/BCD_equator.jpg" width="80%" /></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="text-align: center">
+              <img src="../Image/Data/BCD_equator.jpg" width="65%" />
+            </td>
             <td style="vertical-align:middle;text-align: center">
               EQUATOR<br>
               店內價:19800
             </td>
-            <td>
+            <td style="vertical-align:middle">
               <ul>
                 <li>4個金屬D環符合水攝潛水員需求</li>
                 <li>快速拆卸及可調整肩扣</li>
@@ -84,41 +100,51 @@
             </td>
           </tr>
           <tr>
-            <td width="20%"><img src="../Image/Data/Regulator_Atomic_B2.jpg" width="100%" /></td>
+            <td width="20%" style="vertical-align:middle;text-align: center">
+              <img src="../Image/Data/Regulator_Atomic_B2.jpg" width="77%" />
+              <br>
+            </td>
             <td style="vertical-align:middle;text-align: center">
               ATOMIC B2<br>
               店內價:24300
             </td>
-            <td width="50%">
+            <td width="50%" style="vertical-align:middle">
               <ul>
                 <li>舒適、性能、流行時尚的絕佳組合</li>
                 <li>鍍鉻銅一級頭以及鈦合金二級頭</li>
                 <li>獨家研發舒適萬向接頭</li>
                 <li>自動氣流控制(AFC)</li>
               </ul>
+              <br>
             </td>
           </tr>
           <tr>
-            <td><img src="../Image/Data/Regulator_legend.jpg" width="80%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              <img src="../Image/Data/Regulator_legend.jpg" width="100%" />
+              <br>
+            </td>
             <td style="vertical-align:middle;text-align: center">
               AQUALUNG LEGEND<br>
               店內價:20500
             </td>
-            <td>
+            <td style="vertical-align:middle">
               <ul>
                 <li>真空吸力撥桿</li>
                 <li>自動關閉裝置(ACD)</li>
                 <li>超平衡式橫膈膜</li>
               </ul>
+              <br>
             </td>
           </tr>
           <tr>
-            <td><img src="../Image/Data/Regulator_mikro.png" width="80%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              <img src="../Image/Data/Regulator_mikro.png" width="69%" />
+            </td>
             <td style="vertical-align:middle;text-align: center">
               AQUALUNG MIKRON<br>
               店內價:16200
             </td>
-            <td>
+            <td style="vertical-align:middle">
               <ul>
                 <li>整體重量只有878公克</li>
                 <li>一級頭為平衡式橫隔膜設計</li>
@@ -139,7 +165,7 @@
               ATOMIC SS1<br>
               店內價:8550
             </td>
-            <td width="50%">
+            <td width="50%" style="vertical-align:middle">
               <ul>
                 <li>整合充排氣閥與備用氣源讓兩種產品合而為一,減少了潛水裝備的體積與重量</li>
                 <li>需要共用氣源的緊急狀況下，也能輕易地找到它</li>
@@ -161,7 +187,7 @@
               (指北針、壓力錶)<br>
               店內價:5400
             </td>
-            <td width="50%">
+            <td width="50%" style="vertical-align:middle">
               <ul>
                 <li>搭配手腕式電腦錶的最佳選擇</li>
                 <li>刻度盤面採最新儲光塗層,方便於昏暗環境中判讀儀錶</li>
@@ -192,7 +218,7 @@
               店內價:20800<br>
               (不含稅，需外加)
             </td>
-            <td width="50%">
+            <td width="50%" style="vertical-align:middle">
               <ul>
                 <li>輕量化、簡單實用、引領時尚</li>
                 <li>支援發射器傳輸</li>
@@ -280,14 +306,16 @@
       <![CDATA[
         <table width="80%">
           <tr>
-            <td width="20%">
-              <img src="../Image/Data/BCD_equator.jpg" width="90%" /><br>
+            <td width="20%" style="text-align: center">
+              <img src="../Image/Data/BCD_equator.jpg" width="65%" />
+			  <br>
               <img src="../Image/Data/SS1.jpeg" width="100%" />
             </td>
             <td width="10%">&nbsp;</td>
             <td width="20%">
-              <br><br>
-              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br>
+              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" />
+			  <br>
+			  <br>
               <img src="../Image/Data/Regulator_mikro.png" width="90%" />
             </td>
             <td width="18%">&nbsp;</td>
@@ -310,13 +338,13 @@
       <![CDATA[
         <table width="80%">
           <tr>
-            <td width="20%">
-              <img src="../Image/Data/BCD_equator.jpg" width="90%" /><br>
+            <td width="20%" style="text-align: center">
+              <img src="../Image/Data/BCD_equator.jpg" width="65%" />
+			  <br>
               <img src="../Image/Data/SS1.jpeg" width="100%" />
             </td>
             <td width="10%">&nbsp;</td>
             <td width="20%">
-              <br><br>
               <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br><br><br><br><br>
               <img src="../Image/Data/Regulator_legend.jpg" width="100%" />
             </td>
