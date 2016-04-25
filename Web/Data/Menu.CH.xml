@@ -7,6 +7,18 @@
       <Item text="聯絡方式" href="B210" tag="contact" />
       <Item text="匯款資訊" href="B210" tag="remittance" />
     </Group>
+    <Group text="潛水裝備">
+      <Item text="輕裝" href="B310" />
+      <Item text="重裝" href="B320" />
+      <Item text="周邊" href="B330" />
+    </Group>
+    <Group text="潛水知識">
+      <Item text="學潛水Q&amp;A" href="B410" />
+    </Group>
+    <Group text="水中攝影">
+      <Item text="婚紗攝影" href="B510" />
+      <Item text="特殊紀念" href="B520" />
+    </Group>
   </Menu>
   <Menu text="玩潛水">
     <Group text="台灣">
@@ -20,7 +32,7 @@
       <Item text="阿尼洛" href="D210" />
       <Item text="明多洛" href="D220" />
       <Item text="杜馬蓋地" href="D230" />
-      <Item text="馬拉帕斯加" href="D250" />
+      <Item text="Tubbataha Reef" href="D280" />
     </Group>
     <Group text="印尼、馬來西亞">
       <Item text="峇里島" href="D310" />
@@ -30,7 +42,7 @@
       <Item text="帛琉" href="D410" />
       <Item text="馬爾地夫" href="D420" />
     </Group>
-    <Group text="iDiving 給你" prop="Extra">
+    <Group text="iDiving 給你">
       <Item text="年度出團計畫" href="DZ01" />
       <Item text="活動照片" href="B240" />
       <Item text="俱樂部介紹" href="B400" />
@@ -38,18 +50,24 @@
     </Group>
   </Menu>
   <Menu text="學潛水">
-    <Group text="自由潛水員 (FD)">
+    <Group text="自由潛水員 (FD)" prop="Extra">
+      <Item text="學潛水懶人包" href="C110" />
       <Item text="FD LV1-3" href="CFD110" />
     </Group>
     <Group text="水肺潛水員">
+      <Item text="學潛水懶人包" href="C110" />
+      <Item text="平日體驗潛水班" href="C100" />
       <Item text="開放水域潛水員" href="C120" />
       <Item text="進階探索潛水員" href="C210" />
       <Item text="專長潛水員" href="C310" />
     </Group>
-    <Group text="領導級潛水員">
-      <Item text="潛水主管" href="C410" />
+    <Group text="專業人士培訓">
+      <Item text="初階領導級" href="C410" />
+      <Item text="專業教練" href="C420" />
+      <Item text="高階教練" href="C430" />
     </Group>
-    <Group text="iDiving 給你" prop="Extra">
+    <Group text="iDiving 給你">
+      <Item text="學潛水懶人包" href="C110" />
       <Item text="開課計畫" href="BZ01" />
       <Item text="立即報名" href="CZ01" />
       <Item text="教練團FB" href="B230" />
