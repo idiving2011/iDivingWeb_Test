@@ -1,10 +1,241 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
     <Block id="title" method="title" text="輕裝"/>
-    <Block id="package" caption="" method="html">
+    <Block id="nav" method="nav">
+      <Item name="防寒衣" href="#Wetsuits"></Item>
+      <Item name="面鏡" href="#Masks"></Item>
+      <Item name="蛙鞋" href="#Fins"></Item>
+      <Item name="套鞋" href="#Boots"></Item>
+    </Block>
+    <Block id="intro" method="html" back="#top">
       <![CDATA[
-              <br/><br/><br/><br/>
-			  <div style="text-align:center"><img src="../Image/Data/UnderConstruction.jpg"/></div>
+          <table width="80%" style="table-layout: fixed;">
+            <tr>
+              <td>輕裝包含防寒衣、面鏡、呼吸管、套鞋、蛙鞋，iDiving提供許多超優質輕裝讓各位選購，歡迎大家前來iDiving找出您心目中的理想輕裝。</td>
+            </tr>
+          </table>
+              ]]>
+    </Block>
+    <Block id="Wetsuits" caption="防寒衣" method="html" back="#top">
+      <![CDATA[
+          <table width="80%">
+            <tr>
+              <td colspan="3">
+                因為海水吸收人體溫度的速度比空氣快了將近25倍；所以身體的溫度會逐步被海水吸收導致體溫下降，想要維持正常的體溫就必須穿著防寒衣，此外穿著防寒衣還具備保護身體的作用，防止岸潛出入水跌倒割傷，也能保護自己不被水母或其他海洋生物螫傷。 iDiving備有多種款式防寒衣供各位挑選，iDiving教練也能根據各位需求提供建議，協助您找到最適合的防寒衣。<br><br>
+              </td>
+            </tr>
+            <tr>
+              <td width="20%" align="center">
+                <img src="../Image/Data/WETSUITS_M.png" width="80%" />
+                <br>
+                <br>
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                Bare Sport 3mm<br>
+                店內價:5000
+              </td>
+              <td width="50%" style="vertical-align:middle;">
+                <ul>
+                  <li>專分割縫合以及線條都能是符合人體曲線</li>
+                  <li>平紋車縫工藝，確保舒適性以及伸展性</li>
+                  <li>防寒衣表布採用GLIDESKIN反光材料塗層，能防止體溫流失而且光滑更貼身，防止海水在體表的流動</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+      ]]>
+    </Block>
+    <Block id="Wetsuits" caption="機能型防曬衣" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%">
+              <img src="../Image/Data/VestWithHood.png" width="100%" />
+              <br>
+            </td>
+            <td style="vertical-align:middle;text-align: center">
+              Sharkskin 黑色背心頭套<br>
+              店內價:4200
+            </td>
+            <td rowspan="2" width="50%" style="vertical-align:middle;">
+              <ul>
+                <li>微絨毛設計提供溫暖與快速排水使皮膚保持乾燥</li>
+                <li>100% 的防風能力</li>
+                <li>耐用防水外層</li>
+                <li>防曬係數 SPF 30~50+ 避免受到紫外線的傷害</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../Image/Data/LongSleeveWithHood.png" width="100%" />
+              <br>
+            </td>
+            <td style="vertical-align:middle;text-align: center">
+              Sharkskin 黑色長袖連帽<br>
+              店內價:5700
+            </td>
+          </tr>
+        </table>
           ]]>
+    </Block>
+    <Block id="Masks" caption="面鏡" method="html" back="#top">
+      <![CDATA[
+          <table width="80%">
+            <tr>
+              <td colspan="5">
+                人類眼睛構造無法在水中發揮功能，如未使用面鏡直接在水中張開眼睛則只能看見模糊的影像，所以面鏡在潛水裝備中是非常重要的器材。挑選一個好面鏡最主要著重在貼臉性、是否容易做耳壓平衡都是最主要的考量。除此之外建議初學者選用透明裙邊面鏡，一來教練比較容易注意學員狀況，二來拍照辨識度高也比較上相。<br><br>
+              </td>
+            </tr>
+            <tr>
+              <td width="20%" align="center">
+                <img src="../Image/Data/M1002.jpg" width="80%" />
+              </td>
+              <td width="20%" align="center">
+                <img src="../Image/Data/M17.jpg" width="90%" />
+              </td>
+              <td width="20%" align="center">
+                <img src="../Image/Data/M1003.jpg" width="90%" />
+              </td>
+			  <td width="20%" align="center">
+                <img src="../Image/Data/M212.jpg" width="80%" />
+              </td>
+              <td width="20%" align="center">
+                <img src="../Image/Data/mask_02.jpg" width="90%" />
+              </td>
+			</tr>
+			<tr>
+              <td style="vertical-align:middle;text-align: center">
+                Tusa M1002<br>
+                店內價:3000
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                Tusa M17<br>
+                店內價:1900
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                Tusa M1003<br>
+                店內價:2650
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                Tusa M212<br>
+                店內價:2050
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                V Dive C101<br>
+                店內價:1150
+              </td>
+            </tr>
+          </table>
+              ]]>
+    </Block>
+    <Block id="Fins" caption="蛙鞋" method="html" back="#top">
+      <![CDATA[
+            <table width="80%" style="table-layout: fixed;">
+              <tr>
+                <td colspan="3">
+                  蛙鞋的作用是為了幫助水中移動的效率，以最少的力氣獲得最大推進效果。蛙鞋一般可分兩種形式:套腳式與無後跟式，建議第一次買蛙鞋可選擇無後跟式，選購無後跟蛙鞋時務必連同套鞋一併試穿。<br><br>
+                </td>
+              </tr>
+            <tr>
+              <td style="vertical-align:middle;text-align: center">
+                <img src="../Image/Data/sf22.jpg" width="80%" />
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                <img src="../Image/Data/Avanti.png" width="30%" />
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                <img src="../Image/Data/tusaSf5.jpg" width="80%" />
+              </td>
+			</tr>
+			<tr>
+              <td style="vertical-align:middle;text-align: center">
+                TUSA SF22<br>
+                店內價:3700
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                Mares Avanti TRE<br>
+                店內價:2800
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                Tusa SF5(海猿)<br>
+                店內價:4150
+              </td>
+            </tr>
+            <tr>
+              <td style="vertical-align:middle;text-align: center">
+                <img src="../Image/Data/SF15.jpg" width="80%" />
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                <img src="../Image/Data/SuperMewXX.jpg" width="80%" />
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                <img src="../Image/Data/GullSuperMew.jpg" width="80%" />
+              </td>
+			</tr>
+			<tr>
+              <td style="vertical-align:middle;text-align: center">
+                Tusa SF15<br>
+                店內價:5280
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                GULL Super Mew XX<br>
+                店內價:7000
+              </td>
+              <td style="vertical-align:middle;text-align: center">
+                GULL  Mew<br>
+                店內價:4000
+              </td>
+            </tr>
+            <tr>
+              <td style="vertical-align:middle;text-align: center">
+                <img src="../Image/Data/SuperMew.jpg" width="80%" />
+              </td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+              <td style="vertical-align:middle;text-align: center">
+                GULL Super Mew<br>
+                店內價:7000
+              </td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+            </tr>
+            </table>
+                ]]>
+    </Block>
+    <Block id="Boots" caption="套鞋" method="html" back="#top">
+      <![CDATA[
+          <table width="80%">
+          <tr>
+            <td width="20%">
+              <img src="../Image/Data/boots.jpg" width="100%" />
+              <br>
+            </td>
+            <td style="vertical-align:middle;text-align: center">
+              Gull 防滑鞋(男)<br>
+              店內價:950
+            </td>
+            <td rowspan="2" width="50%" style="vertical-align:middle;">
+              <ul>
+                <li>菜瓜布底防滑好行走</li>
+                <li>台灣製造</li>
+                <li>YKK拉鍊超耐用</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../Image/Data/BoostWoman.jpg" width="100%" />
+              <br>
+            </td>
+            <td style="vertical-align:middle;text-align: center">
+              Gull 防滑鞋(女)<br>
+              店內價:950
+            </td>
+          </tr>
+        </table>
+              ]]>
     </Block>
 </Data>

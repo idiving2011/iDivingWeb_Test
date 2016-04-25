@@ -15,9 +15,11 @@
     <?php include "../Part/Head.php"; ?>
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
-        <div id="store" class="ArticleBox"></div>
-        <div id="web" class="ArticleBox"></div>
-        <div id="phone" class="ArticleBox"></div>
+		<div id="intro" class="ArticleBox"></div>
+		<div id="Wetsuits" class="ArticleBox"></div>
+		<div id="Masks" class="ArticleBox"></div>
+		<div id="Fins" class="ArticleBox"></div>
+		<div id="Boots" class="ArticleBox"></div>
     </div>
     <?php include "../Part/Foot.php" ; ?>
 </body>
