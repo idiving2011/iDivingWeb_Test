@@ -1082,7 +1082,8 @@
           </Block>
         <Block id="plan12" caption="開課日期" method="html" back="#top" tag="乾衣">
           <![CDATA[
-                        <img src="../Image/Data/PH_2016.png" width="80%"/>
+                        <!--<img src="../Image/Data/PH_2016.png" width="80%"/>-->
+                        <p>iDiving樂意為您安排特別的上課時間, 請與我們聯絡。</p>
                     ]]>
         </Block>
         <Block id="tuition12" caption="超值學費" method="html" back="#top" tag="乾衣">
