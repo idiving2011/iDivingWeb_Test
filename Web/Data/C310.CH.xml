@@ -621,8 +621,8 @@
                   <td align="center">上課地點</td>
                 </tr>
                 <tr>
-                  <td align="center">學 科</td>
-                  <td align="center">19：10 ~ 21：30</td>
+                  <td align="center" style="vertical-align:middle">學 科</td>
+                  <td align="center" style="vertical-align:middle">19：10 ~ 21：30</td>
                   <td align="center">
                     各種裝備的浮力<br />
                     如何達到完美浮力
@@ -633,19 +633,15 @@
                   </td>
                 </tr>
                 <tr>
-                  <td align="center">
-                    海 洋 實<br />
-                    習2支
+                  <td align="center" style="vertical-align:middle">
+                    術 科
                   </td>
-                  <td align="center">09：00 ~ 16：00</td>
-                  <td align="center">
+                  <td align="center" style="vertical-align:middle">13：30 ~ 18：30</td>
+                  <td align="center" style="vertical-align:middle">
                     定點懸浮練習<br />
                     蛙鞋使用時機與浮力控制
                   </td>
-                  <td align="center">
-                    東北角或搭配<br />
-                    潛水旅遊
-                  </td>
+                  <td align="center" style="vertical-align:middle">泳池</td>
                 </tr>
               </table>
             ]]>
@@ -668,8 +664,8 @@
                   <li><span class="Large Important">完美浮力費用為5000元，已完成AA的學員減免1000元</span></li>
                 </ul>
                 <br/>
-                <div>費用包含：線上教材、國際證照申請、教練費、裝備租借費用、東北角海洋實習費用與保險費。</div>
-                <div>費用不含：移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</span></div>
+                <div>費用包含：線上教材、國際證照申請、教練費、裝備租借費用與保險費。</div>
+                <!--<div>費用不含：移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</span></div>
                 <br/>
                 <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2016 年國內潛水旅遊團費</span></div></h3>
                 <table border="1" width="50%">
@@ -698,7 +694,7 @@
                     <td>15,000 元</td>
                     <td>四天三夜</td>
                   </tr>
-                </table>
+                </table>-->
                 ]]>
     </Block>
     <!--船潛-->
@@ -1400,7 +1396,6 @@
                     若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，<br/>
                     繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。<br/>
                   </li>
-                  <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
                   <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
                   <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
                   <li>
