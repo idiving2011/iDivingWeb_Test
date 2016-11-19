@@ -470,6 +470,25 @@ nav, #nav {
     }
 }
 
+.Guide {
+    height: 32px;
+    .FontStyle(18px);
+    background-color: @GrayLight;
+    border-top: 1px solid @Line;
+    border-bottom: 1px solid @Line;
+    margin-top: 12px;
+
+    .Nav {
+        .FontStyle(18px);
+        text-decoration: none;
+        margin-right: 36px;
+
+        &:first-of-type {
+            margin-left: 8px;
+        }
+    }
+}
+
 // ==== 通用元件 ====
 input[type = text], .TextBox {
     .FontStyle(13px);

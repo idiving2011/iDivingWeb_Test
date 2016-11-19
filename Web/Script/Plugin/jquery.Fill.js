@@ -63,6 +63,14 @@
                 });
             }
 
+            function guide(host, data) {
+                var bar = $("<div/>", { "class": "Guide" });
+                $(data).find("Item").each(function () {
+                    $(bar).append($($(this).attr("href") == "." ? "<span/>" : "<a/>", { "class": "Nav", href: $(this).attr("href"), text: $(this).attr("name") }));
+                });
+                $(host).append(bar);
+            }
+
             function html(host, data) {
                 $(host).append($("<div/>", { "class": "Content" }).html($(data).text()));
             }
