@@ -4,5 +4,6 @@
 function afterData() {
     $(".Link[data-tab]").click(function () {
         $(".Tab .Tag:nth-of-type(" + $(this).attr("data-tab") + ")").click();
+        $(window).scrollTop(0);
     });
 }
