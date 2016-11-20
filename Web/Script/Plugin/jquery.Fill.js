@@ -64,7 +64,7 @@
             }
 
             function dock(host, data) {
-                var bar = $("<div/>", { "class": "Guide" });
+                var bar = $("<div/>", { "class": "Dock" });
                 $(data).find("Item").each(function () {
                     $(bar).append($($(this).attr("href") == "." ? "<span/>" : "<a/>", { "class": "Nav", href: $(this).attr("href"), text: $(this).attr("name") }));
                 });
