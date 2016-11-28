@@ -12,14 +12,14 @@
             <div>iDiving 俱樂部成立之目的，是為了提供潛水同好一個培養潛水活力的環境</div>
             <div>藉由各項潛水活動的進行，凝聚會員之間的向心力</div>
             <div>並培養彼此互助合作的精神，增進潛水的樂趣與安全</div>
-            <div>定期舉辦各類型潛水講座，同時提升會員的樂趣與知性</div>
+            <div>不定期舉辦各類型潛水講座，同時提升會員的樂趣與知性</div>
         ]]>
     </Block>
     <Block id="join" caption="一起來 Happy" method="html" back="#top">
       <![CDATA[ 
-            <div>需繳交俱樂部年費（NT 2,000元）方能享有會員資格</div>
-            <div>曾加入過俱樂部的老朋友，不論其會員資格是否中斷</div>
-            <div>欲保有會員資格時，均享有年費半價的優惠（NT 1,000元）</div>
+            <div>繳交俱樂部年費（NT 3,000元）即可享有會員資格。</div>
+            <div>往後延續會員資格時，只需繳交 2,000 元即可。</div>
+            <div>會員效期：每年4/1 ~ 隔年3/31；首次入會效期多一年！</div>
         ]]>
     </Block>
     <Block id="advantage" caption="優惠 A 好康" method="html" back="#top">
@@ -37,101 +37,120 @@
             <br/>
             <span class="Large Focus">裝備優惠</span>
             <br/>
-            <table width="50%" border="1" cellpadding="0" cellspacing="0">
-              <tr align="center">
-                <td colspan="3">價 目 表</td>
-              </tr>
-              <tr align="center">
-                <td width="40%"><strong>項 目</strong></td>
-                <td width="30%"><strong>會 員</strong></td>
-                <td width="30%"><strong>非 會 員</strong></td>
-              </tr>
-              <tr align="center">
-                <td>面 鏡</td>
-                <td>50 元／天</td>
-                <td>100 元／天</td>
-              </tr>
-              <tr align="center">
-                <td>呼 吸 管</td>
-                <td>50 元／天</td>
-                <td>100 元／天</td>
-              </tr>
-              <tr align="center">
-                <td>防 寒 衣</td>
-                <td>100 元／天</td>
-                <td>150 元／天</td>
-              </tr>
-              <tr align="center">
-                <td>手 套</td>
-                <td>50 元／天</td>
-                <td>50 元／天</td>
-              </tr>
-              <tr align="center">
-                <td>套 鞋</td>
-                <td>50 元／天</td>
-                <td>50 元／天</td>
-              </tr>
-              <tr align="center">
-                <td>蛙 鞋</td>
-                <td>100 元／天</td>
-                <td>150 元／天</td>
-              </tr>
-              <tr align="center">
-                <td><strong>輕 裝 組 優 惠</strong></td>
-                <td><strong>300元／組／天</strong></td>
-                <td><strong>500元／組／天</strong></td>
-              </tr>
-              <tr align="center">
-                <td>調 節 器</td>
-                <td>300 元／天</td>
-                <td>400 元／天</td>
-              </tr>
-              <tr align="center">
-                <td>浮力調整裝置（BCD）</td>
-                <td>300 元／天</td>
-                <td>400 元／天</td>
-              </tr>
-              <tr align="center">
-                <td>電 腦 錶</td>
-                <td>300 元／天</td>
-                <td>400 元／天</td>
-              </tr>
-              <tr align="center">
-                <td>配 重</td>
-                <td>50 元／組</td>
-                <td>100 元／組</td>
-              </tr>
-              <tr align="center">
-                <td><strong>重裝組 租借優惠</strong></td>
-                <td><strong>700元／組／天</strong></td>
-                <td><strong>1000元／組／天</strong></td>
-              </tr>
-              <tr align="center">
-                <td>氣 瓶 費</td>
-                <td>150元／支</td>
-                <td>200元／支</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="3">導 潛 費</td>
-                <td colspan="2">初級開放水域潛水員（OWD）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200元／支</td>
-              </tr>
-              <tr>
-                <td colspan="2" align="center">具備導航專長資格（Navigation）&nbsp;&nbsp;100元／支</td>
-              </tr>
-              <tr>
-                <td colspan="2" align="center">具備Master Diver或領導級資格&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0元／支</td>
-              </tr>
-              <tr align="center">
-                <td>保 險 費</td>
-                <td>100元／人／天</td>
-                <td>100元／人／天</td>
-              </tr>
-              <tr align="center">
-                <td>交通費（iDiving ↔ 東北角）</td>
-                <td>250元／人（給駕駛）</td>
-                <td>250元／人 (給駕駛)</td>
-              </tr>
-            </table>
+            <ul>
+              <li>繳年費時可領取 300 元折價卷一張。</li>
+              <li>在 iDiving 購買器材時，可享有會員優惠價。</li>
+              <li>參加東北角活動優惠</li>
+              <table width="50%" border="1" cellpadding="0" cellspacing="0">
+                <tr align="center">
+                  <td colspan="3">價 目 表</td>
+                </tr>
+                <tr align="center">
+                  <td width="40%"><strong>項 目</strong></td>
+                  <td width="30%"><strong>會 員</strong></td>
+                  <td width="30%"><strong>非 會 員</strong></td>
+                </tr>
+                <tr align="center">
+                  <td>面 鏡</td>
+                  <td>50 元／天</td>
+                  <td>100 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>呼 吸 管</td>
+                  <td>50 元／天</td>
+                  <td>100 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>防 寒 衣</td>
+                  <td>100 元／天</td>
+                  <td>150 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>手 套</td>
+                  <td>50 元／天</td>
+                  <td>50 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>套 鞋</td>
+                  <td>50 元／天</td>
+                  <td>50 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>蛙 鞋</td>
+                  <td>100 元／天</td>
+                  <td>150 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td><strong>輕 裝 組 優 惠</strong></td>
+                  <td><strong>300 元／組／天</strong></td>
+                  <td><strong>500 元／組／天</strong></td>
+                </tr>
+                <tr align="center">
+                  <td>調 節 器</td>
+                  <td>300 元／天</td>
+                  <td>400 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>浮力調整裝置（BCD）</td>
+                  <td>300 元／天</td>
+                  <td>400 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>電 腦 錶</td>
+                  <td>300 元／天</td>
+                  <td>400 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>配 重</td>
+                  <td>50 元／組</td>
+                  <td>100 元／組</td>
+                </tr>
+                <tr align="center">
+                  <td><strong>重裝組 租借優惠</strong></td>
+                  <td><strong>700 元／組／天</strong></td>
+                  <td><strong>1000 元／組／天</strong></td>
+                </tr>
+                <tr align="center">
+                  <td>氣 瓶 費</td>
+                  <td>150 元／支</td>
+                  <td>200 元／支</td>
+                </tr>
+                <tr align="center" >
+                  <td rowspan="3" style="vertical-align: middle">導 潛 費</td>
+                  <td>
+                    沒有導潛專長<br>
+                    200 元／支
+                  </td>
+                  <td rowspan="3" style="vertical-align: middle">300 元／支</td>
+                </tr>
+                <tr align="center">
+                  <td>
+                    具備導潛專長<br>
+                    100 元／支
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td>
+                    MD 及領導級資格者<br>
+                    0 元／支
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td>保 險 費</td>
+                  <td colspan="2">150 元／人／天</td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: middle">
+                    交通費<br>
+                    （iDiving ↔ 東北角）
+                  </td>
+                  <td colspan="2">
+                    來回 300 元／人<br>
+                    單程 200 元／人
+                  </td>
+                </tr>
+              </table>
+            </ul>
             <div>
               <span class="Large Important">
                 註：iDiving幹部搭乘時不收費，搭車者請主動將車資給予駕駛，謝謝！<br>
@@ -139,7 +158,7 @@
               </span>
             </div>
             <ul>
-              <li>在 iDiving 購買器材時，可享有會員優惠價</li>
+              <li>潛水出團活動，租裝備少算一天</li>
             </ul>
             <br/>
             <span class="Large Focus">活動優惠</span>

@@ -82,20 +82,21 @@
     </Block>
     <Block id="plan" caption="開課日期" method="html" back="#top">
       <![CDATA[
-              <img src="../Image/Data/AA_2016.png" width="80%"/>
+              <img src="../Image/Data/AA_Schedule.png" width="80%"/>
           ]]>
     </Block>
     <Block id="tuition" caption="超值學費" method="html" back="#top">
       <![CDATA[
                 <ul>
-                  <li><span class="Large Focus">龍洞結訓優惠價 9,000 元</span></li>
-                  <li><span class="Large Focus">iDiving OWD 學員 結訓一個月內報名優惠減免2000元</span></li>
+                  <li><span class="Large Focus">定價 10,000 元</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 1,000 元</span></li>
+                  <li><span class="Large Important">iDiving 學生結訓 1 個月內報名折扣 3,000 元</span></li>
                 </ul>
                 <br/>
                 <div>費用包含：國際證照申請、教練費、2天裝備使用、海洋實習保險費</div>
                 <div>費用不含：移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）</div>
                 <br/>
-                <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2016 年國內潛水旅遊團費</span></div></h3>
+                <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2017 年國內潛水旅遊團費</span></div></h3>
                 <table border="1" width="50%">
                   <tr align="center">
                     <td width="40%">地點</td>
@@ -135,19 +136,22 @@
     </Block>
     <Block id="processing" caption="網路報名流程" method="html" back="#top">
       <![CDATA[
-              <ol>
+            <ol>
               <li><a href="CZ01.php">線上填寫報名表</a></li>
               <li>
-                繳交訂金3000元，<br/>
-                銀行：中國信託   戶名：愛潛水股份有限公司<br/>
-                代號：822  分行：士林分行  帳號：285-54009941-9
+                繳交訂金 3,000 元，<br/>
+                銀行：中國信託<br/>
+                分行：士林分行<br/>
+                戶名：愛潛水股份有限公司<br/>
+                代號：822<br/>
+                帳號：285-54009941-9
               </li>
               <li>
-                以匯款方式繳費者請來信或來電告知帳號末５碼<br/>
-                iDiving 02-2882-7696 或 email: info@idiving.com.tw
+                以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
+                營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
               </li>
-              <li>收到訂金與資料後，iDiving會至SSI全球官網註冊您的學籍。</li>
-              <li>上課前請準備好二吋照片電子檔佳，申請潛水證照使用</li>
+              <li>收到訂金與資料後，iDiving 會至 SSI 全球官網註冊您的學籍。</li>
+              <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
             </ol>
           ]]>
     </Block>
