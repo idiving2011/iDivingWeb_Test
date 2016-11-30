@@ -1,0 +1,128 @@
+﻿@import "Shared/_Definition.less";
+
+#welcome {
+    margin: 24px auto;
+    width: 932px;
+
+    .App {
+        .SheetStyle();
+        min-height: 180px;
+        padding: 20px;
+
+        .Icon {
+            width: 180px;
+        }
+
+        &.Left .Icon {
+            float: right;
+            margin-left: 100px;
+        }
+
+        &.Right .Icon {
+            float: left;
+            margin-right: 100px;
+        }
+
+        .Name {
+            .FontStyle(24px);
+            font-weight: bold;
+            margin: 4px @Zero 10px @Zero;
+        }
+
+        .Description {
+            .FontStyle(16px);
+            margin-bottom: 12px;
+        }
+    }
+}
+
+#login {
+   
+    span {
+        font-size: 18px;
+        margin-right: 12px;
+    }
+        
+    #hint {
+        font-size: 16px;
+        color: @Hint;
+        margin-bottom: 12px;
+    }
+
+    #message {
+        font-size: 16px;
+        color: @Warning;
+        text-align: center;
+        padding: 6px;
+        margin: 12px auto @Zero auto;
+        overflow: hidden;
+    }
+
+    .TextBox {
+        font-size: 16px;
+    }
+
+    .BR {
+        display: inline-block;
+        width: 24px;
+    }
+}
+
+// ==== Freeze 修正 ====
+body .Freeze #welcome .App {
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+@media @Tablet {
+    #welcome {
+        width: 526px;
+
+        .App {
+
+            &.Left, &.Right {
+
+                .Icon {
+                    float: left;
+                    margin: @Zero;
+                }
+            }
+
+            .Name, .Description {
+                margin-left: 204px;
+            }
+
+            .Go {
+                margin-left: 24px;
+            }
+        }
+    }
+}
+
+// ==== RWD ====
+@media @Phone {
+    #welcome {
+        width: 296px;
+
+        .App {
+
+            &.Left, &.Right {
+
+                .Icon {
+                    width: 42px;
+                    float: left;
+                    margin: @Zero 12px 4px @Zero;
+                }
+            }
+
+            .Name, .Description, .Go {
+                margin-left: @Zero;
+            }
+        }
+    }
+
+    #login {
+        .BR {
+            display: block;
+        }
+    }
+}

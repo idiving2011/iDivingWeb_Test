@@ -1,28 +1,32 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "App", "App\App.vbproj", "{37E2C20E-6DEE-4483-91B0-20B367017105}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "http://localhost:27450", "{75E51332-D2B7-4073-BD3D-62B9BF3634C4}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "iDiving.Web", "http://localhost:27450", "{75E51332-D2B7-4073-BD3D-62B9BF3634C4}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_27450"
-		Debug.AspNetCompiler.PhysicalPath = "\Web\"
+		Debug.AspNetCompiler.PhysicalPath = "Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27450\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_27450"
-		Release.AspNetCompiler.PhysicalPath = "\Web\"
+		Release.AspNetCompiler.PhysicalPath = "Web\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27450\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "\Web\"
+		SlnRelativePath = "Web\"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Help", "Help\Help.csproj", "{94F4EF44-56A4-4B06-9053-BA139E3153C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +42,10 @@ Global
 		{75E51332-D2B7-4073-BD3D-62B9BF3634C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75E51332-D2B7-4073-BD3D-62B9BF3634C4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{75E51332-D2B7-4073-BD3D-62B9BF3634C4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{94F4EF44-56A4-4B06-9053-BA139E3153C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F4EF44-56A4-4B06-9053-BA139E3153C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F4EF44-56A4-4B06-9053-BA139E3153C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F4EF44-56A4-4B06-9053-BA139E3153C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

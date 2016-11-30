@@ -1,0 +1,89 @@
+﻿@import "_Definition.less";
+
+.Search {
+    margin: 8px;
+    position: relative;
+
+    .Keyword {
+        border: 1px solid @Gray;
+        height: 34px;
+        line-height: 30px;
+        border-radius: 2px;
+        width: @Full;
+    }
+
+    .Go {
+        display: block;
+        margin: 18px auto @Zero auto;
+    }
+}
+
+.List {
+    margin: 8px;
+
+    .Title {
+        .FontStyle(20px);
+        margin-bottom: 12px;
+        font-weight: bold;
+    }
+
+    .Items {
+
+        .Item {
+            .SheetStyle();
+            padding: 6px 12px;
+            cursor: pointer;
+            height: 32px;
+            line-height: 32px;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+
+            * {
+                cursor: pointer;
+            }
+
+            span {
+                display: inline-block;
+                margin-right: 12px;
+                float: left;
+
+                &.Right {
+                    float: right;
+                    margin-left: 12px;
+                    margin-right: @Zero;
+                }
+            }
+
+            input[type=image] {
+                float: right;
+                margin-left: 12px;
+                margin-right: @Zero;
+                background-image: url(/Images/Action/Remove.png);
+                width: 18px;
+                height: @Full;
+                background-position: center center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+            }
+
+            &:not([data-view]) {
+                pointer-events: none;
+                cursor: default;
+            }
+
+            &:hover {
+                color: @Link;
+
+                * {
+                    color: @Link;
+                }
+            }
+        }
+    }
+
+    .Action {
+        margin: 18px @Zero 48px @Zero;
+        text-align: center;
+    }
+}

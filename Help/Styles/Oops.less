@@ -1,0 +1,34 @@
+﻿@import "Shared/_Definition.less";
+
+.Topbar .Logo span {
+    margin-left: 26px;
+}
+
+.Oops
+{
+    margin: 24px;
+    .Name{
+        .FontStyle(24px);
+        font-weight: bold;
+        color: @Warning;
+        margin-bottom: 4px;
+    }
+       
+    .Code, .SN {
+        font-style: italic;
+        line-height: 20px;
+    }
+
+
+    .Message {
+        border: 1px solid @Gray;
+        margin: 12px @Zero;
+        padding: 12px;
+        background-color: @LightYellow;
+        .FontStyle(16px);
+    }
+
+    .Next {
+        margin: 16px @Zero;
+    }
+}
