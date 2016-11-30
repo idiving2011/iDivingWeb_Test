@@ -15,9 +15,13 @@
     <?php include "../Part/Head.php"; ?>
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
-        <div id="map" class="ArticleBox"></div>
-        <div id="way" class="ArticleBox"></div>
-        <div id="open" class="ArticleBox"></div>
+		<div id="intro" class="ArticleBox"></div>
+		<div id="BC" class="ArticleBox"></div>
+		<div id="Regulators" class="ArticleBox"></div>
+		<div id="SS" class="ArticleBox"></div>
+		<div id="Instruments" class="ArticleBox"></div>
+		<div id="Computer" class="ArticleBox"></div>
+		<div id="Sets" class="ArticleBox"></div>
     </div>
     <?php include "../Part/Foot.php" ; ?>
 </body>

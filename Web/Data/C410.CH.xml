@@ -1,10 +1,210 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
     <Block id="title" method="title" text="潛水主管"/>
-    <Block id="nav" method="nav">
-        <Item name="課程規劃" href="^intro"></Item>
-        <Item name="學前須知" href="^notice"></Item>
-        <Item name="開課日期" href="^plan"></Item>
-        <Item name="課程費用" href="^fee"></Item>
+    <Block id="intro" method="html">
+      <![CDATA[ 
+        <table width="80%" style="table-layout: fixed;">
+          <tr>
+            <td><img width="98%" src="../Image/Data/DCS_intro.jpg"></td>
+            <td>
+            SSI 從1970年開始就一直是專業教育系統中的領導者了。我們的專業導潛課程旨在幫助那些想要更深入進行潛水活動的人們，建立一個更全面的潛水技巧與觀念。但是身為專業導潛員還不足以擔負教練的責任，因為這僅僅是SSI 潛水領導級裡面的入門課程而已。
+            <br/>
+            <br/>
+            如果你想要成為一位潛水長你就必須先通過科學潛水專長課程。這個沒有實際潛水訓練的課程，主要是著重在教導有關潛水深度對人體所造成的心理與生理影響，還有相關的解壓理論、裝備以及水域環境的綜合知識。科學潛水專長就是潛水主管的基礎課程，也是關係著潛水長是否能夠進階到更高等級的關鍵課程。</td>
+          </tr>
+        </table>
+          ]]>
+    </Block>
+    <Block id="specialty" method="tab" selected="專業導潛DG" description="">
+      <Item name="專業導潛DG"/>
+      <Item name="潛水長DM"/>
+      <Item name="潛水主管DCS"/>
+    </Block>
+    <Block id="intro1" method="html" tag="專業導潛DG">
+      <![CDATA[ 
+          <br/>
+          <table width="80%" style="table-layout: fixed;">
+            <tr>
+              <td><img width="98%" src="../Image/Data/DG.jpg"></td>
+              <td>SSI 專業導潛課程的教學主要著重在實務技能的練習以及彈性的潛水背景教學，目標就是要把你培育成一位準備充分且多才多藝的潛水領導。只要通過了浮潛教練課程，專業導潛就可以教導並且核發浮潛認證課程了。</td>
+            </tr>
+          </table>
+      ]]>
+    </Block>
+    <Block id="curriculum1" caption="課程規劃" method="html" back="#top" tag="專業導潛DG">
+      <![CDATA[ 
+          <table border="0" width="80%">
+            <tr>
+              <td nowrap>學科：</td>
+              <td width="99%">導潛壓力與救援、團隊管理、領導潛水與專長潛水、SSI的職業生涯。</td>
+            </tr>
+            <tr>
+              <td nowrap>術科：</td>
+              <td>水性與各項潛水技巧評估、壓力控制、潛點地圖、潛水簡報、夜潛與專業導潛DG實習，總測驗。</td>
+            </tr>
+          </table>
+        ]]>
+    </Block>
+    <Block id="plan1" caption="開課日期" method="html" back="#top" tag="專業導潛DG">
+      <![CDATA[
+              <p>每年冬季開班, 共計3天。</p>
+          ]]>
+    </Block>
+    <Block id="tuition1" caption="超值學費" method="html" back="#top" tag="專業導潛DG">
+      <![CDATA[
+          <ul>
+            <li>
+              <span class="Large Focus">學費 10000元，不含SSI領導級線上登錄費4000元（升等DM時需要登錄）。</span>
+            </li>
+            <li>
+              <span class="Large Focus">費用包含：線上教材、國際證照申請、教練費、重裝備租借費用、東北角海洋實習費用與保險費。</span>
+            </li>
+            <li>
+              <span class="Large Focus">實習日期視海況安排，不限定於開課的四天內完成</span>
+            </li>
+            <li>
+              <span class="Large Focus">本課程暫不開放移地訓練</span>
+            </li>
+          </ul>
+      ]]>
+    </Block>
+    <Block id="intro2" method="html" tag="潛水長DM">
+      <![CDATA[ 
+            <br/>
+            <table width="80%" style="table-layout: fixed;">
+              <tr>
+                <td><img width="98%" src="../Image/Data/DM.jpg"></td>
+                <td>只要具有專業導潛認證加上科學潛水專長，您就可以躍升為潛水長了。身為潛水長，你將具有以下資格：教導體驗潛水課程(游泳池)，在教練直接的監督下協助其進行游泳池／平靜水域訓練以及開放水域訓練。</td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+    <Block id="curriculum2" caption="課程規劃" method="html" back="#top" tag="潛水長DM">
+      <![CDATA[ 
+            <table border="0" width="80%">
+              <tr>
+                <td nowrap>學科：</td>
+                <td width="99%">潛水科學專長：潛水物理學、潛水生理學、減壓理論、裝備維修保養、期末測驗。</td>
+              </tr>
+            </table>
+          ]]>
+    </Block>
+    <Block id="plan2" caption="開課日期" method="html" back="#top" tag="潛水長DM">
+      <![CDATA[
+                <p>每年冬季開班, 共計3天。</p>
+            ]]>
+    </Block>
+    <Block id="tuition2" caption="超值學費" method="html" back="#top" tag="潛水長DM">
+      <![CDATA[
+            <ul>
+              <li>
+                <span class="Large Focus">學費 8000元，不含SSI領導級線上登錄費4000元（由DG升等DM時需要登錄）。</span>
+              </li>
+              <li>
+                <span class="Large Focus">費用包含：線上教材、國際證照申請、教練費。</span>
+              </li>
+              <li>
+                <span class="Large Focus">完成本課程可取得科學潛水員專長SOD執照。</span>
+              </li>
+            </ul>
+        ]]>
+    </Block>
+    <Block id="intro3" method="html" tag="潛水主管DCS">
+      <![CDATA[ 
+            <br/>
+            <table width="80%" style="table-layout: fixed;">
+              <tr>
+                <td><img width="98%" src="../Image/Data/DCS.png"></td>
+                <td>
+                  你可以透過三種方式參加潛水主管的課程，分別是：個別參加專業導潛、科學潛水與潛水主管課程；將三項課程整合成單一課程；透過其他機構的潛水長身分參加此課程
+                  <br/>
+                  <br/>
+                  身為一位潛水主管，你將具有下列資格：帶領或是指導擁有認證的潛水員進行潛水；協助SSI 教練進行學科、游泳池、開放水域的教學；在教練直接的監督下自行指導學科或是游泳池訓練(除了及緊急救援課程外)；執行SSI 水肺潛水技能復習課程、SSI 浮潛課程、SSI 體驗潛水課程(游泳池)；晉升為特殊專長訓練主管。
+                </td>
+              </tr>
+            </table>
+        ]]>
+    </Block>
+    <Block id="curriculum3" caption="課程規劃" method="html" back="#top" tag="潛水主管DCS">
+      <![CDATA[ 
+            <table border="0" width="80%">
+              <tr>
+                <td nowrap>學科：</td>
+                <td width="99%">潛水主管職責、潛水產業、SSI歷史與精神、教育系統、潛水技巧、潛水主管的角色。</td>
+              </tr>
+              <tr>
+                <td nowrap>術科：</td>
+                <td>水性與體能評估、OWD學科、泳池、海洋結訓之觀察與試教評估。</td>
+              </tr>
+            </table>
+          ]]>
+    </Block>
+    <Block id="plan3" caption="開課日期" method="html" back="#top" tag="潛水主管DCS">
+      <![CDATA[
+                <p>每年冬季開班, 共計6天。</p>
+            ]]>
+    </Block>
+    <Block id="tuition3" caption="超值學費" method="html" back="#top" tag="潛水主管DCS">
+      <![CDATA[
+            <ul>
+              <li>
+                <span class="Large Focus">學費 20000元。</span>
+              </li>
+              <li>
+                <span class="Large Focus">費用包含：線上教材、國際證照申請、教練費。</span>
+              </li>
+        ]]>
+    </Block>
+
+
+
+    <!-- 共用區域 -->
+    <Block id="register" caption="報名方式" method="html" back="#top">
+      <![CDATA[
+                <ol>
+                    <li>網路填寫報名資料並匯款訂金。</li>
+                    <li>來店洽詢並繳交訂金。</li>
+                </ol>
+            ]]>
+    </Block>
+    <Block id="processing" caption="網路報名流程" method="html" back="#top">
+      <![CDATA[
+                <ol>
+                  <li><a href="CZ01.php">線上填寫報名表</a></li>
+                  <li>
+                    繳交訂金3000元，<br/>
+                    銀行：中國信託   戶名：愛潛水股份有限公司<br/>
+                    代號：822  分行：士林分行  帳號：285-54009941-9
+                  </li>
+                  <li>
+                    以匯款方式繳費者請來電(02-2882-7696)告知帳號末５碼<br>
+                    營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
+                  </li>
+                  <li>收到訂金與資料後，iDiving會至SSI全球官網註冊您的學籍。</li>
+                  <li>上課前請準備好二吋照片電子檔佳，申請潛水證照使用</li>
+                </ol>
+            ]]>
+    </Block>
+    <Block id="notice" caption="學前須知" method="html" back="#top">
+      <![CDATA[
+                <ol>
+                    <li>
+                      iDiving採保證班的教學方式，如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於2<br/>
+                      個月內完成 (9月後報名隔年5月前完成)。約定日期之更改須在15天前告知。15天內更動<br/>
+                      或未告知而曠課，補課需額外負擔1000元，身體不適，出示醫院掛號收據者不收。
+                    </li>
+                    <li>
+                      若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，<br/>
+                      繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。<br/>
+                    </li>
+                    <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
+                    <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
+                    <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
+                    <li>
+                      學員結訓後，訓練中心將於兩週內完成SSI國際潛水證照申請作業。<br/>
+                      （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
+                    </li>
+                  </ol>
+          ]]>
     </Block>
 </Data>

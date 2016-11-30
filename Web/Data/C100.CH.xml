@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="平日體驗潛水班"/>
+  <Block id="nav" method="nav">
+    <Item name="課程規劃" href="#weekend"></Item>
+    <Item name="開課日期" href="#plan"></Item>
+    <Item name="超值學費" href="#tuition"></Item>
+    <Item name="立刻報名" href="#register"></Item>
+    <Item name="學前須知" href="#notice"></Item>
+  </Block>
+  <Block id="weekend" caption="課程規劃" method="html" back="#top">
+    <![CDATA[ 
+            <table width="80%" style="table-layout: fixed;">
+              <tr>
+                <td colspan="2"><span class="Important" style="font-size:20px">不用會游泳, 不用有執照 資深國際教練 體驗後可享學潛水優惠!</span></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  iDiving 周末六日出動所有教練保障OWD訓練的安全，但是還在猶豫是否要學潛水的朋友，iDiving 知道你想了解更多的需求，我們特別在平日安排了水肺體驗活動。<br>
+                  想到泳池試試無重力的飄浮感嗎？請報名<span class="Important">泳池體驗水肺 TRY SCUBA</span>。<br>
+                  充滿冒險勇氣的你，想直接下海觀賞可愛的海洋生物嗎？請報名<span class="Important">海洋體驗潛水TRY SCUBA DIVE</span>。
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><img src="../Image/Data/Try_1.jpg" width="100%" /></td>
+                <td><img src="../Image/Data/Try_2.jpg" width="100%" /></td>
+              </tr>
+            </table>
+        ]]>
+  </Block>
+  <Block id="plan" caption="開課日期" method="html" back="#top">
+    <![CDATA[
+              <ul>
+                <li>預約制, 不接受現場報名</li>
+                <li>5月~9月 每周二至周五, 每天上午下午兩時段</li>
+                <li>預計潛水時間：上午10:30 ~ 11:00 下午14:30 ~ 15:00</li>
+              </ul>
+          ]]>
+  </Block>
+  <Block id="tuition" caption="超值學費" method="html" back="#top">
+    <![CDATA[
+                <table width="80%" style="table-layout: fixed;">
+                  <tr>
+                    <td>
+                      <ul>
+                        <li>
+                          <span class="Important">泳池體驗水肺 TRY SCUBA：</span><br/>
+                          兩米深水肺體驗1500元，兩人同行價2000。<br/>
+                          五米深水肺體驗2500元，兩人同行價3500。
+                        </li>
+                        <li>
+                          <span class="Important">海洋體驗潛水TRY SCUBA DIVE：</span><br>
+                          海底巡遊2500元，兩人同行價4500元，三人同行價6000元。<br>
+                          如須搭車，台北到東北角車資250元/每人。
+                        </li>
+                      </ul>
+                      <div><span class="Important">體驗完立即報名OWD課程，學費可折抵1000元。</span></div>
+                    </td>
+                    <td rowspan="3" align="right"><img src="../Image/Data/Try_4.jpg" height="100%" /></td>
+                  </tr>
+                  <tr>
+                    <td><img src="../Image/Data/Try_3.jpg" width="130%"/></td>
+                  </tr>
+                </table>
+            ]]>
+  </Block>
+  <Block id="register" caption="報名方式" method="html" back="#top">
+    <![CDATA[
+              <ol>
+                  <li>網路填寫報名資料並匯款訂金。</li>
+                  <li>來店洽詢並繳交訂金。</li>
+              </ol>
+          ]]>
+  </Block>
+  <Block id="processing" caption="網路報名流程" method="html" back="#top">
+    <![CDATA[
+              <ol>
+              <li><a href="CZ01.php">線上填寫報名表</a></li>
+              <li>
+                繳交訂金 1000 元，<br/>
+                銀行：中國信託<br/>
+                分行：士林分行<br/>
+                戶名：愛潛水股份有限公司<br/>
+                代號：822<br/>
+                帳號：285-54009941-9
+              </li>
+              <li>
+                以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
+                營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
+              </li>
+            </ol>
+          ]]>
+  </Block>
+  <Block id="notice" caption="學前須知" method="html" back="#top">
+    <![CDATA[
+            <ol>
+                <li>各種體驗課程之教學說明約30分鐘，實際下水體驗時間約30~40分鐘。</li>
+                <li>更改約定上課日期須在７天前告知。７天內更動或未告知而曠課，補課需額外負擔1000元，身體不適，出示醫院掛號收據者不收。</li>
+                <li>費用包含：教練費、訓練期間潛水裝備使用、體驗水肺之泳池場地費、保險。</li>
+                <li>費用不含：海洋公園門票（遇風浪因素而須進入海洋公園體驗潛水時）、餐飲與交通費用。</li>
+                <li>學員自行放棄課程，本訓練中心將不予退費。</li>
+                <li>訓練期間所提供之裝備若有穿戴不適或任何問題，請務必告知主持教練。</li>
+                <li>體驗潛水之交通須自理，或由iDiving協調共乘，台北到東北角車資 250元/每人</li>
+                <li>體驗水肺泳池場地：２米深前港泳池或５米深南港、松山運動中心潛水池</li>
+                <li>海洋體驗潛水：東北角海域體驗潛水時，餐食自理，若協調至餐廳用餐則費用均攤。</li>
+            </ol>
+      ]]>
+  </Block>
+</Data>

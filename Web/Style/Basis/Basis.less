@@ -470,6 +470,22 @@ nav, #nav {
     }
 }
 
+.Dock {
+    height: 32px;
+    .FontStyle(18px);
+    margin-top: 24px;
+
+    .Nav {
+        .FontStyle(18px);
+        text-decoration: none;
+        margin-right: 36px;
+
+        &:first-of-type {
+            margin-left: 8px;
+        }
+    }
+}
+
 // ==== 通用元件 ====
 input[type = text], .TextBox {
     .FontStyle(13px);
@@ -612,6 +628,11 @@ ul {
     margin: 4px @Zero @Zero 2px;
     padding-left: 14px;
     line-height: 24px;
+
+    &.Disc {
+        list-style-type: disc;
+        list-style-image: none;
+    }
 
     li {
         padding-left: 6px;

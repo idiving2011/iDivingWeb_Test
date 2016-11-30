@@ -4,7 +4,7 @@
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="D210.php"></Item>
         <Item name="行程表" href="D221.php"></Item>
-        <Item name="費用說明" href="D222.php"></Item>
+      <!--<Item name="費用說明" href="D222.php"></Item>-->
         <Item name="注意事項" href="."></Item>
     </Block>
     <Block id="Anilao" caption="明多洛" method="html">

@@ -4,7 +4,7 @@
     <Block id="nav" method="nav">
         <Item name="景點介紹" href="D140.php"></Item>
         <Item name="行程表" href="."></Item>
-        <Item name="費用說明" href="D142.php"></Item>
+      <!--<Item name="費用說明" href="D142.php"></Item>-->
         <Item name="注意事項" href="D143.php"></Item>
     </Block>
     <Block id="schedule" method="html">
