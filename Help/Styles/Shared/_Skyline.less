@@ -1,0 +1,139 @@
+﻿@import "_Definition.less";
+
+.SkylineButton() {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center center;
+    position: absolute;
+    top: 5px;
+
+    &:hover {
+        background-color: @Yellow;
+        border-radius: 20px;
+    }
+}
+
+.Skyline {
+    top: @Zero;
+    position: relative;
+    width: @Full;
+    min-width: 320px;
+    background-color: @DarkGray;
+    z-index: 1;
+    line-height: 52px;
+    
+    div {
+        height: 52px;
+        padding: @Zero;
+    }
+
+    .Ham {
+        .SkylineButton();
+        background-image: url(/Images/Skyline/Ham.png);
+        left: 12px;
+    }
+
+    .Title {
+        margin-left: 80px;
+        .FontStyle(24px);
+        color: @Reverse;
+    }
+
+    .Auth {
+        position: absolute;
+        right: 68px;
+        top: @Zero;
+        width: 120px;
+        .FontStyle(24px);
+        color: @Reverse;
+        text-align: center;
+    }
+
+    .Logout {
+        .SkylineButton();
+        background-image: url(/Images/Skyline/Logout.png);
+        right: 12px;
+    }
+}
+
+.Menu {
+    width: 300px;
+    height: @Full;
+    position: absolute;
+    background-color: @Gray;
+    top: @Zero;
+    box-shadow: 4px @Zero 4px rgba(0, 0, 0, .14), 6px @Zero 8px rgba(0, 0, 0, .28);
+    display: none;
+    z-index: 100;
+    overflow: auto;
+
+    .Back {
+        .SkylineButton();
+        background-image: url(/Images/Skyline/Ham.png);
+        left: 12px;
+        position: fixed;
+    }
+
+    .Title {
+        padding-left: 80px;
+        line-height: 52px;
+        .FontStyle(24px);
+        background-color: @Gray;
+        position: fixed;
+        width: 200px;
+    }
+
+    .List {
+        margin-top: 52px;
+
+        .Folder {
+            border-bottom: 1px solid @Horizontal;
+            padding: 12px;
+
+            &:last-of-type {
+                border-bottom: none;
+            }
+
+            span {
+                display: block;
+                line-height: 30px;
+            }
+
+            a:link, a:visited {
+                line-height: 48px;
+                margin-left: 16px;
+                display: block;
+                .TextStyle();
+                .FontStyle(18px);
+                color: @Link;
+            }
+        }
+    }
+}
+
+// ==== RWD ====
+@media @Tablet {
+    .Skyline {
+
+        .Auth {
+            display: none;
+        }
+    }
+}
+
+@media @Phone {
+    .Skyline {
+
+        .Title {
+            text-align: center;
+            margin-left: @Zero;
+        }
+
+        .Auth {
+            display: none;
+        }
+    }
+}

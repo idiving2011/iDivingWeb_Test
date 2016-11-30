@@ -1,0 +1,158 @@
+﻿// ==== 顏色 ====
+@Black: rgb(0,0,0);
+
+@NatureBlack: rgb(86, 86, 86);
+
+@DarkGray: rgb(113,113,113);
+
+@Gray: rgb(200, 200, 200);
+
+@LightGray: rgb(225, 225, 225);
+
+@NatureGray: rgb(192, 192, 192);
+
+@DarkWhite: rgb(250, 250, 250);
+
+@White: rgb(255,255,255);
+
+@DarkRed: rgb(128,0,0);
+
+@Red: rgb(196, 0, 0);
+
+@LightRed: rgb(253, 221, 198);
+
+@NatureRed: rgb(255, 184, 184);
+
+@Orange: rgb(205, 94, 27);
+
+@DarkYellow: rgb(219, 153, 0);
+
+@Yellow: rgb(255, 191, 42);
+
+@LightYellow: rgb(255, 243, 215);
+
+@NatureYellow: rgb(250, 247, 148);
+
+@DarkGreen: rgb(111, 144, 35);
+
+@Green: rgb(135, 176, 43);
+
+@LightGreen: rgb(244, 250, 195);
+
+@NatureGreen: rgb(176, 199, 157);
+
+@DarkBlue: rgb(0,91,183);
+
+@Blue: rgb(55, 120, 215);
+
+@LightBlue: rgb(230, 236, 240);
+
+@NetureBlue: rgb(199, 219, 228);
+
+// ==== 框線 ====
+@Region: @Gray;
+
+@Horizontal: @LightGray;
+
+@Vertical: @Gray;
+
+@Scope: @NatureRed;
+
+// ==== 文字 ====
+@Word: @NatureBlack;
+
+@Title: @Black;
+
+@Link: @DarkBlue;
+
+@Hover: @Yellow;
+
+@Hint: @DarkGreen;
+
+@Warning: @Red;
+
+@Focus: @DarkRed;
+
+@Disabled: @NatureGray;
+
+@Reverse: @White;
+
+@Font: "微軟正黑體", "Segoe UI", Arial;
+
+.FontStyle(@size: 14px) {
+    font-family: @Font;
+    font-size: @size;
+}
+
+.TextStyle() {
+    .FontStyle(14px);
+    color: @Word;
+    text-decoration: none;
+}
+
+.HyperLinkStyle(@decoration: underline, @color: @Link) {
+    .FontStyle();
+    color: @color;
+    text-decoration: @decoration;
+    cursor: pointer;
+    border: none;
+
+    &:visited {
+        color: @color;
+    }
+
+    &:hover {
+        color: @Hover;
+    }
+}
+
+// ==== 版界 ====
+@PC: ~"(min-width: 960px)";
+
+@Tablet: ~"(max-width: 960px)";
+
+@Phone: ~"(max-width: 592px)";
+
+// ==== 尺寸 ====
+@Full: 100%;
+
+@Zero: 0px;
+
+@Max: 2147483647;
+
+@None: none;
+
+@Auto: auto;
+
+// ==== 漸層 ====
+.LinearGradientStyle(@colorStart, @colorEnd, @direction) {
+    background-image: -ms-linear-gradient(@direction, @colorStart 0, @colorEnd 100%); // IE10
+    background-image: -moz-linear-gradient(@direction, @colorStart 0, @colorEnd 100%); // Firefox
+    background-image: -o-linear-gradient(@direction, @colorStart 0, @colorEnd 100%); // Opera
+    background-image: -webkit-linear-gradient(@direction, @colorStart 0, @colorEnd 100%); // WebKit (Chrome + Safari)
+    background-image: linear-gradient(@direction, @colorStart 0, @colorEnd 100%); // W3C
+}
+
+.CycleGradientStyle(@colorStart, @colorEnd) {
+    background: -ms-linear-gradient(top, @colorStart 0, @colorEnd 33%, @colorEnd 66%, @colorStart 100%); // IE10
+    background: -moz-linear-gradient(top, @colorStart 0, @colorEnd 33%, @colorEnd 66%, @colorStart 100%); // Firefox
+    background: -o-linear-gradient(top, @colorStart 0, @colorEnd 33%, @colorEnd 66%, @colorStart 100%); // Opera
+    background: -webkit-linear-gradient(top, @colorStart 0, @colorEnd 33%, @colorEnd 66%, @colorStart 100%); // WebKit (Chrome + Safari)
+    background: linear-gradient(top, @colorStart 0, @colorEnd 33%, @colorEnd 66%, @colorStart 100%); // W3C
+}
+
+// ==== 區塊 ====
+.SheetStyle() {
+    background-color: @White;
+    border-top: 1px solid @Vertical;
+    border-left: 1px solid @Vertical;
+    border-right: 1px solid @Vertical;
+
+    &:last-of-type {
+        border-bottom: 1px solid @Vertical;
+    }
+
+    .Freeze & {
+        border-color: rgba(0, 0, 0, 0.05);
+    }
+}

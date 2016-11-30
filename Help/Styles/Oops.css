@@ -1,0 +1,30 @@
+﻿.Topbar .Logo span {
+  margin-left: 26px;
+}
+.Oops {
+  margin: 24px;
+}
+.Oops .Name {
+  font-family: "微軟正黑體", "Segoe UI", Arial;
+  font-size: 24px;
+  font-weight: bold;
+  color: #c40000;
+  margin-bottom: 4px;
+}
+.Oops .Code,
+.Oops .SN {
+  font-style: italic;
+  line-height: 20px;
+}
+.Oops .Message {
+  border: 1px solid #c8c8c8;
+  margin: 12px 0px;
+  padding: 12px;
+  background-color: #fff3d7;
+  font-family: "微軟正黑體", "Segoe UI", Arial;
+  font-size: 16px;
+}
+.Oops .Next {
+  margin: 16px 0px;
+}
+/*# sourceMappingURL=Oops.css.map */

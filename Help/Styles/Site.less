@@ -1,0 +1,342 @@
+﻿@import "Shared/_Definition.less";
+
+// ==== 標準標籤 ====
+body {
+    .TextStyle();
+    padding: @Zero;
+    margin: @Zero;
+    min-width: 320px;
+    overflow: auto;
+    background-color: @LightGray;
+}
+
+input {
+    .FontStyle(13px);
+}
+
+a:link, a:link:visited {
+    .HyperLinkStyle();
+
+    img {
+        border: none;
+    }
+}
+
+div, span, label {
+    cursor: default;
+}
+
+table {
+    border-collapse: collapse;
+
+    td {
+        vertical-align: top;
+    }
+}
+
+iframe {
+    border: none;
+}
+
+// ==== 特殊類別 ====
+.Hidden {
+    display: @None;
+}
+
+.Link {
+    .HyperLinkStyle();
+}
+
+.Disabled, *[disabled] {
+    color: @Disabled;
+    pointer-events: none;
+}
+
+.Warning {
+    color: @Warning;
+}
+
+.Freeze {
+    * {
+        text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        color: transparent;
+        background-image: none;
+        border-color: rgba(0, 0, 0, .05);
+        pointer-events: none;
+        box-shadow: none;
+    }
+
+    input, textarea, button, select {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        border-color: rgba(0, 0, 0, .05);
+        resize: none;
+        opacity: .5;
+    }
+
+    input, input[type="file"], input[type="checkbox"], input[type="radio"], textarea, select {
+        opacity: .2;
+        background: transparent none;
+    }
+
+    fieldset {
+        border-color: transparent;
+    }
+
+    img {
+        opacity: 1;
+        background: transparent none;
+        -webkit-filter: blur(15px);
+        -ms-filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=20);
+        filter: blur(15px);
+    }
+}
+
+.Holo{
+    padding: 54px @Zero 80px @Zero;
+}
+
+.Sight {
+    margin: @Zero auto @Zero auto;
+    overflow-x: hidden;
+    width: 944px;
+}
+
+.Shadow {
+    width: @Full;
+    height: @Full;
+    position: fixed;
+    background-color: @DarkGray;
+    opacity: .5;
+    top: @Zero;
+    left: @Zero;
+    z-index: @Max;
+}
+
+.Progress {
+    position: fixed;
+    top: 30%;
+    height: 200px;
+    line-height: 200px;
+    .FontStyle(24px);
+    text-align: center;
+    background-color: @White;
+    width: @Full;
+    z-index: @Max;
+}
+
+.Do {
+    position: fixed;
+    right: 32px;
+    bottom: 16px;
+
+    input[type=image] {
+        width: 48px;
+        height: 48px;
+        margin-left: 16px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: @Blue;
+        border-radius: 32px;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .14), 3px 3px 4px rgba(0, 0, 0, .28);
+        background-size: 32px 32px;
+
+        &.Add {
+            background-image: url(/Images/Do/Add.png);
+        }
+
+        &.Edit {
+            background-image: url(/Images/Do/Edit.png);
+        }
+
+        &.Remove {
+            background-color: @Red;
+            background-image: url(/Images/Do/Remove.png);
+        }
+
+        &.Save {
+            background-image: url(/Images/Do/Save.png);
+        }
+    }
+}
+
+// ==== 通用元件 ====
+input[type=search], input[type=image], img {
+    vertical-align: middle;
+}
+
+input[type = text], input[type=password], .TextBox {
+    .TextStyle();
+    border: none;
+    border-bottom: 1px solid @Region;
+    width: 140px;
+    height: 24px;
+
+    &.Large {
+        max-width: 280px;
+        width: @Full;
+    }
+
+    &.ReadOnly, &[readonly] {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    &.Warning {
+        background-color: @LightRed;
+        border-bottom-color: @DarkRed;
+    }
+}
+
+textarea, .MultiLineTextBox {
+    .TextStyle();
+    border: 1px solid @Region;
+    width: 360px;
+    height: 80px;
+}
+
+span, label, .Label {
+    .TextStyle();
+
+    &.Focus {
+        color: @Focus;
+    }
+
+    &.Hint {
+        .FontStyle(11px);
+        color: @Hint;
+    }
+}
+
+input[type=button], input[type=submit], Button, .Button {
+    cursor: pointer;
+    width: 96px;
+    height: 32px;
+    line-height: 22px;
+    color: @Reverse;
+    .FontStyle(16px);
+    border-radius: 2px;
+
+    &.Large {
+        width: 140px;
+    }
+
+    .ButtonStyle(@Blue, @DarkBlue);
+
+    &[disabled], &.Disabled {
+        .ButtonStyle(@Gray, @DarkGray);
+        color: @Word;
+    }
+
+    &.Careless {
+        .ButtonStyle(@Gray, @DarkGray);
+        color: @Word;
+
+        &:hover {
+            color: @Reverse;
+        }
+    }
+
+    &.Different {
+        .ButtonStyle(@Green, @DarkGreen);    
+    }
+
+    &.Light {
+        .ButtonStyle(@Yellow, @DarkYellow);
+    }
+}
+
+.ButtonStyle(@color1, @color2) {
+    border: solid 1px @color1;
+    background-color: @color1;
+
+    &:hover {
+        background-color: @color2;
+    }
+}
+
+select, .DropDownList {
+    .FontStyle();
+    border: none;
+    border-bottom: 1px solid @Horizontal;
+    height: 36px;
+    vertical-align: middle;
+
+    &[multiple] {
+        width: 120px;
+    }
+}
+
+.RadioList {
+    margin: 4px @Zero 2px @Zero;
+
+    input[type=radio] {
+    }
+
+    label[for] {
+        .FontStyle();
+        padding: @Zero 24px @Zero 6px;
+    }
+}
+
+.ItemList {
+    .FontStyle();
+    line-height: 28px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 14px;
+    line-height: 24px;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+li {
+    .FontStyle();
+    padding-left: 6px;
+}
+
+// ==== RWD ====
+@media @Tablet {
+    body {
+        -ms-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -webkit-text-size-adjust: none;
+        text-size-adjust: none;
+    }
+
+    .Sight {
+        width: 576px;
+    }
+}
+
+@media @Phone {
+    input[type = text], input[type=password], .TextBox {
+        width: 200px;
+
+        &.Large {
+            width: 200px;
+        }
+    }
+
+    .Holo {
+        padding-bottom: 72px;
+    }
+
+    .Sight {
+        width: 304px;
+    }
+
+    .Do {
+        right: 16px;
+    }
+}
+
+// ==== 擴充元件 ====
+@import "Shared/_Topbar.less";
+@import "Shared/_Dialog.less";
+@import "Shared/_List.less";
+@import "Shared/_Form.less";

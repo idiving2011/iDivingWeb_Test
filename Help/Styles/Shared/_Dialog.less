@@ -1,0 +1,95 @@
+﻿@import "_Definition.less";
+
+.Dialog {
+    position: fixed;
+    background-color: @White;
+    width: 480px;
+    left: 50%;
+    top: 130px;
+    margin-left: -240px;
+    z-index: @Max;
+    box-shadow: @Zero @Zero 50px rgba(0, 0, 0, .75);
+
+    .Type {
+        height: 88px;
+        position: relative;
+
+        .Caption {
+            height: 64px;
+            line-height: 64px;
+            font-size: 40px;
+            font-weight: bold;
+            position: absolute;
+            left: 16px;
+            top: 12px;
+            color: @Reverse;
+        }
+
+        .Icon {
+            width: 64px;
+            height: 64px;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            opacity: .3;
+        }
+
+        &.Login {
+            background-color: @Yellow;
+            .Caption {
+                color: @Word;
+            }
+        }
+
+        &.Error, &.Deny {
+            background-color: @DarkRed;
+        }
+
+        &.Warning {
+            background-color: @DarkYellow;
+        }
+
+        &.Confirm, &.Info {
+            background-color: @DarkBlue;
+        }
+
+        &.Complete {
+            background-color: @DarkGreen;
+        }
+    }
+
+    .Content {
+        margin: 18px 24px @Zero 24px;
+        min-height: 106px;
+        font-size: 18px;
+    }
+
+    .Action {
+        height: 32px;
+        padding: 8px @Zero;
+        text-align: center;
+        width: @Full;
+        bottom: 0;
+
+        input {
+            margin: @Zero 12px;
+        }
+    }
+}
+
+// ==== RWD ====
+@media @Tablet {
+    .Dialog {
+        top: 80px;
+    }
+}
+
+@media @Phone {
+    .Dialog {
+        width: @Full;
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+}

@@ -1,0 +1,104 @@
+﻿#welcome {
+  margin: 24px auto;
+  width: 932px;
+}
+#welcome .App {
+  background-color: #ffffff;
+  border-top: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+  min-height: 180px;
+  padding: 20px;
+}
+#welcome .App:last-of-type {
+  border-bottom: 1px solid #c8c8c8;
+}
+.Freeze #welcome .App {
+  border-color: rgba(0, 0, 0, 0.05);
+}
+#welcome .App .Icon {
+  width: 180px;
+}
+#welcome .App.Left .Icon {
+  float: right;
+  margin-left: 100px;
+}
+#welcome .App.Right .Icon {
+  float: left;
+  margin-right: 100px;
+}
+#welcome .App .Name {
+  font-family: "微軟正黑體", "Segoe UI", Arial;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4px 0px 10px 0px;
+}
+#welcome .App .Description {
+  font-family: "微軟正黑體", "Segoe UI", Arial;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+#login span {
+  font-size: 18px;
+  margin-right: 12px;
+}
+#login #hint {
+  font-size: 16px;
+  color: #6f9023;
+  margin-bottom: 12px;
+}
+#login #message {
+  font-size: 16px;
+  color: #c40000;
+  text-align: center;
+  padding: 6px;
+  margin: 12px auto 0px auto;
+  overflow: hidden;
+}
+#login .TextBox {
+  font-size: 16px;
+}
+#login .BR {
+  display: inline-block;
+  width: 24px;
+}
+body .Freeze #welcome .App {
+  border-color: rgba(0, 0, 0, 0.05);
+}
+@media (max-width: 960px) {
+  #welcome {
+    width: 526px;
+  }
+  #welcome .App.Left .Icon,
+  #welcome .App.Right .Icon {
+    float: left;
+    margin: 0px;
+  }
+  #welcome .App .Name,
+  #welcome .App .Description {
+    margin-left: 204px;
+  }
+  #welcome .App .Go {
+    margin-left: 24px;
+  }
+}
+@media (max-width: 592px) {
+  #welcome {
+    width: 296px;
+  }
+  #welcome .App.Left .Icon,
+  #welcome .App.Right .Icon {
+    width: 42px;
+    float: left;
+    margin: 0px 12px 4px 0px;
+  }
+  #welcome .App .Name,
+  #welcome .App .Description,
+  #welcome .App .Go {
+    margin-left: 0px;
+  }
+  #login .BR {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,64 @@
+﻿@import "_Definition.less";
+
+.Form {
+    border: 1px solid @Vertical;
+    background-color: @White;
+    margin: 8px;
+    padding: 12px;
+    
+    .Freeze &{
+        border-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .Block {
+        clear: both;
+        overflow: hidden;
+        margin-bottom: 24px;
+
+        &:last-of-type {
+            margin-bottom: unset;
+        }
+
+        .Title {
+            .FontStyle(20px);
+            margin: 12px @Zero;
+            font-weight: bold;
+        }
+
+        > .Item {
+            min-width: 280px;
+            float: left;
+            white-space: nowrap;
+
+            label {
+                display: inline-block;
+                padding: @Zero 14px @Zero 4px;
+                width: 48px;
+                text-align: right;
+                font-weight: bold;
+            }
+
+            input {
+            }
+        }
+    }
+}
+
+// ==== RWD ====
+@media @Tablet {
+    .Form {
+    }
+}
+
+@media @Phone {
+    .Form {
+        .Block {
+            > .Item {
+                label {
+                    padding-right: 4px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
