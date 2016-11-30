@@ -404,14 +404,14 @@ li {
   }
 }
 .Topbar {
+  top: 0px;
+  position: fixed;
   width: 100%;
   min-width: 320px;
   background-color: #717171;
-  top: 0px;
-  position: fixed;
   z-index: 100;
 }
-.Topbar.Float {
+.Topbar:float {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.14), 0px 4px 8px rgba(0, 0, 0, 0.28);
 }
 .Topbar .Ham {
@@ -421,13 +421,13 @@ li {
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center center;
+  border-radius: 20px;
   background-image: url(/Images/Topbar/Ham.png);
   float: left;
   margin: 7px 4px 7px 12px;
 }
 .Topbar .Ham:hover {
   background-color: #c8c8c8;
-  border-radius: 20px;
 }
 .Topbar .Title {
   margin-left: 80px;
@@ -439,12 +439,12 @@ li {
 .Topbar .Auth {
   line-height: 52px;
   top: 0px;
+  float: right;
+  text-align: center;
   width: 120px;
   font-family: "微軟正黑體", "Segoe UI", Arial;
   font-size: 24px;
   color: #ffffff;
-  text-align: center;
-  float: right;
 }
 .Topbar .Logout {
   width: 40px;
@@ -453,13 +453,13 @@ li {
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center center;
+  border-radius: 20px;
   background-image: url(/Images/Topbar/Logout.png);
   float: right;
   margin: 7px 12px 7px 4px;
 }
 .Topbar .Logout:hover {
   background-color: #c8c8c8;
-  border-radius: 20px;
 }
 .Menu {
   width: 300px;
@@ -479,13 +479,13 @@ li {
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center center;
-  background-image: url(/Images/Topbar/Ham.png);
+  border-radius: 20px;
+  background-image: url(/Images/Topbar/Back.png);
   margin: 7px 4px 7px 12px;
   position: fixed;
 }
 .Menu .Back:hover {
   background-color: #c8c8c8;
-  border-radius: 20px;
 }
 .Menu .Title {
   padding-left: 80px;
@@ -513,7 +513,7 @@ li {
 .Menu .List .Folder a:link,
 .Menu .List .Folder a:visited {
   line-height: 48px;
-  padding-left: 16px;
+  margin-left: 16px;
   display: block;
   font-size: 14px;
   color: #565656;
@@ -527,12 +527,12 @@ li {
   background-color: #e1e1e1;
 }
 @media (max-width: 960px) {
-  .Topbar .Auth {
+  .Skyline .Auth {
     display: none;
   }
 }
 @media (max-width: 592px) {
-  .Topbar .Title {
+  .Skyline .Title {
     text-align: center;
     margin-left: 0px;
   }

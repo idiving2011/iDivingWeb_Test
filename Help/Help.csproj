@@ -62,7 +62,6 @@
   <ItemGroup>
     <Content Include="Course\Detail.html" />
     <Content Include="Event\List.html" />
-    <Content Include="Login.html" />
     <Content Include="Home.html" />
     <Content Include="Images\Action\Add.png" />
     <Content Include="Images\Action\Remove.png" />
@@ -72,6 +71,7 @@
     <Content Include="Images\Do\Save.png" />
     <Content Include="Images\Dialog\Complete.png" />
     <Content Include="Images\Dialog\Warning.png" />
+    <Content Include="Images\Logo.png" />
     <Content Include="Images\Mask.png" />
     <Content Include="Images\Search.png" />
     <Content Include="Images\Service\Customer.png" />
@@ -85,20 +85,15 @@
     <Content Include="Images\Dialog\Error.png" />
     <Content Include="Images\Dialog\Info.png" />
     <Content Include="Images\Dialog\Login.png" />
+    <Content Include="Images\Topbar\Back.png" />
     <Content Include="Images\Topbar\Ham.png" />
     <Content Include="Images\Left.png" />
-    <Content Include="Images\Logo.png" />
     <Content Include="Images\Topbar\Logout.png" />
     <Content Include="Images\Right.png" />
     <Content Include="Oops.html" />
     <Content Include="Scripts\Global.js" />
     <Content Include="Scripts\jquery.js" />
-    <Content Include="Scripts\JSLINQ.js" />
     <Content Include="Scripts\Boot.js" />
-    <Content Include="Scripts\Plugin\jquery.Call.js" />
-    <Content Include="Scripts\Plugin\jquery.Call.min.js">
-      <DependentUpon>jquery.Call.js</DependentUpon>
-    </Content>
     <Content Include="Scripts\Plugin\jquery.cookie.js" />
     <Content Include="Scripts\Plugin\jquery.cookie.min.js">
       <DependentUpon>jquery.cookie.js</DependentUpon>
@@ -118,12 +113,6 @@
     </Content>
     <Content Include="Styles\Event\List.min.css">
       <DependentUpon>List.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\Login.css">
-      <DependentUpon>Login.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\Login.min.css">
-      <DependentUpon>Login.css</DependentUpon>
     </Content>
     <Content Include="Styles\Oops.css">
       <DependentUpon>Oops.less</DependentUpon>
@@ -170,19 +159,6 @@
   <ItemGroup>
     <Content Include="Scripts\Site.min.js.map">
       <DependentUpon>Site.min.js</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Styles\Login.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Styles\Login.css.map">
-      <DependentUpon>Login.css</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\Plugin\jquery.Call.min.js.map">
-      <DependentUpon>jquery.Call.min.js</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>

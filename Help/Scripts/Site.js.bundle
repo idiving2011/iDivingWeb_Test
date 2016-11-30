@@ -11,9 +11,7 @@
   <!--The order of the <file> elements determines the order of the files in the bundle.-->
   <files>
       <file>/Scripts/jquery.js</file>
-      <file>/Scripts/JSLINQ.js</file>
       <file>/Scripts/Plugin/jquery.Dialog.js</file>
-      <file>/Scripts/Plugin/jquery.Call.js</file>
       <file>/Scripts/Global.js</file>
       <file>/Scripts/Boot.js</file>
   </files>

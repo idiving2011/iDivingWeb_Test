@@ -1,68 +1,67 @@
 ﻿@import "_Definition.less";
 
-.SkylineButton() {
+.TopbarButton() {
     width: 40px;
     height: 40px;
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center center;
-    position: absolute;
-    top: 5px;
+    border-radius: 20px;
 
     &:hover {
-        background-color: @Yellow;
-        border-radius: 20px;
+        background-color: @Gray;
     }
 }
 
-.Skyline {
+.Topbar {
     top: @Zero;
-    position: relative;
+    position: fixed;
     width: @Full;
     min-width: 320px;
     background-color: @DarkGray;
-    z-index: 1;
-    line-height: 52px;
-    
-    div {
-        height: 52px;
-        padding: @Zero;
-    }
+    z-index: 100;
 
+    &:float {
+        box-shadow: @Zero @Zero 4px rgba(0, 0, 0, 0.14), @Zero 4px 8px rgba(0, 0, 0, 0.28);
+    }
+    
     .Ham {
-        .SkylineButton();
-        background-image: url(/Images/Skyline/Ham.png);
-        left: 12px;
+        .TopbarButton();
+        background-image: url(/Images/Topbar/Ham.png);
+        float: left;
+        margin: 7px 4px 7px 12px;
     }
 
     .Title {
         margin-left: 80px;
+        line-height: 52px;
         .FontStyle(24px);
         color: @Reverse;
     }
 
     .Auth {
-        position: absolute;
-        right: 68px;
+        line-height: 52px;
         top: @Zero;
+        float: right;
+        text-align: center;
         width: 120px;
         .FontStyle(24px);
         color: @Reverse;
-        text-align: center;
     }
 
     .Logout {
-        .SkylineButton();
-        background-image: url(/Images/Skyline/Logout.png);
-        right: 12px;
+        .TopbarButton();
+        background-image: url(/Images/Topbar/Logout.png);
+        float: right;
+        margin: 7px 12px 7px 4px;
     }
 }
 
 .Menu {
     width: 300px;
     height: @Full;
-    position: absolute;
+    position: fixed;
     background-color: @Gray;
     top: @Zero;
     box-shadow: 4px @Zero 4px rgba(0, 0, 0, .14), 6px @Zero 8px rgba(0, 0, 0, .28);
@@ -71,9 +70,9 @@
     overflow: auto;
 
     .Back {
-        .SkylineButton();
-        background-image: url(/Images/Skyline/Ham.png);
-        left: 12px;
+        .TopbarButton();
+        background-image: url(/Images/Topbar/Back.png);
+        margin: 7px 4px 7px 12px;
         position: fixed;
     }
 
@@ -109,6 +108,10 @@
                 .TextStyle();
                 .FontStyle(18px);
                 color: @Link;
+
+                &:hover {
+                    background-color: @LightGray;
+                }
             }
         }
     }
@@ -130,10 +133,6 @@
         .Title {
             text-align: center;
             margin-left: @Zero;
-        }
-
-        .Auth {
-            display: none;
         }
     }
 }
