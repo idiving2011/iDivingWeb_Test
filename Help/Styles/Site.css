@@ -110,7 +110,7 @@ iframe {
   filter: blur(15px);
 }
 .Holo {
-  padding: 54px 0px 80px 0px;
+  padding: 60px 0px 80px 0px;
 }
 .Sight {
   margin: 0px auto 0px auto;
@@ -411,7 +411,7 @@ li {
   background-color: #717171;
   z-index: 100;
 }
-.Topbar:float {
+.Topbar.Float {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.14), 0px 4px 8px rgba(0, 0, 0, 0.28);
 }
 .Topbar .Ham {
@@ -424,17 +424,20 @@ li {
   border-radius: 20px;
   background-image: url(/Images/Topbar/Ham.png);
   float: left;
-  margin: 7px 4px 7px 12px;
+  margin: 6px 4px 6px 12px;
 }
 .Topbar .Ham:hover {
   background-color: #c8c8c8;
 }
 .Topbar .Title {
-  margin-left: 80px;
+  margin-left: 12px;
   line-height: 52px;
   font-family: "微軟正黑體", "Segoe UI", Arial;
   font-size: 24px;
   color: #ffffff;
+}
+.Topbar .Ham ~ .Title {
+  margin-left: 80px;
 }
 .Topbar .Auth {
   line-height: 52px;
@@ -456,7 +459,7 @@ li {
   border-radius: 20px;
   background-image: url(/Images/Topbar/Logout.png);
   float: right;
-  margin: 7px 12px 7px 4px;
+  margin: 6px 12px 6px 4px;
 }
 .Topbar .Logout:hover {
   background-color: #c8c8c8;
@@ -481,7 +484,7 @@ li {
   background-position: center center;
   border-radius: 20px;
   background-image: url(/Images/Topbar/Back.png);
-  margin: 7px 4px 7px 12px;
+  margin: 6px 4px 6px 12px;
   position: fixed;
 }
 .Menu .Back:hover {
@@ -527,12 +530,12 @@ li {
   background-color: #e1e1e1;
 }
 @media (max-width: 960px) {
-  .Skyline .Auth {
+  .Topbar .Auth {
     display: none;
   }
 }
 @media (max-width: 592px) {
-  .Skyline .Title {
+  .Topbar .Title {
     text-align: center;
     margin-left: 0px;
   }

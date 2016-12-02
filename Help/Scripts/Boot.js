@@ -72,25 +72,11 @@ function list() {
 
 function submit() {
     $("form").submit(function (event) {
-        event.preventDefault();
-        event.returnValue = false;
-
-        afterCall();
-        //$.Call({
-        //    trigger: $(this),
-        //    url: $(this).attr("action"),
-        //    data: $(this).serialize(),
-        //    beforeCall: function () {
-        //        if (!check($(this)) || !beforeCall())
-        //            return false;
-        //    },
-        //    afterCall: function (response) {
-        //        afterCall(response);
-        //    },
-        //    oops: function (message) {
-        //        oops(message);
-        //    }
-        //});
+        if (beforeCall($(this))) {
+            event.returnValue = false;
+            return false;
+        }
+        event.returnValue = true;
     });
 }
 

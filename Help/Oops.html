@@ -1,27 +1,27 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>錯誤 - iDiving 資訊管理系統</title>
+    <title>iDiving 管理系統</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico" />
     <link type="text/css" rel="stylesheet" href="/Styles/Site.min.css" />
     <link type="text/css" rel="stylesheet" href="/Styles/Oops.min.css" />
 </head>
-<body class="Layout">
+<body>
     <div class="Topbar">
-        <div class="Logo">
-            <span>eShop.API HELP</span>
-        </div>
+        <div class="Title">錯誤</div>
     </div>
-    <div class="Sight">
-        <div class="Oops">
-            <div class="Name">@ViewBag.Name</div>
-            <div class="Code">錯誤代碼：@ViewBag.Code</div>
-            <div class="SN">追蹤序號：@ViewBag.SN</div>
-            <div class="Message">@ViewBag.Message</div>
-            <div class="Next">
-                錯誤原因可能是後端伺服器暫時忙碌或是資料輸入有誤，您可以<a href=".">再試一次</a>或<a href="/">回首頁</a>。
+    <div class="Holo">
+        <div class="Sight">
+            <div class="Oops">
+                <div class="Name">{% Name %}</div>
+                <div class="Code">錯誤代碼：{% Code %}</div>
+                <div class="SN">追蹤序號：{% SN %}</div>
+                <div class="Message">{% Message %}</div>
+                <div class="Next">
+                    錯誤原因可能是後端伺服器暫時忙碌或是資料輸入有誤，您可以<a href="{% url %}">再試一次</a>或<a href="/">回首頁</a>。
+                </div>
             </div>
         </div>
     </div>
