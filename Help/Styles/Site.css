@@ -139,21 +139,50 @@ iframe {
   width: 100%;
   z-index: 2147483647;
 }
+.Function {
+  padding: 24px;
+  margin: 8px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #c8c8c8;
+}
+.Function span {
+  font-size: 18px;
+  margin-right: 12px;
+}
+.Function .TextBox {
+  font-size: 16px;
+}
+.Function .BR {
+  display: inline-block;
+  width: 24px;
+}
+.Function .Action {
+  height: 32px;
+  margin: 24px 0px 8px 0px;
+}
+.Function .Action input {
+  margin: 0px 12px;
+}
 .Do {
   position: fixed;
   right: 32px;
   bottom: 16px;
+  width: 56px;
 }
 .Do input[type=image] {
-  width: 48px;
-  height: 48px;
-  margin-left: 16px;
+  width: 56px;
+  height: 56px;
+  margin-top: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #3778d7;
-  border-radius: 32px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.14), 3px 3px 4px rgba(0, 0, 0, 0.28);
-  background-size: 32px 32px;
+  border-radius: 28px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.14), 0px 4px 8px rgba(0, 0, 0, 0.28);
+  background-size: 24px 24px;
+}
+.Do input[type=image]:hover {
+  background-color: #005bb7;
 }
 .Do input[type=image].Add {
   background-image: url(/Images/Do/Add.png);
@@ -165,16 +194,23 @@ iframe {
   background-color: #c40000;
   background-image: url(/Images/Do/Remove.png);
 }
+.Do input[type=image].Remove:hover {
+  background-color: #800000;
+}
 .Do input[type=image].Save {
+  background-color: #87b02b;
   background-image: url(/Images/Do/Save.png);
 }
-input[type=search],
+.Do input[type=image].Save:hover {
+  background-color: #6f9023;
+}
 input[type=image],
 img {
   vertical-align: middle;
 }
 input[type=text],
 input[type=password],
+input[type=search],
 .TextBox {
   font-family: "微軟正黑體", "Segoe UI", Arial;
   font-size: 14px;
@@ -185,23 +221,33 @@ input[type=password],
   width: 140px;
   height: 24px;
 }
+input[type=text].Full,
+input[type=password].Full,
+input[type=search].Full,
+.TextBox.Full {
+  width: 100%;
+}
 input[type=text].Large,
 input[type=password].Large,
+input[type=search].Large,
 .TextBox.Large {
   max-width: 280px;
   width: 100%;
 }
 input[type=text].ReadOnly,
 input[type=password].ReadOnly,
+input[type=search].ReadOnly,
 .TextBox.ReadOnly,
 input[type=text][readonly],
 input[type=password][readonly],
+input[type=search][readonly],
 .TextBox[readonly] {
   pointer-events: none;
   cursor: default;
 }
 input[type=text].Warning,
 input[type=password].Warning,
+input[type=search].Warning,
 .TextBox.Warning {
   background-color: #fdddc6;
   border-bottom-color: #800000;
@@ -385,11 +431,13 @@ li {
 @media (max-width: 592px) {
   input[type=text],
   input[type=password],
+  input[type=search],
   .TextBox {
     width: 200px;
   }
   input[type=text].Large,
   input[type=password].Large,
+  input[type=search].Large,
   .TextBox.Large {
     width: 200px;
   }
@@ -398,6 +446,13 @@ li {
   }
   .Sight {
     width: 304px;
+  }
+  .Function {
+    margin: 24px 0px 24px 0px;
+  }
+  .Function .BR {
+    display: block;
+    height: 24px;
   }
   .Do {
     right: 16px;
@@ -516,7 +571,7 @@ li {
 .Menu .List .Folder a:link,
 .Menu .List .Folder a:visited {
   line-height: 48px;
-  margin-left: 16px;
+  padding-left: 16px;
   display: block;
   font-size: 14px;
   color: #565656;
@@ -621,23 +676,8 @@ li {
     margin: 0;
   }
 }
-.Search {
-  margin: 8px;
-  position: relative;
-}
-.Search .Keyword {
-  border: 1px solid #c8c8c8;
-  height: 34px;
-  line-height: 30px;
-  border-radius: 2px;
-  width: 100%;
-}
-.Search .Go {
-  display: block;
-  margin: 18px auto 0px auto;
-}
 .List {
-  margin: 8px;
+  margin: 40px 8px 8px 8px;
 }
 .List .Title {
   font-family: "微軟正黑體", "Segoe UI", Arial;
@@ -694,6 +734,7 @@ li {
 }
 .List .Items .Item:hover {
   color: #005bb7;
+  background-color: #fafafa;
 }
 .List .Items .Item:hover * {
   color: #005bb7;
@@ -715,9 +756,6 @@ li {
   clear: both;
   overflow: hidden;
   margin-bottom: 24px;
-}
-.Form .Block:last-of-type {
-  margin-bottom: unset;
 }
 .Form .Block .Title {
   font-family: "微軟正黑體", "Segoe UI", Arial;

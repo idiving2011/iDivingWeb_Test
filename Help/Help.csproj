@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Course\Detail.html" />
+    <Content Include="Event\Detail.html" />
     <Content Include="Event\List.html" />
     <Content Include="favicon.ico" />
     <Content Include="Home.html" />

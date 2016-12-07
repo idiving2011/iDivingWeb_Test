@@ -16,14 +16,16 @@
 
     <div class="Holo">
         <div class="Sight">
-            <div class="Login">
+            <div class="Function Login">
                 <form action="Home.html">
                     <span>帳號</span>
                     <input id="account" type="text" class="TextBox" required />
                     <div class="BR"></div>
                     <span>密碼</span>
                     <input id="password" type="password" class="TextBox" required />
-                    <div id="message"></div>
+                    <div id="message">
+                        {% 登入失敗錯誤訊息 %}
+                    </div>
                     <div class="Action">
                         <input type="submit" value="登入" />
                     </div>

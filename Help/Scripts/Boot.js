@@ -11,7 +11,6 @@ $(document).ready(function () {
     Topbar();
     list();
     submit();
-    act();    
 
     // Draw UI
     readonly($("form[readonly]"));

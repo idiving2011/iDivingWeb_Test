@@ -91,7 +91,7 @@ iframe {
     }
 }
 
-.Holo{
+.Holo {
     padding: 60px @Zero 80px @Zero;
 }
 
@@ -124,21 +124,57 @@ iframe {
     z-index: @Max;
 }
 
+.Function {
+    padding: 24px;
+    margin: 8px;
+    text-align: center;
+    background-color: @White;
+    border: 1px solid @Vertical;
+
+    span {
+        font-size: 18px;
+        margin-right: 12px;
+    }
+
+    .TextBox {
+        font-size: 16px;
+    }
+
+    .BR {
+        display: inline-block;
+        width: 24px;
+    }
+
+    .Action {
+        height: 32px;
+        margin: 24px @Zero 8px @Zero;
+
+        input {
+            margin: @Zero 12px;
+        }
+    }
+}
+
 .Do {
     position: fixed;
     right: 32px;
     bottom: 16px;
+    width: 56px;
 
     input[type=image] {
-        width: 48px;
-        height: 48px;
-        margin-left: 16px;
+        width: 56px;
+        height: 56px;
+        margin-top: 16px;
         background-position: center center;
         background-repeat: no-repeat;
         background-color: @Blue;
-        border-radius: 32px;
-        box-shadow: 1px 1px 2px rgba(0, 0, 0, .14), 3px 3px 4px rgba(0, 0, 0, .28);
-        background-size: 32px 32px;
+        border-radius: 28px;
+        box-shadow: @Zero @Zero 4px rgba(0, 0, 0, .14), @Zero 4px 8px rgba(0, 0, 0, .28);
+        background-size: 24px 24px;
+
+        &:hover {
+            background-color: @DarkBlue;
+        }
 
         &.Add {
             background-image: url(/Images/Do/Add.png);
@@ -151,25 +187,38 @@ iframe {
         &.Remove {
             background-color: @Red;
             background-image: url(/Images/Do/Remove.png);
+
+            &:hover {
+                background-color: @DarkRed;
+            }
         }
 
         &.Save {
+            background-color: @Green;
             background-image: url(/Images/Do/Save.png);
+
+            &:hover {
+                background-color: @DarkGreen;
+            }
         }
     }
 }
 
 // ==== 通用元件 ====
-input[type=search], input[type=image], img {
+input[type=image], img {
     vertical-align: middle;
 }
 
-input[type = text], input[type=password], .TextBox {
+input[type = text], input[type=password], input[type=search], .TextBox {
     .TextStyle();
     border: none;
     border-bottom: 1px solid @Region;
     width: 140px;
     height: 24px;
+
+    &.Full {
+        width: @Full;
+    }
 
     &.Large {
         max-width: 280px;
@@ -237,7 +286,7 @@ input[type=button], input[type=submit], Button, .Button {
     }
 
     &.Different {
-        .ButtonStyle(@Green, @DarkGreen);    
+        .ButtonStyle(@Green, @DarkGreen);
     }
 
     &.Light {
@@ -314,7 +363,7 @@ li {
 }
 
 @media @Phone {
-    input[type = text], input[type=password], .TextBox {
+    input[type = text], input[type=password], input[type=search], .TextBox {
         width: 200px;
 
         &.Large {
@@ -328,6 +377,15 @@ li {
 
     .Sight {
         width: 304px;
+    }
+
+    .Function {
+         margin: 24px @Zero 24px @Zero;
+
+        .BR {
+            display: block;
+            height: 24px;
+        }
     }
 
     .Do {

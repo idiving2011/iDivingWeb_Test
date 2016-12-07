@@ -15,10 +15,9 @@
     <div class="Holo">
         <div class="Sight">
             <div class="Oops">
-                <div class="Name">{% Name %}</div>
-                <div class="Code">錯誤代碼：{% Code %}</div>
-                <div class="SN">追蹤序號：{% SN %}</div>
-                <div class="Message">{% Message %}</div>
+                <div class="Name">{% 錯誤名稱 %}</div>
+                <div class="Code">{% 錯誤代碼 %} | {% 追蹤序號 %}</div>
+                <div class="Message">{% 錯誤訊息 %}</div>
                 <div class="Next">
                     錯誤原因可能是後端伺服器暫時忙碌或是資料輸入有誤，您可以<a href="{% url %}">再試一次</a>或<a href="/">回首頁</a>。
                 </div>

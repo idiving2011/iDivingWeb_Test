@@ -1,52 +1,9 @@
-﻿.Login {
-  padding: 24px;
-  margin: 24px;
-  text-align: center;
-  background-color: #ffffff;
-  border-top: 1px solid #c8c8c8;
-  border-left: 1px solid #c8c8c8;
-  border-right: 1px solid #c8c8c8;
-}
-.Login:last-of-type {
-  border-bottom: 1px solid #c8c8c8;
-}
-.Freeze .Login {
-  border-color: rgba(0, 0, 0, 0.05);
-}
-.Login span {
-  font-size: 18px;
-  margin-right: 12px;
-}
-.Login #message {
+﻿.Login #message {
   font-size: 16px;
   color: #c40000;
   text-align: center;
-  padding: 6px;
   margin: 12px auto 0px auto;
   overflow: hidden;
-  min-height: 24px;
-}
-.Login .TextBox {
-  font-size: 16px;
-}
-.Login .BR {
-  display: inline-block;
-  width: 24px;
-}
-.Login .Action {
-  height: 32px;
-  padding: 8px 0px;
-}
-.Login .Action input {
-  margin: 0px 12px;
-}
-@media (max-width: 592px) {
-  .Login {
-    margin: 24px 0px 24px 0px;
-  }
-  .Login .BR {
-    display: block;
-    height: 24px;
-  }
+  white-space: nowrap;
 }
 /*# sourceMappingURL=Login.css.map */
