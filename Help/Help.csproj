@@ -87,7 +87,7 @@
     <Content Include="Images\Dialog\Error.png" />
     <Content Include="Images\Dialog\Info.png" />
     <Content Include="Images\Dialog\Login.png" />
-    <Content Include="Images\Topbar\Back.png" />
+    <Content Include="Images\Topbar\Back.Black.png" />
     <Content Include="Images\Topbar\Ham.png" />
     <Content Include="Images\Left.png" />
     <Content Include="Images\Topbar\Logout.png" />

@@ -10387,7 +10387,6 @@ $(document).ready(function () {
     submit();
 
     // Draw UI
-    readonly($("form[readonly]"));
 
     // Do Extension
     extension(); // hook to Global.js
@@ -10462,9 +10461,6 @@ function act() {
 
     //編輯
     $(".Do .Edit").click(function () {
-        modify($("form").removeAttr("readonly"));
-        $(this).hide();
-        $(".Do .Save").show();
     });
 
     //儲存

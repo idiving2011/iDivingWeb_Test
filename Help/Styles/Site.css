@@ -494,31 +494,6 @@ li {
 .Topbar .Ham ~ .Title {
   margin-left: 80px;
 }
-.Topbar .Auth {
-  line-height: 52px;
-  top: 0px;
-  float: right;
-  text-align: center;
-  width: 120px;
-  font-family: "微軟正黑體", "Segoe UI", Arial;
-  font-size: 24px;
-  color: #ffffff;
-}
-.Topbar .Logout {
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  background-size: 30px;
-  background-position: center center;
-  border-radius: 20px;
-  background-image: url(/Images/Topbar/Logout.png);
-  float: right;
-  margin: 6px 12px 6px 4px;
-}
-.Topbar .Logout:hover {
-  background-color: #c8c8c8;
-}
 .Menu {
   width: 300px;
   height: 100%;
@@ -538,12 +513,12 @@ li {
   background-size: 30px;
   background-position: center center;
   border-radius: 20px;
-  background-image: url(/Images/Topbar/Back.png);
+  background-image: url(/Images/Topbar/Back.Black.png);
   margin: 6px 4px 6px 12px;
   position: fixed;
 }
 .Menu .Back:hover {
-  background-color: #c8c8c8;
+  background-color: #e1e1e1;
 }
 .Menu .Title {
   padding-left: 80px;
@@ -553,6 +528,8 @@ li {
   background-color: #c8c8c8;
   position: fixed;
   width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .Menu .List {
   margin-top: 52px;
@@ -583,6 +560,26 @@ li {
 .Menu .List .Folder a:link:hover,
 .Menu .List .Folder a:visited:hover {
   background-color: #e1e1e1;
+}
+.Menu .Auth {
+  padding-left: 12px;
+  line-height: 52px;
+  font-family: "微軟正黑體", "Segoe UI", Arial;
+  font-size: 24px;
+  background-color: #c8c8c8;
+  position: fixed;
+  width: 268px;
+  bottom: 0px;
+}
+.Menu .Logout {
+  font-family: "微軟正黑體", "Segoe UI", Arial;
+  font-size: 24px;
+  line-height: 52px;
+  margin: 6px 4px 6px 12px;
+  position: fixed;
+  bottom: 0px;
+  left: 224px;
+  cursor: pointer;
 }
 @media (max-width: 960px) {
   .Topbar .Auth {

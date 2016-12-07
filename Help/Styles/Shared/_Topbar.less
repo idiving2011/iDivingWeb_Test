@@ -1,6 +1,6 @@
 ﻿@import "_Definition.less";
 
-.TopbarButton() {
+.TopbarButton(@color: @Gray) {
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -10,7 +10,7 @@
     border-radius: 20px;
 
     &:hover {
-        background-color: @Gray;
+        background-color: @color;
     }
 }
 
@@ -43,23 +43,6 @@
     .Ham~.Title {
         margin-left: 80px;
     }
-
-    .Auth {
-        line-height: 52px;
-        top: @Zero;
-        float: right;
-        text-align: center;
-        width: 120px;
-        .FontStyle(24px);
-        color: @Reverse;
-    }
-
-    .Logout {
-        .TopbarButton();
-        background-image: url(/Images/Topbar/Logout.png);
-        float: right;
-        margin: 6px 12px 6px 4px;
-    }
 }
 
 .Menu {
@@ -74,8 +57,8 @@
     overflow: auto;
 
     .Back {
-        .TopbarButton();
-        background-image: url(/Images/Topbar/Back.png);
+        .TopbarButton(@LightGray);
+        background-image: url(/Images/Topbar/Back.Black.png);
         margin: 6px 4px 6px 12px;
         position: fixed;
     }
@@ -87,6 +70,8 @@
         background-color: @Gray;
         position: fixed;
         width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
     }
 
     .List {
@@ -118,6 +103,26 @@
                 }
             }
         }
+    }
+
+    .Auth {
+        padding-left: 12px;
+        line-height: 52px;
+        .FontStyle(24px);
+        background-color: @Gray;
+        position: fixed;
+        width: 268px;
+        bottom: @Zero;
+    }
+
+    .Logout {
+        .FontStyle(24px);
+        line-height: 52px;
+        margin: 6px 4px 6px 12px;
+        position: fixed;
+        bottom: @Zero;
+        left: 224px;
+        cursor: pointer;
     }
 }
 
