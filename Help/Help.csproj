@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Course\Detail.html" />
+    <Content Include="Event\Detail.html" />
     <Content Include="Event\List.html" />
+    <Content Include="favicon.ico" />
     <Content Include="Home.html" />
     <Content Include="Images\Action\Add.png" />
     <Content Include="Images\Action\Remove.png" />
@@ -85,11 +87,12 @@
     <Content Include="Images\Dialog\Error.png" />
     <Content Include="Images\Dialog\Info.png" />
     <Content Include="Images\Dialog\Login.png" />
-    <Content Include="Images\Topbar\Back.png" />
+    <Content Include="Images\Topbar\Back.Black.png" />
     <Content Include="Images\Topbar\Ham.png" />
     <Content Include="Images\Left.png" />
     <Content Include="Images\Topbar\Logout.png" />
     <Content Include="Images\Right.png" />
+    <Content Include="Login.html" />
     <Content Include="Oops.html" />
     <Content Include="Scripts\Global.js" />
     <Content Include="Scripts\jquery.js" />
@@ -108,11 +111,11 @@
     <Content Include="Scripts\Site.min.js">
       <DependentUpon>Site.js</DependentUpon>
     </Content>
-    <Content Include="Styles\Event\List.css">
-      <DependentUpon>List.less</DependentUpon>
+    <Content Include="Styles\Login.css">
+      <DependentUpon>Login.less</DependentUpon>
     </Content>
-    <Content Include="Styles\Event\List.min.css">
-      <DependentUpon>List.css</DependentUpon>
+    <Content Include="Styles\Login.min.css">
+      <DependentUpon>Login.css</DependentUpon>
     </Content>
     <Content Include="Styles\Oops.css">
       <DependentUpon>Oops.less</DependentUpon>
@@ -172,15 +175,15 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\Event\List.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Styles\Event\List.css.map">
-      <DependentUpon>List.css</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Styles\Shared\_Form.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\Login.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\Login.css.map">
+      <DependentUpon>Login.css</DependentUpon>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

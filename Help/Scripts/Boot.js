@@ -11,10 +11,8 @@ $(document).ready(function () {
     Topbar();
     list();
     submit();
-    act();    
 
     // Draw UI
-    readonly($("form[readonly]"));
 
     // Do Extension
     extension(); // hook to Global.js
@@ -72,25 +70,11 @@ function list() {
 
 function submit() {
     $("form").submit(function (event) {
-        event.preventDefault();
-        event.returnValue = false;
-
-        afterCall();
-        //$.Call({
-        //    trigger: $(this),
-        //    url: $(this).attr("action"),
-        //    data: $(this).serialize(),
-        //    beforeCall: function () {
-        //        if (!check($(this)) || !beforeCall())
-        //            return false;
-        //    },
-        //    afterCall: function (response) {
-        //        afterCall(response);
-        //    },
-        //    oops: function (message) {
-        //        oops(message);
-        //    }
-        //});
+        if (beforeCall($(this))) {
+            event.returnValue = false;
+            return false;
+        }
+        event.returnValue = true;
     });
 }
 
@@ -103,9 +87,6 @@ function act() {
 
     //編輯
     $(".Do .Edit").click(function () {
-        modify($("form").removeAttr("readonly"));
-        $(this).hide();
-        $(".Do .Save").show();
     });
 
     //儲存

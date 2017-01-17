@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>iDiving 資訊管理系統</title>
+    <title>iDiving 管理系統</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico" />
@@ -39,40 +39,39 @@
 
     <div class="Holo">
         <div class="Sight">
-
-            <div class="Search">
-                <input type="search" placeholder="請輸入關鍵字" class="Keyword" />
-                <input type="button" value="搜尋" class="Go"/>
+            <div class="Function">
+                <form>
+                    <input type="search" placeholder="請輸入關鍵字" class="Full TextBox" />
+                    <div class="Action">
+                        <input type="submit" value="搜尋" />
+                    </div>
+                </form>
             </div>
 
             <div class="List">
                 <div class="Title">最新</div>
                 <div class="Items">
-                    <div class="Item" data-view="/Event/Course.html" data-id="COWD20">
-                        <span>開放水域潛水員 OWD 第 20 期</span>
+                    <div class="Item" data-view="/Event/Detail.html" data-id="COWD20">
+                        <span>東北角活動 201706-1</span>
                     </div>
                     <div class="Item">
-                        <span>開放水域潛水員 OWD 第 19 期</span>
+                        <span>東北角活動 201706-2</span>
                     </div>
                     <div class="Item">
-                        <span>開放水域潛水員 OWD 第 18 期</span>
+                        <span>開放水域潛水員 OWD 第 17 期海洋實習 1</span>
                     </div>
                     <div class="Item">
-                        <span>開放水域潛水員 OWD 第 17 期</span>
+                        <span>開放水域潛水員 OWD 第 17 期海洋實習 2</span>
                     </div>
                     <div class="Item">
-                        <span>開放水域潛水員 OWD 第 16 期</span>
+                        <span>開放水域潛水員 OWD 第 18 期泳池實習 1</span>
                     </div>
                     <div class="Item">
-                        <span>開放水域潛水員 OWD 第 15 期</span>
+                        <span>開放水域潛水員 OWD 第 19 期學科 1</span>
                     </div>
-                </div>
-                <div class="Action">
-                    <input type="button" value="更多" />
                 </div>
             </div>
         </div>
-
         <!-- Do -->
         <div class="Do">
             <input type="image" src="../Images/Mask.png" class="Add" data-action="" />
@@ -80,6 +79,15 @@
         <!-------------------->
     </div>
     <script src="/Scripts/Site.min.js"></script>
-    <script></script>
+    <script>
+        // ==== DEMO ====
+        function extension() {
+            $("form").submit(function () {
+                $(".Title").text("搜尋結果");
+                $(".Item").slice(0, 2).hide();
+            });
+        }
+        // =============
+    </script>
 </body>
 </html>
