@@ -10,41 +10,22 @@
     <style></style>
 </head>
 <body>
-    <!-- Topbar -->
+    <!-- Topbar.Detail -->
     <div class="Topbar">
-        <div class="Ham"></div>
-        <div class="Logout"></div>
-        <div class="Auth">阿甘</div>
-        <div class="Title">活動</div>
-    </div>
-    <div class="Menu">
-        <div class="Title">iDiving 管理系統</div>
-        <div class="Back"></div>
-        <div class="List">
-            <div class="Folder">
-                <a href="/Customer/List.html">人員</a>
-            </div>
-            <div class="Folder">
-                <span>事件管理</span>
-                <a href="/Course/List.html">課程</a>
-                <a href="/Event/List.html">活動</a>
-                <a href="/Equipment/List">報名單</a>
-            </div>
-            <div class="Folder">
-                <a href="/Equipment/List">裝備</a>
-            </div>
-        </div>
+        <div class="Nav Back"></div>
+        <div class="Act Copy"></div>
+        <div class="Act Edit"></div>
+        <div class="Act Remove"></div>
+        <div class="Mod Save"></div>
+        <div class="Mod Undo"></div>
+        <div class="Title">活動<span class="Name">開放水域潛水員 OWD 第二十期</span></div>
     </div>
     <!-------------->
 
     <div class="Holo">
-        <!-- Topbar -->
-        <div class="Topbar">
-        </div>
-        <!------------>
 
         <div class="Sight">
-            <form class="Form Read">
+            <form class="Form">
 
                 <div class="Block">
                     <div class="Item">
@@ -57,7 +38,7 @@
                     </div>
                 </div>
 
-                <div class="List">
+                <div class="Block List">
                     <div class="Title">課程紀錄</div>
                     <div class="Items">
                         <div class="Item" data-view="/Event/Detail.html" data-id="ECC111">
@@ -71,7 +52,7 @@
                         </div>
                         <div class="Item">
                             <span>海洋實習1223</span>
-                            <input type="image" src="../Images/Mask.png" />
+                            <!--<input type="image" src="../Images/Mask.png" />-->
                             <span class="Right">2016/12/01</span>
                             <span class="Right">阿甘</span>
                         </div>
@@ -100,16 +81,19 @@
 
             </form>
         </div>
-
-        <!-- Do -->
-        <div class="Do">
-            <input type="image" src="../Images/Mask.png" class="Edit"/>
-            <input type="image" src="../Images/Mask.png" class="Save" hidden />
-            <input type="image" src="../Images/Mask.png" class="Remove" hidden />
-        </div>
-        <!-------------------->
     </div>
     <script src="/Scripts/Site.min.js"></script>
-    <script></script>
+    <script>
+        // ==== DEMO ====
+        function extension() {
+            if ("" == location.search) {
+                $(".Topbar, .Form").addClass("New");
+                $(".Title").text("新增活動");
+                $("input").val("");
+                $(".Items").empty();
+            }
+        }
+        // =============
+    </script>
 </body>
 </html>

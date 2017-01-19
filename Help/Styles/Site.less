@@ -155,55 +155,6 @@ iframe {
     }
 }
 
-.Do {
-    position: fixed;
-    right: 32px;
-    bottom: 16px;
-    width: 56px;
-
-    input[type=image] {
-        width: 56px;
-        height: 56px;
-        margin-top: 16px;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-color: @Blue;
-        border-radius: 28px;
-        box-shadow: @Zero @Zero 4px rgba(0, 0, 0, .14), @Zero 4px 8px rgba(0, 0, 0, .28);
-        background-size: 24px 24px;
-
-        &:hover {
-            background-color: @DarkBlue;
-        }
-
-        &.Add {
-            background-image: url(/Images/Do/Add.png);
-        }
-
-        &.Edit {
-            background-image: url(/Images/Do/Edit.png);
-        }
-
-        &.Remove {
-            background-color: @Red;
-            background-image: url(/Images/Do/Remove.png);
-
-            &:hover {
-                background-color: @DarkRed;
-            }
-        }
-
-        &.Save {
-            background-color: @Green;
-            background-image: url(/Images/Do/Save.png);
-
-            &:hover {
-                background-color: @DarkGreen;
-            }
-        }
-    }
-}
-
 // ==== 通用元件 ====
 input[type=image], img {
     vertical-align: middle;
@@ -213,15 +164,10 @@ input[type = text], input[type=password], input[type=search], .TextBox {
     .TextStyle();
     border: none;
     border-bottom: 1px solid @Region;
-    width: 140px;
+    width: 160px;
     height: 24px;
 
     &.Full {
-        width: @Full;
-    }
-
-    &.Large {
-        max-width: 280px;
         width: @Full;
     }
 

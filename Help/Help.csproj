@@ -61,16 +61,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Course\Detail.html" />
+    <Content Include="Course\List.html" />
+    <Content Include="Equipment\Detail.html" />
+    <Content Include="Equipment\List.html" />
     <Content Include="Event\Detail.html" />
     <Content Include="Event\List.html" />
     <Content Include="favicon.ico" />
+    <Content Include="Form\Detail.html" />
+    <Content Include="Form\List.html" />
     <Content Include="Home.html" />
     <Content Include="Images\Action\Add.png" />
     <Content Include="Images\Action\Remove.png" />
-    <Content Include="Images\Do\Add.png" />
-    <Content Include="Images\Do\Remove.png" />
-    <Content Include="Images\Do\Edit.png" />
-    <Content Include="Images\Do\Save.png" />
     <Content Include="Images\Dialog\Complete.png" />
     <Content Include="Images\Dialog\Warning.png" />
     <Content Include="Images\Logo.png" />
@@ -81,6 +82,7 @@
     <Content Include="Images\Service\Event.png" />
     <Content Include="Images\Service\Auth.png" />
     <Content Include="Images\Service\Reporter.png" />
+    <Content Include="Images\Topbar\Add.png" />
     <Content Include="Images\Topbar\Apps.png" />
     <Content Include="Images\Dialog\Confirm.png" />
     <Content Include="Images\Dialog\Deny.png" />
@@ -88,11 +90,19 @@
     <Content Include="Images\Dialog\Info.png" />
     <Content Include="Images\Dialog\Login.png" />
     <Content Include="Images\Topbar\Back.Black.png" />
+    <Content Include="Images\Topbar\Back.White.png" />
+    <Content Include="Images\Topbar\Edit.png" />
     <Content Include="Images\Topbar\Ham.png" />
     <Content Include="Images\Left.png" />
     <Content Include="Images\Topbar\Logout.png" />
     <Content Include="Images\Right.png" />
+    <Content Include="Images\Topbar\Remove.png" />
+    <Content Include="Images\Topbar\Remove.Red.png" />
+    <Content Include="Images\Topbar\Save.png" />
+    <Content Include="Images\Topbar\Undo.png" />
     <Content Include="Login.html" />
+    <Content Include="Member\Detail.html" />
+    <Content Include="Member\List.html" />
     <Content Include="Oops.html" />
     <Content Include="Scripts\Global.js" />
     <Content Include="Scripts\jquery.js" />
@@ -105,6 +115,7 @@
     <Content Include="Scripts\Plugin\jquery.Dialog.min.js">
       <DependentUpon>jquery.Dialog.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\Plugin\jquery.queryString.js" />
     <Content Include="Scripts\Site.js">
       <DependentUpon>Site.js.bundle</DependentUpon>
     </Content>
@@ -132,8 +143,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Auth\" />
-    <Folder Include="Customer\" />
-    <Folder Include="Equipment\" />
     <Folder Include="Images\Reporter\" />
   </ItemGroup>
   <ItemGroup>

@@ -25,23 +25,106 @@
     &.Float {
         box-shadow: @Zero @Zero 4px rgba(0, 0, 0, 0.14), @Zero 4px 8px rgba(0, 0, 0, 0.28);
     }
-    
-    .Ham {
+
+    .Nav {
         .TopbarButton();
-        background-image: url(/Images/Topbar/Ham.png);
         float: left;
         margin: 6px 4px 6px 12px;
+
+        &.Ham {
+            background-image: url(/Images/Topbar/Ham.png);
+        }
+
+        &.Back {
+            background-image: url(/Images/Topbar/Back.White.png);
+        }
+    }
+
+    .Act {
+        .TopbarButton();
+        float: right;
+        margin: 6px 12px 6px 4px;
+
+        &.Add {
+            background-image: url(/Images/Topbar/Add.png);
+        }
+
+        &.Remove {
+            background-image: url(/Images/Topbar/Remove.Red.png);
+        }
+
+        &.Edit {
+            background-image: url(/Images/Topbar/Edit.png);
+        }
+
+        &.Copy {
+            background-image: url(/Images/Topbar/Copy.png);
+        }
+    }
+
+    .Mod {
+        .TopbarButton();
+        float: right;
+        margin: 6px 12px 6px 4px;
+        display: none;
+
+        &.Save {
+            background-image: url(/Images/Topbar/Save.png);
+        }
+
+        &.Undo {
+            background-image: url(/Images/Topbar/Undo.png);
+        }
     }
 
     .Title {
-        margin-left: 12px;
+        margin-left: 80px;
         line-height: 52px;
         .FontStyle(24px);
         color: @Reverse;
+        white-space: nowrap;
+        overflow: hidden;
+
+        .Name {
+            .FontStyle(24px);
+            color: @Reverse;
+
+            &:before {
+                content: "：";
+            }
+        }
     }
 
-    .Ham~.Title {
-        margin-left: 80px;
+    &.Update {
+        background-color: @Blue;
+
+        .Nav, .Act {
+            display: none;
+        }
+
+        .Mod {
+            display: block;
+        }
+
+        .Title {
+            margin-left: 12px;
+        }
+    }
+
+    &.New {
+        background-color: @Blue;
+
+        .Act {
+            display: none;
+        }
+
+        .Back, .Save {
+            display: block;
+        }
+
+        .Title {
+            margin-left: 12px;
+        }
     }
 }
 
@@ -118,7 +201,6 @@
     .Logout {
         .FontStyle(24px);
         line-height: 52px;
-        margin: 6px 4px 6px 12px;
         position: fixed;
         bottom: @Zero;
         left: 224px;
@@ -128,20 +210,12 @@
 
 // ==== RWD ====
 @media @Tablet {
-    .Topbar {
-
-        .Auth {
-            display: none;
-        }
-    }
 }
 
 @media @Phone {
     .Topbar {
-
-        .Title {
-            text-align: center;
-            margin-left: @Zero;
+        .Title .Name {
+            display: none;
         }
     }
 }

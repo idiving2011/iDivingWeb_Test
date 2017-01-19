@@ -1,4 +1,7 @@
-﻿.Oops {
+﻿.Topbar .Title {
+  margin-left: 12px;
+}
+.Oops {
   margin: 24px;
 }
 .Oops .Name {

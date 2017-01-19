@@ -10340,6 +10340,301 @@ return jQuery;
         }
     });
 })(jQuery);
+///#source 1 1 /Scripts/Plugin/jquery.queryString.js
+/**
+ * jQuery.query - Query String Modification and Creation for jQuery
+ * Written by Blair Mitchelmore (blair DOT mitchelmore AT gmail DOT com)
+ * Licensed under the WTFPL (http://sam.zoy.org/wtfpl/).
+ * Date: 2009/8/13
+ *
+ * @author Blair Mitchelmore
+ * @version 2.2.3
+ *
+ **/
+new function(settings) { 
+  // Various Settings
+  var $separator = settings.separator || '&';
+  var $spaces = settings.spaces === false ? false : true;
+  var $suffix = settings.suffix === false ? '' : '[]';
+  var $prefix = settings.prefix === false ? false : true;
+  var $hash = $prefix ? settings.hash === true ? "#" : "?" : "";
+  var $numbers = settings.numbers === false ? false : true;
+
+  jQuery.query = new function() {
+    var is = function(o, t) {
+      return o != undefined && o !== null && (!!t ? o.constructor == t : true);
+    };
+    var parse = function(path) {
+      var m, rx = /\[([^[]*)\]/g, match = /^([^[]+)(\[.*\])?$/.exec(path), base = match[1], tokens = [];
+      while (m = rx.exec(match[2])) tokens.push(m[1]);
+      return [base, tokens];
+    };
+    var set = function(target, tokens, value) {
+      var o, token = tokens.shift();
+      if (typeof target != 'object') target = null;
+      if (token === "") {
+        if (!target) target = [];
+        if (is(target, Array)) {
+          target.push(tokens.length == 0 ? value : set(null, tokens.slice(0), value));
+        } else if (is(target, Object)) {
+          var i = 0;
+          while (target[i++] != null);
+          target[--i] = tokens.length == 0 ? value : set(target[i], tokens.slice(0), value);
+        } else {
+          target = [];
+          target.push(tokens.length == 0 ? value : set(null, tokens.slice(0), value));
+        }
+      } else if (token && token.match(/^\s*[0-9]+\s*$/)) {
+        var index = parseInt(token, 10);
+        if (!target) target = [];
+        target[index] = tokens.length == 0 ? value : set(target[index], tokens.slice(0), value);
+      } else if (token) {
+        var index = token.replace(/^\s*|\s*$/g, "");
+        if (!target) target = {};
+        if (is(target, Array)) {
+          var temp = {};
+          for (var i = 0; i < target.length; ++i) {
+            temp[i] = target[i];
+          }
+          target = temp;
+        }
+        target[index] = tokens.length == 0 ? value : set(target[index], tokens.slice(0), value);
+      } else {
+        return value;
+      }
+      return target;
+    };
+    
+    var queryObject = function(a) {
+      var self = this;
+      self.keys = {};
+      
+      if (a.queryObject) {
+        jQuery.each(a.get(), function(key, val) {
+          self.SET(key, val);
+        });
+      } else {
+        self.parseNew.apply(self, arguments);
+      }
+      return self;
+    };
+    
+    queryObject.prototype = {
+      queryObject: true,
+      parseNew: function(){
+        var self = this;
+        self.keys = {};
+        jQuery.each(arguments, function() {
+          var q = "" + this;
+          q = q.replace(/^[?#]/,''); // remove any leading ? || #
+          q = q.replace(/[;&]$/,''); // remove any trailing & || ;
+          if ($spaces) q = q.replace(/[+]/g,' '); // replace +'s with spaces
+          
+          jQuery.each(q.split(/[&;]/), function(){
+            var key = decodeURIComponent(this.split('=')[0] || "");
+            var val = decodeURIComponent(this.split('=')[1] || "");
+            
+            if (!key) return;
+            
+            if ($numbers) {
+              if (/^[+-]?[0-9]+\.[0-9]*$/.test(val)) // simple float regex
+                val = parseFloat(val);
+              else if (/^[+-]?[1-9][0-9]*$/.test(val)) // simple int regex
+                val = parseInt(val, 10);
+            }
+            
+            val = (!val && val !== 0) ? true : val;
+            
+            self.SET(key, val);
+          });
+        });
+        return self;
+      },
+      has: function(key, type) {
+        var value = this.get(key);
+        return is(value, type);
+      },
+      GET: function(key) {
+        if (!is(key)) return this.keys;
+        var parsed = parse(key), base = parsed[0], tokens = parsed[1];
+        var target = this.keys[base];
+        while (target != null && tokens.length != 0) {
+          target = target[tokens.shift()];
+        }
+        return typeof target == 'number' ? target : target || "";
+      },
+      get: function(key) {
+        var target = this.GET(key);
+        if (is(target, Object))
+          return jQuery.extend(true, {}, target);
+        else if (is(target, Array))
+          return target.slice(0);
+        return target;
+      },
+      SET: function(key, val) {
+        var value = !is(val) ? null : val;
+        var parsed = parse(key), base = parsed[0], tokens = parsed[1];
+        var target = this.keys[base];
+        this.keys[base] = set(target, tokens.slice(0), value);
+        return this;
+      },
+      set: function(key, val) {
+        return this.copy().SET(key, val);
+      },
+      REMOVE: function(key, val) {
+        if (val) {
+          var target = this.GET(key);
+          if (is(target, Array)) {
+            for (tval in target) {
+                target[tval] = target[tval].toString();
+            }
+            var index = $.inArray(val, target);
+            if (index >= 0) {
+              key = target.splice(index, 1);
+              key = key[index];
+            } else {
+              return;
+            }
+          } else if (val != target) {
+              return;
+          }
+        }
+        return this.SET(key, null).COMPACT();
+      },
+      remove: function(key, val) {
+        return this.copy().REMOVE(key, val);
+      },
+      EMPTY: function() {
+        var self = this;
+        jQuery.each(self.keys, function(key, value) {
+          delete self.keys[key];
+        });
+        return self;
+      },
+      load: function(url) {
+        var hash = url.replace(/^.*?[#](.+?)(?:\?.+)?$/, "$1");
+        var search = url.replace(/^.*?[?](.+?)(?:#.+)?$/, "$1");
+        return new queryObject(url.length == search.length ? '' : search, url.length == hash.length ? '' : hash);
+      },
+      empty: function() {
+        return this.copy().EMPTY();
+      },
+      copy: function() {
+        return new queryObject(this);
+      },
+      COMPACT: function() {
+        function build(orig) {
+          var obj = typeof orig == "object" ? is(orig, Array) ? [] : {} : orig;
+          if (typeof orig == 'object') {
+            function add(o, key, value) {
+              if (is(o, Array))
+                o.push(value);
+              else
+                o[key] = value;
+            }
+            jQuery.each(orig, function(key, value) {
+              if (!is(value)) return true;
+              add(obj, key, build(value));
+            });
+          }
+          return obj;
+        }
+        this.keys = build(this.keys);
+        return this;
+      },
+      compact: function() {
+        return this.copy().COMPACT();
+      },
+      toString: function() {
+        var i = 0, queryString = [], chunks = [], self = this;
+        var encode = function(str) {
+          str = str + "";
+          str = encodeURIComponent(str);
+          if ($spaces) str = str.replace(/%20/g, "+");
+          return str;
+        };
+        var addFields = function(arr, key, value) {
+          if (!is(value) || value === false) return;
+          var o = [encode(key)];
+          if (value !== true) {
+            o.push("=");
+            o.push(encode(value));
+          }
+          arr.push(o.join(""));
+        };
+        var build = function(obj, base) {
+          var newKey = function(key) {
+            return !base || base == "" ? [key].join("") : [base, "[", key, "]"].join("");
+          };
+          jQuery.each(obj, function(key, value) {
+            if (typeof value == 'object') 
+              build(value, newKey(key));
+            else
+              addFields(chunks, newKey(key), value);
+          });
+        };
+        
+        build(this.keys);
+        
+        if (chunks.length > 0) queryString.push($hash);
+        queryString.push(chunks.join($separator));
+        
+        return queryString.join("");
+      }
+    };
+    
+    return new queryObject(location.search, location.hash);
+  };
+}(jQuery.query || {}); // Pass in jQuery.query as settings object
+
+///#source 1 1 /Scripts/Plugin/jquery.cookie.js
+/*!
+* jQuery Cookie Plugin
+* https://github.com/carhartl/jquery-cookie
+*
+* Copyright 2011, Klaus Hartl
+* Dual licensed under the MIT or GPL Version 2 licenses.
+* http://www.opensource.org/licenses/mit-license.php
+* http://www.opensource.org/licenses/GPL-2.0
+*/
+(function ($) {
+    $.cookie = function (key, value, options) {
+
+        // key and at least value given, set cookie...
+        if (arguments.length > 1 && (!/Object/.test(Object.prototype.toString.call(value)) || value === null || value === undefined)) {
+            options = $.extend({}, options);
+
+            if (value === null || value === undefined) {
+                options.expires = -1;
+            }
+
+            if (typeof options.expires === 'number') {
+                var days = options.expires, t = options.expires = new Date();
+                t.setDate(t.getDate() + days);
+            }
+
+            value = String(value);
+
+            return (document.cookie = [
+                encodeURIComponent(key), '=', options.raw ? value : encodeURIComponent(value),
+                options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
+                options.path ? '; path=' + options.path : '',
+                options.domain ? '; domain=' + options.domain : '',
+                options.secure ? '; secure' : ''
+            ].join(''));
+        }
+
+        // key and possibly options given, get cookie...
+        options = value || {};
+        var decode = options.raw ? function (s) { return s; } : decodeURIComponent;
+
+        var pairs = document.cookie.split('; ');
+        for (var i = 0, pair; pair = pairs[i] && pairs[i].split('='); i++) {
+            if (decode(pair[0]) === key) return decode(pair[1] || ''); // IE saves cookies with empty string as "c; ", e.g. without "=" as opposed to EOMB, thus pair[1] may be undefined
+        }
+        return null;
+    };
+})(jQuery);
 ///#source 1 1 /Scripts/Global.js
 /// <reference path = "jquery.js" />
 
@@ -10422,14 +10717,38 @@ function Topbar() {
             $(".Topbar").removeClass("Float");
     });
 
-    $(".Topbar .Logout").click(function () {
-        location.href = "/CHT/Home/Logout";
+    $(".Menu .Logout").click(function () {
+        //location.href = "/Logout";
+        // ==== DEMO ====
+        $.cookie("otpw", null);
+        location.href = "/Login.html";
+        // =============
     });
 
-    $(".Ham, .Back").click(function () {
+    $(".Topbar .Ham, .Menu .Back").click(function () {
         $(".Menu").fadeToggle("fast");
         event.stopPropagation();
     });
+
+    $(".Topbar .Back").click(function () {
+        location.href = location.pathname.replace("Detail", "List");
+    });
+
+    $(".Topbar .Add").click(function () {
+        location.href = location.pathname.replace("List", "Detail");
+    });
+
+    $(".Topbar .Edit").click(function () {
+        $(".Topbar, .Form").addClass("Update");
+    });
+
+    $(".Topbar .Undo").click(function () {
+        location.reload();
+    });
+
+    $(".Topbar .Remove").click(function () {
+        $.Dialog({ type: "Confirm", message: "確認刪除此筆紀錄？", closeAfterAction: true, action: function () { location.href = location.pathname.replace("Detail", "Remove") + "?id=" + $.query.get("id"); } });
+    })
 
     $(".Topbar, .Holo").click(function () {
         $(".Menu").hide();
@@ -10452,25 +10771,25 @@ function submit() {
     });
 }
 
-function act() {
-    //新增
-    $(".Do .Add").click(function () {
-        if ($(this).is("[data-action]") && "" != $(this).attr("data-action"))
-            location.href = $(this).attr("data-action");
-    });
+//function act() {
+//    //新增
+//    $(".Do .Add").click(function () {
+//        if ($(this).is("[data-action]") && "" != $(this).attr("data-action"))
+//            location.href = $(this).attr("data-action");
+//    });
 
-    //編輯
-    $(".Do .Edit").click(function () {
-    });
+//    //編輯
+//    $(".Do .Edit").click(function () {
+//    });
 
-    //儲存
-    $(".Do .Save").click(function () {
-        $("form").submit();
-    });
+//    //儲存
+//    $(".Do .Save").click(function () {
+//        $("form").submit();
+//    });
 
-    //刪除
-    $(".Do .Remove").click(function () {
-        var obj = $(this);
-        $.Dialog({ type: "Confirm", message: "確認刪除此筆紀錄？", closeAfterAction: false, action: function (value) { remove(obj); } });
-    });
-}
+//    //刪除
+//    $(".Do .Remove").click(function () {
+//        var obj = $(this);
+//        $.Dialog({ type: "Confirm", message: "確認刪除此筆紀錄？", closeAfterAction: false, action: function (value) { remove(obj); } });
+//    });
+//}

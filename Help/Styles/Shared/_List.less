@@ -30,13 +30,21 @@
 
             span {
                 display: inline-block;
-                margin-right: 12px;
-                float: left;
+                margin-left: 12px;
+                margin-right: @Zero;
+                width: 100px;
+                
+                &.Icon {
+                    float: left;
+                }
 
-                &.Right {
+                &.Main {
+                    width: 280px;
+                }
+
+                &.Act, &.Pad {
                     float: right;
-                    margin-left: 12px;
-                    margin-right: @Zero;
+                    margin-right: 12px;
                 }
             }
 
@@ -71,5 +79,20 @@
     .Action {
         margin: 18px @Zero 48px @Zero;
         text-align: center;
+    }
+}
+
+// ==== RWD ====
+@media @Tablet {
+}
+
+@media @Phone {
+    .List .Items .Item span {
+
+        display: none;
+
+        &:first-of-type {
+            display: inline-block;
+        }
     }
 }

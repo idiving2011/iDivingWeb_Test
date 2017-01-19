@@ -48,14 +48,38 @@ function Topbar() {
             $(".Topbar").removeClass("Float");
     });
 
-    $(".Topbar .Logout").click(function () {
-        location.href = "/CHT/Home/Logout";
+    $(".Menu .Logout").click(function () {
+        //location.href = "/Logout";
+        // ==== DEMO ====
+        $.cookie("otpw", null);
+        location.href = "/Login.html";
+        // =============
     });
 
-    $(".Ham, .Back").click(function () {
+    $(".Topbar .Ham, .Menu .Back").click(function () {
         $(".Menu").fadeToggle("fast");
         event.stopPropagation();
     });
+
+    $(".Topbar .Back").click(function () {
+        location.href = location.pathname.replace("Detail", "List");
+    });
+
+    $(".Topbar .Add").click(function () {
+        location.href = location.pathname.replace("List", "Detail");
+    });
+
+    $(".Topbar .Edit").click(function () {
+        $(".Topbar, .Form").addClass("Update");
+    });
+
+    $(".Topbar .Undo").click(function () {
+        location.reload();
+    });
+
+    $(".Topbar .Remove").click(function () {
+        $.Dialog({ type: "Confirm", message: "確認刪除此筆紀錄？", closeAfterAction: true, action: function () { location.href = location.pathname.replace("Detail", "Remove") + "?id=" + $.query.get("id"); } });
+    })
 
     $(".Topbar, .Holo").click(function () {
         $(".Menu").hide();
@@ -78,25 +102,25 @@ function submit() {
     });
 }
 
-function act() {
-    //新增
-    $(".Do .Add").click(function () {
-        if ($(this).is("[data-action]") && "" != $(this).attr("data-action"))
-            location.href = $(this).attr("data-action");
-    });
+//function act() {
+//    //新增
+//    $(".Do .Add").click(function () {
+//        if ($(this).is("[data-action]") && "" != $(this).attr("data-action"))
+//            location.href = $(this).attr("data-action");
+//    });
 
-    //編輯
-    $(".Do .Edit").click(function () {
-    });
+//    //編輯
+//    $(".Do .Edit").click(function () {
+//    });
 
-    //儲存
-    $(".Do .Save").click(function () {
-        $("form").submit();
-    });
+//    //儲存
+//    $(".Do .Save").click(function () {
+//        $("form").submit();
+//    });
 
-    //刪除
-    $(".Do .Remove").click(function () {
-        var obj = $(this);
-        $.Dialog({ type: "Confirm", message: "確認刪除此筆紀錄？", closeAfterAction: false, action: function (value) { remove(obj); } });
-    });
-}
+//    //刪除
+//    $(".Do .Remove").click(function () {
+//        var obj = $(this);
+//        $.Dialog({ type: "Confirm", message: "確認刪除此筆紀錄？", closeAfterAction: false, action: function (value) { remove(obj); } });
+//    });
+//}

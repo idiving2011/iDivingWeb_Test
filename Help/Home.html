@@ -10,26 +10,26 @@
     <style></style>
 </head>
 <body>
-    <!-- Topbar -->
+    <!-- Topbar.Basic -->
     <div class="Topbar">
-        <div class="Ham"></div>
+        <div class="Nav Ham"></div>
         <div class="Title">iDiving 管理系統</div>
     </div>
     <div class="Menu">
         <div class="Title">iDiving 管理系統</div>
-        <div class="Back"></div>
+        <div class="Nav Back"></div>
         <div class="List">
             <div class="Folder">
-                <a href="/Customer/List.html">人員</a>
+                <a href="/Member/List.html">人員</a>
             </div>
             <div class="Folder">
                 <span>事件管理</span>
                 <a href="/Course/List.html">課程</a>
                 <a href="/Event/List.html">活動</a>
-                <a href="/Equipment/List">報名單</a>
+                <a href="/Form/List.html">報名單</a>
             </div>
             <div class="Folder">
-                <a href="/Equipment/List">裝備</a>
+                <a href="/Equipment/List.html.html">裝備</a>
             </div>
         </div>
         <div class="Auth">阿甘</div>
@@ -41,5 +41,16 @@
         <div class="Sight"></div>
     </div>
     <script src="/Scripts/Site.min.js"></script>
+    <script>
+        function extension() {
+            $(".Menu").show();
+
+            // ==== DEMO ====
+            if (null == $.cookie("otpw")) {
+                location.href = "/Login.html";
+            }
+            // =============
+        }
+    </script>
 </body>
 </html>

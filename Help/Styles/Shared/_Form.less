@@ -5,8 +5,8 @@
     background-color: @White;
     margin: 8px;
     padding: 12px;
-    
-    .Freeze &{
+
+    .Freeze & {
         border-color: rgba(0, 0, 0, 0.05);
     }
 
@@ -22,20 +22,36 @@
         }
 
         > .Item {
-            min-width: 280px;
+            width: 300px;
+            height: 48px;
             float: left;
             white-space: nowrap;
+
+            &.Large {
+                width: 600px;
+            }
+
+            &.Full {
+                width: @Full;
+            }
 
             label {
                 display: inline-block;
                 padding: @Zero 14px @Zero 4px;
-                width: 48px;
+                width: 100px;
                 text-align: right;
                 font-weight: bold;
             }
+        }
 
-            input {
-            }
+        input {
+            pointer-events: none;
+        }
+    }
+
+    &.Update .Block {
+        input {
+            pointer-events: auto;
         }
     }
 }
@@ -43,6 +59,14 @@
 // ==== RWD ====
 @media @Tablet {
     .Form {
+        .Block {
+            > .Item {
+                width: @Full;
+                input {
+                    width: @Full;
+                }
+            }
+        }
     }
 }
 

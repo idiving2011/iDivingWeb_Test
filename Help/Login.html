@@ -7,12 +7,18 @@
     <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico" />
     <meta name="resource" content="Login.less" />
     <link type="text/css" rel="stylesheet" href="/Styles/Site.min.css" />
-    <style></style>
+    <style>
+        .Topbar .Title {
+            margin-left: 12px;
+        }
+    </style>
 </head>
 <body>
+    <!-- Topbar.Login -->
     <div class="Topbar">
         <div class="Title">登入</div>
     </div>
+    <!-------------->
 
     <div class="Holo">
         <div class="Sight">
@@ -24,7 +30,7 @@
                     <span>密碼</span>
                     <input id="password" type="password" class="TextBox" required />
                     <div id="message">
-                        {% 登入失敗錯誤訊息 %}
+                        <!--{% 登入失敗錯誤訊息 %}-->
                     </div>
                     <div class="Action">
                         <input type="submit" value="登入" />
@@ -38,6 +44,7 @@
         // ==== DEMO ====
         function extension() {
             $("form").submit(function () {
+                $.cookie("otpw", Date.now);
                 location.href = "Home.html";
             });
         }

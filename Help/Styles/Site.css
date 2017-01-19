@@ -164,46 +164,6 @@ iframe {
 .Function .Action input {
   margin: 0px 12px;
 }
-.Do {
-  position: fixed;
-  right: 32px;
-  bottom: 16px;
-  width: 56px;
-}
-.Do input[type=image] {
-  width: 56px;
-  height: 56px;
-  margin-top: 16px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: #3778d7;
-  border-radius: 28px;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.14), 0px 4px 8px rgba(0, 0, 0, 0.28);
-  background-size: 24px 24px;
-}
-.Do input[type=image]:hover {
-  background-color: #005bb7;
-}
-.Do input[type=image].Add {
-  background-image: url(/Images/Do/Add.png);
-}
-.Do input[type=image].Edit {
-  background-image: url(/Images/Do/Edit.png);
-}
-.Do input[type=image].Remove {
-  background-color: #c40000;
-  background-image: url(/Images/Do/Remove.png);
-}
-.Do input[type=image].Remove:hover {
-  background-color: #800000;
-}
-.Do input[type=image].Save {
-  background-color: #87b02b;
-  background-image: url(/Images/Do/Save.png);
-}
-.Do input[type=image].Save:hover {
-  background-color: #6f9023;
-}
 input[type=image],
 img {
   vertical-align: middle;
@@ -218,20 +178,13 @@ input[type=search],
   text-decoration: none;
   border: none;
   border-bottom: 1px solid #c8c8c8;
-  width: 140px;
+  width: 160px;
   height: 24px;
 }
 input[type=text].Full,
 input[type=password].Full,
 input[type=search].Full,
 .TextBox.Full {
-  width: 100%;
-}
-input[type=text].Large,
-input[type=password].Large,
-input[type=search].Large,
-.TextBox.Large {
-  max-width: 280px;
   width: 100%;
 }
 input[type=text].ReadOnly,
@@ -469,7 +422,7 @@ li {
 .Topbar.Float {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.14), 0px 4px 8px rgba(0, 0, 0, 0.28);
 }
-.Topbar .Ham {
+.Topbar .Nav {
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -477,22 +430,107 @@ li {
   background-size: 30px;
   background-position: center center;
   border-radius: 20px;
-  background-image: url(/Images/Topbar/Ham.png);
   float: left;
   margin: 6px 4px 6px 12px;
 }
-.Topbar .Ham:hover {
+.Topbar .Nav:hover {
   background-color: #c8c8c8;
 }
+.Topbar .Nav.Ham {
+  background-image: url(/Images/Topbar/Ham.png);
+}
+.Topbar .Nav.Back {
+  background-image: url(/Images/Topbar/Back.White.png);
+}
+.Topbar .Act {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center center;
+  border-radius: 20px;
+  float: right;
+  margin: 6px 12px 6px 4px;
+}
+.Topbar .Act:hover {
+  background-color: #c8c8c8;
+}
+.Topbar .Act.Add {
+  background-image: url(/Images/Topbar/Add.png);
+}
+.Topbar .Act.Remove {
+  background-image: url(/Images/Topbar/Remove.Red.png);
+}
+.Topbar .Act.Edit {
+  background-image: url(/Images/Topbar/Edit.png);
+}
+.Topbar .Act.Copy {
+  background-image: url(/Images/Topbar/Copy.png);
+}
+.Topbar .Mod {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center center;
+  border-radius: 20px;
+  float: right;
+  margin: 6px 12px 6px 4px;
+  display: none;
+}
+.Topbar .Mod:hover {
+  background-color: #c8c8c8;
+}
+.Topbar .Mod.Save {
+  background-image: url(/Images/Topbar/Save.png);
+}
+.Topbar .Mod.Undo {
+  background-image: url(/Images/Topbar/Undo.png);
+}
 .Topbar .Title {
-  margin-left: 12px;
+  margin-left: 80px;
   line-height: 52px;
   font-family: "微軟正黑體", "Segoe UI", Arial;
   font-size: 24px;
   color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.Topbar .Ham ~ .Title {
-  margin-left: 80px;
+.Topbar .Title .Name {
+  font-family: "微軟正黑體", "Segoe UI", Arial;
+  font-size: 24px;
+  color: #ffffff;
+}
+.Topbar .Title .Name:before {
+  content: "：";
+}
+.Topbar.Update {
+  background-color: #3778d7;
+}
+.Topbar.Update .Nav,
+.Topbar.Update .Act {
+  display: none;
+}
+.Topbar.Update .Mod {
+  display: block;
+}
+.Topbar.Update .Title {
+  margin-left: 12px;
+}
+.Topbar.New {
+  background-color: #3778d7;
+}
+.Topbar.New .Act {
+  display: none;
+}
+.Topbar.New .Back,
+.Topbar.New .Save {
+  display: block;
+}
+.Topbar.New .Title {
+  margin-left: 12px;
 }
 .Menu {
   width: 300px;
@@ -575,21 +613,14 @@ li {
   font-family: "微軟正黑體", "Segoe UI", Arial;
   font-size: 24px;
   line-height: 52px;
-  margin: 6px 4px 6px 12px;
   position: fixed;
   bottom: 0px;
   left: 224px;
   cursor: pointer;
 }
-@media (max-width: 960px) {
-  .Topbar .Auth {
-    display: none;
-  }
-}
 @media (max-width: 592px) {
-  .Topbar .Title {
-    text-align: center;
-    margin-left: 0px;
+  .Topbar .Title .Name {
+    display: none;
   }
 }
 .Dialog {
@@ -706,13 +737,20 @@ li {
 }
 .List .Items .Item span {
   display: inline-block;
-  margin-right: 12px;
-  float: left;
-}
-.List .Items .Item span.Right {
-  float: right;
   margin-left: 12px;
   margin-right: 0px;
+  width: 100px;
+}
+.List .Items .Item span.Icon {
+  float: left;
+}
+.List .Items .Item span.Main {
+  width: 280px;
+}
+.List .Items .Item span.Act,
+.List .Items .Item span.Pad {
+  float: right;
+  margin-right: 12px;
 }
 .List .Items .Item input[type=image] {
   float: right;
@@ -740,6 +778,14 @@ li {
   margin: 18px 0px 48px 0px;
   text-align: center;
 }
+@media (max-width: 592px) {
+  .List .Items .Item span {
+    display: none;
+  }
+  .List .Items .Item span:first-of-type {
+    display: inline-block;
+  }
+}
 .Form {
   border: 1px solid #c8c8c8;
   background-color: #ffffff;
@@ -761,16 +807,37 @@ li {
   font-weight: bold;
 }
 .Form .Block > .Item {
-  min-width: 280px;
+  width: 300px;
+  height: 48px;
   float: left;
   white-space: nowrap;
+}
+.Form .Block > .Item.Large {
+  width: 600px;
+}
+.Form .Block > .Item.Full {
+  width: 100%;
 }
 .Form .Block > .Item label {
   display: inline-block;
   padding: 0px 14px 0px 4px;
-  width: 48px;
+  width: 100px;
   text-align: right;
   font-weight: bold;
+}
+.Form .Block input {
+  pointer-events: none;
+}
+.Form.Update .Block input {
+  pointer-events: auto;
+}
+@media (max-width: 960px) {
+  .Form .Block > .Item {
+    width: 100%;
+  }
+  .Form .Block > .Item input {
+    width: 100%;
+  }
 }
 @media (max-width: 592px) {
   .Form .Block > .Item label {
