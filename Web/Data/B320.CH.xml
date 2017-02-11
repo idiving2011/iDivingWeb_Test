@@ -32,7 +32,7 @@
             </td>
             <td style="vertical-align:middle;text-align: center">
               AUDAXPRO<br>
-              店內價:21500
+              店內價:23,800
             </td>
             <td width="50%" style="vertical-align:middle;">
               <ul>
@@ -55,7 +55,7 @@
             </td>
             <td style="vertical-align:middle;text-align: center">
               BCJ-1800<br>
-              店內價:13800
+              店內價:13,800
             </td>
             <td style="vertical-align:middle;">
               <ul>
@@ -70,13 +70,13 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <!--<tr>
             <td style="text-align: center">
               <img src="../Image/Data/BCD_equator.jpg" width="65%" />
             </td>
             <td style="vertical-align:middle;text-align: center">
               EQUATOR<br>
-              店內價:19800
+              店內價:19,800
             </td>
             <td style="vertical-align:middle">
               <ul>
@@ -87,7 +87,7 @@
                 <li>洩氣速度快</li>
               </ul>
             </td>
-          </tr>
+          </tr>-->
         </table>
           ]]>
     </Block>
@@ -106,7 +106,7 @@
             </td>
             <td style="vertical-align:middle;text-align: center">
               ATOMIC B2<br>
-              店內價:24300
+              店內價:24,300
             </td>
             <td width="50%" style="vertical-align:middle">
               <ul>
@@ -125,7 +125,7 @@
             </td>
             <td style="vertical-align:middle;text-align: center">
               AQUALUNG LEGEND<br>
-              店內價:20500
+              店內價:20,500
             </td>
             <td style="vertical-align:middle">
               <ul>
@@ -142,7 +142,7 @@
             </td>
             <td style="vertical-align:middle;text-align: center">
               AQUALUNG MIKRON<br>
-              店內價:16200
+              店內價:16,200
             </td>
             <td style="vertical-align:middle">
               <ul>
@@ -163,7 +163,7 @@
             <td width="20%"><img src="../Image/Data/SS1.jpeg" width="100%" /></td>
             <td style="vertical-align:middle;text-align: center">
               ATOMIC SS1<br>
-              店內價:8550
+              店內價:8,550
             </td>
             <td width="50%" style="vertical-align:middle">
               <ul>
@@ -185,7 +185,7 @@
             <td style="vertical-align:middle;text-align: center">
               TUSA SCA-270二用錶<br>
               (指北針、壓力錶)<br>
-              店內價:5400
+              店內價:5,400
             </td>
             <td width="50%" style="vertical-align:middle">
               <ul>
@@ -210,12 +210,12 @@
             <td width="20%"><img src="../Image/Data/Suunto-D4i.jpg" width="100%" /></td>
             <td style="vertical-align:middle;text-align: center">
               Suunto D4i Novo<br>
-              店內價:20500<br>
+              店內價:20,500<br>
               (不含稅，需外加)<br>
               <br>
               Suunto D4i Novo<br>
               新款色/海洋綠/櫻花紅/太陽黃<br>
-              店內價:20800<br>
+              店內價:20,800<br>
               (不含稅，需外加)
             </td>
             <td width="50%" style="vertical-align:middle">
@@ -260,7 +260,7 @@
                 <li>1.2m浮力棒</li>
               </ol>  
               <br><br>
-              來店現金價:41500
+              來店現金價:41,500
             </td>
           </tr>
         </table>
@@ -296,7 +296,7 @@
                 <li>1.2m浮力棒</li>
               </ol>  
               <br><br>
-              來店現金價:45500
+              來店現金價:45,500
             </td>
           </tr>
         </table>
@@ -328,7 +328,7 @@
                 <li>Scubapro Equator BC</li>
               </ol>  
               <br><br>
-              來店現金價:45700
+              來店現金價:45,700
             </td>
           </tr>
         </table>
@@ -358,7 +358,7 @@
                 <li>Scubapro Equator BC</li>
               </ol>  
               <br><br>
-              來店現金價:49300
+              來店現金價:49,300
             </td>
           </tr>
         </table>
