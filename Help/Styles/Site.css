@@ -181,6 +181,12 @@ input[type=search],
   width: 160px;
   height: 24px;
 }
+input[type=text].Large,
+input[type=password].Large,
+input[type=search].Large,
+.TextBox.Large {
+  width: 240px;
+}
 input[type=text].Full,
 input[type=password].Full,
 input[type=search].Full,
@@ -222,6 +228,8 @@ label,
   font-size: 14px;
   color: #565656;
   text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
 }
 span.Focus,
 label.Focus,
@@ -388,12 +396,6 @@ li {
   .TextBox {
     width: 200px;
   }
-  input[type=text].Large,
-  input[type=password].Large,
-  input[type=search].Large,
-  .TextBox.Large {
-    width: 200px;
-  }
   .Holo {
     padding-bottom: 72px;
   }
@@ -468,25 +470,10 @@ li {
 .Topbar .Act.Copy {
   background-image: url(/Images/Topbar/Copy.png);
 }
-.Topbar .Mod {
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  background-size: 30px;
-  background-position: center center;
-  border-radius: 20px;
-  float: right;
-  margin: 6px 12px 6px 4px;
-  display: none;
-}
-.Topbar .Mod:hover {
-  background-color: #c8c8c8;
-}
-.Topbar .Mod.Save {
+.Topbar .Act.Save {
   background-image: url(/Images/Topbar/Save.png);
 }
-.Topbar .Mod.Undo {
+.Topbar .Act.Undo {
   background-image: url(/Images/Topbar/Undo.png);
 }
 .Topbar .Title {
@@ -506,30 +493,10 @@ li {
 .Topbar .Title .Name:before {
   content: "：";
 }
-.Topbar.Update {
+.Topbar.Edit {
   background-color: #3778d7;
 }
-.Topbar.Update .Nav,
-.Topbar.Update .Act {
-  display: none;
-}
-.Topbar.Update .Mod {
-  display: block;
-}
-.Topbar.Update .Title {
-  margin-left: 12px;
-}
-.Topbar.New {
-  background-color: #3778d7;
-}
-.Topbar.New .Act {
-  display: none;
-}
-.Topbar.New .Back,
-.Topbar.New .Save {
-  display: block;
-}
-.Topbar.New .Title {
+.Topbar.Edit .Title {
   margin-left: 12px;
 }
 .Menu {
@@ -824,12 +791,6 @@ li {
   width: 100px;
   text-align: right;
   font-weight: bold;
-}
-.Form .Block input {
-  pointer-events: none;
-}
-.Form.Update .Block input {
-  pointer-events: auto;
 }
 @media (max-width: 960px) {
   .Form .Block > .Item {

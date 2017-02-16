@@ -167,6 +167,10 @@ input[type = text], input[type=password], input[type=search], .TextBox {
     width: 160px;
     height: 24px;
 
+    &.Large {
+        width: 240px;
+    }
+
     &.Full {
         width: @Full;
     }
@@ -191,6 +195,9 @@ textarea, .MultiLineTextBox {
 
 span, label, .Label {
     .TextStyle();
+
+    display: inline-block;
+    vertical-align: top;
 
     &.Focus {
         color: @Focus;
@@ -311,10 +318,6 @@ li {
 @media @Phone {
     input[type = text], input[type=password], input[type=search], .TextBox {
         width: 200px;
-
-        &.Large {
-            width: 200px;
-        }
     }
 
     .Holo {

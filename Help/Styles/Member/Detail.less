@@ -1,0 +1,39 @@
+﻿@import "../Shared/_Definition.less";
+
+.Form .Block>.Item.Face {
+    width: 160px;
+    height: 200px;
+    background-position: 50% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin: 0 70px;
+    border: 1px solid @Vertical;
+}
+
+span {
+    &.Zip {
+        width: 40px;
+        text-align: center;
+    }
+
+    &.City, &.Area {
+        width: 80px;
+        text-align: center;
+    }
+
+    &.Addr {
+        width: 250px;
+    }
+}
+
+// ==== RWD ====
+@media @Tablet {
+    .Form .Block>.Item.Face {
+        float: none;
+        margin: @Zero auto 24px auto;
+    }
+}
+
+@media @Phone {
+}

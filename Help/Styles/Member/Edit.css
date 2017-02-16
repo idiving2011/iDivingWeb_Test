@@ -1,0 +1,29 @@
+﻿.Form .Block > .Item.Face {
+  width: 160px;
+  height: 200px;
+  background-position: 50% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+  margin: 0 70px;
+  border: 1px solid #c8c8c8;
+}
+input.Zip {
+  width: 40px;
+  text-align: center;
+}
+input.City,
+input.Area {
+  width: 80px;
+  text-align: center;
+}
+input.Addr {
+  width: 250px;
+}
+@media (max-width: 960px) {
+  .Form .Block > .Item.Face {
+    float: none;
+    margin: 0px auto 24px auto;
+  }
+}
+/*# sourceMappingURL=Edit.css.map */

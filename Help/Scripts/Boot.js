@@ -66,15 +66,19 @@ function Topbar() {
     });
 
     $(".Topbar .Add").click(function () {
-        location.href = location.pathname.replace("List", "Detail");
+        location.href = location.pathname.replace("List", "Edit");
     });
 
     $(".Topbar .Edit").click(function () {
-        $(".Topbar, .Form").addClass("Update");
+        location.href = location.href.replace("Detail", "Edit");
     });
 
     $(".Topbar .Undo").click(function () {
-        location.reload();
+        if ("" == location.search) {
+            location.href = location.pathname.replace("Edit", "List");
+        } else {
+            location.href = location.href.replace("Edit", "Detail");
+        }
     });
 
     $(".Topbar .Remove").click(function () {
