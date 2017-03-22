@@ -60,14 +60,7 @@
         &.Copy {
             background-image: url(/Images/Topbar/Copy.png);
         }
-    }
-
-    .Mod {
-        .TopbarButton();
-        float: right;
-        margin: 6px 12px 6px 4px;
-        display: none;
-
+        
         &.Save {
             background-image: url(/Images/Topbar/Save.png);
         }
@@ -95,33 +88,8 @@
         }
     }
 
-    &.Update {
+    &.Edit {
         background-color: @Blue;
-
-        .Nav, .Act {
-            display: none;
-        }
-
-        .Mod {
-            display: block;
-        }
-
-        .Title {
-            margin-left: 12px;
-        }
-    }
-
-    &.New {
-        background-color: @Blue;
-
-        .Act {
-            display: none;
-        }
-
-        .Back, .Save {
-            display: block;
-        }
-
         .Title {
             margin-left: 12px;
         }

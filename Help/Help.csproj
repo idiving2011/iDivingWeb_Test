@@ -64,6 +64,7 @@
     <Content Include="Course\List.html" />
     <Content Include="Equipment\Detail.html" />
     <Content Include="Equipment\List.html" />
+    <Content Include="Event\Edit.html" />
     <Content Include="Event\Detail.html" />
     <Content Include="Event\List.html" />
     <Content Include="favicon.ico" />
@@ -91,6 +92,7 @@
     <Content Include="Images\Dialog\Login.png" />
     <Content Include="Images\Topbar\Back.Black.png" />
     <Content Include="Images\Topbar\Back.White.png" />
+    <Content Include="Images\Topbar\Copy.png" />
     <Content Include="Images\Topbar\Edit.png" />
     <Content Include="Images\Topbar\Ham.png" />
     <Content Include="Images\Left.png" />
@@ -101,6 +103,7 @@
     <Content Include="Images\Topbar\Save.png" />
     <Content Include="Images\Topbar\Undo.png" />
     <Content Include="Login.html" />
+    <Content Include="Member\Edit.html" />
     <Content Include="Member\Detail.html" />
     <Content Include="Member\List.html" />
     <Content Include="Oops.html" />
@@ -127,6 +130,18 @@
     </Content>
     <Content Include="Styles\Login.min.css">
       <DependentUpon>Login.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\Member\Edit.css">
+      <DependentUpon>Edit.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\Member\Edit.min.css">
+      <DependentUpon>Edit.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\Member\Detail.css">
+      <DependentUpon>Detail.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\Member\Detail.min.css">
+      <DependentUpon>Detail.css</DependentUpon>
     </Content>
     <Content Include="Styles\Oops.css">
       <DependentUpon>Oops.less</DependentUpon>
@@ -192,6 +207,22 @@
   <ItemGroup>
     <Content Include="Styles\Login.css.map">
       <DependentUpon>Login.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\Member\Detail.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\Member\Detail.css.map">
+      <DependentUpon>Detail.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\Member\Edit.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\Member\Edit.css.map">
+      <DependentUpon>Edit.css</DependentUpon>
     </Content>
   </ItemGroup>
   <PropertyGroup>

@@ -5,16 +5,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico" />
-    <meta name="resource" content="Member/Detail.less" />
+    <meta name="resource" content="Member/Edit.less" />
     <link type="text/css" rel="stylesheet" href="/Styles/Site.min.css" />
 </head>
 <body>
-    <!-- Topbar.Detail -->
-    <div class="Topbar">
-        <div class="Nav Back"></div>
-        <div class="Act Copy"></div>
-        <div class="Act Edit"></div>
-        <div class="Act Remove"></div>
+    <!-- Topbar.Edit -->
+    <div class="Topbar Edit">
+        <div class="Act Save"></div>
+        <div class="Act Undo"></div>
         <div class="Title">成員<span class="Name">謝伊暉</span></div>
     </div>
     <!-------------->
@@ -29,35 +27,35 @@
                     <div class="Item Face" data-img="http://www.idiving.com.tw/Image/Coach/114.jpg"></div>
                     <div class="Item">
                         <label>身分證字號</label>
-                        <span class="TextBox">X120376157</span>
+                        <input type="text" value="X120376157" />
                     </div>
                     <div class="Item">
                         <label>姓名</label>
-                        <span class="TextBox">謝伊暉</span>
+                        <input type="text" value="謝伊暉" />
                     </div>
                     <div class="Item">
                         <label>暱稱</label>
-                        <span class="TextBox">章魚</span>
+                        <input type="text" value="章魚" />
                     </div>
                     <div class="Item">
                         <label>英文姓名</label>
-                        <span class="TextBox">HSIEH, YI-HUI</span>
+                        <input type="text" value="HSIEH, YI-HUI" />
                     </div>
                     <div class="Item">
                         <label>出生日期</label>
-                        <span class="TextBox">1980/08/31</span>
+                        <input type="text" value="1980/08/31" />
                     </div>
                     <div class="Item">
                         <label>國籍</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                     <div class="Item">
                         <label>公司</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                     <div class="Item">
                         <label>職稱</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                 </div>
 
@@ -65,34 +63,34 @@
                     <div class="Title">聯絡資料</div>
                     <div class="Item">
                         <label>住家電話</label>
-                        <span class="TextBox">02-29354282</span>
+                        <input type="text" value="02-29354282" />
                     </div>
                     <div class="Item">
                         <label>行動電話</label>
-                        <span class="TextBox">0910-086903</span>
+                        <input type="text" value="0910-086903" />
                     </div>
                     <div class="Item">
                         <label>電子郵件</label>
-                        <span class="TextBox">hsiehieon@gmail.com</span>
+                        <input type="text" value="hsiehieon@gmail.com" />
                     </div>
                     <div class="Item Large">
                         <label>聯絡地址</label>
-                        <span class="TextBox Zip">116</span>
-                        <span class="TextBox City" >台北市</span>
-                        <span class="TextBox Area">文山區</span>
-                        <span class="TextBox Addr">羅斯福路六段142巷84號5樓</span>
+                        <input type="text" class="Zip" value="116" />
+                        <input type="text" class="City" value="台北市" />
+                        <input type="text" class="Area" value="文山區">
+                        <input type="text" class="Addr" value="羅斯福路六段142巷84號5樓" />
                     </div>
                     <div class="Item">
                         <label>公司電話</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                     <div class="Item">
                         <label>緊急聯絡人</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                     <div class="Item">
                         <label>緊急聯絡人電話</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                 </div>
 
@@ -100,11 +98,11 @@
                     <div class="Title">其它</div>
                     <div class="Item">
                         <label>來源</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                     <div class="Item">
                         <label>需求/備註</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                 </div>
 
@@ -112,71 +110,83 @@
                     <div class="Title">身體資訊與裝備尺寸</div>
                     <div class="Item">
                         <label>左眼度數</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                     <div class="Item">
                         <label>右眼度數</label>
-                        <span class="TextBox"></span>
+                        <input type="text" value="" />
                     </div>
                     <div class="Item">
                         <label>身高</label>
-                        <span class="TextBox">176</span>
+                        <input type="text" value="176" />
                     </div>
                     <div class="Item">
                         <label>體重</label>
-                        <span class="TextBox">65</span>
+                        <input type="text" value="65" />
                     </div>
                     <div class="Item">
                         <label>血型</label>
-                        <span class="TextBox">B</span>
+                        <input type="text" value="B" />
                     </div>
                     <div class="Item">
                         <label>配重</label>
-                        <span class="TextBox">4</span>
+                        <input type="text" value="4" />
                     </div>
                     <div class="Item">
                         <label>面鏡</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                     <div class="Item">
                         <label>呼吸管</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                     <div class="Item">
                         <label>防寒衣</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                     <div class="Item">
                         <label>手套</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                     <div class="Item">
                         <label>套鞋</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                     <div class="Item">
                         <label>蛙鞋</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                     <div class="Item">
                         <label>BC</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                     <div class="Item">
                         <label>調節器</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                     <div class="Item">
                         <label>電腦錶</label>
-                        <span class="TextBox">✓</span>
+                        <input type="text" value="✓" />
                     </div>
                 </div>
 
                 <div class="Block List">
                     <div class="Title">課程紀錄</div>
                     <div class="Items">
-                        <div class="Item" data-view="/Course/Detail.html" data-id="OWD20TH">
-                            <span>開放水域潛水員 OWD 第 20 期</span>
+                        <div class="Item" data-view="/Event/Detail.html" data-id="ECC111">
+                            <span>教室課111</span>
+                        </div>
+                        <div class="Item">
+                            <span>泳池實習1111</span>
+                        </div>
+                        <div class="Item">
+                            <span>海洋實習1222</span>
+                        </div>
+                        <div class="Item">
+                            <span>海洋實習1223</span>
+                            <!--<input type="image" src="../Images/Mask.png" />-->
+                            <span class="Right">2016/12/01</span>
+                            <span class="Right">阿甘</span>
                         </div>
                     </div>
                 </div>
@@ -207,6 +217,15 @@
     <script src="/Scripts/Site.min.js"></script>
     <script>
         function extension() {
+            // ==== DEMO ====
+            if ("" == location.search) {
+                $(".Topbar .Title").text("新增活動");
+                $("input").val("");
+                $(".Items").empty();
+                $(".Face").attr("data-img") = "";
+            }
+            // =============
+
             var img = $(".Face").attr("data-img");
             $(".Face").css("background-image", "url(" + img + ")");
         }
