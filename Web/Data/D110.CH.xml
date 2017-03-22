@@ -2,12 +2,12 @@
 <Data>
     <Block id="title" method="title" text="東北角"/>
     <Block id="nav" method="nav">
-        <Item name="景點介紹" href="."></Item>
-        <Item name="行程表" href="D111.php"></Item>
-        <Item name="費用說明" href="D112.php"></Item>
-        <Item name="注意事項" href="D113.php"></Item>
+      <Item name="景點介紹" href="#intro"></Item>
+      <Item name="行程表" href="#schedule"></Item>
+      <Item name="費用說明" href="#price"></Item>
+      <Item name="注意事項" href="#notice"></Item>
     </Block>
-    <Block id="intro" method="html">
+    <Block id="intro" caption="景點介紹" method="html" back="#top">
       <![CDATA[ 
             <img src="../Image/Data/NECoastrIntro.jpg" style="float: right; width: 300px"></div>
             <div>東北角海域範圍北起瑞芳，南迄頭城，有許多北部潛水人所熟悉的潛點，</div>
@@ -22,5 +22,203 @@
             <br/>
             <div>因此許多潛水人就安排了南下或出國潛水的行程。
         ]]>
+    </Block>
+    <Block id="schedule" caption="行程表" method="html" back="#top">
+      <![CDATA[ 
+            <table width="100%">
+              <tr>
+                <td>
+                  <ul>
+                    <li>一般：平日或週末，上午9點在東北角集合，進行兩次的潛水活動</li>
+                    <li>晨潛：周日早上7點在東北角集合，進行兩次的潛水活動，約中午結束</li>
+                    <li>夜潛：周六下午1點在東北角集合，下午進行兩次潛水活動，晚上再進行一次夜潛</li>
+                    <li>船潛：早上8點在東北角集合，搭船進行兩次潛水活動，約中午結束</li>
+                  </ul>
+                </td>
+                <td><img src="../Image/Data/NECoastrSchedule01.jpg" style="float: right; width: 300px"></td>
+              </tr>
+              <tr>
+                <td><img src="../Image/Data/NECoast_Schedul.png" width="100%"></td>
+                <td><img src="../Image/Data/NECoastrSchedule02.jpg" style="float: right; width: 300px"></td>
+              </tr>
+            </table>
+          ]]>
+    </Block>
+    <Block id="price" caption="費用說明" method="html" back="#top">
+      <![CDATA[ 
+              <ul>
+                <li>岸潛：潛導費、氣瓶費、活動保險費用、裝備租借費用</li>
+                <li>船潛：團費（含潛導費、氣瓶費、活動保險費用）</li>
+                <li>以上均不含來回車資及餐食費用</li>
+              </ul>
+              <br/>
+              <table width="50%" border="1" cellpadding="0" cellspacing="0">
+                <tr align="center">
+                  <td colspan="3">價 目 表</td>
+                </tr>
+                <tr align="center">
+                  <td width="40%"><strong>項 目</strong></td>
+                  <td width="30%"><strong>會 員</strong></td>
+                  <td width="30%"><strong>非 會 員</strong></td>
+                </tr>
+                <tr align="center">
+                  <td>面 鏡</td>
+                  <td>50 元／天</td>
+                  <td>100 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>呼 吸 管</td>
+                  <td>50 元／天</td>
+                  <td>100 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>防 寒 衣</td>
+                  <td>100 元／天</td>
+                  <td>150 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>手 套</td>
+                  <td>50 元／天</td>
+                  <td>50 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>套 鞋</td>
+                  <td>50 元／天</td>
+                  <td>50 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>蛙 鞋</td>
+                  <td>100 元／天</td>
+                  <td>150 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td><strong>輕 裝 組 優 惠</strong></td>
+                  <td><strong>300 元／組／天</strong></td>
+                  <td><strong>500 元／組／天</strong></td>
+                </tr>
+                <tr align="center">
+                  <td>調 節 器</td>
+                  <td>300 元／天</td>
+                  <td>400 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>浮力調整裝置（BCD）</td>
+                  <td>300 元／天</td>
+                  <td>400 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>電 腦 錶</td>
+                  <td>300 元／天</td>
+                  <td>400 元／天</td>
+                </tr>
+                <tr align="center">
+                  <td>配 重</td>
+                  <td>50 元／組</td>
+                  <td>100 元／組</td>
+                </tr>
+                <tr align="center">
+                  <td><strong>重裝組 租借優惠</strong></td>
+                  <td><strong>700 元／組／天</strong></td>
+                  <td><strong>1000 元／組／天</strong></td>
+                </tr>
+                <tr align="center">
+                  <td>氣 瓶 費</td>
+                  <td>150 元／支</td>
+                  <td>200 元／支</td>
+                </tr>
+                <tr align="center" >
+                  <td rowspan="3" style="vertical-align: middle">導 潛 費</td>
+                  <td>
+                    沒有導潛專長<br>
+                    200 元／支
+                  </td>
+                  <td rowspan="3" style="vertical-align: middle">300 元／支</td>
+                </tr>
+                <tr align="center">
+                  <td>
+                    具備導潛專長<br>
+                    100 元／支
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td>
+                    MD 及領導級資格者<br>
+                    0 元／支
+                  </td>
+                </tr>
+                <tr align="center">
+                  <td>保 險 費</td>
+                  <td colspan="2">150 元／人／天</td>
+                </tr>
+                <tr align="center">
+                  <td style="vertical-align: middle">交通費（iDiving ↔ 東北角）</td>
+                  <td colspan="2">
+                    來回 300 元／人<br>
+                    單程 200 元／人
+                  </td>
+                </tr>
+              </table>
+              <div><span class="Large Important">註：iDiving 保有更改之權力，不另行通知，以網站上最新公告為準。</span></div>
+          ]]>
+    </Block>
+    <Block id="notice" caption="注意事項" method="html" back="#top">
+      <![CDATA[ 
+            <table width="70%" style="text-align: justify;">
+                <tr>
+                  <td>
+                    <ol>
+                      <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                      <li>岸潛活動可依實際潛水次數計算費用，但船潛為套裝行程，若第二次潛水活動不下水，恕無法另外退費。</li>
+                      <li>潛水活動安排以上列行程表為原則。潛點選擇由領隊視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                      <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
+                      <li>來回交通可協助安排，但請在報名時一併告知，以便處理。</li>
+                    </ol>
+                    <br/>
+                    <img src="../Image/Data/NECoastrNote01.jpg" width="360">
+                    <img src="../Image/Data/NECoastrNote02.jpg" width="300">
+                  </td>
+                </tr>
+              </table>
+          ]]>
+    </Block>
+    <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+      <![CDATA[
+          <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+          <br/>
+          <table border="1" cellpadding="0" cellspacing="0" width="70%">
+            <tr align="center">
+              <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+              <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+              <td>承辦人：張智堯</td>
+              <td>行動電話：0928-125300</td>
+            </tr>
+            <tr align="center">
+              <td>TEL:02-2882-7696</td>
+              <td>FAX:02-2882-7656</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">E-MAILl: info@idiving.com.tw</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">地址：台北市前港街8號</td>
+            </tr>
+            <tr align="center">
+              <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+              <td rowspan="4" style="vertical-align: middle">靖偉旅行社有限公司</td>
+              <td>業務請洽：蘇恒璀</td>
+              <td>行動電話：0937-196518</td>
+            </tr>
+            <tr align="center">
+              <td>TEL: 02-2517-1333</td>
+              <td>FAX: 02-2518-2537</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">地址：台北市松江路95-1號7樓705室</td>
+            </tr>
+          </table>
+      ]]>
     </Block>
 </Data>
