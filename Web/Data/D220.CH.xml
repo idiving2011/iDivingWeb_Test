@@ -1,30 +1,117 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="明多洛"/>
-    <Block id="nav" method="nav">
-        <Item name="景點介紹" href="."></Item>
-        <Item name="行程表" href="D221.php"></Item>
-        <!--<Item name="費用說明" href="D222.php"></Item>-->
-        <Item name="注意事項" href="D223.php"></Item>
-    </Block>
-    <Block id="intro" method="html">
-      <![CDATA[ 
-            <img src="../Image/Data/MindoroIntro.jpg" style="float: right; width: 300px">
-            <div>明多洛(Mindoro)是菲律賓的第七大島，位於呂宋島的西南方，</div>
+  <Block id="title" method="title" text="明多洛"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="#intro"></Item>
+    <Item name="行程表" href="#schedule"></Item>
+    <!--<Item name="費用說明" href="#price"></Item>-->
+    <Item name="注意事項" href="#notice"></Item>
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
+    <![CDATA[ 
+          <img src="../Image/Data/MindoroIntro.jpg" style="float: right; width: 300px">
+          <div>明多洛(Mindoro)是菲律賓的第七大島，位於呂宋島的西南方，</div>
+          <br/>
+          <div>島上大部分的地區還相當原始，開發度較高的區域是在北邊的Puerto Galera一帶，</div>
+          <br/>
+          <div>有許多的潛水店及渡假中心，水上活動頻繁，常可看到浮潛或潛水的人員；</div>
+          <br/>
+          <div>沿著海岸邊有多家餐廳、Pub、啤酒屋等，大街上還有指油壓按摩，</div>
+          <br/>
+          <div>多樣化的選擇，相信習慣夜生活的朋友們，將不必擔心夜晚將無處可去。</div>
+          <br/>
+          <div>明多洛的潛水季很長，除了每年7~8月的雨季外，都很適合進行潛水活動；</div>
+          <br/>
+          <div>此區的潛點數高達三十多個以上，難易度不一；</div>
+          <br/>
+          <div>此區的海洋生物非常多樣化，有色彩繽紛的熱帶魚群、不同種類的海馬、五顏六色的海蛞蝓等。</div>
+      ]]>
+  </Block>
+  <Block id="schedule" caption="行程表" method="html" back="#top">
+    <![CDATA[ 
+            <span class="Large Focus">四天五夜的活動行程，共船潛7次</span>
+            <ul>
+              <li>Day 0　晚上在桃園機場集合。</li>
+              <li>Day 1　搭凌晨的飛機出發，轉車及船前往度假村，預計中午前抵達，下午開始潛水活動。</li>
+              <li>Day 2　白天共進行三次潛水活動（船潛），晚上為自由活動時間。</li>
+              <li>Day 3　白天共進行三次潛水活動（船潛），晚上為自由活動時間。</li>
+              <li>Day 4　早餐後收拾行李，搭船及車前往馬尼拉，搭乘晚班飛機，預計凌晨12點抵達台灣。</li>
+            </ul>
             <br/>
-            <div>島上大部分的地區還相當原始，開發度較高的區域是在北邊的Puerto Galera一帶，</div>
-            <br/>
-            <div>有許多的潛水店及渡假中心，水上活動頻繁，常可看到浮潛或潛水的人員；</div>
-            <br/>
-            <div>沿著海岸邊有多家餐廳、Pub、啤酒屋等，大街上還有指油壓按摩，</div>
-            <br/>
-            <div>多樣化的選擇，相信習慣夜生活的朋友們，將不必擔心夜晚將無處可去。</div>
-            <br/>
-            <div>明多洛的潛水季很長，除了每年7~8月的雨季外，都很適合進行潛水活動；</div>
-            <br/>
-            <div>此區的潛點數高達三十多個以上，難易度不一；</div>
-            <br/>
-            <div>此區的海洋生物非常多樣化，有色彩繽紛的熱帶魚群、不同種類的海馬、五顏六色的海蛞蝓等。</div>
+            <img src="../Image/Data/MindoroSchedule01.jpg" width="360">
+            <img src="../Image/Data/MindoroSchedule02.jpg" width="360" align="top">
         ]]>
-    </Block>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+            <div><span class="Large Important">團費：NT 22,000元</span></div>
+            <div><span class="Large Important">&#12288;&#12288;&#12288;PS：每次的團費可能因當地價格而有所調整</span></div>
+            <br/>
+            <div>包含：馬尼拉機場往返度假村的接駁、度假村的住宿及餐食、</div>
+            <div>&#12288;&#12288;&#12288;行程安排的7次船潛費用、菲律賓簽證費、兩佰萬旅遊平安險。</div>
+            <br/>
+            <div>不含：出發地來回桃園機場的交通、桃園往返馬尼拉的來回機票及稅金、</div>
+            <div>&#12288;&#12288;&#12288;潛水裝備租借、小費、行程外的潛水及食宿費用。</div>
+        ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+            <table width="70%" style="text-align: justify;">
+              <tr>
+                <td>
+                  <ol>
+                    <li>本活動為套裝行程，想參加但無法全程參與活動者，請先和我們聯絡以討論您的行程規劃。</li>
+                    <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                    <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                    <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                    <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
+                  </ol>
+                  <br/>
+                  <img src="../Image/Data/MindoroNote01.jpg" width="360" align="top">
+                  <img src="../Image/Data/MindoroNote02.jpg" width="360">
+                </td>
+              </tr>
+            </table>
+        ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+            <br/>
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：張智堯</td>
+                <td>行動電話：0928-125300</td>
+              </tr>
+              <tr align="center">
+                <td>TEL:02-2882-7696</td>
+                <td>FAX:02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl: info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">靖偉旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL: 02-2517-1333</td>
+                <td>FAX: 02-2518-2537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市松江路95-1號7樓705室</td>
+              </tr>
+            </table>
+        ]]>
+  </Block>
 </Data>
