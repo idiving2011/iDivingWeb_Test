@@ -1,100 +1,254 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <Block id="title" method="title" text="杜巴塔哈礁"/>
+  <Block id="title" method="title" text="圖巴塔哈群礁 Tubbataha Reef"/>
   <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
+    <Item name="著名潛點" href="#DiveSite"></Item>
     <Item name="行程表" href="#schedule"></Item>
-    <!--<Item name="費用說明" href="D282.php"></Item>-->
-    <Item name="注意事項" href="#fee"></Item>
+    <Item name="注意事項" href="#notice"></Item>
   </Block>
   <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-            <img src="../Image/Data/TubbatahaIntro.jpg" style="float: right; width: 300px">
-            <div>杜巴塔哈礁（Tubbataha）位於菲律賓南部的蘇祿海(Sulu sea)中央，</div>
+            <img src="../Image/Data/Philippines.png" style="float: right; width: 370px">
+            <div><strong>菲律賓</strong></div>
+            <table width="55%" style="text-align: justify;">
+              <tr>
+                <td>
+                  菲律賓是由7107個島嶼組成，總面積30萬平方公里，這些島共分北中南三大區域，分別為呂宋(Luzon)、比薩亞(Visayas)、民答那峨(Mindanao)，菲律賓的首都是馬尼拉。
+                </td>
+              </tr>
+            </table>
             <br/>
-            <div>於1993年被聯合國列為世界自然遺產，擁有世界上最美麗的珊瑚礁，宏偉的環礁生態，</div>
+            <div><strong>氣候</strong></div>
+            <table width="55%" style="text-align: justify;">
+              <tr>
+                <td>
+                  菲律賓是標準的熱帶氣候，氣候深受季風影響，3-5月為乾熱的季節、6-10月為多雨的季節、11-2月為涼爽的季節。1月最冷，5月最熱，平均溫度在攝氏25-32度，溼度77%。群島中氣候最溫和的地方是太平洋沿岸，包括呂宋島、薩摩島、雷伊泰島、民答那峨等。
+                </td>
+              </tr>
+            </table>
             <br/>
-            <div>更於2012年被CNN旅遊網評選為世界10大必去潛點。</div>
+            <div><strong>人文</strong></div>
+            <table width="55%" style="text-align: justify;">
+              <tr>
+                <td>
+                 官方語言為英語與菲律賓語；菲律賓有8種方言是被多數人使用，其中Tagalog使用的人數最多，因此定為國語。信仰部分：有83%人信仰天主教、8%信仰回教、其他的屬於不同的基督教教派及佛教。
+                </td>
+              </tr>
+            </table>
             <br/>
-            <div>因該海域為海洋保護區每年只開放三月底至六月入內潛水，保護區內禁止一切商業獵魚及魚船作業，</div>
+            <table width="55%">
+              <tr>
+                <td rowspan="2" width="73%"><img src="../Image/Data/Tubbataha_02.jpg" style="float: right; width: 100%"></td>
+                <td><img src="../Image/Data/Tubbataha_03.jpg" style="float: right; width: 100%"></td>
+              </tr>
+              <tr>
+                <td style="vertical-align: bottom;"><img src="../Image/Data/Tubbataha_04.jpg" style="float: right; width: 100%"></td>
+              </tr>
+            </table>
             <br/>
-            <div>因此海洋生態非常豐富，能見度達 35 米以上。</div>
-            <br/>
-            <div>因為地理位置偏遠，只能船宿。</div>
-            <br/>
-            <div>此次活動搭乘旅遊級潛水船--亞特蘭提斯號，各房皆獨立衛浴，以及橡皮小艇接送。</div>
-            <br/>
-            <div>這趟旅程有很大的機會見到的各種大型海洋生物包括斧頭鯊、鯨鯊、護士鯊、虎鯊、魔鬼魟、梭魚群、海龜、珊瑚礁群魚....等，</div>
-            <br/>
-            <div>各種願望一次滿足。</div>
+            <div><strong>地點：圖巴塔哈群礁 Tubbataha Reef</strong></div>
+            <table width="55%" style="text-align: justify;">
+              <tr>
+                <td>
+                  杜巴塔哈礁（Tubbataha）位於菲律賓南部的蘇祿海(Sulu sea)中央，於1993年被聯合國列為世界自然遺產，擁有世界上最美麗的珊瑚礁，宏偉的環礁生態，更於2012年被CNN旅遊網評選為世界10大必去潛點。因該海域為海洋保護區每年只開放三月底至六月入內潛水，保護區內禁止一切商業獵魚及魚船作業，因此海洋生態非常豐富，能見度達 35 米以上。這趟旅程有很大的機會見到的各種大型海洋生物包括斧頭鯊、鯨鯊、護士鯊、虎鯊、魔鬼魟、梭魚群、海龜、珊瑚礁群魚....等，各種願望一次滿足。
+                </td>
+              </tr>
+            </table>
+            <br>
+            <table width="80%">
+              <tr>
+                <td><img src="../Image/Data/Tubbataha_05.jpg" width="100%"></td>
+                <td><img src="../Image/Data/Tubbataha_06.jpg" width="100%"></td>
+                <td><img src="../Image/Data/Tubbataha_07.jpg" width="100%"></td>
+                <td><img src="../Image/Data/Tubbataha_08.jpg" width="100%"></td>
+              </tr>
+            </table>
+            <table width="55%" style="text-align: justify;">
+              <tr>
+                <td>
+                 因為地理位置偏遠，特別安排豪華船宿--亞特蘭提斯號，亞特蘭提斯號是蘇祿海知名的高級船，建造於1989，於去年(2015)重新整修完畢。共有8間雙人房，各房皆有獨立衛浴，每天潛水結束可享受一個熱水澡，洗淨一天的疲憊。船上提供全天無限暢飲的小吃和飲料吧。潛水部分，亞特蘭提斯設有兩艘充氣小艇接送送潛水，船上可提供高氧。
+                </td>
+              </tr>
+            </table>
+            <br>
+            <table width="80%">
+              <tr>
+                <td width="25%"><img src="../Image/Data/Tubbataha_09.jpg" width="100%"></td>
+                <td><img src="../Image/Data/Tubbataha_10.jpg" width="100%"></td>
+                <td><img src="../Image/Data/Tubbataha_11.jpg" width="100%"></td>
+                <td><img src="../Image/Data/Tubbataha_12.jpg" width="100%"></td>
+              </tr>
+            </table>
         ]]>
   </Block>
   <Block id="schedule" caption="行程表" method="html" back="#top">
     <![CDATA[ 
-            <img src="../Image/Data/TubbatahaSchedule01.jpg" style="float: right; width: 360px; margin: 0px 0px 20px 20px;">
-            <div>
-              5/14 傍晚 17:00 登船乘坐亞特蘭提斯號(Atlantis Azores)<br/>
-              5/15-5/20六天的行程將會順著南北環礁帶你深入瀏覽世界知名潛場<br/>
-              5/21 早晨 8:00 下船<br/>
-              停泊地點：巴拉望公主港<br/>
-              預計 6 天，共計 18 次潛水<br/>
-            </div>
-            <br/>
-            <!--<span class="Large Focus">五天六夜的活動行程，共船潛10次</span>-->
+            <table width="70%" style="text-align: justify;">
+              <tr>
+                <td>
+                  第一天07：20桃園國際機場集合<br>
+                  Eva Air／Cebu Pacific　BR-271　0920 / 1140　5J-647　1645／1800<br>
+                  傍晚 19:00由巴拉望公主港登船用餐，21:00離港，六天的行程將會順著南北環礁帶你深入瀏覽世界知名潛場，預計6天的船上潛水形成共計18－21次潛水，無夜潛行程。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第二天　NORTHERN TIP OF NORTH ATOLL<br>
+                  在北環礁北端有機會觀賞正在休息中的護士鯊和白鰭鯊，小幅魟與海龜群都是這裡的常客這邊是鯊魚洄游的地點，有機會看到黑鰭、白鰭鯊和灰礁鯊在這邊巡迴。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第三天　SOUTHERN END OF NORTH ATOLL<br>
+                  北環礁南端是餵魚區，這裡擁有極高的能見度高，海底下我們可以可以看到大量的珊瑚礁魚群、還有各式無脊椎動物， 水層中可看到大量的梭魚群，抬頭仰望我們可以觀賞滿天的Manta Ray和各式海龜在海面翱翔。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第四天　NORTHERN TIP OF SOUTH ATOLL<br>
+                  南環礁北端，這邊最大的特色就是大量的綠蠵龜和戴帽海龜，當然還有梭魚群、白鰭礁鯊和Manta Ray， 這邊的Manta比較不怕人，有機會可以接近牠們仔細觀賞他們美妙奇特的身形。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第五天　SOUTHERN END OF SOUTH ATOLL<br>
+                  南環礁南端，這邊俗稱為燈塔(Lighthouse)，這邊可以看到各式小型珊瑚礁魚、珊瑚、海綿、海葵等各式較小型的物種。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第六天　SOUTH EASTERN OF NORTH ATOLL<br>
+                  北環礁東南端，我們在這邊可以看到豆丁海馬，當然還有幾乎每天都可以遇到的白鰭鯊和灰礁鯊， 水底下的斑點魟，滿天的Manta Ray、綠蠵龜和戴帽海龜，其他還可以看到的像是牛港鰺，天使魚，火鏢魚...等。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第七天　NORTHERN TIP OF NORTH ATOLL<br>
+                  重遊北環礁，再次嘗試尋訪鎚頭鯊。今晚船開始往公主港出發，晚上船會停靠港邊。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  早晨用完早餐後08:00 離船，搭車前往市區２小時自費市區遊，接著搭機回台<br>
+                  Cebu Pacific／Eva Air　5J-636　1205／1330　BR-278　1845／2110
+                </td>
+              </tr>
+            </table>
+        ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
             <ul>
-              <li>
-                DIVE DAY 1 & 6: NORTHERN TIP OF NORTH ATOLL<br/>
-                在北環礁北端有機會觀賞正在休息中的護士鯊和白鰭鯊，小幅魟與海龜群都是這裡的常客這邊是鯊魚洄游的地點，有機會看到黑鰭、白鰭鯊和灰礁鯊在這邊巡迴。
-              </li>
-              <li>
-                DIVE DAY 2: SOUTHERN END OF NORTH ATOLL<br/>
-                北環礁南端是餵魚區，這裡擁有極高的能見度高，海底下我們可以可以看到大量的珊瑚礁魚群、還有各式無脊椎動物，
-                水層中可看到大量的梭魚群，抬頭仰望我們可以觀賞滿天的Manta Ray和各式海龜在海面翱翔。
-              </li>
-              <li>
-                DIVE DAY 3: NORTHERN TIP OF SOUTH ATOLL<br/>
-                南環礁北端，這邊最大的特色就是大量的綠蠵龜和戴帽海龜，當然還有梭魚群、白鰭礁鯊和Manta Ray，
-                這邊的Manta比較不怕人，有機會可以接近牠們仔細觀賞他們美妙奇特的身形。
-              </li>
-              <li>
-                DIVE DAY 4: SOUTHERN END OF SOUTH ATOLL<br/>
-                南環礁南端，這邊俗稱為燈塔(Lighthouse)，這邊可以看到各式小型珊瑚礁魚、珊瑚、海綿、海葵等各式較小型的物種。
-              </li>
-              <li>
-                DIVE DAY 5: SOUTH EASTERN OF NORTH ATOLL<br/>
-                北環礁東南端，我們在這邊可以看到豆丁海馬，當然還有幾乎每天都可以遇到的白鰭鯊和灰礁鯊，
-                水底下的斑點魟，滿天的Manta Ray、綠蠵龜和戴帽海龜，其他還可以看到的像是牛港鰺，天使魚，火鏢魚...等。
-              </li>
+              <li>團費原價：125,000</li>
+              <li>現金優惠價/會員價：120,000</li>
+              <li><span class="Large Important">會員現金優惠價：118,000</span></li>
             </ul>
             <br/>
             <div>
-              亞特蘭提斯號是蘇祿海知名的高級船，建造於1989，於去年(2015)重新整修完畢。<br/>
-              亞特蘭提斯設有兩艘充氣小艇接送你潛水。<br/>
-              船上提供全天無限暢飲的小吃和飲料吧。<br/>
-              每個房間都配有獨立衛浴、每天潛水結束可享受一個熱水澡洗淨一天的疲憊。
+              包含：來回機票國內段，市區至港口接送，船宿8天7夜，潛水6天18－21次潛水，船上用餐，<br>
+              　　　潛水稅金，8天7夜300萬旅遊平安保險。
             </div>
-            <br/>
-            <img src="../Image/Data/TubbatahaSchedule02.jpg" width="360">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="../Image/Data/TubbatahaSchedule03.jpg" width="360">
+            <div>
+              不包含：國際段機票、簽證、護照申請、潛水裝備、自費行程、非潛水區域之餐費、<br>
+              　　　　全程使用高氧5,000元，升級高級豪華房15,000元，<br>
+              　　　　<span class="Large Important">小費：帶隊教練統一收取(300元*6天=1,800)</span>
+            </div>
         ]]>
   </Block>
-  <Block id="fee" caption="注意事項" method="html" back="#top">
+  <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
-            <img src="../Image/Data/Tubbataha05.jpg" style="float: right; width: 360px; margin: 0px 0px 20px 20px;">
-            <div>相關資訊請洽iDiving</div>
+            <table width="70%" style="text-align: justify;">
+                <tr>
+                  <td>
+                    <ol>
+                      <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+                      <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                      <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+                      <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+                      <li>
+                        若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                        <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                      </li>
+                      <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                      <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                        <ul>
+                          <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                          <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                        </ul>
+                      </li>
+                      <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+                      <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+                      <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+                      <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                      <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                      <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                      <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+                    </ol>
+                  </td>
+                </tr>
+              </table>
+        ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
             <br/>
-            <div>電話：0228827696<br/></div>
-            <br/>
-            <div>地址：台北市士林區前港街8號</div>
-            <br/>
-            <div>傳真：0228827656</div>
-            <br/>
-            <div>E-mail：<a href="mailto:info@idiving.com.tw">info@idiving.com.tw</a></div>
-            <br/>
-            <div>營業時間:15:00~21:00，農曆過年休假</div>
-            <br/>
-            <img src="../Image/Data/Tubbataha06.jpg" width="360">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="../Image/Data/Tubbataha07.jpg" width="360">
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：張智堯</td>
+                <td>行動電話：0928-125300</td>
+              </tr>
+              <tr align="center">
+                <td>TEL:02-2882-7696</td>
+                <td>FAX:02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl: info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">靖偉旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL: 02-2517-1333</td>
+                <td>FAX: 02-2518-2537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市松江路95-1號7樓705室</td>
+              </tr>
+            </table>
         ]]>
   </Block>
 </Data>

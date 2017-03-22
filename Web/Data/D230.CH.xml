@@ -2,31 +2,121 @@
 <Data>
   <Block id="title" method="title" text="杜馬蓋地"/>
   <Block id="nav" method="nav">
-    <Item name="景點介紹" href="."></Item>
-    <Item name="行程表" href="D231.php"></Item>
-    <!--<Item name="費用說明" href="D232.php"></Item>-->
-    <Item name="注意事項" href="D233.php"></Item>
+    <Item name="景點介紹" href="#intro"></Item>
+    <Item name="行程表" href="#schedule"></Item>
+    <!--<Item name="費用說明" href="#price"></Item>-->
+    <Item name="注意事項" href="#notice"></Item>
   </Block>
-  <Block id="intro" method="html">
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-            <img src="../Image/Data/DumagueteIntro.jpg" style="float: right; width: 300px">
-            <div>杜馬蓋地(Dumaguete)在菲律賓的中部區域，地處Negros島的東南邊，</div>
+          <img src="../Image/Data/DumagueteIntro.jpg" style="float: right; width: 300px">
+          <div>杜馬蓋地(Dumaguete)在菲律賓的中部區域，地處Negros島的東南邊，</div>
+          <br/>
+          <div>是這一區的文化經濟重鎮，飯店和餐廳大多集中在濱海大道(Rizal Boulevard)，</div>
+          <br/>
+          <div>而主要的潛水區域則是在市區南方，車程約30分鐘的Dauin區，</div>
+          <br/>
+          <div>豐富的自然景觀及多樣性的海洋生物，吸引了不少外國潛客前來，</div>
+          <br/>
+          <div>讓此地成為菲律賓著名的潛水勝地之一。</div>
+          <br/>
+          <div>杜馬蓋地位於颱風帶之外，不易受到颱風的影響，</div>
+          <br/>
+          <div>幾乎全年都可進行潛水活動，此區豐富的生物及景觀，</div>
+          <br/>
+          <div>微小如米粒大小的海蛞蝓，巨大至公車般的鯨鯊，</div>
+          <br/>
+          <div>甚至不常見的娃娃魚、藍環章魚、糖果蟹等，都有機會能一次滿足喜愛水攝的朋友的需求唷！</div>
+      ]]>
+  </Block>
+  <Block id="schedule" caption="行程表" method="html" back="#top">
+    <![CDATA[ 
+          <span class="Large Focus">五天六夜的活動行程，共船潛11次</span>
+          <ul>
+            <li>Day 0　晚上在桃園機場集合。</li>
+            <li>Day 1　搭凌晨的飛機出發，再轉國內線，預計中午前抵達度假村，下午開始潛水活動。</li>
+            <li>Day 2　白天共進行三次潛水活動，晚上為自由活動時間。</li>
+            <li>Day 3　第一支預計到Oslob看鯨鯊，之後再進行兩次潛水活動，晚上為自由活動時間。</li>
+            <li>Day 4　白天共進行三次潛水活動，晚上為自由活動時間。</li>
+            <li>Day 5　午餐後離開度假村，搭機飛往馬尼拉，搭乘晚班飛機返台，預計晚上12：40抵達。</li>
+          </ul>
+          <br/>
+          <img src="../Image/Data/DumagueteSchedule01.jpg" width="360">
+          <img src="../Image/Data/DumagueteSchedule02.jpg" width="360" align="top">
+      ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+          <div><span class="Large Important">團費：NT 26,000元</span></div>
+          <div><span class="Large Important">&#12288;&#12288;&#12288;PS：每次的團費可能因當地價格而有所調整</span></div>
+          <br/>
+          <div>包含：杜馬蓋地機場往返度假村的接駁、度假村的住宿及餐食、</div>
+          <div>&#12288;&#12288;&#12288;行程安排的11次船潛費用（其中一次會到Oslob看鯨鯊）、</div>
+          <div>&#12288;&#12288;&#12288;菲律賓簽證、兩佰萬旅遊平安險。</div>
+          <br/>
+          <div>不含：出發地來回桃園機場的交通、桃園往返馬尼拉的來回機票及稅金、</div>
+          <div>&#12288;&#12288;&#12288;馬尼拉往返杜馬蓋地的來回機票及稅金、</div>
+          <div>&#12288;&#12288;&#12288;潛水裝備租借、小費、行程外的潛水及食宿費用。</div>
+      ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+          <table width="70%" style="text-align: justify;">
+            <tr>
+              <td>
+                <ol>
+                  <li>本活動為套裝行程，想參加但無法全程參與活動者，請先和我們聯絡以討論您的行程規劃。</li>
+                  <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要使用Nitrox氣瓶，仍需具備相關資格。</li>
+                  <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                  <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                  <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
+                </ol>
+                <br/>
+                <img src="../Image/Data/DumagueteNote01.jpg" width="360" align="top">
+                <img src="../Image/Data/DumagueteNote02.jpg" width="360">
+              </td>
+            </tr>
+          </table>
+      ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
             <br/>
-            <div>是這一區的文化經濟重鎮，飯店和餐廳大多集中在濱海大道(Rizal Boulevard)，</div>
-            <br/>
-            <div>而主要的潛水區域則是在市區南方，車程約30分鐘的Dauin區，</div>
-            <br/>
-            <div>豐富的自然景觀及多樣性的海洋生物，吸引了不少外國潛客前來，</div>
-            <br/>
-            <div>讓此地成為菲律賓著名的潛水勝地之一。</div>
-            <br/>
-            <div>杜馬蓋地位於颱風帶之外，不易受到颱風的影響，</div>
-            <br/>
-            <div>幾乎全年都可進行潛水活動，此區豐富的生物及景觀，</div>
-            <br/>
-            <div>微小如米粒大小的海蛞蝓，巨大至公車般的鯨鯊，</div>
-            <br/>
-            <div>甚至不常見的娃娃魚、藍環章魚、糖果蟹等，都有機會能一次滿足喜愛水攝的朋友的需求唷！</div>
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：張智堯</td>
+                <td>行動電話：0928-125300</td>
+              </tr>
+              <tr align="center">
+                <td>TEL:02-2882-7696</td>
+                <td>FAX:02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl: info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">靖偉旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL: 02-2517-1333</td>
+                <td>FAX: 02-2518-2537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市松江路95-1號7樓705室</td>
+              </tr>
+            </table>
         ]]>
   </Block>
 </Data>

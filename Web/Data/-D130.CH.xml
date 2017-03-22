@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="小琉球 Liuchiu"/>
+    <Block id="nav" method="nav">
+      <Item name="景點介紹" href="#intro"></Item>
+      <Item name="著名潛點" href="#DiveSite"></Item>
+      <Item name="行程表" href="#schedule"></Item>
+      <Item name="費用說明" href="#price"></Item>
+      <Item name="注意事項" href="#notice"></Item>
+    </Block>
+    <Block id="intro" caption="景點介紹" method="html" back="#top">
+      <![CDATA[ 
+              <img src="../Image/Data/Liuchiu_01.jpg" style="float: right; width: 370px">
+              <div><strong>位置</strong></div>
+              <table width="55%">
+                <tr>
+                  <td>
+                    琉球嶼位於高屏溪口之西南，東經一百二十度廿一分五十五秒，北緯廿二度十九分四十八秒，即東港鎮西南海面約八浬，高雄市南南西方約十八浬之海上，孤懸海中狀似一隻飄浮於台灣海峽之鞋子，為台灣本島附近十四屬島中唯一珊瑚礁島嶼。
+                  </td>
+                </tr>
+              </table>
+              <br/>
+              <div><strong>氣候</strong></div>
+              <table width="55%">
+                <tr>
+                  <td>
+                    氣候溫暖乾燥，七月均溫最高27.9°C，三月均溫最低17°C，年平均雨量約一千毫米，六月最多平均二六五七毫米，十二月最少，平均一．九毫米。本地每年夏秋之際多颱風侵襲，為全國颱風頻率最高處，而本區更位於台灣能量最大、雨量最多之颱風路徑（約佔台灣颱風路徑百分之三十二左右）之中，故此地之建築與設施均需考慮強風與巨浪之襲擊諸因素。
+                  </td>
+                </tr>
+              </table>
+              <img src="../Image/Data/Liuchiu_02.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_03.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_04.jpg" height="170">
+              <br/>
+              <br/>
+              <div><strong>地形</strong></div>
+              <table width="55%">
+                <tr>
+                  <td>
+                    本嶼為一丘陸地，地形最高處稱為龜仔路山，海拔87公尺，素為航海者之指標。形勢東西狹窄，東西最寬處僅2公里，南北長4.1公里，北部稍寬，南部較狹。島之長軸從東北伸向西南，周圍十三公里，面積僅有6.8平方公里，全島被兩條交叉地塹切割成為四塊台地，一條走向東北至西南形成中央地溝，為島中主要交通孔道（由白沙至海子口）；另一條走向西北至東南，通過島之中央，外形較不明顯，為名符其實之剖腹山，故俗稱「剖腹山嶼」。
+                  </td>
+                </tr>
+              </table>
+              <img src="../Image/Data/Liuchiu_05.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_06.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_07.jpg" height="170">
+              <br/>
+              <br/>
+              <div><strong>地質</strong></div>
+              <table width="55%">
+                <tr>
+                  <td>
+                    本嶼是台灣屬島中，唯一的珊瑚島，表面被珊瑚石灰岩覆蓋，海岸被隆起的珊瑚礁圍繞。石灰岩洞地形及珊瑚礁海岸地形遍佈全島，較著名的如烏鬼洞、美人洞、山豬溝等。琉球嶼珊瑚石灰岩質與鳳山珊瑚石灰岩相似，琉球嶼之四塊台地表面，均被紅土質土壤所覆蓋，而呈紅土台地。
+                  </td>
+                </tr>
+              </table>
+          ]]>
+    </Block>
+    <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+      <![CDATA[ 
+              <img src="../Image/Data/Liuchiu_08.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_09.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_10.jpg" height="170">
+              <br>
+              <br>
+              <table width="55%">
+                <tr>
+                  <td>
+                    <ul>
+                      <li>美人洞：深約15-20米，位於小琉球北面，因潮夕關係，有時會遇到放流的機會，沙地礁石混合區，當無流時，可以慢慢找小生物，例如：蝦魚、螳螂蝦、章魚；當放流時，可以輕鬆的欣賞海底美景，真是一大享受。</li>
+                      <li>水管沉船：深約25-30米，建議使用高氧，幸運可巧遇金梭魚群在身邊環繞，還有充滿神秘感的沉船在此待你一探究竟，非常棒的潛點。</li>
+                      <li>箱網海龜區：深約20-25米，不是海龜養殖區哦，但是這邊有很多海龜會在此休息，當能見度好時，有機會同時看到數隻海龜飛揚準備出水面換氣的美景；在沙地地區也有機會看到古氏土魟的蹤跡，是需多初級潛水員喜愛的潛點之一。</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <img src="../Image/Data/Liuchiu_11.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_12.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_13.jpg" height="170">
+              <br>
+              <br>
+              <table width="55%">
+                <tr>
+                  <td>
+                    <ul>
+                      <li>鎮海艦：1998年「妮蔻兒」颱風來襲，鎮海艦因任務關係來不及返港，而在海上失去動力漂流疏泊，由於艦齡已達55歲，又歷經多次碰撞，遂決定於1999年另其除役，並於2001年12月於小琉球爆破沉海做為人工魚礁。 深約30米，常有強流，屬高級潛點，需在專業導潛帶領尚可進行潛水；船身目前仍算完整，可慢慢探訪沉船的美麗。</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <img src="../Image/Data/Liuchiu_14.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_15.jpg" height="170">
+              <img src="../Image/Data/Liuchiu_16.jpg" height="170">
+              
+          ]]>
+    </Block>
+    <Block id="schedule" caption="行程表" method="html" back="#top">
+      <![CDATA[ 
+              <table width="70%">
+                <tr>
+                  <td>
+                    出發<br>
+                    可選擇：<br>
+                    一、19:30 iDiving 集合搭車前往東港並住宿一晚。<br>
+                    二、08:30 自行前往，東港東琉線碼頭集合。<br>
+                    (請務必準時集合，船班半個小時一班，錯過要等下一班，可能影響後面行程。)
+                  </td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>
+                    第一天<br>
+                    搭船前往小琉球，潛水店整理裝備，民宿安排入住後集合午餐，下午進行船潛2支，結束盥洗後，準備晚餐。晚餐後可自由活動安排潮間帶陸遊、觀星。
+                  </td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>
+                  第二天<br>
+                  早上7:30用餐，8:30集合潛水，上午船潛2支，結束潛水，清洗、吊掛裝備，回民宿盥洗並將行理打包完成放大廳；待午餐完畢再回潛店收拾裝備及行李。預計搭程15:00船班回到東港東琉線碼頭。準備回家，結束快樂旅程。
+                  </td>
+                </tr>
+              </table>
+          ]]>
+    </Block>
+    <Block id="price" caption="費用說明" method="html" back="#top">
+      <![CDATA[ 
+              <ul>
+                <li>團費原價：8,000</li>
+                <li>現金優惠價/會員價：7,500</li>
+                <li><span class="Large Important">會員現金優惠價：7,000</span></li>
+              </ul>
+              <br/>
+              <div>包含：東港←→小琉球來回船票、小琉球島上交通及食宿、4 支日船潛、三百萬旅平險<br></div>
+              <div>不包含：裝備租借、出發地←→東港來回交通、東港住宿、個人消費、行程外潛水。</div>
+          ]]>
+    </Block>
+    <Block id="notice" caption="注意事項" method="html" back="#top">
+      <![CDATA[ 
+              <table width="70%">
+                <tr>
+                  <td>
+                    <ol>
+                      <li>國內潛水旅遊亦有成團人數要求，一般含領隊需達10人才會出團。考量東北角的課程及活動，每年5~9月的活動一般上限為12人。若以現金（or匯款）繳交團費，額外享有優惠！</li>
+                      <li>自2016年起，煩請要參加活動的朋友們記得填寫＂Google表單＂報名，並繳交NT 2,000元『訂金』才算完成報名流程，若以轉帳方式繳交訂金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                      <li>若因報名人數不足而無法出團時，『訂金』可全數退還。</li>
+                      <li>出團日14天前會提供行程資料，並請團員繳齊剩餘團費（尾款）。</li>
+                      <li>
+                        若遇颱風、浪況不佳等不可抗拒之因素，基於安全與樂趣的考量，iDiving俱樂部決定取消活動時，則『團費』扣除不可退還之費用後，剩餘款項將全數退還。<br>
+                        <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用則視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                      </li>
+                      <li>當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，若有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                      <li>
+                        出團日8天前，如果團員臨時有事無法出席，『團費』在扣除不可退還之費用後，剩餘款項將會退還；出團日7天內，若團員因故無法出團，請恕無法退還『團費』：
+                        <ul>
+                          <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可退還。</li>
+                          <li>若是由iDiving找到人員填補空缺，訂金恕不退還。</li>
+                        </ul>
+                      </li>
+                      <li>國內潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，恕不提供會員優惠。</li>
+                      <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+                    </ol>
+                  </td>
+                </tr>
+              </table>
+          ]]>
+    </Block>
+</Data>

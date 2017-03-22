@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="帛琉"/>
-    <Block id="nav" method="nav">
-        <Item name="景點介紹" href="."></Item>
-        <Item name="行程表" href="D411.php"></Item>
-        <Item name="出團日期" href="D412.php"></Item>
-        <Item name="費用" href="D413.php"></Item>
-    </Block>
-    <Block id="intro" method="html">
-      <![CDATA[ 
-            <div></div>
+  <Block id="title" method="title" text="帛琉"/>
+  <!--<Block id="nav" method="nav">
+    <Item name="景點介紹" href="#intro"></Item>
+    <Item name="著名潛點" href="#DiveSite"></Item>
+    <Item name="行程表" href="#schedule"></Item>
+    <Item name="注意事項" href="#notice"></Item>
+  </Block>-->
+  <Block id="intro" method="html">
+    <![CDATA[ 
+            <br/><br/><br/><br/>
+			  <div style="text-align:center"><img src="../Image/Data/UnderConstruction.jpg"/></div>
         ]]>
-    </Block>
+  </Block>
 </Data>
