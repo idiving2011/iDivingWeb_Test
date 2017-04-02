@@ -16,7 +16,7 @@
             <td>潛水員是否擁有自己的裝備,絕對關係到潛水的安全性與舒適性,每一位潛水員都應該擁有一套屬於自己的高品質潛水裝備,也唯有裝備使用越熟悉,您才能清楚感受到潛水的樂趣, iDiving可以協助您選購合適的裝備。</td>
           </tr>
         </table>
-            ]]>
+      ]]>
     </Block>
     <Block id="BC" caption="浮力背心" method="html" back="#top">
       <![CDATA[
@@ -38,7 +38,7 @@
               <ul>
                 <li>專為旅行者所設計，整體重量只有2公斤</li>
                 <li>多款顏色供選擇，適合想與眾不同者</li>
-                <li>可另購其他的附件進行靈活組合進行個性化配置</li>
+                <li>可以根據需求，另購其他的附件進行靈活組合進行個性化配置</li>
                 <li>12個尼龍掛扣，方便掛載各種個人所需的潛水配件</li>
                 <li>氣囊外罩拉鍊可打開，便於更換內部的氣囊</li>
               </ul>
@@ -54,6 +54,7 @@
               <img src="../Image/Data/BCJ-1800.jpg" width="100%" />
             </td>
             <td style="vertical-align:middle;text-align: center">
+              TUSA<br>
               BCJ-1800<br>
               店內價:13,800
             </td>
@@ -70,26 +71,27 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <!--<tr>
+          <tr>
             <td style="text-align: center">
-              <img src="../Image/Data/BCD_equator.jpg" width="65%" />
+              <img src="../Image/Data/BCD_AquaLung.jpg" width="105%" />
             </td>
             <td style="vertical-align:middle;text-align: center">
-              EQUATOR<br>
-              店內價:19,800
+              Aqua Lung<br>
+              PRO HD<br>
+              店內價:16,650
             </td>
             <td style="vertical-align:middle">
               <ul>
-                <li>4個金屬D環符合水攝潛水員需求</li>
+                <li>5個金屬D環符合水攝潛水員需求</li>
                 <li>快速拆卸及可調整肩扣</li>
                 <li>整合式配重帶</li>
-                <li>容易折疊收納</li>
-                <li>洩氣速度快</li>
+                <li>BC內部背架配備有提把，方便潛水員穿脫</li>
+                <li>BC兩側配備有管線收納口袋防止管線糾纏增加潛水安全</li>
               </ul>
             </td>
-          </tr>-->
+          </tr>
         </table>
-          ]]>
+      ]]>
     </Block>
     <Block id="Regulators" caption="調節器" method="html" back="#top">
       <![CDATA[
@@ -138,23 +140,22 @@
           </tr>
           <tr>
             <td style="vertical-align:middle;text-align: center">
-              <img src="../Image/Data/Regulator_mikro.png" width="69%" />
+              <img src="../Image/Data/Regulator_CORE.jpg" width="69%" />
             </td>
             <td style="vertical-align:middle;text-align: center">
-              AQUALUNG MIKRON<br>
-              店內價:16,200
+              AQUALUNG CORE<br>
+              店內價:15,800
             </td>
             <td style="vertical-align:middle">
               <ul>
-                <li>整體重量只有878公克</li>
-                <li>一級頭為平衡式橫隔膜設計</li>
-                <li>二級頭配備調整鈕可控制出氣量</li>
-                <li>舒適、性能、流行時尚的絕佳組合</li>
+                <li>自動關閉裝置(ACD)</li>
+                <li>T型簡捷一級頭設計配置有4個中壓出口與2個高壓出口</li>
+                <li>Aqua Lung其它型號調節器零件共通方便日後維修</li>
               </ul>
             </td>
           </tr>
         </table>
-            ]]>
+      ]]>
     </Block>
     <Block id="SS" caption="備用氣源" method="html" back="#top">
       <![CDATA[
@@ -167,15 +168,15 @@
             </td>
             <td width="50%" style="vertical-align:middle">
               <ul>
-                <li>整合充排氣閥與備用氣源讓兩種產品合而為一,減少了潛水裝備的體積與重量</li>
+                <li>整合充排氣閥與備用氣源讓兩種產品合而為一，減少了潛水裝備的體積與重量</li>
                 <li>需要共用氣源的緊急狀況下，也能輕易地找到它</li>
-                <li>SS1可適用於任何BC,不至於發生所謂的排他性</li>
+                <li>SS1可適用於任何BC，不至於發生所謂的排他性</li>
                 <li>SS1特殊設計讓中壓管與蛇管都能快速卸取保護心愛的備用二級頭</li>
               </ul>
             </td>
           </tr>
         </table>
-            ]]>
+      ]]>
     </Block>
     <Block id="Instruments" caption="錶組" method="html" back="#top">
       <![CDATA[
@@ -185,18 +186,18 @@
             <td style="vertical-align:middle;text-align: center">
               TUSA SCA-270二用錶<br>
               (指北針、壓力錶)<br>
-              店內價:5,400
+              店內價:5,650
             </td>
             <td width="50%" style="vertical-align:middle">
               <ul>
                 <li>搭配手腕式電腦錶的最佳選擇</li>
-                <li>刻度盤面採最新儲光塗層,方便於昏暗環境中判讀儀錶</li>
+                <li>刻度盤面採最新儲光塗層，方便於昏暗環境中判讀儀錶</li>
                 <li>照明效果與照明時間皆較傳統螢光高出數倍</li>
               </ul>
             </td>
           </tr>
         </table>
-            ]]>
+      ]]>
     </Block>
     <Block id="Computer" caption="電腦錶" method="html" back="#top">
       <![CDATA[
@@ -207,40 +208,68 @@
             </td>
           </tr>
           <tr>
-            <td width="20%"><img src="../Image/Data/Suunto-D4i.jpg" width="100%" /></td>
+            <td width="20%"><img src="../Image/Data/Suunto-D4i.jpg" width="70%" /></td>
             <td style="vertical-align:middle;text-align: center">
               Suunto D4i Novo<br>
               店內價:20,500<br>
-              (不含稅，需外加)<br>
               <br>
               Suunto D4i Novo<br>
               新款色/海洋綠/櫻花紅/太陽黃<br>
               店內價:20,800<br>
-              (不含稅，需外加)
             </td>
             <td width="50%" style="vertical-align:middle">
               <ul>
                 <li>輕量化、簡單實用、引領時尚</li>
                 <li>支援發射器傳輸</li>
-                <li>採用特殊的運算模式執行減壓運算，同時,也可以在傳統的安全停留或者啟動深層停留的功能之間做選擇</li>
-                <li>四種操作模式,潛水計畫、搭配ＳＤＭ ＰＣ軟體更容易讀取詳細潛水資訊</li>
+                <li>採用特殊的運算模式執行減壓運算。同時，也可以在傳統的安全停留或者啟動深層停留的功能之間做選擇</li>
+                <li>四種操作模式，潛水計畫、搭配SDM軟體更容易讀取詳細潛水資訊</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%"><img src="../Image/Data/Suunto-D6i.jpg" width="70%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              Suunto<br>
+              D6i Zulu 編織帶<br>
+              店內價:32,500<br>
+            </td>
+            <td width="50%" style="vertical-align:middle">
+              <ul>
+                <li>採用 Suunto RGBM 深層停留運算模式</li>
+                <li>潛水流程(20秒取樣速率)、潛水日誌，記憶體容量增至140小時</li>
+                <li>電子指北針</li>
+                <li>經由下載 SDM 的傳輸軟體(配合選購的 USB 介面)，便可察看、比較並分析個人的潛水表現。</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%"><img src="../Image/Data/Suunto-Zoop.jpg" width="70%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              Suunto<br>
+              Zoop Novo<br>
+              店內價:9,400<br>
+            </td>
+            <td width="50%" style="vertical-align:middle">
+              <ul>
+                <li>大錶面容易判讀潛水資訊</li>
+                <li>按鍵設定簡單明瞭容易操作</li>
               </ul>
             </td>
           </tr>
         </table>
-            ]]>
+      ]]>
     </Block>
     <Block id="Sets" caption="超值重裝組A" method="html" back="#top">
       <![CDATA[
         <table width="80%">
           <tr>
             <td width="20%">
-              <img src="../Image/Data/BCJ-1800.jpg" width="100%" /><br>
+              <img src="../Image/Data/BCJ-1800.jpg" width="110%" /><br>
               <img src="../Image/Data/SS1.jpeg" width="100%" />
             </td>
             <td width="20%">
               <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br>
-              <img src="../Image/Data/Regulator_mikro.png" width="90%" />
+              <img src="../Image/Data/Regulator_CORE.jpg" width="90%" />
             </td>
             <td width="20%">
               <img src="../Image/Data/problue.jpg" width="70%" /><br>
@@ -249,29 +278,30 @@
             </td>
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
             <td>
-              <p>A組合:</p>
+              <p>A組合：</p>
               <ol>
-                <li>麥克龍調節器</li>
+                <li>核心調節器</li>
                 <li>二用錶</li>
                 <li>整合式備用氣源</li>
-                <li>輕量旅行者BC</li>
+                <li>TUSA輕量旅行者BC</li>
                 <li>收納包</li>
                 <li>20m手輪</li>
                 <li>1.2m浮力棒</li>
               </ol>  
               <br><br>
-              來店現金價:41,500
+              台灣定價：48,750<br>
+              來店現金價：42,400
             </td>
           </tr>
         </table>
-            ]]>
+      ]]>
     </Block>
     <Block id="Sets" caption="超值重裝組B" method="html" back="#top">
       <![CDATA[
         <table width="80%">
           <tr>
             <td width="20%">
-              <img src="../Image/Data/BCJ-1800.jpg" width="100%" /><br>
+              <img src="../Image/Data/BCJ-1800.jpg" width="110%" /><br>
               <img src="../Image/Data/SS1.jpeg" width="100%" />
             </td>
             <td width="20%">
@@ -285,83 +315,159 @@
             </td>
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
             <td>
-              <p>Ｂ組合:</p>
+              <p>Ｂ組合：</p>
               <ol>
                 <li>傳奇調節器</li>
                 <li>二用錶</li>
                 <li>整合式備用氣源</li>
-                <li>輕量旅行者BC</li>
+                <li>TUSA輕量旅行者BC</li>
                 <li>收納包</li>
                 <li>20m手輪</li>
                 <li>1.2m浮力棒</li>
               </ol>  
               <br><br>
-              來店現金價:45,500
+              台灣定價：53,450<br>
+              來店現金價：46,500
             </td>
           </tr>
         </table>
-            ]]>
+      ]]>
     </Block>
     <Block id="Sets" caption="超值重裝組C" method="html" back="#top">
       <![CDATA[
         <table width="80%">
           <tr>
-            <td width="20%" style="text-align: center">
-              <img src="../Image/Data/BCD_equator.jpg" width="65%" />
-			  <br>
+            <td width="20%">
+              <img src="../Image/Data/BCD_AquaLung.jpg" width="120%" /><br>
               <img src="../Image/Data/SS1.jpeg" width="100%" />
             </td>
-            <td width="10%">&nbsp;</td>
             <td width="20%">
-              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" />
-			  <br>
-			  <br>
-              <img src="../Image/Data/Regulator_mikro.png" width="90%" />
+              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br>
+              <img src="../Image/Data/Regulator_CORE.jpg" width="90%" />
             </td>
-            <td width="18%">&nbsp;</td>
+            <td width="20%">
+              <img src="../Image/Data/problue.jpg" width="70%" /><br>
+              <img src="../Image/Data/20mCoastLine.jpg" width="60%" /><br>
+              <img src="../Image/Data/SignalTube.jpg" width="100%" />
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
             <td>
-              <p>C組合:</p>
+              <p>C組合：</p>
               <ol>
-                <li>麥克龍調節器</li>
+                <li>核心調節器</li>
                 <li>二用錶</li>
                 <li>整合式備用氣源</li>
-                <li>Scubapro Equator BC</li>
+                <li>Aqualung ProHD BC</li>
+                <li>收納包</li>
+                <li>20m手輪</li>
+                <li>1.2m浮力棒</li>
               </ol>  
               <br><br>
-              來店現金價:45,700
+              台灣定價：50,750<br>
+              來店現金價：44,100
             </td>
           </tr>
         </table>
-            ]]>
+      ]]>
     </Block>
     <Block id="Sets" caption="超值重裝組D" method="html" back="#top">
       <![CDATA[
         <table width="80%">
           <tr>
-            <td width="20%" style="text-align: center">
-              <img src="../Image/Data/BCD_equator.jpg" width="65%" />
-			  <br>
+            <td width="20%">
+              <img src="../Image/Data/BCD_AquaLung.jpg" width="120%" /><br>
               <img src="../Image/Data/SS1.jpeg" width="100%" />
             </td>
-            <td width="10%">&nbsp;</td>
             <td width="20%">
-              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br><br><br><br><br>
+              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br><br><br><br>
               <img src="../Image/Data/Regulator_legend.jpg" width="100%" />
             </td>
-            <td width="18%">&nbsp;</td>
+            <td width="20%">
+              <img src="../Image/Data/problue.jpg" width="70%" /><br>
+              <img src="../Image/Data/20mCoastLine.jpg" width="60%" /><br>
+              <img src="../Image/Data/SignalTube.jpg" width="100%" />
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
             <td>
-              <p>D組合:</p>
+              <p>D組合：</p>
               <ol>
                 <li>傳奇調節器</li>
                 <li>二用錶</li>
                 <li>整合式備用氣源</li>
-                <li>Scubapro Equator BC</li>
+                <li>Aqualung ProHD BC</li>
+                <li>收納包</li>
+                <li>20m手輪</li>
+                <li>1.2m浮力棒</li>
               </ol>  
               <br><br>
-              來店現金價:49,300
+              台灣定價：55,450<br>
+              來店現金價：48,200
             </td>
           </tr>
         </table>
-            ]]>
+      ]]>
+    </Block>
+    <Block id="camera" caption="攝影器材" method="html" back="#top">
+      <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%" style="vertical-align:middle"><img src="../Image/Data/GoPro.jpg" width="100%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              Go Pro Hero5 Black<br>
+              店內價:15,500
+            </td>
+            <td width="50%" style="vertical-align:middle">
+              <ul>
+                <li>2吋觸控螢幕</li>
+                <li>裸機防水10m</li>
+                <li>支援語音聲控，具備七國語音聲控的功能，包含中文語音</li>
+                <li>可拍攝 4K 30fps、2.7K 60fps、1440p 80fps、1080p 120fps、960p 120fps，以及 720p 240fps 的影片</li>
+                <li>4K 畫質以下的（2.7K、1440p、1080p...）皆支援電子防手震</li>
+                <li>1200萬畫素及每秒高達30張的照片品質,可儲存為RAW檔</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><br><br></td>
+          </tr>
+          <tr>
+            <td width="20%" style="vertical-align:middle"><img src="../Image/Data/Olympus_TG4.jpg" width="100%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              OLYMPUS TG4+防水殼<br>
+              店內價:21,500
+            </td>
+            <td width="50%" style="vertical-align:middle">
+              <ul>
+                <li>機身15m防水、2.1m防撞、100kg防壓、-10℃低溫仍可操作</li>
+                <li>水底HDR模式</li>
+                <li>四種微距拍攝模式</li>
+                <li>內置WiFi 及GPS和電子指南針</li>
+                <li>提供RAW檔拍攝</li>
+                <li>多樣配件提升水底拍攝樂趣</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><br><br></td>
+          </tr>
+          <tr>
+            <td width="20%" style="vertical-align:middle"><img src="../Image/Data/Olympus_TG-Tracker.jpg" width="100%" /></td>
+            <td style="vertical-align:middle;text-align: center">
+              Olympus TG-Tracker<br>
+              店內價:14,900
+            </td>
+            <td width="50%" style="vertical-align:middle">
+              <ul>
+                <li>防水30m,抗凍至-10℃,防摔2.1m</li>
+                <li>可記錄經緯度、方位、大氣壓力、海拔高度（水深）、溫度與及加速率等資料</li>
+                <li>支援4K拍攝,五軸防手震,水下自動白平衡調整</li>
+                <li>支援GoPro眾多配件</li>
+                <li>204 度超廣角及 f/2 大光圈魚眼鏡頭</li>
+                <li>可翻轉機背螢幕,鏡頭下方自拍鏡減少自拍NG</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      ]]>
     </Block>
 </Data>
