@@ -9,7 +9,7 @@
   </Block>
   <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-            <table width="100%">
+            <table width="70%">
               <tr>
                 <td width="55%">
                   <table width="100%" style="text-align: justify;">
@@ -31,22 +31,19 @@
                         官方語言為英語與菲律賓語；菲律賓有8種方言是被多數人使用，其中Tagalog使用的人數最多，因此定為國語。信仰部分：有83%人信仰天主教、8%信仰回教、其他的屬於不同的基督教教派及佛教。<br/><br/>
                       </td>
                     </tr>
-                    <tr>
-                      <td>
-                        <strong>地點：蘇比克</strong><br/>
-                        蘇比克灣之前是美軍的第七艦隊海軍基地，特區治安良好，美軍撤出是休閒旅遊渡假的世外桃源呢！自15世紀西班牙發現蘇比克以來，此地先後成為各國爭奪的地點。美軍於駐軍時期積極建設，使蘇比克成為亞洲最大的海軍基地。1992年美國將此基地歸還於菲律賓，菲律賓政府將蘇比克規劃為超大型的度假區域。<br/><br/>
-                      </td>
-                    </tr>
                   </table>
                 </td>
-                <td><img src="../Image/Data/Philippines.png" style="float: right; width: 350px"></td>
-              </tr>
-              <tr>
-                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Philippines.png" style="float: right; width: 70%"></td>
               </tr>
               <tr>
                 <td colspan="2">
                   <table width="100%">
+                    <tr>
+                      <td colspan="7">
+                        <strong>地點：蘇比克</strong><br/>
+                        蘇比克灣之前是美軍的第七艦隊海軍基地，特區治安良好，美軍撤出是休閒旅遊渡假的世外桃源呢！自15世紀西班牙發現蘇比克以來，此地先後成為各國爭奪的地點。美軍於駐軍時期積極建設，使蘇比克成為亞洲最大的海軍基地。1992年美國將此基地歸還於菲律賓，菲律賓政府將蘇比克規劃為超大型的度假區域。<br/><br/>
+                      </td>
+                    </tr>
                     <tr>
                       <td><img src="../Image/Data/SUBIC_02.png" width="100%"></td>
                       <td>&nbsp;</td>
@@ -64,7 +61,7 @@
   </Block>
   <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
     <![CDATA[ 
-            <table width="100%">
+            <table width="70%">
               <tr>
                 <td width="55%">
                   <table width="100%">
@@ -113,9 +110,9 @@
   </Block>
   <Block id="schedule" caption="行程表" method="html" back="#top">
     <![CDATA[ 
-            <table width="100%">
+            <table width="70%">
               <tr>
-                <td width="70%">
+                <td width="55%">
                   <table width="100%" style="text-align: justify;">
                     <tr>
                       <td>
@@ -123,38 +120,46 @@
                         19:00機場集合<br>
                         Taipei to Cebu Pacific 5J 313 Manila<br>
                         Wednesday 11 November 2015 , 2130 H (9:30PM)<br>
-                        到達馬尼拉機場約半夜一點，拉車到潛店約半夜三點半<br><br>
+                        到達馬尼拉機場約半夜一點，拉車到潛店約半夜三點半
                       </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
                     </tr>
                     <tr>
                       <td>
                         第一天<br>
-                        中午12點起床，午餐後搭車前往海洋探索公園，交通時間約 30 min與海豚進行第１次潛水，一次四人，每次 30 min 結束時間約下午五點，可於晚飯前安排按摩(自費:300peso/1h，需提早訂位)<br><br>
+                        中午12點起床，午餐後搭車前往海洋探索公園，交通時間約 30 min與海豚進行第１次潛水，一次四人，每次 30 min 結束時間約下午五點，可於晚飯前安排按摩(自費:300peso/1h，需提早訂位)
                       </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
                     </tr>
                     <tr>
                       <td>
                         第二天至第四天<br>
-                        早上八點半潛店集合，每天早上２潛，下午１潛，午餐晚餐集合用餐，時間現場公布。<br><br>
+                        早上八點半潛店集合，每天早上２潛，下午１潛，午餐晚餐集合用餐，時間現場公布。
                       </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
                     </tr>
                     <tr>
                       <td>
                         第五天<br>
                         早餐後收拾行李準備前往馬尼拉機場旁的RESORT WORLD<br>
-                        回程班機/時間Cebu Pacific 5J310 22:10, Taiwan 00:10 (跨日)<br><br>
+                        回程班機/時間Cebu Pacific 5J310 22:10, Taiwan 00:10 (跨日)
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td>&nbsp;</td>
               </tr>
               <tr>
                 <td>&nbsp;</td>
               </tr>
               <tr>
-                <td colspan="2">
-                  <table width="70%">
+                <td>
+                  <table width="100%">
                     <tr>
                       <td><img src="../Image/Data/SUBIC_10.jpg" width="100%"></td>
                       <td>&nbsp;</td>
@@ -173,9 +178,9 @@
   <Block id="price" caption="費用說明" method="html" back="#top">
     <![CDATA[ 
             <ul>
-              <li>團費原價：25000</li>
-              <li>現金優惠價/會員價：24000</li>
-              <li><span class="Large Important">會員現金優惠價：23000</span></li>
+              <li>團費原價：25,000</li>
+              <li>現金優惠價/會員價：24,000</li>
+              <li><span class="Large Important">會員現金優惠價：23,000</span></li>
             </ul>
             <br/>
             <div>
@@ -184,7 +189,7 @@
             </div>
             <div>
               不包含：來回機票、簽證申請、護照申請、潛水裝備、自費行程、非潛水區域之餐費、<br>
-              　　　　<span class="Large Important">小費：帶隊教練統一收取(300元*5天=1500)</span>
+              　　　　<span class="Large Important">小費：帶隊教練統一收取(300元*5天=1,500)</span>
             </div>
         ]]>
   </Block>
@@ -245,19 +250,19 @@
               </tr>
               <tr align="center">
                 <td rowspan="4" style="vertical-align: middle">協辦單位</td>
-                <td rowspan="4" style="vertical-align: middle">靖偉旅行社有限公司</td>
+                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
                 <td>業務請洽：蘇恒璀</td>
                 <td>行動電話：0937-196518</td>
               </tr>
               <tr align="center">
                 <td>TEL: 02-2517-1333</td>
-                <td>FAX: 02-2518-2537</td>
+                <td>FAX: 02-2508-1537</td>
               </tr>
               <tr align="center">
                 <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
               </tr>
               <tr align="center">
-                <td colspan="2">地址：台北市松江路95-1號7樓705室</td>
+                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
               </tr>
             </table>
         ]]>
