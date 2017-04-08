@@ -88,23 +88,23 @@
               </td>
             </tr>
             <tr>
-              <td width="20%" align="center">
+              <td width="20%" align="center" style="vertical-align: middle;">
                 <img src="../Image/Data/M1002.jpg" width="80%" />
               </td>
-              <td width="20%" align="center">
+              <td width="20%" align="center" style="vertical-align: middle;">
                 <img src="../Image/Data/M17.jpg" width="90%" />
               </td>
-              <td width="20%" align="center">
+              <td width="20%" align="center" style="vertical-align: middle;">
                 <img src="../Image/Data/M1003.jpg" width="90%" />
               </td>
-			  <td width="20%" align="center">
+              <td width="20%" align="center" style="vertical-align: middle;">
                 <img src="../Image/Data/M212.jpg" width="80%" />
               </td>
               <td width="20%" align="center">
-                <img src="../Image/Data/mask_03.jpg" width="90%" />
+                <img src="../Image/Data/mask_03.jpg" width="150%" />
               </td>
-			</tr>
-			<tr>
+			      </tr>
+			      <tr>
               <td style="vertical-align:middle;text-align: center">
                 Tusa M1002<br>
                 店內價:3,000
