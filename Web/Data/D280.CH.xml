@@ -9,75 +9,111 @@
   </Block>
   <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-            <img src="../Image/Data/Philippines.png" style="float: right; width: 370px">
-            <div><strong>菲律賓</strong></div>
-            <table width="55%" style="text-align: justify;">
+            <table width="70%" cellpadding="0" cellspacing="0">
               <tr>
                 <td>
-                  菲律賓是由7107個島嶼組成，總面積30萬平方公里，這些島共分北中南三大區域，分別為呂宋(Luzon)、比薩亞(Visayas)、民答那峨(Mindanao)，菲律賓的首都是馬尼拉。
+                  <table width="100%">
+                    <tr>
+                      <td width="55%">
+                        <table cellpadding="0" cellspacing="0" width="100%" style="text-align: justify;">
+                          <tr>
+                            <td>
+                              <strong>菲律賓</strong><br/>
+                              菲律賓是由7107個島嶼組成，總面積30萬平方公里，這些島共分北中南三大區域，分別為呂宋(Luzon)、比薩亞(Visayas)、民答那峨(Mindanao)，菲律賓的首都是馬尼拉。<br/><br/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <strong>氣候</strong><br/>
+                              菲律賓是標準的熱帶氣候，氣候深受季風影響，3-5月為乾熱的季節、6-10月為多雨的季節、11-2月為涼爽的季節。1月最冷，5月最熱，平均溫度在攝氏25-32度，溼度77%。群島中氣候最溫和的地方是太平洋沿岸，包括呂宋島、薩摩島、雷伊泰島、民答那峨等。<br/><br/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <strong>人文</strong><br/>
+                              官方語言為英語與菲律賓語；菲律賓有8種方言是被多數人使用，其中Tagalog使用的人數最多，因此定為國語。信仰部分：有83%人信仰天主教、8%信仰回教、其他的屬於不同的基督教教派及佛教。<br/><br/>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td><img src="../Image/Data/Philippines.png" style="float: right; width: 70%"></td>
+                    </tr>
+                  </table>
                 </td>
               </tr>
-            </table>
-            <br/>
-            <div><strong>氣候</strong></div>
-            <table width="55%" style="text-align: justify;">
               <tr>
                 <td>
-                  菲律賓是標準的熱帶氣候，氣候深受季風影響，3-5月為乾熱的季節、6-10月為多雨的季節、11-2月為涼爽的季節。1月最冷，5月最熱，平均溫度在攝氏25-32度，溼度77%。群島中氣候最溫和的地方是太平洋沿岸，包括呂宋島、薩摩島、雷伊泰島、民答那峨等。
+                  <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td>
+                        <strong>地點：圖巴塔哈群礁 Tubbataha Reef</strong><br/>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <td rowspan="2" width="73%"><img src="../Image/Data/Tubbataha_02.jpg" style="float: right; width: 100%"></td>
+                            <td>&nbsp;</td>
+                            <td><img src="../Image/Data/Tubbataha_03.jpg" style="float: right; width: 100%"></td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td style="vertical-align: bottom;"><img src="../Image/Data/Tubbataha_04.jpg" style="float: right; width: 100%"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>蘇比克灣之前是美軍的第七艦隊海軍基地，特區治安良好，美軍撤出是休閒旅遊渡假的世外桃源呢！自15世紀西班牙發現蘇比克以來，此地先後成為各國爭奪的地點。美軍於駐軍時期積極建設，使蘇比克成為亞洲最大的海軍基地。1992年美國將此基地歸還於菲律賓，菲律賓政府將蘇比克規劃為超大型的度假區域。</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <td><img src="../Image/Data/Tubbataha_05.jpg" width="100%"></td>
+                            <td>&nbsp;</td>
+                            <td><img src="../Image/Data/Tubbataha_06.jpg" width="100%"></td>
+                            <td>&nbsp;</td>
+                            <td><img src="../Image/Data/Tubbataha_07.jpg" width="100%"></td>
+                            <td>&nbsp;</td>
+                            <td><img src="../Image/Data/Tubbataha_08.jpg" width="100%"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>因為地理位置偏遠，特別安排豪華船宿--亞特蘭提斯號，亞特蘭提斯號是蘇祿海知名的高級船，建造於1989，於去年(2015)重新整修完畢。共有8間雙人房，各房皆有獨立衛浴，每天潛水結束可享受一個熱水澡，洗淨一天的疲憊。船上提供全天無限暢飲的小吃和飲料吧。潛水部分，亞特蘭提斯設有兩艘充氣小艇接送送潛水，船上可提供高氧。</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <td width="25%"><img src="../Image/Data/Tubbataha_09.jpg" width="100%"></td>
+                            <td>&nbsp;</td>
+                            <td><img src="../Image/Data/Tubbataha_10.jpg" width="100%"></td>
+                            <td>&nbsp;</td>
+                            <td><img src="../Image/Data/Tubbataha_11.jpg" width="100%"></td>
+                            <td>&nbsp;</td>
+                            <td><img src="../Image/Data/Tubbataha_12.jpg" width="100%"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
                 </td>
-              </tr>
-            </table>
-            <br/>
-            <div><strong>人文</strong></div>
-            <table width="55%" style="text-align: justify;">
-              <tr>
-                <td>
-                 官方語言為英語與菲律賓語；菲律賓有8種方言是被多數人使用，其中Tagalog使用的人數最多，因此定為國語。信仰部分：有83%人信仰天主教、8%信仰回教、其他的屬於不同的基督教教派及佛教。
-                </td>
-              </tr>
-            </table>
-            <br/>
-            <table width="55%">
-              <tr>
-                <td rowspan="2" width="73%"><img src="../Image/Data/Tubbataha_02.jpg" style="float: right; width: 100%"></td>
-                <td><img src="../Image/Data/Tubbataha_03.jpg" style="float: right; width: 100%"></td>
-              </tr>
-              <tr>
-                <td style="vertical-align: bottom;"><img src="../Image/Data/Tubbataha_04.jpg" style="float: right; width: 100%"></td>
-              </tr>
-            </table>
-            <br/>
-            <div><strong>地點：圖巴塔哈群礁 Tubbataha Reef</strong></div>
-            <table width="55%" style="text-align: justify;">
-              <tr>
-                <td>
-                  杜巴塔哈礁（Tubbataha）位於菲律賓南部的蘇祿海(Sulu sea)中央，於1993年被聯合國列為世界自然遺產，擁有世界上最美麗的珊瑚礁，宏偉的環礁生態，更於2012年被CNN旅遊網評選為世界10大必去潛點。因該海域為海洋保護區每年只開放三月底至六月入內潛水，保護區內禁止一切商業獵魚及魚船作業，因此海洋生態非常豐富，能見度達 35 米以上。這趟旅程有很大的機會見到的各種大型海洋生物包括斧頭鯊、鯨鯊、護士鯊、虎鯊、魔鬼魟、梭魚群、海龜、珊瑚礁群魚....等，各種願望一次滿足。
-                </td>
-              </tr>
-            </table>
-            <br>
-            <table width="80%">
-              <tr>
-                <td><img src="../Image/Data/Tubbataha_05.jpg" width="100%"></td>
-                <td><img src="../Image/Data/Tubbataha_06.jpg" width="100%"></td>
-                <td><img src="../Image/Data/Tubbataha_07.jpg" width="100%"></td>
-                <td><img src="../Image/Data/Tubbataha_08.jpg" width="100%"></td>
-              </tr>
-            </table>
-            <table width="55%" style="text-align: justify;">
-              <tr>
-                <td>
-                 因為地理位置偏遠，特別安排豪華船宿--亞特蘭提斯號，亞特蘭提斯號是蘇祿海知名的高級船，建造於1989，於去年(2015)重新整修完畢。共有8間雙人房，各房皆有獨立衛浴，每天潛水結束可享受一個熱水澡，洗淨一天的疲憊。船上提供全天無限暢飲的小吃和飲料吧。潛水部分，亞特蘭提斯設有兩艘充氣小艇接送送潛水，船上可提供高氧。
-                </td>
-              </tr>
-            </table>
-            <br>
-            <table width="80%">
-              <tr>
-                <td width="25%"><img src="../Image/Data/Tubbataha_09.jpg" width="100%"></td>
-                <td><img src="../Image/Data/Tubbataha_10.jpg" width="100%"></td>
-                <td><img src="../Image/Data/Tubbataha_11.jpg" width="100%"></td>
-                <td><img src="../Image/Data/Tubbataha_12.jpg" width="100%"></td>
               </tr>
             </table>
         ]]>
@@ -234,19 +270,19 @@
               </tr>
               <tr align="center">
                 <td rowspan="4" style="vertical-align: middle">協辦單位</td>
-                <td rowspan="4" style="vertical-align: middle">靖偉旅行社有限公司</td>
+                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
                 <td>業務請洽：蘇恒璀</td>
                 <td>行動電話：0937-196518</td>
               </tr>
               <tr align="center">
                 <td>TEL: 02-2517-1333</td>
-                <td>FAX: 02-2518-2537</td>
+                <td>FAX: 02-2508-1537</td>
               </tr>
               <tr align="center">
                 <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
               </tr>
               <tr align="center">
-                <td colspan="2">地址：台北市松江路95-1號7樓705室</td>
+                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
               </tr>
             </table>
         ]]>
