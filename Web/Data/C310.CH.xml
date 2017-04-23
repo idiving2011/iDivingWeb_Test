@@ -976,7 +976,14 @@
                   <td></td>
                 </tr>
               </table>
-              <span class="Large Important">限制條件：需先取得完美浮力專長證照</span>
+              <span class="Large Important">
+                限制條件：（符合其中一項即可）<br>
+                <ol>
+                  <li>具備AOWD或以上等級。</li>
+                  <li>擁有50支以上潛水經驗。</li>
+                  <li>取得完美浮力專長證照。</li>
+                </ol>
+              </span>
               <table border="1" width="80%">
                 <tr>
                   <td align="center"></td>
@@ -987,7 +994,7 @@
                 <tr>
                   <td align="center">學 科</td>
                   <td align="center">3hr</td>
-                  <td align="center">掛的優缺點、側掛裝備基本的配置、側掛的氣體管理、側掛的出水與入水</td>
+                  <td align="center">側掛的優缺點、側掛裝備的基本配置</td>
                   <td align="center">
                     iDiving<br />
                     教 室
@@ -996,7 +1003,7 @@
                 <tr>
                   <td align="center">泳池</td>
                   <td align="center">4hr</td>
-                  <td align="center">水平中性浮力、前進與後退、原地旋轉、仰游側游、氣瓶位置個改變、共用氣源練習</td>
+                  <td align="center">水平中性浮力、配重的調整、前進與後退、原地旋轉、仰游側游、氣瓶位置改變、共用氣源練習</td>
                   <td align="center">
                     南港運動中心<br />
                     或<br/>
@@ -1004,9 +1011,9 @@
                   </td>
                 </tr>
                 <tr>
-                  <td align="center">海洋實習2支</td>
-                  <td align="center"1>&nbsp;</td>
-                  <td align="center">水平中性浮力、前進與後退、原地旋轉、仰游側游、氣瓶位置個改變、配重的調整</td>
+                  <td align="center">海洋實習</td>
+                  <td align="center"1>2次</td>
+                  <td align="center">出水與入水、水平中性浮力、配重的調整、前進與後退、原地旋轉、仰游側游、氣瓶位置改變、共用氣源練習</td>
                   <td align="center">
                     東北角<br />
                     或<br/>
@@ -1018,24 +1025,50 @@
       </Block>
       <Block id="plan11" caption="開課日期" method="html" back="#top" tag="側掛">
         <![CDATA[
-                    <!--<img src="../Image/Data/SM_Schedule.png" width="80%"/>-->
-                    <p>iDiving樂意為您安排特別的上課時間, 請與我們聯絡。</p>
-                ]]>
+              <p>
+                第一期 四六日 3/2, 3/4, 3/5<br/>
+                第二期 四六日 4/6, 4/8, 4/9<br/>
+                第三期 二六日 8/1, 8/5, 8/6<br/>
+                第四期 四六日 10/12, 10/14, 10/15
+              </p>
+              <img src="../Image/Data/SM_Schedule.png" width="80%"/>
+              ]]>
       </Block>
       <Block id="tuition11" caption="超值學費" method="html" back="#top" tag="側掛">
         <![CDATA[
               <ul>
-                <li>
-                  <span class="Large Focus">iDiving 2015年非領導級各項課程，全面提供的免費裝備使用(限有術科的課程)移地訓練裝備免費使用一天。<span>
-                </li>
-                <li>
-                  <span class="Large Important">學費 12000元</span>
-                </li>
+                <li><span class="Large Focus">定價：10,000 元。</span></li>
+                <li><span class="Large Important">現金優惠：9,000元。</span></li>
               </ul>
               <br/>
-              <div>費用包含：線上教材、國際證照申請、教練費、裝備租借費用、東北角海洋實習費用與保險費。</div>
-              <br/>
-              <h3><div><span style="font-weight: bold">本課程暫不開放移地訓練</span></div></h3>
+              <div>費用包含：線上教材、國際證照申請、教練費、東北角海洋實習費用與保險費。</div>
+              <div>費用不含：全套輕重裝備或移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
+              <br>
+              <table border="1" width="50%">
+                <tr align="center">
+                  <td colspan="3" width="34%">價目表</td>
+                </tr>
+                <tr align="center">
+                  <td>項目</td>
+                  <td>會員</td>
+                  <td>非會員</td>
+                </tr>
+                <tr align="center">
+                  <td>側掛專用BC</td>
+                  <td>500 元/天</td>
+                  <td>600 元/天</td>
+                </tr>
+                <tr align="center">
+                  <td>側掛專用調節器 (2組)</td>
+                  <td>500 元/天</td>
+                  <td>600 元/天</td>
+                </tr>
+                <tr align="center">
+                  <td>氣瓶綁帶 (2組)</td>
+                  <td>200 元/天</td>
+                  <td>300 元/天</td>
+                </tr>
+              </table>
           ]]>
       </Block>
       <!--乾衣-->
