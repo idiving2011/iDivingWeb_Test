@@ -407,6 +407,44 @@
         </table>
       ]]>
     </Block>
+  <Block id="Sets" caption="超值重裝組E" method="html" back="#top">
+    <![CDATA[
+        <table width="80%">
+          <tr>
+            <td width="20%">
+              <img src="../Image/Data/BCD_STARK_EVO.jpg" width="100%" /><br>
+              <img src="../Image/Data/SS1.jpeg" width="100%" />
+            </td>
+            <td width="20%">
+              <img src="../Image/Data/TUSA SCA-270.jpg" width="100%" /><br><br><br><br>
+              <img src="../Image/Data/Regulator_CORE.jpg" width="90%" />
+            </td>
+            <td width="20%">
+              <br>
+              <img src="../Image/Data/problue.jpg" width="70%" /><br><br>
+              <img src="../Image/Data/20mCoastLine.jpg" width="60%" /><br><br>
+              <img src="../Image/Data/SignalTube.jpg" width="100%" />
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+              <p>E組合：</p>
+              <ol>
+                <li>核心調節器</li>
+                <li>二用錶</li>
+                <li>整合式備用氣源</li>
+                <li>STARK EVO BC</li>
+                <li>收納包</li>
+                <li>20m手輪</li>
+                <li>1.2m浮力棒</li>
+              </ol>  
+              <br><br>
+              台灣定價：62,250<br>
+              來店現金價：54,100
+            </td>
+          </tr>
+        </table>
+      ]]>
+  </Block>
     <Block id="camera" caption="攝影器材" method="html" back="#top">
       <![CDATA[
         <table width="80%">

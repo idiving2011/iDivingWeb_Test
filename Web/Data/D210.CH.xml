@@ -1,117 +1,259 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <Block id="title" method="title" text="阿尼洛"/>
+  <Block id="title" method="title" text="阿尼洛 ANILAO"/>
   <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
+    <Item name="著名潛點" href="#DiveSite"></Item>
     <Item name="行程表" href="#schedule"></Item>
-    <!--<Item name="費用說明" href="#price"></Item>-->
     <Item name="注意事項" href="#notice"></Item>
   </Block>
   <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-          <img src="../Image/Data/AnilaoIntro.jpg" style="float: right; width: 300px">
-          <div>阿尼洛(Anilao)位於菲律賓首都馬尼拉的南方約120公里處，</div>
-          <br/>
-          <div>早期是一個小漁村，四周海域有著豐富的海洋生物，</div>
-          <br/>
-          <div>由於觀光產業的興起，配合便利的交通，成為菲律賓第一個開發潛水旅遊的地方，</div>
-          <br/>
-          <div>加上當地的消費較低，吸引了不少國內潛水愛好者到訪。</div>
-          <br/>
-          <div>阿尼洛的周圍有著許多難易度不同的潛點，</div>
-          <br/>
-          <div>不論是剛拿到證照的新手，或是已有豐富經驗的老手，都有合適的潛點可以選擇；</div>
-          <br/>
-          <div>水下具有多樣性的生物相，渺小如豆丁海馬、蜘蛛蟹，大至巨型海扇、魚群風暴，</div>
-          <br/>
-          <div>對於愛好水中攝影的潛友來說，不論是微距或廣角，都能滿足不同的需求！</div>
+          <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td width="55%">
+                      <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td>
+                            <strong>菲律賓</strong><br/>
+                            菲律賓是由7107個島嶼組成，總面積30萬平方公里，這些島共分北中南三大區域，分別為呂宋(Luzon)、比薩亞(Visayas)、民答那峨(Mindanao)，菲律賓的首都是馬尼拉。<br/><br/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <strong>氣候</strong><br/>
+                            菲律賓是標準的熱帶氣候，氣候深受季風影響，3-5月為乾熱的季節、6-10月為多雨的季節、11-2月為涼爽的季節。1月最冷，5月最熱，平均溫度在攝氏25-32度，溼度77%。群島中氣候最溫和的地方是太平洋沿岸，包括呂宋島、薩摩島、雷伊泰島、民答那峨等。<br/><br/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <strong>人文</strong><br/>
+                            官方語言為英語與菲律賓語；菲律賓有8種方言是被多數人使用，其中Tagalog使用的人數最多，因此定為國語。信仰部分：有83%人信仰天主教、8%信仰回教、其他的屬於不同的基督教教派及佛教。<br/><br/>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td><img src="../Image/Data/Philippines.png" style="float: right; width: 70%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td><img src="../Image/Data/Anilao_01.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Anilao_02.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Anilao_03.jpg" width="100%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>地點：阿尼洛 ANILAO</strong><br/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                阿尼洛是菲律賓水肺潛水的發源地，距離馬尼拉只有1百多公里，車程時間約2個小時多，此潛點有各種地形適合各式各樣喜好的潛友，從微距到廣角都有令人驚喜的生物等著您的造訪！ 
+                阿尼洛的潛水度假村大都依著Mabini小山丘面海而建，iDiving推薦潛友的渡假村是ACACIA，一間服務優質的精品渡假村，入住後，一應服務皆在渡假村內完成，讓潛友們享受與世隔絕的寧靜潛水度假時光。
+                這裡的潛水船多為菲律賓傳統漁船＂班卡（Banca）＂兩側有翼的船行駛起來又快又穩，非常舒適。值得一題的是ACACIA 潛水中心的服務非常到位，您只要在第一天將裝備組裝好確認裝備沒問題，接下來的潛水行程就不需要在擔心你的重裝了，潛水中心的員工會協助您完成搬運與組裝的工作，是不是很享受，快跟iDiving到這裡當大老爺吧！
+              </td>
+            </tr>
+          </table>
+      ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+        <table width="70%" style="text-align: justify;">
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td><img src="../Image/Data/Anilao_04.jpg" width="100%"></td>
+                  <td>&nbsp;</td>
+                  <td><img src="../Image/Data/Anilao_05.jpg" width="100%"></td>
+                  <td>&nbsp;</td>
+                  <td><img src="../Image/Data/Anilao_06.jpg" width="100%"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+          <tr>
+            <td>
+              <ol>
+                <li>雙獅岩：深約20米，有整群的傑克魚與廣闊的珊瑚礁。</li>
+                <li>大教堂：阿尼洛最出名的潛點之一，其特色是在15米的２塊珊瑚礁盤中間，豎立了一個十字架，而這個十字架是在80年代，由若望·保祿二世所加持過。</li>
+                <li>秘密灣：阿尼洛必造訪的潛點之一，別小看這個泥巴底質的潛點，各種美麗又神秘的小生物在５ｍ就可以發現，而且一直到30米都還有不斷的驚奇等著你。</li>
+                <li>垃圾場：像秘密灣一般的潛點，此點英文名為Basura菲律賓與的垃圾之意，早期是規劃為垃圾場，有很多多生物可愛又神秘的生物伴隨而生，目前已不在傾倒垃圾，但各種水中生物持續留在此地，成為一個攝影師的喜愛點！</li>
+              </ol>
+            </td>
+          </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td><img src="../Image/Data/Anilao_07.jpg" width="100%"></td>
+                  <td>&nbsp;</td>
+                  <td><img src="../Image/Data/Anilao_08.jpg" width="100%"></td>
+                  <td>&nbsp;</td>
+                  <td><img src="../Image/Data/Anilao_09.jpg" width="100%"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
       ]]>
   </Block>
   <Block id="schedule" caption="行程表" method="html" back="#top">
     <![CDATA[ 
-            <span class="Large Focus">四天五夜的活動行程，共船潛7次</span>
-            <ul>
-              <li>Day 0　晚上在桃園機場集合。</li>
-              <li>Day 1　搭凌晨的飛機出發，再轉車前往飯店，預計中午前抵達，下午開始潛水活動（船潛）。</li>
-              <li>Day 2　白天共進行三次潛水活動（船潛），晚上為自由活動時間。</li>
-              <li>Day 3　白天共進行三次潛水活動（船潛），晚上為自由活動時間。</li>
-              <li>Day 4　早餐後收拾行李，搭車前往馬尼拉，搭乘晚班飛機，預計凌晨12點抵達台灣。</li>
-            </ul>
-            <br/>
-            <img src="../Image/Data/AnilaoSchedule01.jpg" width="360">
-            <img src="../Image/Data/AnilaoSchedule02.jpg" width="360" align="top">
-        ]]>
+          <table width="70%" style="text-align: justify;">
+            <tr>
+              <td>
+                出發<br>
+                22:00機場集合<br>
+                Taipei to Cebu Pacific 5J 311 Manila , 0030 AM<br>
+                到達馬尼拉機場約半夜4點，拉車到潛店約早上7點
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第一天<br>
+                中午12點起床，午餐後準備裝備，進行試潛，結束時間約下午４點，可於晚飯前後安排按摩 ( 自費:700-800 peso/1h，需提早訂位 )
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第二天至第三天<br>
+                早上7:30用餐，8:30集合潛水，每天早上２潛，下午１潛，午餐晚餐用餐時間現場公布。
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第四天<br>
+                早餐後收拾行李準備前往馬尼拉機場旁的RESORT WORLD<br>
+                回程班機/時間Cebu Pacific 5J310 22:10, Taiwan 00:10 (跨日)
+              </td>
+            </tr>
+          </table>
+      ]]>
   </Block>
   <Block id="price" caption="費用說明" method="html" back="#top">
     <![CDATA[ 
-            <div><span class="Large Important">團費：NT 22,000元</span></div>
-            <div><span class="Large Important">&#12288;&#12288;&#12288;PS：每次的團費可能因當地價格而有所調整</span></div>
-            <br/>
-            <div>包含：馬尼拉機場往返度假村的接駁、度假村的住宿及餐食、</div>
-            <div>&#12288;&#12288;&#12288;行程安排的7次船潛費用、菲律賓簽證費、兩佰萬旅遊平安險。</div>
-            <br/>
-            <div>不含：出發地來回桃園機場的交通、桃園往返馬尼拉的來回機票及稅金、</div>
-            <div>&#12288;&#12288;&#12288;潛水裝備租借、小費、行程外的潛水及食宿費用。</div>
-        ]]>
+          <ul>
+            <li>團費原價：23,000</li>
+            <li>現金優惠價/會員價：22,000</li>
+            <li><span class="Large Important">會員現金優惠價：21,000</span></li>
+          </ul>
+          <br/>
+          <div>
+            包含：馬尼拉至潛水中心來回接送，船潛７支，Anilao當地餐費，4天3夜渡假村住宿，潛水稅金，4天3夜旅遊平安保險
+          </div>
+          <div>
+            不包含：來回機票、簽證申請、護照申請、潛水裝備、自費行程、非潛水區域之餐費、飯店環境稅200p/天<br>
+              　　　　<span class="Large Important">小費：帶隊教練統一收取(300元*4天=1,200)</span>
+          </div>
+      ]]>
   </Block>
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
-            <table width="70%" style="text-align: justify;">
+          <table width="70%" style="text-align: justify;">
               <tr>
                 <td>
                   <ol>
-                    <li>本活動為套裝行程，想參加但無法全程參與活動者，請先和我們聯絡以討論您的行程規劃。</li>
+                    <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+                    <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                    <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+                    <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+                    <li>
+                      若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                      <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                    </li>
+                    <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                    <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                      <ul>
+                        <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                        <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                      </ul>
+                    </li>
+                    <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+                    <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+                    <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
                     <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
                     <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
                     <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
-                    <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
+                    <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
                   </ol>
-                  <br/>
-                  <img src="../Image/Data/AnilaoNote01.jpg" width="360">
-                  <img src="../Image/Data/AnilaoNote02.jpg" width="360">
                 </td>
               </tr>
             </table>
-        ]]>
+      ]]>
   </Block>
   <Block id="agency" caption="協辦旅行社" method="html" back="#top">
     <![CDATA[
-            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
-            <br/>
-            <table border="1" cellpadding="0" cellspacing="0" width="70%">
-              <tr align="center">
-                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
-                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
-                <td>承辦人：張智堯</td>
-                <td>行動電話：0928-125300</td>
-              </tr>
-              <tr align="center">
-                <td>TEL:02-2882-7696</td>
-                <td>FAX:02-2882-7656</td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">E-MAILl: info@idiving.com.tw</td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">地址：台北市前港街8號</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
-                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
-                <td>業務請洽：蘇恒璀</td>
-                <td>行動電話：0937-196518</td>
-              </tr>
-              <tr align="center">
-                <td>TEL: 02-2517-1333</td>
-                <td>FAX: 02-2508-1537</td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
-              </tr>
-            </table>
-        ]]>
+          <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+          <br/>
+          <table border="1" cellpadding="0" cellspacing="0" width="70%">
+            <tr align="center">
+              <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+              <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+              <td>承辦人：張智堯</td>
+              <td>行動電話：0928-125300</td>
+            </tr>
+            <tr align="center">
+              <td>TEL:02-2882-7696</td>
+              <td>FAX:02-2882-7656</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">E-MAILl: info@idiving.com.tw</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">地址：台北市前港街8號</td>
+            </tr>
+            <tr align="center">
+              <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+              <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+              <td>業務請洽：蘇恒璀</td>
+              <td>行動電話：0937-196518</td>
+            </tr>
+            <tr align="center">
+              <td>TEL: 02-2517-1333</td>
+              <td>FAX: 02-2508-1537</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+            </tr>
+          </table>
+      ]]>
   </Block>
 </Data>

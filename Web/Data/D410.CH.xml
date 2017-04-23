@@ -1,16 +1,260 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <Block id="title" method="title" text="帛琉"/>
-  <!--<Block id="nav" method="nav">
+  <Block id="title" method="title" text="帛琉 Palau"/>
+  <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
     <Item name="著名潛點" href="#DiveSite"></Item>
     <Item name="行程表" href="#schedule"></Item>
     <Item name="注意事項" href="#notice"></Item>
-  </Block>-->
-  <Block id="intro" method="html">
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-            <br/><br/><br/><br/>
-			  <div style="text-align:center"><img src="../Image/Data/UnderConstruction.jpg"/></div>
-        ]]>
+          <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td width="55%">
+                      <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td>
+                            <strong>帛琉共和國</strong><br/>
+                            是太平洋上的島國，位於菲律賓群島以東500公里。帛琉1994年從美國的託管統治下獨立。主要產業是漁業和旅遊業，主要宗教信仰是基督教、天主教等等，70%人口屬密克羅尼西亞群島當地原住民，其餘人口主要是菲律賓人
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <strong>氣候</strong><br/>
+                            四季如夏，年平均溫度攝氏29度，平均水溫攝氏27度~29度，7~4月是乾季，雨季分佈在7~10月份。
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td><img src="../Image/Data/Palau_01.jpg" style="float: right; width: 85%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>人文</strong><br/>
+                當地居民約20,000人，其中大部分為帛琉土著，屬密克羅尼西亞人。少數族裔有來自菲律賓為主的亞洲人和少量歐洲人。三分之二的居民信奉基督教，當中天主教徒佔大多數，其餘的信奉其他新教派系。除了基督教外，當地一種叫Modekngei的地方宗教也十分流行。
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>地點：帛琉</strong><br/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                有彩虹盡頭之稱的帛琉，之前連續被世界知名的洛戴爾潛水雜誌（Rodale’s Scuba Diving Magazine）評選為世界上最棒的潛水景點之一。當地的潛水條件極佳，並擁有完整的海洋生態與現代化的旅遊設施，使得帛琉一直是舉世公認最值得前往潛水旅遊的好去處。海面下的能見度極高，除了生態豐富外，還有精彩的海底峭壁、神祕的沈船和戰機殘骸。當然，也很有機會與大型海底生物相遇，包括到處可見的鯊魚喔，這趟海底之旅保證刺激過癮！
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>帛琉共和國是個極適合發展潛水旅遊的國度，它是由八個連綿的島嶼與無數的小島所組成的國家，每座島嶼都充滿不同的特色；北方諸島多為火山島，南方則多為珊瑚礁島。四季如夏，年平均溫度攝氏二十九度，平均水溫攝氏二十七度～二十九度，非常適合潛水旅遊。</td>
+            </tr>
+          </table>
+      ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+        <table width="70%" style="text-align: justify;">
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td><img src="../Image/Data/Palau_02.jpg" width="100%"></td>
+                  <td>&nbsp;</td>
+                  <td><img src="../Image/Data/Palau_03.jpg" width="100%"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+          <tr>
+            <td>
+              <ol>
+                <li>Blue Hole藍洞：帛琉最知名的潛點之一，天氣好的時候從洞內往外張望，從水面上灑下來的那一抹藍光，是令人屏息的奇特景觀，光影的折射及水波萬般流轉，會讓您忍不住發出驚嘆。</li>
+                <li>German Channel德國水道：這裡號稱是Manta 清潔站，可以欣賞魔鬼魟翱翔的壯觀。德國水道，並不是天然的水道，而是二次世界大戰期間，德國礦產公司為了運輸方便所開鑿出來，連接珊瑚礁淺灘至外海的一條水道。</li>
+                <li>Big Drop off大斷層：這是一個又大又深的斷層，由海平面深入285公尺深，可以說是世界上最棒的牆潛(wall dive)。大斷層有帛琉海底花園之稱，您會被大量的珊瑚礁魚群所驚艷，及各種色彩繽紛的海扇與軟珊瑚，可愛的蘇眉魚會來向您打招呼，不時還可以欣賞到黑鰭礁鯊優游。</li>
+                <li>Ulong Channel烏龍水道：位於Ulong 島西緣的水道，底部的沙地僅約13公尺，兩旁的緩坡到處是海洋生物群聚，是個非常特殊的潛點。通常由隧道北邊下潛到約20公尺處，在水道入口處可使用流鉤固定，欣賞經過的大型魚類，例如：鯊魚、鮪魚等。</li>
+                <li>Blue Corner藍角：帛琉知名大魚聚集的地點，可能是帛琉最受歡迎的潛點。由一片向海裡延伸的壯觀懸崖所形成，深度約30公尺。</li>
+                <br>
+                <table width="100%">
+                  <tr>
+                    <td><img src="../Image/Data/Palau_06.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Palau_07.jpg" width="100%"></td>
+                  </tr>
+                </table>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      ]]>
+  </Block>
+  <Block id="schedule" caption="行程表" method="html" back="#top">
+    <![CDATA[ 
+          <table width="70%" style="text-align: justify;">
+            <tr>
+              <td>
+                第一天　台北-帛琉<br>
+                早上11:00在桃園機場第一航站，華航航空櫃台集合，搭乘飛機前往帛琉，在機上享用機上午餐，到帛琉後，會先至路上的漢堡店享用晚餐，隨即轉車到馬拉卡爾碼頭，準備登上龍馬一號船宿船。
+                <br>
+                <br>
+                早餐：自理，中餐：機上餐，晚餐：自理，住宿：龍馬一號
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第二天 ～ 第四天　船宿~龍馬號<br>
+                這三日安排總共安排11支的船宿船潛，三餐皆都在船上享用喔！
+                <br>
+                <br>
+                早餐/午餐/晚餐：龍馬一號船上buffet，住宿：龍馬一號
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第五天　帛琉-台北<br>
+                早上睡到自然醒, 回程會先前往牛奶湖，預計下午三點左右下船前往機場，搭機返回台北。
+                <br>
+                <br>
+                早餐/午餐：龍馬一號船上buffet
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td><img src="../Image/Data/Palau_04.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Palau_05.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Palau_08.jpg" width="100%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+      ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+          <ul>
+            <li>團費原價：55,500</li>
+            <li>現金優惠價/會員價：53,500</li>
+            <li><span class="Large Important">會員再優惠1,000元</span></li>
+          </ul>
+          <br/>
+          <table width="70%" style="text-align: justify;">
+            <tr>
+              <td>包　含：</td>
+              <td>四晚住宿於 Ryoma 龍馬1號，船上早、午、晚餐，11次船潛及 氣瓶，鉛塊，船費及潛導，每位旅客300萬履約責任險、暨20萬意外醫療險，機場離境稅(每人50美金)，機場-龍馬號來回接送，來回(40美金/人)，船上小費 (每人15美金/天)，潛水出海證 (每人50美金)</td>
+            </tr>
+            <tr>
+              <td style="white-space:nowrap">不包含：</td>
+              <td>台北TPE-科羅爾ROR 國際段來回機票，潛水裝備租借，護照辦理(免簽證)，個人性消費，行李超重，7/1晚餐不含，酒精性飲料, SPA 按摩服務，船上衛星通訊費，衣服換洗服務，景點旅遊</td>
+            </tr>
+          </table>
+      ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+          <table width="70%" style="text-align: justify;">
+              <tr>
+                <td>
+                  <ol>
+                    <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+                    <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                    <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+                    <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+                    <li>
+                      若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                      <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                    </li>
+                    <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                    <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                      <ul>
+                        <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                        <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                      </ul>
+                    </li>
+                    <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+                    <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+                    <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+                    <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                    <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                    <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                    <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+                  </ol>
+                </td>
+              </tr>
+            </table>
+      ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+          <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+          <br/>
+          <table border="1" cellpadding="0" cellspacing="0" width="70%">
+            <tr align="center">
+              <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+              <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+              <td>承辦人：張智堯</td>
+              <td>行動電話：0928-125300</td>
+            </tr>
+            <tr align="center">
+              <td>TEL:02-2882-7696</td>
+              <td>FAX:02-2882-7656</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">E-MAILl: info@idiving.com.tw</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">地址：台北市前港街8號</td>
+            </tr>
+            <tr align="center">
+              <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+              <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+              <td>業務請洽：蘇恒璀</td>
+              <td>行動電話：0937-196518</td>
+            </tr>
+            <tr align="center">
+              <td>TEL: 02-2517-1333</td>
+              <td>FAX: 02-2508-1537</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+            </tr>
+            <tr align="center">
+              <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+            </tr>
+          </table>
+      ]]>
   </Block>
 </Data>

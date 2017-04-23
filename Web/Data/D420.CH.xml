@@ -1,16 +1,371 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-   <Block id="title" method="title" text="馬爾地夫"/>
-  <!--<Block id="nav" method="nav">
+  <Block id="title" method="title" text="馬爾地夫 Maledives"/>
+  <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
     <Item name="著名潛點" href="#DiveSite"></Item>
     <Item name="行程表" href="#schedule"></Item>
+    <Item name="費用說明" href="#price"></Item>
     <Item name="注意事項" href="#notice"></Item>
-  </Block>-->
-  <Block id="intro" method="html">
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-            <br/><br/><br/><br/>
-			  <div style="text-align:center"><img src="../Image/Data/UnderConstruction.jpg"/></div>
-        ]]>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td width="55%">
+                  <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td>
+                        <strong>馬爾地夫</strong><br/>
+                        地理位置：位於印度洋赤道附近，距離斯里蘭卡670公里，印度南方600公里，斯里蘭卡西南方650公里，由1190個南北縱列之珊瑚礁小島組成，其中僅200個島嶼有人居住，各島平均不超過海拔1.8米。面積共九萬平方公里，其中海洋佔總面積之99％，而陸地僅佔01％。馬爾地夫的首都是馬列(Male)，人口約33萬。馬列本島有計程車、機車、腳踏車。島與島之間則以DHONI船與快艇聯繫。
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td><img src="../Image/Data/Maledives_01.jpg" style="float: right; width: 70%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td width="55%">
+                  <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td>
+                        <strong>氣候</strong><br/>
+                        熱帶氣候，終年溫度維持在24度至33度間，每年5月至10月為雨季，時有雷陣雨；11月至4月為乾季，年均溫28°C。乾季水溫穩定保持在28℃。雨季時，水溫受西南季風引響稍降。全年水下生物都很豐富，有些著名潛點還可以輕易與鯨鯊相遇，造就了馬爾地夫潛水天堂的美名。
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <td>&nbsp;</td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>人文</strong><br/>
+                        馬爾地夫的語言是底貝希語(DHIVEHI)及英語。信仰為回教，治安良好，不過於當地旅遊住宿時，仍可將貴重品、現金及護照寄存於保險箱。流通之貨幣為Maldivian Rufiyaa（MVR）１MVR約合台幣２元；美金、信用卡也可以使用。電壓為220～240伏特，圓形和方形電插頭。
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td><img src="../Image/Data/Maledives_02.jpg" style="float: right; width: 70%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>船宿：MV/Princess Ushwa</strong><br/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            公主屋殊華號是馬爾地夫知名的高級船宿潛水船。共有1０間雙人房，各房皆有獨立衛浴，每天潛水結束可享受一個熱水澡，洗淨一天的疲憊。潛水部分由一艘當地特殊的潛水船接送潛水，事前預約可提供高氧。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td><img src="../Image/Data/Maledives_03.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Maledives_04.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Maledives_05.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Maledives_06.jpg" width="100%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ol>
+              <li>Angaga 位於南阿裡環礁的中間，在馬爾地夫海灘裡享受一種優美自然的氣氛，此地有許多庇護區、沙底環礁湖。</li>
+              <li>Eriyadu大多數形成一個緩坡下降至 30 米的礁，5個入口點圍繞整個環礁。珊瑚岩礁上的形成一個特別的海牆，東部邊緣又有著許多不同魚種。</li>
+              <li>Thulagiri 位於環礁北雄島的中間，從機場搭快艇只需 25 分鐘。 棕櫚樹遮蔭內部一個海灘，使得大的環礁湖庇護工廠顯露出許多海裡小生物，讓北環礁島南端成為出色的潛水地點。</li>
+              <li>Helengeli 位於北環礁的遠端北東部邊緣。在過去 25 的年來，此島已蔚，馬爾地夫最好潛水勝地的美譽。島嶼的形態和上邊緣環礁的位置組合，絕對讓潛水員的有一個很棒的潛水經驗。</li>
+              <li>Vilamendhoo 位於弗環礁的東南角，位於最驚險的潛水地點，代表著馬爾地夫的心。這個長橢圓形的小島位於兩個通道之間，擁有一個每年吸引潛水和浮潛後的特殊房子礁。</li>
+              <li>Vilamendhoo 經過妥善管理和維護，有助於在島的自然外觀最佳的環境方案之一。</li>
+              <li>Reethi Beach位於北東邊緣的南 Maalhosmadulu 環礁島，在 Reethi 灣美麗的房子礁，結合卓越船潛地點的選擇。相比其他環礁島的馬爾代夫的環礁 baa 島是較淺。強流產生大量的令人難忘的通道和 Thila 潛水。</li>
+              <li>Hanifaru 灣，西南季風啟動whalesharks 的環礁，為海洋資源管理受保護的區域。</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="schedule" caption="行程表" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            第一天( 28 / 09 / 2013 )   台北—亞庇-吉隆坡-馬列<br>
+            國際: TPE/BKI MH69 0800/1130亞庇轉機<br>
+            國際: BKI/KUL MH2611 1315/1540(GMT+8) 吉隆坡轉機<br>
+            國際: KUL/MLE MH177 2045(GMT+8) / 2155(GMT+5) 到馬列, 時差3小時<br>
+            <br>
+            上午集合於中正機場，搭乘國際班機，經轉機前往藍色珊瑚礁島－馬爾地夫，放逐到馬爾地夫的渡假心情是愉悅而充滿憧憬的。您的人生故事，從此留有微醺的章節。飛抵馬列機場後馬上由船上人員接往船宿船(MV/Princess Ushwa)。在海風迎面的碼頭前卸下塵積已久陰霾與壓力，在珊瑚礁旁與色彩斑斕的熱帶魚相見歡。所有的夢想，馬爾地夫將它還原成真。<br>
+            <br>
+            早餐:機上餐    午餐:自理      晚餐:機上餐     住宿:MV/Princess Ushwa
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天( 29 / 09 / 2013 ) North Male Atoll    3支船潛<br>
+            Feydhoo wall   (Turtle point )       ( Orientation Dive @ 8:00)<br>
+            Paradise Corner ( Manta Point  )                       @ 11:30<br>
+            Emboodhoo Channel ( Shark point )                    @ 15:30
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天( 30 / 09 / 2013 ) North Male Atoll    4支船潛<br>
+            Kuda Giri Wreck  @ 8:00<br>
+            Cocoa Corner    @ 11:30     / Over Night Guraidhoo<br>
+            Losfushi Kuda Kandu  @ 15:30<br>
+            Vaggiri  @ 18:30     ( Night Dive )
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td><img src="../Image/Data/Maledives_07.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Maledives_08.jpg" width="100%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第四天( 01 / 10 / 2013 ) South Male Atoll/South Ari Atoll    4支船潛<br>
+            Kandooma Thila   @ 6:30 <br>
+            Guraidhoo Channel   @ 10:00<br>
+            Channel cross to South Ari atoll  @ ( 4 to 5 hrs ) Over night near Dhangethi / Dhigurah <br>
+            Dihurah Arches ( Sunset Dive )  @17:00hrs
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td><img src="../Image/Data/Maledives_09.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Maledives_10.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Maledives_11.jpg" width="100%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第五天( 02 / 10 / 2013 ) South Ari  Atoll      3支船潛<br>
+            Kudarah Thila              @ 7:30 ( Early Morning Dive )<br>
+            Maamigili Out side         @11:30   (Searching for whale shark)<br>
+            Sun Island Out side         @15:30 ( over night Hukuru eli & BBQ)
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第六天( 03 / 10 / 2013 ) South Ari Atoll/North Ari Atoll /Male’ Atoll      2支船潛<br>
+            Madivaru ( Manta +Whale shark ) @ 7 :30<br>
+            Fish Head @ 11:30  to 1600 / Back to Hulhumale’ drop them to resort<br>
+            <br>
+            今日午餐後整理打包裝備行李，預計船宿快艇接送至飯店並辦理check in<br>
+            <br>
+            晚餐 宿：Sheraton –Full Moon Resort
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td><img src="../Image/Data/Maledives_12.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Maledives_13.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Maledives_14.jpg" width="100%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第七天( 04 / 10 / 2013 )<br>
+            擁有一個沒有壓力且慵懶的早晨，悠閒的於沙灘漫步並享受海天一色的美景，這就是如同明信片中的慢活時刻，一切如你所想，如你所見喔<br>
+            <br>
+            三餐 住宿：Sheraton –Full Moon Resort
+          </td>
+        </tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第八天( 05 / 10 / 2013 )   馬列-吉隆坡<br>
+            國際轉程: MLE/KUL MH176 2245/0610+1 *隔天10/6*<br>
+            (夜航前往吉隆坡, 注意時差GMT+5 變GMT+8) 飛行時間約4.5小時<br>
+            擁有一個沒有壓力且慵懶的早晨，起床後整理好行李，吃完午餐後準備CHECK OUT，海上屋快艇及車接送至機場，我們回到馬列市區，您可將行李暫寄放於馬列機場(1件行李保管費為美金10元)，您可選擇到市區觀光，購買心愛的紀念品，約於晚上八點半抵達機場飛往吉隆坡。<br>
+            <br>
+            早午餐: Sheraton –Full Moon Resort   晚餐:自理
+          </td>
+        </tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第九天( 06 / 10 / 2013 )   吉隆坡-台北<br>
+            國際回程:MLE/TPE MH366 0915/1405<br>
+            今日上午抵達吉隆坡後，可自由活動，接著準備搭機回台北，當龐大的機身掙脫跑道的束縛，回首馬爾地夫群島的歡樂點滴，並許下彼此再次邂逅的承諾！可是我的心境卻還遺留在人間的天堂~馬爾地夫。<br>
+            <br>
+            午餐:機上餐
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：125,000</li>
+        <li>現金優惠價/會員價：120,000</li>
+        <li><span class="Large Important">會員現金優惠價：115,000</span></li>
+      </ul>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>包　含：</td>
+          <td>台北~吉隆坡~馬列 馬航來回機票、機場稅、潛水稅、船艙稅、船上之食宿、全程交通、300萬旅行平安險及三萬醫療險、16支潛水、導潛、氣瓶、配重、船資。*每天潛水氣瓶數、潛點及行程，可因天候而有所變動</td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap">不包含：</td>
+          <td>來回機票、簽證申請、護照申請、飲料、個人消費及小費、潛水裝備、自費行程、馬列機場行李寄放費(1件行李保管費為美金10元)、非潛水區域之餐費、<span class="Large Important">小費：帶隊教練統一收取(300元*6天=1,800)</span></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ol>
+              <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+              <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+              <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+              <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+              <li>
+                若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+              </li>
+              <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+              <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                <ul>
+                  <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                  <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                </ul>
+              </li>
+              <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+              <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+              <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+              <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+              <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+              <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+              <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+      <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+      <br/>
+      <table border="1" cellpadding="0" cellspacing="0" width="70%">
+        <tr align="center">
+          <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+          <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+          <td>承辦人：張智堯</td>
+          <td>行動電話：0928-125300</td>
+        </tr>
+        <tr align="center">
+          <td>TEL:02-2882-7696</td>
+          <td>FAX:02-2882-7656</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">E-MAILl: info@idiving.com.tw</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">地址：台北市前港街8號</td>
+        </tr>
+        <tr align="center">
+          <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+          <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+          <td>業務請洽：蘇恒璀</td>
+          <td>行動電話：0937-196518</td>
+        </tr>
+        <tr align="center">
+          <td>TEL: 02-2517-1333</td>
+          <td>FAX: 02-2508-1537</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+        </tr>
+      </table>
+    ]]>
   </Block>
 </Data>
