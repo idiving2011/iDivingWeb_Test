@@ -210,29 +210,19 @@
           <table width="80%">
           <tr>
             <td width="20%">
-              <img src="../Image/Data/boots.jpg" width="100%" />
+              <img src="../Image/Data/boots.jpg" width="140%" />
               <br>
             </td>
             <td style="vertical-align:middle;text-align: center">
-              Gull 防滑鞋(男)<br>
+              防滑鞋<br>
               店內價:950
             </td>
-            <td rowspan="2" width="50%" style="vertical-align:middle;">
+            <td width="50%" style="vertical-align:middle;">
               <ul>
                 <li>菜瓜布底防滑好行走</li>
                 <li>台灣製造</li>
                 <li>YKK拉鍊超耐用</li>
               </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="../Image/Data/BoostWoman.jpg" width="100%" />
-              <br>
-            </td>
-            <td style="vertical-align:middle;text-align: center">
-              Gull 防滑鞋(女)<br>
-              店內價:950
             </td>
           </tr>
         </table>
