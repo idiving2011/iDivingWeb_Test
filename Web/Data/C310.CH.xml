@@ -964,18 +964,13 @@
     </Block>
     <!--側掛-->
     <Block id="curriculum11" caption="課程規劃" method="html" back="#top" tag="側掛">
-        <![CDATA[ 
-              <table width="30%" style="table-layout: fixed;">
-                <tr>
-                  <td><img width="98%" src="../Image/Data/SM.jpg"></td>
-                </tr>
-              </table>
-              <br/>
-              <table width="80%">
-                <tr>
-                  <td></td>
-                </tr>
-              </table>
+      <![CDATA[ 
+        <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+          <tr>
+            <td><img width="50%" src="../Image/Data/SM.jpg"></td>
+          </tr>
+          <tr>
+            <td>
               <span class="Large Important">
                 限制條件：（符合其中一項即可）<br>
                 <ol>
@@ -984,17 +979,21 @@
                   <li>取得完美浮力專長證照。</li>
                 </ol>
               </span>
-              <table border="1" width="80%">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table border="1" width="100%">
                 <tr>
-                  <td align="center"></td>
-                  <td align="center">時 間</td>
-                  <td align="center">課 程 內 容</td>
+                  <td align="center" style="white-space:nowrap"></td>
+                  <td align="center" style="white-space:nowrap">時 間</td>
+                  <td align="center" width="70%">課 程 內 容</td>
                   <td align="center">上課地點</td>
                 </tr>
                 <tr>
                   <td align="center">學 科</td>
                   <td align="center">3hr</td>
-                  <td align="center">側掛的優缺點、側掛裝備的基本配置</td>
+                  <td>側掛的優缺點、側掛裝備的基本配置</td>
                   <td align="center">
                     iDiving<br />
                     教 室
@@ -1003,7 +1002,7 @@
                 <tr>
                   <td align="center">泳池</td>
                   <td align="center">4hr</td>
-                  <td align="center">水平中性浮力、配重的調整、前進與後退、原地旋轉、仰游側游、氣瓶位置改變、共用氣源練習</td>
+                  <td>水平中性浮力、配重的調整、前進與後退、原地旋轉、仰游側游、氣瓶位置改變、共用氣源練習</td>
                   <td align="center">
                     南港運動中心<br />
                     或<br/>
@@ -1013,7 +1012,7 @@
                 <tr>
                   <td align="center">海洋實習</td>
                   <td align="center"1>2次</td>
-                  <td align="center">出水與入水、水平中性浮力、配重的調整、前進與後退、原地旋轉、仰游側游、氣瓶位置改變、共用氣源練習</td>
+                  <td>出水與入水、水平中性浮力、配重的調整、前進與後退、原地旋轉、仰游側游、氣瓶位置改變、共用氣源練習</td>
                   <td align="center">
                     東北角<br />
                     或<br/>
@@ -1021,18 +1020,26 @@
                   </td>
                 </tr>
               </table>
-              ]]>
+          </tr>
+        ]]>
       </Block>
       <Block id="plan11" caption="開課日期" method="html" back="#top" tag="側掛">
         <![CDATA[
-              <p>
-                第一期 四六日 3/2, 3/4, 3/5<br/>
-                第二期 四六日 4/6, 4/8, 4/9<br/>
-                第三期 二六日 8/1, 8/5, 8/6<br/>
-                第四期 四六日 10/12, 10/14, 10/15
-              </p>
-              <img src="../Image/Data/SM_Schedule.png" width="80%"/>
-              ]]>
+          <table>
+            <tr>
+              <td>第一期 四六日 3/2, 3/4, 3/5</td>
+            </td>
+            <tr>
+              <td>第二期 四六日 4/6, 4/8, 4/9</td>
+            </td>
+            <tr>
+              <td>第三期 二六日 8/1, 8/5, 8/6</td>
+            </td>
+            <tr>
+              <td>第四期 四六日 10/12, 10/14, 10/15</td>
+            </td>
+          <img src="../Image/Data/SM_Schedule.png" width="80%"/>
+        ]]>
       </Block>
       <Block id="tuition11" caption="超值學費" method="html" back="#top" tag="側掛">
         <![CDATA[
@@ -1154,78 +1161,79 @@
     <!--水下攝影-->
     <Block id="curriculum13" caption="課程規劃" method="html" back="#top" tag="水下攝影">
         <![CDATA[ 
-              <table width="80%" style="table-layout: fixed;">
-                <tr>
-                  <td><img width="98%" src="../Image/Data/SC_PH.jpg"></td>
-                  <td align="right"><img width="95%" src="../Image/Data/sc_dup.png"></td>
-                </tr>
-              </table>
-              <br/>
-              <span class="Large Important">限制條件：需先取得完美浮力專長證照</span>
-              <table width="80%">
-                <tr>
-                  <td></td>
-                </tr>
-              </table>
-              <table border="1" width="80%">
-                <tr>
-                  <td align="center"></td>
-                  <td align="center">時 間</td>
-                  <td align="center">課 程 內 容</td>
-                  <td align="center">上課地點</td>
-                </tr>
-                <tr>
-                  <td align="center">學 科</td>
-                  <td align="center">
-                    6堂課程<br/>
-                    每一堂各3hr
-                  </td>
-                  <td align="center">
-                    光圈、快門、ISO設定與焦段選擇<br/>
-                    構圖與採光(陸上外拍，自由參加)<br/>
-                    作品檢討、Raw檔處理<br/>
-                    影像處理技巧、水攝器材介紹<br/>
-                    水下攝影與閃燈運用(泳池外拍，自由參加)<br/>
-                    作品檢討、水下影像處理技巧、繳交5張水下作品<br/>
-                  </td>
-                  <td align="center">
-                    iDiving<br />
-                    教 室
-                  </td>
-                </tr>
-                <tr>
-                  <td align="center">陸上外拍(另計)</td>
-                  <td align="center">半天</td>
-                  <td align="center">M模式實拍、構圖練習</td>
-                  <td align="center">士林官邸</td>
-                </tr>
-                <tr>
-                  <td align="center">泳池外拍(另計)</td>
-                  <td align="center">4hr</td>
-                  <td align="center">閃燈、M模式實拍、構圖練習</td>
-                  <td align="center">松山運動中心</td>
-                </tr>
-              </table>
+          <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+            <tr>
+              <td><img width="50%" src="../Image/Data/PV.jpg"></td>
+            </tr>
+            <tr>
+              <td>
+                <span class="Large Important">
+                  限制條件：（符合其中一項即可）<br>
+                  <ol>
+                    <li>擁有20支以上潛水經驗。</li>
+                    <li>取得完美浮力專長證照。</li>
+                  </ol>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table border="1" width="100%">
+                  <tr>
+                    <td align="center"></td>
+                    <td align="center" style="white-space:nowrap">時 間</td>
+                    <td align="center" width="70%">課 程 內 容</td>
+                    <td align="center">上課地點</td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="white-space:nowrap">學 科</td>
+                    <td align="center">9hr</td>
+                    <td>水攝器材簡介、構圖原理、微距與廣角、相機常用設定、閃燈的應用、準備工作與事後保養、水中拍照守則</td>
+                    <td align="center">
+                      iDiving<br />
+                      教 室
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">泳池</td>
+                    <td align="center">4hr</td>
+                    <td>泳池試拍、微距拍攝技巧練習、廣角拍攝技巧練習</td>
+                    <td align="center">前港特約泳池</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
               ]]>
       </Block>
       <Block id="plan13" caption="開課日期" method="html" back="#top" tag="水下攝影">
         <![CDATA[
-                  <!--<img src="../Image/Data/PH_Schedule.png" width="80%"/>-->
-                  <p>iDiving 樂意為您安排特別的上課時間, 請與我們聯絡。</p>
-              ]]>
+          <table>
+            <tr>
+              <td>第一期 5/6(六), 5/7(日)</td>
+            </tr>
+            <tr>
+              <td>第二期 6/20(二), 6/23(五), 6/29(四), 7/1(六)</td>
+            </tr>
+            <tr>
+              <td>第三期 9/19(二), 9/21(四), 9/22(五), 9/23(六)</td>
+            </tr>
+            <tr>
+              <td>第四期 10/11(三), 10/13(五), 10/19(四), 10/21(六)</td>
+            </tr>
+          </table>
+          <img src="../Image/Data/PV_Schedule.png" width="80%"/>
+        ]]>
       </Block>
       <Block id="tuition13" caption="超值學費" method="html" back="#top" tag="水下攝影">
-          <![CDATA[
-                  <ul>
-                    <li>
-                      <span class="Large Important">學費 4,000 元。</span>
-                    </li>
-                  </ul>
-                  <br/>
-                  <div>費用包含：線上教材、國際證照申請、教練費。</div>
-                  <br/>
-                  <div>費用不含：陸上及泳池外拍的交通、泳池、潛水裝備、氣瓶等費用。</div>
-              ]]>
+        <![CDATA[
+          <ul>
+            <li><span class="Large Focus">定價：7,000 元。</span></li>
+            <li><span class="Large Important">現金優惠：6,000 元。</span></li>
+          </ul>
+          <br/>
+          <div>費用包含：線上教材、國際證照申請、教練費、泳池實習、租用水中相機的費用。</div>
+          <div>費用不含：全套輕重裝備或移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
+        ]]>
         </Block>
     <!--專長學科開課總表-->
     <!--<Block id="curriculum14" caption="課程規劃" method="html" back="#top" tag="專長學科開課總表">
