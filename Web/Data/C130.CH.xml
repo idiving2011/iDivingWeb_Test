@@ -9,7 +9,7 @@
     <Item name="學前須知" href="#notice"></Item>
   </Block>
   <Block id="intro" method="html">
-    <![CDATA[
+    <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
           <td colspan="2">
