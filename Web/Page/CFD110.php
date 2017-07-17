@@ -16,6 +16,7 @@
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
 		<div id="intro" class="ArticleBox"></div>
+    <div id="desc" class="ArticleBox"></div>
 		<div id="curriculum" class="ArticleBox"></div>
 		<div id="plan" class="ArticleBox"></div>
 		<div id="tuition" class="ArticleBox"></div>

@@ -1,239 +1,318 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="自由潛水"/>
-    <Block id="nav" method="nav">
-      <Item name="課程規劃" href="#curriculum"></Item>
-      <Item name="開課日期" href="#plan"></Item>
-      <Item name="超值學費" href="#tuition"></Item>
-      <Item name="立刻報名" href="#register"></Item>
-      <Item name="學前須知" href="#notice"></Item>
-    </Block>
-    <Block id="intro" method="html">
-      <![CDATA[
-            <table width="80%" border="0" cellpadding="5" cellspacing="0">
+  <Block id="title" method="title" text="自由潛水"/>
+  <Block id="nav" method="nav">
+    <Item name="課程說明" href="#desc"></Item>
+    <Item name="課程規劃" href="#curriculum"></Item>
+    <Item name="開課日期" href="#plan"></Item>
+    <Item name="超值學費" href="#tuition"></Item>
+    <Item name="立刻報名" href="#register"></Item>
+    <Item name="學前須知" href="#notice"></Item>
+  </Block>
+  <Block id="intro" method="html">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2"><img src="../Image/Data/FD_AD.PNG" width="100%"/></td>
+        </tr>
+        <tr>
+          <td colspan="2"><strong style="font-size:20px">藉由自由潛水來探索這片新世界！</strong></td>
+        </tr>
+        <tr>
+          <td colspan="2">你有沒有想過能夠像一隻海豚一樣穿梭在這片大海？或著是只靠閉氣就能滑翔於湛藍的海洋之中？現在就快來了解SSI 自由潛水課程，創造屬於自己「極致的潛水體驗」吧！自由潛水現在已經是這個<span class="Important">世界上，從事人口上升速度最快的水上活動了。從事自由潛水比你想像的還容易哦！</span></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_1.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_2.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="desc" caption="課程說明" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>透過下列這些課程，你將能夠學到一些適用於自由潛水的特殊呼吸法，並且透過反覆的練習，讓你更加的適應與熟悉它(就像是利用橫膈膜呼吸的這種特殊技巧)。</td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">自由潛水第1級課程</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD1.jpg" />
+            在初階課程當中，會包含許多自由潛水知識與技巧上的教學，旨在讓你能夠透過最舒適與最安全的自由潛水方法，一路下潛到深度20公尺的海域。接著經過反覆的練習，讓你的身體能夠漸漸適應閉氣的感覺、習慣更有效的閉氣法、訓練出更有彈性的肌肉，在加上一系列足以讓你的自由潛水能力向上提升的必備技能！準備好好的深吸一口氣吧！20M LEVEL 1
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_3.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_4.jpg" width="100%" /></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">自由潛水第2級課程</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD2.jpg" />
+            進階課程會教導你更多有關閉氣潛水的知識，讓你更適應自由潛水這項活動。此外，你還能夠學到進階的平衡技巧、閉氣訓練法以及一些必備的知識，這一切都能夠讓你在進行自由潛水候，能夠不斷的突破自己的極限，甚至是下潛到30公尺深的海域！30M LEVEL 2
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_5.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_6.jpg" width="100%" /></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">自由潛水第3級課程</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD3.jpg" />
+            最頂端的課程！在這個課程，我們將帶你下潛到深度達40公尺的海域！在自由潛水的過程中，將會用掉你肺部內的每一口空氣，因此這可以算是一項專業的深潛課程。為了讓你能夠成功的挑戰它，在自由潛水第三級的課程中，我們將會教導你足以讓你進入這片深藍色大海的充足知識與技巧！40M LEVEL 3
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_7.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_8.jpg" width="100%" /></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>還有更多有趣的事物喔！快來看看我們這些令人興奮的專業課程吧。您可以透過我們的課程成為一位水下數位攝影師或者加入我們的專業課程成為一位自由潛水教練，現在就是將你的潛水生涯帶到更高領域的最好機會。不要忘了，SSI 將是你最值得信賴的夥伴！</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="curriculum" caption="課程規劃" method="html" back="#top">
+    <![CDATA[ 
+      <table border="1" width="70%" style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td rowspan="2" style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：00 ~ 21：30</td>
+          <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            平日晚上<br/>
+            19：00 ~ 21：30
+          </td>
+          <td style="vertical-align:middle;">自由潛水技巧、海洋環境與自由潛水</td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td rowspan="2" style="vertical-align:middle;">泳 池 課 程</td>
+          <td>
+            周 六<br/>
+            11：00 ~ 18：00
+          </td>
+          <td>
+            裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
+            轉身技巧、耳壓平衡技巧、鴨式下潛技巧
+          </td>
+          <td>
+            南 港<br/>
+            運動中心
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            周 日<br/>
+            11：30 ~ 18：00
+          </td>
+          <td>
+            耳壓平衡技巧練習、鴨式下潛練習、5M自由下潛<br/>
+            5M救援技巧、守護員規則與練習、豚式技巧練習
+          </td>
+          <td>
+            南 港<br/>
+            運動中心
+          </td>
+        </tr>
+        <tr align="center">
+          <td rowspan="2" style="vertical-align:middle;">海 洋 實 習</td>
+          <td style="vertical-align:middle;">
+            周 六<br/>
+            9：00 ~ 17：00
+          </td>
+          <td style="vertical-align:middle;">
+            耳壓平衡技巧練習、鴨式下潛練習、10-40M自由下潛<br/>
+            10-25M救援技巧、守護員規則與練習
+          </td>
+          <td>
+            東北角<br/>
+            或搭配<br/>
+            移地課程
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">周 日<br/>9：00 ~ 17：00</td>
+          <td style="vertical-align:middle;">10-40M自由潛水</td>
+          <td>
+            東北角<br/>
+            或搭配<br/>
+            移地課程
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/FD_9.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_10.jpg" width="100%" /></td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
+          <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_12.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="plan" caption="開課日期" method="html" back="#top">
+    <![CDATA[
+            <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+            <table width="70%">
               <tr>
-                <td colspan="3"><img src="../Image/Data/FD_AD.PNG" width="100%"/></td>
-              </tr>
-              <tr>
-                <td colspan="3"><strong style="font-size:20px">藉由自由潛水來探索這片新世界！</strong></td>
-              </tr>
-              <tr>
-                <td colspan="3">你有沒有想過能夠像一隻海豚一樣穿梭在這片大海？或著是只靠閉氣就能滑翔於湛藍的海洋之中？現在就快來了解SSI 自由潛水課程，創造屬於自己「極致的潛水體驗」吧！自由潛水現在已經是這個<span class="Important">世界上，從事人口上升速度最快的水上活動了。從事自由潛水比你想像的還容易哦！</span></td>
-              </tr>
-              <tr>
-                <td>&nbsp;</td>
-              </tr>
-              <tr>
-                <td><img src="../Image/Data/SC_FD1.jpg" width="100%" /></td>
-                <td><img src="../Image/Data/SC_FD2.jpg" width="100%" /></td>
-                <td><img src="../Image/Data/SC_FD3.jpg" width="100%" /></td>
+                <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
               </tr>
             </table>
-          ]]>
-    </Block>
-    <Block id="curriculum" caption="課程規劃" method="html" back="#top">
-      <![CDATA[ 
-            <table border="1" width="80%">
-              <tr align="center">
-                <td></td>
-                <td>時 間</td>
-                <td>課 程 內 容</td>
-                <td>上課地點</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2">學 科</td>
-                <td>
-                  平日晚上<br/>
-                  19：00 ~ 21：30</td>
-                <td>自由潛水裝備、自由潛水生理學</td>
-                <td>
-                  iDiving<br/>
-                  教 室
-                </td>
-              </tr>
-              <tr align="center">
-                <td>
-                  平日晚上<br/>
-                  19：00 ~ 21：30
-                </td>
-                <td>自由潛水技巧、海洋環境與自由潛水</td>
-                <td>
-                  iDiving<br/>
-                  教 室
-                </td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2">泳 池 課 程</td>
-                <td>
-                  周 六<br/>
-                  11：00 ~ 18：00
-                </td>
-                <td>
-                  裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
-                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧
-                </td>
-                <td>
-                  南 港<br/>
-                  運動中心
-                </td>
-              </tr>
-              <tr align="center">
-                <td>
-                  周 日<br/>
-                  11：30 ~ 18：00
-                </td>
-                <td>
-                  耳壓平衡技巧練習、鴨式下潛練習、5M自由下潛<br/>
-                  5M救援技巧、守護員規則與練習、豚式技巧練習
-                </td>
-                <td>
-                  南 港<br/>
-                  運動中心
-                </td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2">海 洋 實 習</td>
-                <td>
-                  周 六<br/>
-                  9：00 ~ 17：00
-                </td>
-                <td>
-                  耳壓平衡技巧練習、鴨式下潛練習、10-40M自由下潛<br/>
-                  10-25M救援技巧、守護員規則與練習
-                </td>
-                <td>
-                  東北角<br/>
-                  或搭配<br/>
-                  移地課程
-                </td>
-              </tr>
-              <tr align="center">
-                <td>周 日<br/>9：00 ~ 17：00</td>
-                <td>10-40M自由潛水</td>
-                <td>
-                  東北角<br/>
-                  或搭配<br/>
-                  移地課程
-                </td>
-              </tr>
-            </table>
-        ]]>
-    </Block>
-    <Block id="plan" caption="開課日期" method="html" back="#top">
-      <![CDATA[
-              <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-              <table width="80%">
-                <tr>
-                  <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
-                </tr>
-              </table>
-          ]]>
-    </Block>
-    <Block id="tuition" caption="超值學費" method="html" back="#top">
-        <![CDATA[
-            <table width="80%" border="0" cellpadding="5" cellspacing="0">
-              <tr>
-                <td colspan="2"><span class="Large">iDiving 超殺優惠價</span></td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-                <td rowspan="4" width="45%"><img src="../Image/Data/FD.jpg" width="100%" /></td>
-              </tr>
-              <tr>
-				<td>&nbsp;</td>
-                <td>
-                 <span class="Large Focus">LV1：12,000 元</span><br/>
-                 <span class="Large Focus">LV2：14,000 元</span><br/>
-                 <span class="Large Focus">LV3：16,000 元</span>
-               </td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-              </tr>
-              <tr>
-                <td nowrap>費用包含：</td>
-                <td>SSI線上教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險、訓練期間的潛水裝備提供（不含電腦錶）。</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-              </tr>
-              <tr>
-                <td>費用不含：</td>
-				<td><span class="Note">海洋實習交通費、餐費。</span></td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-              </tr>
-            </table>
-          ]]>
-    </Block>
-    <Block id="register" caption="報名方式" method="html" back="#top">
-      <![CDATA[
-              <ol>
-                  <li>網路填寫報名資料並匯款訂金。</li>
-                  <li>來店洽詢並繳交訂金。</li>
-              </ol>
-          ]]>
-    </Block>
-    <Block id="processing" caption="網路報名流程" method="html" back="#top">
-      <![CDATA[
-              <ol>
-                <li><a href="CZ01.php">線上填寫報名表</a></li>
-              <li>
-                繳交訂金3000元，<br/>
-                銀行：中國信託   戶名：愛潛水股份有限公司<br/>
-                代號：822  分行：士林分行  帳號：285-54009941-9
-              </li>
-              <li>
-                以匯款方式繳費者請來電(02-2882-7696)告知帳號末５碼<br>
-                營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
-              </li>
-              <li>收到訂金與資料後，iDiving會至SSI全球官網註冊您的學籍。<span class="Important">一經註冊，請恕無法退訂金。</span></li>
-              <li>上課前請準備好二吋照片電子檔佳，申請潛水證照使用</li>
-              </ol>
-          ]]>
-    </Block>
-    <Block id="notice" caption="學前須知" method="html" back="#top">
-      <![CDATA[
-              <ol>
-                <table width="80%" border="0" cellpadding="0" cellspacing="0">
+    ]]>
+  </Block>
+  <Block id="tuition" caption="超值學費" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <Ul>
+              <li><span class="Important">LV1 ~ LV3 皆享有現金優惠，折扣 1,000 元。</span></li>
+              <li><span class="Important">iDiving 水肺初階課程學生報名 FD-LV1 課程可享 1,000 元折扣！</span></li>
+              <li><span class="Large Focus">LV1：16,000 元</span></li>
+                <table width="100%" style="text-align: justify;">
                   <tr>
-                    <td>
-                      <li>
-                        iDiving採保證班的教學方式，如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於2
-                        個月內完成 (9月後報名隔年5月前完成)。約定日期之更改須在15天前告知。15天內更動
-                        或未告知而曠課，補課需額外負擔1000元，身體不適，出示醫院掛號收據者不收。
-                      </li>
-                    </td>
+                    <td nowrap>費用包含：</td>
+                    <td><span class="Important">贈品</span>、SSI線上教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險、訓練期間的潛水裝備提供（不含電腦錶）。</td>
                   </tr>
                   <tr>
-                    <td>
-                      <li>
-                        若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，
-                        繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。
-                      </li>
-                    </td>
+                    <td>費用不含：</td>
+                    <td><span class="Note">海洋實習交通費</span>、餐費。</td>
                   </tr>
+                </table>
+                <table width="100%" style="text-align: justify;">
                   <tr>
-                    <td>
-                      <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
-                    </td>
+                    <td colspan="3"><span class="Important">贈品：全套總價 3,860 元</span></td>
                   </tr>
-                  <tr>
-                    <td>
-                      <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
-                    </td>
+                  <tr align="center">
+                    <td><img src="../Image/Data/FD_14.jpg" width="80%" /></td>
+                    <td><img src="../Image/Data/FD_15.jpg" width="80%" /></td>
+                    <td><img src="../Image/Data/FD_16.jpg" width="80%" /></td>
                   </tr>
-                  <tr>
+                  <tr align="center">
+                    <td>面鏡SPHERA（市價 1,800）</td>
+                    <td>呼吸管（市價 780）</td>
                     <td>
-                      <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <li>學員結訓後，訓練中心將於兩週內完成SSI國際潛水證照申請作業。<br/>
-                      （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
-                      </li>
+                      配重帶（市價 1,280）<br>
+                      彩色款 +300 元
                     </td>
                   </tr>
                 </table>
-              </ol>
-          ]]>
-    </Block>
+              <br>
+              <li><span class="Important">他店學生來 iDiving 進行後續課程，欲取得 LV1 課程贈品，享加購價 3,000 元</span></li>
+              <li><span class="Large Focus">LV2：15,000 元</span></li>
+              <li><span class="Large Focus">LV3：17,000 元</span></li>
+              <li><span class="Large Focus">參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+            </Ul>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="register" caption="報名方式" method="html" back="#top">
+    <![CDATA[
+      <ol>
+          <li>網路填寫報名資料並匯款訂金。</li>
+          <li>來店洽詢並繳交訂金。</li>
+      </ol>
+    ]]>
+  </Block>
+  <Block id="processing" caption="網路報名流程" method="html" back="#top">
+    <![CDATA[
+      <ol>
+      <li><a href="CZ01.php">線上填寫報名表</a></li>
+      <li>
+        繳交訂金 3,000 元，<br/>
+        銀行：中國信託<br/>
+        分行：士林分行<br/>
+        戶名：愛潛水股份有限公司<br/>
+        代號：822<br/>
+        帳號：285-54009941-9
+      </li>
+      <li>
+        以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
+        營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
+      </li>
+      <li>收到訂金與資料後，iDiving 會至 SSI 全球官網註冊您的學籍。<span class="Important">一經註冊，請恕無法退訂金。</span></li>
+      <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
+    </ol>
+    ]]>
+  </Block>
+  <Block id="notice" caption="學前須知" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ol>
+              <li>iDiving採保證班的教學方式，如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
+              <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
+              <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
+              <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
+              <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
+              <li>
+                學員結訓後，訓練中心將於兩週內完成 SSI 國際潛水證照申請作業。<br>
+                （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
+              </li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
 </Data>
