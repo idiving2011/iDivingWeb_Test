@@ -23,22 +23,24 @@
 		  <div id="curriculum1" class="ArticleBox"></div>
 		  <div id="plan1" class="ArticleBox"></div>
 		  <div id="tuition1" class="ArticleBox"></div>
+      <div id="register1" class="ArticleBox"></div>
+      <div id="processing1" class="ArticleBox"></div>
+      <div id="notice1" class="ArticleBox"></div>
 
       <!-- 平日班(適合自行排休者) -->
       <div id="dock2" class="Block"></div>
       <div id="curriculum2" class="ArticleBox"></div>
       <div id="plan2" class="ArticleBox"></div>
       <div id="tuition2" class="ArticleBox"></div>
+      <div id="register2" class="ArticleBox"></div>
+      <div id="processing2" class="ArticleBox"></div>
+      <div id="notice2" class="ArticleBox"></div>
 
       <!-- 平日班(適合自行排休者) -->
       <div id="dock3" class="Block"></div>
       <div id="curriculum3" class="ArticleBox"></div>
       <div id="plan3" class="ArticleBox"></div>
       <div id="tuition3" class="ArticleBox"></div>
-      
-		  <div id="register" class="ArticleBox"></div>
-		  <div id="processing" class="ArticleBox"></div>
-		  <div id="notice" class="ArticleBox"></div>
     </div>
     <?php include "../Part/Foot.php" ; ?>
 </body>
