@@ -495,174 +495,49 @@
         <Item name="課程規劃" href="#curriculum3"></Item>
         <Item name="開課日期" href="#plan3"></Item>
         <Item name="超值學費" href="#tuition3"></Item>
-        <Item name="立刻報名" href="#register"></Item>
-        <Item name="學前須知" href="#notice"></Item>
     </Block>
     <Block id="curriculum3" caption="課程規劃" method="html" back="#top" tag="特別約定班(適合特殊放假模式)">
       <![CDATA[ 
-            <table border="0" width="80%">
-              <tr>
-                <td>您的排休無法自行安排又充滿變數嗎？ iDiving 為平日班的課程增加額外的彈性，您可以先報名平日班，再客製化您的專屬上課時間！</td>
-              </tr>
-            </table>
-        ]]>
+        <table width="70%" style="text-align: justify;">
+          <tr>
+            <td>您的排休無法自行安排又充滿變數嗎？ iDiving 為課程增加額外的彈性，您可以先報名平日班，再客製化您的專屬上課時間！</td>
+          </tr>
+        </table>
+      ]]>
     </Block>
     <Block id="plan3" caption="開課日期" method="html" back="#top" tag="特別約定班(適合特殊放假模式)">
       <![CDATA[
-            <table border="0" width="80%">
-              <tr>
-                <td>請參考平日班，客製化時間請與 iDiving 聯繫規劃 ! </td>
-              </tr>
-            </table>
-        ]]>
+        <table width="70%" style="text-align: justify;">
+          <tr>
+            <td>請參考平日班或假日班，客製化時間請與 iDiving 聯繫規劃 ! </td>
+          </tr>
+        </table>
+      ]]>
     </Block>    
     <Block id="tuition3" caption="超值學費" method="html" back="#top" tag="特別約定班(適合特殊放假模式)">
       <![CDATA[
-            <ul>
-              <li>可搭配平日固定班排課，若時間無法配合則可以與iDiving另外約定時間上課！平日固定班資訊<span class="Link" data-tab="2">請參照平日班。</span></li>
-              <li>特殊約定課程費用</li>
-                <ul class="Disc">
-                  <li><span class="Large Focus">教室學科為兩日完成，每另外約一日課程加價 300 元</span></li>
-                  <li><span class="Large Focus">術科共計４日可完成，每額外約定一日加價 500 元</span></li>
-                  <li><span class="Large Focus">三人同行，一起約定特殊時間上課，則不須額外加價。</span></li>
-                </ul>
-            </ul>
-            <br>
-             <table width="80%" border="0" cellpadding="0" cellspacing="0">
-            <tr>
-              <td nowrap>費用包含：</td>
-              <td><span class="Important">贈品</span>、SSI線上數位教材、實體潛水日誌、國際證照申請、教練費、泳池場地費、東北角海洋實習費用、訓練期間潛水重裝備使用（浮力調整裝置、調節器與電腦錶）、旅遊平安保險。</td>
-            </tr>
-            <tr>
-              <td>費用不含：</td>
-              <td><span class="Note">訓練期間輕裝備使用（面鏡、呼吸管、防寒衣、套鞋、蛙鞋等）、海洋實習交通費、餐費、海洋公園門票（考量天候因素，須至海洋公園結訓時）。<span class="Important">特殊約定課程費用（請參照上方第二項）</span></span></td>
-            </tr>
-            <tr>
-              <td nowrap>指定教練費：</td>
-              <td><span>指定教練，加價 500 元/日，教練如果已安排既定課程或是出團，恕無法指定。</td>
-            </tr>
-          </table>
-        ]]>
-    </Block>
-  
-    <Block id="register" caption="報名方式" method="html" back="#top">
-      <![CDATA[
-            <ol>
-                <li>網路填寫報名資料並匯款訂金。</li>
-                <li>來店洽詢並繳交訂金。</li>
-            </ol>
-        ]]>
-    </Block>
-    <Block id="processing" caption="網路報名流程" method="html" back="#top">
-      <![CDATA[
-            <ol>
-              <li><a href="CZ01.php">線上填寫報名表</a></li>
-              <li>
-                繳交訂金 3,000 元，<br/>
-                銀行：中國信託<br/>
-                分行：士林分行<br/>
-                戶名：愛潛水股份有限公司<br/>
-                代號：822<br/>
-                帳號：285-54009941-9
-              </li>
-              <li>
-                以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
-                營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
-              </li>
-              <li>收到訂金與資料後，iDiving 會至 SSI 全球官網註冊您的學籍。<span class="Important">一經註冊，請恕無法退訂金。</span></li>
-              <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
-            </ol>
-        ]]>
-    </Block>
-    <Block id="notice" caption="學前須知" method="html" back="#top">
-      <![CDATA[
-            <ol>
+        <table width="70%" style="text-align: justify;">
+          <tr>
+            <td>
+              <ul>
+                <li>可搭配平日固定班排課，若時間無法配合則可以與 iDiving 另外約定時間上課！平日固定班資訊<span class="Link" data-tab="2">請參照平日班。</span></li>
+                <li>特殊約定課程費用</li>
+                  <ul class="Disc">
+                    <li><span class="Large Focus">教室學科部份，每另外約一日課程加價 300 元</span></li>
+                    <li><span class="Large Focus">術科共計４日可完成，每額外約定一日加價 500 元</span></li>
+                    <li><span class="Large Focus">三人同行，一起約定特殊時間上課，則不須額外加價。</span></li>
+                  </ul>
+              </ul>
+              <br>
               <table width="80%" border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td>
-                    <li>
-                      iDiving 採保證班的教學方式，如果學員須複習或延訓，不另外加收訓練費或裝備使用費。
-                      但因故自行拖延上課，導致學習效果不佳，所衍生的泳池費用需自行吸收。所有課程須於2
-                      個月內完成（9 月後報名隔年 5 月前完成）。約定日期之更改須在 15 天前告知。15 天內更動
-                      或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。
-                    </li>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <li>
-                      本訓練中心除了報名時收取的學費及購買器材之費用外，訓練期間不另外收取其他費用。<br/>
-                      <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                        <tr>
-                          <td nowrap>訓練費用包含：</td>
-                          <td>線上教材費、教練費、泳池場地費、訓練期間潛水重裝備使用（浮力調整裝置、調節器與電腦錶）、海洋實習保險及證照申請費。</td>
-                        </tr>
-                        <tr>
-                          <td>訓練費用不含：</td>
-                          <td>上課期間，如無輕裝者須額外租借，亦不含餐飲與交通費用。</td>
-                        </tr>
-                      </table>
-                    </li>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <li>
-                      學員自行放棄課程，本訓練中心將不予退費。因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用退費方式說明如下：<br/>
-                      3,000 元訂金用做購買線上教材，無法退費；<br/>
-                      開課前 30 天以上，退回全新贈品，可退費 12,000；<br/>
-                      開課前 30 天以內，退回全新贈品，可退費 10,000；<br/>
-                      上過學科，退回全新贈品，可退費 9,000；<br/>
-                      贈品已使用或上過泳池課：可退費 4,000；<br/>
-                      上過海洋實習課程：不可退費。
-                    </li>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <li>學員在學期間購買潛水器材享有會員優惠價。</li>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <li>訓練期間所提供之裝備若有穿戴不適或任何問題，請務必告知主持教練。</li>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <li>課程之訓練費用、器材之購買費用與2吋大頭照一張，請於術科前繳齊。</li>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <li>上課地點，往返之交通請自行處理<br>
-                      <ul>
-                        <li>教室學科：iDiving　<a href="https://maps.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%978%E8%99%9F" target="_blank">台北市士林區前港街8號</a><br></li>
-                        <li>泳池場地：前港泳池與南港運動中心（潛水池）<!--<a href="http://ngsc.cyc.org.tw/" target="_blank">南港運動中心</a> (潛水池)--></li>
-                        <li>海洋實習：<!--<a href="https://www.google.com.tw/maps?q=%E6%96%B0%E5%8C%97%E5%B8%82%E8%B2%A2%E5%AF%AE%E5%8D%80%E6%9D%B1%E5%8C%97%E8%A7%92%E6%BD%9B%E6%B0%B4%E5%AE%A2%E6%A3%A7&hl=zh-TW&ie=UTF8&ll=25.118515,121.917858&spn=0.017408,0.012081&sll=25.117835,121.916941&sspn=0.004352,0.00302&oq=%E6%9D%B1%E5%8C%97%E8%A7%92&brcurrent=3,0x345d4cdf85f98b05:0x682a7dd59a1398fa,0,0x345d5538b0b6645f:0x5aa90dfa6620edc0&hq=%E6%9D%B1%E5%8C%97%E8%A7%92%E6%BD%9B%E6%B0%B4%E5%AE%A2%E6%A3%A7&hnear=%E6%96%B0%E5%8C%97%E5%B8%82%E8%B2%A2%E5%AF%AE%E5%8D%80&t=m&z=16&iwloc=A" target="_blank">東北角</a> -->東北角餐食自理，協調得宜若至餐廳用餐則費用均攤。<br></li>
-                      </ul>
-                    </li>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <li>結訓之學員均需達到初級潛水員之標準，此標準包括學科與術科之評鑑：
-                      <ul>
-                        <li>學科：需通過 50 題測驗，成績 80 分以上（答對 40 題以上），未達標準需在檢討後重考。</li>
-                        <li>術科：平靜水域所學之潛水技巧須在開放水域操作，接受教練評鑑。</li>
-                      </ul>
-                    </li>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <li>學員結訓後，訓練中心將於兩週內完成 SSI 國際潛水證照申請作業。
-                    （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
-                    </li>
-                  </td>
+                  <td width="1%" nowrap>指定教練費：</td>
+                  <td><span>指定教練，加價 500 元/日，教練如果已安排既定課程或是出團，恕無法指定。</td>
                 </tr>
               </table>
-            </ol>
-        ]]>
+            </td>
+          </tr>
+        </table>
+      ]]>
     </Block>
 </Data>
