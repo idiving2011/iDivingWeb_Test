@@ -1,16 +1,252 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <Block id="title" method="title" text="印尼 峇里島"/>
-  <!--<Block id="nav" method="nav">
+  <Block id="title" method="title" text="峇里島"/>
+  <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
     <Item name="著名潛點" href="#DiveSite"></Item>
     <Item name="行程表" href="#schedule"></Item>
     <Item name="注意事項" href="#notice"></Item>
-  </Block>-->
-  <Block id="intro" method="html">
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-            <br/><br/><br/><br/>
-			  <div style="text-align:center"><img src="../Image/Data/UnderConstruction.jpg"/></div>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong>印尼</strong><br/>
+            印度尼西亞共和國，簡稱印尼，為東南亞國家；約由17,508個島嶼組成，是世界上最大的群島國家，疆域橫跨亞洲及大洋洲，別稱「萬島之國」也是東南亞最大的國家。印度尼西亞人口超過2.58億，為世界上人口第四多的國家。五個最大的島嶼分別是蘇門答臘島(Sumatra)、爪哇島(Java)、加里曼丹島(Kalimantan台灣俗稱：婆羅洲Borneo)、蘇拉威西島(Sulawesi)與巴布亞島(Papua)。首都是在爪哇島上的雅加達(Jakarta)。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/Bali_01.jpg" width="100%"></td>
+        <tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>氣候</strong><br/>
+            印尼地處赤道周邊，屬於熱帶性氣候，一年四季都是夏天的氣溫，根據季風而分成乾、濕季，11月到3月雨季時，幾乎天天都是暴雨，濕度非常高，4月到10月乾季時，整天都是烈日當空，非常炎熱。<br/><br/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>人文</strong><br/>
+            印尼有300多個民族及七百多種方言，南島語族後裔與爪哇族為最大族群，但七成的商業與財富都掌握在僅占3~4%的印尼華人手上，因此曾長期發生排華運動。官方語言為印尼語，約90%的人都篤信伊斯蘭教，其他像基督教、天主教、印度教、佛教則佔少數(峇里島較特別，以印度教為主，伊斯蘭教則為少數)。由於大量的穆斯林的關係，飲食方面很少機會吃到豬肉，大部分以雞肉、牛肉、海鮮為主。而隨處可見的清真寺，會在一天中固定五次的禱告膜拜時間發送禱告誦經，不管在屋內還是走路都能聽到這些禱告聲，初次來印尼的可能會不習慣在半夜4~5點日出前就被晨禮的誦經聲吵醒了。<br/><br/>
+          </td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="5">
+            <strong>地點</strong><br/>
+            Bali峇里島，是印尼34個行政區之一，也是著名的旅遊勝地。全島大部分為山地，有四座以上的錐形火山峰，最高峰阿貢火山最為有名，也是仍在活動期的活火山。與台灣沒有時差，從台灣飛過去的路程大約為5小時。11月至隔年的3月為雨季，吹西北季風，4月至10月為乾季，也是最適合來此旅遊的時間點。一般來峇里島潛水都是到東北區的土蘭奔(Tulamben)看看自由號沈船與微距或者是去東南邊的三個小島(Nusa Penida, Cenningan island與Nusa Lembongan)看翻車魚(僅8~10月有機會)。<br/><br/>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/Bali_02.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Bali_03.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Bali_04.jpg" width="100%"></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="5">Liberty Dive Resort擁有32間的獨棟木屋、花園、三個泳池，為您提供最乾淨舒適的住宿空間，有冷氣、Wifi，讓所有住宿的貴賓能夠放鬆心情，盡情享受渡假的悠閒，著名的潛點幾乎都以輕鬆的岸潛方式就可到達，還有人幫忙組裝與扛裝備的優質服務，每一潛結束就可以到泳池邊喝冰茶、吃點水果、泡泡泳池的水，馬上就可以恢復體力繼續下一支潛水，讓每一支都成為享受。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>USAT Liberty Shipwreck</td>
+        </tr>
+        <tr>
+          <td>自由號沈船離土蘭奔卵石海灘僅40米，沈船長度約120米，船體分佈從深度3米~30米，遍佈各式軟硬珊瑚，雖然沒有很完整的船體，但在一入水淺淺的5M就可以辨識船尾的方向舵，沿著船體往船頭的方向前進，可常見JACKFISH魚群、隆頭鸚哥、梭魚、大石斑、葉魚、鬼龍、金黃色條紋或斑點的石鱸，專門啃珊瑚的隆頭鶯歌群，在深度較大的海扇上也住著豆丁海馬，這是個微距廣角都能拍到佳作的潛點。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Coral Garden</td>
+        </tr>
+        <tr>
+          <td>位於自由號沈船與斷層之間的一片長長的淺礁區，就是珊瑚花園，她是一片具有豐富生物的沙礁混合區，十字鬼龍、五彩鰻、三棘高身鮋、笛鯛、龍占魚都可以在這兒發現。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Seraya Secrets</td>
+        </tr>
+        <tr>
+          <td>在土藍奔東南部的一個海灣，是一個非常著名的微距潛水地點，表面上看起來是個其貌不樣的地方，因為一下水就是整片的黑沙地，缺乏主要的珊瑚，但是各式蛙蛙魚、十字鬼龍、海鰻、獅子魚、海葵蝦、海馬、花枝、秘密客、各式的海蛞蝓…..就是一個微距的天堂。</td>
+        </tr>
+      </table>
+      <br>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Bali_05.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Bali_06.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="schedule" caption="行程表" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            第一天<br>
+            台北／峇里島~ TULAMBEN  CI-771 0915/1420<br>
+            集合於桃園機場，飛行約五個多小時，抵達美麗的渡假島嶼～峇里島，抵達後專車接往潛水聖地－TULAMBEN辦理CHECK IN手續。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天 (4支岸潛)<br>
+            享用早餐後，於TULAMBAN沉船或附近潛點潛水，潛水的空檔回到渡假村可以泡在泳池裡享受著冰涼的飲料與水果，午餐與晚餐皆在飯店享用，餐後可自由活動。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天 (3支岸潛+1支夜潛)<br>
+            享用早餐後，於TULAMBAN沉船或附近潛點潛水，潛水的空檔回到渡假村可以泡在泳池裡享受著冰涼的飲料與水果，午餐與晚餐皆在飯店享用，餐後可自由活動。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第四天 (2支岸潛)<br>
+            享用早餐後，於TULAMBAN沉船或附近潛點潛水，潛水的空檔回到渡假村可以泡在泳池裡享受著冰涼的飲料與水果，午餐與晚餐皆在飯店享用，餐後可自由活動。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第五天 峇里島／台北 CI-772 1530/2040<br>
+            享用早餐後，在依依不捨的告別聲中結束此難忘的巴里島潛水之旅，搭乘接駁專車前往機場搭機途中會在先在市區享用午餐，再返回溫暖的家。
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Bali_07.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Bali_08.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：NT$ 26,000　現金優惠價：NT$ 25,000</li>
+        <li>會員價： NT$ 25,000　會員現金優惠價：NT$ 24,000</li>
+      </ul>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>包　含：</td>
+          <td>峇里島五天四夜，機場來回接駁，食宿，二佰萬旅遊平安險及二十萬醫療險、氣瓶、導潛，配重帶。</td>
+        </tr>
+        <tr>
+          <td width="1%" nowrap>不包含：</td>
+          <td>台北/峇里島來回經濟艙機票，巴里島機場稅(Rp 150,000.-)，第一天午餐，第五天午餐，護照、小費、其他個人支出，行李超重、含酒精飲料、電話費等。<span class="Large Important">小費：帶隊教練統一收取 (300元＊5天＝1,500)</span></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+            <table width="70%" style="text-align: justify;">
+                <tr>
+                  <td>
+                    <ol>
+                      <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+                      <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                      <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+                      <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+                      <li>
+                        若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                        <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                      </li>
+                      <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                      <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                        <ul>
+                          <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                          <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                        </ul>
+                      </li>
+                      <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+                      <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+                      <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+                      <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                      <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                      <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                      <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+                    </ol>
+                  </td>
+                </tr>
+              </table>
+        ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+            <br/>
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：張智堯</td>
+                <td>行動電話：0928-125300</td>
+              </tr>
+              <tr align="center">
+                <td>TEL:02-2882-7696</td>
+                <td>FAX:02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl: info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL: 02-2517-1333</td>
+                <td>FAX: 02-2508-1537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+              </tr>
+            </table>
         ]]>
   </Block>
 </Data>
