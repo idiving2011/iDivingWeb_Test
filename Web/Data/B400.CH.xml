@@ -2,25 +2,49 @@
 <Data>
   <Block id="title" method="title" text="俱樂部"/>
   <Block id="nav" method="nav">
-      <Item name="宗旨" href="#aim"></Item>
-      <Item name="加入方式" href="#join"></Item>
-      <Item name="好康優惠" href="#advantage"></Item>
-      <Item name="注意事項" href="#note"></Item>
+    <Item name="宗旨" href="#aim"></Item>
+    <Item name="加入方式" href="#join"></Item>
+    <Item name="報名活動" href="#signup"></Item>
+    <Item name="好康優惠" href="#advantage"></Item>
+    <Item name="注意事項" href="#note"></Item>
   </Block>
   <Block id="aim" caption="Serious diving serious fun" method="html" back="#top">
     <![CDATA[ 
-          <div>iDiving 俱樂部成立之目的，是為了提供潛水同好一個培養潛水活力的環境</div>
-          <div>藉由各項潛水活動的進行，凝聚會員之間的向心力</div>
-          <div>並培養彼此互助合作的精神，增進潛水的樂趣與安全</div>
-          <div>不定期舉辦各類型潛水講座，同時提升會員的樂趣與知性</div>
-      ]]>
+      <div>iDiving 俱樂部成立之目的，是為了提供潛水同好一個培養潛水活力的環境</div>
+      <div>藉由各項潛水活動的進行，凝聚會員之間的向心力</div>
+      <div>並培養彼此互助合作的精神，增進潛水的樂趣與安全</div>
+      <div>不定期舉辦各類型潛水講座，同時提升會員的樂趣與知性</div>
+     ]]>
   </Block>
   <Block id="join" caption="一起來 Happy" method="html" back="#top">
     <![CDATA[ 
-          <div>繳交俱樂部年費（NT 3,000元）即可享有會員資格。</div>
-          <div>往後延續會員資格時，只需繳交 2,000 元即可。</div>
-          <div>會員效期：每年4/1 ~ 隔年3/31；首次入會效期多一年！</div>
-      ]]>
+      <div>繳交俱樂部年費（NT 3,000元）即可享有會員資格。</div>
+      <div>往後延續會員資格時，只需繳交 2,000 元即可。</div>
+      <div>會員效期：每年4/1 ~ 隔年3/31；首次入會效期多一年！</div>
+    ]]>
+  </Block>
+  <Block id="signup" caption="報名活動" method="html" back="#top">
+    <![CDATA[
+      <a href="https://goo.gl/forms/McJRG2mL7deZ8o3b2" target="_blank">東北角水肺活動報名表</a>
+      <ul>
+        <li>每周３開放往後兩周活動報名</li>
+        <li>報名表內會列出活動地點</li>
+        <li>東北角活動無須繳交訂金，詳細規則請參考報名資訊</li>
+      </ul>
+      <br/>
+      <a href="https://goo.gl/forms/AFgsrUnZYexX7L1i1" target="_blank">墾丁/離島水肺活動報名表</a>
+      <ul>
+        <li>每年年底會公布次年所有活動</li>
+        <li>加開團會由ｌｉｎｅ＠邀請會員參與活動</li>
+        <li>報名後請務必繳交訂金，才算報名完成！</li>
+      </ul>
+      <br/>
+      <a href="https://goo.gl/forms/kuf2HcbIe4TIhXWd2" target="_blank">東北角自由潛水活動報名表</a>
+      <ul>
+        <li>每月於報名表公布次月活動日期</li>
+        <li>東北角活動無須繳交訂金，詳細規則請參考報名資訊</li>
+      </ul>
+    ]]>
   </Block>
   <Block id="advantage" caption="優惠 A 好康" method="html" back="#top">
     <![CDATA[
@@ -33,7 +57,6 @@
             <li>達 500 支氣瓶，頒發金牌潛水員 Gold Diver。</li>
             <li>達 1000 支氣瓶，頒發白金潛水員 Platinum Diver。</li>
           </ul>
-          </span>
           <br/>
           <span class="Large Focus">集點活動</span>
           <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
