@@ -260,42 +260,42 @@
   </Block>
   <Block id="agency" caption="協辦旅行社" method="html" back="#top">
     <![CDATA[
-          <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
-          <br/>
-          <table border="1" cellpadding="0" cellspacing="0" width="70%">
-            <tr align="center">
-              <td rowspan="4" style="vertical-align: middle">主辦單位</td>
-              <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
-              <td>承辦人：張智堯</td>
-              <td>行動電話：0928-125300</td>
-            </tr>
-            <tr align="center">
-              <td>TEL:02-2882-7696</td>
-              <td>FAX:02-2882-7656</td>
-            </tr>
-            <tr align="center">
-              <td colspan="2">E-MAILl: info@idiving.com.tw</td>
-            </tr>
-            <tr align="center">
-              <td colspan="2">地址：台北市前港街8號</td>
-            </tr>
-            <tr align="center">
-              <td rowspan="4" style="vertical-align: middle">協辦單位</td>
-              <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
-              <td>業務請洽：蘇恒璀</td>
-              <td>行動電話：0937-196518</td>
-            </tr>
-            <tr align="center">
-              <td>TEL: 02-2517-1333</td>
-              <td>FAX: 02-2508-1537</td>
-            </tr>
-            <tr align="center">
-              <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
-            </tr>
-            <tr align="center">
-              <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
-            </tr>
-          </table>
-      ]]>
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+            <br/>
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：愛潛水</td>
+                <td>行動電話：0909-097696</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2882-7696</td>
+                <td>FAX：02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl：info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2517-1333</td>
+                <td>FAX：02-2508-1537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+              </tr>
+            </table>
+        ]]>
   </Block>
 </Data>
