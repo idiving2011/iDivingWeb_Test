@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="FDI"/>
+  <Block id="nav" method="nav">
+    <Item name="課程說明" href="#desc"></Item>
+    <Item name="課程規劃" href="#curriculum"></Item>
+    <Item name="開課日期" href="#plan"></Item>
+    <Item name="超值學費" href="#tuition"></Item>
+    <Item name="立刻報名" href="#register"></Item>
+    <Item name="學前須知" href="#notice"></Item>
+  </Block>
+  <Block id="intro" method="html">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2"><img src="../Image/Data/FDI_1.jpg" width="100%"/></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="desc" caption="課程說明" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">Level 1 自由潛水教練</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/FDI_L1.jpg" />
+            你是否曾經夢想過像海豚一樣游泳? 或者想知道只靠着一口氣在海洋滑翔是什麼感覺? 如果是，你應該了解更多關於SSI自由潛水課程，在課程中，你將學習以自己的節奏進行自由潛水。 完成教練培訓課程後, 你就可以成為SSI 基礎自由潛水教練，或是泳池自由潛水教練或是 Level 1 自由潛水教練。
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">Level 2自由潛水教練</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/FDI_L2.jpg" />
+            Level 2 自由潛水教練為您提供攸關哺乳類動物潛水反射的更多知識，以及如何啟動最適用於自由潛水反射的刺激。您將學習新的進階平壓技巧與閉氣訓練方法，帶領你超過20米，也發展自由潛水深達30米所需要的技巧。完成後，您將成為SSI Level 2自由潛水教練。
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">Level 3 自由潛水教練</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/FDI_L3.jpg" />
+            SSI Level 3 自由潛水教練將帶你到40米的深度。進行肺部加壓至低於肺餘容積的自由潛水試煉，這是專業的深潛課程，並將激發您的潛水專業知識，以帶您進入深藍未知的大海。完成後，您將取得SSI Level 3 自由潛水教練。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="curriculum" caption="課程規劃" method="html" back="#top">
+    <![CDATA[ 
+      <table border="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li>自由潛水教練 Level１：6 天課程：含協助一次 LV1 課程與 3 天教練培訓</li>
+              <li>自由潛水教練 Level２或 3：3 天課程：視教練候選員情況特別規劃</li>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/FDI_2.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="plan" caption="開課日期" method="html" back="#top">
+    <![CDATA[
+      <table border="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li>自由潛水教練 Level１：夏季課程，請來電與教練一同規劃專屬於您的教練課程</li>
+              <li>自由潛水教練 Level２：秋季課程，每年10-11月視情況開班！</li>
+              <li>自由潛水教練 Level３：特殊教練課程，只接受特別預定！</li>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="tuition" caption="超值學費" method="html" back="#top">
+    <![CDATA[
+      <table border="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li>自由潛水教練 Level１：36,000</li>
+              <li>自由潛水教練 Level２：18,000</li>
+              <li>自由潛水教練 Level３：18,000</li>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="register" caption="立刻報名" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/FDI_3.jpg" width="100%" /></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><a href="mailto:kankp726@gmail.com">請 Email 與阿甘教練聯繫</a></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="notice" caption="學前須知" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>各級教練培訓課程非保證班教學</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+</Data>
