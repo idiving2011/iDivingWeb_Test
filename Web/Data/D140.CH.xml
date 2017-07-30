@@ -4,7 +4,7 @@
   <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
     <Item name="著名潛點" href="#DiveSite"></Item>
-    <Item name="行程表" href="#schedule"></Item>
+    <Item name="建議行程" href="#schedule"></Item>
     <Item name="費用說明" href="#price"></Item>
     <Item name="注意事項" href="#notice"></Item>
   </Block>
@@ -103,7 +103,7 @@
       </table>
      ]]>
   </Block>
-  <Block id="schedule" caption="行程表" method="html" back="#top">
+  <Block id="schedule" caption="建議行程" method="html" back="#top">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>

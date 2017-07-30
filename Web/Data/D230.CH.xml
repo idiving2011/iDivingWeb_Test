@@ -3,7 +3,7 @@
   <Block id="title" method="title" text="杜馬蓋地"/>
   <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
-    <Item name="行程表" href="#schedule"></Item>
+    <Item name="建議行程" href="#schedule"></Item>
     <!--<Item name="費用說明" href="#price"></Item>-->
     <Item name="注意事項" href="#notice"></Item>
   </Block>
@@ -29,7 +29,7 @@
           <div>甚至不常見的娃娃魚、藍環章魚、糖果蟹等，都有機會能一次滿足喜愛水攝的朋友的需求唷！</div>
       ]]>
   </Block>
-  <Block id="schedule" caption="行程表" method="html" back="#top">
+  <Block id="schedule" caption="建議行程" method="html" back="#top">
     <![CDATA[ 
           <span class="Large Focus">五天六夜的活動行程，共船潛11次</span>
           <ul>
@@ -68,7 +68,7 @@
                   <li>本活動為套裝行程，想參加但無法全程參與活動者，請先和我們聯絡以討論您的行程規劃。</li>
                   <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要使用Nitrox氣瓶，仍需具備相關資格。</li>
                   <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
-                  <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                  <li>潛水活動安排以上列建議行程為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
                   <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
                 </ol>
                 <br/>

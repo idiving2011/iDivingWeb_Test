@@ -4,7 +4,7 @@
   <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
     <Item name="著名潛點" href="#DiveSite"></Item>
-    <Item name="行程表" href="#schedule"></Item>
+    <Item name="建議行程" href="#schedule"></Item>
     <Item name="注意事項" href="#notice"></Item>
   </Block>
   <Block id="intro" caption="景點介紹" method="html" back="#top">
@@ -99,7 +99,7 @@
       </table>
     ]]>
   </Block>
-  <Block id="schedule" caption="行程表" method="html" back="#top">
+  <Block id="schedule" caption="建議行程" method="html" back="#top">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
@@ -201,7 +201,7 @@
                       <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
                       <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
                       <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
-                      <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                      <li>潛水活動安排以上列建議行程為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
                       <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
                     </ol>
                   </td>

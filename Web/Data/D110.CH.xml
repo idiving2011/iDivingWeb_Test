@@ -3,7 +3,7 @@
     <Block id="title" method="title" text="東北角"/>
     <Block id="nav" method="nav">
       <Item name="景點介紹" href="#intro"></Item>
-      <Item name="行程表" href="#schedule"></Item>
+      <Item name="建議行程" href="#schedule"></Item>
       <Item name="費用說明" href="#price"></Item>
       <Item name="注意事項" href="#notice"></Item>
     </Block>
@@ -23,7 +23,7 @@
             <div>因此許多潛水人就安排了南下或出國潛水的行程。
         ]]>
     </Block>
-    <Block id="schedule" caption="行程表" method="html" back="#top">
+    <Block id="schedule" caption="建議行程" method="html" back="#top">
       <![CDATA[ 
             <table width="100%">
               <tr>
@@ -169,7 +169,7 @@
                     <ol>
                       <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
                       <li>岸潛活動可依實際潛水次數計算費用，但船潛為套裝行程，若第二次潛水活動不下水，恕無法另外退費。</li>
-                      <li>潛水活動安排以上列行程表為原則。潛點選擇由領隊視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                      <li>潛水活動安排以上列建議行程為原則。潛點選擇由領隊視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
                       <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
                       <li>來回交通可協助安排，但請在報名時一併告知，以便處理。</li>
                     </ol>
