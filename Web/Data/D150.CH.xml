@@ -12,50 +12,31 @@
     <![CDATA[ 
       <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
         <tr>
-          <td>
-            <table width="100%">
-              <tr>
-                <td width="70%">
-                  <table cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                      <td>
-                        <strong>位置</strong><br/>
-                        蘭嶼位於西太平洋位置，在臺灣本島（達悟語稱做Ilaod）的東南方，在綠島的南方，南臨巴士海峽與菲律賓之巴丹群島遙遙相望。最早的名稱是【人之島】，後因島上盛產蝴蝶蘭而改其名為蘭嶼。位於蘭嶼島東南方三海浬處，有一小島稱小蘭嶼，面積僅1.6平方公里，島上缺乏水源及耕地，故至今無人居住。
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <strong>氣候</strong><br/>
-                        蘭嶼與台灣本島不同, 是全台灣唯一被歸類於熱帶雨林氣候的地區。年溫差小, 終年氣溫溫和但潮濕多雨, 同時也是全台灣日照時數最少的地區之一。山區與平地平均溫差3到4度(氣象站設置於標高324米的山丘上，因此氣溫較低)，山地年平均溫度約23度，平地年平均溫度約26度，冬季氣候溫和潮溼，夏季炎熱多雨。
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-                <td><img src="../Image/Data/Lanyu_01.jpg" style="float: right; width: 80%"></td>
-              </tr>
-            </table>
+          <td width="55%">
+            <strong>位置</strong><br/>
+            蘭嶼位於西太平洋位置，在臺灣本島（達悟語稱做Ilaod）的東南方，在綠島的南方，南臨巴士海峽與菲律賓之巴丹群島遙遙相望。最早的名稱是【人之島】，後因島上盛產蝴蝶蘭而改其名為蘭嶼。位於蘭嶼島東南方三海浬處，有一小島稱小蘭嶼，面積僅1.6平方公里，島上缺乏水源及耕地，故至今無人居住。
           </td>
+          <td><img src="../Image/Data/Liuchiu_01.jpg" style="float: right; width: 80%"></td>
         </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
+      </table>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
         <tr>
           <td>
-            <table width="100%">
-              <tr>
-                <td><img src="../Image/Data/Lanyu_02.jpg" width="100%"></td>
-                <td>&nbsp;</td>
-                <td><img src="../Image/Data/Lanyu_03.jpg" width="100%"></td>
-              </tr>
-            </table>
+            <strong>氣候</strong><br/>
+            蘭嶼與台灣本島不同, 是全台灣唯一被歸類於熱帶雨林氣候的地區。年溫差小, 終年氣溫溫和但潮濕多雨, 同時也是全台灣日照時數最少的地區之一。山區與平地平均溫差3到4度(氣象站設置於標高324米的山丘上，因此氣溫較低)，山地年平均溫度約23度，平地年平均溫度約26度，冬季氣候溫和潮溼，夏季炎熱多雨。
           </td>
         </tr>
+      </table>
+      <br>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
         <tr>
+          <td><img src="../Image/Data/Lanyu_02.jpg" width="100%"></td>
           <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_03.jpg" width="100%"></td>
         </tr>
+      </table>
+      <br>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
         <tr>
           <td>
             <strong>地形</strong><br/>
@@ -64,25 +45,19 @@
             蘭嶼島河流不長且水量小，成放射狀水系。向西南流有椰油溪、漁人溪、紅頭溪；向北流有朗島溪；向東與東北流有東清溪、野銀溪。溪床礫石磊磊，常成伏流。
           </td>
         </tr>
+      </table>
+      <br>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
         <tr>
+          <td><img src="../Image/Data/Lanyu_04.jpg" width="100%"></td>
           <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>
-            <table width="100%">
-              <tr>
-                <td><img src="../Image/Data/Lanyu_04.jpg" width="100%"></td>
-                <td>&nbsp;</td>
-                <td><img src="../Image/Data/Lanyu_05.jpg" width="100%"></td>
-                <td>&nbsp;</td>
-                <td><img src="../Image/Data/Lanyu_06.jpg" width="100%"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
+          <td><img src="../Image/Data/Lanyu_05.jpg" width="100%"></td>
           <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_06.jpg" width="100%"></td>
         </tr>
+      </table>
+      <br>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
         <tr>
           <td>
             <strong>地質</strong><br/>
@@ -100,21 +75,15 @@
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
-          <td>
-            <table width="100%">
-              <tr>
-                <td><img src="../Image/Data/Lanyu_07.jpg" width="100%"></td>
-                <td>&nbsp;</td>
-                <td><img src="../Image/Data/Lanyu_08.jpg" width="100%"></td>
-                <td>&nbsp;</td>
-                <td><img src="../Image/Data/Lanyu_09.jpg" width="100%"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
+          <td><img src="../Image/Data/Lanyu_07.jpg" width="100%"></td>
           <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_08.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_09.jpg" width="100%"></td>
         </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             南面潛點：
@@ -122,68 +91,66 @@
               <li>八代灣沉船：八代灣沉船為蘭嶼代表性潛點，最大深度40米，位於紅頭漁港外不遠處。1983年9月，韓國籍遠洋貨輪，將駛往新加地路上遇小蘭嶼天氣轉惡劣，誤觸礁石，海水灌入船艙，船長緩慢將船移至八代灣位置，任由船隻航向海底。可自在在船身遊動，隨時留意深度，進入船艙，易受雜物纏繞，請特別小心。</li>
               <li>四條溝：潛點位於蘭嶼的西南側，海域上方為青青草原，草原隨地形延伸成峭壁，峭壁裂隙珍成溝澗，如沙溝般瀉入海中，若從海底向岸邊望去，有四道明顯沙溝，故取名四條溝。本潛點主要享受放流過程產生的飄移感覺，屬高級潛點，不建議初級潛水員造訪，最佳造訪季節為3月至9月。</li>
               <li>椰油斷層：蘭嶼最佳岸潛的潛點，位在環島公路旁的椰島公路旁的椰油小漁港，因少有船隻進出，此處的卸船坡道，有著良好的入水環境。入水後，環境明顯好辨識，水流穩定。常有色彩鮮艷的棘穗軟珊瑚，搭配岩石崎嶇模樣，非常適合廣角拍攝。</li>
-              <br>
-              <table width="100%">
-                <tr>
-                  <td><img src="../Image/Data/Lanyu_10.jpg" width="100%"></td>
-                  <td>&nbsp;</td>
-                  <td><img src="../Image/Data/Lanyu_11.jpg" width="100%"></td>
-                  <td>&nbsp;</td>
-                  <td><img src="../Image/Data/Lanyu_12.jpg" width="100%"></td>
-                  <td>&nbsp;</td>
-                  <td><img src="../Image/Data/Lanyu_13.jpg" width="100%"></td>
-                </tr>
-              </table>
             </ol>
           </td>
         </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
         <tr>
+          <td><img src="../Image/Data/Lanyu_10.jpg" width="100%"></td>
           <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_11.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_12.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_13.jpg" width="100%"></td>
         </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             北面潛點：
             <ol>
-              <li>4.	雙獅岩：位於蘭嶼島的正東北角，環島公路(東縣80線)11公里處，左獅穩臥、右獅氣凌，魚群奇岩盡收眼底。右獅位於來自東清往北洋流，與沿岸南流交匯所在，此地常可見大型牛港鰺趨近潛水員的畫面，海龜、海蛇更是常見。當近中午潛水時從水裡往水面看，可以清楚看到雙獅岩的型狀，非常美麗壯觀。</li>
-              <li>5.	玉女岩外礁：位於蘭嶼北方朗島部落中的玉女岩，傳說是一個孝順的孩子，有父母親爭吵時用紙體阻擋父母，但卻沒有成功，於是傷心無奈的孩子，化為一座佇立在海岸的岩石。北岸潛點以能見度好，水下岩石景觀特殊著稱。</li>
-              <br>
-              <table width="100%">
-                <tr>
-                  <td><img src="../Image/Data/Lanyu_14.jpg" width="100%"></td>
-                  <td>&nbsp;</td>
-                  <td><img src="../Image/Data/Lanyu_15.jpg" width="100%"></td>
-                  <td>&nbsp;</td>
-                  <td><img src="../Image/Data/Lanyu_16.jpg" width="100%"></td>
-                </tr>
-              </table>
+              <li>雙獅岩：位於蘭嶼島的正東北角，環島公路(東縣80線)11公里處，左獅穩臥、右獅氣凌，魚群奇岩盡收眼底。右獅位於來自東清往北洋流，與沿岸南流交匯所在，此地常可見大型牛港鰺趨近潛水員的畫面，海龜、海蛇更是常見。當近中午潛水時從水裡往水面看，可以清楚看到雙獅岩的型狀，非常美麗壯觀。</li>
+              <li>玉女岩外礁：位於蘭嶼北方朗島部落中的玉女岩，傳說是一個孝順的孩子，有父母親爭吵時用紙體阻擋父母，但卻沒有成功，於是傷心無奈的孩子，化為一座佇立在海岸的岩石。北岸潛點以能見度好，水下岩石景觀特殊著稱。</li>
             </ol>
           </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Lanyu_14.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_15.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Lanyu_16.jpg" width="100%"></td>
         </tr>
       </table>
     ]]>
   </Block>
   <Block id="schedule" caption="建議行程" method="html" back="#top">
     <![CDATA[ 
-      <!--<table width="70%" style="text-align: justify;">
+      <table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            出發<br>
-            可選擇：
-            <br>
-            一、19:30 iDiving集合搭車前往東港並住宿一晚
-            <br>
-            二、08:30 自行前往，東港東琉線碼頭集合
-            <br>
-            (請務必準時集合，船班半個小時一班，錯過要等下一班，可能影響後面行程。)
+            蘭嶼是許多潛水人想要前往的朝聖地!!!<br>
+            但多數潛點平均深度較大，因此全程使用高氧^^<br>
+            部分潛點易有水流，要熟悉裝備的操控並具備熟練的技巧唷！
           </td>
         </tr>
         <tr>
           <td>&nbsp;</td>
         </tr>
         <tr>
+          <td>建議行程：</td>
+        </tr>
+        <tr>
           <td>
             第一天<br>
-            搭船前往小琉球，潛水店整理裝備，民宿安排入住後集合午餐，下午進行船潛2支，結束盥洗後，準備晚餐。晚餐後可自由活動安排潮間帶陸遊、觀星。
+            一早從台北出發，預計中午前抵達蘭嶼，下午開始潛水活動 ( 船潛，2 支 )
           </td>
         </tr>
         <tr>
@@ -192,7 +159,7 @@
         <tr>
           <td>
             第二天<br>
-            早上7:30用餐，8:30集合潛水，上午船潛2支，結束潛水，清洗、吊掛裝備，回民宿盥洗並將行理打包完成放大廳；待午餐完畢再回潛店收拾裝備及行李。預計搭程15:00船班回到東港東琉線碼頭。準備回家，結束快樂旅程。
+            上下午各安排一趟船潛 ( 共 4 支 )
           </td>
         </tr>
         <tr>
@@ -200,27 +167,32 @@
         </tr>
         <tr>
           <td>
-            第五天　帛琉-台北<br>
-            早上睡到自然醒, 回程會先前往牛奶湖，預計下午三點左右下船前往機場，搭機返回台北。
-            <br>
-            <br>
-            早餐/午餐：龍馬一號船上buffet
+            第三天<br>上午再船潛一趟 ( 2 支 )，下午安排環島陸遊
           </td>
         </tr>
-      </table>-->
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第四天<br>
+            預計中午搭機飛往台東，轉機後返回台北
+          </td>
+        </tr>
+      </table>
     ]]>
   </Block>
   <Block id="price" caption="費用說明" method="html" back="#top">
     <![CDATA[ 
       <ul>
-        <li>團費原價：16,500</li>
-        <li>現金優惠價/會員價：15,500</li>
+        <li>費用：NT 16,500 元 ( 會員 NT 16,000 元 )</li>
+        <li>現金：NT 15,500 元 ( 會員 NT 15,000 元 )</li>
       </ul>
       <br/>
       <table width="70%" style="text-align: justify;">
         <tr>
           <td width="1%">包　含：</td>
-          <td>蘭嶼島上交通及食宿、8 支日船潛 ( EAN 32 )、三百萬旅平險</td>
+          <td>蘭嶼島上交通及食宿、8 支日船潛 ( EAN 32 )、三百萬旅責險</td>
         </tr>
         <tr>
           <td style="white-space:nowrap">不包含：</td>
@@ -231,7 +203,7 @@
   </Block>
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
-      <table width="70%">
+      <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             <ol>
