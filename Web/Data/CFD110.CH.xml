@@ -2,7 +2,6 @@
 <Data>
   <Block id="title" method="title" text="自由潛水"/>
   <Block id="nav" method="nav">
-    <Item name="課程說明" href="#desc"></Item>
     <Item name="課程規劃" href="#curriculum"></Item>
     <Item name="開課日期" href="#plan"></Item>
     <Item name="超值學費" href="#tuition"></Item>
@@ -31,7 +30,7 @@
       </table>
     ]]>
   </Block>
-  <Block id="desc" caption="課程說明" method="html" back="#top">
+  <Block id="desc" method="html" back="#top">
     <![CDATA[
       <table width="70%" style="text-align: justify;">
         <tr>
