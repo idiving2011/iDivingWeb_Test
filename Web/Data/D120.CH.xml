@@ -1,73 +1,176 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="墾丁"/>
-    <Block id="nav" method="nav">
-      <Item name="景點介紹" href="#intro"></Item>
-      <Item name="建議行程" href="#schedule"></Item>
-      <!--<Item name="費用說明" href="#price"></Item>-->
-      <Item name="注意事項" href="#notice"></Item>
-    </Block>
-    <Block id="intro" caption="景點介紹" method="html" back="#top">
-      <![CDATA[ 
-            <img src="../Image/Data/KentingIntro.jpg" style="float: right; width: 300px">
-            <div>墾丁國家公園三面環海，因氣候及地理特色，</div>
-            <br/>
-            <div>使其海洋環境具有海水溫暖、海流呈現季節性變動、營養鹽豐富等特性，</div>
-            <br/>
-            <div>使得海洋植群基礎生產力高，浮游生物量豐富，珊瑚生長茂盛，</div>
-            <br/>
-            <div>形成許多水族的絕佳棲所，</div>
-            <br/>
-            <div>繽紛多樣的珊瑚礁魚、蝦、蟹等海洋生物穿梭其間，</div>
-            <br/>
-            <div>再搭配多變的海底地形，構築出墾丁絢麗的海底世界。</div>
-        ]]>
-    </Block>
-    <Block id="schedule" caption="建議行程" method="html" back="#top">
-      <![CDATA[
-              <span class="Large Focus">兩天兩夜的活動行程，共船潛4次</span>
-              <ul>
-                <li>Day 1　下班後集合完就出發南下，在墾丁過夜。</li>
-                <li>Day 2　讓大家養足精神，午餐後開始潛水活動（船潛），晚上為自由活動時間。</li>
-                <li>Day 3　上午進行第二趟船潛，午餐後打包行李，準備北上。</li>
-              </ul>
-              <br/>
-              <img src="../Image/Data/KentingSchedule01.jpg" width="360">
-              <img src="../Image/Data/KentingSchedule02.jpg" width="360">
-          ]]>
-    </Block>
-    <Block id="price" caption="費用說明" method="html" back="#top">
-      <![CDATA[ 
-              <div>團費：NT 6,500元（會員價：NT 6,000元）</div>
-              <br/>
-              <div>包含：行程安排的4次船潛費用（船資、潛導費、配重）、兩晚住宿、</div>
-              <div>&#12288;&#12288;&#12288;餐食（早餐 * 2、午餐 * 2、晚餐 * 1）、兩佰萬旅遊平安險。</div>
-              <br/>
-              <div>不含：潛水裝備租借、行程外的潛水及食宿費用、出發地來回墾丁的交通費用。</div>
-          ]]>
-    </Block>
-    <Block id="notice" caption="注意事項" method="html" back="#top">
-      <![CDATA[ 
-              <table width="70%" style="text-align: justify;">
-                <tr>
-                  <td>
-                    <ol>
-                      <li>本活動為套裝行程，想參加但無法全程參與活動者，請先和我們聯絡以討論您的行程規劃。</li>
-                      <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
-                      <li>餐食多為合菜；住宿為兩人or四人一室，若要求自己睡一間房，需補房差。</li>
-                      <li>潛水活動安排以上列建議行程為原則。潛點選擇由領隊視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
-                      <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
-                    </ol>
-                    <br/>
-                    <img src="../Image/Data/KentingNote01.jpg" width="360">
-                    <img src="../Image/Data/KentingNote02.jpg" width="360">
-                  </td>
-                </tr>
-              </table>
-          ]]>
-    </Block>
-    <Block id="agency" caption="協辦旅行社" method="html" back="#top">
-      <![CDATA[
+  <Block id="title" method="title" text="墾丁"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="#intro"></Item>
+    <Item name="著名潛點" href="#DiveSite"></Item>
+    <Item name="建議行程" href="#schedule"></Item>
+    <Item name="費用說明" href="#price"></Item>
+    <Item name="注意事項" href="#notice"></Item>
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td width="55%">
+            <strong>墾丁</strong><br/>
+            墾丁三面環海，因氣候及地理特色，海洋環境具有海水溫暖、海流呈現季節性變動、營養鹽豐富等特性。如此絕佳外在條件，造就海洋植群基礎生產力高，浮游生物量豐富，珊瑚生長繁茂形成水族絕佳棲所。墾丁地區軟珊瑚種類多樣性常常令國外潛水客讚嘆不已，珊瑚王國美譽就是因此而來。
+          </td>
+          <td><img src="../Image/Data/Liuchiu_01.jpg" style="float: right; width: 80%"></td>
+        </tr>
+      </table>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong>氣候</strong><br/>
+            墾丁不同於台灣其他地區的副熱帶氣候，屬於標準的熱帶氣候區，正因為三面環海，受海洋調劑，夏天雖然太陽大，確不會有悶熱的感覺，所以冬天不會比台灣北部冷，夏天也不會比台灣北部熱。正因為氣候溫暖四季如春，清朝沈葆楨才將原本古名”瑯嶠”改為現在大家熟知的”恆春”。
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong>陸遊景點</strong><br/>
+            　　來到了墾丁，除了在白天享受風光明媚的美麗海景，到了晚上原本安靜的墾丁街搖身一變不夜城。來到此地，你可以享受各種美味的小吃，或是選購一些墾丁紀念品，又或者挑間你喜歡的酒吧，坐下來喝杯調酒，感受這個地方的熱情與活力。除此之外，墾丁國家公園也十分適合全家一起出遊的好去處，國家公園內有許多特殊景觀例如茄冬巨木、人工湖、石筍寶穴、銀葉板根、觀海樓、仙洞、一線天、垂榕谷、棲猿崖等旅遊景點非常值得遊客一遊。<br>
+            　　或者你也可以前往恆春鎮探訪恆春古城，恆春古城是台灣保留最完整的城門古蹟，已列為國家二級古蹟。四季如春有130年歷史的古城， 古城門的城牆以磚石灰土砌築而成的，高約2丈、厚約8尺，全長計972丈，建有東、西、南、北四個城門，內外門洞皆半圓拱，在上建有城樓。順著四個古城門走一遭，踏著城牆的步道感受百年古城的歷史魅力，恆春古城有著其他城市無法取代的歷史片段。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Kenting_2.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Kenting_3.jpg" width="100%"></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ol>
+              <li>獨立礁：獨立礁是墾丁熱門的船潛點，礁體為長形，前端隆起部位俗稱龍頭，也是獨立礁名字的由來，此潛場最著名的明星就是28米的豆丁海馬，除此之外礁體上的軟珊瑚及各式魚群也是廣角拍照的最佳取景點。</li>
+              <li>雙峰藍洞：墾丁最出名的峭壁潛水點之一，此處有兩個洞穴景觀可觀探訪，一個是由下往上鑽的小藍洞，另一個則是如海底隧道般狹小的洞穴，藉由洞口的光線照射呈現淡藍色波紋而得名，峭壁頂端更是觀看魚群頂流覓食的最佳地點，也是廣角拍照的取景點。</li>
+              <li>大咾咕斜坡：大咾咕礁岩下方一帶全都是軟珊瑚，淺礁內的魚群數量十分可觀，有時順著水流做放流潛水是非常舒服的潛水方式，2016年在這發現的蝠魟Mobula更是讓潛水客流連忘返，每個潛水客都希望在海中偶遇這名稀客，哪怕是5秒的短暫相遇也讓大家開心不已。</li>
+              <li>出水口：墾丁岸潛的朝聖地，也是水上活動及浮潛的最佳去處，夏天的出水口潛水客與水上活動混雜不好行動，只要一潛入水中迎面而來的黃金尾梭魚就是最佳的迎賓禮，不期而遇的海龜帶給大家快樂驚奇。幸運的潛水客還會遇到難得一見的隆頭鸚哥群，這也是出水口變成岸潛聖地的原因，因為在這裡我們總能跟大物偶遇，特別是沒帶相機下水的時刻。</li>
+              <li>合界：墾丁西岸高級岸潛點，號稱台灣小藍碧的合界是最棒的微距天堂，每週末合界總是聚滿愛好微距攝影的潛水客，趴在30m沙地上進行膜拜朝聖。此外32m的合界沈船就像是沙漠裡的綠洲，獨特的生態圈也是潛水客的拍攝目標之一。</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Kenting_4.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Kenting_5.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="schedule" caption="建議行程" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            出發<br>
+            週五19:00 iDiving集合搭車南下，到達墾丁的南青潛水半夜1點半。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第一天<br>
+            早上8點起床，享用潛店提供的早餐後，進行岸潛一支(自費)或休息，中午於潛店用餐後下午進行船潛一趟二支。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天<br>
+            早上7:30用餐，8:30集合潛水，船潛一趟二支。潛水完打包所有裝備後集合享用當地美食後搭車回台北。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>本次行程共二趟船潛4支氣瓶</td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Kenting_6.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Kenting_7.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：7,500</li>
+        <li>現金優惠價/會員價：7,000</li>
+        <li><span class="Large Important">會員現金優惠價：6,500</span></li>
+      </ul>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>費用包含：</td>
+          <td>２夜住宿、３簡餐、船潛２趟共４支、三佰萬旅遊平安險</td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap">不&nbsp;&nbsp;包&nbsp;&nbsp;含：</td>
+          <td>潛水裝備租借的費用及個人性質的花費。台北來回墾丁的費用。如需共乘來回台北墾丁每人車資 2,000 元</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ol>
+              <li>國內潛水旅遊亦有成團人數要求，一般含領隊需達10人才會出團。考量東北角的課程及活動，每年5~9月的活動一般上限為12人。若以現金（or匯款）繳交團費，額外享有優惠！</li>
+              <li>自2016年起，煩請要參加活動的朋友們記得填寫＂Google表單＂報名，並繳交NT 2,000元『訂金』才算完成報名流程，若以轉帳方式繳交訂金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+              <li>若因報名人數不足而無法出團時，『訂金』可全數退還。</li>
+              <li>出團日14天前會提供行程資料，並請團員繳齊剩餘團費（尾款）。</li>
+              <li>
+                若遇颱風、浪況不佳等不可抗拒之因素，基於安全與樂趣的考量，iDiving俱樂部決定取消活動時，則『團費』扣除不可退還之費用後，剩餘款項將全數退還。<br>
+                <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用則視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+              </li>
+              <li>當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，若有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+              <li>
+                出團日8天前，如果團員臨時有事無法出席，『團費』在扣除不可退還之費用後，剩餘款項將會退還；出團日7天內，若團員因故無法出團，請恕無法退還『團費』：
+                <ul>
+                  <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可退還。</li>
+                  <li>若是由iDiving找到人員填補空缺，訂金恕不退還。</li>
+                </ul>
+              </li>
+              <li>國內潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，恕不提供會員優惠。</li>
+              <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+              <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+              <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+              <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
             <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
             <br/>
             <table border="1" cellpadding="0" cellspacing="0" width="70%">
@@ -105,5 +208,5 @@
               </tr>
             </table>
         ]]>
-    </Block>
+  </Block>
 </Data>
