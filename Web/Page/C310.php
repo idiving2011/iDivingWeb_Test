@@ -63,7 +63,7 @@
 		<div id="plan9" class="ArticleBox"></div>
 		<div id="tuition9" class="ArticleBox"></div>
 
-		<!-- 緊急反應 -->
+		<!-- 正確反應員 -->
 		<div id="curriculum10" class="ArticleBox"></div>
 		<div id="plan10" class="ArticleBox"></div>
 		<div id="tuition10" class="ArticleBox"></div>

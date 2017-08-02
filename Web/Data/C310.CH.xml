@@ -23,7 +23,7 @@
     <Item name="建議選修">
       <Item name="完美浮力"/>
       <Item name="導航"/>
-      <Item name="緊急反應"/>
+      <Item name="正確反應員"/>
       <Item name="壓力與救援"/>
       <Item name="船潛"/>
       <Item name="電腦錶"/>
@@ -598,8 +598,8 @@
     <Block id="tuition6" caption="超值學費" method="html" back="#top" tag="壓力與救援">
       <![CDATA[
                 <ul>
-                  <li><span class="Large Focus">緊急反應 + 壓力與救援，定價 12,000 元。</span></li>
-                  <li><span class="Large Important">緊急反應 + 壓力與救援，現金優惠，折扣 2,000 元。</span></li>
+                  <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 12,000 元。</span></li>
+                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 2,000 元。</span></li>
                   <li>
                     <span class="Large Important">
                       iDiving 2017 年非領導級各項課程，全面提供免費的重裝備使用（限有術科的課程）<br/>
@@ -901,8 +901,8 @@
                   </table>
                     ]]>
     </Block>
-    <!--緊急反應-->
-    <Block id="curriculum10" caption="課程規劃" method="html" back="#top" tag="緊急反應">
+    <!--正確反應員-->
+    <Block id="curriculum10" caption="課程規劃" method="html" back="#top" tag="正確反應員">
       <![CDATA[ 
           <table width="80%" style="table-layout: fixed;">
             <tr>
@@ -938,17 +938,17 @@
           </table>
           ]]>
     </Block>
-    <Block id="plan10" caption="開課日期" method="html" back="#top" tag="緊急反應">
+    <Block id="plan10" caption="開課日期" method="html" back="#top" tag="正確反應員">
       <![CDATA[
               <!--<img src="../Image/Data/RR_Schedule.png" width="80%"/>-->
               <p>iDiving樂意為您安排特別的上課時間, 請與我們聯絡。</p>
           ]]>
     </Block>
-    <Block id="tuition10" caption="超值學費" method="html" back="#top" tag="緊急反應">
+    <Block id="tuition10" caption="超值學費" method="html" back="#top" tag="正確反應員">
       <![CDATA[
               <ul>
-                  <li><span class="Large Focus">緊急反應 + 壓力與救援，定價 12,000 元。</span></li>
-                  <li><span class="Large Important">緊急反應 + 壓力與救援，現金優惠，折扣 2,000 元。</span></li>
+                  <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 12,000 元。</span></li>
+                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 2,000 元。</span></li>
                   <li>
                     <span class="Large Important">
                       iDiving 2017 年非領導級各項課程，全面提供免費的重裝備使用（限有術科的課程）<br/>
