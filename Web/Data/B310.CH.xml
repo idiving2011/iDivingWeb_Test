@@ -107,23 +107,23 @@
 			      <tr>
               <td style="vertical-align:middle;text-align: center">
                 Tusa M1002<br>
-                店內價:3,000
+                店內價:3,300
               </td>
               <td style="vertical-align:middle;text-align: center">
                 Tusa M17<br>
-                店內價:1,900
+                店內價:2,100
               </td>
               <td style="vertical-align:middle;text-align: center">
                 Tusa M1003<br>
-                店內價:2,650
+                店內價:2,950
               </td>
               <td style="vertical-align:middle;text-align: center">
                 Tusa M212<br>
-                店內價:2,050
+                店內價:2,280
               </td>
               <td style="vertical-align:middle;text-align: center">
                 Tusa UC-7519<br>
-                店內價:1,500
+                店內價:1,550
               </td>
             </tr>
           </table>
@@ -137,71 +137,56 @@
                   蛙鞋的作用是為了幫助水中移動的效率，以最少的力氣獲得最大推進效果。蛙鞋一般可分兩種形式:套腳式與無後跟式，建議第一次買蛙鞋可選擇無後跟式，選購無後跟蛙鞋時務必連同套鞋一併試穿。<br><br>
                 </td>
               </tr>
-            <tr>
-              <td style="vertical-align:middle;text-align: center">
-                <img src="../Image/Data/sf22.jpg" width="80%" />
-              </td>
-              <td style="vertical-align:middle;text-align: center">
-                <img src="../Image/Data/Avanti.png" width="30%" />
-              </td>
-              <td style="vertical-align:middle;text-align: center">
-                <img src="../Image/Data/tusaSf5.jpg" width="80%" />
-              </td>
-			</tr>
-			<tr>
-              <td style="vertical-align:middle;text-align: center">
-                TUSA SF22<br>
-                店內價:3,700
-              </td>
-              <td style="vertical-align:middle;text-align: center">
-                Mares Avanti TRE<br>
-                店內價:2,800
-              </td>
-              <td style="vertical-align:middle;text-align: center">
-                Tusa SF5(海猿)<br>
-                店內價:4,150
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle;text-align: center">
-                <img src="../Image/Data/SF15.jpg" width="80%" />
-              </td>
-              <td style="vertical-align:middle;text-align: center">
-                <img src="../Image/Data/SuperMewXX.jpg" width="80%" />
-              </td>
-              <td style="vertical-align:middle;text-align: center">
-                <img src="../Image/Data/GullSuperMew.jpg" width="80%" />
-              </td>
-			</tr>
-			<tr>
-              <td style="vertical-align:middle;text-align: center">
-                Tusa SF15<br>
-                店內價:5,280
-              </td>
-              <td style="vertical-align:middle;text-align: center">
-                GULL Super Mew XX<br>
-                店內價:7,000
-              </td>
-              <td style="vertical-align:middle;text-align: center">
-                GULL  Mew<br>
-                店內價:4,000
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle;text-align: center">
-                <img src="../Image/Data/SuperMew.jpg" width="80%" />
-              </td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr>
-              <td style="vertical-align:middle;text-align: center">
-                GULL Super Mew<br>
-                店內價:7,000
-              </td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-            </tr>
+              <tr>
+                <td style="vertical-align:middle;text-align: center">
+                  <img src="../Image/Data/sf22.jpg" width="80%" />
+                </td>
+                <td style="vertical-align:middle;text-align: center">
+                  <img src="../Image/Data/Avanti.png" width="30%" />
+                </td>
+                <td style="vertical-align:middle;text-align: center">
+                  <img src="../Image/Data/SF15.jpg" width="80%" />
+                </td>
+			        </tr>
+			        <tr>
+                <td style="vertical-align:middle;text-align: center">
+                  TUSA SF22<br>
+                  店內價:3,950
+                </td>
+                <td style="vertical-align:middle;text-align: center">
+                  Mares Avanti TRE<br>
+                  店內價:2,800
+                </td>
+                <td style="vertical-align:middle;text-align: center">
+                  Tusa SF15<br>
+                  店內價:5,650
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align:middle;text-align: center">
+                  <img src="../Image/Data/SuperMewXX.jpg" width="80%" />
+                </td>
+                <td style="vertical-align:middle;text-align: center">
+                  <img src="../Image/Data/GullSuperMew.jpg" width="80%" />
+                </td>
+                <td style="vertical-align:middle;text-align: center">
+                  <img src="../Image/Data/SuperMew.jpg" width="80%" />
+                </td>
+			        </tr>
+			        <tr>
+                <td style="vertical-align:middle;text-align: center">
+                  GULL Super Mew XX<br>
+                  店內價:7,000
+                </td>
+                <td style="vertical-align:middle;text-align: center">
+                  GULL  Mew<br>
+                  店內價:4,000
+                </td>
+                <td style="vertical-align:middle;text-align: center">
+                  GULL Super Mew<br>
+                  店內價:7,000
+                </td>
+              </tr>
             </table>
                 ]]>
     </Block>
