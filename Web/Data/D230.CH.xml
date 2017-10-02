@@ -1,82 +1,224 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <Block id="title" method="title" text="杜馬蓋地"/>
+  <Block id="title" method="title" text="杜馬蓋地 Dumaguete"/>
   <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
+    <Item name="著名潛點" href="#DiveSite"></Item>
     <Item name="建議行程" href="#schedule"></Item>
-    <!--<Item name="費用說明" href="#price"></Item>-->
     <Item name="注意事項" href="#notice"></Item>
   </Block>
   <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-          <img src="../Image/Data/DumagueteIntro.jpg" style="float: right; width: 300px">
-          <div>杜馬蓋地(Dumaguete)在菲律賓的中部區域，地處Negros島的東南邊，</div>
-          <br/>
-          <div>是這一區的文化經濟重鎮，飯店和餐廳大多集中在濱海大道(Rizal Boulevard)，</div>
-          <br/>
-          <div>而主要的潛水區域則是在市區南方，車程約30分鐘的Dauin區，</div>
-          <br/>
-          <div>豐富的自然景觀及多樣性的海洋生物，吸引了不少外國潛客前來，</div>
-          <br/>
-          <div>讓此地成為菲律賓著名的潛水勝地之一。</div>
-          <br/>
-          <div>杜馬蓋地位於颱風帶之外，不易受到颱風的影響，</div>
-          <br/>
-          <div>幾乎全年都可進行潛水活動，此區豐富的生物及景觀，</div>
-          <br/>
-          <div>微小如米粒大小的海蛞蝓，巨大至公車般的鯨鯊，</div>
-          <br/>
-          <div>甚至不常見的娃娃魚、藍環章魚、糖果蟹等，都有機會能一次滿足喜愛水攝的朋友的需求唷！</div>
-      ]]>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td width="55%">
+            <table cellpadding="0" cellspacing="0" width="100%">
+              <tr>
+                <td>
+                  <strong>菲律賓</strong><br/>
+                  菲律賓是由7107個島嶼組成，總面積30萬平方公里，這些島共分北中南三大區域，分別為呂宋(Luzon)、比薩亞(Visayas)、民答那峨(Mindanao)，菲律賓的首都是馬尼拉。<br/><br/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>氣候</strong><br/>
+                  菲律賓是標準的熱帶氣候，氣候深受季風影響，3-5月為乾熱的季節、6-10月為多雨的季節、11-2月為涼爽的季節。1月最冷，5月最熱，平均溫度在攝氏25-32度，溼度77%。群島中氣候最溫和的地方是太平洋沿岸，包括呂宋島、薩摩島、雷伊泰島、民答那峨等。<br/><br/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>人文</strong><br/>
+                  官方語言為英語與菲律賓語；菲律賓有8種方言是被多數人使用，其中Tagalog使用的人數最多，因此定為國語。信仰部分：有83%人信仰天主教、8%信仰回教、其他的屬於不同的基督教教派及佛教。<br/><br/>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td><img src="../Image/Data/Philippines.png" style="float: right; width: 70%"></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong>地點：杜馬蓋地 Dumaguete</strong><br/>
+            菲律賓中部的visaya水域包括南Negros、Cebu、Bohol及最右方的Leyte 4大島之間的區域，而南Negros 省的首府Dumaguete city更是其中最有名的，visaya位於颱風帶之外，全年均可潛水，杜市的人口眾多，文風鼎盛，共有三所大學及一家醫學院，市區各式餐廳林立，夜生活也是多彩多姿。此地主要的潛水resort大多位於距杜市機場車行30分鐘的Dauin區。
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Dumaguete_32.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Dumaguete_33.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Dumaguete_34.JPG" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Dumaguete_35.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Dumaguete_36.jpg" width="100%"></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>一、Apo island：這是一個菲國很有名的海洋保護區，軟硬珊瑚生長完整茂盛，主要地形為slope+wall，在潛點Mamsa（當地菲語意為Jack fish）的流區固定可以看到大群的Jack fish，島上有2家設備簡陋原始的潛水店，只有歐洲人才能接受這種方式。建議安排一天三潛Apo island，從Dauin beach到此只需船行30分鐘。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>二、Oslob Whale shark：這是一個在宿霧島南端的潛點，剛好位於鯨鯊迴遊的路線上，剛開始當地漁民都會用誘餌把鯨鯊引開他們的漁網，以避免鯨鯊破壞漁網。幾年前，漁民開始把體型較小的年幼鯨鯊用誘餌引到 Tanawan 離岸不遠處以吸引觀光客。自此「賞鯨鯊」活動就成為奧斯樂博的重要旅遊活動，而該地方政府也順勢介入收取高額的賞鯊費用。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>三、Dauin sanctuary：地形是以黑細沙為主，水深30米處有一較完整的小沈船及汽車遺跡，但大多數的生物均在5~20米處，此點地形較廣，有許多的迷你的娃娃魚、海馬、鬼龍等等的生物。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td><img src="../Image/Data/Dumaguete_37.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Dumaguete_38.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Dumaguete_39.jpg" width="100%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    ]]>
   </Block>
   <Block id="schedule" caption="建議行程" method="html" back="#top">
     <![CDATA[ 
-          <span class="Large Focus">五天六夜的活動行程，共船潛11次</span>
-          <ul>
-            <li>Day 0　晚上在桃園機場集合。</li>
-            <li>Day 1　搭凌晨的飛機出發，再轉國內線，預計中午前抵達度假村，下午開始潛水活動。</li>
-            <li>Day 2　白天共進行三次潛水活動，晚上為自由活動時間。</li>
-            <li>Day 3　第一支預計到Oslob看鯨鯊，之後再進行兩次潛水活動，晚上為自由活動時間。</li>
-            <li>Day 4　白天共進行三次潛水活動，晚上為自由活動時間。</li>
-            <li>Day 5　午餐後離開度假村，搭機飛往馬尼拉，搭乘晚班飛機返台，預計晚上12：40抵達。</li>
-          </ul>
-          <br/>
-          <img src="../Image/Data/DumagueteSchedule01.jpg" width="360">
-          <img src="../Image/Data/DumagueteSchedule02.jpg" width="360" align="top">
+          <table width="70%" style="text-align: justify;">
+            <tr>
+              <td>
+                第一天 11/1(三) 台北-宿霧-杜馬蓋地 5J-301/ DG-6515<br>
+                10/31晚上22:00在桃園機場第一航站，復興航空櫃台集合，搭乘飛機前往菲律賓-宿霧，即刻辦理轉機到杜馬蓋地。抵達後杜馬蓋地機場我們將安排專車前往渡假村CHECK IN，並稍後休息，下午進行2次船潛。(因搭機時間非常早，又轉機會有約2個小時間可在機場內稍作休息用餐，故早餐自理。)<br>
+                <span class="Large Focus">早餐：自理，午餐、晚餐：由當地潛水店安排</span>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第二天 11/2(四)  APO ISLAND (船潛3支)<br>
+                早餐後隨即出發前往APO ISLAND－這是菲國名列最佳潛點之一，在東南方禁獵區是一片漸斜坡連接著淺牆，常見大型迴游魚，如Jackfish、白鰭鯊、隆頭鸚哥等，以及成千上萬的小魚聚居在黑珊瑚叢林和洞穴中，而小丑魚，海葵和軟硬珊瑚更佈滿海床。<br>
+								<span class="Large Focus">早、午、晚：由當地潛水店安排起床準備</span>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第三天11/3(五)  OSLOB 鯨鯊潛水(船潛3支)<br>
+                早餐後隨即出發前往延著宿霧前往其東南邊的Oslob－2011.5左右，有個漁夫在小船上釣魚發現了鯨鯊，當時他一股腦把魚餌餵給鯨鯊，隔天，發現鯨鯊又來了，照慣例再餵鯨鯊，過沒多久，所有人都不捕魚了，目前這附近就有好幾隻鯨鯊待著，每天進去吃吃東西。告別鯨鯊，我們將前往Sumilon Island 進行2支潛水，清澈見底的藍色海域，欣賞各種類的軟硬珊瑚、小丑魚、海葵、海蛞蝓。<br>
+						    <span class="Large Focus">早、午、晚：由當地潛水店安排</span>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第四天11/4(六)  DAUIN潛水(船潛3支)<br>
+                早餐後出發前往附近潛點DAUIN，這裡常見藍點魟、石鱸、Jackfish、海龜、海兔、大片伸出沙底60公分覓食的花園鰻等，淺灘處可常見海龍、海馬、娃娃魚等，令您目不暇給。<br>
+			          <span class="Large Focus">早、午餐：由當地潛水店安排 晚:將會至附近享用海鮮費用平均分攤</span>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第五天11/5(日)  杜馬蓋地／馬尼拉／台北 5J-630/5J-310<br>
+                午餐後，專車接往機場搭機返回馬尼拉，抵達後前往國際機場搭機返回台灣桃園機場，結束難忘的杜馬蓋地潛水之旅。<br>
+                <span class="Large Focus">早、午：由當地潛水店安排 / 晚：自理</span>
+              </td>
+            </tr>
+          </table>
       ]]>
   </Block>
   <Block id="price" caption="費用說明" method="html" back="#top">
     <![CDATA[ 
-          <div><span class="Large Important">團費：NT 26,000元</span></div>
-          <div><span class="Large Important">&#12288;&#12288;&#12288;PS：每次的團費可能因當地價格而有所調整</span></div>
+          <ul>
+            <li>NT 43,000 元  ( 現金優惠價：NT 41,000 元 )</li>
+          </ul>
           <br/>
-          <div>包含：杜馬蓋地機場往返度假村的接駁、度假村的住宿及餐食、</div>
-          <div>&#12288;&#12288;&#12288;行程安排的11次船潛費用（其中一次會到Oslob看鯨鯊）、</div>
-          <div>&#12288;&#12288;&#12288;菲律賓簽證、兩佰萬旅遊平安險。</div>
-          <br/>
-          <div>不含：出發地來回桃園機場的交通、桃園往返馬尼拉的來回機票及稅金、</div>
-          <div>&#12288;&#12288;&#12288;馬尼拉往返杜馬蓋地的來回機票及稅金、</div>
-          <div>&#12288;&#12288;&#12288;潛水裝備租借、小費、行程外的潛水及食宿費用。</div>
+          <table width="70%" style="text-align: justify;">
+            <tr>
+              <td width="1%">包　含：</td>
+              <td>
+                四晚住宿於 Azure dive resort <br>
+                渡假村早、午、晚餐<br>
+                11次船潛及氣瓶，鉛塊，船費及潛導，<br>
+                每位旅客300萬履約責任險, 暨20萬意外醫療險<br>
+                機場-渡假村來回接送<br>
+                台北TPE-杜馬蓋地DGT 國際段與國內段來回機票
+              </td>
+            </tr>
+            <tr>
+              <td style="white-space:nowrap">不包含：</td>
+              <td>
+                潛水裝備租借，護照、簽證辦理<br>
+                個人性消費，行李超重<br>
+                11/1 早餐不含，最後一天晚餐為自費海鮮<br>
+                酒精性飲料, SPA 按摩服務<br>
+                衣服換洗服務<br>
+                景點旅遊<br>
+              </td>
+            </tr>
+          </table>
       ]]>
   </Block>
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
           <table width="70%" style="text-align: justify;">
-            <tr>
-              <td>
-                <ol>
-                  <li>本活動為套裝行程，想參加但無法全程參與活動者，請先和我們聯絡以討論您的行程規劃。</li>
-                  <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要使用Nitrox氣瓶，仍需具備相關資格。</li>
-                  <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
-                  <li>潛水活動安排以上列建議行程為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
-                  <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續之潛水活動。</li>
-                </ol>
-                <br/>
-                <img src="../Image/Data/DumagueteNote01.jpg" width="360" align="top">
-                <img src="../Image/Data/DumagueteNote02.jpg" width="360">
-              </td>
-            </tr>
-          </table>
+              <tr>
+                <td>
+                  <ol>
+                    <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+                    <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                    <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+                    <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+                    <li>
+                      若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                      <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                    </li>
+                    <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                    <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                      <ul>
+                        <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                        <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                      </ul>
+                    </li>
+                    <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+                    <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+                    <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+                    <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                    <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                    <li>潛水活動安排以上列建議行程為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                    <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+                  </ol>
+                </td>
+              </tr>
+            </table>
       ]]>
   </Block>
   <Block id="agency" caption="協辦旅行社" method="html" back="#top">
