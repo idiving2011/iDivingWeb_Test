@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="薄荷島 BOHOL"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="#intro"></Item>
+    <Item name="著名潛點" href="#DiveSite"></Item>
+    <Item name="建議行程" href="#schedule"></Item>
+    <Item name="注意事項" href="#notice"></Item>
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
+    <![CDATA[ 
+          <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td width="55%">
+                      <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td>
+                            <strong>菲律賓</strong><br/>
+                            菲律賓是由7107個島嶼組成，總面積30萬平方公里，這些島共分北中南三大區域，分別為呂宋(Luzon)、比薩亞(Visayas)、民答那峨(Mindanao)，菲律賓的首都是馬尼拉。<br/><br/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <strong>氣候</strong><br/>
+                            菲律賓是標準的熱帶氣候，氣候深受季風影響，3-5月為乾熱的季節、6-10月為多雨的季節、11-2月為涼爽的季節。1月最冷，5月最熱，平均溫度在攝氏25-32度，溼度77%。群島中氣候最溫和的地方是太平洋沿岸，包括呂宋島、薩摩島、雷伊泰島、民答那峨等。<br/><br/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <strong>人文</strong><br/>
+                            官方語言為英語與菲律賓語；菲律賓有8種方言是被多數人使用，其中Tagalog使用的人數最多，因此定為國語。信仰部分：有83%人信仰天主教、8%信仰回教、其他的屬於不同的基督教教派及佛教。<br/><br/>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td><img src="../Image/Data/Philippines.png" style="float: right; width: 70%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td width="55%">
+                      <table>
+                        <tr>
+                          <td>
+                            <strong>地點：薄荷島 BOHOL</strong><br/>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            位於菲律賓三大區塊中的維薩亞斯區(Visayas)，是菲律賓第10大島，薄荷島四周數十個小島，而潛水最盛行的地區當屬薄荷島旁的邦勞島(PANGLAO)與巴里卡薩大斷層(Balicasag)，７月-１０月為雨季，其餘時間都是適合潛水的季節，飯店內可安排指油壓按摩，放鬆工作疲憊的身心。薄荷島有世界最古老的靈長類動物-眼鏡猴(Tasier)，他們非常的微小，僅約人的手掌大，可愛的大眼適合他們夜晚活動，很值得一看。另外很特殊的地形就是巧克力山丘，月乾季時山丘轉為茶黃色，看似巧克力而得名。
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td><img src="../Image/Data/Bohol_02.jpg" style="float: right; width: 70%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td><img src="../Image/Data/Bohol_01.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Bohol_03.jpg" width="100%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td width="55%">DIVETHRU潛水渡假飯店擁有11間的客房，為您提供最乾淨舒適的住宿空間，每個房間都配有空調、熱水器、有線電視，同時也具有無線網路、客房內保險箱，期盼所有住宿的貴賓能夠放鬆心情，盡情享受渡假的悠閒，飯店並設有池畔SPA按摩室、游泳池、會議室、餐廳與BAR…等。</td>
+                    <td><img src="../Image/Data/Bohol_04.jpg" style="float: right; width: 70%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td><img src="../Image/Data/Bohol_05.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Bohol_06.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Bohol_07.jpg" width="100%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+      ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+        <table width="70%" style="text-align: justify;">
+          <tr>
+            <td>BALICASAG此點淺灘生態活潑，到處可見各式各樣熱帶魚，大片的花園鰻跟各形各色海扇是此點之特色，水域中層也可見中、小型迴游魚如白魚、梭魚、白毛。洞穴外隨處可見中型石斑魚，淺灘上的海葵及小丑魚種類之多勘稱世界之最，躄魚及大片黑珊瑚林也是此點之特色。成群的JACK魚群更是此地不可不看的驚奇景象。</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td><img src="../Image/Data/Bohol_08.jpg" width="100%"></td>
+                  <td>&nbsp;</td>
+                  <td><img src="../Image/Data/Bohol_12.jpg" width="100%"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>APANGLAO  ISLAND此點5~9米深有一整片排列整齊的珊瑚礁，其間長滿各種硬珊瑚，礁岩外有深達48米的斷層，沿斷層游去，可見各種軟硬珊瑚、海扇、管狀海綿及數種大群金花鱸，能見度可至30米，如果幸運的話，還有機會見到上萬隻的沙丁魚風暴。</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td><img src="../Image/Data/Bohol_10.jpg" width="100%"></td>
+                  <td>&nbsp;</td>
+                  <td><img src="../Image/Data/Bohol_11.jpg" width="100%"></td>
+                  <td>&nbsp;</td>
+                  <td><img src="../Image/Data/Bohol_09.jpg" width="100%"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      ]]>
+  </Block>
+  <Block id="schedule" caption="建議行程" method="html" back="#top">
+    <![CDATA[ 
+          <table width="70%" style="text-align: justify;">
+            <tr>
+              <td>
+                第一天<br>
+                第一天 台北／馬尼拉 / 薄荷島 5J-311 / 5J-617<br>
+                集合於桃園國際機場，搭乘客機前往馬尼拉，轉機後抵達薄荷島之後搭乘專車前往目的地：邦勞島的DIVETHRU潛水度假村，辦理CHECK IN手續，稍事休息後即可開始享受泳池度假村的悠哉時光。
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第二天 邦勞島PANGLAO ISLAND（船潛3支）<br>
+                早餐後由專業導潛安排前往PANGLAO海域船潛，五彩繽紛的金花鱸和燕魚圍繞在身旁，奇特的娃娃魚、海龍、海蛾、豆丁海馬等待著各位來探索，傍晚可自行於沙灘上逛逛。晚餐於飯店享用，餐後可自由活動。
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第三/四天 巴里卡薩BALICASAG（船潛3支/天）<br>
+                早餐後由專業導潛安排前往CANYONS海域船潛，大型海扇和色彩鮮豔的雞冠軟珊瑚遍佈於礁岩上，大型迴游魚群也常在此出沒，著名的鯊魚洞也可常見大型的白鰭鯊在洞裡休憩，傍晚可自行於沙灘上逛逛。晚餐可於飯店享用或自費前往著名的阿羅納海灘(ALONA BEACH)逛街與用餐。
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第五天 薄荷島／馬尼拉／台北 5J-622 / 5J-310<br>
+                享受一個無Morning Call的早晨，下午整理行裝搭專車前往機場，等待專機的時間可於馬尼拉機場旁的大型百貨中心逛逛，之後搭機回台灣，結束為期五天的難忘菲律賓潛水之旅。
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td><img src="../Image/Data/Bohol_13.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Bohol_14.jpg" width="100%"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../Image/Data/Bohol_15.jpg" width="100%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+      ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+          <ul>
+            <li>團費原價：24,000　現金優惠價：23,000</li>
+            <li>會員價：23,000　會員現金優惠價：22,000</li>
+          </ul>
+          <br/>
+          <div>包含：馬尼拉至潛水中心來回接送，船潛９支，度假村內正餐餐食，５天４夜渡假村住宿，潛水稅金，５天４夜旅遊平安保險</div>
+          <div>
+            不包含：來回機票、簽證申請、護照申請、潛水裝備、自費行程、非潛水區域之餐費、自行享用之飲料<br>
+              　　　　<span class="Large Important">小費：帶隊教練統一收取(300元*４天=1,200)</span>
+          </div>
+      ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+          <table width="70%" style="text-align: justify;">
+              <tr>
+                <td>
+                  <ol>
+                    <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+                    <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                    <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+                    <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+                    <li>
+                      若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                      <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                    </li>
+                    <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                    <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                      <ul>
+                        <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                        <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                      </ul>
+                    </li>
+                    <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+                    <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+                    <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+                    <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                    <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                    <li>潛水活動安排以上列建議行程為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                    <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+                  </ol>
+                </td>
+              </tr>
+            </table>
+      ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+            <br/>
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：愛潛水</td>
+                <td>行動電話：0909-097696</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2882-7696</td>
+                <td>FAX：02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl：info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2517-1333</td>
+                <td>FAX：02-2508-1537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+              </tr>
+            </table>
+        ]]>
+  </Block>
+</Data>
