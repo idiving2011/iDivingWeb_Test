@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="澎湖"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="#intro"></Item>
+    <Item name="著名潛點" href="#DiveSite"></Item>
+    <Item name="建議行程" href="#schedule"></Item>
+    <Item name="費用說明" href="#price"></Item>
+    <Item name="注意事項" href="#notice"></Item>
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td>
+            <img style="float: right; margin: 0 0 50px 50px; vertical-align: text-top;" width="40%" src="../Image/Data/Penghu_01.jpg" />
+            <strong>澎湖-南方四島</strong><br/>
+            澎湖群島位於臺灣海峽上，是臺灣唯一的島縣，由90座島嶼組成，全島面積126.864平方公里之資料。極東：查母嶼； 極西：花嶼； 極南：七美嶼； 極北：大蹺嶼，北回歸線23°27穿過群島之中的虎井嶼之南。火山玄武岩地形遍佈，造就不同於台灣其他地方潛域的特出景致。更因為淺灘海域中年日照充足，加上溫暖的黑潮支流流經，提供此處軟硬珊瑚充足的養分，進而吸引魚群群聚。<br>
+            <br>
+            <strong>氣候</strong><br/>
+            澎湖群島的地形低且平，加上位於臺灣海峽中央，因此，氣候 深受雨量與季風的影響。<br><br>
+            雨量：澎湖群島平均年雨量約有1000毫米左右，80%集中在夏季。在陽光照射與東北季風強烈吹襲之下，雨量的蒸發量每年高達1800毫米。因此，群島上的植物自然的演化出較抗風、耐旱的生態系。<br><br>
+            季風：由於澎湖缺乏高山的屏障，冬天的風速較大，每年強風日數高達約100天。根據統計，10月至翌年1月，風速都維持在每秒6公尺以上；但是當結構完整的大陸冷氣團南下時，風速有時會達到8級以上，瞬間陣風則會達到12級左右。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td>
+            <img style="float: right; margin: 0 0 50px 50px; vertical-align: text-top;" width="40%" src="../Image/Data/Penghu_02.jpg" />
+            南方四島的潛點分布主要分為兩個大區：東、西吉嶼潛域和東、西嶼坪潛域<br/><br/>
+            <ul>
+              <li>
+                東、西吉嶼潛域：<br>
+                東吉嶼為玄武岩地形所構成，除了港口左右兩側為沙灘地形之外，多為海蝕崖等沿岸，不建議進行岸潛。珊瑚礁遍布於島嶼四周，東側淺灘為平靜水域，適合浮潛活動，東北角則是靠近海蝕平台，地形豐富且魚群豐富適合休閒潛水活動。<br>
+                熱門潛點為：東宮前、大坪前<br>
+                <br>
+                西吉嶼珊瑚礁遍佈南側，海域玄武岩地形豐富，加上大型花環肉質軟珊瑚遍佈，魚群穿梭其間，非常適合安排潛水旅遊。<br>
+                熱門潛點為：花環公園、西吉城堡、西吉斷層<br>
+              </li>
+              <li>
+                東、西嶼坪潛域：<br>
+                東嶼坪為一玄武岩方山地形，珊瑚以軸孔珊瑚科、微孔珊瑚科、鹿角珊瑚科為主，島嶼東側為巨石礁、五米礁等地形，礁岩由沙地突起，地形變化豐富。水流稍強由東南流向西北，此地海蝕溝、海蝕洞等海蝕作用明顯，魚群豐富。<br>
+                熱門潛點為：塔仔北、瀨仔尾、五米礁、巨石礁、鐘仔西、二塭南<br>
+                <br>
+                西嶼坪是澎湖自然生態保留區，無法進行登島與周遭海域的潛水活動，但其高聳的海崖地形與週遭島嶼，亦是很值得一訪的熱們潛點。根據2009年的調查報告，西嶼坪的珊瑚覆蓋率為南方四島中最高的，因此此處的珊瑚生態嶼海洋物種相對豐富。<br>
+                熱門潛點為：生態長廊、擎天岩、西嶼坪北、沙道迷宮
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Penghu_03.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Penghu_04.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="schedule" caption="建議行程" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            
+            第一天<br>
+            第一天上午05:40在松山機場集合，預計搭乘06:35的飛機前往澎湖，馬公機場，中午搭專船接往將軍嶼，隨既環境簡介及分配住宿，午餐後準備兩支船潛，潛點視風浪狀況決定之。<br>
+            <br>
+            <img style="float: right; margin: 0 0 0 50px; vertical-align: text-top;" width="40%" src="../Image/Data/Penghu_05.jpg" />
+            第二天<br>
+            上午兩支船潛，下午一支船潛。晚餐後自由活動或自費夜潛。<br>
+            <br>
+            第三天<br>
+            （潛水集合時間，會以當地導潛判斷何時適合為主，故無法提前告知集合時間）<br>
+            <br>
+            第四天<br>
+            上午7點準備搭專船返回馬公碼頭，開始馬公一日遊，下午4點，準備搭飛機回台北，結束快樂旅程。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價 : $23,000</li>
+        <li>現金優惠價/會員價：$22,500</li>
+        <li><span class="Large Important">會員現金優惠價：$22,000</span></li>
+      </ul>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <i>
+              註：以上費用活動期間的食宿、三佰萬旅遊平安險,當地將提供機車代步。<br>
+              但不包含潛水裝備租借的費用及個人性質的花費。 澎湖團費用已包含台北～馬公機場機票費用。
+            </i>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ol>
+              <li>國內潛水旅遊亦有成團人數要求，一般含領隊需達10人才會出團。考量東北角的課程及活動，每年5~9月的活動一般上限為12人。若以現金（or匯款）繳交團費，額外享有優惠！</li>
+              <li>自2016年起，煩請要參加活動的朋友們記得填寫＂Google表單＂報名，並繳交NT 2,000元『訂金』才算完成報名流程，若以轉帳方式繳交訂金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+              <li>若因報名人數不足而無法出團時，『訂金』可全數退還。</li>
+              <li>出團日14天前會提供行程資料，並請團員繳齊剩餘團費（尾款）。</li>
+              <li>
+                若遇颱風、浪況不佳等不可抗拒之因素，基於安全與樂趣的考量，iDiving俱樂部決定取消活動時，則『團費』扣除不可退還之費用後，剩餘款項將全數退還。<br>
+                <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用則視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+              </li>
+              <li>當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，若有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+              <li>
+                出團日8天前，如果團員臨時有事無法出席，『團費』在扣除不可退還之費用後，剩餘款項將會退還；出團日7天內，若團員因故無法出團，請恕無法退還『團費』：
+                <ul>
+                  <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可退還。</li>
+                  <li>若是由iDiving找到人員填補空缺，訂金恕不退還。</li>
+                </ul>
+              </li>
+              <li>國內潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，恕不提供會員優惠。</li>
+              <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+              <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+              <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+              <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+            <br/>
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：愛潛水</td>
+                <td>行動電話：0909-097696</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2882-7696</td>
+                <td>FAX：02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl：info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2517-1333</td>
+                <td>FAX：02-2508-1537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+              </tr>
+            </table>
+        ]]>
+  </Block>
+</Data>
