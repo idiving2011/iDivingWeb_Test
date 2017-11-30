@@ -1,16 +1,284 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <Block id="title" method="title" text="馬來西亞 西巴丹"/>
-  <!--<Block id="nav" method="nav">
+  <Block id="title" method="title" text="西巴丹"/>
+  <Block id="nav" method="nav">
     <Item name="景點介紹" href="#intro"></Item>
     <Item name="著名潛點" href="#DiveSite"></Item>
-    <Item name="行程表" href="#schedule"></Item>
+    <Item name="建議行程" href="#schedule"></Item>
     <Item name="注意事項" href="#notice"></Item>
-  </Block>-->
-  <Block id="intro" method="html">
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
     <![CDATA[ 
-            <br/><br/><br/><br/>
-			  <div style="text-align:center"><img src="../Image/Data/UnderConstruction.jpg"/></div>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong>馬來西亞</strong><br/>
+            馬來西亞聯邦，大家稱馬來西亞(Malaysia)或簡稱「大馬」，位於東南亞，全境有13個州，分為東西兩大部分，中間隔著南海，西半部位於馬來半島，稱「西馬」，共11個州，東半部位於婆羅洲北部有沙巴(Sabah)與沙勞越(Sarawak) 2州，俗稱「東馬」。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/Sipadan_01.jpg" width="100%"></td>
+        <tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>氣候</strong><br/>
+            馬來西亞位置近於地球赤道，故其氣候為熱帶氣候，常年炎熱而多雨，空氣中的濕氣非常高，一年之中的溫差變化極小，平均溫度在26—29℃之間，全年雨量充沛，10—12月是雨季。在馬來西亞旅遊，基本上全年都適宜。白天雖然炎熱，但是午後有陣雨，晚上會有季風吹拂，十分涼爽。而針對西巴丹所在的東馬而言，11月到隔年的3月是雨季，其他時候都是高溫炎熱的好天氣。<br/><br/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>人文</strong><br/>
+            馬來西亞是個多元種族特色的國家，主要的民族是：佔大多數而且是回教徒的馬來人(59％)，還有華人(32.1％)、印度人(8.2％)、及其他(0.7％)，在沙巴和砂勞越的原住民如：卡達山族、巴曹族、木如族、格拉比族、達雅族和依班等等。馬來人是馬來半島的較早住民，最早是由印尼移至馬來半島。華人移至馬來半島則較晚，主要是明朝及清朝兩代由中國大陸的廣東、福建及海南島移民至馬來西亞。使用的語言包括馬來語、英語、華語、印語、其中以馬來語為馬來西亞之國語。 對華人而言，有閩南話、福建話、廣東話、客家話、潮州話、海南話。馬來人(Malay)，原是從印尼而來。西馬中北邊較少，南部多些，最多是東馬。 印度人分成七、八種不同語言等。雖然馬來西亞為一回教國家，但它也確保其他民族的信仰自由。其他宗教有佛教、道教、印度教、天主教、興都教和基督教等。<br/><br/>
+          </td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong>地點</strong><br/>
+            西巴丹島(Sipadan)除了以海龜聞名之外，還有三大魚種(隆頭鸚哥、梭魚、Jackfish)，不但數量龐大，而且定時定點，是一個深受各地熱愛潛水人士讚賞的「潛水樂園」，該島位於仙本那(Semporna)的岸外群島，即沙巴州東南方的西利比斯海面上的一個小島，地處北緯四度左右，雖極近赤道，卻甚涼爽，大馬政府向國內外宣傳這裡是「世界首屈一指的潛水天堂」，其島週圍的海底最深可達六百公尺，就如深海中的一座山。<br/><br/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            西巴丹島為世界頂尖的潛點，從600米的深淵流往北部蘇拉威西海，形成一個古老的火山。頂級的西巴丹潛水點，周圍佈滿星羅棋布當地珊瑚礁，您有可能看到鯊魚、海龜和其他大中上層魚類。輕鬆的延著海流潛水，西巴丹島周圍海域任何地方都擁有最大海龜種群。幾乎每一個西巴丹島都可以看到潛水綠海龜，甚至有龜洞。為了保護豐富的海洋多樣性的西巴丹島，島上已經為國家公園保護區，所有度假設施的基礎上西巴丹島本身移除，每日只開放120個名額許可進入西巴丹。<br/><br/>
+          </td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Sipadan_02.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Sipadan_03.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Sipadan_04.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>Barracuda Point</td>
+        </tr>
+        <tr>
+          <td>眾人去西巴丹島最愛的潛點，在此有機會遇到成群的梭魚與傑克風暴或隆頭鸚哥，在這兒多是放流潛水的形式居多，在後半段的沙地上也時常遇到滿地的花園鰻與各式礁鯊，是個令人期待的潛點。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>The Drop Off/Sipadan Jetty</td>
+        </tr>
+        <tr>
+          <td>就在西巴丹島碼頭的正下方，屬於峭壁潛水，往下可以深到600米，有許多巨大的海扇。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Turtle Cavern</td>
+        </tr>
+        <tr>
+          <td>西巴丹島很具特色的景點之一，一個深藏水底的洞穴，可以深入海島65米深處，洞穴內有許多鐘乳石，也被稱為龜塚。洞穴入口處可見成群的魚群，但這個潛點只允許經驗豐富的洞穴潛水員進入深處探險。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Coral Gardens</td>
+        </tr>
+        <tr>
+          <td>遍地都是絢爛奪目的軟硬珊瑚，也是海龜與魟魚最佳觀賞據點。</td>
+        </tr>
+      </table>
+      <br>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Sipadan_05.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Sipadan_06.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Sipadan_07.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="schedule" caption="建議行程" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="55%">
+            <table width="100%" style="text-align: justify;">
+              <tr>
+                <td>台北TPE-亞庇BKI</td>
+                <td>馬航 MH69 0800-1130</td>
+              </tr>
+              <tr>
+                <td>亞庇BKI-斗湖TWU</td>
+                <td>馬航 MH2137 1230-1320</td>
+              </tr>
+              <tr>
+                <td>斗湖TWU-亞庇BKI</td>
+                <td>馬航 MH3052 1245-1345</td>
+              </tr>
+              <tr>
+                <td>亞庇BKI-台北TPE</td>
+                <td>馬航 MH68 1735-2105</td>
+              </tr>
+            </table>
+            <br/>
+            <table width="100%" style="text-align: justify;">
+              <tr>
+                <td>
+                  第一天<br>
+                  台北~亞庇~斗湖~仙本那~馬寶<br>
+                  集合於桃園機場搭機飛往沙巴州首邑亞庇市，之後轉機飛往斗湖，抵達後經仙本那搭乘快艇前往馬寶島上。<br>
+                  <br>
+                  住宿:BORNEO DIVERS RESORT潛水渡假村
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第二天 西巴丹馬寶 MABUL（船潛3支）<br>
+                  享用早餐後，隨即開始今日的潛水活動，西巴丹海底的地形以峭壁為主，只有梭魚坪、南端角這兩個潛點是斜坡和平台的地形。隨處可見的海龜、黃鰭鮪魚、隆頭鸚哥、梭魚群、Jackfish、白鰭鯊、灰礁鯊等大型魚類也常在此迴游。馬寶或卡巴賴附近的潛點有著多種海龍、葉魚、海馬、豆丁海馬、緞帶鰻等奇特的生物讓您目不暇給，是知名的微距攝影天堂。傍晚享用茶點後可於渡假村碼頭邊岸潛。(16:00/19:00岸潛無限支)
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第三天 西巴丹馬寶 MABUL（每日船潛3支）<br>
+                  享用早餐後，專業潛導將再帶領各位投入這奧妙的海洋生態環境中與各式繽紛魚群共舞及觀賞海底生態奇觀之美。(16:00/19:00岸潛無限支)
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第四天 西巴丹馬寶 MABUL（船潛3支）<br>
+                  享用早餐後，展開今日的潛水活動，無論是任何潛點都能依照各位的喜好做適當調整，滿足您對海底生態環境之探索與喜悅。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  第五天 馬寶~仙本那~斗湖~亞庇~台北<br>
+                  享受一個無morning call的清晨，在渡假村悠閒的享用早餐後，再次漫步瀏覽這美麗的海洋，結束此趟愉快的海底觀光；隨後乘快艇至仙本那，轉搭巴士續往斗湖機場搭乘馬航國內班機抵達亞庇市。抵亞庇後續搭乘馬來西亞航空客機飛返台北。
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td><img src="../Image/Data/Sipadan_08.png" style="float: right; width: 100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：NT$ 58,000　現金優惠價：NT$ 57,000</li>
+        <li>會員價： NT$ 57,000　會員現金優惠價：NT$ 56,000</li>
+      </ul>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>包　含：</td>
+          <td>台北/亞庇/斗湖來回經濟艙機票及各地機場稅、機場來回接駁、馬寶島五天四夜住宿、行程內所含之餐食費用、200萬旅遊責任險加20萬醫療險、氣瓶、導潛、配重等潛水費用。</td>
+        </tr>
+        <tr>
+          <td width="1%" nowrap>不包含：</td>
+          <td>第一天、第五天午餐、西巴丹潛水稅(約台幣400元)、司機、導遊、領隊、船夫、行李等小費、其他個人支出，潛水裝備租金、行李超重、飲料、洗衣、電話費…..等。<span class="Large Important">小費：帶隊教練統一收取 (300元＊5天＝1,500)</span></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+            <table width="70%" style="text-align: justify;">
+                <tr>
+                  <td>
+                    <ol>
+                      <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+                      <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                      <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+                      <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+                      <li>
+                        若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                        <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                      </li>
+                      <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                      <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                        <ul>
+                          <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                          <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                        </ul>
+                      </li>
+                      <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+                      <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+                      <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+                      <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                      <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                      <li>潛水活動安排以上列建議行程為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                      <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+                    </ol>
+                  </td>
+                </tr>
+              </table>
+        ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+            <br/>
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：愛潛水</td>
+                <td>行動電話：0909-097696</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2882-7696</td>
+                <td>FAX：02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl：info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2517-1333</td>
+                <td>FAX：02-2508-1537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+              </tr>
+            </table>
         ]]>
   </Block>
 </Data>
