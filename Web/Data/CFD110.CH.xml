@@ -180,7 +180,11 @@
         </tr>
         <tr align="center">
           <td style="vertical-align:middle;">周 日<br/>9：00 ~ 17：00</td>
-          <td style="vertical-align:middle;">10-40M自由潛水</td>
+          <td style="vertical-align:middle;">
+            10-40M自由潛水<br>
+            （4-9月之課程，贈送東北角海洋實習第2天）<br>
+            （冬季課程無第２天海洋實習）
+          </td>
           <td>
             東北角<br/>
             或搭配<br/>
@@ -209,7 +213,27 @@
   <Block id="plan" caption="開課日期" method="html" back="#top">
     <![CDATA[
             <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-            <table width="70%">
+            <table width="70%" style="text-align: justify;">
+              <tr>
+                <td><span class="Important">冬季版開課日期</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>
+                      <span class="Important">
+                        1/6 + 1/13 09:00 - 18:00 學科 + 泳池<br>
+                        1/20 09:00 - 18:00 潛立方結訓
+                      </span>
+                    </li>
+                    <li>
+                      <span class="Important">
+                        3/3 + 3/4 09:00 - 18:00 學科 + 泳池<br>
+                        3/17 09:00 - 18:00 潛立方結訓
+                      </span>
+                    </li>
+                </td>
+              </tr>
               <tr>
                 <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
               </tr>
@@ -224,7 +248,7 @@
             <Ul>
               <li><span class="Important">LV1 ~ LV3 皆享有現金優惠，折扣 1,000 元。</span></li>
               <li><span class="Important">iDiving 水肺初階課程學生報名 FD-LV1 課程可享 1,000 元折扣！</span></li>
-              <li><span class="Large Focus">LV1：16,000 元</span></li>
+              <li><span class="Large Focus">LV1：16,000 元(亦可選擇自備輕裝學費減 2,000 元，租借輕裝 100 元/天)</span></li>
                 <table width="100%" style="text-align: justify;">
                   <tr>
                     <td nowrap>費用包含：</td>
@@ -255,9 +279,10 @@
                 </table>
               <br>
               <li><span class="Important">他店學生來 iDiving 進行後續課程，欲取得 LV1 課程贈品，享加購價 3,000 元</span></li>
-              <li><span class="Large Focus">LV2：15,000 元</span></li>
+              <li><span class="Large Focus">LV2：14,000 元</span></li>
               <li><span class="Large Focus">LV3：17,000 元</span></li>
               <li><span class="Large Focus">參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+              <li><span class="Large Focus">iDiving 學生購買自潛專用防寒衣享有9折~95折優惠價格</span></li>
             </Ul>
           </td>
         </tr>
@@ -299,7 +324,7 @@
         <tr>
           <td>
             <ol>
-              <li>iDiving採保證班的教學方式，如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
+              <li>iDiving採有條件式保證班教學（註），如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
               <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
               <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
               <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
@@ -309,6 +334,16 @@
                 （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
               </li>
             </ol>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            註：<br>
+            <ul>
+              <li>如果各項技巧尚未學會，iDiving將會一直免費培訓，但如果學生已經學會各項技巧，但無法通過測驗，則依照下面說明進行補課或核發執照。（＊耳壓平衡技巧僅須學會１種）。</li>
+              <li>4-9月自由潛水LV1課程，每位學生有２天的結訓機會，如果無法通過測驗，可以免費再增加２天進行練習。如果還是無法通過測驗，則需自費500元/天進行補考，亦可選擇核發＂泳池自由潛水員＂執照　(SSI-Pool Free Diver)。</li>
+              <li>4-9月冬季自由潛水LV1課程，每位學生有1天的結訓機會，如果測驗失敗欲補考，須自付1500元（潛立方21米泳池入場費），亦可選擇核發＂泳池自由潛水員＂執照　(SSI-Pool Free Diver)。</li>
+            </ul>
           </td>
         </tr>
       </table>
