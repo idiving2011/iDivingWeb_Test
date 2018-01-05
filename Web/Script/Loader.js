@@ -3,6 +3,7 @@
 /// <reference path = "Plugin\jquery.Message.js" />
 /// <reference path = "Plugin\jquery.Fill.js" />
 /// <reference path = "Plugin\jquery.cookie.js" />
+/// <reference path = "Plugin\jquery.url.js" />
 /// <reference path = "Plugin\jquery.ga.js" />
 
 var dev;
@@ -11,7 +12,7 @@ var basePath;
 $(document).ready(function () {
     dev = top.location.toString().match(/\?(.+=.*&)*dev/)
     isIE = /msie/i.test(navigator.userAgent);
-    
+
     basePath = $("meta[name='BasePath']").attr("content");
     if (!basePath) basePath = "../";
 
@@ -22,7 +23,7 @@ $(document).ready(function () {
     xUI();
     extension();
     data();
-    
+
     $(window).one("load", function () {
         adjust();
     }).resize(function () {
@@ -40,7 +41,7 @@ function viewPort() {
 
 // Resource
 function resource() {
-    var basis = "jquery.ga.js; jquery.cookie.js; jquery.Message.js; jquery.Menu.js; xUI.Menu.less; xUI.Head.less; xUI.Foot.less; xUI.Message.less; Basis.less; jquery.Fill.js";
+    var basis = "jquery.ga.js;jquery.url.js; jquery.cookie.js; jquery.Message.js; jquery.Menu.js; xUI.Menu.less; xUI.Head.less; xUI.Foot.less; xUI.Message.less; Basis.less; jquery.Fill.js";
     var extra = $("meta[name='Extra']").attr("content");
     var pointer = $("script[src$='Loader.js']");
 
@@ -64,7 +65,7 @@ function addResource(pointer, source, basePath, folder) {
         else if (value.match(/^xUI/)) {
             pointer.after($("<link/>", { rel: "stylesheet/less", href: basePath + "Style/Plugin/" + value }));
         }
-        else if (value.match(/.less$/)) {                                                                                   
+        else if (value.match(/.less$/)) {
             pointer.after($("<link/>", { rel: "stylesheet/less", href: basePath + "Style/" + folder + "/" + value }));
         }
         else if (value.match(/.css$/)) {
@@ -196,7 +197,10 @@ function data() {
 
 function Init() {
     //Tab Selected
-    $(".Tag:contains('" + $(".Tab").attr("data-selected") + "')").click();
+    var name = $.url.param("tab") + $.url.param("Tab");
+    if ("" == name)
+        name = $(".Tab").attr("data-selected");
+    $(".Tag:contains('" + name + "')").click();
 }
 
 /* === Overridable Function === */
