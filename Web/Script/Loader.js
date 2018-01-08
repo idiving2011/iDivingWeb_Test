@@ -197,10 +197,12 @@ function data() {
 
 function Init() {
     //Tab Selected
-    var name = $.url.param("tab") + $.url.param("Tab");
-    if ("" == name)
-        name = $(".Tab").attr("data-selected");
-    $(".Tag:contains('" + name + "')").click();
+    var name = $.url.param("tab");
+	var tab = $(".Tag:contains('" + name + "')");
+    if ("" == name || 0 == $(tab).length) {
+		tab = $(".Tag:contains('" + $(".Tab").attr("data-selected") + "')");
+	}
+    $(tab).click();
 }
 
 /* === Overridable Function === */
