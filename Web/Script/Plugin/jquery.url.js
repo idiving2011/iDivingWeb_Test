@@ -1,4 +1,4 @@
-/*
+﻿/*
 jQuery Url Plugin
  * Version 1.0
  * 2009-03-22 19:30:05
@@ -19,7 +19,7 @@ jQuery Url Plugin
     for(var i = 0; i< paramsRaw.length; i++){
      var single = paramsRaw[i].split("=");
      if(single[0])
-      this._params[single[0]] = unescape(single[1]);
+      this._params[single[0]] = decodeURI(single[1]);
     }
    }
    catch(e){
