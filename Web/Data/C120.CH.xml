@@ -534,14 +534,20 @@
       <![CDATA[
           <div><span style="background-color: rgb(197, 197, 197); color: blue;">OWD 課程費用方案一：</span>&nbsp;<span class="Large Focus">定價 19,000 元，優惠可合併計算。</span></div>
           <ul>
-            <li><span class="Large Important">優惠 1：平日特別班優惠加贈 300 元集點卷 3 張，集滿5張可抵扣 1,500 元消費。<a href="/Page/B400.php#advantage">集點卷取得辦法</a></span></li>
-            <li><span class="Large Important">優惠 2：現金優惠，折扣 1,000 元。</span></li>
-            <li>
-              <span class="Large Important">優惠 3：限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。</span><br>
-              <ul class="Disc">
-                <li><span class="Large Focus">39 ~ 46 期，送 1,000 折價卷（可抵後續教學與潛水活動費用）。</span></li>
-              </ul>
-            </li>
+            <table>
+              <tr>
+                <td nowrap><li><span class="Large Important">優惠 1：</span></li></td>
+                <td><span class="Large Important">現金優惠，折扣 1,000 元。</span></td>
+              </tr>
+              <tr>
+                <td><li><span class="Large Important">優惠 2：</span></li></td>
+                <td><span class="Large Important">早鳥優惠，即日起到 2017/12/31 以前報名，可優惠 1,500 元。在 2018/1/1~4/16 期間報名，可優惠 1,000 元。4/17 後，預約一個月後的ＯＷＤ課程可優惠 500 元。</span></td>
+              </tr>
+              <tr>
+                <td><li><span class="Large Important">優惠 3：</span></li></td>
+                <td><span class="Large Important">限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。限定期別優惠：第１-6期，可優惠 1,500 元。第7-15期，可優惠 1,000 元。第16-21期，可優惠 500 元。</span></td>
+              </tr>
+            </table>
           </ul>
           <br/>
           <table width="80%" border="0" cellpadding="0" cellspacing="0">
