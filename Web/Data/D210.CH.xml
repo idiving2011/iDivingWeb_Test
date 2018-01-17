@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
   <Block id="title" method="title" text="阿尼洛 ANILAO"/>
-  <Block id="nav" method="nav">
+
+  <!-- 四天行程 -->
+  <Block id="dock" method="dock">
     <Item name="景點介紹" href="#intro"></Item>
     <Item name="著名潛點" href="#DiveSite"></Item>
     <Item name="建議行程" href="#schedule"></Item>
@@ -123,7 +125,24 @@
         </table>
       ]]>
   </Block>
-  <Block id="schedule" caption="建議行程" method="html" back="#top">
+
+
+
+
+  <Block id="schedule" caption="建議行程" method="html" />
+  <Block id="ANILAO" method="tab" selected="四天行程" >
+    <Item name="四天行程"/>
+    <Item name="五天行程"/>
+  </Block>
+  
+  
+  
+  
+  
+  
+  
+  
+  <Block id="schedule1" method="html" back="#top" tag="四天行程">
     <![CDATA[ 
           <table width="70%" style="text-align: justify;">
             <tr>
@@ -165,7 +184,7 @@
           </table>
       ]]>
   </Block>
-  <Block id="price" caption="費用說明" method="html" back="#top">
+  <Block id="price1" caption="費用說明" method="html" back="#top" tag="四天行程">
     <![CDATA[ 
           <ul>
             <li>團費原價：23,000</li>
@@ -182,6 +201,68 @@
           </div>
       ]]>
   </Block>
+
+  <!-- 五天行程 -->
+  <Block id="schedule2" method="html" back="#top" tag="五天行程">
+    <![CDATA[ 
+          <table width="70%" style="text-align: justify;">
+            <tr>
+              <td>
+                出發<br>
+                第一天<br>
+                05:30於桃園機場第一航廈華航櫃台集合，搭乘華航CI-701班機前往馬尼拉。班機時間為：TPE 07:35 ~ 09:40 MNL。接著搭乘2.5小時的接駁車至渡假村。預計抵達時間約為中午12:30。午餐過後，將進行一支的測潛。結束時間約下午5點，可視情況增加一支夜潛。<br>
+                晚飯後可安排按摩（自費:700-800 peso/1h，需提早訂位）
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第二天至第三天<br>
+                早上7:30用餐，8:30集合潛水，每天早上２潛，下午１潛，於黃昏時進行1支夜潛，午餐晚餐用餐時間現場公布。
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第四天<br>
+                早上7:30用餐，8:30集合潛水，每天早上２潛，下午１潛，午餐晚餐用餐時間現場公布。
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                第五天<br>
+                早餐後，收拾行李準備前往馬尼拉機場。午餐在機場四樓的美食街自行享用。<br>
+                回程搭乘華航CI-704班機，時間為MNL16:55 ~ 18:55。自行返回家中，結束此次完美的潛水旅遊。
+              </td>
+            </tr>
+          </table>
+      ]]>
+  </Block>
+  <Block id="price2" caption="費用說明" method="html" back="#top" tag="五天行程">
+    <![CDATA[ 
+          <ul>
+            <li>團費訂價：32,000，團費現金價：30,500</li>
+            <li>會員訂價：31,000，<span class="Large Important">會員現金價：29,500</span></li>
+          </ul>
+          <br/>
+          <div>
+            包含：馬尼拉至潛水中心來回接送，船潛７支，Anilao當地餐費，5天4夜渡假村住宿，潛水稅金，5天4夜旅遊平安保險
+          </div>
+          <div>
+            不包含：來回機票、簽證申請、護照申請、潛水裝備、自費行程、非潛水區域之餐費、飯店環境稅200p/天、<br>
+              　　　　<span class="Large Important">小費：帶隊教練統一收取(300元*5天=1,500)</span>
+          </div>
+      ]]>
+  </Block>
+  
+  <!-- 共用 -->
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
           <table width="70%" style="text-align: justify;">
