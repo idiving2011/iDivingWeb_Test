@@ -106,7 +106,7 @@
                             $(this).addClass("Selected");
                             $("div[tag='" + $(this).text() + "']")
                                 .show(function () {
-                                    $("div[tag='" + $(this).find(".Selected").text() + "']").show();
+                                    $("div[tag*='" + $(this).find(".Selected").text() + "']").show();
                                 });
                         })
                         .appendTo(tab);
@@ -127,7 +127,7 @@
                             $(this).siblings().removeClass("Selected");
                             $("div[tag]:not(.TabL2)").hide();
                             $(this).addClass("Selected");
-                            $("div[tag='" + $(this).text() + "']").show();
+                            $("div[tag*='" + $(this).text() + "']").show();
                         })
                     .appendTo(L2);
                 });

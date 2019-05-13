@@ -16,7 +16,8 @@
 
 	<div id="section" sight>
 		<div id="AD" class="Block Full"></div>
-		<div id="facebook" class="Block Side InfoBox"></div>
+		<div id="VD" class="Block Side InfoBox"></div>
+		<!--<div id="facebook" class="Block Side InfoBox"></div>-->
 		<div id="course" class="Block Half InfoBox"></div>
 		<div id="trip" class="Block Half InfoBox"></div>
 		<div id="album" class="Block Main InfoBox"></div>
