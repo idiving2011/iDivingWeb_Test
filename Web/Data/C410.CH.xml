@@ -15,12 +15,12 @@
         </table>
           ]]>
     </Block>
-    <Block id="specialty" method="tab" selected="專業導潛DG" description="">
-      <Item name="專業導潛DG"/>
-      <Item name="潛水長DM"/>
-      <Item name="潛水主管DCS"/>
+    <Block id="specialty" method="tab" selected="專業導潛 DG" description="">
+      <Item name="專業導潛 DG"/>
+      <Item name="潛水長 DM"/>
+      <Item name="助理教練 AI"/>
     </Block>
-    <Block id="intro1" method="html" tag="專業導潛DG">
+    <Block id="intro1" method="html" tag="專業導潛 DG">
       <![CDATA[ 
           <br/>
           <table width="80%" style="table-layout: fixed;">
@@ -31,7 +31,7 @@
           </table>
       ]]>
     </Block>
-    <Block id="curriculum1" caption="課程規劃" method="html" back="#top" tag="專業導潛DG">
+    <Block id="curriculum1" caption="課程規劃" method="html" back="#top" tag="專業導潛 DG">
       <![CDATA[ 
           <table border="0" width="80%">
             <tr>
@@ -45,12 +45,12 @@
           </table>
         ]]>
     </Block>
-    <Block id="plan1" caption="開課日期" method="html" back="#top" tag="專業導潛DG">
+    <Block id="plan1" caption="開課日期" method="html" back="#top" tag="專業導潛 DG">
       <![CDATA[
               <p>每年冬季開班, 共計3天。</p>
           ]]>
     </Block>
-    <Block id="tuition1" caption="超值學費" method="html" back="#top" tag="專業導潛DG">
+    <Block id="tuition1" caption="超值學費" method="html" back="#top" tag="專業導潛 DG">
       <![CDATA[
           <ul>
             <li>
@@ -68,7 +68,7 @@
           </ul>
       ]]>
     </Block>
-    <Block id="intro2" method="html" tag="潛水長DM">
+    <Block id="intro2" method="html" tag="潛水長 DM">
       <![CDATA[ 
             <br/>
             <table width="80%" style="table-layout: fixed;">
@@ -79,7 +79,7 @@
             </table>
         ]]>
     </Block>
-    <Block id="curriculum2" caption="課程規劃" method="html" back="#top" tag="潛水長DM">
+    <Block id="curriculum2" caption="課程規劃" method="html" back="#top" tag="潛水長 DM">
       <![CDATA[ 
             <table border="0" width="80%">
               <tr>
@@ -89,12 +89,12 @@
             </table>
           ]]>
     </Block>
-    <Block id="plan2" caption="開課日期" method="html" back="#top" tag="潛水長DM">
+    <Block id="plan2" caption="開課日期" method="html" back="#top" tag="潛水長 DM">
       <![CDATA[
                 <p>每年冬季開班, 共計3天。</p>
             ]]>
     </Block>
-    <Block id="tuition2" caption="超值學費" method="html" back="#top" tag="潛水長DM">
+    <Block id="tuition2" caption="超值學費" method="html" back="#top" tag="潛水長 DM">
       <![CDATA[
             <ul>
               <li>
@@ -109,12 +109,12 @@
             </ul>
         ]]>
     </Block>
-    <Block id="intro3" method="html" tag="潛水主管DCS">
+    <Block id="intro3" method="html" tag="助理教練 AI">
       <![CDATA[ 
             <br/>
             <table width="80%" style="table-layout: fixed;">
               <tr>
-                <td><img width="98%" src="../Image/Data/DCS.png"></td>
+                <td><img width="98%" src="../Image/Data/AI.jpg"></td>
                 <td>
                   你可以透過三種方式參加潛水主管的課程，分別是：個別參加專業導潛、科學潛水與潛水主管課程；將三項課程整合成單一課程；透過其他機構的潛水長身分參加此課程
                   <br/>
@@ -125,12 +125,12 @@
             </table>
         ]]>
     </Block>
-    <Block id="curriculum3" caption="課程規劃" method="html" back="#top" tag="潛水主管DCS">
+    <Block id="curriculum3" caption="課程規劃" method="html" back="#top" tag="助理教練 AI">
       <![CDATA[ 
             <table border="0" width="80%">
               <tr>
                 <td nowrap>學科：</td>
-                <td width="99%">潛水主管職責、潛水產業、SSI歷史與精神、教育系統、潛水技巧、潛水主管的角色。</td>
+                <td width="99%">認識 SSI、作為一位 SSI 潛水專業人士的職責、課程行政作業、教授學科單元、教授水中訓練單元、助理教練課程。</td>
               </tr>
               <tr>
                 <td nowrap>術科：</td>
@@ -139,12 +139,12 @@
             </table>
           ]]>
     </Block>
-    <Block id="plan3" caption="開課日期" method="html" back="#top" tag="潛水主管DCS">
+    <Block id="plan3" caption="開課日期" method="html" back="#top" tag="助理教練 AI">
       <![CDATA[
                 <p>每年冬季開班, 共計6天。</p>
             ]]>
     </Block>
-    <Block id="tuition3" caption="超值學費" method="html" back="#top" tag="潛水主管DCS">
+    <Block id="tuition3" caption="超值學費" method="html" back="#top" tag="助理教練 AI">
       <![CDATA[
             <ul>
               <li>

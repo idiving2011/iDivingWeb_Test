@@ -18,17 +18,17 @@
 	  <div id="intro" class="ArticleBox"></div>
 	  <div id="specialty" class="Block"></div>
 
-	  <!-- 專業導潛DG -->
+	  <!-- 專業導潛 DG -->
 	  <div id="intro1" class="ArticleBox"></div>
 	  <div id="curriculum1" class="ArticleBox"></div>
 	  <div id="plan1" class="ArticleBox"></div>
 	  <div id="tuition1" class="ArticleBox"></div>
-	  <!-- 潛水長DM -->
+	  <!-- 潛水長 DM -->
 	  <div id="intro2" class="ArticleBox"></div>
 	  <div id="curriculum2" class="ArticleBox"></div>
 	  <div id="plan2" class="ArticleBox"></div>
 	  <div id="tuition2" class="ArticleBox"></div>
-	  <!-- 潛水主管DCS -->
+	  <!-- 助理教練 AI -->
 	  <div id="intro3" class="ArticleBox"></div>
 	  <div id="curriculum3" class="ArticleBox"></div>
 	  <div id="plan3" class="ArticleBox"></div>
