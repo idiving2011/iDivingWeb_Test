@@ -33,6 +33,7 @@
       <Item name="側掛"/>
       <Item name="乾衣"/>
       <Item name="搜索與找回"/>
+      <Item name="ECO DIVER"/>
     </Item>
     <Item name="專長學科開課總表"/>
     <Item name="獎勵認證方案"/>
@@ -95,7 +96,7 @@
         <![CDATA[
                 <ul>
                   <li><span class="Large Focus">定價 7,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 1,000 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
                   <li><span class="Large Important">已完成 iDiving AA 課程之學員可減免 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -138,6 +139,7 @@
                 </table>
             ]]>
     </Block>
+  
     <!--夜潛-->
     <Block id="curriculum2" caption="課程規劃" method="html" back="#top" tag="夜潛">
       <![CDATA[ 
@@ -203,7 +205,7 @@
         <![CDATA[
                 <ul>
                   <li><span class="Large Focus">定價 6,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 1,000 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
                   <li>
                     <span class="Large Important">
                       一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
@@ -245,6 +247,7 @@
                 </table>
             ]]>
     </Block>
+  
     <!--高氧-->
     <Block id="curriculum3" caption="課程規劃" method="html" back="#top" tag="高氧">
       <![CDATA[ 
@@ -297,7 +300,7 @@
       <![CDATA[
                   <ul>
                     <li><span class="Large Focus">定價 5,000 元（額外贈送 2 張高氧使用卷）。</span></li>
-                    <li><span class="Large Important">現金優惠，折扣 1,000 元。</span></li>
+                    <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
                   </ul>
                   <br/>
                   <div>費用包含：線上教材、國際證照申請、教練費。</div>
@@ -333,6 +336,7 @@
                   </table>
               ]]>
     </Block>
+  
     <!--導航-->
     <Block id="curriculum4" caption="課程規劃" method="html" back="#top" tag="導航">
         <![CDATA[ 
@@ -387,7 +391,7 @@
         <![CDATA[
                 <ul>
                   <li><span class="Large Focus">定價 6,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 1,000 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
                   <li><span class="Large Important">已完成 iDiving AA 課程之學員可減免 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -430,6 +434,7 @@
                 </table>
             ]]>
     </Block>
+  
     <!--壓力與救援-->
     <Block id="curriculum6" caption="課程規劃" method="html" back="#top" tag="壓力與救援">
           <![CDATA[ 
@@ -462,7 +467,7 @@
                 <tr>
                   <td align="center">泳池</td>
                   <td align="center">周 六<br />
-                  11：00 ~ 15：00</td>
+                  09：00 ~ 12：00</td>
                   <td align="center">
                     意外處理 <br />
                     救援各項動
@@ -476,7 +481,7 @@
                   </td>
                   <td align="center">
                     周 六<br />
-                    09：00 ~ 16：00
+                    14：00 ~ 17：00
                   </td>
                   <td align="center">
                     救援規則與注意事項 <br />
@@ -507,7 +512,7 @@
       <![CDATA[
                 <ul>
                   <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 12,000 元。</span></li>
-                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 2,000 元。</span></li>
+                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
                       一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
@@ -520,6 +525,7 @@
                 <div>費用不含：輕裝租借(300元/天)。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
                 ]]>
     </Block>
+  
     <!--完美浮力-->
     <Block id="curriculum7" caption="課程規劃" method="html" back="#top" tag="完美浮力">
           <![CDATA[ 
@@ -573,7 +579,7 @@
       <![CDATA[
                  <ul>
                   <li><span class="Large Focus">定價 6,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 1,000 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
                   <li><span class="Large Important">已完成 iDiving AA 課程之學員可減免 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -616,6 +622,7 @@
                 </table>-->
                 ]]>
     </Block>
+  
     <!--船潛-->
     <Block id="curriculum8" caption="課程規劃" method="html" back="#top" tag="船潛">
       <![CDATA[ 
@@ -669,8 +676,13 @@
     <Block id="tuition8" caption="超值學費" method="html" back="#top" tag="船潛">
       <![CDATA[
                  <ul>
-                  <li><span class="Large Focus">定價 6,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 1,000 元。</span></li>
+                  <li><span class="Large Focus">定價</span></li>
+                    <ol>
+                      <li>東北角結訓（實際船潛）費用為 7,500 元</li>
+                      <li>東北角結訓（岸潛模擬）費用為 6,000 元</li>
+                      <li>搭配出團上課，費用為團費 + 4,500 元</li>
+                    </ol>
+                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
                   <li><span class="Large Important">已完成 iDiving AA 課程之學員可減免 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -713,6 +725,7 @@
                   </table>
                     ]]>
     </Block>
+  
     <!--電腦錶-->
     <Block id="curriculum9" caption="課程規劃" method="html" back="#top" tag="電腦錶">
       <![CDATA[ 
@@ -768,7 +781,7 @@
       <![CDATA[
                   <ul>
                     <li><span class="Large Focus">定價 6,000 元。</span></li>
-                    <li><span class="Large Important">現金優惠，折扣 1,000 元。</span></li>
+                    <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
                     <li>
                       <span class="Large Important">
                         一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
@@ -810,6 +823,7 @@
                   </table>
                     ]]>
     </Block>
+  
     <!--正確反應員-->
     <Block id="curriculum10" caption="課程規劃" method="html" back="#top" tag="正確反應員">
       <![CDATA[ 
@@ -857,7 +871,7 @@
       <![CDATA[
               <ul>
                   <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 12,000 元。</span></li>
-                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 2,000 元。</span></li>
+                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
                       一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
@@ -870,6 +884,7 @@
               <div>費用不含：個人防護之耗材、輕裝租借(300元/天)。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
           ]]>
     </Block>
+  
     <!--側掛-->
     <Block id="curriculum11" caption="課程規劃" method="html" back="#top" tag="側掛">
       <![CDATA[ 
@@ -940,7 +955,7 @@
         <![CDATA[
               <ul>
                 <li><span class="Large Focus">定價：10,000 元。</span></li>
-                <li><span class="Large Important">現金優惠：9,000元。</span></li>
+                <li><span class="Large Important">現金優惠：9,500 元。</span></li>
               </ul>
               <br/>
               <div>費用包含：線上教材、國際證照申請、教練費、重裝租借費用、東北角海洋實習費用與保險費。</div>
@@ -973,6 +988,7 @@
               </table>
           ]]>
       </Block>
+  
       <!--乾衣-->
       <Block id="curriculum12" caption="課程規劃" method="html" back="#top" tag="乾衣">
             <![CDATA[ 
@@ -1044,7 +1060,7 @@
                           <span class="Large Focus">定價：12,000 元<span>
                         </li>
                         <li>
-                          <span class="Large Important">現金優惠：11,000 元。</span>
+                          <span class="Large Important">現金優惠：11,500 元。</span>
                         </li>
                       </ul>
                       <br/>
@@ -1052,6 +1068,7 @@
                       <div>費用不含：輕裝租借(300元/天)。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
                   ]]>
         </Block>
+  
     <!--水下攝影-->
     <Block id="curriculum13" caption="課程規劃" method="html" back="#top" tag="水下攝影">
         <![CDATA[ 
@@ -1108,13 +1125,14 @@
         <![CDATA[
           <ul>
             <li><span class="Large Focus">定價：7,000 元。</span></li>
-            <li><span class="Large Important">現金優惠：6,000 元。</span></li>
+            <li><span class="Large Important">現金優惠：6,500 元。</span></li>
           </ul>
           <br/>
           <div>費用包含：線上教材、國際證照申請、教練費、重裝租借費用、東北角海洋實習費用與保險費。</div>
           <div>費用不含：輕裝租借(300元/天)。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
         ]]>
       </Block>
+  
   <!--搜索與找回-->
   <Block id="curriculum5" caption="課程規劃" method="html" back="#top" tag="搜索與找回">
     <![CDATA[ 
@@ -1165,10 +1183,10 @@
     <![CDATA[
           <ul>
             <li>
-              <span class="Large Focus">定價：5,000 元<span>
+              <span class="Large Focus">定價：6,000 元<span>
             </li>
             <li>
-              <span class="Large Important">現金優惠：4,000 元。</span>
+              <span class="Large Important">現金優惠：500 元。</span>
             </li>
           </ul>
           <br/>
@@ -1205,239 +1223,222 @@
           </table>
         ]]>
   </Block>
-    <!--專長學科開課總表-->
-    <!--<Block id="curriculum14" caption="課程規劃" method="html" back="#top" tag="專長學科開課總表">
-        <![CDATA[ 
-              <table width="80%" style="table-layout: fixed;">
-                <tr>
-                  <td><img width="98%" src="../Image/Data/xxx.jpg"></td>
-                  <td align="right"><img width="95%" src="../xxx.jpg"></td>
-                </tr>
-              </table>
-              <br/>
-              <table width="80%">
-                <tr>
-                  <td></td>
-                </tr>
-              </table>
-              <table border="1" width="80%">
-                <tr>
-                  <td align="center"></td>
-                  <td align="center">時 間</td>
-                  <td align="center">課 程 內 容</td>
-                  <td align="center">上課地點</td>
-                </tr>
-                <tr>
-                  <td align="center">學 科</td>
-                  <td align="center">12：30 ~ 14：00</td>
-                  <td align="center">緊急反應 理論</td>
-                  <td align="center">
-                    iDiving<br />
-                    教 室
-                  </td>
-                </tr>
-                <tr>
-                  <td align="center">實 習</td>
-                  <td align="center">14:15 ~18:00</td>
-                  <td align="center">實際演練</td>
-                  <td align="center">
-                    iDiving<br />
-                    教 室
-                  </td>
-                </tr>
-              </table>
-              ]]>
-      </Block>-->
+
+  <!--ECO DIVER-->
+  <Block id="curriculum16" caption="課程規劃" method="html" back="#top" tag="ECO DIVER">
+    <![CDATA[ 
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td><img width="50%" src="../Image/Data/ECO_DIVER.jpg"></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="Large Important">
+              限制條件：（符合其中一項即可）<br>
+              <ol>
+                <li>具備AOWD或以上等級。</li>
+                <li>擁有50支以上潛水經驗。</li>
+                <li>取得完美浮力專長證照。</li>
+              </ol>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table border="1" width="100%">
+              <tr>
+                <td align="center"></td>
+                <td align="center" style="white-space:nowrap">時 間</td>
+                <td align="center" width="70%">課 程 內 容</td>
+                <td align="center">上課地點</td>
+              </tr>
+              <tr>
+                <td align="center" style="white-space:nowrap">學 科</td>
+                <td align="center">
+                  學科第一堂<br>
+                  19：10 ~ 22：00
+                </td>
+                <td align="center">簡介與珊瑚礁體檢操作方法、魚類辨識</td>
+                <td align="center">
+                  iDiving<br />
+                  教 室
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="white-space:nowrap">學 科</td>
+                <td align="center">
+                  學科第二堂<br>
+                  19：10 ~ 22：00
+                </td>
+                <td align="center">無脊椎生物辨識、底質辨識</td>
+                <td align="center">
+                  iDiving<br />
+                  教 室
+                </td>
+              </tr>
+              <tr>
+                <td align="center">海 洋</td>
+                <td align="center">
+                  第一天<br>
+                  7：00 ~ 14：00
+                </td>
+                <td align="center">佈線操作，生物辨識</td>
+                <td align="center">東北角</td>
+              </tr>
+              <tr>
+                <td align="center">海 洋</td>
+                <td align="center">
+                  第二天<br>
+                  7：00 ~ 14：00
+                </td>
+                <td align="center">佈線操作，生物辨識，術科考試</td>
+                <td align="center">東北角</td>
+              </tr>
+              <tr>
+                <td align="center" style="white-space:nowrap">學科考試</td>
+                <td align="center">
+                  接續海洋第二天<br>
+                  16：30 ~ 19：00
+                </td>
+                <td align="center">魚類，底質，無脊椎辨識測驗</td>
+                <td align="center">
+                  iDiving<br />
+                  教 室
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="plan16" caption="開課日期" method="html" back="#top" tag="ECO DIVER">
+    <![CDATA[
+      <img src="../Image/Data/ECO_Schedule.png" width="80%"/>
+    ]]>
+  </Block>
+  <Block id="tuition16" caption="超值學費" method="html" back="#top" tag="ECO DIVER">
+    <![CDATA[
+      <ul>
+        <li>
+          <span class="Large Focus">定價：9,500 元<span>
+        </li>
+        <!--<li>
+          <span class="Large Important">現金優惠：4,000 元。</span>
+        </li>-->
+      </ul>
+      <br/>
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td>費用包含：電子教材、國際證照申請、調查紀錄版、教練費、東北角海洋實習費用、氣瓶、潮境工作站門票、考試費與保險費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：輕重裝租借、停車或餐飲費用。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。(若需租借全套重裝，EcoDiver 優惠價為 1,000 元)</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
     <Block id="plan14" caption="開課日期" method="html" back="#top" tag="專長學科開課總表">
       <![CDATA[
-                  <p>此表格僅顯示出個別專長課程的開課日期，不同專長術科要求不盡相同，詳細課程日期請參考各項專長內容。</p>
-                  <img src="../Image/Data/AA_SP_Schedule.png" width="80%"/>
-              ]]>
+          <p>此表格僅顯示出個別專長課程的開課日期，不同專長術科要求不盡相同，詳細課程日期請參考各項專長內容。</p>
+          <img src="../Image/Data/AA_SP_Schedule.png" width="80%"/>
+      ]]>
     </Block>
-    <!--<Block id="tuition14" caption="超值學費" method="html" back="#top" tag="專長學科開課總表">
-        <![CDATA[
-                      <ul>
-                        <li>
-                          <span class="Large Focus"> <span>
-                        </li>
-                        <li>
-                          <span class="Large Important">緊急反應費用為     元</span>
-                        </li>
-                      </ul>
-                      <br/>
-                      <div>費用包含：國際證照申請、教練費。</div>
-                      <br/>
-                      <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2017 年國內潛水旅遊團費</span></div></h3>
-                      <table border="1" width="50%">
-                        <tr align="center">
-                          <td width="40%">地點</td>
-                          <td width="30%">團費</td>
-                          <td width="30%">日期</td>
-                        </tr>
-                        <tr align="center">
-                          <td><a href="D120.php">墾丁</a></td>
-                          <td>7,000 元</td>
-                          <td>兩天兩夜</td>
-                        </tr>
-                        <tr align="center">
-                          <td><a href="D130.php">小琉球</a></td>
-                          <td>7,500 元</td>
-                          <td>兩天一夜</td>
-                        </tr>
-                        <tr align="center">
-                          <td><a href="D140.php">綠島</a></td>
-                          <td>11,500 元</td>
-                          <td>三天兩夜</td>
-                        </tr>
-                        <tr align="center">
-                          <td><a href="D150.php">蘭嶼</a></td>
-                          <td>15,000 元</td>
-                          <td>四天三夜</td>
-                        </tr>
-                      </table>
-                  ]]>
-      </Block>-->
-    <!--獎勵認證方案-->
-    <!--<Block id="curriculum15" caption="課程規劃" method="html" back="#top" tag="獎勵認證方案">
-          <![CDATA[ 
-                <table width="80%" style="table-layout: fixed;">
-                  <tr>
-                    <td><img width="98%" src="../Image/Data/xxx.jpg"></td>
-                    <td align="right"><img width="95%" src="../xxx.jpg"></td>
-                  </tr>
-                </table>
-                <br/>
-                <table width="80%">
-                  <tr>
-                    <td></td>
-                  </tr>
-                </table>
-                <table border="1" width="80%">
-                  <tr>
-                    <td align="center"></td>
-                    <td align="center">時 間</td>
-                    <td align="center">課 程 內 容</td>
-                    <td align="center">上課地點</td>
-                  </tr>
-                  <tr>
-                    <td align="center">學 科</td>
-                    <td align="center">12：30 ~ 14：00</td>
-                    <td align="center">緊急反應 理論</td>
-                    <td align="center">
-                      iDiving<br />
-                      教 室
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center">實 習</td>
-                    <td align="center">14:15 ~18:00</td>
-                    <td align="center">實際演練</td>
-                    <td align="center">
-                      iDiving<br />
-                      教 室
-                    </td>
-                  </tr>
-                </table>
-                ]]>
-        </Block>-->
     <Block id="plan15" caption="" method="html" back="#top" tag="獎勵認證方案">
       <![CDATA[
-                    <p>為鼓勵學員能精進自身技巧並增進潛水安全，SSI將贈送特定執照給達成3階段目標的學員。</p>
-                    <img src="../Image/Data/DiverLevels.png" width="60%"/>
-                ]]>
+          <p>為鼓勵學員能精進自身技巧並增進潛水安全，SSI將贈送特定執照給達成3階段目標的學員。</p>
+          <img src="../Image/Data/DiverLevels.png" width="60%"/>
+      ]]>
     </Block>
-    <!--<Block id="tuition15" caption="超值學費" method="html" back="#top" tag="獎勵認證方案">
-          <![CDATA[
-                        <ul>
-                          <li>
-                            <span class="Large Focus"> <span>
-                          </li>
-                          <li>
-                            <span class="Large Important">緊急反應費用為     元</span>
-                          </li>
-                        </ul>
-                        <br/>
-                        <div>費用包含：國際證照申請、教練費。</div>
-                        <br/>
-                        <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2017 年國內潛水旅遊團費</span></div></h3>
-                        <table border="1" width="50%">
-                          <tr align="center">
-                            <td width="40%">地點</td>
-                            <td width="30%">團費</td>
-                            <td width="30%">日期</td>
-                          </tr>
-                          <tr align="center">
-                            <td><a href="D120.php">墾丁</a></td>
-                            <td>7,000 元</td>
-                            <td>兩天兩夜</td>
-                          </tr>
-                          <tr align="center">
-                            <td><a href="D130.php">小琉球</a></td>
-                            <td>7,500 元</td>
-                            <td>兩天一夜</td>
-                          </tr>
-                          <tr align="center">
-                            <td><a href="D140.php">綠島</a></td>
-                            <td>11,500 元</td>
-                            <td>三天兩夜</td>
-                          </tr>
-                          <tr align="center">
-                            <td><a href="D150.php">蘭嶼</a></td>
-                            <td>15,000 元</td>
-                            <td>四天三夜</td>
-                          </tr>
-                        </table>
-                    ]]>
-        </Block>-->
-
     <Block id="register" caption="報名方式" method="html" back="#top">
       <![CDATA[
-              <ol>
-                  <li>網路填寫報名資料並匯款訂金。</li>
-                  <li>來店洽詢並繳交訂金。</li>
-              </ol>
-          ]]>
+        <ol>
+          <li>網路填寫報名資料並匯款訂金。</li>
+          <li>來店洽詢並繳交訂金。</li>
+        </ol>
+      ]]>
     </Block>
     <Block id="processing" caption="網路報名流程" method="html" back="#top">
       <![CDATA[
-            <ol>
-              <li><a href="CZ01.php">線上填寫報名表</a></li>
-              <li>
-                繳交訂金 3,000 元，<br/>
-                銀行：中國信託<br/>
-                分行：士林分行<br/>
-                戶名：愛潛水股份有限公司<br/>
-                代號：822<br/>
-                帳號：285-54009941-9
-              </li>
-              <li>
-                以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
-                營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
-              </li>
-              <li>收到訂金與資料後，iDiving 會至 SSI 全球官網註冊您的學籍。<span class="Important">一經註冊，請恕無法退訂金。</span></li>
-              <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
-            </ol>
-          ]]>
+        <ol>
+          <li><a href="CZ01.php">線上填寫報名表</a></li>
+          <li>
+            繳交訂金 3,000 元，<br/>
+            銀行：中國信託<br/>
+            分行：士林分行<br/>
+            戶名：愛潛水股份有限公司<br/>
+            代號：822<br/>
+            帳號：285-54009941-9
+          </li>
+          <li>
+            以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
+            營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
+          </li>
+          <li>收到訂金與資料後，iDiving 會至 SSI 全球官網註冊您的學籍。<span class="Important">一經註冊，請恕無法退訂金。</span></li>
+          <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
+        </ol>
+      ]]>
     </Block>
-    <Block id="notice" caption="學前須知" method="html" back="#top">
-          <![CDATA[
+    <Block id="notice_general" caption="學前須知" method="html" back="#top" tag="深潛;夜潛;高氧;完美浮力;導航;正確反應員;壓力與救援;船潛;電腦錶;水下攝影;側掛;乾衣;搜索與找回;專長學科開課總表;獎勵認證方案">
+      <![CDATA[
+        <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+          <tr>
+            <td>
               <ol>
-                  <li>
-                    iDiving採保證班的教學方式，如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於2<br/>
-                    個月內完成 (9月後報名隔年5月前完成)。約定日期之更改須在15天前告知。15天內更動<br/>
-                    或未告知而曠課，補課需額外負擔1000元，身體不適，出示醫院掛號收據者不收。
-                  </li>
-                  <li>
-                    若學員自行放棄課程，本訓練中心將不予退費(包含訂金)；但因身體不適且經醫生證明不宜從事潛水活動者，<br/>
-                    繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。<br/>
-                  </li>
-                  <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
-                  <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
-                  <li>
-                    學員結訓後，訓練中心將於兩週內完成SSI國際潛水證照申請作業。<br/>
-                    （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
-                  </li>
-                </ol>
-        ]]>
-      </Block>
+                <li>
+                  iDiving採保證班的教學方式，如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於2<br/>
+                  個月內完成 (9月後報名隔年5月前完成)。約定日期之更改須在15天前告知。15天內更動<br/>
+                  或未告知而曠課，補課需額外負擔1000元，身體不適，出示醫院掛號收據者不收。
+                </li>
+                <li>
+                  若學員自行放棄課程，本訓練中心將不予退費(包含訂金)；但因身體不適且經醫生證明不宜從事潛水活動者，<br/>
+                  繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。<br/>
+                </li>
+                <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
+                <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
+                <li>
+                  學員結訓後，訓練中心將於兩週內完成SSI國際潛水證照申請作業。<br/>
+                  （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
+                </li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      ]]>
+    </Block>
+    <Block id="notice_ECO" caption="學前須知" method="html" back="#top" tag="ECO DIVER">
+      <![CDATA[
+        <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+          <tr>
+            <td>
+              <ol>
+                <li>iDiving採有條件式保證班教學（註），如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
+                <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
+                <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
+                <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
+                <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
+                <li>
+                  學員結訓後，訓練中心將於兩週內完成 SSI 國際潛水證照申請作業。<br>
+                  （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
+                </li>
+              </ol>
+            </td>
+          </tr>
+        <tr>
+          <td>
+            註：<br>
+            <ul>
+              <!--<li>如果各項生物辨識尚未學會，iDiving將會一直免費培訓，但如果學生已經學會各項技巧，但無法通過測驗，則依照下面說明進行補課或核發執照。</li>
+              <li>Eco Diver學科考試，配合教練授課時間不額外收取費用，若需指定日期，則需自費500元/天進行補考。</li>
+              <li>Eco Diver術科考試，每位學生有２次的結訓機會，如果無法通過測驗，可以免費400元再增加1天進行練習與補考(共兩支氣瓶)。如果還是無法通過測驗，則需自費800元/天進行補考，亦可選擇核發＂Complete＂執照　(通過考試，該技能會在證照會表示＂Pass＂)，若已核發＂Complete＂執照需轉發＂Pass＂執照需自費1500執照申請費。</li>-->
+              <li>若未能如期通過測驗可重複進行補考，相關規定如下。</li>
+              <li>Eco Diver 學科複習與考試，配合教練授課時間不額外收取費用，若需指定日期，則需加收 500 元/天進行補考。</li>
+              <li>Eco Diver 術科複習與考試，若當天無法通過測驗，下一次複習與測驗優惠為 400 元。若仍無法通過測驗，後續複習與測驗費用為 800 元。</li>
+              <li>未能通過測驗者，亦可針對未通過測驗之項目選擇核發＂Complete＂執照 (通過考試，該技能會在證照會表示＂Pass＂)，後續若需換證，酌收 150 證照申請費。</li>
+            </ul>
+          </td>
+        </tr>
+        </table>
+      ]]>
+    </Block>
 </Data>

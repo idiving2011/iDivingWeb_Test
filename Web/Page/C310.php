@@ -42,7 +42,7 @@
 		<div id="curriculum5" class="ArticleBox"></div>
 		<div id="plan5" class="ArticleBox"></div>
 		<div id="tuition5" class="ArticleBox"></div>
-
+		
         <!-- 壓力與救援 -->
 		<div id="curriculum6" class="ArticleBox"></div>
 		<div id="plan6" class="ArticleBox"></div>
@@ -93,9 +93,15 @@
 		<div id="plan15" class="ArticleBox"></div>
 		<div id="tuition15" class="ArticleBox"></div>
 
+		<!-- ECO DIVER -->
+		<div id="curriculum16" class="ArticleBox"></div>
+		<div id="plan16" class="ArticleBox"></div>
+		<div id="tuition16" class="ArticleBox"></div>
+
 		<div id="register" class="ArticleBox"></div>
 		<div id="processing" class="ArticleBox"></div>
-		<div id="notice" class="ArticleBox"></div>
+		<div id="notice_general" class="ArticleBox"></div>
+		<div id="notice_ECO" class="ArticleBox"></div>
 
 		<!-- 深潛 -->
 		<!--<div id="notice1" class="ArticleBox"></div>-->
