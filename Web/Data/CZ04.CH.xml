@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="線上報名"/>
+    <Block id="register" method="html">
+      <![CDATA[
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeC91oHKlC4F-0YaWXLvDIWydfhFchhTMkPzRN4Fs4f_eEHgg/viewform" width="760" height="1900" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+        ]]>
+    </Block>
+</Data>
