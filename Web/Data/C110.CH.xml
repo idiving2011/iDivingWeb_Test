@@ -3,7 +3,33 @@
     <Block id="title" method="title" text="學潛水懶人包"/>
     <Block id="package" caption="" method="html">
       <![CDATA[
-              <img src="../Image/Data/package.jpg" width="100%"/>
-          ]]>
+        <style type="text/css">
+          .FD {
+              position:absolute;
+              display:block;
+              //border:1px solid red;
+              top:40%;
+              left:20%;
+              width:18%;
+              height:7%;
+          }
+          .OWD {
+              position:absolute;
+              display:block;
+              //border:1px solid red;
+              top:40%;
+              left:61%;
+              width:18%;
+              height:7%;
+          }
+        </style>
+        <img border="1" src="../Image/Data/package.jpg" width="100%" usemap="#imagemap" />
+        <a class="FD" href="/Page/CFD110.php"></a>
+        <a class="OWD" href="/Page/C120.php"></a>
+        <!--<map name="imagemap">
+          <area shape="rect" coords="250,740,500,880" href="/Page/CFD110.php" alt="FD">
+          <area shape="rect" coords="770,740,1020,880" href="/Page/C120.php" alt="OWD">
+        </map>-->
+      ]]>
     </Block>
 </Data>
