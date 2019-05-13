@@ -5,7 +5,7 @@
     <Item name="景點介紹" href="#intro"></Item>
     <Item name="著名潛點" href="#DiveSite"></Item>
     <Item name="建議行程" href="#schedule"></Item>
-    <Item name="費用說明" href="#price"></Item>
+    <!--<Item name="費用說明" href="#price"></Item>-->
     <Item name="注意事項" href="#notice"></Item>
   </Block>
   <Block id="intro" caption="景點介紹" method="html" back="#top">
@@ -103,7 +103,13 @@
       </table>
      ]]>
   </Block>
-  <Block id="schedule" caption="建議行程" method="html" back="#top">
+  <Block id="schedule" caption="建議行程" method="html" />
+  <Block id="ScheduleTab" method="tab" selected="水肺3天行程" >
+    <Item name="水肺3天行程"/>
+    <Item name="自潛4天行程"/>
+  </Block>
+  <!-- 水肺3天行程 -->
+  <Block id="schedule1" method="html" back="#top" tag="水肺3天行程">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
@@ -142,7 +148,7 @@
       </table>
     ]]>
   </Block>
-  <Block id="price" caption="費用說明" method="html" back="#top">
+  <Block id="price1" caption="費用說明" method="html" back="#top" tag="水肺3天行程">
     <![CDATA[ 
       <ul>
         <li>團費原價：12,000</li>
@@ -164,6 +170,72 @@
       </table>
     ]]>
   </Block>
+
+  <!-- 自潛4天行程 -->
+  <Block id="schedule2" method="html" back="#top" tag="自潛4天行程">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            第一天<br>
+            台鐵408車：07:40-11:10＋船班 G21330：13:30-14:20 <br>
+            下午入住海韻民宿兩人房，視情況岸潛熟悉裝備並確認配重。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天<br>
+            10:00-12:00 第1次下水; 14:00-17:00 第2次(船潛)下水。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天<br>
+            10:00-12:00 第4次下水;  14:00-17:00 第4次(船潛)下水。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天<br>
+            09:00-11:00 第7次下水<br>
+            下午離開回程：船班 S1430：14:30-15:20＋台鐵441車：17:50-21:20 （或 439車：17:07-21:58）
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price2" caption="費用說明" method="html" back="#top" tag="自潛4天行程">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：12,000</li>
+        <li>現金優惠價：11,000</li>
+        <li>可搭配使用10次劵5次折抵2,500元</li>
+      </ul>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap>費用包含：</td>
+          <td>4天3夜海韻太空艙住宿，含早餐，其他餐不含(現場均分)、船潛2趟、繩索+浮具租借、來回火車、來回接駁、綠島船票、機車2人一輛。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+          <td>費用不含：</td>
+          <td>個人裝備(如果沒有裝備，請出發前來公司租借)、個人消費、餐食。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+    
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
       <table width="70%">
