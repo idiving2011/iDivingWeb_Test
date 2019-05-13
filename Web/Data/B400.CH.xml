@@ -18,14 +18,13 @@
   </Block>
   <Block id="join" caption="一起來 Happy" method="html" back="#top">
     <![CDATA[ 
-      <div>繳交俱樂部年費（NT 3,000元）即可享有會員資格。</div>
-      <div>往後延續會員資格時，只需繳交 2,000 元即可。</div>
-      <div>會員效期：每年4/1 ~ 隔年3/31；首次入會效期多一年！</div>
+      <div>繳交俱樂部年費（NT 2,000元）即可享有會員資格</div>
+      <div>會員效期：依照加入日起算一年</div>
     ]]>
   </Block>
   <Block id="signup" caption="報名活動" method="html" back="#top">
     <![CDATA[
-      <a href="https://goo.gl/forms/McJRG2mL7deZ8o3b2" target="_blank">東北角水肺活動報名表</a>
+      <a id="Scubasignup" href="https://goo.gl/forms/McJRG2mL7deZ8o3b2" target="_blank">東北角水肺活動報名表</a>
       <ul>
         <li>每周３開放往後兩周活動報名</li>
         <li>報名表內會列出活動地點</li>
@@ -39,7 +38,7 @@
         <li>報名後請務必繳交訂金，才算報名完成！</li>
       </ul>
       <br/>
-      <a href="https://goo.gl/forms/kuf2HcbIe4TIhXWd2" target="_blank">自由潛水活動報名</a>
+      <a id="FDsignup" href="https://goo.gl/forms/kuf2HcbIe4TIhXWd2" target="_blank">自由潛水活動報名</a>
       <ul>
         <li>各項活動說明請參考報名表內資訊</li>
         <li>夏季東北角活動為５月－９月</li>
@@ -59,22 +58,22 @@
             <li>達 1000 支氣瓶，頒發白金潛水員 Platinum Diver。</li>
           </ul>
           <br/>
-          <span class="Large Focus">集點活動</span>
+          <!--<span class="Large Focus">集點活動</span>
           <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
             <tr>
               <td>
                 <ul>
+                  <li>集滿五點後，單次消費滿1500元以上，可使用五點折抵1500元消費。</li>
                   <li>會員繳交年費時，可獲得一點。</li>
                   <li>同時報名兩團國內外潛水活動（以同時付訂金計算），可獲得一點同時報名四團則可獲得兩點，以此類推。</li>
                   <li>介紹新朋友加入iDiving（無論課程或俱樂部,但限領一次），介紹人可獲得一點。</li>
                   <li>加入俱樂部時，若有介紹人，新入會時額外贈送一點。</li>
-                  <li>報名OWD平日固定班（不可更動上課日期），可獲得三點。</li>
                   <li>參加iDiving國內外潛水活動，出團結束後若有剪輯影片（1~3分鐘），可獲得一點，每團每人只可領取一點，東北角活動每年可領取一點。</li>
                   <li>不定時舉辦活動（如潛水展、即將出發的團、出團分房的特殊需求等）。</li>
                 </ul>
               </td>
             </tr>
-          </table>
+          </table>-->
           <br/>
           <span class="Large Focus">裝備優惠</span>
           <br/>
