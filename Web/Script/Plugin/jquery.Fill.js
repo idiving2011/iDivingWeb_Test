@@ -78,7 +78,11 @@
             function wove(host, data) {
                 var table = $("<table/>", { "class": "Wove" });
                 $(data).find("Item").each(function () {
-                    $("<tr/>", { href: _settings.basePath + "Page/" + $(this).attr("href") + ".php" })
+                    var url = _settings.basePath + "Page/" + $(this).attr("href") + ".php"
+                    if ($(this).attr("tab") != undefined) {
+                        url = url + "?tab=" + $(this).attr("tab")
+                    }
+                    $("<tr/>", { href: url})
                         .append($("<td/>", { "class": "Bullet" }).append($("<img/>", { src: _settings.basePath + "Image/Basis/Bullet.png" })))
                         .append($("<td/>", { "class": "Name", text: $(this).attr("name") }))
                         .append($("<td/>", { "class": "Date", text: $(this).attr("date") }))

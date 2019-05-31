@@ -198,10 +198,19 @@ function data() {
 function Init() {
     //Tab Selected
     var name = $.url.param("tab");
-	var tab = $(".Tag:contains('" + name + "')");
+    var tab = $(".Tag:contains('" + name + "')");
+
     if ("" == name || 0 == $(tab).length) {
 		tab = $(".Tag:contains('" + $(".Tab").attr("data-selected") + "')");
-	}
+    }
+
+    var parentText = $(tab).parent().attr("tag");
+    var parentTab = $(".Tag:contains('" + parentText + "')")
+
+    // Have upper level tab
+    if (parentText != undefined || $(parentTab).length == 1) {
+        $(parentTab).click()
+    }
     $(tab).click();
 }
 
