@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+    <Block id="title" method="title" text="愛潛水滑雪去"/>
+  <Block id="nav" method="nav">
+    <Item name="活動行程" href="#plan"></Item>
+    <Item name="開團日期" href="#date"></Item>
+    <Item name="出團地點" href="#location"></Item>
+    <Item name="出團人數與限制" href="#requirement"></Item>
+    <Item name="費用說明" href="#cost"></Item>
+  </Block>
+  <Block id="intro" method="html">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>各位潛友們，好消息來啦！</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/Skiing_01.jpg" width="100%"/></td>
+        </tr>
+        <tr>
+          <td>iDiving 2020年的滑雪團來囉！</td>
+        </tr>
+    ]]>
+  </Block>
+  <Block id="plan" caption="活動行程" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">
+            第一天：需接駁者16:00於東京成田機場集合，不需接駁者直接於雪場飯店集合，今天大家就早早睡，養精蓄銳準備明天快樂的滑雪了唷！
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            第二天：早上08:00集合，由教練協助領取裝備，就開始今天的課程啦！是不是超級期待的呀！今天，課程的目標是雪場的安全注意事項，和滑雪的基本技巧的練習，依大家的學習進度，循序漸進的帶領大家了解滑雪的樂趣啦！預計下午16:00結束課程，回飯店簡單梳洗換裝後晚餐，晚餐後當然不能錯過泡個舒服的溫泉再來做課後檢討！
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td style="padding-right: 50px;">
+            第三天：早上09:00著裝完畢前往雪場集合，開始第二天的課程，經過前一天的摔摔跌跌，笑笑鬧鬧，今天會突然覺得原來你已經可以控制速度和方向了，成就感油然而生！除了練習前一天的技巧外，今天還要加入新的學習目標，準備好迎接挑戰了嗎！和第一天上課一樣預計下午16:00結束課程，回飯店簡單梳洗換裝後晚餐，晚餐後當然不能錯過泡個舒服的溫泉再來做課後檢討！
+          </td>
+          <td><img src="../Image/Data/Skiing_02.jpg" heigh="100%" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            第四天：第四天：早上09:00著裝完畢前往雪場集合，開始第三天的課程，經過前兩天的課程，相信已經可以控制速度和方向了，成就感油然而生！除了練習前兩天的技巧外，今天還要加入新的學習目標，準備好迎接挑戰了嗎！和前兩天上課一樣預計下午16:00結束課程，回飯店簡單梳洗換裝後晚餐，晚餐後當然不能錯過泡個舒服的溫泉再來做課後檢討！
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            最後一天：早上checkout後，好好把握最後的半天滑雪時光，或者是悠哉悠哉睡到自然醒，中午接駁車會把各位送到東京車站(或是直達機場)，完美結束我們的滑雪行程唷！
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            兩天的基本技巧練習，今天已經可以自在的站在板子上了唷！正式進入滑雪最好玩的部份~逛山啦！一邊學習，一邊欣賞雪場的美景，不亦樂乎！跟著教練的軌跡，享受微風輕拂的快感吧！
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="date" caption="開團日期" method="html" back="#top">
+    <![CDATA[
+      <ul>
+        <li>期間：2020/01/10-2020/03/08</li>
+      </ul>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="55%">第一期：1/10~1/13 四天</td>
+          <td rowspan="11"><img src="../Image/Data/Skiing_03.jpg" width="100%"/></td>
+        </tr>
+        <tr>
+          <td>第二期：1/15~1/19 五天</td>
+        </tr>
+        <tr>
+          <td>第三期：1/20~1/23 四天 平日</td>
+        </tr>
+        <tr>
+          <td>第四期：1/26~1/29 四天 農曆年 初二出發</td>
+        </tr>
+        <tr>
+          <td>第五期：1/31~2/4 五天</td>
+        </tr>
+        <tr>
+          <td>第六期：2/5~2/9 五天</td>
+        </tr>
+        <tr>
+          <td>第七期：2/10~2/13 四天 平日</td>
+        </tr>
+        <tr>
+          <td>第八期：2/14~2/18 五天</td>
+        </tr>
+        <tr>
+          <td>第九期：2/20~2/23 四天</td>
+        </tr>
+        <tr>
+          <td>第十期：2/26~3/1 五天 二二八連假</td>
+        </tr>
+        <tr>
+          <td>第十一期：3/4~3/8 五天</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="location" caption="出團地點" method="html" back="#top">
+    <![CDATA[
+      <span class="Large Important">越後湯澤</span>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            越後湯澤位於新潟縣的最南端，與長野縣和群馬縣相接。獲得諾貝爾獎的小說家川端康成所寫的《雪國》就是以這裏爲舞臺的，因而廣爲人知，並且是具有悠久歷史的溫泉區。從首都圈到這裏交通很方便，成了人們喜愛的冬天滑雪、夏天郊遊或野營的理想場所。<br>
+            <br>
+            在越後湯澤站內的“越後酒博物泡恩酒館”，能夠享受放入酒的溫泉浴。車站旁邊，有展示了約 170 幅世界名山照片的湯澤町白旗史郎世界山嶽寫真美術館和瞭解湯澤民俗的湯澤町歷史民俗資料館等遊覽參觀的地方。<br>
+            <br>
+            從溫泉街的山麓車站乘湯澤溫泉纜車，可登上海拔 1000 米的山頂。山頂車站周圍有高山植物園阿爾卑斯故鄉，春天有觀音蓮、夏天有日光黃菅（一種黃色的百合花）、秋天有落葉松的紅葉可以觀賞。冬天是一片銀白色的世界，到處都能聽見滑雪者們的歡聲笑語。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="requirement" caption="出團人數與限制" method="html" back="#top">
+    <![CDATA[
+      <ul>
+        <li>最低出團人數：4位</li>
+        <li>限制名額：12位</li>
+      </ul>
+      <span>同一時間團雪伴需統一學單板或是雙板</span>
+    ]]>
+  </Block>
+  <Block id="cost" caption="費用說明" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="55%">
+            <ul>
+              <li>四天三夜 無包含東京～雪場接駁</li>
+            </ul>
+            會員現金優惠價：25,600<br/>
+            非會員現金價：26,600<br/>
+            會員刷卡價：26,880<br/>
+            訂價：27,880
+          </td>
+          <td rowspan="7"><img src="../Image/Data/Skiing_04.jpg" width="100%"/></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>四天三夜 有包含東京～雪場接駁</li>
+            </ul>
+            會員現金優惠價：36,300<br/>
+            非會員現金價：37,300<br/>
+            會員刷卡價：38,200<br/>
+            訂價：39,200
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>五天四夜 無包含東京～雪場接駁</li>
+            </ul>
+            會員現金優惠價：36,500<br/>
+            非會員現金價：37,500<br/>
+            會員刷卡價：38,350<br/>
+            訂價：39,350
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>        
+        <tr>
+          <td>
+            <ul>
+              <li>五天四夜 有包含東京～雪場接駁</li>
+            </ul>
+            會員現金優惠價：47,200<br/>
+            非會員現金價：48,200<br/>
+            會員刷卡價：49,500<br/>
+            訂價：50,500
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            費用包含<br/>
+            四天三夜（五天四夜）住宿、雪場接駁、<br/>
+            在雪場的早餐及晚餐、雪票、保險、<br/>
+            兩天(三天）教練課程費用
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            費用不含<br/>
+            台北～東京成田機場來回機票-約台幣10,000元(前後建議安排自由行)<br/>
+            午餐-每餐約1,500日幣左右<br/>
+            雪具、雪衣褲、護具
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            欲參加者請繳交 10,000 元訂金，並填寫資料送出 ( 下方連結 )，才算完成報名手續唷！
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            報名表：<a href="https://forms.gle/FTMJYy681JrsmyoQ8">https://forms.gle/FTMJYy681JrsmyoQ8</a>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+</Data>
