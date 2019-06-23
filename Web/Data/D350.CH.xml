@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="印尼美娜多"/>
+  <Block id="nav" method="nav">
+    <Item name="景點介紹" href="#intro"></Item>
+    <Item name="著名潛點" href="#DiveSite"></Item>
+    <Item name="建議行程" href="#schedule"></Item>
+    <Item name="注意事項" href="#notice"></Item>
+  </Block>
+  <Block id="intro" caption="景點介紹" method="html" back="#top">
+    <![CDATA[ 
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Manado_01.png" width="100%"></td>
+        <tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>印尼</strong><br/>
+            印度尼西亞共和國簡稱印尼是世界上最大群島國家，印尼群島分布於北緯6度、南緯11度，東經95度至141度之間，赤道貫穿全境。印尼約由17,508個島嶼組成，其中6,000個島嶼有人居住，較大的島嶼有爪哇島、蘇門答臘島、婆羅洲（印尼稱加里曼丹島，島上有部分地區屬馬來西亞及汶萊）、新幾內亞島（島上有部分地區屬巴布亞紐幾內亞）及蘇拉威西島，首都雅加達位於爪哇島上，為印尼最大城市。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>氣候</strong><br/>
+            印尼地屬赤道周邊大部分處於熱帶雨林氣候平地年雨量介於1,780–3,175毫米，山區最多可達6,100毫米，山區以蘇門答臘、西爪哇、加里曼丹、蘇拉威西、巴布亞西部為最高；濕度一般而言相當高，平均約80%；年溫差小，雅加達日均溫介於26至30℃。<br/><br/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>人文</strong><br/>
+            印尼約有300多個民族及742種語言及方言。大多數印尼人為南島語族後裔，所使用的語言可追溯至發源於臺灣的原始南島語系，另一個較大族群為美拉尼西亞人，居住於印尼東部爪哇族為最大族群，佔印尼42%的人口，巽他族、馬都拉族及馬來族為最大的非爪哇族群，印度尼西亞華人則是具有影響力的少數族群，僅佔3%的人口。<br/><br/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>地點</strong><br/>
+            美娜多位於蘇拉威西島北端的海灣，是北蘇拉威西省的首府。美娜多發展至今，乃蘇拉威西的第二大城市，共有9個市轄區，為群山所環繞，素以海岸美景著稱。前往美娜多潛水有兩種選擇，一種是美娜多西北邊的小島布納肯(Bunaken)國家公園觀賞峭壁地形，另一種是前往美娜多東部的藍碧海峽（LembehStrait）拍攝微距生物。此篇單就美娜多西邊潛點及布納肯國家公園作介紹。從美娜多前往布納肯國家公園需搭船45~60分鐘（視船型大小），航程途中若有機會遇到海豚群，船長也會放慢速度讓大家有機會錄影拍照。布納肯國家公園於1991年成立，它是印尼第一個海洋國家公園其中97%是海洋，剩下的3%是陸地，包括5個主要島嶼：布納肯、萬鴉老圖阿、Mantehage、Nain和Siladen，公園南部也覆蓋蘇拉威西本島上一部分丹戎克拉巴海岸（Tanjung Kelapa）。整個國家公園剛好位於珊瑚大三角中心點，是390餘種珊瑚的棲息地，有海草床、珊瑚礁和海岸三種生態系統。<br/><br/>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="DiveSite" caption="著名潛點" method="html" back="#top">
+    <![CDATA[ 
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Manado_02.png" width="100%"></td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Manado_03.png" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Manado_04.png" width="100%"></td>
+        </tr>
+      </table>
+      <br>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>Critter Circus 1~3</td>
+        </tr>
+        <tr>
+          <td>為靠近美娜多本島Tasik Ria Resort外的微距潛點，此潛點為沙質地形，小型硬珊瑚座落沙地上，每一座珊瑚礁群都是一個生態圈，此處潛點有瑰麗十字鬼龍、剃刀魚，石頭魚，珊瑚礁上偶爾可見花枝群交配產卵，其中Critter Circus2曾發現非常細小的絲海龍（Thread pipefish），連當地潛導找到後也十分興奮。</td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Manado_05.png" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Manado_06.png" width="100%"></td>
+        </tr>
+      </table>
+      <br>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>Mandolin</td>
+        </tr>
+        <tr>
+          <td>有著強烈的地形流非常適合放流潛水，5~10m淺層礁盤偶有拿破崙魚及隆頭鸚哥出沒，資深潛導也說在Mandolin及Fukui之間的淺層海草區偶有儒艮出沒。</td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Manado_07.png" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Manado_08.png" width="100%"></td>
+        </tr>
+      </table>
+      <br>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>Fukui</td>
+        </tr>
+        <tr>
+          <td>為少數不是峭壁地形的潛點，此潛點有著非常多的大型車磲貝以及綿延一整片的珊瑚礁群，當然還有害羞的拿破崙魚以及許多種類的珊瑚礁魚群，在別處少見的大玳瑁也是此地常客喔。</td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Manado_09.png" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Manado_10.png" width="100%"></td>
+        </tr>
+      </table>
+      <br>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>Lekuan 1~3</td>
+        </tr>
+        <tr>
+          <td>有著峭壁裂縫及棚架地形，混亂無法預測的流況彷彿洗衣機流，有時會把潛水員推向峭壁，有時也會把潛水員往下帶，峭壁深處偶爾可見白鰭礁鯊甚至是盤旋玩耍的鷹魟，對於潛水員而言算是非常刺激的潛點。</td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Manado_11.png" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Manado_12.png" width="100%"></td>
+        </tr>
+      </table>
+      <br>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td>Celah-Celah</td>
+        </tr>
+        <tr>
+          <td>位於Lekuan上方的潛點，垂直深邃的地形可見大型魚類在峭壁底端游動，淺層峭壁除了蝶魚、藍魔鬼隨著地形流忽上忽下游動，最特別的是布納肯島在退潮時刻總有許多海龜在峭壁處休息，在潛水過程中最常遇見海龜飛進飛出峭壁。</td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Manado_13.png" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Manado_14.png" width="100%"></td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/Manado_15.png" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Manado_16.png" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="schedule" caption="建議行程" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            第一天<br>
+            中華航空-CI761 09:05 TPE - 13:30 CGK<br>
+            印尼鷹航-GA606 18:15 CGK - 22:45 MDC<br>
+            <span class="Large Important">（前往印尼潛水，國內線建議搭乘印尼鷹航，出示潛水裝備可額外獲得 23kg 托運行李配額）</span><br>
+            <br>
+            飛行至雅加達轉國內線至美娜多，再搭車約1個半小時抵達度假村
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天<br>
+            上午2潛中午回度假村用餐，下午1潛休息至黃昏再1夜潛(4支)
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天<br>
+            上午2潛中午回度假村用餐，下午1潛(3支)
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第四天<br>
+            上午2潛中午回度假村用餐，下午1潛休息至黃昏再1夜潛(4支)
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第五天<br>
+            上午2潛使用高氧中午回度假村用餐休息按摩(2支)
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第六天<br>
+            印尼鷹航-GA607　06:10 MDC - 08:30 CGK<br>
+            中華航空-CI762　14:30 CGK - 20:55 TPE<br>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price" caption="費用說明" method="html" back="#top">
+    <![CDATA[ 
+      <ul>
+        <li>團費：NT 40,900 元 ( 會員 NT 39,900 元 )</li>
+        <li>現金：NT 39,000 元 ( 會員 NT 38,000 元 )</li>
+      </ul>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>包　含：</td>
+          <td>美娜多機場往返渡假村接送、船潛 13 支（含導潛、船資、配重）、潛水稅、渡假村食宿、（NT 1,500 元）</td>
+        </tr>
+        <tr>
+          <td width="1%" nowrap>不包含：</td>
+          <td>台北 往返 雅加達 往返 美娜多 機票、台北往返桃園交通（考量班機時間接續車輛接駁,有參加意願者建議傳護照影本由iDiving統一處理）、潛水裝備租借、市區逛街包車費用、非渡假村的餐食、個人性消費</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="notice" caption="注意事項" method="html" back="#top">
+    <![CDATA[ 
+            <table width="70%" style="text-align: justify;">
+                <tr>
+                  <td>
+                    <ol>
+                      <li>國外潛水旅遊皆有成團人數要求，一般含領隊需達10人才會出團。團費可提供刷卡服務，若用現金付費可享額外優惠唷！</li>
+                      <li>自2016年起，各團活動請記得填寫＂Google表單＂，並繳交NT 5,000元『作業金』，才算完成報名，如果是以轉帳方式繳交作業金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
+                      <li>出團日期約3個月前要將『作業金』轉為『訂金』時，會和已報名的團員聯絡，提供行程資料並再次確認，如期參加者需補足NT 20,000元訂金。</li>
+                      <li>『作業金』尚未轉成『訂金』付給航空公司或國外渡假村時，已報名團員若要退出，或該團因報名人數不足而取消時，『作業金』可全數退還。</li>
+                      <li>
+                        若已將『作業金』轉為『訂金』付出去之後，已報名團員才告知有事無法出席，或該團因不可抗拒之因素而無法成行時，則『訂金』恕無法退還。<br>
+                        <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+                      </li>
+                      <li>在出團日期的1個月前，請團員繳齊剩餘的團費（尾款）。當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，如果有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
+                      <li>在出團日期的1個月內，若團員有事無法出團，恕無法退還『團費』：
+                        <ul>
+                          <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可轉移給遞補人員。</li>
+                          <li>若是由iDiving找到人員填補空缺，退款部分需扣除5,000元手續費。</li>
+                        </ul>
+                      </li>
+                      <li>國外潛水旅遊的團費，一般不含小費（機場接送、房間打掃、搬運行李、導潛與工作人員等小費），各項稅金及簽證費用則視該團情況而定。</li>
+                      <li>國外潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，則另有特殊報價，恕不提供會員優惠。</li>
+                      <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
+                      <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
+                      <li>餐食多為套餐或自助式；住宿為兩人一室，若欲單獨睡一間房，需補房差。</li>
+                      <li>潛水活動安排以上列建議行程為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+                      <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+                    </ol>
+                  </td>
+                </tr>
+              </table>
+        ]]>
+  </Block>
+  <Block id="agency" caption="協辦旅行社" method="html" back="#top">
+    <![CDATA[
+            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+            <br/>
+            <table border="1" cellpadding="0" cellspacing="0" width="70%">
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+                <td>承辦人：愛潛水</td>
+                <td>行動電話：0909-097696</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2882-7696</td>
+                <td>FAX：02-2882-7656</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAILl：info@idiving.com.tw</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市前港街8號</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+                <td>業務請洽：蘇恒璀</td>
+                <td>行動電話：0937-196518</td>
+              </tr>
+              <tr align="center">
+                <td>TEL：02-2517-1333</td>
+                <td>FAX：02-2508-1537</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+              </tr>
+              <tr align="center">
+                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+              </tr>
+            </table>
+        ]]>
+  </Block>
+</Data>
