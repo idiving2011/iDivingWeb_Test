@@ -1,6 +1,133 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <Block id="title" method="title" text="自由潛水"/>
+  <Block id="FreeDivingTab" method="tab" selected="初級自潛員" >
+    <Item name="初級自潛員"/>
+    <Item name="平靜水域自潛員"/>
+    <Item name="1級自潛員"/>
+    <Item name="2級自潛員"/>
+    <Item name="3級自潛員"/>
+  </Block>
+  <Block id="desc1" method="html" back="#top" tag="初級自潛員">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><span class="Large Focus">初級自潛員課程 BASIC FREEDIVING</span></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            本課程為您提供所需的培訓和知識，使您能夠安全地開始享受自由潛水的樂趣。完成後，您將獲得 SSI 初級自由潛水執照。如果您有點怕水卻又想要稍微了解一些自潛的活動，您可以報名這個課程！參加本課程無特別要求，歡迎身心健康的朋友一起加入！
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_9.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_10.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="desc2" method="html" back="#top" tag="平靜水域自潛員">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><span class="Large Focus">平靜水域自潛員課程 POOL FREEDIVING</span></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            本課程為您提供所需的培訓和知識，使您能夠安全地在平静水域中與您的潛伴自由潛水到5米的深度。完成後，您將獲得 SSI 平靜水域自由潛水執照。這個課程會進行5米的泳池訓練，適合想要拍出簡單自潛美照的您！參加本課程需要不怕水，歡迎不會游泳卻又愛玩水的朋友報名！
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_7.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_8.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="desc3" method="html" back="#top" tag="1級自潛員">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><span class="Large Focus">1級自潛員課程 LEVEL 1 FREEDIVING</span></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD1.jpg" />
+            初階課程會包含許多自由潛水知識與技巧上的教學，旨在讓你能夠透過最舒適與最安全的自由潛水方法，一路下潛到深度10-20公尺的海域。接著經過反覆的練習，讓你的身體能夠漸漸適應閉氣的感覺、習慣更有效的閉氣法、訓練出更有彈性的肌肉。這個課程會進行至少10米深的海洋訓練，適合勇敢又想拍出深藍大海與自潛的您！參加本課程需要會游泳，如果您會游泳又喜歡大海，可以直接報名此課程，大海正在呼喚您！
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_3.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_4.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="desc4" method="html" back="#top" tag="2級自潛員">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><span class="Large Focus">2級自潛員課程 LEVEL 2 FREEDIVING</span></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD2.jpg" />
+            進階課程會教導你更多有關閉氣潛水的知識，讓你更適應自由潛水這項活動，加上一系列足以讓你的自由潛水能力向上提升的必備技能。此外，你還能夠學到進階的平衡技巧、閉氣訓練法以及一些必備的知識，讓你能夠不斷的突破自己的極限，甚至是下潛到30公尺深的海域！準備好好的深吸一口氣吧！參加本課程需要具備６次自潛經驗並出示 SSI 一級自潛員執照或同等級執照方可報名，歡迎熱愛自潛的朋友一起加入！
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_5.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_6.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="desc5" method="html" back="#top" tag="3級自潛員">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><span class="Large Focus">3級自潛員課程 LEVEL 3 FREEDIVING</span></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD3.jpg" />
+            最頂端的課程！在這個課程，我們將帶你下潛到深度達30-40公尺的海域！在自由潛水的過程中，將會用掉你肺部內的每一口空氣，因此這可以算是一項專業的深潛課程。為了讓你能夠成功的挑戰它，在自由潛水第三級的課程中，我們將會教導你足以讓你進入這片深藍色大海的充足知識與技巧！參加本課程需要具備30次自潛經驗並出示 SSI 二級自潛員執照或同等級執照方可報名，適合將自潛當作生活態度的朋友一起加入！
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
   <Block id="nav" method="nav">
     <Item name="課程規劃" href="#curriculum"></Item>
     <Item name="開課日期" href="#plan"></Item>
@@ -26,101 +153,6 @@
         <tr>
           <td><img src="../Image/Data/FD_1.jpg" width="100%" /></td>
           <td><img src="../Image/Data/FD_2.jpg" width="100%" /></td>
-        </tr>
-      </table>
-    ]]>
-  </Block>
-  <Block id="desc" method="html" back="#top">
-    <![CDATA[
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td>透過下列這些課程，你將能夠學到一些適用於自由潛水的特殊呼吸法，並且透過反覆的練習，讓你更加的適應與熟悉它(就像是利用橫膈膜呼吸的這種特殊技巧)。</td>
-        </tr>
-      </table>
-      <br>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td colspan="2">初級自潛員課程 BASIC FREEDIVING</td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            本課程為您提供所需的培訓和知識，使您能夠安全地開始享受自由潛水的樂趣。完成後，您將獲得 SSI 初級自由潛水執照。如果您有點怕水卻又想要稍微了解一些自潛的活動，您可以報名這個課程！參加本課程無特別要求，歡迎身心健康的朋友一起加入！
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_9.jpg" width="100%" /></td>
-          <td><img src="../Image/Data/FD_10.jpg" width="100%" /></td>
-        </tr>
-      </table>
-      <br>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td colspan="2">平靜水域自潛員課程 POOL FREEDIVING</td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            本課程為您提供所需的培訓和知識，使您能夠安全地在平静水域中與您的潛伴自由潛水到5米的深度。完成後，您將獲得 SSI 平靜水域自由潛水執照。這個課程會進行5米的泳池訓練，適合想要拍出簡單自潛美照的您！參加本課程需要不怕水，歡迎不會游泳卻又愛玩水的朋友報名！
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_7.jpg" width="100%" /></td>
-          <td><img src="../Image/Data/FD_8.jpg" width="100%" /></td>
-        </tr>
-      </table>
-      <br>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td colspan="2">1級自潛員課程 LEVEL 1 FREEDIVING</td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD1.jpg" />
-            初階課程會包含許多自由潛水知識與技巧上的教學，旨在讓你能夠透過最舒適與最安全的自由潛水方法，一路下潛到深度10-20公尺的海域。接著經過反覆的練習，讓你的身體能夠漸漸適應閉氣的感覺、習慣更有效的閉氣法、訓練出更有彈性的肌肉。這個課程會進行至少10米深的海洋訓練，適合勇敢又想拍出深藍大海與自潛的您！參加本課程需要會游泳，如果您會游泳又喜歡大海，可以直接報名此課程，大海正在呼喚您！
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_3.jpg" width="100%" /></td>
-          <td><img src="../Image/Data/FD_4.jpg" width="100%" /></td>
-        </tr>
-      </table>
-      <br>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td colspan="2">2級自潛員課程 LEVEL 2 FREEDIVING</td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD2.jpg" />
-            進階課程會教導你更多有關閉氣潛水的知識，讓你更適應自由潛水這項活動，加上一系列足以讓你的自由潛水能力向上提升的必備技能。此外，你還能夠學到進階的平衡技巧、閉氣訓練法以及一些必備的知識，讓你能夠不斷的突破自己的極限，甚至是下潛到30公尺深的海域！準備好好的深吸一口氣吧！參加本課程需要具備６次自潛經驗並出示 SSI 一級自潛員執照或同等級執照方可報名，歡迎熱愛自潛的朋友一起加入！
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_5.jpg" width="100%" /></td>
-          <td><img src="../Image/Data/FD_6.jpg" width="100%" /></td>
-        </tr>
-      </table>
-      <br>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td colspan="2">3級自潛員課程 LEVEL 3 FREEDIVING</td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <img style="float: left; margin: 5px 10px 0 0; vertical-align: text-top;" width="20%" src="../Image/Data/SC_FD3.jpg" />
-            最頂端的課程！在這個課程，我們將帶你下潛到深度達30-40公尺的海域！在自由潛水的過程中，將會用掉你肺部內的每一口空氣，因此這可以算是一項專業的深潛課程。為了讓你能夠成功的挑戰它，在自由潛水第三級的課程中，我們將會教導你足以讓你進入這片深藍色大海的充足知識與技巧！參加本課程需要具備30次自潛經驗並出示 SSI 二級自潛員執照或同等級執照方可報名，適合將自潛當作生活態度的朋友一起加入！
-          </td>
         </tr>
       </table>
     ]]>

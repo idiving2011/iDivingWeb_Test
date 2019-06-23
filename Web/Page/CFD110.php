@@ -15,8 +15,13 @@
     <?php include "../Part/Head.php"; ?>
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
+		<div id="FreeDivingTab" class="Block"></div>
+		<div id="desc1" class="ArticleBox"></div>
+		<div id="desc2" class="ArticleBox"></div>
+		<div id="desc3" class="ArticleBox"></div>
+		<div id="desc4" class="ArticleBox"></div>
+		<div id="desc5" class="ArticleBox"></div>
 		<div id="intro" class="ArticleBox"></div>
-    <div id="desc" class="ArticleBox"></div>
 		<div id="curriculum" class="ArticleBox"></div>
 		<div id="plan" class="ArticleBox"></div>
 		<div id="tuition" class="ArticleBox"></div>
