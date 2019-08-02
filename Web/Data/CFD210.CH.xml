@@ -58,16 +58,68 @@
   </Block>
   <Block id="curriculum" caption="課程規劃" method="html" back="#top">
     <![CDATA[ 
-      <table border="0" width="70%" style="text-align: justify;">
-        <tr>
-          <td>
-            <ul>
-              <li>自由潛水教練 Level１：10 天課程。</li>
-              <li>自由潛水教練 Level２或 3：3 天課程：視教練候選員情況特別規劃</li>
-          </td>
-        </tr>
-      </table>
-      <br>
+      <ul>
+        <li>
+          <table border="0" width="100%" style="text-align: justify;">
+            <tr>
+              <td>教練班 Freedive Instructor Course (FITC)</td>
+            </tr>
+            <tr>
+              <td>POOL/LV1/LV2 自潛教練 ： 7-10天課程</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>課程條件：</td>
+            </tr>
+            <tr>
+              <td>須具備游泳能力</td>
+            </tr>
+            <tr>
+              <td>高一階的學生執照。　舉例：LV1 教練要具備 LV2 學員的執照</td>
+            </tr>
+            <tr>
+              <td>須具備急救執照 React Right (SSI RR) 或效期內之醫生／護理師急救執照或 EMT2 執照</td>
+            </tr>
+            <tr>
+              <td>具備 SSI 自潛專長 Training Techniques (SSI SP-TT)</td>
+            </tr>
+          </table>
+        </li>
+        <br/>
+        <li>
+          <table border="0" width="100%" style="text-align: justify;">
+            <tr>
+              <td>教練升等班</td>
+            </tr>
+            <tr>
+              <td>POOL 自潛教練升級至 LV1 自潛教練：3-5 天課程</td>
+            </tr>
+            <tr>
+              <td>POOL 自潛教練升級至 LV2 自潛教練：4-6 天課程</td>
+            </tr>
+            <tr>
+              <td>LV1 自潛教練升級至 LV2 自潛教練：3-5 天課程</td>
+            </tr>
+            <tr>
+              <td>LV2 自潛教練升級至 LV3 自潛教練：3-5 天課程</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                課程條件：<br/>
+                1. 完成教練班 FITC 課程<br/>
+                2. 高一階的學生執照。　舉例：LV1 教練要具備 LV2 學員的執照<br/>
+                3. 效期內之急救執照（認可急救執照如上）
+              </td>
+            </tr>
+          </table>
+        </li>
+      </ul>
+      <br/>
       <table width="70%" style="text-align: justify;">
         <tr>
           <td><img src="../Image/Data/FDI_2.jpg" width="100%" /></td>
@@ -95,9 +147,30 @@
         <tr>
           <td>
             <ul>
-              <li>自由潛水教練 Level１：50,000</li>
-              <li>自由潛水教練 Level２：18,000</li>
-              <li>自由潛水教練 Level３：18,000</li>
+              <li>SSI 系統 全球領導級資料登入費用：4,000</li>
+              <li>自潛教練班：36,000 不含教材 7,000</li>
+              <li>
+                自潛教練升級班：<br/>
+                POOL 自潛教練升級至 LV1 自潛教練：16,000 無教材費<br/>
+                POOL 自潛教練升級至 LV2 自潛教練：20,000 不含教材 4,000<br/>
+                LV1 自潛教練升級至 LV2 自潛教練：16,000 不含教材 4,000<br/>
+                LV2 自潛教練升級至 LV3 自潛教練：30,000 不含教材 4,000
+              </li>
+              <li>
+                相關專長課程<br/>
+                RR 5,000<br/>
+                TT 5,000
+              </li>
+              <li>
+                LV1教練班套裝<br/>
+                1. 如果您是 LV1 自潛員，現金優惠價格為 58,000<br/>
+                &nbsp;&nbsp;&nbsp;包含：LV2 學生班 15,000 + RR 5,000 + TT 5,000 + 教練班 36,000 + 教材費 7,000  + 登陸費 4,000<br/>
+                2. 如果您是LV２自潛員，現金優惠價格為46000<br/>
+                &nbsp;&nbsp;&nbsp;包含：RR 5,000 + TT 5,000 + 教練班 36,000 + 教材費 7,000  + 登陸費 4,000<br/>
+                3. 如果您有 RR 同等執照，套裝現金優惠價格可再扣 4,000<br/>
+                4. 當您取得 LV1 教練執照，將同時具有 TT + FIM　兩項專長教練執照
+              </li>
+            </ul>
           </td>
         </tr>
       </table>
@@ -126,7 +199,27 @@
     <![CDATA[
       <table width="70%" style="text-align: justify;">
         <tr>
-          <td>各級教練培訓課程非保證班教學</td>
+          <td>
+            <ol>
+              <li>iDiving 自潛教練班非保證班教學（註）。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
+              <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
+              <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
+              <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
+              <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
+              <li>
+                學員結訓後，訓練中心將於兩週內完成 SSI 國際潛水證照申請作業。<br>
+                （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
+              </li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            註：<br>
+            <ul>
+              <li>如果 LV1 教練班各項要求無法達到結訓標準，訓練官會與您討論補訓的時間與相關費用，也可能降發 POOL 自潛教練</li>
+            </ul>
+          </td>
         </tr>
       </table>
     ]]>
