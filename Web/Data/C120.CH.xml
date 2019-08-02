@@ -76,7 +76,7 @@
                 <td rowspan="2" style="vertical-align:middle"><strong>泳 池 課 程</strong></td>
                 <td style="color:#993366">
                   周 六(第一天)<br/>
-                  11：30 ~ 19：00                </td>
+                  11：30 ~ 19：00 </td>
                 <td valign="middle" style="color:#993366">
                   裝備調整及組裝、下水前安全檢查、呼吸管排水、<br/>
                   蛙鞋踢動、潛水法、面鏡排水、二級頭尋回與排水、<br/>
@@ -88,23 +88,30 @@
               <tr align="center">
                 <td style="color:#993366">
                   周 日(第二天)<br/>
-                  12：45 ~ 18：00                </td>
-                <td valign="middle" style="color:#993366">
-                  吐氣練習、緊急游泳上升<br/>
-                  水中懸浮、抽筋排除、浮標法BC充氣                </td>
-                <td style="vertical-align:middle; color:#993366">南 港<br/>運動中心</td>
+                  11：30 ~ 19：00                </td>
+                <td style="color:#993366; vertical-align:middle;">
+                    吐氣練習、緊急游泳上升、<br/>
+                    水中懸浮、抽筋排除、浮標法BC充氣、<br/>
+                </td>
+                <td style="vertical-align:middle; color:#993366">
+                    前 港<br/>
+                  特約泳池                </td>
               </tr>
             </table>
             <br/>
             <table width="80%" style="table-layout: fixed;">
               <tr>
                 <td><img width="98%"  src="../Image/Data/OWD_CurriculumPlanning_03.jpg"></td>
+                <td align="center" style="vertical-align:middle;">訓練池：前港游泳池<br/>台北市士林區前港街45號<br/>捷運淡水線 劍潭站<br/>TEL：(02) 2880-5598</td>
+              </tr>
+              <!--<tr>
+                <td><img width="98%"  src="../Image/Data/OWD_CurriculumPlanning_03.jpg"></td>
                 <td align="right"><img width="98%" src="../Image/Data/OWD_CurriculumPlanning_04.jpg"></td>
               </tr>
               <tr>
                 <td align="center" valign="baseline">第一天訓練池：前港游泳池<br/>台北市士林區前港街45號<br/>捷運淡水線 劍潭站<br/>TEL：(02) 2880-5598</td>
                 <td align="center" valign="baseline">第二天訓練池：南港運動中心1F<br/>台北市南港區玉成街69號<br/>捷運板南線 後山埤站 近4號出口<br/>TEL：(02) 2653-2279</td>
-              </tr>
+              </tr>-->
             </table>
             <br/>
             <br/>
@@ -120,8 +127,10 @@
                 <td rowspan="2" style="vertical-align:middle"><strong>海 洋 實 習</strong></td>
                 <td style="color:#3366FF">周 六(第一天)<br/>
                 9：00 ~ 18：00</td>
-                <td valign="middle" style="color:#3366FF">潛水簡報、海洋環境介紹、出入水之技巧、<br/>
-                動作測驗、裝備清洗方式、共用氣源<br/></td>
+                <td valign="middle" style="color:#3366FF">
+                   潛水簡報、有控制下潛上升、海洋環境介紹、出入水之技巧、<br/>
+                   動作測驗、裝備清洗方式、指北針導航之應用
+                </td>
                 <td rowspan="2" style="vertical-align:middle; color:#3366FF">東北角<br/>
                   或搭配<br/>
                 移地課程</td>
@@ -129,8 +138,10 @@
               <tr align="center">
                 <td style="color:#3366FF">周 日(第二天)<br/>
                 9：00 ~ 18：00</td>
-                <td valign="middle" style="color:#3366FF">潛水簡報、指北針導航之應用、水中觀光、<br/>
-                海洋生物認識、紀錄潛水日誌、水中懸浮練習</td>
+                <td valign="middle" style="color:#3366FF">
+                    潛水簡報、共用氣源、緊急游泳上升、緊急浮力上升<br/>
+                    水中觀光、海洋生物認識、紀錄潛水日誌、水中懸浮練習
+                </td>
               </tr>
             </table>
             <br/>
@@ -385,8 +396,8 @@
                     <td>上課地點</td>
                   </tr>
                   <tr align="center">
-                    <td rowspan="3" style="vertical-align:middle">學 科</td>
-                    <td style="color:#808000">
+                    <td rowspan="3" nowrap style="vertical-align:middle">學 科</td>
+                    <td nowrap style="color:#808000">
                       學科第一堂<br/>
                       09：00 ~ 12：00
                     </td>
@@ -440,25 +451,31 @@
                   <tr align="center">
                     <td style="color:#993366">
                       第二天<br/>
-                      14：30 ~ 18：00
+                      12：30 ~ 19：00
                     </td>
-                    <td valign="middle" style="color:#993366">
-                      吐氣練習、緊急游泳上升<br/>
-                      水中懸浮、抽筋排除、浮標法BC充氣
+                    <td valign="middle" style="vertical-align:middle;color:#993366;">
+                      吐氣練習、緊急游泳上升、<br/>
+                      水中懸浮、抽筋排除、浮標法BC充氣、<br/>
                     </td>
-                    <td style="vertical-align:middle; color:#993366">南 港<br/>運動中心</td>
+                    <td style="vertical-align:middle; color:#993366">
+                        前 港<br/>
+                      特約泳池</td>
                   </tr>
                 </table>
                 <br/>
                 <table width="80%" style="table-layout: fixed;">
                   <tr>
                     <td><img width="98%"  src="../Image/Data/OWD_CurriculumPlanning_03.jpg"></td>
+                    <td align="center" style="vertical-align:middle;">訓練池：前港游泳池<br/>台北市士林區前港街45號<br/>捷運淡水線 劍潭站<br/>TEL：(02) 2880-5598</td>
+                  </tr>
+                  <!--<tr>
+                    <td><img width="98%"  src="../Image/Data/OWD_CurriculumPlanning_03.jpg"></td>
                     <td align="right"><img width="98%" src="../Image/Data/OWD_CurriculumPlanning_04.jpg"></td>
                   </tr>
                   <tr>
                     <td align="center" valign="baseline">第一天訓練池：前港游泳池<br/>台北市士林區前港街45號<br/>捷運淡水線 劍潭站<br/>TEL：(02) 2880-5598</td>
                     <td align="center" valign="baseline">第二天訓練池：南港運動中心1F<br/>台北市南港區玉成街69號<br/>捷運板南線 後山埤站 近4號出口<br/>TEL：(02) 2653-2279</td>
-                  </tr>
+                  </tr>-->
                 </table>
                 <br/>
                 <br/>
@@ -477,8 +494,8 @@
                       10：00 ~ 17：00
                     </td>
                     <td valign="middle" style="color:#3366FF">
-                      潛水簡報、海洋環境介紹、出入水之技巧、<br/>
-                      動作測驗、裝備清洗方式、共用氣源
+                      潛水簡報、有控制下潛上升、海洋環境介紹、出入水之技巧、<br/>
+                      動作測驗、裝備清洗方式、指北針導航之應用
                     </td>
                     <td rowspan="2" style="vertical-align:middle; color:#3366FF">
                       東北角<br/>
@@ -492,8 +509,8 @@
                       10：00 ~ 19：00
                     </td>
                     <td valign="middle" style="color:#3366FF">
-                      潛水簡報、指北針導航之應用、水中觀光、<br/>
-                      海洋生物認識、紀錄潛水日誌、水中懸浮練習
+                      潛水簡報、共用氣源、緊急游泳上升、緊急浮力上升<br/>
+                      水中觀光、海洋生物認識、紀錄潛水日誌、水中懸浮練習
                     </td>
                   </tr>
                 </table>
