@@ -29,315 +29,13 @@
       </table>
     ]]>
   </Block>
-  <Block id="FreeDivingTab" method="tab" selected="初級自潛員" >
-    <Item name="初級自潛員"/>
-    <Item name="平靜水域自潛員"/>
+  <Block id="FreeDivingTab" method="tab" selected="1級自潛員" >
     <Item name="1級自潛員"/>
     <Item name="2級自潛員"/>
     <Item name="3級自潛員"/>
-  </Block>
-  <!-- 初級自潛員 -->
-  <Block id="desc1" method="html" back="#top" tag="初級自潛員">
-    <![CDATA[
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td colspan="2">
-            <ul>
-              <li><span class="Large Focus">初級自潛員課程 BASIC FREEDIVING</span></li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            如果你水性不錯，歡迎直接從一級自潛員課程開始。<br/>
-            初級自潛員與平靜水域自潛這兩張執照的課程都含括在一級自潛員課程裡面囉！<br/><br/>
-            本課程為您提供所需的培訓和知識，使您能夠安全地開始享受自由潛水的樂趣。完成後，您將獲得 SSI 初級自由潛水執照。如果您有點怕水卻又想要稍微了解一些自潛的活動，您可以報名這個課程！參加本課程無特別要求，歡迎身心健康的朋友一起加入！
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_9.jpg" width="100%" /></td>
-          <td><img src="../Image/Data/FD_10.jpg" width="100%" /></td>
-        </tr>
-      </table>
-    ]]>
-  </Block>
-  <Block id="curriculum1" caption="課程規劃" method="html" back="#top" tag="初級自潛員">
-    <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td>
-            <ul>
-              <li>平日班課程需要1天，一周開兩班：逢週二或周四開課</li>
-            </ul>
-            <p>初級自潛員課程 BASIC FREEDIVING（平日）</p>
-            <table border="1" width="100%" style="text-align: justify;">
-              <tr align="center">
-                <td></td>
-                <td>時 間</td>
-                <td>課 程 內 容</td>
-                <td>上課地點</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2" style="vertical-align:middle;">學 科 + 泳池</td>
-                <td style="vertical-align:middle;">9：00 ~ 12：00</td>
-                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
-                <td>
-                  iDiving<br/>
-                  教 室
-                </td>
-              </tr>
-              <tr align="center">
-                <td style="vertical-align:middle;">13：00 ~ 18：00</td>
-                <td style="vertical-align:middle;">
-                  裝備調整、靜態閉氣練習、轉身技巧、耳壓平衡技巧、<br/>
-                  鴨式下潛技巧、守護員規則與練習、豚式技巧練習
-                </td>
-                <td>
-                  前 港<br/>
-                  特約泳池
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
-        <tr>
-      </table>
-      <br/>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td>
-            <ul>
-              <li>假日班課程規劃如下</li>
-            </ul>
-            <p>初級自潛員課程 BASIC FREEDIVING（假日）</p>
-            <table border="1" width="100%" style="text-align: justify;">
-              <tr align="center">
-                <td></td>
-                <td>時 間</td>
-                <td>課 程 內 容</td>
-                <td>上課地點</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2" style="vertical-align:middle;">學 科 + 泳池</td>
-                <td style="vertical-align:middle;">9：00 ~ 12：00</td>
-                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
-                <td>
-                  iDiving<br/>
-                  教 室
-                </td>
-              </tr>
-              <tr align="center">
-                <td style="vertical-align:middle;">13：00 ~ 18：00</td>
-                <td style="vertical-align:middle;">
-                  裝備調整、靜態閉氣練習、轉身技巧、耳壓平衡技巧、<br/>
-                  鴨式下潛技巧、守護員規則與練習、豚式技巧練習
-                </td>
-                <td>
-                  前 港<br/>
-                  特約泳池
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
-        <tr>
-      </table>
-      <br/>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
-          <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_12.jpg" width="100%" /></td>
-        </tr>
-      </table>
-    ]]>
-  </Block>
-  
-  <!-- 平靜水域自潛員 -->
-  <Block id="desc2" method="html" back="#top" tag="平靜水域自潛員">
-    <![CDATA[
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td colspan="2">
-            <ul>
-              <li><span class="Large Focus">平靜水域自潛員課程 POOL FREEDIVING</span></li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            如果你水性不錯，歡迎直接從一級自潛員課程開始。<br/>
-            初級自潛員與平靜水域自潛這兩張執照的課程都含括在一級自潛員課程裡面囉！<br/><br/>
-            本課程為您提供所需的培訓和知識，使您能夠安全地在平静水域中與您的潛伴自由潛水到5米的深度。完成後，您將獲得 SSI 平靜水域自由潛水執照。這個課程會進行5米的泳池訓練，適合想要拍出簡單自潛美照的您！參加本課程需要不怕水，歡迎不會游泳卻又愛玩水的朋友報名！
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_7.jpg" width="100%" /></td>
-          <td><img src="../Image/Data/FD_8.jpg" width="100%" /></td>
-        </tr>
-      </table>
-    ]]>
-  </Block><Block id="curriculum2" caption="課程規劃" method="html" back="#top" tag="平靜水域自潛員">
-    <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td>
-            <ul>
-              <li>平日班課程需要2天，一周開兩班：週二到週三或週四到週五</li>
-            </ul>
-            <p>平靜水域自潛員課程 POOL FREEDIVING（平日）</p>
-            <table border="1" width="100%" style="text-align: justify;">
-              <tr align="center">
-                <td></td>
-                <td>時 間</td>
-                <td>課 程 內 容</td>
-                <td>上課地點</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2" style="vertical-align:middle;">學 科 + 泳池</td>
-                <td style="vertical-align:middle;">9：00 ~ 12：00</td>
-                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
-                <td>
-                  iDiving<br/>
-                  教 室
-                </td>
-              </tr>
-              <tr align="center">
-                <td style="vertical-align:middle;">13：00 ~ 18：00</td>
-                <td style="vertical-align:middle;">自由潛水技巧、海洋環境與自由潛水</td>
-                <td>
-                  前 港<br/>
-                  特約泳池
-                </td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2" style="vertical-align:middle;">學 科 + 泳池</td>
-                <td style="vertical-align:middle;">9：00 ~ 12：00</td>
-                <td style="vertical-align:middle;">
-                  裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
-                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧
-                </td>
-                <td>
-                  iDiving<br/>
-                  教 室
-                </td>
-              </tr>
-              <tr align="center">
-                <td style="vertical-align:middle;">13：00 ~ 18：00</td>
-                <td style="vertical-align:middle;">
-                  耳壓平衡技巧練習、鴨式下潛練習、5M自由下潛、<br/>
-                  5M救援技巧、守護員規則與練習、豚式技巧練習
-                </td>
-                <td>
-                  南 港<br/>
-                  運動中心
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
-        <tr>
-      </table>
-      <br/>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td>
-            <ul>
-              <li>假日班課程規劃如下</li>
-            </ul>
-            <p>平靜水域自潛員課程 POOL FREEDIVING（假日）</p>
-            <table border="1" width="100%" style="text-align: justify;">
-              <tr align="center">
-                <td></td>
-                <td>時 間</td>
-                <td>課 程 內 容</td>
-                <td>上課地點</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2" style="vertical-align:middle;">學 科</td>
-                <td>
-                  平日晚上<br/>
-                  19：00 ~ 21：30</td>
-                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
-                <td>
-                  iDiving<br/>
-                  教 室
-                </td>
-              </tr>
-              <tr align="center">
-                <td>
-                  平日晚上<br/>
-                  19：00 ~ 21：30
-                </td>
-                <td style="vertical-align:middle;">自由潛水技巧、海洋環境與自由潛水</td>
-                <td>
-                  iDiving<br/>
-                  教 室
-                </td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2" style="vertical-align:middle;">泳 池 課 程</td>
-                <td>
-                  周 六<br/>
-                  12：00 ~ 18：00
-                </td>
-                <td>
-                  裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
-                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧
-                </td>
-                <td>
-                  前 港<br/>
-                  特約泳池
-                </td>
-              </tr>
-              <tr align="center">
-                <td>
-                  周 日<br/>
-                  12：20 ~ 18：00
-                </td>
-                <td>
-                  耳壓平衡技巧練習、鴨式下潛練習、5M自由下潛<br/>
-                  5M救援技巧、守護員規則與練習、豚式技巧練習
-                </td>
-                <td>
-                  南 港<br/>
-                  運動中心
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
-        <tr>
-      </table>
-      <br/>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
-          <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_12.jpg" width="100%" /></td>
-        </tr>
-      </table>
-    ]]>
-  </Block>
-  
+    <Item name="初級自潛員(選擇性)"/>
+    <Item name="平靜水域自潛員(選擇性)"/>
+  </Block>  
   <!-- 1級自潛員 -->
   <Block id="desc3" method="html" back="#top" tag="1級自潛員">
     <![CDATA[
@@ -398,7 +96,10 @@
                     第1天下午<br/>
                     13：00 ~ 18：00
                 </td>
-                <td style="vertical-align:middle;">自由潛水技巧、海洋環境與自由潛水</td>
+                <td style="vertical-align:middle;">
+                  裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
+                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧、動態平潛出水法
+                </td>
                 <td>
                   前 港<br/>
                   特約泳池
@@ -410,10 +111,7 @@
                     第2天上午<br/>
                     9：00 ~ 12：00
                 </td>
-                <td style="vertical-align:middle;">
-                  裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
-                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧
-                </td>
+                <td style="vertical-align:middle;">自由潛水技巧、海洋環境與自由潛水</td>
                 <td>
                   iDiving<br/>
                   教 室
@@ -425,12 +123,12 @@
                     13：00 ~ 18：00
                 </td>
                 <td style="vertical-align:middle;">
-                  耳壓平衡技巧練習、鴨式下潛練習、5M自由下潛、<br/>
-                  5M救援技巧、守護員規則與練習、豚式技巧練習
+                  耳壓平衡技巧練習、深水區蛙鞋穿著、浮球使用(調氣+入水)、<br/>
+                  水平攀繩15M、長划手15M、無面鏡踢動、動態10M救援、鴨式技巧練習
                 </td>
                 <td>
-                  南 港<br/>
-                  運動中心
+                  前 港<br/>
+                  特約泳池
                 </td>
               </tr>
               <tr align="center">
@@ -514,7 +212,7 @@
                 </td>
                 <td>
                   裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
-                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧
+                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧、動態平潛出水法
                 </td>
                 <td>
                   前 港<br/>
@@ -526,13 +224,13 @@
                   周 日<br/>
                   12：20 ~ 18：00
                 </td>
-                <td>
-                  耳壓平衡技巧練習、鴨式下潛練習、5M自由下潛<br/>
-                  5M救援技巧、守護員規則與練習、豚式技巧練習
+                <td style="vertical-align:middle;">
+                  耳壓平衡技巧練習、深水區蛙鞋穿著、浮球使用(調氣+入水)、<br/>
+                  水平攀繩15M、長划手15M、無面鏡踢動、動態10M救援、鴨式技巧練習
                 </td>
                 <td>
-                  南 港<br/>
-                  運動中心
+                  前 港<br/>
+                  特約泳池
                 </td>
               </tr>
               <tr align="center">
@@ -1033,6 +731,309 @@
                   東北角<br/>
                   或搭配<br/>
                   移地課程
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
+        <tr>
+      </table>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
+          <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_12.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 初級自潛員(選擇性) -->
+  <Block id="desc1" method="html" back="#top" tag="初級自潛員(選擇性)">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><span class="Large Focus">初級自潛員課程 BASIC FREEDIVING</span></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            如果你水性不錯，歡迎直接從一級自潛員課程開始。<br/>
+            初級自潛員與平靜水域自潛這兩張執照的課程都含括在一級自潛員課程裡面囉！<br/><br/>
+            本課程為您提供所需的培訓和知識，使您能夠安全地開始享受自由潛水的樂趣。完成後，您將獲得 SSI 初級自由潛水執照。如果您有點怕水卻又想要稍微了解一些自潛的活動，您可以報名這個課程！參加本課程無特別要求，歡迎身心健康的朋友一起加入！
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_9.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_10.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="curriculum1" caption="課程規劃" method="html" back="#top" tag="初級自潛員(選擇性)">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li>平日班課程需要1天，一周開兩班：逢週二或周四開課</li>
+            </ul>
+            <p>初級自潛員課程 BASIC FREEDIVING（平日）</p>
+            <table border="1" width="100%" style="text-align: justify;">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">學 科 + 泳池</td>
+                <td style="vertical-align:middle;">9：00 ~ 12：00</td>
+                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td style="vertical-align:middle;">13：00 ~ 18：00</td>
+                <td style="vertical-align:middle;">
+                  裝備調整、靜態閉氣練習、轉身技巧、耳壓平衡技巧、<br/>
+                  鴨式下潛技巧、守護員規則與練習、豚式技巧練習
+                </td>
+                <td>
+                  前 港<br/>
+                  特約泳池
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
+        <tr>
+      </table>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li>假日班課程規劃如下</li>
+            </ul>
+            <p>初級自潛員課程 BASIC FREEDIVING（假日）</p>
+            <table border="1" width="100%" style="text-align: justify;">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">學 科 + 泳池</td>
+                <td style="vertical-align:middle;">9：00 ~ 12：00</td>
+                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td style="vertical-align:middle;">13：00 ~ 18：00</td>
+                <td style="vertical-align:middle;">
+                  裝備調整、靜態閉氣練習、轉身技巧、耳壓平衡技巧、<br/>
+                  鴨式下潛技巧、守護員規則與練習、豚式技巧練習
+                </td>
+                <td>
+                  前 港<br/>
+                  特約泳池
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
+        <tr>
+      </table>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
+          <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_12.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 平靜水域自潛員(選擇性) -->
+  <Block id="desc2" method="html" back="#top" tag="平靜水域自潛員(選擇性)">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li><span class="Large Focus">平靜水域自潛員課程 POOL FREEDIVING</span></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            如果你水性不錯，歡迎直接從一級自潛員課程開始。<br/>
+            初級自潛員與平靜水域自潛這兩張執照的課程都含括在一級自潛員課程裡面囉！<br/><br/>
+            本課程為您提供所需的培訓和知識，使您能夠安全地在平静水域中與您的潛伴自由潛水到5米的深度。完成後，您將獲得 SSI 平靜水域自由潛水執照。這個課程會進行5米的泳池訓練，適合想要拍出簡單自潛美照的您！參加本課程需要不怕水，歡迎不會游泳卻又愛玩水的朋友報名！
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_7.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/FD_8.jpg" width="100%" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="curriculum2" caption="課程規劃" method="html" back="#top" tag="平靜水域自潛員(選擇性)">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li>平日班課程需要2天，一周開兩班：週二到週三或週四到週五</li>
+            </ul>
+            <p>平靜水域自潛員課程 POOL FREEDIVING（平日）</p>
+            <table border="1" width="100%" style="text-align: justify;">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">學 科 + 泳池</td>
+                <td style="vertical-align:middle;">9：00 ~ 12：00</td>
+                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td style="vertical-align:middle;">13：00 ~ 18：00</td>
+                <td style="vertical-align:middle;">
+                  裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
+                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧、動態平潛出水法
+                </td>
+                <td>
+                  前 港<br/>
+                  特約泳池
+                </td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">學 科 + 泳池</td>
+                <td style="vertical-align:middle;">9：00 ~ 12：00</td>
+                <td style="vertical-align:middle;">自由潛水技巧、海洋環境與自由潛水</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td style="vertical-align:middle;">13：00 ~ 18：00</td>
+                <td style="vertical-align:middle;">
+                  耳壓平衡技巧練習、深水區蛙鞋穿著、浮球使用(調氣+入水)、<br/>
+                  水平攀繩15M、長划手15M、無面鏡踢動、動態10M救援、鴨式技巧練習
+                </td>
+                <td>
+                  前 港<br/>
+                  特約泳池
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
+        <tr>
+      </table>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li>假日班課程規劃如下</li>
+            </ul>
+            <p>平靜水域自潛員課程 POOL FREEDIVING（假日）</p>
+            <table border="1" width="100%" style="text-align: justify;">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">學 科</td>
+                <td>
+                  平日晚上<br/>
+                  19：00 ~ 21：30</td>
+                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td>
+                  平日晚上<br/>
+                  19：00 ~ 21：30
+                </td>
+                <td style="vertical-align:middle;">自由潛水技巧、海洋環境與自由潛水</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">泳 池 課 程</td>
+                <td>
+                  周 六<br/>
+                  12：00 ~ 18：00
+                </td>
+                <td>
+                  裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
+                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧、動態平潛出水法
+                </td>
+                <td>
+                  前 港<br/>
+                  特約泳池
+                </td>
+              </tr>
+              <tr align="center">
+                <td>
+                  周 日<br/>
+                  12：20 ~ 18：00
+                </td>
+                <td style="vertical-align:middle;">
+                  耳壓平衡技巧練習、深水區蛙鞋穿著、浮球使用(調氣+入水)、<br/>
+                  水平攀繩15M、長划手15M、無面鏡踢動、動態10M救援、鴨式技巧練習
+                </td>
+                <td>
+                  前 港<br/>
+                  特約泳池
                 </td>
               </tr>
             </table>
