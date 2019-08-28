@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="跟著愛潛水學滑雪"/>
+    <Block id="title" method="title" text="跟著 iDiving 學滑雪"/>
   <Block id="nav" method="nav">
     <Item name="活動行程" href="#plan"></Item>
     <Item name="開團日期" href="#date"></Item>
