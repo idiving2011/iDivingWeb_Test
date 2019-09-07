@@ -24,8 +24,9 @@
   </Block>
   <Block id="FreeDivingTab" method="tab" selected="1級自潛員" description="">
     <Item name="1級自潛員">
-      <Item name="LV1假日班"/>
-      <Item name="LV1平日班"/>
+      <Item name="LV1冬季班"/>
+      <Item name="LV1夏季假日班"/>
+      <Item name="LV1夏季平日班"/>
     </Item>
     <Item name="2級自潛員"/>
     <Item name="3級自潛員"/>
@@ -40,7 +41,7 @@
   </Block>
   
   <!-- LV1 介紹 -->
-  <Block id="LV1desc" method="html" back="#top" tag="LV1假日班,LV1平日班">
+  <Block id="LV1desc" method="html" back="#top" tag="LV1冬季班,LV1夏季假日班,LV1夏季平日班">
     <![CDATA[
       <table width="70%" style="text-align: justify;">
         <tr>
@@ -67,13 +68,13 @@
     ]]>
   </Block>
   <!-- LV1 課程規劃，假日班 -->
-  <Block id="LV1curriculum1" caption="課程規劃" method="html" back="#top" tag="LV1假日班">
+  <Block id="LV1curriculum1" caption="課程規劃" method="html" back="#top" tag="LV1夏季假日班">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
-              <li>假日班課程規劃如下</li>
+              <li>夏季假日班課程規劃如下</li>
             </ul>
             <p>1級自潛員課程 LEVEL 1 FREEDIVING（假日）</p>
             <table border="1" width="100%" style="text-align: justify;">
@@ -179,13 +180,13 @@
     ]]>
   </Block>
   <!-- LV1 課程規劃，平日班 -->
-  <Block id="LV1curriculum2" caption="課程規劃" method="html" back="#top" tag="LV1平日班">
+  <Block id="LV1curriculum2" caption="課程規劃" method="html" back="#top" tag="LV1夏季平日班">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
-              <li>平日班課程需要4天，一周開兩班 ： （１）周２至周５ ； （２）周４．５＋下周２．３  確切時間請來電與教練討論</li>
+              <li>夏季平日班課程需要4天，一周開兩班 ： （１）周２至周５ ； （２）周４．５＋下周２．３  確切時間請來電與教練討論</li>
             </ul>
             <p>1級自潛員課程 LEVEL 1 FREEDIVING（平日）</p>
             <table border="1" width="100%" style="text-align: justify;">
@@ -282,6 +283,107 @@
         <tr>
           <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
         <tr>
+      </table>
+    ]]>
+  </Block>
+  <!-- LV1 課程規劃，冬季班 -->
+  <Block id="LV1curriculum3" caption="課程規劃" method="html" back="#top" tag="LV1冬季班">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li>冬季班課程規劃如下</li>
+            </ul>
+            <p>1級自潛員課程 LEVEL 1 FREEDIVING（假日）</p>
+            <table border="1" width="100%" style="text-align: justify;">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">學 科</td>
+                <td>
+                  平日晚上<br/>
+                  19：00 ~ 21：30</td>
+                <td style="vertical-align:middle;">自由潛水裝備、自由潛水生理學</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td>
+                  平日晚上<br/>
+                  19：00 ~ 21：30
+                </td>
+                <td style="vertical-align:middle;">自由潛水技巧、海洋環境與自由潛水</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">泳 池 課 程</td>
+                <td>
+                  周 六<br/>
+                  12：00 ~ 18：00
+                </td>
+                <td>
+                  裝備調整、靜態閉氣練習、動態閉氣30-75M練習、<br/>
+                  轉身技巧、耳壓平衡技巧、鴨式下潛技巧、動態平潛出水法
+                </td>
+                <td>
+                  前 港<br/>
+                  特約泳池
+                </td>
+              </tr>
+              <tr align="center">
+                <td>
+                  周 日<br/>
+                  12：20 ~ 18：00
+                </td>
+                <td style="vertical-align:middle;">
+                  耳壓平衡技巧練習、深水區蛙鞋穿著、浮球使用(調氣+入水)、<br/>
+                  水平攀繩15M、長划手15M、無面鏡踢動、動態10M救援、鴨式技巧練習
+                </td>
+                <td>
+                  南 港<br/>
+                  運動中心
+                </td>
+              </tr>
+              <tr align="center">
+                <td rowspan="2" style="vertical-align:middle;">海 洋 實 習</td>
+                <td style="vertical-align:middle;">
+                  周 六<br/>
+                  9：00 ~ 17：00
+                </td>
+                <td style="vertical-align:middle;">
+                  耳壓平衡技巧練習、鴨式下潛練習、救援技巧、<br/>
+                  自由下潛10-20M、守護員規則與練習
+                </td>
+                <td style="vertical-align:middle;">
+                  潛立方
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="Important">＊以上時間安排包括課前說明與交通移動，實際下水時間將依照現場情況調整</span></td>
+        <tr>
+      </table>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
+          <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_12.jpg" width="100%" /></td>
+        </tr>
       </table>
     ]]>
   </Block>
@@ -1078,111 +1180,178 @@
   
     
   <!-- 共用 -->
-  <Block id="LV1plan" caption="開課日期" method="html" back="#top" tag="LV1假日班,LV1平日班">
+  <Block id="LV1plan1" caption="開課日期" method="html" back="#top" tag="LV1夏季假日班">
     <![CDATA[
-            <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-            <!--<ul>
-              <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-              <li>假日班課程規劃如下</li>
-            </ul>-->
-            <table width="70%" style="text-align: justify;">
-              <tr>
-                <td>
-                  <strong style="font-size:20px">2019年9月 ~ 2020年4月 LV1 假日班 開課日期</strong><br/>
-                  一個假日課程 = 期別 + 學科 * 2 + 泳池 * 2 + 潛立方 * 1<br/>
-                  學科 + 泳池共開24期，潛力方每月一次，請選擇您有空的日期報名<br/>
-                  <span class="Large Focus">
-                    平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
-              </tr>
-            </table>
+      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+      <!--<ul>
+        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
+        <li>假日班課程規劃如下</li>
+      </ul>-->
+      <!--<table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong style="font-size:20px">2019年9月 ~ 2020年4月 LV1 假日班 開課日期</strong><br/>
+            一個假日課程 = 期別 + 學科 * 2 + 泳池 * 2 + 潛立方 * 1<br/>
+            學科 + 泳池共開24期，潛力方每月一次，請選擇您有空的日期報名<br/>
+            <span class="Large Focus">
+              平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+        </tr>
+      </table>-->
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong style="font-size:20px">開課日期排定中...</strong><br/>
+            一個假日課程 = 學科 + 泳池 + 海洋 * 2<br/>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="LV1plan2" caption="開課日期" method="html" back="#top" tag="LV1夏季平日班">
+    <![CDATA[
+      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+      <!--<ul>
+        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
+        <li>假日班課程規劃如下</li>
+      </ul>-->
+      <!--<table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong style="font-size:20px">2019年9月 ~ 2020年4月 LV1 假日班 開課日期</strong><br/>
+            一個假日課程 = 期別 + 學科 * 2 + 泳池 * 2 + 潛立方 * 1<br/>
+            學科 + 泳池共開24期，潛力方每月一次，請選擇您有空的日期報名<br/>
+            <span class="Large Focus">
+              平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+        </tr>
+      </table>-->
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong style="font-size:20px">開課日期排定中...</strong><br/>
+            一個平日課程 = (學科 + 泳池) * 2 + 海洋 * 2，共計4天，每週二，周四皆有開課<br/>
+            <span class="Large Focus">
+              平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
+            </span>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="LV1plan3" caption="開課日期" method="html" back="#top" tag="LV1冬季班">
+    <![CDATA[
+      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+      <!--<ul>
+        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
+        <li>假日班課程規劃如下</li>
+      </ul>-->
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong style="font-size:20px">2019年9月 ~ 2020年4月 LV1 假日班 開課日期</strong><br/>
+            一個假日課程 = 期別 + 學科 * 2 + 泳池 * 2 + 潛立方 * 1<br/>
+            學科 + 泳池共開24期，潛力方每月一次，請選擇您有空的日期報名<br/>
+            <span class="Large Focus">
+              平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+        </tr>
+      </table>
     ]]>
   </Block>
   <!-- LV2 開課日期，同 3級自潛員,BASIC假日班,BASIC平日班,POOL假日班,POOL平日班 -->
   <Block id="LV2plan" caption="開課日期" method="html" back="#top" tag="2級自潛員">
     <![CDATA[
-            <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-            <!--<ul>
-              <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-              <li>假日班課程規劃如下</li>
-            </ul>-->
-            <table width="70%" style="text-align: justify;">
-              <tr>
-                <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
-              </tr>
-              <tr>
-                <td>
-                  <ul>
-                    <li>
-                      <span class="Large Focus">
-                        特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
-                      </span>
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </table>
+      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+      <!--<ul>
+        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
+        <li>假日班課程規劃如下</li>
+      </ul>-->
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>
+                <span class="Large Focus">
+                  特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
+                </span>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
     ]]>
   </Block>
   <!-- LV3 開課日期，同 2級自潛員,BASIC假日班,BASIC平日班,POOL假日班,POOL平日班 -->
   <Block id="LV3plan" caption="開課日期" method="html" back="#top" tag="3級自潛員">
     <![CDATA[
-            <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-            <!--<ul>
-              <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-              <li>假日班課程規劃如下</li>
-            </ul>-->
-            <table width="70%" style="text-align: justify;">
-              <tr>
-                <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
-              </tr>
-              <tr>
-                <td>
-                  <ul>
-                    <li>
-                      <span class="Large Focus">
-                        特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
-                      </span>
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </table>
+      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+      <!--<ul>
+        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
+        <li>假日班課程規劃如下</li>
+      </ul>-->
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>
+                <span class="Large Focus">
+                  特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
+                </span>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
     ]]>
   </Block>
   <!-- BASIC假日班,BASIC平日班,POOL假日班,POOL平日班 開課日期，同 2級自潛員,3級自潛員 -->
   <Block id="plan" caption="開課日期" method="html" back="#top" tag="BASIC假日班,BASIC平日班,POOL假日班,POOL平日班">
     <![CDATA[
-            <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-            <!--<ul>
-              <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-              <li>假日班課程規劃如下</li>
-            </ul>-->
-            <table width="70%" style="text-align: justify;">
-              <tr>
-                <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
-              </tr>
-              <tr>
-                <td>
-                  <ul>
-                    <li>
-                      <span class="Large Focus">
-                        特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
-                      </span>
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </table>
+      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+      <!--<ul>
+        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
+        <li>假日班課程規劃如下</li>
+      </ul>-->
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>
+                <span class="Large Focus">
+                  特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
+                </span>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
     ]]>
   </Block>
   
   <!-- LV1 超值學費 -->
-  <Block id="LV1tuition" caption="超值學費" method="html" back="#top" tag="LV1假日班,LV1平日班">
+  <Block id="LV1tuition" caption="超值學費" method="html" back="#top" tag="LV1冬季班,LV1夏季假日班,LV1夏季平日班">
     <![CDATA[
       <table width="70%" style="text-align: justify;">
         <tr>
