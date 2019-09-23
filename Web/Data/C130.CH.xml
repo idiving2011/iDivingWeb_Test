@@ -4,7 +4,7 @@
   <Block id="nav" method="nav">
     <Item name="課程規劃" href="#curriculum"></Item>
     <Item name="開課日期" href="#plan"></Item>
-    <Item name="超值學費" href="#tuition"></Item>
+    <Item name="課程費用" href="#tuition"></Item>
     <Item name="立刻報名" href="#register"></Item>
     <Item name="學前須知" href="#notice"></Item>
   </Block>
@@ -34,7 +34,6 @@
           <td></td>
           <td>時 間</td>
           <td>課 程 內 容</td>
-          <td>上課地點</td>
         </tr>
         <tr align="center">
           <td nowrap style="vertical-align:middle;">水肺複習</td>
@@ -43,10 +42,9 @@
             2-3小時<br/>
             視狀況調整
           </td>
-          <td style="vertical-align:middle;">裝備調整及組裝、蛙鞋踢動、面鏡排水、二級頭尋回與排水、中性浮力、入水法、下潛＆上升、重裝脫著、緊急游泳上升</td>
-          <td nowrap>
-            南港運動中心<br/>
-            潛水訓練池
+          <td style="vertical-align:middle;">
+            裝備調整及組裝、蛙鞋踢動、面鏡排水、二級頭尋回與排水、<br/>
+            中性浮力、入水法、下潛＆上升、重裝脫著、緊急游泳上升
           </td>
         </tr>
       </table>
@@ -64,27 +62,24 @@
             <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
             <table width="70%">
               <tr>
-                <td>５－９月每周日皆有開課喔！</td>
+                <td>「為 5~9 月每個周末皆可安排」，但請一周前填寫資料報名，以便安排。</td>
               </tr>
             </table>
     ]]>
   </Block>
-  <Block id="tuition" caption="超值學費" method="html" back="#top">
+  <Block id="tuition" caption="課程費用" method="html" back="#top">
     <![CDATA[
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             <Ul>
-              <li><span class="Large Focus">水肺複習課程費用：2,000 元</span></li>
+              <li><span class="Large Focus">前港泳池（兩米）為 2,000 元 / 南港泳池（五米）為 2,500 元</span></li>
                 <table width="100%" style="text-align: justify;">
-                  <tr>
-                    <td nowrap></td>
-                  </tr>
                   <tr>
                     <td>包含泳池場地費、教練費、全套裝備使用！</td>
                   </tr>
                   <tr>
-                    <td>有全套裝備者，費用可減免 500 元<span class="Important">(需自備全套裝備才有此優惠喔)</span></td>
+                    <td>自備全部裝備者（鉛塊除外），費用可減免 500 元</td>
                   </tr>
                   <tr>
                     <td>參加 iDiving 出團活動者，費用減半！</td>
