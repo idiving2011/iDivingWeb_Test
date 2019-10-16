@@ -1187,29 +1187,28 @@
         <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
         <li>假日班課程規劃如下</li>
       </ul>-->
-      <!--<table width="70%" style="text-align: justify;">
+      <table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            <strong style="font-size:20px">2019年9月 ~ 2020年4月 LV1 假日班 開課日期</strong><br/>
-            一個假日課程 = 期別 + 學科 * 2 + 泳池 * 2 + 潛立方 * 1<br/>
-            學科 + 泳池共開24期，潛力方每月一次，請選擇您有空的日期報名<br/>
+            <strong style="font-size:20px">2020年5月 ~ 2020年10月 LV1 假日班 開課日期</strong><br/>
+            一個假日課程 = 學科 + 泳池 + 海洋 * 2<br/>
             <span class="Large Focus">
               平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
             </span>
           </td>
         </tr>
         <tr>
-          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+          <td><img src="../Image/Data/FD_Schedule_summer.png" width="100%"/></td>
         </tr>
-      </table>-->
-      <table width="70%" style="text-align: justify;">
+      </table>
+      <!--<table width="70%" style="text-align: justify;">
         <tr>
           <td>
             <strong style="font-size:20px">開課日期排定中...</strong><br/>
             一個假日課程 = 學科 + 泳池 + 海洋 * 2<br/>
           </td>
         </tr>
-      </table>
+      </table>-->
     ]]>
   </Block>
   <Block id="LV1plan2" caption="開課日期" method="html" back="#top" tag="LV1夏季平日班">
@@ -1222,16 +1221,15 @@
       <!--<table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            <strong style="font-size:20px">2019年9月 ~ 2020年4月 LV1 假日班 開課日期</strong><br/>
-            一個假日課程 = 期別 + 學科 * 2 + 泳池 * 2 + 潛立方 * 1<br/>
-            學科 + 泳池共開24期，潛力方每月一次，請選擇您有空的日期報名<br/>
+            <strong style="font-size:20px">2020年5月 ~ 2020年10月 LV1 假日班 開課日期</strong><br/>
+            一個平日課程 = (學科 + 泳池) * 2 + 海洋 * 2，共計4天，每週二，周四皆有開課<br/>
             <span class="Large Focus">
               平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
             </span>
           </td>
         </tr>
         <tr>
-          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+          <td><img src="../Image/Data/FD_Schedule_summer.png" width="100%"/></td>
         </tr>
       </table>-->
       <table width="70%" style="text-align: justify;">
@@ -1266,7 +1264,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+          <td><img src="../Image/Data/FD_Schedule_winter.png" width="100%"/></td>
         </tr>
       </table>
     ]]>
@@ -1349,17 +1347,64 @@
       </table>
     ]]>
   </Block>
-  
-  <!-- LV1 超值學費 -->
-  <Block id="LV1tuition" caption="超值學費" method="html" back="#top" tag="LV1冬季班,LV1夏季假日班,LV1夏季平日班">
+
+  <!-- LV1冬季班 超值學費 -->
+  <Block id="LV1Wintertuition" caption="超值學費" method="html" back="#top" tag="LV1冬季班">
     <![CDATA[
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
-              <li><span class="Important">開學祭!!! 凡 9/1 ~ 9/10 報名冬季任一期自潛 LV1 課程，享優惠 1,000 元。</span></li>
               <li><span class="Important">初級自潛員至3級自潛員課程皆享有現金優惠，折扣 500 元。</span></li>
-              <li><span class="Important">人數優惠：兩人一起報名更優惠，每人優惠 500。三人同樂優惠加倍，每人優惠 1,000。</span></li>
+              <li><span class="Important">慶祝光輝十月，凡 108/10/5～108/10/15 報名冬季自潛 LV1 課程，享 500 元優惠！</span></li>
+              <li><span class="Important">人數優惠：兩人一起報名更優惠，每人優惠 500 元。三人同樂優惠加倍，每人優惠 1,000 元。</span></li>
+              <li><span class="Large Focus">1級自潛員 LV1 FD：16,000 元</span></li>
+                <table width="100%" style="text-align: justify;">
+                  <tr>
+                    <td nowrap>費用包含：</td>
+                    <td><span class="Important">贈品</span>、SSI線上教材、國際證照申請、教練費、泳池場地費、東北角海洋實習及保險、訓練期間提供防寒衣與蛙鞋。<span class="Large Focus">(亦可選擇免贈品減 2,000 元，需自備面鏡呼吸管與配重帶)</span></td>
+                  </tr>
+                  <tr>
+                    <td>費用不含：</td>
+                    <td><span class="Note">海洋實習交通費</span>、餐費。</td>
+                  </tr>
+                </table>
+                <table width="100%" style="text-align: justify;">
+                  <tr>
+                    <td colspan="4"><span class="Important">贈品：全套總價 3,860 元</span></td>
+                  </tr>
+                  <tr align="center">
+                    <td style="vertical-align:middle;"><img src="../Image/Data/FD_17.jpg" width="50%" /></td>
+                    <td><img src="../Image/Data/FD_18.jpg" width="80%" /></td>
+                    <td><img src="../Image/Data/FD_19.jpg" width="80%" /></td>
+                    <td nowrap style="vertical-align:middle;">
+                      面鏡 SPHERA（市價 1,800）<br>
+                      呼吸管（市價 780）<br>
+                      配重帶（市價 1,280）<br>
+                      彩色款+300元
+                    </td>
+                  </tr>
+                </table>
+              <br>
+              <li><span class="Important">「本店OWD學生」報名1級自潛員可享 1,000 元折扣</span></li>
+              <li><span class="Important">他店學生來iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元</span></li>
+              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <!-- LV1 超值學費 -->
+  <Block id="LV1tuition" caption="超值學費" method="html" back="#top" tag="LV1夏季假日班,LV1夏季平日班">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Important">初級自潛員至3級自潛員課程皆享有現金優惠，折扣 500 元。</span></li>
+              <li><span class="Important">人數優惠：兩人一起報名更優惠，每人優惠 500 元。三人同樂優惠加倍，每人優惠 1,000 元。</span></li>
               <li><span class="Large Focus">1級自潛員 LV1 FD：16,000 元</span></li>
                 <table width="100%" style="text-align: justify;">
                   <tr>
