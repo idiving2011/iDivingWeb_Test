@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="intro" method="html">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            如果取得LV1執照後，您已決定花更多時間享受自潛帶來的樂趣！<br/>
+            那麼，現在就是你開始探索SSI專長教育的最佳時機。<br/>
+            報名任一種專長課程，你都可以更加精進自身的自潛技巧，並學習到更多的知識。<br/>
+            接下來的課程將更加刺激，讓你探索無限可能的潛水世界。<br/>
+            今天就是您的最佳時機，請任意選擇您有興趣的單項或幾項專長，逐步增加您的SSI專長種類。<br/>
+            在您累積2至4項專長之後，您還可以獲得SSI免費的特殊獎勵執照。<br/>
+            想知道更詳盡的資訊，歡迎來電洽詢 (02)2882-7696。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="FreeDivingTab" method="tab" selected="適合初級自潛員的專長" description="">
+    <Item name="適合初級自潛員的專長">
+      <Item name="美人魚"/>
+      <Item name="夜潛"/>
+      <Item name="立即反應員"/>
+      <Item name="海洋生態專長"/>
+    </Item>
+    <Item name="適合平靜水域/1級自潛員的專長">
+      <Item name="訓練技巧(閉氣)"/>
+      <Item name="單蹼"/>
+      <Item name="攀繩下潛"/>
+      <Item name="無蹼動態平潛"/>
+    </Item>
+    <Item name="適合2級/3級自潛員的專長">
+      <Item name="可變配重下潛"/>
+      <Item name="無蹼恆定配重下潛"/>
+      <Item name="救援"/>
+    </Item>
+  </Block>
+  
+  <!-- 美人魚：介紹 -->
+  <Block id="1-1desc" method="html" back="#top" tag="美人魚">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            您的美人魚夢想終於可以實現! SSI提供海洋美人魚、美人魚模特兒等等完整的美人魚課程<br/>
+            藉由學習各種美人魚尾游泳，您可以發揮創意去享受有趣又利於健康的運動，SSI美人魚課程適合各式各樣、不同年齡層的人，歡迎與我們一同實現您的夢想！當然如果您也可以成為一個美人魚教練，幫助別人完成他們的美夢！  ~iDiving邀請您由美人魚課程進入夢幻的世界~  更完整的<a href="CFD130.php">美人魚資訊</a>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <!-- 美人魚：課程規劃 -->
+  <Block id="1-1curriculum" caption="課程規劃" method="html" back="#top" tag="美人魚">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">
+            美人魚的重要知識、裝備介紹、水面程序、動作技巧、<br/>
+            開放水域注意事項、保護環境
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">泳 池 課 程</td>
+          <td>
+            周 六<br/>
+            12：00 ~ 18：00
+          </td>
+          <td>
+            裝備調整與著裝、美人魚入水、美人魚潛水與踢蹼、<br/>
+            平壓技巧、美人魚出水注意事項、拍照
+          </td>
+          <td>
+            東北角或<br/>
+            潛立方
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 夜潛：課程規劃 -->
+  <Block id="1-2curriculum" caption="課程規劃" method="html" back="#top" tag="夜潛">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">
+            夜潛知識介紹<br/>
+            夜潛的特殊裝備
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">海洋實習</td>
+          <td>
+            周 六<br/>
+            15：00 ~ 18：00
+          </td>
+          <td>
+            規則與注意事項<br/>
+            夜潛的特殊技巧等
+          </td>
+          <td>
+            前 港<br/>
+            特約泳池
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 立即反應員：課程規劃 -->
+  <Block id="1-3curriculum" caption="課程規劃" method="html" back="#top" tag="立即反應員">
+    <![CDATA[ 
+      <p><a href="https://www.idiving.com.tw/Page/C310.php?tab=壓力與救援">請參考水肺潛水員壓力與救援專長</a></p>
+    ]]>
+  </Block>
+
+  <!-- 海洋生態專長：課程規劃 -->
+  <Block id="1-4curriculum" caption="課程規劃" method="html" back="#top" tag="海洋生態專長">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">生態與環保知識</td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 訓練技巧(閉氣)：介紹 -->
+  <Block id="2-1desc" method="html" back="#top" tag="訓練技巧(閉氣)">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            優秀的自由潛水員會不斷尋找方法，來提高他們的個人表現。本課程為您提供使用自由潛水訓練表，計畫和進行自由潛水單元所需的技巧和知識，這將提高閉氣時間，並增加您對二氧化碳的耐受度。完成後，您將獲得SSI訓練技巧專長認證。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <!-- 訓練技巧(閉氣)：課程規劃 -->
+  <Block id="2-1curriculum" caption="課程規劃" method="html" back="#top" tag="訓練技巧(閉氣)">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">
+             延長閉氣知識介紹<br/>
+             如何進行訓練
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">泳 池 課 程</td>
+          <td>
+            周 六<br/>
+            15：00 ~ 21：00
+          </td>
+          <td>
+            規則與注意事項<br/>
+            延長閉氣能力訓練
+          </td>
+          <td>
+            前 港<br/>
+            特約泳池
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 單蹼：介紹 -->
+  <Block id="2-2desc" method="html" back="#top" tag="單蹼">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            世界上許多厲害的自由潛水好手都是海洋哺乳動物，如海豚和鯨魚。通過 SSI 單蹼自尤其水專長課程，您將獲得模仿海洋哺乳動物游動所需的知識與技巧，以使用單蹼最大化您的水中效率。完成此课程后，完成後，您將獲得 SSI 單蹼專長認證。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <!-- 單蹼：課程規劃 -->
+  <Block id="2-2curriculum" caption="課程規劃" method="html" back="#top" tag="單蹼">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">
+            單蹼裝備介紹、單蹼技巧、<br/>
+            如何適應單蹼、單蹼應用
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">泳 池 課 程</td>
+          <td>
+            周 六<br/>
+            12：00 ~ 18：00
+          </td>
+          <td>
+            單蹼伸展、單蹼流線型、施力方式、<br/>
+            單蹼踢動、單蹼轉身
+          </td>
+          <td>
+            前 港<br/>
+            特約泳池
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">海 洋 實 習</td>
+          <td>
+            周 日<br/>
+            9：00 ~ 17：00
+          </td>
+          <td style="vertical-align:middle;">
+            單蹼下潛、流線型與平衡壓力
+          </td>
+          <td>
+            東北角或<br/>
+            潛立方
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 攀繩下潛：介紹 -->
+  <Block id="2-3desc" method="html" back="#top" tag="攀繩下潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            攀繩下潛訓練需要較少的精力和工作量，並且可以用頭部朝上的方式進行。這使您可以消耗更少的能量，並使得自尤其水新手更容易進行平壓。本課程教授執行攀繩下潛所需的技巧和概念，讓自由潛水員不穿蛙鞋，單靠手臂的力量，利用垂降繩上升與下潛。完成此课程后，完成後，您將獲得 SSI 攀繩下潛專長認證。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <!-- 攀繩下潛：課程規劃 -->
+  <Block id="2-3curriculum" caption="課程規劃" method="html" back="#top" tag="攀繩下潛">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">
+            攀繩下潛裝備、攀繩下潛技巧
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">海 洋 實 習</td>
+          <td>
+            周 日<br/>
+            9：00 ~ 17：00
+          </td>
+          <td style="vertical-align:middle;">
+            攀繩下潛練習、放鬆練習、<br/>
+            調整姿勢練習、平衡耳壓練習
+          </td>
+          <td>
+            東北角或<br/>
+            潛立方
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 無蹼動態平潛：介紹 -->
+  <Block id="2-4desc" method="html" back="#top" tag="無蹼動態平潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            無蹼自由潛水被認為是最純淨形式的自由潛水。本課程無您提供所需的知識與技巧，讓你能在平靜和開放水域環境中，安全的進行無蹼自由潛水完成后。完成此课程后，您將獲得 SSI 動態無蹼專長認證。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <!-- 無蹼動態平潛：課程規劃 -->
+  <Block id="2-4curriculum" caption="課程規劃" method="html" back="#top" tag="無蹼動態平潛">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">
+            無蹼動態平潛裝備與技巧
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">泳 池 課 程</td>
+          <td>
+            周 六<br/>
+            12：00 ~ 18：00
+          </td>
+          <td>
+            無蹼動態平潛技巧、<br/>
+            無蹼中性浮力調整
+          </td>
+          <td>
+            前 港<br/>
+            特約泳池
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 可變配重下潛：介紹 -->
+  <Block id="3-1desc" method="html" back="#top" tag="可變配重下潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            可變配種訓練事準備心靈與身體以獲得更多自由潛水能力的最佳方式之一，本課程為您提供安全進行可變配重自由潛水所需的技巧與知識，減少氧氣消耗，增加潛水深度。完成此课程后，完成後，您將獲得 SSI 可變配重自由潛水專長認證。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <!-- 可變配重下潛：課程規劃 -->
+  <Block id="3-1curriculum" caption="課程規劃" method="html" back="#top" tag="可變配重下潛">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">
+            可變配重下潛裝備、技巧與安全性
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">海 洋 實 習</td>
+          <td>
+            周 日<br/>
+            09：00 ~ 17：00
+          </td>
+          <td style="vertical-align:middle;">
+            可變配重下潛練習、安全設備練習
+          </td>
+          <td>
+            東北角或<br/>
+            潛立方
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 無蹼恆定配重下潛：介紹 -->
+  <Block id="3-2desc" method="html" back="#top" tag="無蹼恆定配重下潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            無蹼自由潛水被認為是最純淨形式的自由潛水。 這課程為您提供所需的技巧和知識，讓您能在平靜和開放水域環境中，安全地進行無蹼自由潛水，完成後，您將獲得 SSI 無蹼恆定配重下潛專長認證。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <!-- 無蹼恆定配重下潛：課程規劃 -->
+  <Block id="3-2curriculum" caption="無蹼恆定配重下潛" method="html" back="#top" tag="無蹼恆定配重下潛">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 21：30</td>
+          <td style="vertical-align:middle;">
+            無蹼恆定配重下潛裝備與技巧
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">海 洋 實 習</td>
+          <td>
+            周 日<br/>
+            09：00 ~ 17：00
+          </td>
+          <td style="vertical-align:middle;">
+            無蹼恆定配重下潛技巧練習<br/>
+            鑰匙孔徒手划水、流線型踢水
+          </td>
+          <td>
+            東北角或<br/>
+            潛立方
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 救援：介紹 -->
+  
+  <!-- 救援：課程規劃 -->
+  <Block id="3-3curriculum" caption="課程規劃" method="html" back="#top" tag="救援">
+    <![CDATA[ 
+      <table width="70%" border style="text-align: justify;">
+        <tr align="center">
+          <td></td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學 科</td>
+          <td>
+            平日晚上<br/>
+            19：10 ~ 22：00</td>
+          <td style="vertical-align:middle;">
+            何謂壓力，潛水相關壓力，壓力的排除 <br/>
+            意外處理程序，救援注意事項，影響救援的因素
+          </td>
+          <td>
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">泳 池 課 程</td>
+          <td>
+            周 六<br/>
+            09：00 ~ 12：00
+          </td>
+          <td style="vertical-align:middle;">
+            意外處理<br/>
+            救援各項動作
+          </td>
+          <td>
+            前 港<br/>
+            特約泳池
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">海 洋 實 習</td>
+          <td>
+            周 日<br/>
+            9：00 ~ 17：00
+          </td>
+          <td style="vertical-align:middle;">
+            救援規則與注意事項<br/>
+            海洋救援行動演練，5分鐘神經系統安全檢查
+          </td>
+          <td>
+            東北角或<br/>
+            搭配潛水旅遊
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  
+  <!-- 共用 -->
+  <Block id="LV1plan1" caption="開課日期" method="html" back="#top" tag="美人魚,夜潛,海洋生態專長,訓練技巧(閉氣)">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            隨時可報名預約開課，請洽iDiving
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <!-- 美人魚：超值學費 -->
+  <Block id="1-1tuition" caption="超值學費" method="html" back="#top" tag="美人魚">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：9,000 元</span></li>
+              <li>iDiving 各級自潛員報名美人魚課程享 1,000 元優惠!</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費、重裝租借費用、東北角海洋實習費用與保險費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <!-- 夜潛：超值學費 -->
+  <Block id="1-2tuition" caption="超值學費" method="html" back="#top" tag="夜潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：6,000 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 海洋生態專長：超值學費 -->
+  <Block id="1-4tuition" caption="超值學費" method="html" back="#top" tag="海洋生態專長">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：4,000 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 訓練技巧(閉氣)：超值學費 -->
+  <Block id="2-1tuition" caption="超值學費" method="html" back="#top" tag="訓練技巧(閉氣)">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：6,000 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 單蹼：超值學費 -->
+  <Block id="2-2tuition" caption="超值學費" method="html" back="#top" tag="單蹼">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：9,000 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 攀繩下潛：超值學費 -->
+  <Block id="2-3tuition" caption="超值學費" method="html" back="#top" tag="攀繩下潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：6,000 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 無蹼動態平潛：超值學費 -->
+  <Block id="2-4tuition" caption="超值學費" method="html" back="#top" tag="無蹼動態平潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：6,000 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 可變配重下潛：超值學費 -->
+  <Block id="3-1tuition" caption="超值學費" method="html" back="#top" tag="可變配重下潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：7,000 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 無蹼恆定配重下潛：超值學費 -->
+  <Block id="3-2tuition" caption="超值學費" method="html" back="#top" tag="無蹼恆定配重下潛">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：6,000 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 救援：超值學費 -->
+  <Block id="3-3tuition" caption="超值學費" method="html" back="#top" tag="救援">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ul>
+              <li><span class="Large Focus">定價：6,500 元</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td nowrap width="1%">費用包含：</td>
+          <td>線上教材、國際證照申請、教練費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td><span class="Note">裝備租借(400元/天)。因風浪不佳前往潛立方結訓時之門票。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="register" caption="報名方式" method="html" back="#top">
+    <![CDATA[
+      <ol>
+          <li>網路填寫報名資料並匯款訂金。</li>
+          <li>來店洽詢並繳交訂金。</li>
+      </ol>
+    ]]>
+  </Block>
+  <Block id="processing" caption="網路報名流程" method="html" back="#top">
+    <![CDATA[
+      <ol>
+      <li><a href="CZ01.php">線上填寫報名表</a></li>
+      <li>
+        繳交訂金 3,000 元，<br/>
+        銀行：中國信託<br/>
+        分行：士林分行<br/>
+        戶名：愛潛水股份有限公司<br/>
+        代號：822<br/>
+        帳號：285-54009941-9
+      </li>
+      <li>
+        以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
+        營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
+      </li>
+      <li>收到訂金與資料後，iDiving 會至 SSI 全球官網註冊您的學籍。<span class="Important">一經註冊，請恕無法退訂金。</span></li>
+      <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
+    </ol>
+    ]]>
+  </Block>
+  <Block id="notice" caption="學前須知" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ol>
+              <li>iDiving採有條件式保證班教學（註），如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
+              <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
+              <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
+              <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
+              <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
+              <li>
+                學員結訓後，訓練中心將於兩週內完成 SSI 國際潛水證照申請作業。<br>
+                （如急需證照請提前告知，本中心可提早處理，於結訓後立即發卡或簽發臨時卡）
+              </li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            註：<br>
+            <ul>
+              <li>如果各項技巧尚未學會，iDiving 將會一直免費培訓，但如果學生已經學會各項技巧，但無法通過測驗，則依照下面說明進行補課或核發執照。（＊耳壓平衡技巧僅須學會１種）。</li>
+              <li>4-9月自由潛水 LV1 課程，每位學生有２天的結訓機會，如果無法通過測驗，可以免費再增加２天進行練習。如果還是無法通過測驗，則需自費 500 元/天進行補考，亦可選擇核發＂泳池自由潛水員＂執照 (SSI-Pool Free Diver)。在夏季課程中的任何時候, 如果計畫於10-3月前往潛立方繼續課程，須自付 1,500 元（潛立方21米池９０分鐘場地費），如使用 3 小時，須自付 2,500 元</li>
+              <li>10月-隔年3月冬季自由潛水 LV1 課程，每位學生有1天的結訓機會，如果測驗失敗欲補考，須自付 1,500 元（潛立方21米池９０分鐘場地費），如使用 3 小時，須自付 2,500 元，如計畫於 4-9 月進行東北角海洋結訓，則需自費 500 元/天進行補考，亦可選擇核發＂泳池自由潛水員＂執照 (SSI-Pool Free Diver)。</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+</Data>
