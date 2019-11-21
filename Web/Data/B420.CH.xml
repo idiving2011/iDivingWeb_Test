@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="珊瑚礁體檢"/>
+  
+  <Block id="area1" caption="不做不會怎樣，做了很不一樣！" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>環境如同我們人類一樣，需要定期做調查，這樣才能及時發現及時治療，如果環境發生大事件了，如：大規模珊瑚白化，海綿大量繁衍，大量泥沙侵入海中，大規模塑膠污染…等。我們需要有相關的資訊，才能思考對策，讓環境不要惡化下去。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="area2" caption="抓住夏天，來幫我們熟識的潛點做一場健康調查吧！" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>讓我們一年花一天的時間化身為公民科學家，調查當地潛點的珊瑚健康狀況，除了調查珊瑚，我們也調查魚類與無脊椎生物，藉由各項數據來了解珊瑚生態系的狀況。當我們每年把數據收集起來，這樣就能比較不同地點或是不同時間的環境差異，到底我們愛的大海比往年更好還是更差呢？就讓我們來實際了解看看吧。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="area3" caption="公民？科學家？" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>科學家為收集數據需要大量的時間與人力，但是科學家人力稀少，因此難以收集大量資料。因此，我們藉由簡單的訓練，讓非專業領域的人從中學到相關知識與技巧，讓大眾也能協助科學家從中收集資料，也藉由收集資料的過程中學到更多新東西，因此我們稱這類型這樣的行為是公民科學，而這些人就是「公民科學家」囉。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="area4" caption="讓我們成為公民科學家，執行來一場珊瑚的知識之旅吧" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>我們藉由充實的“EcoDiver生態潛水員”課程，學習如何執行一次科學調查，也學會目標物種的辨識技巧，經過10小時的知識之旅，再加上水下實際操作，讓我們學會不只是珊瑚礁體檢的方法，更能提升辨識能力與生物知識。當我們成為合格的EcoDiver後，我們辨識能力與調查技巧就符合要求，所做出來的數據調查就能被科學家所參考利用。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="area5" caption="快來報名！！" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            如果還不清楚，可以來體驗一次珊瑚礁體驗，藉由簡單的操作，讓你更了解水下調查人員到底在做些什麼？<br/>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSePrlXpJiWqS29NTZjMiFUluOT9sd88NnzPIs5BPokMUP4zqw/viewform" target="_blank">環保活動報名表</a><br/>
+            或是參加直接加入我們，歡迎點專長選課程報名EcoDiver並繳交訂金，讓我們一起幫海洋做場體檢<br/>
+            <a href="https://www.idiving.com.tw/Page/C310.php?tab=ECO%20DIVER">EcoDiver</a>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+</Data>
