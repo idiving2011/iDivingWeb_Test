@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="延伸領域高氧潛水員"/>
+  
+  <Block id="area1" caption="" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>一個38公尺深的沈船，水溫低並有強流，這絕對不是休閒潛水的典型潛水條件，如何能更安全地進行類似的潛水探險呢？最佳解決方案就是延伸領域高氧課程(Extended Range Nitrox)，簡稱XRN，XRN是進入延伸領域(XR)的第一步，在既有的40米深度限制內，使用階段氣瓶進行快速排氮，進行更安全的潛水探險，也為了日後進入技術延伸潛水領域(TXR)奠下紮實的基礎。</td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/XR_1.jpg" width="100%" /></td>
+          <td><img src="../Image/Data/XR_2.jpg" width="100%" /></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <span class="Large Important">
+            報名條件：<br/>
+            基本條件需年滿16歲、已擁有50次的潛水紀錄、已取得深潛專長(DD)與高氧專長(EAN40)。<br>
+            若使用側掛裝備，則需取得休閒側掛專長(RSM)。
+          </span>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <Block id="area2" caption="課程規劃" method="html" back="#top">
+    <![CDATA[ 
+      <table border="1" width="70%" style="text-align: justify;">
+        <tr align="center">
+          <td>&nbsp;</td>
+          <td>時 間</td>
+          <td>課 程 內 容</td>
+          <td>上課地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle">學 科</td>
+          <td valign="middle" style="vertical-align:middle;">9hr</td>
+          <td valign="middle" style="vertical-align:middle;">潛水物理學、潛水生理學、減壓理論、延伸領域潛水器材、潛水計畫</td>
+          <td style="vertical-align:middle;">
+            iDiving<br/>
+            教 室
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle">泳 池</td>
+          <td valign="middle" style="vertical-align:middle;">4hr</td>
+          <td valign="middle" style="vertical-align:middle;">
+            器材調整與組裝，水中懸浮，前進、後退與原地旋轉各式踢法，<br>
+            供氣檢查，切換、交換與放置階段氣瓶，部署SMB，關閉氣源，<br>
+            主二級頭、備用二級頭、階段氣瓶漏氣排除，佈線，更換備用面鏡，共用氣源練習。</td>
+          <td style="vertical-align:middle;">
+            iDiving<br/>
+            特約泳池
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle">海洋實習</td>
+          <td valign="middle" style="vertical-align:middle;">4次</td>
+          <td valign="middle" style="vertical-align:middle;">
+            器材調整與組裝，水中懸浮，前進、後退與原地旋轉各式踢法，<br>
+            供氣檢查，切換、交換與放置階段氣瓶，部署SMB，關閉氣源，<br>
+            主二級頭、備用二級頭、階段氣瓶漏氣排除，佈線，更換備用面鏡，共用氣源練習。</td>
+          <td style="vertical-align:middle;">
+            墾丁或蘭嶼海域
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="area3" caption="開課日期" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="area4" caption="超值學費" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><span class="Focus">使用單瓶休閒水肺裝備：定價：15,500元，</span><span class="Important">現金優惠：15,000元</span></td>
+        </tr>
+        <tr>
+          <td><span class="Focus">使用雙瓶側掛水肺裝備：18,500元，</span><span class="Important">現金優惠：18,000元</span></td>
+        </tr>
+        <tr>
+          <td><span class="Focus">使用背掛雙瓶水肺裝備：18,500元，</span><span class="Important">現金優惠：18,000元</span></td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td nowrap>費用包含：</td>
+          <td>線上教材、國際證照申請、教練費、重裝租借費用(休閒單瓶、側掛雙瓶、背掛雙瓶)、海洋實習氣瓶(單瓶、側掛、雙瓶、階段氣瓶)、保險費。</td>
+        </tr>
+        <tr>
+          <td>費用不含：</td>
+          <td>輕裝租借、移地海洋實習結訓之旅遊團費(交通食宿與出海船資)、氦氣費用。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <Block id="area5" caption="報名方式" method="html" back="#top" tag="平日班(適合自行排休者)">
+    <![CDATA[
+      <ol>
+        <li>網路填寫報名資料並匯款訂金。</li>
+        <li>來店洽詢並繳交訂金。</li>
+      </ol>
+    ]]>
+  </Block>
+  
+  <Block id="area6" caption="網路報名流程" method="html" back="#top" tag="平日班(適合自行排休者)">
+    <![CDATA[
+      <ol>
+        <li><a href="CZ01.php">線上填寫報名表</a></li>
+        <li>
+          繳交訂金 3,000 元，<br/>
+          銀行：中國信託<br/>
+          分行：士林分行<br/>
+          戶名：愛潛水股份有限公司<br/>
+          代號：822<br/>
+          帳號：285-54009941-9
+        </li>
+        <li>
+          以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
+          營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
+        </li>
+        <li>收到訂金與資料後，iDiving將會在7天後至SSI全球官網註冊您的學籍，並將訂金轉為購買線上教材，恕訂金無法退還。</span></li>
+        <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
+      </ol>
+    ]]>
+  </Block>
+</Data>
