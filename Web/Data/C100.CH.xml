@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="平日體驗潛水班"/>
+    <Block id="title" method="title" text="平日體驗潛水"/>
   <Block id="nav" method="nav">
     <Item name="課程規劃" href="#weekend"></Item>
     <Item name="開課日期" href="#plan"></Item>
-    <Item name="超值學費" href="#tuition"></Item>
+    <Item name="活動費用" href="#tuition"></Item>
     <Item name="立刻報名" href="#register"></Item>
     <Item name="學前須知" href="#notice"></Item>
   </Block>
@@ -12,7 +12,7 @@
     <![CDATA[ 
             <table width="80%" style="table-layout: fixed;">
               <tr>
-                <td colspan="2"><span class="Important" style="font-size:20px">不用會游泳, 不用有執照 資深國際教練 體驗後可享學潛水優惠!</span></td>
+                <td colspan="2"><span class="Important" style="font-size:20px">不用會游泳，不用有證照，體驗後立即報名 OWD(Open Water Diver 開放水域潛水員課程) 課程還可享特殊優惠！</span></td>
               </tr>
               <tr>
                 <td colspan="2">
@@ -36,24 +36,24 @@
               <ul>
                 <li>預約制, 不接受現場報名</li>
                 <li>5月~9月 每周二至周五, 每天上午下午兩時段</li>
-                <li>預計潛水時間：上午10:30 ~ 11:00 下午14:30 ~ 15:00</li>
+                <li>活動時間：上午 10:00 ~ 11:00 / 下午 14:00 ~ 15:00</li>
               </ul>
           ]]>
   </Block>
-  <Block id="tuition" caption="超值學費" method="html" back="#top">
+  <Block id="tuition" caption="活動費用" method="html" back="#top">
     <![CDATA[
                 <table width="80%" style="table-layout: fixed;">
                   <tr>
                     <td>
                       <ul>
                         <li>
-                          <span class="Important">泳池體驗水肺 TRY SCUBA：</span><br/>
-                          兩米深水肺體驗 1,500 元，兩人同行價 2,000。<br/>
-                          五米深水肺體驗 2,500 元，兩人同行價 4,000。
+                          <span class="Important">泳池體驗水肺 TRY SCUBA（會提供體驗的照片）：</span><br/>
+                          兩米深水肺體驗 1,500 元，兩人同行價 2,500。<br/>
+                          五米深水肺體驗 2,500 元，兩人同行價 4,500。
                         </li>
                         <li>
-                          <span class="Important">海洋體驗潛水TRY SCUBA DIVE：</span><br>
-                          海底巡遊 2,500 元，兩人同行價 4,500 元，三人同行價 6,000 元。<br>
+                          <span class="Important">海洋體驗水肺 TRY SCUBA DIVE（會提供當天活動的影片）：</span><br>
+                          海底巡遊 3,000 元，兩人同行價 5,400 元，三人同行價 7,200 元。<br>
                           如須搭車，台北到東北角車資 300 元/每人。
                         </li>
                       </ul>
