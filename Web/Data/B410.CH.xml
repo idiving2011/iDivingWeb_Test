@@ -1,10 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="學潛水Q&amp;A"/>
-    <Block id="package" caption="" method="html">
-      <![CDATA[
-              <br/><br/><br/><br/>
-			  <div style="text-align:center"><img src="../Image/Data/UnderConstruction.jpg"/></div>
-          ]]>
-    </Block>
+  <Block id="title" method="title" text="環保懶人包"/>
+ 
+  <Block id="area1" caption="" method="html" back="#top">
+    <![CDATA[
+      <style type="text/css">
+        .ECO {
+            position:absolute;
+            display:block;
+            //border:1px solid red;
+            top:37%;
+            left:1%;
+            width:33%;
+            height:10%;
+        }
+      </style>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <img src="../Image/Data/milestone.png" width="100%" usemap="#imagemap" />
+          </td>
+        </tr>
+      </table>
+      <a class="ECO" href="https://www.idiving.com.tw/Page/C310.php?tab=ECO%20DIVER"></a>
+    ]]>
+  </Block>
 </Data>
