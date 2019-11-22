@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="潛水主管"/>
+    <Block id="title" method="title" text="導潛 . 潛水長 . 助理教練"/>
     <Block id="intro" method="html">
       <![CDATA[ 
         <table width="80%" style="table-layout: fixed;">
