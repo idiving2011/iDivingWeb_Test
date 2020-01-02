@@ -82,7 +82,11 @@
             </tr>
           </table>-->
           <br/>
-          <span class="Large Focus">裝備優惠</span>
+    ]]>
+  </Block>
+  <Block id="equipment" method="html" back="#top">
+    <![CDATA[
+          <span id="equipment" class="Large Focus">裝備優惠</span>
           <br/>
           <ul>
             <li>在 iDiving 購買器材時，可享有會員優惠價。</li>
