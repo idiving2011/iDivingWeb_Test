@@ -12,11 +12,11 @@
     <![CDATA[ 
       <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
         <tr>
-          <td width="55%">
+          <td width="70%">
             <strong>位置</strong><br/>
             蘭嶼位於西太平洋位置，在臺灣本島（達悟語稱做Ilaod）的東南方，在綠島的南方，南臨巴士海峽與菲律賓之巴丹群島遙遙相望。最早的名稱是【人之島】，後因島上盛產蝴蝶蘭而改其名為蘭嶼。位於蘭嶼島東南方三海浬處，有一小島稱小蘭嶼，面積僅1.6平方公里，島上缺乏水源及耕地，故至今無人居住。
           </td>
-          <td><img src="../Image/Data/Liuchiu_01.jpg" style="float: right; width: 80%"></td>
+          <td><img src="../Image/Data/Lanyu_01.jpg" style="float: right; width: 80%"></td>
         </tr>
       </table>
       <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
@@ -131,26 +131,32 @@
       </table>
     ]]>
   </Block>
-  <Block id="schedule" caption="建議行程" method="html" back="#top">
+  <Block id="schedule" caption="建議行程" method="html" />
+  <Block id="ScheduleTab" method="tab" selected="4 天 3 夜（台東）" >
+    <Item name="4 天 3 夜（台東）"/>
+    <Item name="4 天 3 夜（墾丁）"/>
+  </Block>
+  <!-- 4 天 3 夜（台東） -->
+  <Block id="schedule1" method="html" back="#top" tag="4 天 3 夜（台東）">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            蘭嶼是許多潛水人想要前往的朝聖地!!!<br>
-            但多數潛點平均深度較大，因此全程使用高氧^^<br>
-            部分潛點易有水流，要熟悉裝備的操控並具備熟練的技巧唷！
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>建議行程：</td>
-        </tr>
-        <tr>
-          <td>
             第一天<br>
-            一早從台北出發，預計中午前抵達蘭嶼，下午開始潛水活動 ( 船潛，2 支 )
+            去程交通<br>
+            台北－台東<br>
+            <ol>
+              <li>行程前一天於台北火車站集合，搭乘火車至台東，於台東住宿一晚，隔天上午接續台東－蘭嶼行程。</li>
+              <li>早上 06:30 於松山機場集合，搭乘華信航空（AE391）前往台東機場。</li>
+            </ol>
+            <br>
+            台東－蘭嶼<br>
+            <ol>
+              <li>轉機搭乘德安航空（航班需依照購買到的而定）前往蘭嶼</li>
+              <li>或是搭乘接駁車至台東富岡碼頭，搭乘渡輪前往蘭嶼。</li>
+            </ol>
+            <br>
+            午餐後將安排一趟（2支）的船潛。晚餐於蘭嶼享用。
           </td>
         </tr>
         <tr>
@@ -159,7 +165,7 @@
         <tr>
           <td>
             第二天<br>
-            上下午各安排一趟船潛 ( 共 4 支 )
+            早餐於民宿享用，此日上午下午各會安排一趟船潛，因為潛水總共有 4 支，中午將會在民宿享用簡餐，晚餐再由領隊帶領大家去附近的餐館享用風味餐點。
           </td>
         </tr>
         <tr>
@@ -167,7 +173,7 @@
         </tr>
         <tr>
           <td>
-            第三天<br>上午再船潛一趟 ( 2 支 )，下午安排環島陸遊
+            早餐於民宿享用，此日上午將安排一趟（2 支）的船潛。潛水完稍作盥洗，於民宿享用午餐，下午即為自由活動時間。
           </td>
         </tr>
         <tr>
@@ -176,17 +182,30 @@
         <tr>
           <td>
             第四天<br>
-            預計中午搭機飛往台東，轉機後返回台北
+            將依照各位所訂的船班、航班，分批至碼頭、機場，結束完美的旅程。<br>
+            回程交通<br>
+            蘭嶼－台東<br>
+            <ol>
+              <li>搭乘德安航空（航班需依照購買到的而定）前往台東</li>
+              <li>或是搭乘接駁車至台東富岡碼頭，搭乘渡輪前往蘭嶼。</li>
+            </ol>
+            <br>
+            台東－台北<br>
+            <ol>
+              <li>搭乘華信航空（AE-394）回台北。</li>
+              <li>搭乘接駁車至台東火車站，轉乘火車回到台北。</li>
+            </ol>
           </td>
         </tr>
       </table>
     ]]>
   </Block>
-  <Block id="price" caption="費用說明" method="html" back="#top">
+  <Block id="price" caption="費用說明" method="html" back="#top" tag="4 天 3 夜（台東）">
     <![CDATA[ 
       <ul>
-        <li>費用：NT 16,500 元 ( 會員 NT 16,000 元 )</li>
-        <li>現金：NT 15,500 元 ( 會員 NT 15,000 元 )</li>
+        <li>團費原價：18,000</li>
+        <li>現金優惠價/會員價：17,500</li>
+        <li><span class="Large Important">會員現金優惠價：17,000</span></li>
       </ul>
       <br/>
       <table width="70%" style="text-align: justify;">
@@ -201,6 +220,69 @@
       </table>
     ]]>
   </Block>
+  <!-- 4 天 3 夜（墾丁） -->
+  <Block id="schedule2" method="html" back="#top" tag="4 天 3 夜（墾丁）">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            第一天<br>
+            去程交通<br>
+            台北－墾丁－蘭嶼<br>
+            行程前一天晚間 19:00 於 iDiving 士林店集合，開車前往墾丁，住宿於墾丁南青潛水。早上 06:30 於南青潛水一樓大廳集合（ 07:00 於碼頭集合），搭乘渡輪前往蘭嶼。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天<br>
+            早餐於民宿享用，此日上午下午各會安排一趟船潛，因為潛水總共有 4 支，中午將會在民宿享用簡餐，晚餐再由領隊帶領大家去附近的餐館享用風味餐點。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            早餐於民宿享用，此日上午將安排一趟（2 支）的船潛。潛水完稍作盥洗，於民宿享用午餐，下午即為自由活動時間。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第四天<br>
+            蘭嶼－台東－台北<br>
+            在民宿享用完早餐後，搭乘上午 10:00 的渡輪從蘭嶼抵達墾丁碼頭，將在墾丁想用完午餐後，開車返回台北，結束完美的旅程。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price2" caption="費用說明" method="html" back="#top" tag="4 天 3 夜（墾丁）">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：18,000</li>
+        <li>現金優惠價/會員價：17,500</li>
+        <li><span class="Large Important">會員現金優惠價：17,000</span></li>
+      </ul>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="1%">包　含：</td>
+          <td>蘭嶼島上交通及食宿、8 支日船潛 ( EAN 32 )、三百萬旅責險</td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap">不包含：</td>
+          <td>出發地<>蘭嶼來回交通、裝備租借、個人消費</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
