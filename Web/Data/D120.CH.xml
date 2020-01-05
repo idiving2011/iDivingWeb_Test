@@ -16,7 +16,7 @@
             <strong>墾丁</strong><br/>
             墾丁三面環海，因氣候及地理特色，海洋環境具有海水溫暖、海流呈現季節性變動、營養鹽豐富等特性。如此絕佳外在條件，造就海洋植群基礎生產力高，浮游生物量豐富，珊瑚生長繁茂形成水族絕佳棲所。墾丁地區軟珊瑚種類多樣性常常令國外潛水客讚嘆不已，珊瑚王國美譽就是因此而來。
           </td>
-          <td><img src="../Image/Data/Liuchiu_01.jpg" style="float: right; width: 80%"></td>
+          <td><img src="../Image/Data/Kenting_1.jpg" style="float: right; width: 80%"></td>
         </tr>
       </table>
       <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
@@ -72,13 +72,19 @@
       </table>
     ]]>
   </Block>
-  <Block id="schedule" caption="建議行程" method="html" back="#top">
+  <Block id="schedule" caption="建議行程" method="html" />
+  <Block id="ScheduleTab" method="tab" selected="2 天 2 夜" >
+    <Item name="2 天 2 夜"/>
+    <Item name="3 天 3 夜"/>
+  </Block>
+  <!-- 2 天 2 夜 -->
+  <Block id="schedule1" method="html" back="#top" tag="2 天 2 夜">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             出發<br>
-            週五19:00 iDiving集合搭車南下，到達墾丁的南青潛水半夜1點半。
+            週五 19:00 iDiving 集合搭車南下，到達墾丁的南青潛水半夜 01:30。
           </td>
         </tr>
         <tr>
@@ -87,7 +93,7 @@
         <tr>
           <td>
             第一天<br>
-            早上8點起床，享用潛店提供的早餐後，進行岸潛一支(自費)或休息，中午於潛店用餐後下午進行船潛一趟二支。
+            早上 8 點起床，享用潛店提供的早餐後，進行岸潛一支(自費)或休息，中午於潛店用餐後下午進行船潛一趟二支。晚餐於附近餐館享用。
           </td>
         </tr>
         <tr>
@@ -96,14 +102,14 @@
         <tr>
           <td>
             第二天<br>
-            早上7:30用餐，8:30集合潛水，船潛一趟二支。潛水完打包所有裝備後集合享用當地美食後搭車回台北。
+            早上 7:30 用餐，8:30 集合潛水，船潛一趟二支。潛水完打包所有裝備後集合享用當地美食後搭車回台北。
           </td>
         </tr>
         <tr>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td>本次行程共二趟船潛4支氣瓶</td>
+          <td>本次行程共二趟船潛 4 支氣瓶</td>
         </tr>
       </table>
       <br>
@@ -116,12 +122,12 @@
       </table>
     ]]>
   </Block>
-  <Block id="price" caption="費用說明" method="html" back="#top">
+  <Block id="price1" caption="費用說明" method="html" back="#top" tag="2 天 2 夜">
     <![CDATA[ 
       <ul>
-        <li>團費原價：7,500</li>
-        <li>現金優惠價/會員價：7,000</li>
-        <li><span class="Large Important">會員現金優惠價：6,500</span></li>
+        <li>團費原價：8,000</li>
+        <li>現金優惠價/會員價：7,500</li>
+        <li><span class="Large Important">會員現金優惠價：7,000</span></li>
       </ul>
       <br/>
       <table width="70%" style="text-align: justify;">
@@ -136,6 +142,81 @@
       </table>
     ]]>
   </Block>
+  <!-- 3 天 3 夜 -->
+  <Block id="schedule2" method="html" back="#top" tag="3 天 3 夜">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            出發<br>
+            週五 19:00 iDiving 集合搭車南下，到達墾丁的南青潛水半夜 01:30。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第一天<br>
+            早上 8 點起床，享用潛店提供的早餐後，進行岸潛一支(自費)或休息，中午於潛店用餐後下午進行船潛一趟二支。晚餐時間視當下情況公布。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天<br>
+            此日將會安排船潛一趟二支，時間將會依照潛店安排在上午或是下午。其餘時間將視情況自費增加岸潛。早餐在潛店享用，午餐、晚餐，將由領隊帶隊到附近餐館享用。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天<br>
+            早上 7:30 用餐，8:30 集合潛水，船潛一趟二支。潛水完打包所有裝備後集合享用當地美食後搭車回台北。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>本次行程共二趟船潛 6 支氣瓶</td>
+        </tr>
+      </table>
+      <br>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/Kenting_6.jpg" width="100%"></td>
+          <td>&nbsp;</td>
+          <td><img src="../Image/Data/Kenting_7.jpg" width="100%"></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price2" caption="費用說明" method="html" back="#top" tag="3 天 3 夜">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：11,500</li>
+        <li>現金優惠價/會員價：11,000</li>
+        <li><span class="Large Important">會員現金優惠價：10,500</span></li>
+      </ul>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>費用包含：</td>
+          <td>３夜住宿、５簡餐、船潛３趟共６支、三佰萬旅遊平安險</td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap">不&nbsp;&nbsp;包&nbsp;&nbsp;含：</td>
+          <td>潛水裝備租借的費用及個人性質的花費。台北來回墾丁的費用。如需共乘來回台北墾丁每人車資 2,000 元</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
