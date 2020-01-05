@@ -129,7 +129,13 @@
       </table>
      ]]>
   </Block>
-  <Block id="schedule" caption="建議行程" method="html" back="#top">
+  <Block id="schedule" caption="建議行程" method="html" />
+  <Block id="ScheduleTab" method="tab" selected="2 天 1 夜" >
+    <Item name="2 天 1 夜"/>
+    <Item name="3 天 2 夜"/>
+  </Block>
+  <!-- 2 天 1 夜 -->
+  <Block id="schedule1" method="html" back="#top" tag="2 天 1 夜">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
@@ -156,7 +162,7 @@
         <tr>
           <td>
             第二天<br>
-            早上7:30用餐，8:30集合潛水，上午船潛2支，結束潛水，清洗、吊掛裝備，回民宿盥洗並將行理打包完成放大廳；待午餐完畢再回潛店收拾裝備及行李。預計搭程15:00船班回到東港東琉線碼頭。準備回家，結束快樂旅程。
+            早上 7:30 用餐，8:30 集合潛水，上午船潛 2 支，結束潛水，清洗、吊掛裝備，回民宿盥洗並將行理打包完成放大廳；待午餐完畢再回潛店收拾裝備及行李。預計搭程 15:00 船班回到東港東琉線碼頭。準備回家，結束快樂旅程。
           </td>
         </tr>
         <tr>
@@ -178,12 +184,12 @@
       </table>
     ]]>
   </Block>
-  <Block id="price" caption="費用說明" method="html" back="#top">
+  <Block id="price1" caption="費用說明" method="html" back="#top" tag="2 天 1 夜">
     <![CDATA[ 
       <ul>
-        <li>團費原價：8,000</li>
-        <li>現金優惠價/會員價：7,500</li>
-        <li><span class="Large Important">會員現金優惠價：7,000</span></li>
+        <li>團費原價：9,000</li>
+        <li>現金優惠價/會員價：8,500</li>
+        <li><span class="Large Important">會員現金優惠價：8,000</span></li>
       </ul>
       <table width="70%" style="text-align: justify;">
         <tr>
@@ -197,6 +203,86 @@
       </table>
     ]]>
   </Block>
+  
+  <!-- 3 天 2 夜 -->
+  <Block id="schedule2" method="html" back="#top" tag="3 天 2 夜">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            出發<br>
+            可選擇：<br>
+            一、19:30 iDiving 集合搭車前往東港並住宿一晚。<br>
+            二、08:30 自行前往，東港東琉線碼頭集合。<br>
+            (請務必準時集合，船班半個小時一班，錯過要等下一班，可能影響後面行程。)
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第一天<br>
+            搭船前往小琉球，潛水店整理裝備，民宿安排入住後集合午餐，下午進行船潛2支，結束盥洗後，準備晚餐。晚餐後可自由活動安排潮間帶陸遊、觀星。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天<br>
+            早上 7:30 用餐，8:30 集合潛水，上午船潛 2 支，下午自由活動。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天<br>
+            早上 7:30 用餐，8:30 集合潛水，上午船潛 2 支，結束潛水，清洗、吊掛裝備，回民宿盥洗並將行理打包完成放大廳；待午餐完畢再回潛店收拾裝備及行李。預計搭程 15:00 船班回到東港東琉線碼頭。準備回家，結束快樂旅程。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td><img src="../Image/Data/Liuchiu_05.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Liuchiu_06.jpg" width="100%"></td>
+                <td>&nbsp;</td>
+                <td><img src="../Image/Data/Liuchiu_07.jpg" width="100%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>  
+  <Block id="price2" caption="費用說明" method="html" back="#top" tag="3 天 2 夜">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：13,000</li>
+        <li>現金優惠價/會員價：12,500</li>
+        <li><span class="Large Important">會員現金優惠價：12,000</span></li>
+      </ul>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td width="1%">包　含：</td>
+          <td>東港←→小琉球來回船票、小琉球島上交通及食宿、6 支日船潛、三百萬旅平險</td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap">不包含：</td>
+          <td>裝備租借、出發地←→東港來回交通、東港住宿、個人消費、行程外潛水。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
       <table width="70%">
