@@ -21,12 +21,15 @@
 
     <div id="schedule" class="ArticleBox"></div>
 	<div id="ScheduleTab" class="Block"></div>
-	<!-- 四天行程 -->
+	<!-- 水肺 3 天 2 夜 -->
     <div id="schedule1" class="ArticleBox"></div>
     <div id="price1" class="ArticleBox"></div>
-	<!-- 五天行程 -->
+	<!-- 水肺 4 天 3 夜 -->
 	<div id="schedule2" class="ArticleBox"></div>
     <div id="price2" class="ArticleBox"></div>
+    <!-- 自潛 4 天 3 夜 -->
+	<div id="schedule3" class="ArticleBox"></div>
+    <div id="price3" class="ArticleBox"></div>
 
 	<!-- 共用 -->
     <div id="price" class="ArticleBox"></div>

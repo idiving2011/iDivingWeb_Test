@@ -104,12 +104,13 @@
      ]]>
   </Block>
   <Block id="schedule" caption="建議行程" method="html" />
-  <Block id="ScheduleTab" method="tab" selected="水肺3天行程" >
-    <Item name="水肺3天行程"/>
-    <Item name="自潛4天行程"/>
+  <Block id="ScheduleTab" method="tab" selected="水肺 3 天 2 夜" >
+    <Item name="水肺 3 天 2 夜"/>
+    <Item name="水肺 4 天 3 夜"/>
+    <Item name="自潛 4 天 3 夜"/>
   </Block>
-  <!-- 水肺3天行程 -->
-  <Block id="schedule1" method="html" back="#top" tag="水肺3天行程">
+  <!-- 水肺 3 天 2 夜 -->
+  <Block id="schedule1" method="html" back="#top" tag="水肺 3 天 2 夜">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
@@ -124,7 +125,7 @@
         <tr>
           <td>
             第一天<br>
-            早上7點起床，享用民宿提供的早餐後，前往富岡港口搭乘前往綠島渡輪，搭乘時間約一小時，中午於綠島街上用餐於中午1點集合，下午進行一趟船潛
+            早上7點起床，享用民宿提供的早餐後，前往富岡港口搭乘前往綠島渡輪，搭乘時間約一小時，中午於綠島街上用餐於中午1點集合，下午進行一趟船潛。
           </td>
         </tr>
         <tr>
@@ -133,7 +134,7 @@
         <tr>
           <td>
             第二天<br>
-            早上7:30用餐，8:30集合潛水，早上船潛一趟２潛，下午船潛一趟2潛，午餐晚餐用餐時間現場公布。
+            早上 7:30 用餐，8:30 集合潛水，早上船潛一趟２潛，下午船潛一趟2潛，午餐晚餐用餐時間現場公布。
           </td>
         </tr>
         <tr>
@@ -148,12 +149,12 @@
       </table>
     ]]>
   </Block>
-  <Block id="price1" caption="費用說明" method="html" back="#top" tag="水肺3天行程">
+  <Block id="price1" caption="費用說明" method="html" back="#top" tag="水肺 3 天 2 夜">
     <![CDATA[ 
       <ul>
-        <li>團費原價：12,000</li>
-        <li>現金優惠價/會員價：11,500</li>
-        <li><span class="Large Important">會員現金優惠價：11,000</span></li>
+        <li>團費原價：13,000</li>
+        <li>現金優惠價/會員價：12,500</li>
+        <li><span class="Large Important">會員現金優惠價：12,000</span></li>
       </ul>
       <table width="70%" style="text-align: justify;">
         <tr>
@@ -171,8 +172,71 @@
     ]]>
   </Block>
 
-  <!-- 自潛4天行程 -->
-  <Block id="schedule2" method="html" back="#top" tag="自潛4天行程">
+  <!-- 水肺 4 天 3 夜 -->
+  <Block id="schedule2" method="html" back="#top" tag="水肺 4 天 3 夜">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            第一天<br>
+            早上 6:30 在松山機場集合，搭乘華信航空 AE391 班機前往台東，抵達後即直接前往富岡港口搭乘前往綠島渡輪，搭乘時間約一小時，中午於綠島街上用餐於中午1點集合，下午進行一趟船潛。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天<br>
+            早上 7:30 用餐，8:30 集合潛水，早上船潛一趟２潛，下午自由活動，可視情況增加一支岸潛或是夜潛（岸潛皆為自費行程），午餐晚餐用餐時間現場公布。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天<br>
+            早上 7:30 用餐，8:30 集合潛水，早上船潛一趟２潛，下午自由活動，午餐晚餐用餐時間現場公布。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第四天<br>
+            早上民宿用完早餐後即整理裝備，中午集合用餐後休息片刻搭船回台東，再搭乘華信航空 AE394 班機返回台北。
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  <Block id="price2" caption="費用說明" method="html" back="#top" tag="水肺 4 天 3 夜">
+    <![CDATA[ 
+      <ul>
+        <li>團費原價：16,500</li>
+        <li>現金優惠價/會員價：16,000</li>
+        <li><span class="Large Important">會員現金優惠價：15,500</span></li>
+      </ul>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>註：</td>
+          <td>以上費用均含活動期間的食宿、三佰萬旅遊平安險，除墾丁外，當地並提供機車代步。 但不包含潛水裝備租借的費用及個人性質的花費。</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2">綠島團費，不包含台北來回台東交通及台東住宿的費用。</td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <!-- 自潛 4 天 3 夜 -->
+  <Block id="schedule3" method="html" back="#top" tag="自潛 4 天 3 夜">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
@@ -213,9 +277,9 @@
       </table>
     ]]>
   </Block>
-  <Block id="price2" caption="費用說明" method="html" back="#top" tag="自潛4天行程">
+  <Block id="price3" caption="費用說明" method="html" back="#top" tag="自潛 4 天 3 夜">
     <![CDATA[ 
-      <ul>
+      <!--<ul>
         <li>團費原價：12,000</li>
         <li>現金優惠價：11,000</li>
         <li>可搭配使用10次劵5次折抵2,500元</li>
@@ -232,7 +296,8 @@
           <td>費用不含：</td>
           <td>個人裝備(如果沒有裝備，請出發前來公司租借)、個人消費、餐食。</td>
         </tr>
-      </table>
+      </table>-->
+      <span class="Large Important">敬請期待</span>
     ]]>
   </Block>
     
