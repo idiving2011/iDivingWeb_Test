@@ -176,16 +176,13 @@
       <![CDATA[
           <div><span style="background-color: rgb(197, 197, 197); color: blue;">OWD 課程費用方案一：</span>&nbsp;<span class="Large Focus">定價 19,000 元，優惠可合併計算。</span></div>
           <ul>
+            <li><span class="Large Important">新春優惠活動方案：歡度新春紅包大方送！！！即日起到 2/5 前報名任一期別 OWD 課程，折扣 3,000 元，限額 20 名！報名請趁早，本方案不得與其他方案合用。</span></li>
             <li><span class="Large Important">優惠 1：現金優惠，折扣 300 元。</span></li>
-            <li>
-              <!--<span class="Large Important">優惠 2：108/12/01~31 完成報名者，優惠 1,200 元</span><br>-->
+            <!--<li>
               <span class="Large Important">優惠 2：歡慶聖誕 12 月！即日起至 12/31 日止，完成報名 2020 OWD 課程者，享早鳥優惠 1,200 元</span><br>
-              <!--<ul class="Disc">
-                <li><span class="Large Focus">19 ~ 22 期，送 1,000 折價卷（可抵後續教學與潛水活動費用）。</span></li>
-              </ul>-->
-            </li>
+            </li>-->
             <li>
-              <span class="Large Important">優惠 3：限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。</span><br>
+              <span class="Large Important">優惠 2：限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。</span><br>
                 <ul>
                   <li>
                     <span class="Large Important">凡報名下列開課期別享 1,000 元優惠！！！</span><br>
@@ -206,7 +203,7 @@
                 </ul>
               </span>
             </li>
-            <li><span class="Large Important">優惠 4：iDiving 一級自潛員(FD LV1) 學員報名 OWD 課程，優惠 1,000 元。</span></li>
+            <li><span class="Large Important">優惠 3：iDiving 一級自潛員(FD LV1) 學員報名 OWD 課程，優惠 1,000 元。</span></li>
           </ul>
           <br/>
           <table width="80%" border="0" cellpadding="0" cellspacing="0">
@@ -565,15 +562,14 @@
           <ul>
             <table width="70%" style="text-align: justify;">
               <tr>
+                <td><li><span class="Large Important">新春優惠活動方案：歡度新春紅包大方送！！！即日起到 2/5 前報名任一期別 OWD 課程，折扣 3,000 元，限額 20 名！報名請趁早，本方案不得與其他方案合用。</span></li></td>
+              </tr>
+              <tr>
                 <td><li><span class="Large Important">優惠 1：現金優惠，折扣 300 元。</span></li></td>
               </tr>
               <tr>
-                <!--<td><li><span class="Large Important">優惠 2：108/12/01~31 完成報名者，優惠 1,200 元。</span></li></td>-->
-                <td><li><span class="Large Important">優惠 2：歡慶聖誕 12 月！即日起至 12/31 日止，完成報名 2020 OWD 課程者，享早鳥優惠 1,200 元</span></li></td>
-              </tr>
-              <tr>
                 <td>
-                  <li><span class="Large Important">優惠 3：限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。</span></li>
+                  <li><span class="Large Important">優惠 2：限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。</span></li>
                   <ul>
                     <li>
                       <span class="Large Important">凡報名下列開課期別享 1,000 元優惠！！！</span><br>
@@ -603,7 +599,7 @@
                 </td>
               </tr>
               <tr>
-                <td nowrap><li><span class="Large Important">優惠 ４：iDiving 一級自潛員(FD LV1) 學員報名 OWD 課程，優惠 1,000 元。</span></li></td>
+                <td nowrap><li><span class="Large Important">優惠 3：iDiving 一級自潛員(FD LV1) 學員報名 OWD 課程，優惠 1,000 元。</span></li></td>
               </tr>
             </table>
           </ul>
