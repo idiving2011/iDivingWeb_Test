@@ -1295,7 +1295,7 @@
       </table>
     ]]>
   </Block>
-  <!-- LV3 開課日期，同 2級自潛員,BASIC假日班,BASIC平日班,POOL假日班,POOL平日班 -->
+  <!-- LV3 開課日期，同 2級自潛員 -->
   <Block id="LV3plan" caption="開課日期" method="html" back="#top" tag="3級自潛員">
     <![CDATA[
       <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
@@ -1321,7 +1321,7 @@
       </table>
     ]]>
   </Block>
-  <!-- BASIC假日班,BASIC平日班,POOL假日班,POOL平日班 開課日期，同 2級自潛員,3級自潛員 -->
+  <!-- BASIC假日班,BASIC平日班,POOL假日班,POOL平日班 開課日期，同 1級自潛員 -->
   <Block id="plan" caption="開課日期" method="html" back="#top" tag="BASIC假日班,BASIC平日班,POOL假日班,POOL平日班">
     <![CDATA[
       <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
@@ -1331,7 +1331,7 @@
       </ul>-->
       <table width="70%" style="text-align: justify;">
         <tr>
-          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
+          <td><img src="../Image/Data/FD_Schedule_summer.png" width="100%"/></td>
         </tr>
         <tr>
           <td>
