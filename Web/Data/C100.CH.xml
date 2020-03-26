@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-    <Block id="title" method="title" text="平日體驗潛水"/>
+    <Block id="title" method="title" text="體驗潛水"/>
   <Block id="nav" method="nav">
     <Item name="課程規劃" href="#weekend"></Item>
     <Item name="開課日期" href="#plan"></Item>
