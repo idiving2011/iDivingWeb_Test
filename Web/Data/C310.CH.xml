@@ -26,7 +26,8 @@
       <Item name="正確反應員"/>
       <Item name="壓力與救援"/>
       <Item name="船潛"/>
-      <Item name="電腦錶"/>
+      <!-- 2020/3/27 刪除-->
+      <!-- <Item name="電腦錶"/> -->
     </Item>
     <Item name="專業選修">
       <Item name="水下攝影"/>
