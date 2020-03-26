@@ -59,9 +59,10 @@
 		<div id="tuition8" class="ArticleBox"></div>
 
 		<!-- 電腦錶 -->
-		<div id="curriculum9" class="ArticleBox"></div>
+		<!-- 2020/3/27 刪除-->
+		<!--<div id="curriculum9" class="ArticleBox"></div>
 		<div id="plan9" class="ArticleBox"></div>
-		<div id="tuition9" class="ArticleBox"></div>
+		<div id="tuition9" class="ArticleBox"></div>-->
 
 		<!-- 正確反應員 -->
 		<div id="curriculum10" class="ArticleBox"></div>

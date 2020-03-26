@@ -726,7 +726,8 @@
     </Block>
   
     <!--電腦錶-->
-    <Block id="curriculum9" caption="課程規劃" method="html" back="#top" tag="電腦錶">
+    <!-- 2020/3/27 刪除-->
+    <!--<Block id="curriculum9" caption="課程規劃" method="html" back="#top" tag="電腦錶">
       <![CDATA[ 
                 <span class="Large">請不要再把電腦錶當做專業的裝飾品，電腦錶專長課程讓你一次搞懂如何免減壓！</span>
                 <table width="80%" style="table-layout: fixed;">
@@ -773,9 +774,8 @@
     <Block id="plan9" caption="開課日期" method="html" back="#top" tag="電腦錶">
       <![CDATA[
               <p>開課日期彈性調整，隨潛水活動出團即可開班，學科時間請與帶隊教練協調。</p>
-              <!--<img src="../Image/Data/COMPUTER_2015.png" width="80%"/>-->
                 ]]>
-    </Block>
+    </Block>-->
     <Block id="tuition9" caption="超值學費" method="html" back="#top" tag="電腦錶">
       <![CDATA[
                   <ul>
