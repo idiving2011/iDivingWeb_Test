@@ -504,7 +504,7 @@
     </Block>
     <Block id="plan6" caption="開課日期" method="html" back="#top" tag="壓力與救援">
       <![CDATA[
-            <p>5、6、7、8、9 月各有一期，每期課程為一晚教室學科 + 一天泳池術科 + 一天海洋實習</p>
+            <p>5、6、7、8、9 月各有一期，每期課程為一堂學科 + 一天術科</p>
             <img src="../Image/Data/DSR+RR_Schedule.png" width="80%"/>
             ]]>
     </Block>
@@ -512,7 +512,7 @@
       <![CDATA[
                 <ul>
                   <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 12,000 元。</span></li>
-                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 1,000 元。</span></li>
+                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 600 元。</span></li>
                   <li>
                     <span class="Large Important">
                       一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
@@ -522,7 +522,7 @@
                 </ul>
                 <br/>
                 <div>費用包含：線上教材、國際證照申請、教練費、重裝租借費用、東北角海洋實習費用與保險費。</div>
-                <div>費用不含：輕裝租借(300元/天)。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
+                <div>費用不含：輕裝租借(300元/天)。</div>
                 ]]>
     </Block>
   
@@ -678,8 +678,7 @@
                  <ul>
                   <li><span class="Large Focus">定價</span></li>
                     <ol>
-                      <li>東北角結訓（實際船潛）費用為 7,500 元</li>
-                      <li>東北角結訓（岸潛模擬）費用為 6,000 元</li>
+                      <li>東北角結訓（實際船潛）費用為 7,000 元</li>
                       <li>搭配出團上課，費用為團費 + 4,500 元</li>
                     </ol>
                   <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
@@ -871,7 +870,7 @@
       <![CDATA[
               <ul>
                   <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 12,000 元。</span></li>
-                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 1,000 元。</span></li>
+                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 600 元。</span></li>
                   <li>
                     <span class="Large Important">
                       一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
@@ -881,7 +880,6 @@
                 </ul>
               <br/>
               <div>費用包含：線上教材、國際證照申請、教練費、重裝租借費用、東北角海洋實習費用與保險費。</div>
-              <div>費用不含：個人防護之耗材、輕裝租借(300元/天)。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
           ]]>
     </Block>
   
