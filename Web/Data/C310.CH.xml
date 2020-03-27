@@ -97,7 +97,7 @@
         <![CDATA[
                 <ul>
                   <li><span class="Large Focus">定價 7,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 300 元。</span></li>
                   <li><span class="Large Important">已完成 iDiving AA 課程之學員可減免 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -206,7 +206,7 @@
         <![CDATA[
                 <ul>
                   <li><span class="Large Focus">定價 6,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 300 元。</span></li>
                   <li>
                     <span class="Large Important">
                       一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
@@ -301,7 +301,7 @@
       <![CDATA[
                   <ul>
                     <li><span class="Large Focus">定價 5,000 元（額外贈送 2 張高氧使用卷）。</span></li>
-                    <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
+                    <li><span class="Large Important">現金優惠，折扣 300 元。</span></li>
                   </ul>
                   <br/>
                   <div>費用包含：線上教材、國際證照申請、教練費。</div>
@@ -392,7 +392,7 @@
         <![CDATA[
                 <ul>
                   <li><span class="Large Focus">定價 6,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 300 元。</span></li>
                   <li><span class="Large Important">已完成 iDiving AA 課程之學員可減免 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -580,7 +580,7 @@
       <![CDATA[
                  <ul>
                   <li><span class="Large Focus">定價 6,000 元。</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 300 元。</span></li>
                   <li><span class="Large Important">已完成 iDiving AA 課程之學員可減免 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -682,7 +682,7 @@
                       <li>東北角結訓（實際船潛）費用為 7,000 元</li>
                       <li>搭配出團上課，費用為團費 + 4,500 元</li>
                     </ol>
-                  <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 300 元。</span></li>
                   <li><span class="Large Important">已完成 iDiving AA 課程之學員可減免 1,000 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -776,7 +776,7 @@
       <![CDATA[
               <p>開課日期彈性調整，隨潛水活動出團即可開班，學科時間請與帶隊教練協調。</p>
                 ]]>
-    </Block>-->
+    </Block>
     <Block id="tuition9" caption="超值學費" method="html" back="#top" tag="電腦錶">
       <![CDATA[
                   <ul>
@@ -822,7 +822,7 @@
                     </tr>
                   </table>
                     ]]>
-    </Block>
+    </Block>-->
   
     <!--正確反應員-->
     <Block id="curriculum10" caption="課程規劃" method="html" back="#top" tag="正確反應員">
