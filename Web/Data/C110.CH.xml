@@ -8,28 +8,28 @@
               position:absolute;
               display:block;
               //border:1px solid red;
-              top:45.5%;
-              left:8.5%;
-              width:19.5%;
-              height:7.5%;
+              top:43%;
+              left:3%;
+              width:32%;
+              height:55%;
           }
           .OWD {
               position:absolute;
               display:block;
               //border:1px solid red;
-              top:45.5%;
-              left:41%;
-              width:19%;
-              height:7.5%;
+              top:43%;
+              left:35%;
+              width:32%;
+              height:55%;
           }
           .XR {
               position:absolute;
               display:block;
               //border:1px solid red;
-              top:45.5%;
-              left:74%;
-              width:19.5%;
-              height:7.5%;
+              top:43%;
+              left:68%;
+              width:32%;
+              height:55%;
           }
         </style>
         <img border="1" src="../Image/Data/package.png" width="100%" usemap="#imagemap" />
