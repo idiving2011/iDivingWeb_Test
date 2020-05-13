@@ -24,9 +24,9 @@
   </Block>
   <Block id="FreeDivingTab" method="tab" selected="1級自潛員" description="">
     <Item name="1級自潛員">
-      <Item name="LV1冬季班"/>
       <Item name="LV1夏季假日班"/>
       <Item name="LV1夏季平日班"/>
+      <Item name="LV1冬季班"/>
     </Item>
     <Item name="2級自潛員"/>
     <Item name="3級自潛員"/>
@@ -1387,7 +1387,7 @@
               <br>
               <li><span class="Important">「本店OWD學生」報名1級自潛員可享 1,000 元折扣</span></li>
               <li><span class="Important">他店學生來iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元</span></li>
-              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </ul>
           </td>
         </tr>
@@ -1434,7 +1434,7 @@
               <br>
               <li><span class="Important">「本店OWD學生」報名1級自潛員可享 1,000 元折扣</span></li>
               <li><span class="Important">他店學生來iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元</span></li>
-              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </ul>
           </td>
         </tr>
@@ -1479,7 +1479,7 @@
                   </tr>
                 </table>
               <br>
-              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </Ul>
           </td>
         </tr>
@@ -1524,7 +1524,7 @@
                   </tr>
                 </table>
               <br>
-              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+              <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </Ul>
           </td>
         </tr>
@@ -1576,7 +1576,7 @@
                 平靜水域自潛員報名LV1課程，僅完成欠缺的課程並取得執照只要 7,500 元<br/>
                 他店學生來 iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元
               </li>
-              <li><span class="Large Focus">參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+              <li><span class="Large Focus">參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </Ul>
           </td>
         </tr>
@@ -1628,7 +1628,7 @@
                 平靜水域自潛員報名LV1課程，僅完成欠缺的課程並取得執照只要 7,500 元<br/>
                 他店學生來 iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元
               </li>
-              <li><span class="Large Focus">參加自潛活動費用：每次 500 元，10 次特價 3,500 元</span></li>
+              <li><span class="Large Focus">參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </Ul>
           </td>
         </tr>
