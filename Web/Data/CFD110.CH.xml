@@ -1218,7 +1218,7 @@
         <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
         <li>假日班課程規劃如下</li>
       </ul>-->
-      <!--<table width="70%" style="text-align: justify;">
+      <table width="70%" style="text-align: justify;">
         <tr>
           <td>
             <strong style="font-size:20px">2020年5月 ~ 2020年10月 LV1 假日班 開課日期</strong><br/>
@@ -1229,10 +1229,16 @@
           </td>
         </tr>
         <tr>
-          <td><img src="../Image/Data/FD_Schedule_summer.png" width="100%"/></td>
+          <td><img src="../Image/Data/FD_Schedule_summer_1.png" width="100%"/></td>
         </tr>
-      </table>-->
-      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule_summer_2.png" width="100%"/></td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule_summer_3.png" width="100%"/></td>
+        </tr>
+      </table>
+      <!--<table width="70%" style="text-align: justify;">
         <tr>
           <td>
             <strong style="font-size:20px">開課日期排定中...</strong><br/>
@@ -1242,7 +1248,7 @@
             </span>
           </td>
         </tr>
-      </table>
+      </table>-->
     ]]>
   </Block>
   <Block id="LV1plan3" caption="開課日期" method="html" back="#top" tag="LV1冬季班">
@@ -1279,9 +1285,6 @@
       </ul>-->
       <table width="70%" style="text-align: justify;">
         <tr>
-          <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
-        </tr>
-        <tr>
           <td>
             <ul>
               <li>
@@ -1291,6 +1294,12 @@
               </li>
             </ul>
           </td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule_LV2_1.png" width="100%"/></td>
+        </tr>        
+        <tr>
+          <td><img src="../Image/Data/FD_Schedule_LV2_2.png" width="100%"/></td>
         </tr>
       </table>
     ]]>
