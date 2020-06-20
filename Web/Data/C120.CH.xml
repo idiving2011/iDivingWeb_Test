@@ -177,7 +177,7 @@
           <div><span style="background-color: rgb(197, 197, 197); color: blue;">OWD 課程費用方案一：</span>&nbsp;<span class="Large Focus">定價 19,000 元，優惠可合併計算。</span></div>
           <ul>
             <li><span class="Large Important">優惠 1：現金優惠，折扣 300 元。</span></li>
-            <li>
+            <!--<li>
               <span class="Large Important">優惠 2：限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。</span><br>
                 <ul>
                   <li>
@@ -190,8 +190,8 @@
                   </li>
                 </ul>
               </span>
-            </li>
-            <li><span class="Large Important">優惠 3：iDiving 一級自潛員(FD LV1) 學員報名 OWD 課程，優惠 1,000 元。</span></li>
+            </li>-->
+            <li><span class="Large Important">優惠 2：iDiving 一級自潛員(FD LV1) 學員報名 OWD 課程，優惠 1,000 元。</span></li>
           </ul>
           <br/>
           <table width="80%" border="0" cellpadding="0" cellspacing="0">
