@@ -174,25 +174,24 @@
     </Block>
     <Block id="tuition1" caption="超值學費" method="html" back="#top" tag="假日班(適合一般上班族)">
       <![CDATA[
-          <div><span style="background-color: rgb(197, 197, 197); color: blue;">OWD 課程費用方案一：</span>&nbsp;<span class="Large Focus">定價 19,000 元，優惠可合併計算。</span></div>
-          <ul>
-            <li><span class="Large Important">優惠 1：現金優惠，折扣 300 元。</span></li>
-            <!--<li>
-              <span class="Large Important">優惠 2：限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。</span><br>
+          <div><span style="background-color: rgb(197, 197, 197); color: blue;">OWD 課程費用方案一：</span>&nbsp;<span class="Large Focus">定價 19,000 元，專案不可與其他優惠合併計算。</span></div>
+          <table width="80%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td>
                 <ul>
+                  <li><span class="Large Important">優惠 1：現金優惠，折扣 300 元。</span></li>
+                  <li><span class="Large Important">優惠 2：即日起至 2020/12/31 止，完成報名 ( 需填寫報名資料及繳交 3,000 元定金 )，即可享有 2,000 元的折扣</span></li>
                   <li>
-                    <span class="Large Important">凡報名下列開課期別享特殊優惠</span><br>
-                    <span class="Large Focus">
-                      109/05/06 (週三開課) 歡慶母親節本期優惠 1,200 元<br>
-                      109/05/12 (週二開課) 歡慶母親節本期優惠 1,200 元<br>
-                      109/05/20 (週三開課) 歡慶母親節本期優惠 500 元
+                    <span class="Large Important">
+                      優惠 3：報名特定期別上課，可再享有額外優惠 ( 若更改上課時間，需繳回優惠 )<br/>
+                      　　　　報名 01~03 期上課，可享有 1,500 元折扣<br/>
+                      　　　　報名 04~05 期上課，可享有 1,000 元折扣<br/>
                     </span>
                   </li>
                 </ul>
-              </span>
-            </li>-->
-            <li><span class="Large Important">優惠 2：iDiving 一級自潛員(FD LV1) 學員報名 OWD 課程，優惠 1,000 元。</span></li>
-          </ul>
+              </td>
+            </tr>
+          </table>
           <br/>
           <table width="80%" border="0" cellpadding="0" cellspacing="0">
             <tr>
@@ -546,45 +545,25 @@
     </Block>
     <Block id="tuition2" caption="超值學費" method="html" back="#top" tag="平日班(適合自行排休者)">
       <![CDATA[
-          <div><span style="background-color: rgb(197, 197, 197); color: blue;">OWD 課程費用方案一：</span>&nbsp;<span class="Large Focus">定價 19,000 元，優惠可合併計算。</span></div>
+          <div><span style="background-color: rgb(197, 197, 197); color: blue;">OWD 課程費用方案一：</span>&nbsp;<span class="Large Focus">定價 19,000 元，專案不可與其他優惠合併計算。</span></div>
           <ul>
-            <table width="70%" style="text-align: justify;">
+            <table width="80%" border="0" cellpadding="0" cellspacing="0" style="text-align: justify;">
               <tr>
                 <td><li><span class="Large Important">優惠 1：現金優惠，折扣 300 元。</span></li></td>
               </tr>
               <tr>
-                <td>
-                  <li><span class="Large Important">優惠 2：限定期別，不可更換期別（因私人因素更換或跨期別者，需退回優惠）。</span></li>
-                  <ul>
-                    <li>
-                      <span class="Large Important">凡報名下列開課期別享 1,000 元優惠！！！</span><br>
-                      <span class="Large Focus">
-                        109/04/14 (週二開課)<br>
-                        109/04/16 (週四開課)<br>
-                        109/04/21 (週二開課)<br>
-                        <br>
-                        109/04/23 (週四開課)<br>
-                        109/04/28 (週二開課)<br>
-                        109/04/30 (週四開課)
-                      </span>
-                    </li>
-                    <li>
-                      <span class="Large Important">凡報名下列開課期別享 500 元優惠</span><br>
-                      <span class="Large Focus">
-                        109/05/05 (週二開課)<br>
-                        109/05/07 (週四開課)<br>
-                        109/05/12 (週二開課)<br>
-                        <br>
-                        109/05/14 (週四開課)<br>
-                        109/05/19 (週二開課)<br>
-                        109/05/21 (週四開課)
-                      </span>
-                    </li>
-                  </ul>
-                </td>
-              </tr>
+                <td><li><span class="Large Important">優惠 2：即日起至 2020/12/31 止，完成報名 ( 需填寫報名資料及繳交 3,000 元定金 )，即可享有 2,000 元的折扣</span></li></td>
+              </tr>                 
               <tr>
-                <td nowrap><li><span class="Large Important">優惠 3：iDiving 一級自潛員(FD LV1) 學員報名 OWD 課程，優惠 1,000 元。</span></li></td>
+                <td>
+                  <li>
+                    <span class="Large Important">
+                      優惠 3：報名特定期別上課，可再享有額外優惠 ( 若更改上課時間，需繳回優惠 )<br/>
+                      　　　　報名 01~03 期上課，可享有 1,500 元折扣<br/>
+                      　　　　報名 04~05 期上課，可享有 1,000 元折扣<br/>
+                    </span>
+                  </li>
+                </td>
               </tr>
             </table>
           </ul>
