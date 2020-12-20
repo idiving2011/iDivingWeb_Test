@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Block id="title" method="title" text="海洋美人魚"/>
+  <Block id="intro" method="html">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td colspan="2">美人魚不單單是穿上魚尾，跳入海中，這麼簡單！iDiving 最注重的安全與正確水中的踢動，不但適合各同年齡層的人，也可以讓你帶有 Aqua man 的英姿、童話故事中小美人魚優雅，一門可以更貼近海洋生物的課程。現在！立即了解課程！享受大海享受優美吧！</span></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/MM_01.jpg"  /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="intro" caption="課程規劃" method="html" back="#top">
+    <![CDATA[ 
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <table border="1" width="100%" style="text-align: justify;">
+              <tr align="center">
+                <td></td>
+                <td>時 間</td>
+                <td>課 程 內 容</td>
+                <td>上課地點</td>
+              </tr>
+              <tr align="center">
+                <td style="vertical-align:middle;">學 科</td>
+                <td>
+                  平日晚上<br/>
+                  19：00 ~ 21：30</td>
+                <td style="vertical-align:middle;">
+                  美人魚的重要知識、裝備介紹、水面程序、動作技巧、<br>
+                  開放水域注意事項、保護環境</td>
+                <td>
+                  iDiving<br/>
+                  教 室
+                </td>
+              </tr>
+              <tr align="center">
+                <td style="vertical-align:middle;">泳 池 課 程</td>
+                <td>
+                  周 六<br/>
+                  12：00 ~ 18：00
+                </td>
+                <td>
+                  裝備調整與著裝、安全事項、美人魚潛水與踢蹼、<br/>
+                  美人魚出水注意事項、拍照
+                </td>
+                <td>
+                  前 港<br/>
+                  特約泳池
+                </td>
+              </tr>
+              <tr align="center">
+                <td style="vertical-align:middle;">海 洋 實 習</td>
+                <td style="vertical-align:middle;">
+                  周 日<br/>
+                  10：00 ~ 14：00
+                </td>
+                <td style="vertical-align:middle;">
+                  裝備調整與著裝、海洋入水、美人魚海洋動作、<br/>
+                  平壓技巧、下潛技巧、拍照
+                </td>
+                <td>
+                  東北角<br/>
+                  海  域
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <br/>
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td><img src="../Image/Data/MM_02.jpg" /></td>
+          <td><img src="../Image/Data/MM_03.jpg" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="plan" caption="開課日期" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <strong style="font-size:20px">2020 年 4 月 ~ 2020 年 9 月 LV1 美人魚 開課日期</strong><br/>
+            美人魚：學科* 1/天+ 泳池 * 1.5/天<br/>
+            海洋美人魚：學科* 1/天+ 泳池 * 1/天+ 海洋* 1/天<br>
+            請選擇您有空的日期報名
+            <span class="Large Focus">
+              平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../Image/Data/MM_05.jpg" /></td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+
+  <Block id="tuition" caption="超值學費" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
+        <tr>
+          <td width="55%">
+            <ul>
+              <li><span class="Large Focus">美人魚課程 12,000 元</span></li>
+              <li><span class="Large Focus">海洋美人魚課程 15,000 元</span></li>
+              <li><span class="Important">現金優惠 300 元</span></li>
+              <li><span class="Important">人數優惠：兩人一起報名更優惠，每人優惠500。三人同樂優惠加倍，每人優惠 1,000。</span></li>
+              <li><span class="Important">iDiving 各級自潛員報名美人魚課程享1000元優惠!</span></li>
+            </lu>
+          </td>
+          <!--<td><img src="../Image/Data/MM_04.jpg" style="float: right; width: 80%"></td>-->
+        </tr>
+      </table>
+    ]]>
+  </Block>
+  
+  <Block id="register" caption="報名方式" method="html" back="#top">
+    <![CDATA[
+      <ol>
+          <li>網路填寫報名資料並匯款訂金。</li>
+          <li>來店洽詢並繳交訂金。</li>
+      </ol>
+    ]]>
+  </Block>
+  <Block id="processing" caption="網路報名流程" method="html" back="#top">
+    <![CDATA[
+      <ol>
+      <li><a href="CZ01.php">線上填寫報名表</a></li>
+      <li>
+        繳交訂金 3,000 元，<br/>
+        銀行：中國信託<br/>
+        分行：士林分行<br/>
+        戶名：愛潛水股份有限公司<br/>
+        代號：822<br/>
+        帳號：285-54009941-9
+      </li>
+      <li>
+        以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
+        營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
+      </li>
+      <li>收到訂金與資料後，iDiving 會至 SSI 全球官網註冊您的學籍。<span class="Important">一經註冊，請恕無法退訂金。</span></li>
+      <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
+    </ol>
+    ]]>
+  </Block>
+  <Block id="notice" caption="學前須知" method="html" back="#top">
+    <![CDATA[
+      <table width="70%" style="text-align: justify;">
+        <tr>
+          <td>
+            <ol>
+              <li>iDiving採有條件式保證班教學（註），如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
+              <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
+              <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
+              <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
+              <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
+              <li>
+                學員結訓後，訓練中心將於兩週內完成 SSI 國際數位潛水證照申請。<br>
+                （如有急需請先告知，本中心可於課程完成後的兩個工作天內完成申請）
+              </li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            註：<br>
+            <ul>
+              <li>如果各項技巧尚未學會，iDiving 將會一直免費培訓，但如果學生已經學會各項技巧，但無法通過測驗，則依照下面說明進行補課或核發執照。（＊耳壓平衡技巧僅須學會１種）。</li>
+              <li>4-9月美人魚 課程，每位學生有1天的結訓機會，如果無法通過測驗，可以免費再增加1天進行練習。如果還是無法通過測驗，則需自費 500 元/天進行補考，亦可選擇核發＂美人魚＂執照 (SSI-Mermaid)。在夏季課程中的任何時候, 如果計畫於10-3月前往潛立方繼續課程，須自付 1,500 元（潛立方21米池９０分鐘場地費），如使用 3 小時，須自付 2,500 元。</li>
+              <li>10月-隔年3月冬季 美人魚 課程，每位學生有1天的結訓機會，如果測驗失敗欲補考，須自付 1,500 元（潛立方21米池９０分鐘場地費），如使用 3 小時，須自付 2,500 元，如計畫於 4-9 月進行東北角海洋結訓，則需自費 500 元/天進行補考，亦可選擇核發＂美人魚＂執照 (SSI-Mermaid)。</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    ]]>
+  </Block>
+</Data>
