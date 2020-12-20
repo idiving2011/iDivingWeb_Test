@@ -1190,7 +1190,7 @@
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            <strong style="font-size:20px">2020年5月 ~ 2020年10月 LV1 假日班 開課日期</strong><br/>
+            <strong style="font-size:20px">2021年5月 ~ 2021年9月 LV1 假日班 開課日期</strong><br/>
             一個假日課程 = 學科 + 泳池 + 海洋 * 2<br/>
             <span class="Large Focus">
               平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
@@ -1198,7 +1198,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="../Image/Data/FD_Schedule_summer.png" width="100%"/></td>
+          <td><img src="../Image/Data/FD_Schedule_summer_Weekend.png" width="100%"/></td>
         </tr>
       </table>
       <!--<table width="70%" style="text-align: justify;">
@@ -1221,7 +1221,7 @@
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            <strong style="font-size:20px">2020年5月 ~ 2020年10月 LV1 假日班 開課日期</strong><br/>
+            <strong style="font-size:20px">2021年5月 ~ 2021年9月 LV1 假日班 開課日期</strong><br/>
             一個平日課程 = (學科 + 泳池) * 2 + 海洋 * 2，共計4天，每週二，周四皆有開課<br/>
             <span class="Large Focus">
               平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
@@ -1229,13 +1229,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="../Image/Data/FD_Schedule_summer_1.png" width="100%"/></td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_Schedule_summer_2.png" width="100%"/></td>
-        </tr>
-        <tr>
-          <td><img src="../Image/Data/FD_Schedule_summer_3.png" width="100%"/></td>
+          <td><img src="../Image/Data/FD_Schedule_summer_Weekdays.png" width="100%"/></td>
         </tr>
       </table>
       <!--<table width="70%" style="text-align: justify;">
@@ -1297,9 +1291,6 @@
         </tr>
         <tr>
           <td><img src="../Image/Data/FD_Schedule_LV2_1.png" width="100%"/></td>
-        </tr>        
-        <tr>
-          <td><img src="../Image/Data/FD_Schedule_LV2_2.png" width="100%"/></td>
         </tr>
       </table>
     ]]>
