@@ -26,8 +26,6 @@
       <Item name="正確反應員"/>
       <Item name="壓力與救援"/>
       <Item name="船潛"/>
-      <!-- 2020/3/27 刪除-->
-      <!-- <Item name="電腦錶"/> -->
     </Item>
     <Item name="專業選修">
       <Item name="水下攝影"/>
@@ -724,104 +722,6 @@
                   </table>
                     ]]>
     </Block>
-  
-    <!--電腦錶-->
-    <!-- 2020/3/27 刪除-->
-    <!--<Block id="curriculum9" caption="課程規劃" method="html" back="#top" tag="電腦錶">
-      <![CDATA[ 
-                <span class="Large">請不要再把電腦錶當做專業的裝飾品，電腦錶專長課程讓你一次搞懂如何免減壓！</span>
-                <table width="80%" style="table-layout: fixed;">
-                  <tr>
-                    <td style="vertical-align:bottom"><img width="87%" src="../Image/Data/SC_COMPUTER_01.jpg"></td>
-                    <td align="right"><img width="100%" src="../Image/Data/SC_COMPUTER_02.jpg"></td>
-                  </tr>
-                </table>
-                <br/>
-                <table border="1" width="80%">
-                  <tr>
-                    <td align="center">&nbsp;</td>
-                    <td align="center">時 間</td>
-                    <td align="center">課 程 內 容</td>
-                    <td align="center">上課地點</td>
-                  </tr>
-                  <tr>
-                    <td align="center">學 科</td>
-                    <td align="center">19：１0 ~ 21：30</td>
-                    <td align="center">電腦錶知識介紹</td>
-                    <td align="center">
-                      iDiving<br />
-                      教 室
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center">
-                      海 洋 實<br />
-                      習2支
-                    </td>
-                    <td align="center">09：00 ~ 16：00</td>
-                    <td align="center">
-                      電腦表使用時機<br />
-                      各項符號意義與注意事項
-                    </td>
-                    <td align="center">
-                      東北角或搭配<br />
-                      潛水旅遊
-                    </td>
-                  </tr>
-                </table>
-              ]]>
-    </Block>
-    <Block id="plan9" caption="開課日期" method="html" back="#top" tag="電腦錶">
-      <![CDATA[
-              <p>開課日期彈性調整，隨潛水活動出團即可開班，學科時間請與帶隊教練協調。</p>
-                ]]>
-    </Block>
-    <Block id="tuition9" caption="超值學費" method="html" back="#top" tag="電腦錶">
-      <![CDATA[
-                  <ul>
-                    <li><span class="Large Focus">定價 6,000 元。</span></li>
-                    <li><span class="Large Important">現金優惠，折扣 500 元。</span></li>
-                    <li>
-                      <span class="Large Important">
-                        一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
-                        移地訓練裝備免費使用一天。
-                      </span>
-                    </li>
-                  </ul>
-                  <br/>
-                  <div>費用包含：線上教材、國際數位證照申請、教練費、重裝租借費用、東北角海洋實習費用與保險費。</div>
-                  <div>費用不含：輕裝租借(400 元/天)。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
-                  <br/>
-                  <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2020 年國內潛水旅遊團費</span></div></h3>
-                  <table border="1" width="50%">
-                    <tr align="center">
-                      <td width="40%">地點</td>
-                      <td width="30%">團費</td>
-                      <td width="30%">日期</td>
-                    </tr>
-                    <tr align="center">
-                      <td><a href="D120.php">墾丁</a></td>
-                      <td>8,000 元</td>
-                      <td>兩天兩夜</td>
-                    </tr>
-                    <tr align="center">
-                      <td><a href="D130.php">小琉球</a></td>
-                      <td>9,000 元</td>
-                      <td>兩天一夜</td>
-                    </tr>
-                    <tr align="center">
-                      <td><a href="D140.php">綠島</a></td>
-                      <td>13,000 元</td>
-                      <td>三天兩夜</td>
-                    </tr>
-                    <tr align="center">
-                      <td><a href="D150.php">蘭嶼</a></td>
-                      <td>18,000 元</td>
-                      <td>四天三夜</td>
-                    </tr>
-                  </table>
-                    ]]>
-    </Block>-->
   
     <!--正確反應員-->
     <Block id="curriculum10" caption="課程規劃" method="html" back="#top" tag="正確反應員">
