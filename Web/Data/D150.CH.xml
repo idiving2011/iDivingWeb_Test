@@ -203,9 +203,10 @@
   <Block id="price" caption="費用說明" method="html" back="#top" tag="4 天 3 夜（台東）">
     <![CDATA[ 
       <ul>
-        <li>團費原價：18,000</li>
-        <li>現金優惠價/會員價：17,500</li>
-        <li><span class="Large Important">會員現金優惠價：17,000</span></li>
+        <li>團費定價：20,500 元</li>
+        <li>現金優惠價：19,000 元</li>
+        <li>會員優惠價：19,500 元</li>
+        <li><span class="Large Important">會員現金價：18,000 元</span></li>
       </ul>
       <br/>
       <table width="70%" style="text-align: justify;">
@@ -265,9 +266,10 @@
   <Block id="price2" caption="費用說明" method="html" back="#top" tag="4 天 3 夜（墾丁）">
     <![CDATA[ 
       <ul>
-        <li>團費原價：18,000</li>
-        <li>現金優惠價/會員價：17,500</li>
-        <li><span class="Large Important">會員現金優惠價：17,000</span></li>
+        <li>團費定價：20,500 元</li>
+        <li>現金優惠價：19,000 元</li>
+        <li>會員優惠價：19,500 元</li>
+        <li><span class="Large Important">會員現金價：18,000 元</span></li>
       </ul>
       <br/>
       <table width="70%" style="text-align: justify;">

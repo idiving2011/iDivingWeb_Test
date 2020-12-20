@@ -125,9 +125,10 @@
   <Block id="price1" caption="費用說明" method="html" back="#top" tag="2 天 2 夜">
     <![CDATA[ 
       <ul>
-        <li>團費原價：8,000</li>
-        <li>現金優惠價/會員價：7,500</li>
-        <li><span class="Large Important">會員現金優惠價：7,000</span></li>
+        <li>團費定價：11,000 元</li>
+        <li>現金優惠價：9,500 元</li>
+        <li>會員優惠價：10,000 元</li>
+        <li><span class="Large Important">會員現金價：8,500 元</span></li>
       </ul>
       <br/>
       <table width="70%" style="text-align: justify;">
@@ -199,9 +200,10 @@
   <Block id="price2" caption="費用說明" method="html" back="#top" tag="3 天 3 夜">
     <![CDATA[ 
       <ul>
-        <li>團費原價：11,500</li>
-        <li>現金優惠價/會員價：11,000</li>
-        <li><span class="Large Important">會員現金優惠價：10,500</span></li>
+        <li>團費定價：15,000 元</li>
+        <li>現金優惠價：13,500 元</li>
+        <li>會員優惠價：14,000 元</li>
+        <li><span class="Large Important">會員現金價：12,500 元</span></li>
       </ul>
       <br/>
       <table width="70%" style="text-align: justify;">
