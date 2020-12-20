@@ -16,25 +16,31 @@
     <?php include "../Part/Head.php"; ?>
     <?php include "../Part/Cap.php"; ?>
     <div id="section" sight>
-      <div id="OWD" class="Block"></div>
+      <div id="OWDTab" class="Block"></div>
+
+      <div id="intro" class="ArticleBox"></div>
 
       <!-- 假日班(適合一般上班族) -->
-      <div id="dock1" class="Block"></div>
-		  <div id="curriculum1" class="ArticleBox"></div>
-		  <div id="plan1" class="ArticleBox"></div>
-		  <div id="tuition1" class="ArticleBox"></div>
+      <!-- <div id="dock1" class="Block"></div> -->
+
+	  <div id="curriculum1" class="ArticleBox"></div>
+      <div id="curriculum2" class="ArticleBox"></div>
+	  <div id="plan1" class="ArticleBox"></div>
+      <div id="plan2" class="ArticleBox"></div>
+
+	  <div id="tuition1" class="ArticleBox"></div>
       <div id="register1" class="ArticleBox"></div>
       <div id="processing1" class="ArticleBox"></div>
       <div id="notice1" class="ArticleBox"></div>
 
       <!-- 平日班(適合自行排休者) -->
+      <!--
       <div id="dock2" class="Block"></div>
-      <div id="curriculum2" class="ArticleBox"></div>
-      <div id="plan2" class="ArticleBox"></div>
       <div id="tuition2" class="ArticleBox"></div>
       <div id="register2" class="ArticleBox"></div>
       <div id="processing2" class="ArticleBox"></div>
       <div id="notice2" class="ArticleBox"></div>
+      -->
 
       <!-- 平日班(適合自行排休者) -->
       <div id="dock3" class="Block"></div>
