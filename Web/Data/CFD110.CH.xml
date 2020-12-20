@@ -24,9 +24,9 @@
   </Block>
   <Block id="FreeDivingTab" method="tab" selected="1級自潛員" description="">
     <Item name="1級自潛員">
+      <Item name="LV1冬季班"/>
       <Item name="LV1夏季假日班"/>
       <Item name="LV1夏季平日班"/>
-      <Item name="LV1冬季班"/>
     </Item>
     <Item name="2級自潛員"/>
     <Item name="3級自潛員"/>
@@ -1261,9 +1261,9 @@
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            <strong style="font-size:20px">2019年9月 ~ 2020年4月 LV1 假日班 開課日期</strong><br/>
+            <strong style="font-size:20px">2020年10月 ~ 2021年4月 LV1 假日班 開課日期</strong><br/>
             一個假日課程 = 期別 + 學科 * 2 + 泳池 * 2 + 潛立方 * 1<br/>
-            學科 + 泳池共開24期，潛力方每月一次，請選擇您有空的日期報名<br/>
+            學科 + 泳池共開22期，結訓每月一次，墾丁結訓需額外負擔，請選擇您有空的日期報名<br/>
             <span class="Large Focus">
               平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
             </span>
@@ -1379,15 +1379,15 @@
                 </table>
                 <table width="100%" style="text-align: justify;">
                   <tr>
-                    <td colspan="4"><span class="Important">贈品：全套總價 3,860 元</span></td>
+                    <td colspan="4"><span class="Important">贈品：全套總價 2,880 元</span></td>
                   </tr>
                   <tr align="center">
                     <td style="vertical-align:middle;"><img src="../Image/Data/FD_17.jpg" width="50%" /></td>
                     <td><img src="../Image/Data/FD_18.jpg" width="80%" /></td>
                     <td><img src="../Image/Data/FD_19.jpg" width="80%" /></td>
                     <td nowrap style="vertical-align:middle;">
-                      面鏡 SPHERA（市價 1,800）<br>
-                      呼吸管（市價 780）<br>
+                      面鏡 STEAM（市價 1,180）<br>
+                      呼吸管（市價 420）<br>
                       配重帶（市價 1,280）<br>
                       彩色款+300元
                     </td>
@@ -1395,7 +1395,7 @@
                 </table>
               <br>
               <li><span class="Important">「本店OWD學生」報名1級自潛員可享 1,000 元折扣</span></li>
-              <li><span class="Important">他店學生來iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元</span></li>
+              <li><span class="Important">他店學生來iDiving 進行後續課程，欲取得LV1課程贈品，享會員價</span></li>
               <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </ul>
           </td>
@@ -1426,15 +1426,15 @@
                 </table>
                 <table width="100%" style="text-align: justify;">
                   <tr>
-                    <td colspan="4"><span class="Important">贈品：全套總價 3,860 元</span></td>
+                    <td colspan="4"><span class="Important">贈品：全套總價 2,880 元</span></td>
                   </tr>
                   <tr align="center">
                     <td style="vertical-align:middle;"><img src="../Image/Data/FD_17.jpg" width="50%" /></td>
                     <td><img src="../Image/Data/FD_18.jpg" width="80%" /></td>
                     <td><img src="../Image/Data/FD_19.jpg" width="80%" /></td>
                     <td nowrap style="vertical-align:middle;">
-                      面鏡 SPHERA（市價 1,800）<br>
-                      呼吸管（市價 780）<br>
+                      面鏡 STEAM（市價 1,180）<br>
+                      呼吸管（市價 420）<br>
                       配重帶（市價 1,280）<br>
                       彩色款+300元
                     </td>
@@ -1442,7 +1442,7 @@
                 </table>
               <br>
               <li><span class="Important">「本店OWD學生」報名1級自潛員可享 1,000 元折扣</span></li>
-              <li><span class="Important">他店學生來iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元</span></li>
+              <li><span class="Important">他店學生來iDiving 進行後續課程，欲取得LV1課程贈品，享會員價</span></li>
               <li><span class="Large Focus">往後參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </ul>
           </td>
@@ -1473,15 +1473,15 @@
                 </table>
                 <table width="100%" style="text-align: justify;">
                   <tr>
-                    <td colspan="4"><span class="Important">輕裝優惠套裝，全套原價 3,860 元，學生優惠價 3,000 元</span></td>
+                    <td colspan="4"><span class="Important">輕裝優惠套裝，全套原價 2,880 元。</span></td>
                   </tr>
                   <tr align="center">
                     <td style="vertical-align:middle;"><img src="../Image/Data/FD_17.jpg" width="50%" /></td>
                     <td><img src="../Image/Data/FD_18.jpg" width="80%" /></td>
                     <td><img src="../Image/Data/FD_19.jpg" width="80%" /></td>
                     <td nowrap style="vertical-align:middle;">
-                      面鏡 SPHERA（市價 1,800）<br>
-                      呼吸管（市價 780）<br>
+                      面鏡 STEAM（市價 1,180）<br>
+                      呼吸管（市價 420）<br>
                       配重帶（市價 1,280）<br>
                       彩色款+300元
                     </td>
@@ -1518,15 +1518,15 @@
                 </table>
                 <table width="100%" style="text-align: justify;">
                   <tr>
-                    <td colspan="4"><span class="Important">輕裝優惠套裝，全套原價 3,860 元，學生優惠價 3,000 元</span></td>
+                    <td colspan="4"><span class="Important">輕裝優惠套裝，全套原價 2,880 元。</span></td>
                   </tr>
                   <tr align="center">
                     <td style="vertical-align:middle;"><img src="../Image/Data/FD_17.jpg" width="50%" /></td>
                     <td><img src="../Image/Data/FD_18.jpg" width="80%" /></td>
                     <td><img src="../Image/Data/FD_19.jpg" width="80%" /></td>
                     <td nowrap style="vertical-align:middle;">
-                      面鏡 SPHERA（市價 1,800）<br>
-                      呼吸管（市價 780）<br>
+                      面鏡 STEAM（市價 1,180）<br>
+                      呼吸管（市價 420）<br>
                       配重帶（市價 1,280）<br>
                       彩色款+300元
                     </td>
@@ -1563,15 +1563,15 @@
                 </table>
                 <table width="100%" style="text-align: justify;">
                   <tr>
-                    <td colspan="4"><span class="Important">贈品：全套總價 3,860 元</span></td>
+                    <td colspan="4"><span class="Important">贈品：全套總價 2,880 元</span></td>
                   </tr>
                   <tr align="center">
                     <td style="vertical-align:middle;"><img src="../Image/Data/FD_17.jpg" width="50%" /></td>
                     <td><img src="../Image/Data/FD_18.jpg" width="80%" /></td>
                     <td><img src="../Image/Data/FD_19.jpg" width="80%" /></td>
                     <td nowrap style="vertical-align:middle;">
-                      面鏡 SPHERA（市價 1,800）<br>
-                      呼吸管（市價 780）<br>
+                      面鏡 STEAM（市價 1,180）<br>
+                      呼吸管（市價 420）<br>
                       配重帶（市價 1,280）<br>
                       彩色款+300元
                     </td>
@@ -1583,7 +1583,7 @@
                 初級自潛員報名平靜水域自潛員課程，僅完成欠缺課程並取得執照只要 4,000 元<br/>
                 初級自潛員報名 LV1 課程，僅完成欠缺的課程並取得執照只要 10,000 元<br/>
                 平靜水域自潛員報名LV1課程，僅完成欠缺的課程並取得執照只要 7,500 元<br/>
-                他店學生來 iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元
+                他店學生來 iDiving 進行後續課程，欲取得LV1課程贈品，享會員價
               </li>
               <li><span class="Large Focus">參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </Ul>
@@ -1615,15 +1615,15 @@
                 </table>
                 <table width="100%" style="text-align: justify;">
                   <tr>
-                    <td colspan="4"><span class="Important">贈品：全套總價 3,860 元</span></td>
+                    <td colspan="4"><span class="Important">贈品：全套總價 2,880 元</span></td>
                   </tr>
                   <tr align="center">
                     <td style="vertical-align:middle;"><img src="../Image/Data/FD_17.jpg" width="50%" /></td>
                     <td><img src="../Image/Data/FD_18.jpg" width="80%" /></td>
                     <td><img src="../Image/Data/FD_19.jpg" width="80%" /></td>
                     <td nowrap style="vertical-align:middle;">
-                      面鏡 SPHERA（市價 1,800）<br>
-                      呼吸管（市價 780）<br>
+                      面鏡 STEAM（市價 1,180）<br>
+                      呼吸管（市價 420）<br>
                       配重帶（市價 1,280）<br>
                       彩色款+300元
                     </td>
@@ -1635,7 +1635,7 @@
                 初級自潛員報名平靜水域自潛員課程，僅完成欠缺課程並取得執照只要 4,000 元<br/>
                 初級自潛員報名 LV1 課程，僅完成欠缺的課程並取得執照只要 10,000 元<br/>
                 平靜水域自潛員報名LV1課程，僅完成欠缺的課程並取得執照只要 7,500 元<br/>
-                他店學生來 iDiving 進行後續課程，欲取得LV1課程贈品，享加購價 3,000 元
+                他店學生來 iDiving 進行後續課程，欲取得LV1課程贈品，享會員價
               </li>
               <li><span class="Large Focus">參加自潛活動費用：每次 500 元，10 次特價 4,000 元</span></li>
             </Ul>
@@ -1681,7 +1681,15 @@
           <td>
             <ol>
               <li>iDiving採有條件式保證班教學（註），如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
-              <li>若學員自行放棄課程，本訓練中心將不予退費；但因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。</li>
+              <li>
+                學員自行放棄課程，本訓練中心將不予退費。因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用退費方式說明如下：<br>
+                3,000 元訂金用做購買線上教材，無法退費；<br>
+                開課前 30 天以上，退回全新贈品，可退費 12,000；<br>
+                開課前 30 天以內，退回全新贈品，可退費 10,000；<br>
+                上過學科，退回全新贈品：可退費 8,000；<br>
+                贈品已使用或上過泳池課：可退費 6,000；<br>
+                上過海洋實習課程：不可退費。
+              </li>
               <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
               <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
               <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
