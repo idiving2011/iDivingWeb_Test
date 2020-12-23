@@ -1040,8 +1040,7 @@
       </Block>
       <Block id="plan13" caption="開課日期" method="html" back="#top" tag="水下攝影">
         <![CDATA[
-          <!--<img src="../Image/Data/SP_Schedule.png" width="80%"/>-->
-          <div>敬請期待</div>
+          <img src="../Image/Data/PV_Schedule.png" width="80%"/>
         ]]>
       </Block>
       <Block id="tuition13" caption="超值學費" method="html" back="#top" tag="水下攝影">
