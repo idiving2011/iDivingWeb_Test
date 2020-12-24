@@ -1171,8 +1171,7 @@
   </Block>
     <Block id="plan14" caption="開課日期" method="html" back="#top" tag="專長學科開課總表">
       <![CDATA[
-          <p>此表格僅顯示出個別專長課程的開課日期，不同專長術科要求不盡相同，詳細課程日期請參考各項專長內容。</p>
-          <img src="../Image/Data/AA_SP_Schedule.png" width="80%"/>
+          <p>詳細課程日期請參考各項專長內容。</p>
       ]]>
     </Block>
     <Block id="plan15" caption="" method="html" back="#top" tag="獎勵認證方案">
