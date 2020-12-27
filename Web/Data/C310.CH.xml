@@ -33,7 +33,6 @@
       <Item name="乾衣"/>
       <Item name="ECO DIVER"/>
     </Item>
-    <Item name="專長學科開課總表"/>
     <Item name="獎勵認證方案"/>
   </Block>
 
@@ -1169,11 +1168,6 @@
       </table>
     ]]>
   </Block>
-    <Block id="plan14" caption="開課日期" method="html" back="#top" tag="專長學科開課總表">
-      <![CDATA[
-          <p>詳細課程日期請參考各項專長內容。</p>
-      ]]>
-    </Block>
     <Block id="plan15" caption="" method="html" back="#top" tag="獎勵認證方案">
       <![CDATA[
           <p>為鼓勵學員能精進自身技巧並增進潛水安全，SSI將贈送特定執照給達成3階段目標的學員。</p>
@@ -1209,7 +1203,7 @@
         </ol>
       ]]>
     </Block>
-    <Block id="notice_general" caption="學前須知" method="html" back="#top" tag="深潛;夜潛;高氧;完美浮力;導航;正確反應員;壓力與救援;船潛;電腦錶;水下攝影;側掛;乾衣;搜索與找回;專長學科開課總表;獎勵認證方案">
+    <Block id="notice_general" caption="學前須知" method="html" back="#top" tag="深潛;夜潛;高氧;完美浮力;導航;正確反應員;壓力與救援;船潛;電腦錶;水下攝影;側掛;乾衣;搜索與找回;獎勵認證方案">
       <![CDATA[
         <table width="70%" cellpadding="0" cellspacing="0" style="text-align: justify;">
           <tr>
