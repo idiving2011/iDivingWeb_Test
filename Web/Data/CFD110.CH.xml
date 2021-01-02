@@ -2,7 +2,7 @@
 <Data>
   <Block id="intro" method="html">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td colspan="2"><img src="../Image/Data/FD_AD.PNG" width="100%"/></td>
         </tr>
@@ -43,7 +43,7 @@
   <!-- LV1 介紹 -->
   <Block id="LV1desc" method="html" back="#top" tag="LV1冬季班,LV1夏季假日班,LV1夏季平日班">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td colspan="2">
             <ul>
@@ -70,7 +70,7 @@
   <!-- LV1 課程規劃，假日班 -->
   <Block id="LV1curriculum1" caption="課程規劃" method="html" back="#top" tag="LV1夏季假日班">
     <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -168,7 +168,7 @@
         <tr>
       </table>
       <br/>
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
           <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
@@ -182,7 +182,7 @@
   <!-- LV1 課程規劃，平日班 -->
   <Block id="LV1curriculum2" caption="課程規劃" method="html" back="#top" tag="LV1夏季平日班">
     <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -289,7 +289,7 @@
   <!-- LV1 課程規劃，冬季班 -->
   <Block id="LV1curriculum3" caption="課程規劃" method="html" back="#top" tag="LV1冬季班">
     <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -376,7 +376,7 @@
         <tr>
       </table>
       <br/>
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
           <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
@@ -391,7 +391,7 @@
   <!-- LV2 介紹 -->
   <Block id="LV2desc" method="html" back="#top" tag="2級自潛員">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td colspan="2">
             <ul>
@@ -418,7 +418,7 @@
   <!-- LV2 課程規劃 -->
   <Block id="LV2curriculum" caption="課程規劃" method="html" back="#top" tag="2級自潛員">
     <![CDATA[ 
-      <!--<table width="70%" style="text-align: justify;">
+      <!--<table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -520,7 +520,7 @@
         <tr>
       </table>
       <br/>-->
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -618,7 +618,7 @@
         <tr>
       </table>
       <br/>
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
           <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
@@ -633,7 +633,7 @@
   <!-- LV3 介紹 -->
   <Block id="LV3desc" method="html" back="#top" tag="3級自潛員">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td colspan="2">
             <ul>
@@ -653,7 +653,7 @@
   <!-- LV3 課程規劃 -->
   <Block id="LV3curriculum" caption="課程規劃" method="html" back="#top" tag="3級自潛員">
     <![CDATA[ 
-      <!--<table width="70%" style="text-align: justify;">
+      <!--<table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -755,7 +755,7 @@
         <tr>
       </table>
       <br/>-->
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -853,7 +853,7 @@
         <tr>
       </table>
       <br/>
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
           <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
@@ -868,7 +868,7 @@
   <!-- BASIC 介紹 -->
   <Block id="BASICdesc" method="html" back="#top" tag="BASIC假日班,BASIC平日班">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td colspan="2">
             <ul>
@@ -896,7 +896,7 @@
   <!-- BASIC 課程規劃，假日班 -->
   <Block id="BASICcurriculum1" caption="課程規劃" method="html" back="#top" tag="BASIC假日班">
     <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -938,7 +938,7 @@
         <tr>
       </table>
       <br/>
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
           <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
@@ -952,7 +952,7 @@
   <!-- BASIC 課程規劃，平日班 -->
   <Block id="BASICcurriculum2" caption="課程規劃" method="html" back="#top" tag="BASIC平日班">
     <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -999,7 +999,7 @@
   <!-- POOL 介紹 -->
   <Block id="POOLdesc" method="html" back="#top" tag="POOL假日班,POOL平日班">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td colspan="2">
             <ul>
@@ -1027,7 +1027,7 @@
   <!-- POOL 課程規劃，假日班 -->
   <Block id="POOLcurriculum1" caption="課程規劃" method="html" back="#top" tag="POOL假日班">
     <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -1100,7 +1100,7 @@
         <tr>
       </table>
       <br/>
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td width="33%"><img src="../Image/Data/FD_11.jpg" width="100%" /></td>
           <td rowspan="2"><img src="../Image/Data/FD_13.jpg" width="100%" /></td>
@@ -1114,7 +1114,7 @@
   <!-- POOL 課程規劃，平日班 -->
   <Block id="POOLcurriculum2" caption="課程規劃" method="html" back="#top" tag="POOL平日班">
     <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -1187,7 +1187,7 @@
         <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
         <li>假日班課程規劃如下</li>
       </ul>-->
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <strong style="font-size:20px">2021年5月 ~ 2021年9月 LV1 假日班 開課日期</strong><br/>
@@ -1201,7 +1201,7 @@
           <td><img src="../Image/Data/FD_Schedule_summer_Weekend.png" width="100%"/></td>
         </tr>
       </table>
-      <!--<table width="70%" style="text-align: justify;">
+      <!--<table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <strong style="font-size:20px">開課日期排定中...</strong><br/>
@@ -1218,7 +1218,7 @@
         <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
         <li>假日班課程規劃如下</li>
       </ul>-->
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <strong style="font-size:20px">2021年5月 ~ 2021年9月 LV1 假日班 開課日期</strong><br/>
@@ -1232,7 +1232,7 @@
           <td><img src="../Image/Data/FD_Schedule_summer_Weekdays.png" width="100%"/></td>
         </tr>
       </table>
-      <!--<table width="70%" style="text-align: justify;">
+      <!--<table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <strong style="font-size:20px">開課日期排定中...</strong><br/>
@@ -1252,7 +1252,7 @@
         <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
         <li>假日班課程規劃如下</li>
       </ul>-->
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <strong style="font-size:20px">2020年10月 ~ 2021年4月 LV1 假日班 開課日期</strong><br/>
@@ -1277,7 +1277,7 @@
         <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
         <li>假日班課程規劃如下</li>
       </ul>-->
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -1303,7 +1303,7 @@
         <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
         <li>假日班課程規劃如下</li>
       </ul>-->
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td><img src="../Image/Data/FD_Schedule.png" width="100%"/></td>
         </tr>
@@ -1329,7 +1329,7 @@
         <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
         <li>假日班課程規劃如下</li>
       </ul>-->
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td><img src="../Image/Data/FD_Schedule_summer.png" width="100%"/></td>
         </tr>
@@ -1351,7 +1351,7 @@
   <!-- LV1冬季班 超值學費 -->
   <Block id="LV1Wintertuition" caption="超值學費" method="html" back="#top" tag="LV1冬季班">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -1394,11 +1394,11 @@
       </table>
     ]]>
   </Block>
-  
+
   <!-- LV1 超值學費 -->
   <Block id="LV1tuition" caption="超值學費" method="html" back="#top" tag="LV1夏季假日班,LV1夏季平日班">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <ul>
@@ -1445,7 +1445,7 @@
   <!-- LV2 超值學費 -->
   <Block id="LV2tuition" caption="超值學費" method="html" back="#top" tag="2級自潛員">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <Ul>
@@ -1490,7 +1490,7 @@
   <!-- LV3 超值學費 -->
   <Block id="LV3tuition" caption="超值學費" method="html" back="#top" tag="3級自潛員">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <Ul>
@@ -1535,7 +1535,7 @@
   <!-- BASIC 超值學費 -->
   <Block id="BASICtuition" caption="超值學費" method="html" back="#top" tag="BASIC假日班,BASIC平日班">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <Ul>
@@ -1587,7 +1587,7 @@
   <!-- POOL 超值學費 -->
   <Block id="POOLtuition" caption="超值學費" method="html" back="#top" tag="POOL假日班,POOL平日班">
     <![CDATA[
-      <table width="70%" style="text-align: justify;">
+      <table width="80%" style="text-align: justify;">
         <tr>
           <td>
             <Ul>
@@ -1666,38 +1666,79 @@
     ]]>
   </Block>
   <Block id="notice" caption="學前須知" method="html" back="#top">
-    <![CDATA[
-      <table width="70%" style="text-align: justify;">
+    <![CDATA[ 
+      <table width="80%" style="text-align: justify;">
         <tr>
+          <td>1.&nbsp;&nbsp;</td>
           <td>
-            <ol>
-              <li>iDiving採有條件式保證班教學（註），如果學員延訓不另外加收訓練費或裝備使用費。所有課程須於 2 個月內完成 (9 月後報名隔年 5 月前完成)。約定日期之更改須在 15 天前告知。15 天內更動或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。</li>
-              <li>
-                學員自行放棄課程，本訓練中心將不予退費。因身體不適且經醫生證明不宜從事潛水活動者，繳交之訓練費用退費方式說明如下：<br>
-                3,000 元訂金用做購買線上教材，無法退費；<br>
-                開課前 30 天以上，退回全新贈品，可退費 12,000；<br>
-                開課前 30 天以內，退回全新贈品，可退費 10,000；<br>
-                上過學科，退回全新贈品：可退費 8,000；<br>
-                贈品已使用或上過泳池課：可退費 6,000；<br>
-                上過海洋實習課程：不可退費。
-              </li>
-              <li>學員在 iDiving 購買潛水器材享有學員優惠價。</li>
-              <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
-              <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
-              <li>
-                學員結訓後，訓練中心將於兩週內完成 SSI 國際數位潛水證照申請。<br>
-                （如有急需請先告知，本中心可於課程完成後的兩個工作天內完成申請）
-              </li>
-            </ol>
+            iDiving採有條件的保證班教學（註），課程須於開始上課後的兩個月內完成。<span class="Important">上課日期之更改須在 10 天前告知，若於上課日期 10 天內才要調整，每次需收取課程調整費 500 元，若是上課當天才通知要更改日期或曠課未通知則需收取課程調整費 1,000 元，如果是因身體不適</span>，出示醫院掛號單據者則不收取。
           </td>
         </tr>
         <tr>
+          <td>2.</td>
           <td>
-            註：<br>
+            <table>
+              <tr>
+                <td width="1%" nowrap><span class="Important">學費包含：</span></td>
+                <td><span class="Important">數位教材、教練費、泳池場地費、訓練期間部分裝備（防寒衣、自潛用長蛙、配重）使用、海洋實習保險及數位證照申請。</span></td>
+              </tr>
+              <tr>
+                <td width="1%" nowrap><span class="Important">學費不含：</span></td>
+                <td><span class="Important">面鏡、呼吸管、配重帶（需自備，亦可租借）使用、餐飲、交通、住宿等費用。</span></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>
+            學員自行放棄課程，本訓練中心將不予退費。若因身體因素而不適合從事潛水活動，並開立醫生證明者，繳交之費用退費方式如下：<br/>
+            NT 3,000 元訂金用做購買線上教材，無法退費；<br/>
+            開課前 30 天以上，退回全新贈品，可退費 NT 12,000 元；<br/>
+            開課前 30 天之內，退回全新贈品，可退費 NT 10,000 元；<br/>
+            已上過學科，退回全新贈品，可退費 NT 8,000 元；<br/>
+            已上過泳池課程或贈品已使用，可退費 NT 6,000 元；<br/>
+            已上過海洋實習，不可退費。
+          </td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>
+            學員於在學期間購買潛水器材享有會員優惠價。<br/>
+            訓練期間所提供之裝備若有穿戴不適或任何問題，請務必告知主持教練。<br/>
+            課程之學費、器材之購買費用與2吋大頭照，請於泳池課程之前繳齊。
+          </td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>
+            上課地點，往返之交通請自行處理，<span class="Important">若有需要可以詢問是否能代為安排</span><br/>
+            教室學科：iDiving士林前港店（台北市士林區前港街8號）<br/>
+            泳池術科：前港公園泳池（需先到iDiving集合）<br/>
+            海洋實習：<br/>
+            <span class="Important">夏季東北角（iDiving 東北角龍洞店 新北市貢寮區龍洞街 66-1 號）</span><br/>
+            <span class="Important">冬季潛立方（台中市西屯區安和西路 69 號）或 各移地結訓地</span>
+          </td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td>
+            結訓之學員均需達到課程標準，包括學科與術科之評鑑：<br/>
+            學科：需通過筆試測驗（成績達 80 分以上），未達標準需於檢討後重考。<br/>
+            術科：平靜水域所學之潛水技巧須在開放水域操作，並接受教練評鑑。<br/>
+            學員結訓後，<span class="Important">訓練中心將於一週內完成SSI國際數位證照申請。</span><br/>
+            <span class="Important">（如有急需請先告知，本中心可於課程完成後的下一個工作天內完成申請）</span>
+          </td>
+        </tr>
+      </table>
+      <table width="80%" style="text-align: justify;">
+        <tr>
+          <td>
+            註：<br/>
             <ul>
-              <li>如果各項技巧尚未學會，iDiving 將會一直免費培訓，但如果學生已經學會各項技巧，但無法通過測驗，則依照下面說明進行補課或核發執照。（＊耳壓平衡技巧僅須學會１種）。</li>
-              <li>4-9月自由潛水 LV1 課程，每位學生有２天的結訓機會，如果無法通過測驗，可以免費再增加２天進行練習。如果還是無法通過測驗，則需自費 500 元/天進行補考，亦可選擇核發＂泳池自由潛水員＂執照 (SSI-Pool Free Diver)。在夏季課程中的任何時候, 如果計畫於10-3月前往潛立方繼續課程，須自付 1,500 元（潛立方21米池９０分鐘場地費），如使用 3 小時，須自付 2,500 元</li>
-              <li>10月-隔年3月冬季自由潛水 LV1 課程，每位學生有1天的結訓機會，如果測驗失敗欲補考，須自付 1,500 元（潛立方21米池９０分鐘場地費），如使用 3 小時，須自付 2,500 元，如計畫於 4-9 月進行東北角海洋結訓，則需自費 500 元/天進行補考，亦可選擇核發＂泳池自由潛水員＂執照 (SSI-Pool Free Diver)。</li>
+              <li>如果各項技巧尚未學會，iDiving 將會一直免費培訓，但如果學生已經學會各項技巧，但無法通過測驗，則依照下面說明進行補考及核發執照。（＊耳壓平衡技巧僅須學會１種）。</li>
+              <li>5-9 月自由潛水 LV1 課程，每位學生有 3 次的結訓機會，如果無法通過測驗，則核發＂泳池自由潛水員＂執照（SSI-Pool Free Diver）。取得 POOL 執照一年內補訓通過者，免升級證照費用（每次補訓需繳交補訓費用）則需自費 750 元/次 進行補考。在夏季課程中的任何時候, 如果計畫於 10-3 月前往潛立方繼續課程，須自付 1,500 元（潛立方21米池 90 分鐘場地費），如使用 3 小時，須自付 2,500 元。</li>
+              <li>10 月-隔年 4 月冬季自由潛水 LV1 課程，每位學生有 1 天的結訓機會，如果無法通過測驗，則核發＂泳池自由潛水員＂執照（SSI-Pool Free Diver），取得 POOL 執照一年內補訓通過者，免升級證照費用（每次補訓需繳交補訓費用）。如果測驗失敗欲補考，須自付 1,500 元（潛立方21米池 90 分鐘場地費），如使用 3 小時，須自付 2,500 元，如計畫於 5-9 月進行東北角海洋結訓，則需自費 750 元/次 進行補考。</li>
             </ul>
           </td>
         </tr>
