@@ -1712,12 +1712,26 @@
         <tr>
           <td>5.</td>
           <td>
-            上課地點，往返之交通請自行處理，<span class="Important">若有需要可以詢問是否能代為安排</span><br/>
-            教室學科：iDiving士林前港店（台北市士林區前港街8號）<br/>
-            泳池術科：前港公園泳池（需先到iDiving集合）<br/>
-            海洋實習：<br/>
-            <span class="Important">夏季東北角（iDiving 東北角龍洞店 新北市貢寮區龍洞街 66-1 號）</span><br/>
-            <span class="Important">冬季潛立方（台中市西屯區安和西路 69 號）或 各移地結訓地</span>
+            <table>
+              <tr>
+                <td colspan="2">上課地點，往返之交通請自行處理，<span class="Important">若有需要可以詢問是否能代為安排</span><br/></td>
+              </tr>
+              <tr>
+                <td>教室學科：</td>
+                <td>iDiving士林前港店（台北市士林區前港街8號）</td>
+              </tr>
+              <tr>
+                <td>泳池術科：</td>
+                <td>前港公園泳池（需先到iDiving集合）</td>
+              </tr>
+              <tr>
+                <td>海洋實習：</td>
+                <td>
+                  <span class="Important">夏季東北角（iDiving 東北角龍洞店 新北市貢寮區龍洞街 66-1 號）</span><br/>
+                  <span class="Important">冬季潛立方（台中市西屯區安和西路 69 號）或 各移地結訓地</span>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
         <tr>
