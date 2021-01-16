@@ -1,184 +1,256 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
     <Block id="title" method="title" text="進階探索潛水員"/>
-    <Block id="nav" method="nav">
+    <!--<Block id="nav" method="nav">
         <Item name="課程規劃" href="#weekend"></Item>
         <Item name="開課日期" href="#plan"></Item>
         <Item name="超值學費" href="#tuition"></Item>
         <Item name="立刻報名" href="#register"></Item>
         <Item name="學前須知" href="#notice"></Item>
-    </Block>
-    <Block id="intro" method="html" back="#top">
+    </Block>-->
+    <Block id="intro" caption="課程介紹" method="html" back="#top">
       <![CDATA[
-            <table width="80%" style="table-layout: fixed;">
-              <tr>
-                <td><img src="../Image/Data/AA_01.jpg" width="100%"/></td>
-              </tr>
-              <tr>
-                <td>&nbsp;</td>
-              </tr>
-              <tr>
-                <td>
-                  還不確定你想參加哪種專長課程嗎? 沒關係, iDiving為您精選出5項實用專長供您體驗！<br/>
-                  進階探索潛水員課程是您超值的選擇, 一個課程5個專長探索, 然而如果您已經打定主意要參予特定專長課程, 那就跳過AA吧!  您可以直接報名該項<a href="C310.php">專長課程</a>。
-                </td>
-              </tr>
-              <tr>
-                <td><img src="../Image/Data/AA_02.png" width="100%"/></td>
-              </tr>
-            </table>
-            ]]>
+        <table width="80%" style="table-layout: fixed;">
+        <tr>
+          <td>
+            取得開放水域潛水員（OWD）證照只是拿到進入海底世界的門票，若想潛水深度不再受到18米的限制、想知道搭船潛水的方便與樂趣、想瞭解如何準確地回到下水處，相信進階探險（Advanced Adventurer）這門課程會是您的最佳選擇。內容包含大深度潛水、搭船潛水、水中導航的相關技巧，課程中也針對中性浮力控制及潛水電腦錶應用加強練習，讓您的潛水知識與能力再次提升！
+          </td>
+        </tr>
+      </table>
+      ]]>
     </Block>
     <Block id="weekend" caption="課程規劃" method="html" back="#top">
       <![CDATA[ 
-            <table border="1" width="80%">
-              <tr align="center">
-                <td></td>
-                <td>時 間</td>
-                <td>課 程 內 容</td>
-                <td>上課地點</td>
-              </tr>
-              <tr align="center">
-                <td>學 科</td>
-                <td>第 一 堂<br/>19：10 ~ 22：00</td>
-                <td>
-                  自然導航與指北針導航體驗<br/>
-                  深潛體驗<br/>
-                  船潛技巧體驗<br/>
-                  完美浮力體驗<br/>
-                  電腦錶專長體驗
-                </td>
-                <td>iDiving<br/>教 室</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="2">海 洋 實 習</td>
-                <td>周 六<br/>09：00 ~ 17：00</td>
-                <td>
-                  中性浮力練習<br/>
-                  船潛出入水規則, 浮力棒使用<br/>
-                  電腦錶使用練習
-                </td>
-                <td>
-                  東北角<br/>
-                  或搭配<br/>
-                  潛水旅遊
-                </td>
-              </tr>
-              <tr align="center">
-                <td>周 日<br/>09：00 ~ 17：00</td>
-                <td>
-                  深潛：控制下潛、計算練習、深度控制<br/>
-                  導航演練：自然+指北針直線去回導航<br/>
-                  電腦錶使用練習
-                </td>
-                <td>
-                  東北角<br/>
-                  或搭配<br/>
-                  潛水旅遊
-                </td>
-              </tr>
-            </table>
-        ]]>
+        <ul>
+          <li>假日班</li>
+        </ul>
+        <table border="1" width="80%" style="table-layout: fixed;">
+        <tr align="center">
+          <td width="10%">&nbsp;</td>
+          <td width="20%">時間</td>
+          <td>內容</td>
+          <td width="15%">地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學科</td>
+          <td style="vertical-align:middle;">19：10 ~ 21：00</td>
+          <td style="vertical-align:middle;">船潛、深潛、水中導航、完美浮力、潛水電腦錶</td>
+          <td style="vertical-align:middle;">iDiving<br/>教 室</td>
+        </tr>
+        <tr align="center">
+          <td rowspan="2" style="vertical-align:middle;">海洋</td>
+          <td style="vertical-align:middle;">
+            第一堂 (周六)<br/>
+            09：00 ~ 17：30
+          </td>
+          <td style="vertical-align:middle;">
+            中性浮力練習、電腦錶應用<br/>
+            大深度體驗、水中導航練習
+          </td>
+          <td rowspan="2" style="vertical-align:middle;">
+            東北角<br/>
+            龍洞<br/>
+            海域
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">
+            第二堂 (周日)<br/>
+            09：00 ~ 14：00
+          </td>
+          <td style="vertical-align:middle;">
+            船潛出入水方式與水面標示浮標使用<br/>
+            加強中性浮力控制及電腦錶應用
+          </td>
+        </tr>
+      </table>
+      <br/>
+      <ul>
+          <li>平日班</li>
+        </ul>
+        <table border="1" width="80%" style="table-layout: fixed;">
+        <tr align="center">
+          <td width="10%">&nbsp;</td>
+          <td width="20%">時間</td>
+          <td>內容</td>
+          <td width="15%">地點</td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">學科</td>
+          <td style="vertical-align:middle;">09：10 ~ 11：00</td>
+          <td style="vertical-align:middle;">船潛、深潛、水中導航、完美浮力、潛水電腦錶</td>
+          <td style="vertical-align:middle;">iDiving<br/>教 室</td>
+        </tr>
+        <tr align="center">
+          <td rowspan="2" style="vertical-align:middle;">海洋</td>
+          <td style="vertical-align:middle;">
+            第一堂<br/>
+            13：00 ~ 18：00
+          </td>
+          <td style="vertical-align:middle;">
+            中性浮力練習、電腦錶應用、水中導航練習
+          </td>
+          <td rowspan="2" style="vertical-align:middle;">
+            東北角<br/>
+            龍洞<br/>
+            海域
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="vertical-align:middle;">
+            第二堂<br/>
+            10：00 ~ 17：00
+          </td>
+          <td style="vertical-align:middle;">
+            船潛出入水方式與水面標示浮標使用<br/>
+            大深度體驗、加強中性浮力控制及電腦錶應用
+          </td>
+        </tr>
+      </table>
+    ]]>
     </Block>
     <Block id="plan" caption="開課日期" method="html" back="#top">
       <![CDATA[
-              <img src="../Image/Data/AA_Schedule.png" width="80%"/>
-          ]]>
+          <img src="../Image/Data/AA_Schedule.png" width="80%"/>
+      ]]>
     </Block>
     <Block id="tuition" caption="超值學費" method="html" back="#top">
       <![CDATA[
-                <ul>
-                  <li><span class="Large Focus">定價 11,000 元</span></li>
-                  <li><span class="Large Important">現金優惠，折扣 300 元</span></li>
-                  <li><span class="Large Important">iDiving 的 OWD 學員結訓一個月內報名再優惠 2,000 元</span></li>
-                </ul>
-                <br/>
-                <div>費用包含：線上教材、國際數位證照申請、教練費、重裝租借費用、東北角海洋實習費用與保險費。</div>
-                <div>費用不含：輕裝租借(400 元/天)。移地結訓時之旅遊團費（請參考各旅遊團實際出團報價）。</div>
-                <br/>
-                <h3><div><span style="font-weight: bold">iDiving 全方位潛水中心 2020 年國內潛水旅遊團費</span></div></h3>
-                <table border="1" width="50%">
-                  <tr align="center">
-                    <td width="40%">地點</td>
-                    <td width="30%">團費</td>
-                    <td width="30%">日期</td>
-                  </tr>
-                  <tr align="center">
-                    <td><a href="D120.php">墾丁</a></td>
-                    <td>8,000 元</td>
-                    <td>兩天兩夜</td>
-                  </tr>
-                  <tr align="center">
-                    <td><a href="D130.php">小琉球</a></td>
-                    <td>9,000 元</td>
-                    <td>兩天一夜</td>
-                  </tr>
-                  <tr align="center">
-                    <td><a href="D140.php">綠島</a></td>
-                    <td>13,000 元</td>
-                    <td>三天兩夜</td>
-                  </tr>
-                  <tr align="center">
-                    <td><a href="D150.php">蘭嶼</a></td>
-                    <td>18,000 元</td>
-                    <td>四天三夜</td>
-                  </tr>
-                </table>
-            ]]>
+        <ul>
+          <li><span class="Large Focus">定價 11,000 元</span></li>
+          <li>優惠1：現金優惠，課程費用<span class="Large Important">付現 / 匯款</span>，可折扣 300 元。</li>
+          <li>優惠２：iDiving的OWD學員，於結訓後一個月內完成報名<span class="Large Important">（需填寫報名資料及繳交3,000元定金）</span>，可享有2,000元折扣。</li>
+        </ul>
+        <span>註：以上優惠只要符合條件，可合併使用</span>
+        <br/>
+        <br/>
+        <div>費用包含：SSI數位教材、國際數位證照申請、教練費、訓練期間潛水重裝使用（浮力調整裝置、調節器、電腦錶）、旅遊平安保險。</div>
+        <div>費用不含：海洋實習交通與用餐費用、浮潛裝備租借。</div>
+        <div>注意事項：假日班學生可改於平日班完成術科，無額外優惠，亦不須額外付費。</div>
+        <div>指定費用：若要指定教練，須加價500元／日，如果該名教練已安排其他事項恕無法指定。</div>
+    ]]>
     </Block>
     <Block id="register" caption="報名方式" method="html" back="#top">
       <![CDATA[
-              <ol>
-                  <li>網路填寫報名資料並匯款訂金。</li>
-                  <li>來店洽詢並繳交訂金。</li>
-              </ol>
-          ]]>
-    </Block>
-    <Block id="processing" caption="網路報名流程" method="html" back="#top">
-      <![CDATA[
-            <ol>
-              <li><a href="CZ01.php">線上填寫報名表</a></li>
+        <ul>
+        <table border="0" width="80%">
+          <tr>
+            <td><li>網路填寫報名資料（<a href="CZ01.php">線上填寫報名表</a>）並繳交 3,000 元定金，若以匯款方式付定，請告知您的匯款帳號末五碼以便查詢，謝謝。</li></td>
+          </tr>
+          <tr>
+            <td>
               <li>
-                繳交訂金 3,000 元，<br/>
+                匯款資訊<br/>
                 銀行：中國信託<br/>
                 分行：士林分行<br/>
                 戶名：愛潛水股份有限公司<br/>
                 代號：822<br/>
-                帳號：285-54009941-9
+                帳號：285-54009941-9<br/>
+                若以匯款方式繳付定金，請告知您的匯款帳號末五碼以便查詢，謝謝。
               </li>
+            </td>
+          </tr>
+          <tr>
+            <td>
               <li>
-                以匯款方式繳費者請來電（02-2882-7696）告知帳號末５碼<br>
-                營業時間  夏季：14:00-22:00  冬季：15:00-21:00  周一公休
+                市話：02-2882-7696<br/>
+                Line@ ID：@iDiving（加好友後請先傳送訊息）
               </li>
-              <li>收到訂金與資料後，iDiving 會至 SSI 全球官網註冊您的學籍。<span class="Important">一經註冊，請恕無法退訂金。</span></li>
-              <li>上課前請準備好個人照片電子檔，申請潛水證照使用</li>
-            </ol>
-          ]]>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>
+                營業時間<br/>
+                <span class="Large Important">周一公休</span>，周日為 13：00 ~ 19：00<br/>
+                4 ~ 10月　週二 ~ 周六　14：00 ~ 22：00<br/>
+                11 ~ 3月　週二 ~ 周六　15：00 ~ 21：00
+              </li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>收到報名資料與定金後即會為您保留該課程名額，且會至SSI全球官網為您註冊學籍。<span class="Large Important">一經註冊，請恕無法退還定金。</span></li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <li>上課前請備好個人照片（<span class="Large Important">需正面且五官清晰</span>，不戴帽），為申請潛水證照使用。</li>
+            </td>
+          </tr>
+      </ul>
+      ]]>
     </Block>
   <Block id="notice" caption="學前須知" method="html" back="#top">
     <![CDATA[
-            <ol>
-                <li>
-                  iDiving採保證班的教學方式，如果學員須複習或延訓，不另外加收訓練費或裝備使用費。<br/>
-                  但因故自行拖延上課，導致學習效果不佳，所衍生的泳池費用需自行吸收。所有課程須於2<br/>
-                  個月內完成 (9月後報名隔年5月前完成)。約定日期之更改須在 15 天前告知。15 天內更動<br/>
-                  或未告知而曠課，補課需額外負擔 1,000 元，身體不適，出示醫院掛號收據者不收。
-                </li>
-                <li>
-                  費用包含：器材租借費、教練費、海洋實習保險及證照申請費。<br/>
-                  學費不含：上課期間之餐飲、交通費。
-                </li>
-                <li>
-                  若學員自行放棄課程，本訓練中心將不予退費(包含訂金)；但因身體不適且經醫生證明不宜從事潛水活動者，<br/>
-                  繳交之訓練費用在扣除已支付的成本後，餘額將全數退還。
-                </li>
-                <li>課程之訓練費用、器材之購買費用與 2 吋大頭照一張，請於術科前繳齊。</li>
-                <li>海洋實習地點為東北角或各移地結訓地，往返之交通請自行處理。</li>
-                <li>
-                  學員結訓後，訓練中心將於兩週內完成 SSI 國際數位潛水證照申請。<br/>
-                  （如有急需請先告知，本中心可於課程完成後的兩個工作天內完成申請）
-                </li>
-            </ol>
-      ]]>
+      <ol>
+        <table border="0" width="80%">
+          <tr>
+            <td>
+              <li>iDiving 採<span class="Large Important">有條件的保證班</span>教學，<span class="Large Important">課程應於開始後的兩個月內完成（10~3月除外）</span>，若教練要求學員加強練習，將不另外收費；如果因故自行拖延上課，導致學習效果不佳，所衍生的費用（課程安排外的教練費、場地費、裝備使用費）需自行負擔。<span class="Large Important">上課日期之更改須在 10 天前告知，若於上課日期 10 天內才告知，每次需收取課程調整費 500 元，若是上課當天才通知要更改日期或曠課未通知則需收取課程調整費 1,000 元</span>，如果是因身體不適，出示醫院掛號單據者則不收取。</li>
+            </td>
+          </tr>
+            <td>
+              <li>
+                本訓練中心除了報名時收取的學費及購買器材之費用外，訓練期間不另外收取其他費用。
+                <table>
+                  <tr>
+                    <td width="1%" nowrap>學費包含：</td>
+                    <td>數位教材、教練費、訓練期間部分潛水裝備（浮力調整裝置、調節器、電腦錶、水面標示浮標、配重、氣瓶）使用、海洋實習保險及數位證照申請。</td>
+                  </tr>
+                  <tr>
+                    <td>學費不含：</td>
+                    <td>浮潛裝備（面鏡、呼吸管、防寒衣、手套、套鞋、蛙鞋，需自備，亦可租借）使用、餐飲、交通、住宿等費用。</td>
+                  </tr>
+                </table>
+              </li>
+            </td>
+          </tr>
+            <td>
+              <li>
+                <span class="Large Important">學員自行放棄課程，本訓練中心將不予退費。</span>
+              </li>
+            </td>
+          </tr>
+            <td>
+              <li>
+                學員於在學期間購買潛水器材享有會員優惠價。<br/>
+                訓練期間所提供之裝備若有穿戴不適或任何問題，請務必告知主持教練。<br/>
+                課程之學費、器材之購買費用與2吋大頭照，請於學科上課日前繳齊。
+              </li>
+            </td>
+          </tr>
+            <td>
+              <li>
+                上課地點，往返之交通請自行處理，<span class="Large Important">若有需要可以詢問是否能代為安排</span>
+                <table>
+                  <tr>
+                    <td width="1%" nowrap>教室學科：</td>
+                    <td>iDiving 士林前港店（<a href="https://maps.google.com.tw/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%978%E8%99%9F" target="_blank">台北市士林區前港街 8 號</a>）</td>
+                  </tr>
+                  <tr>
+                    <td>海洋實習：</td>
+                    <td>iDiving 東北角龍洞店（新北市貢寮區龍洞街 66-1 號）</td>
+                  </tr>
+                </table>  
+                <table>
+                  <tr>
+                    <td width="1%" nowrap><span class="Large Important">註：</span></td>
+                    <td><span class="Large Important">上課地點與時間可能視狀況調整（如遇天候不佳或泳池場地整修等），若有額外增加的費用本中心將自行吸收，不會另外收費，但學員不可因課程時間調整而要求退費。</span></td>
+                  </tr>
+                </table>
+              </li>
+            </td>
+          </tr>
+            <td>
+              <li>
+                學員結訓後，<span class="Large Important">訓練中心將於一週內完成SSI國際數位證照申請。<br/>
+                （如有急需請先告知，本中心可於課程完成後的下一個工作天內完成申請）</span>
+              </li>
+            </td>
+          </tr>
+        </table>
+      </ol>
+    ]]>
   </Block>
 </Data>
