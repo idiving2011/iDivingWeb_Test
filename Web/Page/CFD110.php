@@ -53,7 +53,13 @@
 
 		<div id="register" class="ArticleBox"></div>
 		<div id="processing" class="ArticleBox"></div>
-		<div id="notice" class="ArticleBox"></div>
+
+
+		<div id="LV1notice" class="ArticleBox"></div>
+		<div id="LV2notice" class="ArticleBox"></div>
+		<div id="LV3notice" class="ArticleBox"></div>
+		<div id="BASICnotice" class="ArticleBox"></div>
+		<div id="POOLnotice" class="ArticleBox"></div>
 
     </div>
     <?php include "../Part/Foot.php" ; ?>
