@@ -508,7 +508,7 @@
     <Block id="tuition6" caption="超值學費" method="html" back="#top" tag="壓力與救援">
       <![CDATA[
                 <ul>
-                  <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 12,000 元。</span></li>
+                  <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 13,000 元。</span></li>
                   <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 600 元。</span></li>
                   <li>
                     <span class="Large Important">
@@ -768,14 +768,8 @@
     <Block id="tuition10" caption="超值學費" method="html" back="#top" tag="正確反應員">
       <![CDATA[
               <ul>
-                  <li><span class="Large Focus">正確反應員 + 壓力與救援，定價 12,000 元。</span></li>
-                  <li><span class="Large Important">正確反應員 + 壓力與救援，現金優惠，折扣 600 元。</span></li>
-                  <li>
-                    <span class="Large Important">
-                      一般休閒水肺課程全面提供免費的重裝備使用（專業選修除外）<br/>
-                      移地訓練裝備免費使用一天。
-                    </span>
-                  </li>
+                  <li><span class="Large Focus">正確反應員，定價 5,000 元。</span></li>
+                  <li><span class="Large Important">現金優惠，折扣 300 元。</span></li>
                 </ul>
               <br/>
               <div>費用包含：線上教材、國際數位證照申請、教練費、重裝租借費用、東北角海洋實習費用與保險費。</div>
