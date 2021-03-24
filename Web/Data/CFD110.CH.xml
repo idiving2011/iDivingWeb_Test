@@ -24,9 +24,9 @@
   </Block>
   <Block id="FreeDivingTab" method="tab" selected="1級自潛員" description="">
     <Item name="1級自潛員">
-      <Item name="LV1冬季班"/>
       <Item name="LV1夏季假日班"/>
       <Item name="LV1夏季平日班"/>
+      <Item name="LV1冬季班"/>
     </Item>
     <Item name="2級自潛員"/>
     <Item name="3級自潛員"/>
