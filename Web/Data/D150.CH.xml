@@ -78,8 +78,6 @@
           <td><img src="../Image/Data/Lanyu_07.jpg" width="100%"></td>
           <td>&nbsp;</td>
           <td><img src="../Image/Data/Lanyu_08.jpg" width="100%"></td>
-          <td>&nbsp;</td>
-          <td><img src="../Image/Data/Lanyu_09.jpg" width="100%"></td>
         </tr>
       </table>
       <br>
@@ -101,10 +99,6 @@
           <td><img src="../Image/Data/Lanyu_10.jpg" width="100%"></td>
           <td>&nbsp;</td>
           <td><img src="../Image/Data/Lanyu_11.jpg" width="100%"></td>
-          <td>&nbsp;</td>
-          <td><img src="../Image/Data/Lanyu_12.jpg" width="100%"></td>
-          <td>&nbsp;</td>
-          <td><img src="../Image/Data/Lanyu_13.jpg" width="100%"></td>
         </tr>
       </table>
       <br>
@@ -119,199 +113,143 @@
           </td>
         </tr>
       </table>
-      <br>
-      <table width="70%" style="text-align: justify;">
-        <tr>
-          <td><img src="../Image/Data/Lanyu_14.jpg" width="100%"></td>
-          <td>&nbsp;</td>
-          <td><img src="../Image/Data/Lanyu_15.jpg" width="100%"></td>
-          <td>&nbsp;</td>
-          <td><img src="../Image/Data/Lanyu_16.jpg" width="100%"></td>
-        </tr>
-      </table>
     ]]>
   </Block>
   <Block id="schedule" caption="建議行程" method="html" />
-  <Block id="ScheduleTab" method="tab" selected="4 天 3 夜（台東）" >
+  <!--<Block id="ScheduleTab" method="tab" selected="4 天 3 夜（台東）" >
     <Item name="4 天 3 夜（台東）"/>
     <Item name="4 天 3 夜（墾丁）"/>
-  </Block>
+  </Block>-->
   <!-- 4 天 3 夜（台東） -->
-  <Block id="schedule1" method="html" back="#top" tag="4 天 3 夜（台東）">
+  <Block id="schedule1" method="html" back="#top" tag="4 天 3 夜">
     <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            第一天<br>
-            去程交通<br>
-            台北－台東<br>
-            <ol>
-              <li>行程前一天於台北火車站集合，搭乘火車至台東，於台東住宿一晚，隔天上午接續台東－蘭嶼行程。</li>
-              <li>早上 06:30 於松山機場集合，搭乘華信航空（AE391）前往台東機場。</li>
-            </ol>
-            <br>
-            台東－蘭嶼<br>
-            <ol>
-              <li>轉機搭乘德安航空（航班需依照購買到的而定）前往蘭嶼</li>
-              <li>或是搭乘接駁車至台東富岡碼頭，搭乘渡輪前往蘭嶼。</li>
-            </ol>
-            <br>
-            午餐後將安排一趟（2支）的船潛。晚餐於蘭嶼享用。
+            出發<br/>
+            交通方式：<br/>
+            方案一、<br/>
+            台北-台東：搭乘華信航空 AE-395 班機（17:30-18:35）前往台東，並於台東過夜一晚。<br/>
+            台東-蘭嶼：行程當日上午搭乘渡輪前往蘭嶼（07:00-09:30）。<br/>
+            <br/>
+            方案二、<br/>
+            台北-台東：搭乘台灣鐵路太魯閣 448（20:05-00:18）前往台東，並於台東過夜一晚。<br/>
+            台東-蘭嶼：行程當日上午搭乘渡輪前往蘭嶼（07:00-09:30）。<br/>
+            <br/>
+            方案三、<br/>
+            台北-台東：搭乘華信航空 AE-391 班機（07:15-08:20）前往台東。<br/>
+            台東-蘭嶼：行程當日上午搭乘德安航空班機前往蘭嶼。<br/>
+            ＊航班為 7503（09:25-09:55）或7505（10:10-10:40）<br/>
+            <br/>
+            方案四、<br/>
+            台北-墾丁：搭乘台灣高鐵 0157 車次（19:31-21:05），再搭乘接駁車至墾丁（約2小時），並於墾丁過夜一晚。<br/>
+            墾丁-蘭嶼：搭乘渡輪前往蘭嶼（07:30-10:00）
           </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>
-            第二天<br>
-            早餐於民宿享用，此日上午下午各會安排一趟船潛，因為潛水總共有 4 支，中午將會在民宿享用簡餐，晚餐再由領隊帶領大家去附近的餐館享用風味餐點。
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>
-            早餐於民宿享用，此日上午將安排一趟（2 支）的船潛。潛水完稍作盥洗，於民宿享用午餐，下午即為自由活動時間。
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>
-            第四天<br>
-            將依照各位所訂的船班、航班，分批至碼頭、機場，結束完美的旅程。<br>
-            回程交通<br>
-            蘭嶼－台東<br>
-            <ol>
-              <li>搭乘德安航空（航班需依照購買到的而定）前往台東</li>
-              <li>或是搭乘接駁車至台東富岡碼頭，搭乘渡輪前往蘭嶼。</li>
-            </ol>
-            <br>
-            台東－台北<br>
-            <ol>
-              <li>搭乘華信航空（AE-394）回台北。</li>
-              <li>搭乘接駁車至台東火車站，轉乘火車回到台北。</li>
-            </ol>
-          </td>
+          <td><img src="../Image/Data/Lanyu_17.jpg" style="float: right; width: 80%"></td>
         </tr>
       </table>
-    ]]>
-  </Block>
-  <Block id="price" caption="費用說明" method="html" back="#top" tag="4 天 3 夜（台東）">
-    <![CDATA[ 
-      <ul>
-        <li>團費定價：20,500 元</li>
-        <li>現金優惠價：19,000 元</li>
-        <li>會員優惠價：19,500 元</li>
-        <li><span class="Large Important">會員現金價：18,000 元</span></li>
-      </ul>
       <br/>
       <table width="70%" style="text-align: justify;">
         <tr>
-          <td width="1%">包　含：</td>
-          <td>蘭嶼島上交通及食宿、8 支日船潛 ( EAN 32 )、三百萬旅責險</td>
+          <td>
+            第一天<br/>
+            抵達蘭嶼，將先至潛店整理裝備。11:30 於民宿享用簡易午餐，稍作休息後將安排一趟2支的船潛。晚餐於五爪貝餐廳享用。
+          </td>
         </tr>
         <tr>
-          <td style="white-space:nowrap">不包含：</td>
-          <td>出發地<>蘭嶼來回交通、裝備租借、個人消費</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第二天<br/>
+            早餐於民宿享用，此日上午下午各會安排一趟船潛，因為潛水總共有四支，中午將會在碼頭附近享用簡餐，晚餐再由領隊帶領大家去附近的餐館享用風味餐點。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            第三天<br/>
+            早餐於民宿享用，此日上午將安排一趟（兩支）的船潛。潛水完稍作盥洗，於民宿享用午餐，下午即為自由活動時間。
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
         </tr>
       </table>
-    ]]>
-  </Block>
-  <!-- 4 天 3 夜（墾丁） -->
-  <Block id="schedule2" method="html" back="#top" tag="4 天 3 夜（墾丁）">
-    <![CDATA[ 
       <table width="70%" style="text-align: justify;">
         <tr>
           <td>
-            第一天<br>
-            去程交通<br>
-            台北－墾丁－蘭嶼<br>
-            行程前一天晚間 19:00 於 iDiving 士林店集合，開車前往墾丁，住宿於墾丁南青潛水。早上 06:30 於南青潛水一樓大廳集合（ 07:00 於碼頭集合），搭乘渡輪前往蘭嶼。
+            第四天<br/>
+            將依照各位所訂的船班、航班，分批至碼頭、機場，結束完美的旅程。<br/>
+            <br/>
+            交通方式：<br/>
+            <br/>
+            方案一、
+            蘭嶼-台東：搭乘渡輪前往台東（15:30-18:00）。
+            台東-台北：搭乘華信航空AE-396（19:15-20:15）返回台北。<br/>
+            <br/>
+            方案二、<br/>
+            蘭嶼-台東：搭乘渡輪前往台東（09:30-12:00），並於台東享用午餐。<br/>
+            台東-台北：搭乘台鐵普悠瑪431列車（15:20~19:38）返回台北。<br/>
+            <br/>
+            方案三、<br/>
+            蘭嶼-台東：搭乘德安航空班機返回台北<br/>
+            ＊航班為7508（13:25-13:55）或7510（14:30-15:00）或7512（16:30-17:00）<br/>
+            台東-台北：搭乘華信航空AE-396（19:15-20:15）返回台北。<br/>
+            <br/>
+            方案四、<br/>
+            蘭嶼-墾丁：搭乘渡輪前往墾丁（10:00-12:30），於墾丁附近享用午餐。<br/>
+            墾丁-台北：搭乘接駁車至左營（約2小時）再搭乘高鐵返回台北。
           </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>
-            第二天<br>
-            早餐於民宿享用，此日上午下午各會安排一趟船潛，因為潛水總共有 4 支，中午將會在民宿享用簡餐，晚餐再由領隊帶領大家去附近的餐館享用風味餐點。
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>
-            早餐於民宿享用，此日上午將安排一趟（2 支）的船潛。潛水完稍作盥洗，於民宿享用午餐，下午即為自由活動時間。
-          </td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>
-            第四天<br>
-            蘭嶼－台東－台北<br>
-            在民宿享用完早餐後，搭乘上午 10:00 的渡輪從蘭嶼抵達墾丁碼頭，將在墾丁想用完午餐後，開車返回台北，結束完美的旅程。
-          </td>
+          <td><img src="../Image/Data/Lanyu_18.jpg" style="float: right; width: 80%"></td>
         </tr>
       </table>
     ]]>
   </Block>
-  <Block id="price2" caption="費用說明" method="html" back="#top" tag="4 天 3 夜（墾丁）">
+  <Block id="price" caption="費用說明" method="html" back="#top" tag="4 天 3 夜">
     <![CDATA[ 
-      <ul>
-        <li>團費定價：20,500 元</li>
-        <li>現金優惠價：19,000 元</li>
-        <li>會員優惠價：19,500 元</li>
-        <li><span class="Large Important">會員現金價：18,000 元</span></li>
-      </ul>
-      <br/>
+      <div>行程費用及更多活動詳情請洽iDiving Line@ <a href="https://lin.ee/ge19YeP"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" height="36" border></a></div>
       <table width="70%" style="text-align: justify;">
         <tr>
-          <td width="1%">包　含：</td>
-          <td>蘭嶼島上交通及食宿、8 支日船潛 ( EAN 32 )、三百萬旅責險</td>
+          <td width="10%">費用包含：</td>
+          <td>３夜住宿、７簡餐、船潛４趟共８支、三佰萬旅遊平安險。</td>
         </tr>
         <tr>
           <td style="white-space:nowrap">不包含：</td>
-          <td>出發地<>蘭嶼來回交通、裝備租借、個人消費</td>
+          <td>潛水裝備租借的費用及個人性質的花費。台北來回蘭嶼的費用。</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="white-space:nowrap"><a target="_blank" href="https://goo.gl/forms/AFgsrUnZYexX7L1i1">立即報名</a></td>
         </tr>
       </table>
     ]]>
   </Block>
-  
+
   <Block id="notice" caption="注意事項" method="html" back="#top">
     <![CDATA[ 
-      <table width="70%" style="text-align: justify;">
+      <table width="70%">
         <tr>
           <td>
             <ol>
-              <li>國內潛水旅遊亦有成團人數要求，一般含領隊需達10人才會出團。考量東北角的課程及活動，每年5~9月的活動一般上限為12人。若以現金（or匯款）繳交團費，額外享有優惠！</li>
-              <li>自2016年起，煩請要參加活動的朋友們記得填寫＂Google表單＂報名，並繳交NT 2,000元『訂金』才算完成報名流程，若以轉帳方式繳交訂金，請來電告知匯款日期及帳號末五碼，以便確認。</li>
-              <li>若因報名人數不足而無法出團時，『訂金』可全數退還。</li>
-              <li>出團日14天前會提供行程資料，並請團員繳齊剩餘團費（尾款）。</li>
-              <li>
-                若遇颱風、浪況不佳等不可抗拒之因素，基於安全與樂趣的考量，iDiving俱樂部決定取消活動時，則『團費』扣除不可退還之費用後，剩餘款項將全數退還。<br>
-                <span class="Large Important">不可退還之費用：機票退／換票時被扣除之費用、台鐵或高鐵退／換票時被扣除之費用、已付訂之包車費用、已匯出之住宿訂金、衍生之單人房差、已匯出之潛水船訂金等。如果該地區已經發布陸上颱風警報，則上述費用則視情況而定。詳細支出費用項目以實際發生之項目為主。</span>
+              <li>填寫＂Google 表單＂報名，並繳交團費<span class="Large Important"> NT$7,000 的『定金』</span>才算完成報名流程，若以轉帳方式繳交定金，請將您的匯款日期及帳號末五碼與金額傳至iDiving官方Line @帳號，以便確認。若以現金（or匯款）繳交全額費用，享有現金優惠！</li>
+              <li>國內潛水旅遊活動會有成團人數要求，含領隊需達10人才會出團；<span class="Large Important">若因報名人數不足而無法出團，最遲將於出團日14天以前通知已報名活動之團員，『定金』可全數退還。</span></li>
+              <li><span class="Large Important">出團日30天以前會於Line的活動群組提供行程資料，若有任何需求請提出討論。</span></li>
+              <li>當人數達到出團門檻，所有團員亦繳清費用時，則保證出團，若有人員臨時取消造成出團人數不足亦不受影響，而臨時退團人員的退費規則如下：<br/>
+                  <span class="Large Important">A. 活動開始前第十五日以上取消者，須賠償團費的百分之十。</span><br/>
+                  <span class="Large Important">B. 活動開始前第五日至第十四日取消者，須賠償團費的百分之三十。</span><br/>
+                  <span class="Large Important">C. 活動開始前第二日至第四日取消者，須賠償團費的百分之五十。</span><br/>
+                  <span class="Large Important">D. 於活動當日或前一日取消，或未通知不參加者，須賠償團費全額。</span><br/>
+                  *若有溢繳或可退款的費用，可選擇來店退款或刷退（須視當時繳費方式），若要匯款轉帳退費須扣除手續費（每筆NT 30元），亦可選擇保留餘額轉至其他消費。
               </li>
-              <li>當人數達出團最低門檻，所有團員亦繳清團費時，則保證出團，若有人員退團，導致出團人數不足亦不受影響，而退出之團員退費規則如第7點。</li>
-              <li>
-                出團日8天前，如果團員臨時有事無法出席，『團費』在扣除不可退還之費用後，剩餘款項將會退還；出團日7天內，若團員因故無法出團，請恕無法退還『團費』：
-                <ul>
-                  <li>若能自行補入新團員來填補空缺，將會損失退票時必要的費用，剩餘款項則可退還。</li>
-                  <li>若是由iDiving找到人員填補空缺，訂金恕不退還。</li>
-                </ul>
-              </li>
+              <li>若遇颱風、浪況不佳等不可抗拒之因素，基於安全考量，iDiving將保有取消活動之權利，已繳交的費用於扣除必要支出（如代訂大眾交通的退票手續費）後退還。</li>
               <li>國內潛水旅遊皆為完整套裝行程，如有個人因素更動行程內容，恕不提供會員優惠。</li>
-              <li>若有特殊需求請事先提出。飯店房間之房等差異（套房、雅房、通鋪、單人房差等），如現場遇特殊情況，將由領隊視情況協調分配。</li>
-              <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格。</li>
-              <li>潛水活動安排以上列行程表為原則。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時，採潛伴制進行，彼此相互照應。</li>
+              <li>住宿房間之房等差異（套房、雅房、通鋪等），如現場遇特殊情況，將由領隊視情況協調分配。若有特殊需求請事先提出。</li>
+              <li>須持有合格的潛水證照（國際潛水證照初級以上資格），若要參加特殊環境潛水（如：夜潛），需具備相關資格；部分活動可能會有額外條件要求。</li>
+              <li>活動行程以Line活動群組公布的資訊為準。潛點選擇由潛導視當時天候、海況、團隊狀況決定。進行潛水活動時採潛伴制進行，請彼此相互照應。</li>
               <li>禁帶漁獵器材，亦禁止攜帶任何生物上岸，違者不得再參加後續潛水活動。</li>
+              <li>填寫＂Google表單＂報名者，視同同意以上所有條款。</li>
             </ol>
           </td>
         </tr>
@@ -320,42 +258,42 @@
   </Block>
   <Block id="agency" caption="協辦旅行社" method="html" back="#top">
     <![CDATA[
-            <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
-            <br/>
-            <table border="1" cellpadding="0" cellspacing="0" width="70%">
-              <tr align="center">
-                <td rowspan="4" style="vertical-align: middle">主辦單位</td>
-                <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
-                <td>承辦人：愛潛水</td>
-                <td>行動電話：0909-097696</td>
-              </tr>
-              <tr align="center">
-                <td>TEL：02-2882-7696</td>
-                <td>FAX：02-2882-7656</td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">E-MAILl：info@idiving.com.tw</td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">地址：台北市前港街8號</td>
-              </tr>
-              <tr align="center">
-                <td rowspan="4" style="vertical-align: middle">協辦單位</td>
-                <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
-                <td>業務請洽：蘇恒璀</td>
-                <td>行動電話：0937-196518</td>
-              </tr>
-              <tr align="center">
-                <td>TEL：02-2517-1333</td>
-                <td>FAX：02-2508-1537</td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
-              </tr>
-              <tr align="center">
-                <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
-              </tr>
-            </table>
-        ]]>
+      <div>iDiving 為了讓旅遊活動有保障，所有旅遊行程特別與旅行社偕同舉辦，讓你玩得開心又有保障。</div>
+      <br/>
+      <table border="1" cellpadding="0" cellspacing="0" width="70%">
+        <tr align="center">
+          <td rowspan="4" style="vertical-align: middle">主辦單位</td>
+          <td rowspan="4" style="vertical-align: middle">愛潛水股份有限公司</td>
+          <td>承辦人：愛潛水</td>
+          <td>行動電話：0909-097696</td>
+        </tr>
+        <tr align="center">
+          <td>TEL：02-2882-7696</td>
+          <td>FAX：02-2882-7656</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">E-MAILl：info@idiving.com.tw</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">地址：台北市士林區前港街8號</td>
+        </tr>
+        <tr align="center">
+          <td rowspan="4" style="vertical-align: middle">協辦單位</td>
+          <td rowspan="4" style="vertical-align: middle">萬陽旅行社有限公司</td>
+          <td>業務請洽：蘇恒璀</td>
+          <td>行動電話：0937-196518</td>
+        </tr>
+        <tr align="center">
+          <td>TEL：02-2517-1333</td>
+          <td>FAX：02-2508-1537</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">E-MAIL：tracy410@ms45.hinet.net</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">地址：台北市南京東路3段91號四樓之三</td>
+        </tr>
+      </table>
+    ]]>
   </Block>
 </Data>
