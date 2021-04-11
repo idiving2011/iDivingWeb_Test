@@ -106,11 +106,6 @@
        ]]>
     </Block>
 
-    <Block id="schedule" caption="行程表" method="tab" selected="單日潛水活動" >
-      <Item name="單日潛水活動"/>
-      <Item name="船潛活動"/>
-      <Item name="兩天一夜活動"/>
-    </Block>
     <!-- 單日潛水活動 -->
     <Block id="schedule1" method="html" back="#top" tag="單日潛水活動">
       <![CDATA[
@@ -132,52 +127,7 @@
           </tr>
         </table>
       ]]>
-    </Block>
-  <!-- 船潛活動 -->
-    <Block id="schedule2" method="html" back="#top" tag="船潛活動">
-      <![CDATA[
-        <table width="100%">
-          <tr>
-            <td>
-              <ul>
-                <li>
-                  八斗子船潛：07:30 於砂漁港集合，上午進行兩支船潛活動。潛水範圍為八斗子祕密花園、水晶宮至玫瑰花園一帶。<br/>
-                  費用：$2,800
-                </li>
-                <li>
-                  四季灣船潛：08:00 於四季灣遊艇碼頭集合，上午進行兩支船潛活動。潛水範圍為四季灣一帶。<br/>
-                  費用：$2,600
-                </li>
-                <li>
-                  龍洞灣船潛：08:00 於鼻頭漁港集合，上午進行兩支船潛活動。潛水範圍為 82.5k 至龍洞灣一帶。<br>
-                  費用：未定
-                </li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-      ]]>
-    </Block>
-  <!-- 兩天一夜活動 -->
-    <Block id="schedule3" method="html" back="#top" tag="兩天一夜活動">
-      <![CDATA[
-        <ul>
-          <li>週六下午 1:00 於 iDiving 龍洞店集合，下午進行兩支岸潛。晚上於澳底的海鮮餐廳享用晚餐。</li>
-          <li>週日上午 08:00 於鼻頭漁港集合，進行一趟船潛（兩支）。中午盥洗後即結束行程。</li>
-        </ul>
-        <table width="100%">
-          <tr>
-            <td width="1%" nowrap>費用包含：</td>
-            <td>iDiving 龍洞店住宿一晚，龍洞船潛一趟(2支)，岸潛兩支導潛、氣瓶、保險費用，早、晚餐</td>
-          </tr>
-          <tr>
-            <td>費用不含：</td>
-            <td>台北～龍洞來回車資、裝備租借費用。</td>
-          </tr>
-        </table>
-      ]]>
-    </Block>
-  
+    </Block>  
   
     <Block id="price" caption="費用說明" method="html" back="#top">
       <![CDATA[ 
