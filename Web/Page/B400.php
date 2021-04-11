@@ -15,12 +15,12 @@
   <?php include "../Part/Head.php"; ?>
   <?php include "../Part/Cap.php"; ?>
   <div id="section" sight>
-	  <div id="aim" class="ArticleBox"></div>
-	  <div id="join" class="ArticleBox"></div>
-	  <div id="signup" class="ArticleBox"></div>
-	  <div id="advantage" class="ArticleBox"></div>
-	  <div id="equipment" class="ArticleBox"></div>
-	  <div id="note" class="ArticleBox"></div>
+	<div id="aim" class="ArticleBox"></div>
+	<div id="join" class="ArticleBox"></div>
+	<div id="advantage" class="ArticleBox"></div>
+	<div id="signup" class="ArticleBox"></div>
+	<div id="equipment" class="ArticleBox"></div>
+	<div id="note" class="ArticleBox"></div>
     <div id="agency" class="ArticleBox"></div>
   </div>
   <?php include "../Part/Foot.php" ; ?>
