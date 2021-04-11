@@ -107,7 +107,7 @@
     </Block>
 
     <!-- 單日潛水活動 -->
-    <Block id="schedule1" method="html" back="#top" tag="單日潛水活動">
+    <Block id="schedule1" caption="行程表" method="html" back="#top" tag="單日潛水活動">
       <![CDATA[
         <table width="70%" style="text-align: justify;">
           <tr>
