@@ -990,11 +990,6 @@
   <!-- 共用 -->
   <Block id="LV1plan1" caption="開課日期" method="html" back="#top" tag="LV1夏季假日班">
     <![CDATA[
-      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-      <!--<ul>
-        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-        <li>假日班課程規劃如下</li>
-      </ul>-->
       <table width="80%" style="text-align: justify;">
         <tr>
           <td>
@@ -1009,23 +1004,10 @@
           <td><img src="../Image/Data/FD_Schedule_summer_Weekend.png" width="100%"/></td>
         </tr>
       </table>
-      <!--<table width="80%" style="text-align: justify;">
-        <tr>
-          <td>
-            <strong style="font-size:20px">開課日期排定中...</strong><br/>
-            一個假日課程 = 學科 + 泳池 + 海洋 * 2<br/>
-          </td>
-        </tr>
-      </table>-->
     ]]>
   </Block>
   <Block id="LV1plan2" caption="開課日期" method="html" back="#top" tag="LV1夏季平日班">
     <![CDATA[
-      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-      <!--<ul>
-        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-        <li>假日班課程規劃如下</li>
-      </ul>-->
       <table width="80%" style="text-align: justify;">
         <tr>
           <td>
@@ -1040,26 +1022,10 @@
           <td><img src="../Image/Data/FD_Schedule_summer_Weekdays.png" width="100%"/></td>
         </tr>
       </table>
-      <!--<table width="80%" style="text-align: justify;">
-        <tr>
-          <td>
-            <strong style="font-size:20px">開課日期排定中...</strong><br/>
-            一個平日課程 = (學科 + 泳池) * 2 + 海洋 * 2，共計 4 天，每週二，周四皆有開課<br/>
-            <span class="Large Focus">
-              平日班 / 特約班 ( 請加LINE客服預約上課日期 <a href="https://line.me/R/ti/p/%40txm0437l">https://line.me/R/ti/p/%40txm0437l</a>)
-            </span>
-          </td>
-        </tr>
-      </table>-->
     ]]>
   </Block>
   <Block id="LV1plan3" caption="開課日期" method="html" back="#top" tag="LV1冬季班">
     <![CDATA[
-      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-      <!--<ul>
-        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-        <li>假日班課程規劃如下</li>
-      </ul>-->
       <table width="80%" style="text-align: justify;">
         <tr>
           <td>
@@ -1080,11 +1046,6 @@
   <!-- LV2 開課日期，同 3級自潛員,BASIC假日班,BASIC平日班,POOL假日班,POOL平日班 -->
   <Block id="LV2plan" caption="開課日期" method="html" back="#top" tag="2級自潛員">
     <![CDATA[
-      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-      <!--<ul>
-        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-        <li>假日班課程規劃如下</li>
-      </ul>-->
       <table width="80%" style="text-align: justify;">
         <tr>
           <td>
@@ -1106,11 +1067,6 @@
   <!-- LV3 開課日期 -->
   <Block id="LV3plan" caption="開課日期" method="html" back="#top" tag="3級自潛員">
     <![CDATA[
-      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-      <!--<ul>
-        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-        <li>假日班課程規劃如下</li>
-      </ul>-->
       <table width="80%" style="text-align: justify;">
         <tr>
           <td>
@@ -1129,11 +1085,6 @@
   <!-- BASIC假日班,BASIC平日班,POOL假日班,POOL平日班 開課日期，同 1級自潛員 -->
   <Block id="plan" caption="開課日期" method="html" back="#top" tag="BASIC假日班,BASIC平日班,POOL假日班,POOL平日班">
     <![CDATA[
-      <!--<iframe src="https://www.google.com/calendar/embed?src=87in4johj9il0qs1f2abhuso6k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
-      <!--<ul>
-        <li>平日班：每週二或周四開班，請來電與教練討論您的課程日期</li>
-        <li>假日班課程規劃如下</li>
-      </ul>-->
       <table width="80%" style="text-align: justify;">
         <tr>
           <td>敬請期待<!--<img src="../Image/Data/FD_Schedule_summer.png" width="100%"/>--></td>
