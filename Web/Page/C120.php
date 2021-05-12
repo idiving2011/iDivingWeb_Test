@@ -28,7 +28,11 @@
 	  <div id="plan1" class="ArticleBox"></div>
       <div id="plan2" class="ArticleBox"></div>
 
+      <!--  假日班(適合自行排休者) 超值學費 -->
 	  <div id="tuition1" class="ArticleBox"></div>
+      <!-- 平日班(適合自行排休者) 超值學費 -->
+      <div id="tuition2" class="ArticleBox"></div>
+
       <div id="register1" class="ArticleBox"></div>
       <div id="processing1" class="ArticleBox"></div>
       <div id="notice1" class="ArticleBox"></div>
